@@ -39,9 +39,9 @@ B2B SaaS company Q2 goals:
 - Total: 10 weeks
 
 **Pitfalls:**
-- **No prioritization:** Trying to do everything equally means nothing gets done well. Prioritize ruthlessly.
-- **Disconnected from business goals:** PMM spends the quarter on "nice-to-have" projects (brand refresh, new website section) and ignores revenue/retention KPIs.
-- **No check-ins:** Quarterly planning is worthless if you don't track progress and adjust. Weekly standups keep initiatives on track.
+- **No prioritization:** Trying to do everything equally means nothing gets done well. Prioritize ruthlessly. Recovery: Use Impact × Confidence scoring. For each initiative, score impact (high/medium/low based on revenue potential) and confidence (high/medium/low based on team expertise). Rank by Impact × Confidence. Bottom half of the list gets deprioritized. Communicate which initiatives are not happening this quarter and why.
+- **Disconnected from business goals:** PMM spends the quarter on "nice-to-have" projects (brand refresh, new website section) and ignores revenue/retention KPIs. Recovery: Before planning, ask leadership: "What's the top business goal this quarter?" Map each PMM initiative to that goal. Create a one-page tracker showing: (Initiative name) → (Business goal it supports) → (Success metric) → (Owner). This forces alignment and makes it easy to identify and cut misaligned work mid-quarter.
+- **No check-ins:** Quarterly planning is worthless if you don't track progress and adjust. Weekly standups keep initiatives on track. Recovery: Schedule 30-minute weekly standups on Mondays. Each person shares: (1) What I completed last week toward my Q goal, (2) What I'm working on this week, (3) Blockers. Track completion %; if any initiative is <20% complete by week 6, escalate or adjust timeline. Publish a simple one-page dashboard showing Q progress weekly.
 
 **See also:** All category frameworks (your Q plan should operationalise these frameworks into quarterly initiatives); T2D3 Framework (set quarterly OKRs that align with T2D3 growth targets); PMM Team Scaling Framework (quarterly planning should account for team capacity and hiring needs).
 

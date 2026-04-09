@@ -13,7 +13,9 @@
 
 **Example:** A vertical SaaS company serving healthcare compliance officers identified their core pain: "We spend 40 hours monthly on manual regulatory tracking." Their positioning became: "Healthcare compliance teams can reclaim 30 hours monthly and eliminate audit risk with automated tracking." They executed outbound-only sales to 200 prospects in their ICP, landing 8 customers in 90 days—enough proof for Series A.
 
-**Pitfalls:** Trying to address multiple customer segments with one message dilutes clarity and wastes limited resources. Also, skipping the interview phase and assuming you know the pain results in messaging that sounds generic ("improve efficiency") instead of specific and resonant.
+**Pitfalls:**
+- **Trying to serve multiple segments with one message.** "We work for startups and enterprises" spreads your positioning thin and confuses both groups. Recovery: Pick your single strongest segment, own it ruthlessly for 6 months, and measure win rate / CAC by segment. Once one segment is dominant (60%+ of revenue), expand to a second.
+- **Skipping interviews and assuming you know the pain.** Your hypothesis of "teams need better visibility" may be wrong; the actual pain is "we waste 20 hours monthly on manual reconciliation." Generic messaging doesn't resonate. Recovery: Conduct 10–15 customer interviews within 30 days. Ask "why did you buy?" and "what almost stopped the deal?" Update your positioning statement based on actual language customers use.
 
 **See also:** STP Framework (validate your customer segment and target before defining a single positioning statement); Geoffrey Moore's Positioning Statement Framework (structure your positioning statement before scaling to multiple channels); 7-Step Product Marketing Framework (use as you grow and can add more specialization).
 
