@@ -15,6 +15,8 @@
 
 **Pitfalls:** Trying to address multiple customer segments with one message dilutes clarity and wastes limited resources. Also, skipping the interview phase and assuming you know the pain results in messaging that sounds generic ("improve efficiency") instead of specific and resonant.
 
+**See also:** STP Framework (validate your customer segment and target before defining a single positioning statement); Geoffrey Moore's Positioning Statement Framework (structure your positioning statement before scaling to multiple channels); 7-Step Product Marketing Framework (use as you grow and can add more specialization).
+
 ---
 
 ## 7-Step Product Marketing Framework
@@ -35,6 +37,8 @@
 **Example:** A mid-market HR tech company applied this framework. They segmented into two ICPs: "Fast-growth startups" and "Enterprise HR teams." Step 1 identified startups valued speed and cost; enterprises valued compliance and integration. Step 2 created separate positioning for each. Step 3 built startup-friendly blog content and enterprise-grade integrations guide. Step 4 equipped sales with two separate battle cards. By Step 6, their win rates for startups climbed to 32% and enterprises to 18%—enough insight to double-down on startups.
 
 **Pitfalls:** Treating each step as separate projects rather than an interconnected cycle wastes time and creates siloed work. Also, over-investing in content (Step 3) before sales validation of positioning (Step 2) leads to waste.
+
+**See also:** STP Framework (use for Step 1 market research and segmentation); 3-Step Product Marketing Strategy Framework (simplified approach for early-stage companies); 10-Step PMM Process (progression when you have capacity for more rigour); Win/Loss Analysis Framework (step 6 sales-marketing alignment should feed this ongoing feedback loop).
 
 ---
 
@@ -59,6 +63,8 @@
 **Example:** Atlassian's approach to PMM at scale. Step 1 identified DevOps teams (high-volume, low-ACV) vs. Enterprise IT (low-volume, high-ACV) as distinct segments. Steps 2–3 revealed DevOps cared most about integration speed; IT cared about security and governance. Step 4–5 created two positioning pathways. Step 6 assigned one PMM to DevOps (content, digital), another to Enterprise (sales enablement, case studies). Step 9 showed DevOps collateral had 8x higher engagement. Step 10 shifted 60% of PMM resources to DevOps content, lifting that segment's CAC payback by 6 months.
 
 **Pitfalls:** Over-documentation creates bureaucracy. Assign owners, deadlines, and refresh windows—but don't create approval chains that slow iteration. Also, treating measurement (Step 9) as a reporting afterthought means you'll discover problems too late to fix.
+
+**See also:** 7-Step Product Marketing Framework (simplified version for mid-market companies); Complete GTM Workflow Stages (alternative phase-based approach rather than step-based); Win/Loss Analysis Framework (feeds Step 3 and Step 10 iteration); Quarterly PMM Planning Framework (coordinates this 10-step process with quarterly business goals).
 
 ---
 
@@ -112,6 +118,8 @@
 
 **Pitfalls:** Trying to do all phases in parallel wastes money. A common mistake is launching paid demand gen (Phase 3) before validating positioning (Phase 2), resulting in high CAC and low conversion. Also, skipping Phase 4 (optimization) and rushing to Phase 5 (expand) spreads resources thin without learning.
 
+**See also:** Product Development Stage Framework (complements product development phases with parallel PMM phases); 10-Step PMM Process (more detailed operational breakdown of activities within each phase); Win/Loss Analysis Framework (essential for Phase 4 optimization); T2D3 Framework (aligns GTM phases with revenue scaling targets).
+
 ---
 
 ## T2D3 Framework (B2B SaaS)
@@ -130,3 +138,5 @@
 **Example:** A healthcare SaaS company followed T2D3. Year 1: $500K → $1.5M ARR by validating their "compliance peace of mind" positioning with 35 customers via outbound. Year 2: $1.5M → $4.5M by hiring a PMM and building inbound, adding case studies, pivoting to mid-market. Year 3: $4.5M → $9M by splitting into two segments (compliance, operations) with separate messaging, launching webinars. Year 4: $9M → $18M by entering two new verticals with product expansion. Year 5: $18M → $36M by building enterprise sales team and international sales.
 
 **Pitfalls:** Rigidly adhering to T2D3 targets without market feedback wastes effort and burns the team. Use the framework as a guide, not gospel. Also, trying to execute all five milestones simultaneously (hiring, product launches, market expansion) without sequencing leads to failure. Sequence conservatively: validate one segment before expanding to two; scale sales before expanding product.
+
+**See also:** Complete GTM Workflow Stages (aligns phases with T2D3's year-by-year milestones); PMM Team Scaling Framework (shows how PMM team composition evolves alongside T2D3 growth targets); Quarterly PMM Planning Framework (operationalizes T2D3 targets into quarterly OKRs); Competitive Intelligence & Positioning Update Framework (ensures messaging stays fresh as you scale).
