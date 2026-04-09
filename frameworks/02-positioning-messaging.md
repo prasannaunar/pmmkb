@@ -38,6 +38,8 @@ Another classic example:
 - **Weak differentiation:** Saying how you're different without explaining *why it matters* to the customer leaves the statement incomplete.
 - **Ignoring the competitive alternative:** Failing to name a specific competitor or alternative means you're not truly positioning—just describing.
 
+**See also:** STP Framework (identify and target a specific segment before crafting your positioning statement); April Dunford's 5-Component Positioning Canvas (alternative approach to positioning that weighs attributes by customer importance); Complete Product Experience Framework (ensure your positioning statement is reinforced across all seven touchpoints).
+
 ---
 
 ## April Dunford's 5-Component Positioning Canvas
@@ -72,6 +74,8 @@ A project management tool might map:
 - **Treating all attributes as equally important:** List five unique attributes but only one or two actually drive customer choice. Focus on the one that matters most to your chosen segment.
 - **Forgetting the "why now":** Saying "we're different" without connecting it to a current customer problem means your positioning won't resonate.
 - **Positioning to everyone:** Trying to appeal to both startups and enterprises with the same messaging usually satisfies neither. Choose your segment first.
+
+**See also:** STP Framework (target a specific segment before identifying unique attributes); Geoffrey Moore's Positioning Statement Framework (structured approach to articulating differentiation once you've identified your unique attributes); Value Proposition Canvas (map your unique attributes to specific customer pains and gains).
 
 ---
 
@@ -110,6 +114,8 @@ For a time-tracking tool, the JTBD might be: "I need to understand how my team s
 - **Confusing the product with the job:** "Our job is to provide time-tracking software" is not a job—it's a solution. The actual job is "understand and optimize how time is spent."
 - **Ignoring non-product competitors:** Focusing only on Asana vs. Monday.com while ignoring spreadsheets or manual processes means you're not addressing the real alternative customers are evaluating.
 - **Over-segmenting:** Every customer has a slightly different job. Identify the one core job that unites your most valuable segment; don't try to serve five different jobs with one positioning.
+
+**See also:** STP Framework (segment first to identify which customers share the same core job); Value Proposition Canvas (map the job to specific customer pains and gains); Win/Loss Analysis Framework (validate whether customers actually chose or rejected you based on the job you identified).
 
 ---
 
@@ -169,3 +175,5 @@ For a SaaS HR tool targeting mid-market startups:
 - **Assuming one canvas fits all segments:** A startup and an enterprise have different jobs, pains, and gains. One value proposition won't work for both. Create separate canvases.
 - **Putting features in the canvas instead of outcomes:** "Dashboard" is not a pain reliever; "See your hiring funnel at a glance" is. Focus on what the feature *does* for the customer.
 - **Ignoring misalignment:** If 50% of your features don't address customer pains or gains, that's a signal to cut features or refocus on different customers.
+
+**See also:** STP Framework (segment and target before building the canvas so you design the right value proposition for the right audience); Jobs-to-be-Done Positioning Framework (identify the core job first, then map it to the customer profile's functional, emotional, and social needs); April Dunford's 5-Component Positioning Canvas (alternative approach that focuses on attributes and competitive set).
