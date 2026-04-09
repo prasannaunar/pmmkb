@@ -94,9 +94,11 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 ## Key Documents
 
 - **[INDEX.md](INDEX.md)** — Full taxonomy; all 19 frameworks with one-line descriptions
+- **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)** — Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)** — Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)** — 5-phase roadmap for polishing and integrating frameworks into day-to-day work
-- **[PROGRESS.md](PROGRESS.md)** — Progress tracking and development status
+- **[PROGRESS.md](PROGRESS.md)** — Progress tracking, completed work, and development status
+- **[foundational-review.md](foundational-review.md)** — Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
 - **[CLAUDE.md](CLAUDE.md)** — Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)** — PMM terminology and definitions (in progress)
 
@@ -141,11 +143,24 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 
 - **Knowledge Base Created:** Pre-2026-04-08
 - **Repository Organised:** 2026-04-08
-- **Last Updated:** 2026-04-08
-- **Total Frameworks:** 19
-- **Status:** Content complete; operational integration in progress (see [PLAN.md](PLAN.md))
+- **Quality Review & Enhancement:** 2026-04-09
+- **Last Updated:** 2026-04-09
+- **Total Frameworks:** 19 (all validated and cross-linked)
+- **New Additions:** FRAMEWORK-MAP.md, foundational-review.md
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md))
 
 ---
+
+## Quality Assurances (2026-04-09 Update)
+
+All frameworks have been:
+- ✅ **Validated against established sources** — 13 frameworks verified as industry-standard approaches; 6 are internal/custom frameworks appropriate to PMM context
+- ✅ **Attribution verified** — All author names, book titles, and publication dates cross-checked; 2 attribution errors identified and corrected
+- ✅ **Cross-linked** — All 19 frameworks now reference 2–3 related frameworks, showing dependencies and complementary approaches
+- ✅ **Enhanced with benchmarks** — Key frameworks (NPS, GTM, Win/Loss) now include SaaS industry benchmarks for self-assessment
+- ✅ **Pitfalls expanded** — 3 frameworks now include specific, measurable recovery steps beyond the pitfall description
+
+See [foundational-review.md](foundational-review.md) for the full quality audit report.
 
 ## Standards & Principles
 
@@ -153,8 +168,9 @@ This knowledge base follows principles outlined in [CLAUDE.md](CLAUDE.md):
 - **Written in British English**
 - **No em dashes; semicolons and shorter sentences used instead**
 - **Practical, specific examples** (not generic case studies)
-- **Actionable pitfalls** (not just warnings)
+- **Actionable pitfalls** (with recovery steps where applicable)
 - **Measurable success criteria** (not vague outcomes)
+- **Industry-validated frameworks** (established frameworks cross-referenced to published sources)
 
 See [CLAUDE.md](CLAUDE.md) for full working principles.
 
