@@ -19,6 +19,8 @@
 - **Chasing too many segments.** "We'll target mid-market and enterprise" dilutes messaging and spreads sales effort thin. Pick one primary segment and own it before expanding.
 - **Positioning that doesn't differentiate.** "We're an expense management tool" describes the category, not your position. State what makes you unique: "Built for startup founders who want real-time spend visibility without finance team overhead."
 
+**See also:** Geoffrey Moore's Positioning Statement Framework (articulate your positioning statement for each segment); Value Proposition Canvas (map your offering to what each segment needs); Jobs-to-be-Done Positioning Framework (understand what job each segment is trying to accomplish).
+
 ---
 
 ## Complete Product Experience Framework
@@ -44,8 +46,10 @@
 **Example:** A project management SaaS claimed "designed for remote teams" but had three gaps: (1) Marketing showed desktop-only features; Product roadmap had no mobile app; Support lacked timezone coverage. Customer feedback confirmed frustration: "You say remote-first, but your app doesn't work on my phone." Fix priority: (1) Build mobile, (2) Hire 24/7 support, (3) Update marketing. Six months later, NPS climbed 18 points and churn dropped 5 percentage points.
 
 **Pitfalls:**
-- **Assuming marketing drives the experience.** Positioning isn't what you say; it's what customers experience. A great website can't overcome a bad product or slow support.
-- **Fixing marketing without fixing operations.** "We'll just update the website" doesn't solve an 8-week onboarding or missing features. Fix the core experience first.
+- **Assuming marketing drives the experience.** Positioning isn't what you say; it's what customers experience. A great website can't overcome a bad product or slow support. Recovery: Audit all seven touchpoints. Identify which one is most misaligned with positioning (often Sales, Product, or Support). Fix that critical gap first (usually requires 6–8 weeks of cross-functional work). Don't invest in marketing refresh until the product experience matches claims.
+- **Fixing marketing without fixing operations.** "We'll just update the website" doesn't solve an 8-week onboarding or missing features. Fix the core experience first. Recovery: Create a simple prioritization matrix: Impact (how much does this gap hurt customer satisfaction?) × Effort (time/cost to fix). Start with high-impact, low-effort gaps (e.g., improve support response time, update sales demo script). Build momentum with quick wins before tackling engineering-heavy fixes.
+
+**See also:** Geoffrey Moore's Positioning Statement Framework (define your positioning statement clearly before mapping touchpoints); Value Proposition Canvas (ensure touchpoints reflect your value proposition); PMM Lifecycle Management Framework (applies positioning consistently across customer lifecycle stages).
 
 ---
 
@@ -93,3 +97,5 @@
 **Pitfalls:**
 - **Skipping phases to move faster.** Launching without Phase 2 validation (problem-solution fit) often means building for a market that doesn't exist or at a price no one will pay.
 - **PMM joining too late (Phase 4).** If marketing joins only at launch, the product may already be un-positionable. Involvement from Phase 1 prevents costly misalignment.
+
+**See also:** Complete GTM Workflow Stages (sequences phases from Foundation through Expand with go-to-market focus); STP Framework (segment and position before Phase 3 to ensure product roadmap aligns with target market); Jobs-to-be-Done Positioning Framework (identify the core job customers are hiring your product to do during Phase 1 research).
