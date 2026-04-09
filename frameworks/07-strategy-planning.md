@@ -43,6 +43,8 @@ B2B SaaS company Q2 goals:
 - **Disconnected from business goals:** PMM spends the quarter on "nice-to-have" projects (brand refresh, new website section) and ignores revenue/retention KPIs.
 - **No check-ins:** Quarterly planning is worthless if you don't track progress and adjust. Weekly standups keep initiatives on track.
 
+**See also:** All category frameworks (your Q plan should operationalise these frameworks into quarterly initiatives); T2D3 Framework (set quarterly OKRs that align with T2D3 growth targets); PMM Team Scaling Framework (quarterly planning should account for team capacity and hiring needs).
+
 ---
 
 ## Competitive Intelligence & Positioning Update Framework
@@ -98,6 +100,8 @@ Project management SaaS Quarterly Competitive Review (Q2):
 - **Reactive instead of strategic:** Don't just copy competitors' messaging. Use competitive intelligence to strengthen your own differentiation and claim an uncontested positioning.
 - **Over-indexing on pricing:** Competitors cut price all the time. Don't automatically cut your own pricing in response. Analyze whether price is really the issue or if it's messaging, features, or sales execution.
 
+**See also:** Bowman's Strategic Clock (use competitive intelligence to validate your position on the price-value spectrum); Product Differentiation Strategy Framework (ensure your differentiation still holds against competitive moves); Win/Loss Analysis Framework (understand whether competitive moves are actually driving losses).
+
 ---
 
 ## PMM Team Scaling Framework
@@ -143,3 +147,5 @@ B2B SaaS PMM scaling journey:
 - **Hiring before you have a playbook:** New hire arrives, you haven't documented how you do things, and they spin wheels for 6 months trying to figure out your process.
 - **Wrong hire for your needs:** You need sales enablement (to unblock revenue), but you hire a content person. Hire for your most acute pain point first.
 - **Hiring without clarity on success:** New PMM joins but no one knows what success looks like. Set clear goals and metrics before hiring.
+
+**See also:** T2D3 Framework (align team scaling with T2D3 growth milestones); Quarterly PMM Planning Framework (incorporate team capacity planning into Q goals); all frameworks in Categories 1–6 (each new role should own specific frameworks or workflow areas).

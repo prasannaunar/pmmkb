@@ -35,6 +35,8 @@ A data analytics SaaS measures onboarding maturity:
 - **One-size-fits-all onboarding:** A startup needs to get productive in days; an enterprise can afford a 3-month deployment. Map different onboarding experiences to different customer types.
 - **Measuring wrong metrics:** "Completed onboarding" is not the same as "will stay and pay." Correlate onboarding milestones to retention and lifetime value.
 
+**See also:** Complete Product Experience Framework (onboarding is one critical touchpoint among seven); STP Framework (tailor onboarding to different segment types); NPS Framework (correlate onboarding experience with long-term customer satisfaction).
+
 ---
 
 ## Win/Loss Analysis Framework
@@ -88,6 +90,8 @@ A CRM platform analyzes 30 deals (15 wins, 15 losses) in Q1:
 - **Analyzing loses but not wins:** You learn as much from why customers buy as from why they don't. Understand both.
 - **Not following up:** Collecting data and not acting on it wastes time. Update positioning, messaging, and sales playbooks within 2 weeks of analysis.
 
+**See also:** Competitive Intelligence & Positioning Update Framework (use win/loss findings to inform quarterly competitive analysis); Product Differentiation Strategy Framework (validate whether your claimed differentiation actually drives wins); Quarterly PMM Planning Framework (win/loss insights should feed Q-over-Q strategic planning).
+
 ---
 
 ## Net Promoter Score (NPS) & Feedback Loop Framework
@@ -135,3 +139,5 @@ SaaS accounting tool measures Q1 NPS:
 - **Obsessing over the number:** A 45 NPS is useful context, but the insights matter more than the score. Focus on themes and root causes.
 - **No follow-up:** If Detractors report that support is slow, and you don't fix it, NPS won't improve.
 - **Assuming all detractors will churn:** Some Detractors are highly engaged but critical. Listen, improve, and they may become Promoters.
+
+**See also:** STP Framework (segment NPS by customer segment to identify which need different strategies); Customer Onboarding Maturity Framework (correlate onboarding experience to NPS outcomes); Feature Adoption Framework (tie feature adoption rates to NPS improvements).

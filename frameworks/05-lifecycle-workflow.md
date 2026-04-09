@@ -38,6 +38,8 @@ Success metrics: Organic traffic (Awareness), SQLs from content (Consideration),
 - **Unclear ownership:** If PMM doesn't explicitly own onboarding or support messaging, no one will—it falls through the cracks or becomes inconsistent.
 - **Forgetting the internal handoff:** Messaging flows from PMM to sales to support. If handoff is poor, the message gets lost or distorted at each stage.
 
+**See also:** Complete Product Experience Framework (validates messaging consistency across all touchpoints); Feature Adoption Framework (applies lifecycle thinking to driving adoption within the product); Win/Loss Analysis Framework (understand which lifecycle stage messaging resonates most).
+
 ---
 
 ## Go-to-Market Motion Framework
@@ -76,6 +78,8 @@ Success metrics: Launch-week traffic (+200%?), email open rate (>40%?), SQL volu
 - **Lack of coordination:** Marketing publishes a blog post, sales doesn't know about it, support isn't prepared for questions. Momentum dies.
 - **Announcement without follow-through:** Big launch event, then silence. Sustaining momentum for 4–12 weeks post-launch is where the real work happens.
 - **Ignoring market feedback:** If customers are confused about the announcement or pushing back on positioning, iterate fast. Don't defend the original message if it's not landing.
+
+**See also:** Complete GTM Workflow Stages (provides phased approach to launch planning across Foundation, Launch, Scale); Feature Adoption Framework (applies motion thinking to individual feature launches); Win/Loss Analysis Framework (validates whether launch messaging resonated with customers).
 
 ---
 
@@ -116,3 +120,5 @@ A project management tool ships a "AI-powered task breakdown" feature. Initial a
 - **Assuming "if we build it, they will come":** Customers won't discover features on their own. You need active adoption campaigns.
 - **One-size-fits-all messaging:** Power users and beginners respond to different messages. Tailor based on segment.
 - **Launching without onboarding:** If customers don't understand how to use the feature, no amount of messaging will drive adoption.
+
+**See also:** STP Framework (segment users by adoption readiness and tailor messaging); PMM Lifecycle Management Framework (feature adoption is a subset of the Adoption stage); Go-to-Market Motion Framework (applies motion concepts to feature launches); NPS Framework (measure whether adopted features correlate with higher NPS).
