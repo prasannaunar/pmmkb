@@ -35,6 +35,8 @@ A data analytics SaaS measures onboarding maturity:
 - **One-size-fits-all onboarding:** A startup needs to get productive in days; an enterprise can afford a 3-month deployment. Map different onboarding experiences to different customer types.
 - **Measuring wrong metrics:** "Completed onboarding" is not the same as "will stay and pay." Correlate onboarding milestones to retention and lifetime value.
 
+**See also:** Complete Product Experience Framework (onboarding is one critical touchpoint among seven); STP Framework (tailor onboarding to different segment types); NPS Framework (correlate onboarding experience with long-term customer satisfaction).
+
 ---
 
 ## Win/Loss Analysis Framework
@@ -83,10 +85,14 @@ A CRM platform analyzes 30 deals (15 wins, 15 losses) in Q1:
 - Product messaging: Surface integration and customization examples that losses didn't know about
 - Pricing review: Analyze why HubSpot's TCO is 30% lower; is it marketing, our pricing model, or implementation time?
 
+**Benchmarks:** For context, a 50% win rate (15 wins from 30 total deals) is strong for a mid-market CRM platform. Typical win rate by segment: SMB 40–60%, mid-market 30–50%, enterprise 15–35%. In this example, losing 8 deals to "enterprise mandate" is normal (not a messaging problem), but losing 3 deals because customers didn't know about existing features is fixable within 30 days via product messaging.
+
 **Pitfalls:**
 - **Asking leading questions:** "Why didn't you choose us because of our great support?" will bias the answer. Ask open-ended questions.
 - **Analyzing loses but not wins:** You learn as much from why customers buy as from why they don't. Understand both.
 - **Not following up:** Collecting data and not acting on it wastes time. Update positioning, messaging, and sales playbooks within 2 weeks of analysis.
+
+**See also:** Competitive Intelligence & Positioning Update Framework (use win/loss findings to inform quarterly competitive analysis); Product Differentiation Strategy Framework (validate whether your claimed differentiation actually drives wins); Quarterly PMM Planning Framework (win/loss insights should feed Q-over-Q strategic planning).
 
 ---
 
@@ -131,7 +137,13 @@ SaaS accounting tool measures Q1 NPS:
 - **Support:** Address SMB support speed by hiring, routing, or chatbot automation
 - **Measurement:** Recheck NPS in Q2 to see if SMB segment improves
 
+**Benchmarks:** For context, typical SaaS NPS benchmarks are: World-class (NPS >50), Good (40–50), Acceptable (30–40), At-risk (<30). Mid-market NPS of 60 is world-class; SMB 15 and Enterprise 50 suggest different segment needs. By segment, Enterprise software averages NPS 25–35, mid-market SaaS 40–50, and SMB/self-service products 30–45.
+
 **Pitfalls:**
 - **Obsessing over the number:** A 45 NPS is useful context, but the insights matter more than the score. Focus on themes and root causes.
 - **No follow-up:** If Detractors report that support is slow, and you don't fix it, NPS won't improve.
 - **Assuming all detractors will churn:** Some Detractors are highly engaged but critical. Listen, improve, and they may become Promoters.
+
+**Further reading:** Fred Reichheld, *The Ultimate Question 2.0* (2011). Reichheld's definitive guide to the Net Promoter System, which extends beyond the metric to a complete management philosophy centred on customer loyalty. Bain & Company's Net Promoter System resources are also excellent for implementation details.
+
+**See also:** STP Framework (segment NPS by customer segment to identify which need different strategies); Customer Onboarding Maturity Framework (correlate onboarding experience to NPS outcomes); Feature Adoption Framework (tie feature adoption rates to NPS improvements).
