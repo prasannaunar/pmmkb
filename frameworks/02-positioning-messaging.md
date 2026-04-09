@@ -77,7 +77,7 @@ A project management tool might map:
 
 ## Jobs-to-be-Done Positioning Framework
 
-**What it is:** A positioning approach grounded in the idea that customers don't buy products—they hire products to get jobs done. JTBD positioning focuses on the job (the outcome the customer wants to achieve), the context (the circumstances that trigger the need), and the competing solutions (including non-product alternatives). Instead of asking "who is our customer?", JTBD asks "what job are they trying to do?"
+**What it is:** A positioning approach grounded in the idea that customers don't buy products—they hire products to get jobs done. Originated by innovation researcher Tony Ulwick and later popularised by Harvard Business School professor Clayton Christensen and strategist Bob Moesta, JTBD positioning focuses on the job (the outcome the customer wants to achieve), the context (the circumstances that trigger the need), and the competing solutions (including non-product alternatives). Instead of asking "who is our customer?", JTBD asks "what job are they trying to do?"
 
 **When to use it:**
 - When your target market is fragmented or your product serves multiple use cases

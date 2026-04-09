@@ -116,7 +116,7 @@
 
 ## T2D3 Framework (B2B SaaS)
 
-**What it is:** A go-to-market methodology designed specifically for B2B SaaS scaling, coined by investor Christoph Janz. The acronym stands for "Triple, Triple, Double, Double, Double"—meaning grow revenue by 3x in year 1, 3x in year 2, 2x in year 3, 2x in year 4, and 2x in year 5. It maps revenue targets to required operational milestones and helps PMMs align messaging with each scaling phase.
+**What it is:** A go-to-market methodology designed specifically for B2B SaaS scaling, introduced by SaaS investor Neeraj Agrawal and popularised by venture capitalist Christoph Janz. The acronym stands for "Triple, Triple, Double, Double, Double"—meaning grow revenue by 3x in year 1, 3x in year 2, 2x in year 3, 2x in year 4, and 2x in year 5. It maps revenue targets to required operational milestones and helps PMMs align messaging with each scaling phase.
 
 **When to use it:** SaaS companies (pre-Series B through Series C) with validated product-market fit and repeatable sales motion. Use when you need to define growth targets backward from fundraising milestones or when scaling sales and marketing teams. Effective for aligning PMM, sales leadership, and investors on cadence and required inputs.
 
