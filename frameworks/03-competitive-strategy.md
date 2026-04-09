@@ -20,6 +20,8 @@
 - **Drifting between positions.** Companies gradually add features or cut costs without intentional strategy, ending up in position 6–8 (high price, low value). Decide once and commit.
 - **Confusing perceived value with price.** A premium brand isn't "position 5" unless customers actually perceive the higher value. Without proof (certifications, outcomes, customer testimonials), you're just expensive.
 
+**Further reading:** Cliff Bowman & David Faulkner, *Competitive and Corporate Strategy* (1996). Bowman's Strategic Clock extends Michael Porter's work by mapping eight distinct competitive positions based on price and perceived value. Essential for understanding your defensible market position.
+
 **See also:** Product Differentiation Strategy Framework (develop the differentiation that supports your chosen position on the clock); STP Framework (ensure your target segment actually values the position you're claiming); Geoffrey Moore's Positioning Statement Framework (articulate how your clock position translates into a clear positioning statement).
 
 ---

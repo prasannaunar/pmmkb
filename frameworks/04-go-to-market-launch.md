@@ -118,6 +118,8 @@
 
 **Example:** A fintech B2B SaaS company used this workflow. Foundation (8 weeks) revealed target customers were "payment operations teams afraid of compliance violations." Launch (8 weeks) validated messaging on 60 prospects via outbound; 18% converted to demos. Scale (8 months) added inbound marketing; added 3 new customer stories. By month 12, they had 200 SQLs/month and 22% win rate. Optimize phase (6 months) showed competitors emphasized cost; they shifted message to "compliance peace of mind," improving win rate to 28%. In Expand phase, they entered adjacent segment (treasury teams) with same playbook, hitting Scale metrics in 5 months.
 
+**Benchmarks:** For context, typical B2B SaaS conversion metrics are: Outbound demo conversion 15–20% (this example's 18% is solid), Sales win rate 20–30% (this example's 22–28% is good), SQL volume for Scale phase 150–300/month (200 is on target). CAC payback <18 months is typical for Phase 3; <12 months is strong.
+
 **Pitfalls:** Trying to do all phases in parallel wastes money. A common mistake is launching paid demand gen (Phase 3) before validating positioning (Phase 2), resulting in high CAC and low conversion. Also, skipping Phase 4 (optimization) and rushing to Phase 5 (expand) spreads resources thin without learning.
 
 **See also:** Product Development Stage Framework (complements product development phases with parallel PMM phases); 10-Step PMM Process (more detailed operational breakdown of activities within each phase); Win/Loss Analysis Framework (essential for Phase 4 optimization); T2D3 Framework (aligns GTM phases with revenue scaling targets).
