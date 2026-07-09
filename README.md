@@ -99,6 +99,7 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 - **[PLAN.md](PLAN.md)** — 5-phase roadmap for polishing and integrating frameworks into day-to-day work
 - **[PROGRESS.md](PROGRESS.md)** — Progress tracking, completed work, and development status
 - **[foundational-review.md](foundational-review.md)** — Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
+- **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)** — Candidate frameworks identified through gap analysis, pending team review (NEW: 2026-07-09)
 - **[CLAUDE.md](CLAUDE.md)** — Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)** — PMM terminology and definitions (in progress)
 
@@ -144,10 +145,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Knowledge Base Created:** Pre-2026-04-08
 - **Repository Organised:** 2026-04-08
 - **Quality Review & Enhancement:** 2026-04-09
-- **Last Updated:** 2026-04-09
-- **Total Frameworks:** 19 (all validated and cross-linked)
-- **New Additions:** FRAMEWORK-MAP.md, foundational-review.md
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md))
+- **Framework Gap Analysis:** 2026-07-09
+- **Last Updated:** 2026-07-09
+- **Total Frameworks:** 19 (all validated and cross-linked); 12 additional candidates identified pending review (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md))
+- **New Additions:** FRAMEWORK-BACKLOG.md
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); framework backlog awaiting team review before any expansion
 
 ---
 
