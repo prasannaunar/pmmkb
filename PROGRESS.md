@@ -156,6 +156,26 @@
 
 ---
 
+## Public Release Readiness — Findings (Logged 2026-07-09)
+
+Repository is currently private. Reviewed for what's needed before any public browsing/app is stood up. No app exists yet (see below); these are content/process findings to action before publishing, not urgent fixes.
+
+### No public site exists yet
+- No GitHub Pages config, static site generator (MkDocs/Docusaurus/Jekyll), `package.json`, or `.github/workflows/`. The repo is Markdown files only; there is no reading experience beyond a raw file browser.
+- Action: decide whether to build a public site (e.g. MkDocs/Docusaurus + GitHub Pages) before "public" is meaningful.
+
+### Content issues to fix before going public
+- [ ] **Fabricated claim about real companies:** `frameworks/01-market-customer-understanding.md:95` states a fictional "data infrastructure startup" had "Phase 3 beta customers (Uber, Stripe)". This falsely implies Uber and Stripe were customers of a made-up company. Fix or replace with a fictional/generic customer name before publishing.
+- [ ] **`product-marketing-kb-task.md` exposes build process** (e.g. "$4 total LLM budget", local-model routing, "Sonnet: do not use"). Not sensitive, but undercuts the KB's credibility if presented as authoritative guidance. Exclude from public view or reframe as a "how this was built" methodology note.
+- [ ] **`foundational-review.md` is internal QA/audit content** (attribution checks, "appears custom/internal" notes). Keep out of the public-facing surface, or fold key points into a short public "methodology" section.
+- [ ] **Attribution clarity:** 6 of 19 frameworks are custom/internal with no named originator, sitting alongside established, attributed frameworks (Moore, Dunford, Reichheld, etc.). Before publishing, clearly mark which frameworks are original to this KB vs. externally sourced, so attribution isn't misread.
+
+### Checked, no issues found
+- No secrets, API keys, credentials, or PII (emails, etc.) in any file.
+- No prompt-injection or hidden-instruction content in any file (explicitly scanned for jailbreak-style patterns).
+
+---
+
 ## Metrics & Health Checks
 
 ### Content Quality Metrics (Baseline & Updates)
