@@ -40,11 +40,11 @@
 - [x] Kept INDEX.md and task file at root level
 - [x] Updated directory structure for clarity
 
-### Documentation (✅ In Progress)
+### Documentation (✅ Complete)
 
 - [x] Created PLAN.md: 5-phase roadmap for polish and operational integration
 - [x] Created PROGRESS.md (this file): tracking progress and next steps
-- [ ] CLAUDE.md: Ground rules file (in progress)
+- [x] CLAUDE.md: Ground rules file
 
 ---
 
@@ -87,21 +87,17 @@
 
 ### Immediate Deliverables (Week of 2026-04-08)
 
-1. **CLAUDE.md** (📝 In progress)
+1. **CLAUDE.md** (✅ Complete)
    - Ground rules: no em dashes, British English, semicolon usage
    - Framework curation principles
    - Update schedule and version control
 
-2. **BY-SITUATION.md** (⏳ Pending)
-   - Map 8–10 common PMM situations to relevant frameworks
+2. **BY-SITUATION.md** (✅ Complete)
+   - Maps common PMM situations to relevant frameworks
    - Cross-reference decision paths
-   - Example: "Launching a new product" → list of frameworks to apply in sequence
 
-3. **README.md Enhancement** (⏳ Pending)
-   - Update from current placeholder
-   - Explain knowledge base structure and purpose
-   - Quick-start guide for users
-   - Navigation instructions
+3. **README.md Enhancement** (✅ Complete)
+   - Full navigation, quick-start guide, and key documents index
 
 ### Phase 1 Deliverables (Weeks 2–3)
 
@@ -145,14 +141,47 @@
 - ✅ Files organized into logical folder structure
 
 ### Issues Pending Resolution
-- ⏳ Framework cross-linking needs verification (some frameworks mention related frameworks in text, need systematic cross-link section)
-- ⏳ BY-SITUATION.md needs to be created (currently noted in INDEX.md "next steps")
-- ⏳ Quality review cycle mentioned in original plan not yet completed
+- ⏳ Quick-reference cards, GLOSSARY.md, and templates/ still not started (see Operational Readiness Metrics below)
+- ⏳ Framework backlog (see below) needs team review before any candidate is built out
+- ⏳ Public release readiness items (see below) need action before the repo goes public
 
 ### Assumptions & Trade-offs
 - Using Haiku budget reserved in original plan; actual quality pass deferred until phase is complete
 - BY-SITUATION.md to be created without additional Gemini calls; instead, curated by hand using existing content
 - Framework examples are realistic but not all from named companies (per original task constraints)
+
+---
+
+## Public Release Readiness — Findings (Logged 2026-07-09)
+
+Repository is currently private. Reviewed for what's needed before any public browsing/app is stood up. No app exists yet (see below); these are content/process findings to action before publishing, not urgent fixes.
+
+### No public site exists yet
+- No GitHub Pages config, static site generator (MkDocs/Docusaurus/Jekyll), `package.json`, or `.github/workflows/`. The repo is Markdown files only; there is no reading experience beyond a raw file browser.
+- Action: decide whether to build a public site (e.g. MkDocs/Docusaurus + GitHub Pages) before "public" is meaningful.
+
+### Content issues to fix before going public
+- [ ] **Fabricated claim about real companies:** `frameworks/01-market-customer-understanding.md:95` states a fictional "data infrastructure startup" had "Phase 3 beta customers (Uber, Stripe)". This falsely implies Uber and Stripe were customers of a made-up company. Fix or replace with a fictional/generic customer name before publishing.
+- [ ] **`product-marketing-kb-task.md` exposes build process** (e.g. "$4 total LLM budget", local-model routing, "Sonnet: do not use"). Not sensitive, but undercuts the KB's credibility if presented as authoritative guidance. Exclude from public view or reframe as a "how this was built" methodology note.
+- [ ] **`foundational-review.md` is internal QA/audit content** (attribution checks, "appears custom/internal" notes). Keep out of the public-facing surface, or fold key points into a short public "methodology" section.
+- [ ] **Attribution clarity:** 6 of 19 frameworks are custom/internal with no named originator, sitting alongside established, attributed frameworks (Moore, Dunford, Reichheld, etc.). Before publishing, clearly mark which frameworks are original to this KB vs. externally sourced, so attribution isn't misread.
+
+### Checked, no issues found
+- No secrets, API keys, credentials, or PII (emails, etc.) in any file.
+- No prompt-injection or hidden-instruction content in any file (explicitly scanned for jailbreak-style patterns).
+
+---
+
+## Framework Backlog — Gap Analysis (Logged 2026-07-09)
+
+Deep research identified 12 proven, replicable frameworks not currently in the KB, ranked and detailed in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). Headline findings:
+
+- **Pricing & Packaging has zero coverage** and is the clearest gap. Three independently well-established candidates (Good-Better-Best Packaging, Van Westendorp Price Sensitivity Meter, Value Metric/WTP Framework) would justify a new 8th category.
+- Thinner gaps in sales enablement, customer advocacy, analyst relations, and message testing have one strong candidate each.
+- Two candidates (MEDDIC/MEDDPICC, Sean Ellis 40% Test) are sales/product-owned rather than PMM-native; flagged for a scope decision rather than automatic inclusion.
+- One candidate (Pragmatic Institute Framework) has meaningful overlap with existing frameworks and needs a duplication check per CLAUDE.md's "no duplicate concepts" rule.
+
+Nothing has been built out. Per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"), this is a proposal for team review, not an action queue.
 
 ---
 
@@ -216,14 +245,15 @@
 
 ## Next Session Priorities
 
-1. Complete CLAUDE.md with ground rules
-2. Create BY-SITUATION.md
-3. Update root-level README.md with navigation and overview
-4. Begin Phase 1: cross-links and quick-reference cards
+1. **Review FRAMEWORK-BACKLOG.md with the team** and decide which candidates to pursue, starting with Pricing & Packaging (the clearest gap; 3 strong candidates: Good-Better-Best, Van Westendorp PSM, Value Metric/WTP)
+2. Resolve the two open scope questions from the backlog: whether to include sales/product-owned frameworks (MEDDIC, Sean Ellis 40% Test) with a "PMM supporting role" framing, and whether Pragmatic Institute Framework duplicates existing lifecycle frameworks
+3. Action the Public Release Readiness findings before any public site work begins: fix the fabricated Uber/Stripe example in `frameworks/01-market-customer-understanding.md:95`, and decide how to handle `product-marketing-kb-task.md` and `foundational-review.md` for public visibility
+4. Begin Phase 1 deliverables: quick-reference cards (0/19) and GLOSSARY.md
 
 ---
 
 ## Version History
 
+- **2026-07-09**: Logged public release readiness findings (content issues to fix before the repo goes public; no secrets or prompt-injection content found). Completed deep-research gap analysis and logged a 12-framework backlog in FRAMEWORK-BACKLOG.md, headlined by a Pricing & Packaging gap with zero current coverage.
 - **2026-04-09**: Comprehensive quality check completed. Validation, attribution fixes, cross-references added to all 19 frameworks, pitfalls expanded, dependency map created, metrics benchmarks and further reading added. foundational-review.md documenting all findings.
 - **2026-04-08**: Repository organized, PLAN.md and PROGRESS.md created, Claude file in progress
