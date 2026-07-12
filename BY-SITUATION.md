@@ -240,23 +240,27 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Each pricing tier may target different segments (SMB, mid-market, enterprise)
    - *Do this:* Validate that each tier has a distinct target customer
 
-3. **Bowman's Strategic Clock** (`Category 3`)
+3. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
+   - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
+   - *Do this third:* Draft the tier structure and price ladder before building sales collateral
+
+5. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Understand your competitive position on price-value; position new tier accordingly
    - *Do this:* Don't undermine existing tiers with a premium tier that's actually cheaper
 
-4. **Product Differentiation Strategy Framework** (`Category 3`)
+6. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* Clarify what differentiates the new tier (features, support, integrations)
    - *Do this:* Ensure the difference is meaningful enough to justify price gap
 
-5. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
+7. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
    - *Why:* Create positioning for each tier that justifies the price to its target segment
    - *Do this:* Frame in customer outcomes, not feature count
 
-6. **Win / Loss Analysis Framework** (`Category 6`)
+8. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Analyse past deals by segment; understand what features drive higher WTP
    - *Do this:* Use win/loss data to inform tier differentiation
 
-7. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
+9. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
    - *Why:* Build messaging, sales collateral, and enablement for the new tier
    - *Do this:* Sales needs comparison matrices, ROI calculators, migration guides
 

@@ -83,11 +83,19 @@
 
 ---
 
+## Category 8: Pricing & Packaging
+
+| Framework | Description |
+|-----------|-------------|
+| Good-Better-Best (GBB) Packaging Framework | Structures pricing into three value-ascending tiers, fenced by feature and persona, to guide buyer self-selection and expansion revenue |
+
+---
+
 ## Structure Notes
 
-- **Total Frameworks:** 19
-- **Categories:** 7 (All complete)
-- **Frameworks per Category:** 3–5
+- **Total Frameworks:** 20
+- **Categories:** 8 (Category 8 newly added, 2026-07-12; 1 framework, more pending team review — see FRAMEWORK-BACKLOG.md)
+- **Frameworks per Category:** 1–5
 - **Cross-listed frameworks:** 0 (each framework in one category)
 
 ## Completion Status
@@ -99,6 +107,7 @@
 ✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks — `/pmm-kb/05-lifecycle-workflow.md`
 ✅ **Category 6 (Product Experience & Adoption):** 3 frameworks — `/pmm-kb/06-product-experience-adoption.md`
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks — `/pmm-kb/07-strategy-planning.md`
+✅ **Category 8 (Pricing & Packaging):** 1 framework — `/pmm-kb/08-pricing-packaging.md`
 
 ## Next Steps
 
