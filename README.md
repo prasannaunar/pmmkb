@@ -22,9 +22,9 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 19 Frameworks Across 7 Categories
+### 20 Frameworks Across 8 Categories
 
-This knowledge base contains 19 proven product marketing frameworks, organised by where they apply in the product marketing workflow.
+This knowledge base contains 20 proven product marketing frameworks, organised by where they apply in the product marketing workflow.
 
 | # | Category | Frameworks | File |
 |---|----------|-----------|------|
@@ -35,6 +35,7 @@ This knowledge base contains 19 proven product marketing frameworks, organised b
 | 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 3 | `frameworks/06-product-experience-adoption.md` |
 | 7 | Strategy & Planning | 3 | `frameworks/07-strategy-planning.md` |
+| 8 | Pricing & Packaging | 1 | `frameworks/08-pricing-packaging.md` |
 
 See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 
@@ -74,6 +75,7 @@ See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 - **Managing the customer lifecycle:** Category 5
 - **Driving product adoption and retention:** Category 6
 - **Planning, scaling, and measuring:** Category 7
+- **Pricing and packaging:** Category 8
 
 ---
 
@@ -93,7 +95,7 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)** — Full taxonomy; all 19 frameworks with one-line descriptions
+- **[INDEX.md](INDEX.md)** — Full taxonomy; all 20 frameworks with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)** — Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)** — Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)** — 5-phase roadmap for polishing and integrating frameworks into day-to-day work
@@ -146,10 +148,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Repository Organised:** 2026-04-08
 - **Quality Review & Enhancement:** 2026-04-09
 - **Framework Gap Analysis:** 2026-07-09
-- **Last Updated:** 2026-07-09
-- **Total Frameworks:** 19 (all validated and cross-linked); 12 additional candidates identified pending review (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md))
-- **New Additions:** FRAMEWORK-BACKLOG.md
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); framework backlog awaiting team review before any expansion
+- **Category 8 (Pricing & Packaging) Added:** 2026-07-12
+- **Last Updated:** 2026-07-12
+- **Total Frameworks:** 20 (all validated and cross-linked); 11 additional candidates identified pending review (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md))
+- **New Additions:** `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework)
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining framework backlog awaiting team review before further expansion
 
 ---
 
