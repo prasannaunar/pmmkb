@@ -13,11 +13,12 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 ## Ranked candidates
 
-### 1. Good-Better-Best (GBB) Packaging Framework
+### 1. Good-Better-Best (GBB) Packaging Framework — ✅ BUILT (2026-07-12)
 - **Originator:** Standard SaaS practice; most authoritatively documented by Kyle Poyar/OpenView Partners and Price Intelligently/ProfitWell.
 - **What it does:** Structures pricing into three value-ascending tiers that fence features against buyer personas and budget levels.
-- **Proposed home:** New category — Pricing & Packaging.
+- **Home:** New category — Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
 - **Why it's proven:** De facto default SaaS packaging model (Salesforce, HubSpot, Zoom, Slack); a decade of documented practice.
+- **Status:** Written up and added to the knowledge base as Category 8's first framework. Van Westendorp PSM and Value Metric/WTP remain candidates to round out the category; see open scope questions below.
 
 ### 2. Van Westendorp Price Sensitivity Meter (PSM)
 - **Originator:** Peter van Westendorp, 1976.
@@ -94,7 +95,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 | # | Framework | Proposed category | Gap filled |
 |---|---|---|---|
-| 1 | Good-Better-Best Packaging | New: Pricing & Packaging | Pricing |
+| 1 | Good-Better-Best Packaging | ✅ Built — Pricing & Packaging | Pricing |
 | 2 | Van Westendorp PSM | New: Pricing & Packaging | Pricing |
 | 3 | Value Metric / WTP (Campbell) | New: Pricing & Packaging | Pricing |
 | 4 | StoryBrand SB7 | Cat 2 (or new Brand Narrative) | Brand storytelling |
