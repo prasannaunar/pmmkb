@@ -176,12 +176,12 @@ Repository is currently private. Reviewed for what's needed before any public br
 
 Deep research identified 12 proven, replicable frameworks not currently in the KB, ranked and detailed in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). Headline findings:
 
-- **Pricing & Packaging has zero coverage** and is the clearest gap. Three independently well-established candidates (Good-Better-Best Packaging, Van Westendorp Price Sensitivity Meter, Value Metric/WTP Framework) would justify a new 8th category.
+- **Pricing & Packaging had zero coverage** and was the clearest gap. Three independently well-established candidates (Good-Better-Best Packaging, Van Westendorp Price Sensitivity Meter, Value Metric/WTP Framework) justified a new 8th category.
 - Thinner gaps in sales enablement, customer advocacy, analyst relations, and message testing have one strong candidate each.
 - Two candidates (MEDDIC/MEDDPICC, Sean Ellis 40% Test) are sales/product-owned rather than PMM-native; flagged for a scope decision rather than automatic inclusion.
 - One candidate (Pragmatic Institute Framework) has meaningful overlap with existing frameworks and needs a duplication check per CLAUDE.md's "no duplicate concepts" rule.
 
-Nothing has been built out. Per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"), this is a proposal for team review, not an action queue.
+**Update (2026-07-12):** The top-ranked candidate, Good-Better-Best Packaging, has been built out as Category 8's first framework (`frameworks/08-pricing-packaging.md`). The remaining 11 candidates, including the other two Pricing & Packaging candidates, are still a proposal for team review, not an action queue, per CLAUDE.md ("Add new frameworks only if a gap is identified by the team").
 
 ---
 
@@ -245,15 +245,16 @@ Nothing has been built out. Per CLAUDE.md ("Add new frameworks only if a gap is 
 
 ## Next Session Priorities
 
-1. **Review FRAMEWORK-BACKLOG.md with the team** and decide which candidates to pursue, starting with Pricing & Packaging (the clearest gap; 3 strong candidates: Good-Better-Best, Van Westendorp PSM, Value Metric/WTP)
+1. **Review the remaining FRAMEWORK-BACKLOG.md candidates with the team** and decide which to pursue next; Van Westendorp PSM and Value Metric/WTP would round out Category 8 (Pricing & Packaging)
 2. Resolve the two open scope questions from the backlog: whether to include sales/product-owned frameworks (MEDDIC, Sean Ellis 40% Test) with a "PMM supporting role" framing, and whether Pragmatic Institute Framework duplicates existing lifecycle frameworks
 3. Action the Public Release Readiness findings before any public site work begins: fix the fabricated Uber/Stripe example in `frameworks/01-market-customer-understanding.md:95`, and decide how to handle `product-marketing-kb-task.md` and `foundational-review.md` for public visibility
-4. Begin Phase 1 deliverables: quick-reference cards (0/19) and GLOSSARY.md
+4. Begin Phase 1 deliverables: quick-reference cards (0/20) and GLOSSARY.md
 
 ---
 
 ## Version History
 
+- **2026-07-12**: Built the Good-Better-Best (GBB) Packaging Framework as the first entry in a new Category 8 (Pricing & Packaging), the clearest gap identified in the 2026-07-09 backlog analysis. Added `frameworks/08-pricing-packaging.md` (1,084 words, full 6-section structure); updated INDEX.md, README.md, BY-SITUATION.md (Situation 6), and FRAMEWORK-BACKLOG.md to reflect the addition. Total frameworks: 19 → 20.
 - **2026-07-09**: Logged public release readiness findings (content issues to fix before the repo goes public; no secrets or prompt-injection content found). Completed deep-research gap analysis and logged a 12-framework backlog in FRAMEWORK-BACKLOG.md, headlined by a Pricing & Packaging gap with zero current coverage.
 - **2026-04-09**: Comprehensive quality check completed. Validation, attribution fixes, cross-references added to all 19 frameworks, pitfalls expanded, dependency map created, metrics benchmarks and further reading added. foundational-review.md documenting all findings.
 - **2026-04-08**: Repository organized, PLAN.md and PROGRESS.md created, Claude file in progress
