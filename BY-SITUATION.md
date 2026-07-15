@@ -240,9 +240,13 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Each pricing tier may target different segments (SMB, mid-market, enterprise)
    - *Do this:* Validate that each tier has a distinct target customer
 
-3. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
+3. **Van Westendorp Price Sensitivity Meter (PSM)** (`Category 8`)
+   - *Why:* Find the acceptable price corridor for the new tier or service through direct customer survey data
+   - *Do this third:* Run this before drafting the tier structure if you have no existing anchor price to work from
+
+4. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
    - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
-   - *Do this third:* Draft the tier structure and price ladder before building sales collateral
+   - *Do this fourth:* Draft the tier structure and price ladder, anchored by the PSM corridor, before building sales collateral
 
 5. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Understand your competitive position on price-value; position new tier accordingly
