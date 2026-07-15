@@ -20,11 +20,12 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 - **Why it's proven:** De facto default SaaS packaging model (Salesforce, HubSpot, Zoom, Slack); a decade of documented practice.
 - **Status:** Written up and added to the knowledge base as Category 8's first framework. Van Westendorp PSM and Value Metric/WTP remain candidates to round out the category; see open scope questions below.
 
-### 2. Van Westendorp Price Sensitivity Meter (PSM)
+### 2. Van Westendorp Price Sensitivity Meter (PSM) — ✅ BUILT (2026-07-15)
 - **Originator:** Peter van Westendorp, 1976.
 - **What it does:** Four-question survey method that maps an acceptable price corridor and an indifference price point.
-- **Proposed home:** New category — Pricing & Packaging.
+- **Home:** Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
 - **Why it's proven:** 50 years of continuous use; built into major survey tools; standard first step in SaaS pricing work.
+- **Status:** Written up and added to the knowledge base as Category 8's second framework. Value Metric/WTP remains the strongest remaining candidate to round out the category.
 
 ### 3. Value Metric / Willingness-to-Pay Framework
 - **Originator:** Patrick Campbell, Price Intelligently/ProfitWell (acquired by Paddle, 2022).
@@ -96,7 +97,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 | # | Framework | Proposed category | Gap filled |
 |---|---|---|---|
 | 1 | Good-Better-Best Packaging | ✅ Built — Pricing & Packaging | Pricing |
-| 2 | Van Westendorp PSM | New: Pricing & Packaging | Pricing |
+| 2 | Van Westendorp PSM | ✅ Built — Pricing & Packaging | Pricing |
 | 3 | Value Metric / WTP (Campbell) | New: Pricing & Packaging | Pricing |
 | 4 | StoryBrand SB7 | Cat 2 (or new Brand Narrative) | Brand storytelling |
 | 5 | MEDDIC/MEDDPICC | Cat 4/5 (sales-support framing) | Sales enablement |
@@ -115,7 +116,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 1. **New categories:** Adding Pricing & Packaging alone would justify an 8th category file. Analyst Relations, Customer Advocacy, and Category Creation are each thin (1 framework candidate apiece) — worth bundling into existing categories rather than creating single-framework category files.
 2. **Sales/product-owned frameworks:** MEDDIC/MEDDPICC and the Sean Ellis 40% Test belong to adjacent disciplines. Decide whether to include with an explicit "PMM's supporting role" framing or exclude as out-of-scope for a PMM-specific KB.
 3. **Duplication risk:** Pragmatic Institute Framework overlaps heavily with the existing 10-Step PMM Process and PMM Lifecycle Management frameworks. Per the "no duplicate concepts" rule, this likely needs to be narrowed to just its pricing/enablement contribution, or dropped.
-4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established — this is the strongest candidate for a genuinely new category.
+4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established; GBB and Van Westendorp are now both built, leaving Value Metric/WTP as the remaining candidate to round out the category.
 
 ## Next step
 
