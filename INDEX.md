@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base — Index
 
-**Last Updated:** 2026-07-15 (Van Westendorp PSM added to Category 8)
+**Last Updated:** 2026-07-18 (Value Metric / Willingness-to-Pay Framework added to Category 8)
 
 ---
 
@@ -89,13 +89,14 @@
 |-----------|-------------|
 | Good-Better-Best (GBB) Packaging Framework | Structures pricing into three value-ascending tiers, fenced by feature and persona, to guide buyer self-selection and expansion revenue |
 | Van Westendorp Price Sensitivity Meter (PSM) | Four-question survey method that maps an acceptable price corridor and an indifference price point for a product concept, without asking respondents to name a single price |
+| Value Metric / Willingness-to-Pay Framework | Four-step method to choose a value metric and set prices by surveying persona-level willingness to pay and plotting it against value received |
 
 ---
 
 ## Structure Notes
 
-- **Total Frameworks:** 21
-- **Categories:** 8 (Category 8 added 2026-07-12; 2 frameworks now, more pending team review — see FRAMEWORK-BACKLOG.md)
+- **Total Frameworks:** 22
+- **Categories:** 8 (Category 8 added 2026-07-12; 3 frameworks now, more pending team review — see FRAMEWORK-BACKLOG.md)
 - **Frameworks per Category:** 1–5
 - **Cross-listed frameworks:** 0 (each framework in one category)
 
@@ -108,7 +109,7 @@
 ✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks — `/pmm-kb/05-lifecycle-workflow.md`
 ✅ **Category 6 (Product Experience & Adoption):** 3 frameworks — `/pmm-kb/06-product-experience-adoption.md`
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks — `/pmm-kb/07-strategy-planning.md`
-✅ **Category 8 (Pricing & Packaging):** 2 frameworks — `/pmm-kb/08-pricing-packaging.md`
+✅ **Category 8 (Pricing & Packaging):** 3 frameworks — `/pmm-kb/08-pricing-packaging.md`
 
 ## Next Steps
 

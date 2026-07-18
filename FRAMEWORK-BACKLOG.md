@@ -27,11 +27,12 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 - **Why it's proven:** 50 years of continuous use; built into major survey tools; standard first step in SaaS pricing work.
 - **Status:** Written up and added to the knowledge base as Category 8's second framework. Value Metric/WTP remains the strongest remaining candidate to round out the category.
 
-### 3. Value Metric / Willingness-to-Pay Framework
+### 3. Value Metric / Willingness-to-Pay Framework — ✅ BUILT (2026-07-18)
 - **Originator:** Patrick Campbell, Price Intelligently/ProfitWell (acquired by Paddle, 2022).
 - **What it does:** Four-step method to set a defensible value metric and price: define personas, survey WTP, plot a value/WTP matrix, align tiers to persona value.
-- **Proposed home:** New category — Pricing & Packaging.
+- **Home:** Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
 - **Why it's proven:** Applied across hundreds of SaaS pricing engagements; widely cited (OpenView, SaaStr, Intercom, Mind the Product).
+- **Status:** Written up and added to the knowledge base as Category 8's third framework. This closes out all three top-ranked Pricing & Packaging candidates identified in the 2026-07-09 gap analysis.
 
 ### 4. StoryBrand SB7 Framework
 - **Originator:** Donald Miller, *Building a StoryBrand* (2017).
@@ -98,7 +99,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 |---|---|---|---|
 | 1 | Good-Better-Best Packaging | ✅ Built — Pricing & Packaging | Pricing |
 | 2 | Van Westendorp PSM | ✅ Built — Pricing & Packaging | Pricing |
-| 3 | Value Metric / WTP (Campbell) | New: Pricing & Packaging | Pricing |
+| 3 | Value Metric / WTP (Campbell) | ✅ Built — Pricing & Packaging | Pricing |
 | 4 | StoryBrand SB7 | Cat 2 (or new Brand Narrative) | Brand storytelling |
 | 5 | MEDDIC/MEDDPICC | Cat 4/5 (sales-support framing) | Sales enablement |
 | 6 | Category Design (Play Bigger) | Cat 3 (or new Category Creation) | Category creation |
@@ -116,8 +117,8 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 1. **New categories:** Adding Pricing & Packaging alone would justify an 8th category file. Analyst Relations, Customer Advocacy, and Category Creation are each thin (1 framework candidate apiece) — worth bundling into existing categories rather than creating single-framework category files.
 2. **Sales/product-owned frameworks:** MEDDIC/MEDDPICC and the Sean Ellis 40% Test belong to adjacent disciplines. Decide whether to include with an explicit "PMM's supporting role" framing or exclude as out-of-scope for a PMM-specific KB.
 3. **Duplication risk:** Pragmatic Institute Framework overlaps heavily with the existing 10-Step PMM Process and PMM Lifecycle Management frameworks. Per the "no duplicate concepts" rule, this likely needs to be narrowed to just its pricing/enablement contribution, or dropped.
-4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established; GBB and Van Westendorp are now both built, leaving Value Metric/WTP as the remaining candidate to round out the category.
+4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established; all three are now built, closing out the category's identified gap.
 
 ## Next step
 
-None of these are built out yet. Once the team confirms which candidates to pursue, follow the existing framework-writing process (CLAUDE.md structure: What it is / When to use it / How to apply it / Example / Pitfalls, 1000–1500 words, British English, cross-referenced).
+Pricing & Packaging (Category 8) is now complete against the 2026-07-09 gap analysis. The remaining 9 candidates are still a proposal for team review, not an action queue, per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"). Once the team confirms which candidates to pursue next, follow the existing framework-writing process (CLAUDE.md structure: What it is / When to use it / How to apply it / Example / Pitfalls, 1000–1500 words, British English, cross-referenced).
