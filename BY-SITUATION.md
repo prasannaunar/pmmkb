@@ -244,27 +244,31 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Find the acceptable price corridor for the new tier or service through direct customer survey data
    - *Do this third:* Run this before drafting the tier structure if you have no existing anchor price to work from
 
-4. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
-   - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
-   - *Do this fourth:* Draft the tier structure and price ladder, anchored by the PSM corridor, before building sales collateral
+4. **Value Metric / Willingness-to-Pay Framework** (`Category 8`)
+   - *Why:* Choose the right unit to charge for (seats, usage, transactions) and confirm each persona's willingness to pay for it before locking tier prices
+   - *Do this fourth:* Run this alongside or just after PSM if your current pricing doesn't scale with usage, or if you're unsure per-seat is the right metric at all
 
-5. **Bowman's Strategic Clock** (`Category 3`)
+5. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
+   - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
+   - *Do this fifth:* Draft the tier structure and price ladder, anchored by the PSM corridor and the chosen value metric, before building sales collateral
+
+6. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Understand your competitive position on price-value; position new tier accordingly
    - *Do this:* Don't undermine existing tiers with a premium tier that's actually cheaper
 
-6. **Product Differentiation Strategy Framework** (`Category 3`)
+7. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* Clarify what differentiates the new tier (features, support, integrations)
    - *Do this:* Ensure the difference is meaningful enough to justify price gap
 
-7. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
+8. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
    - *Why:* Create positioning for each tier that justifies the price to its target segment
    - *Do this:* Frame in customer outcomes, not feature count
 
-8. **Win / Loss Analysis Framework** (`Category 6`)
+9. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Analyse past deals by segment; understand what features drive higher WTP
    - *Do this:* Use win/loss data to inform tier differentiation
 
-9. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
+10. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
    - *Why:* Build messaging, sales collateral, and enablement for the new tier
    - *Do this:* Sales needs comparison matrices, ROI calculators, migration guides
 
