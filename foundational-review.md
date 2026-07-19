@@ -11,7 +11,7 @@
 
 This review validates the frameworks against established sources, checks attribution accuracy, examines example credibility, and identifies quality gaps. Of the 19 frameworks:
 
-- **13 frameworks** are established, industry-recognized frameworks with proper attribution
+- **13 frameworks** are established, industry-recognised frameworks with proper attribution
 - **6 frameworks** are internal/custom frameworks (appears appropriate for PMM-specific contexts)
 - **1 critical attribution error** found (T2D3 Framework)
 - **Multiple minor opportunities** for enhancement (see detailed findings)
@@ -50,9 +50,9 @@ This review validates the frameworks against established sources, checks attribu
 
 #### ✅ Geoffrey Moore's Positioning Statement Framework
 **Validation Status:** CONFIRMED  
-**Source:** *Crossing the Chasm*, first published 1991 (not 1991 as stated—this is correct)  
+**Source:** *Crossing the Chasm*, first published 1991 (not 1991 as stated; this is correct)  
 **Attribution:** ✓ Correct; book title and author accurate  
-**Template Accuracy:** Verified—template matches published framework  
+**Template Accuracy:** Verified; template matches published framework  
 **Example (Avis):** ✓ ACCURATE  
 - "We try harder" campaign vs. Hertz is real (1962)
 - Resulted in Avis profitability shift ($3.2M loss → $1.2M profit in Year 1)
@@ -80,7 +80,7 @@ This review validates the frameworks against established sources, checks attribu
 **Validation Status:** CONFIRMED  
 **Source:** **Alexander Osterwalder** (co-authored with Yves Pigneur), published 2014 in *Value Proposition Design*  
 **Attribution:** ✓ Correct (Osterwalder is noted as co-creator)  
-**Framework Structure:** Verified—customer profile (jobs, pains, gains) + value map (products/services, pain relievers, gain creators) is accurate  
+**Framework Structure:** Verified; customer profile (jobs, pains, gains) + value map (products/services, pain relievers, gain creators) is accurate  
 **Assessment:** Clear, practical, well-explained with good example
 
 ---
@@ -118,7 +118,7 @@ This review validates the frameworks against established sources, checks attribu
 
 #### ✅ Complete GTM Workflow Stages (5-Phase)
 **Validation Status:** INDUSTRY-ALIGNED  
-**Assessment:** Five phases (Foundation, Launch, Scale, Optimize, Expand) are standard in go-to-market methodology  
+**Assessment:** Five phases (Foundation, Launch, Scale, Optimise, Expand) are standard in go-to-market methodology  
 **Example (Fintech B2B SaaS):** Plausible and well-detailed; timelines are realistic
 
 #### ❌ T2D3 Framework (B2B SaaS)
@@ -269,7 +269,7 @@ This review validates the frameworks against established sources, checks attribu
 8. NPS Framework
 9. Porter's Five Forces (referenced indirectly)
 
-**Total: 9 frameworks** grounded in published, peer-recognized sources
+**Total: 9 frameworks** grounded in published, peer-recognised sources
 
 ### Internal/Custom Frameworks (appropriate for PMM context)
 1. Product Development Stage Framework
@@ -335,13 +335,13 @@ This review validates the frameworks against established sources, checks attribu
 ## Recommendations for Improvement
 
 ### HIGH PRIORITY (Address Before Next Publish)
-1. **Fix T2D3 attribution** — Update to credit Neeraj Agrawal as originator
+1. **Fix T2D3 attribution**: Update to credit Neeraj Agrawal as originator
 2. **Add Tony Ulwick credit** to Jobs-to-be-Done framework
 3. **Verify all book publication dates and author names** for established frameworks (spot-check 3–5 more)
 
 ### MEDIUM PRIORITY (Next Quality Pass)
-4. **Add cross-framework references** — Show dependencies and workflow connections
-5. **Clarify custom vs. established frameworks** — Add brief notes on origin of internal frameworks
+4. **Add cross-framework references**: Show dependencies and workflow connections
+5. **Clarify custom vs. established frameworks**: Add brief notes on origin of internal frameworks
 6. **Expand pitfalls in 2–3 frameworks** where actionable recovery steps are vague
 
 ### LOW PRIORITY (Future Enhancements)

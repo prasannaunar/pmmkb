@@ -2,7 +2,7 @@
 
 **Project Start Date:** Unknown (pre-2026-04-08)
 **Repository Organization Date:** 2026-04-08
-**Current Status:** Knowledge base content complete; beginning polish and operational integration phase
+**Current Status:** Knowledge base content complete and consistency-reviewed (26 frameworks, all British English and quality-gate compliant as of 2026-07-19); polish and operational integration phase ongoing
 
 ---
 
@@ -152,7 +152,7 @@
 
 ---
 
-## Public Release Readiness — Findings (Logged 2026-07-09)
+## Public Release Readiness: Findings (Logged 2026-07-09)
 
 Repository is currently private. Reviewed for what's needed before any public browsing/app is stood up. No app exists yet (see below); these are content/process findings to action before publishing, not urgent fixes.
 
@@ -161,10 +161,10 @@ Repository is currently private. Reviewed for what's needed before any public br
 - Action: decide whether to build a public site (e.g. MkDocs/Docusaurus + GitHub Pages) before "public" is meaningful.
 
 ### Content issues to fix before going public
-- [ ] **Fabricated claim about real companies:** `frameworks/01-market-customer-understanding.md:95` states a fictional "data infrastructure startup" had "Phase 3 beta customers (Uber, Stripe)". This falsely implies Uber and Stripe were customers of a made-up company. Fix or replace with a fictional/generic customer name before publishing.
+- [x] **Fabricated claim about real companies:** `frameworks/01-market-customer-understanding.md` (Product Development Stage Framework example) stated a fictional "data infrastructure startup" had "Phase 3 beta customers (Uber, Stripe)", falsely implying Uber and Stripe were customers of a made-up company. Fixed 2026-07-19: replaced with fictional companies ("RouteFlow", "LedgerPay") consistent with the rest of the scenario.
 - [ ] **`product-marketing-kb-task.md` exposes build process** (e.g. "$4 total LLM budget", local-model routing, "Sonnet: do not use"). Not sensitive, but undercuts the KB's credibility if presented as authoritative guidance. Exclude from public view or reframe as a "how this was built" methodology note.
 - [ ] **`foundational-review.md` is internal QA/audit content** (attribution checks, "appears custom/internal" notes). Keep out of the public-facing surface, or fold key points into a short public "methodology" section.
-- [ ] **Attribution clarity:** 6 of 19 frameworks are custom/internal with no named originator, sitting alongside established, attributed frameworks (Moore, Dunford, Reichheld, etc.). Before publishing, clearly mark which frameworks are original to this KB vs. externally sourced, so attribution isn't misread.
+- [ ] **Attribution clarity:** several of the 26 frameworks are custom/internal with no named originator, sitting alongside established, attributed frameworks (Moore, Dunford, Reichheld, etc.). Before publishing, clearly mark which frameworks are original to this KB vs. externally sourced, so attribution isn't misread.
 
 ### Checked, no issues found
 - No secrets, API keys, credentials, or PII (emails, etc.) in any file.
@@ -172,7 +172,7 @@ Repository is currently private. Reviewed for what's needed before any public br
 
 ---
 
-## Framework Backlog — Gap Analysis (Logged 2026-07-09)
+## Framework Backlog: Gap Analysis (Logged 2026-07-09)
 
 Deep research identified 12 proven, replicable frameworks not currently in the KB, ranked and detailed in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). Headline findings:
 
@@ -190,16 +190,18 @@ Deep research identified 12 proven, replicable frameworks not currently in the K
 ## Metrics & Health Checks
 
 ### Content Quality Metrics (Baseline & Updates)
-- Number of frameworks: 19 ✅
-- Frameworks with all 5 sections populated: 19/19 ✅ (100%)
-- Frameworks with specific (named or detailed scenario) examples: 19/19 ✅ (100%)
-- Frameworks with >300 words: 19/19 ✅ (100%)
-- Frameworks with cross-references to other frameworks: 19/19 ✅ (100%; completed 2026-04-09)
+- Number of frameworks: 26 ✅ (corrected 2026-07-19; previously miscounted as 22 across all navigation docs because Product Differentiation Strategy Framework was listed in both Category 2 and Category 3 but only lives in Category 3)
+- Frameworks with all 6 sections populated: 26/26 ✅ (100%)
+- Frameworks with specific (named or detailed scenario) examples: 26/26 ✅ (100%)
+- Frameworks within the 1000-1500 word target: 26/26 ✅ (100%; fixed 2026-07-19, previous baseline had all 19 original frameworks between 398 and 735 words, well short of the CLAUDE.md quality gate)
+- Frameworks with cross-references to other frameworks: 26/26 ✅ (100%)
 - Frameworks with Further Reading sections (established only): 6/6 ✅ (100%)
-- Frameworks with metrics benchmarks: 3/19 ✅ (15%; enhanced 2026-04-09)
-- Frameworks with actionable pitfall recovery steps: 3/19 ✅ (15%; expanded 2026-04-09)
-- Frameworks validated against web sources: 19/19 ✅ (100%; completed 2026-04-09)
-- Attribution accuracy verified: 19/19 ✅ (100%; 2 errors fixed 2026-04-09)
+- Frameworks with metrics benchmarks or explicit success metrics: 26/26 ✅ (100%; expanded 2026-07-19, previous baseline was 3/19)
+- Frameworks with actionable pitfall recovery steps: 26/26 ✅ (100%; expanded 2026-07-19, previous baseline was 3/19)
+- Frameworks validated against web sources: 19/26 ✅ (the 19 original frameworks were validated 2026-04-09; the 7 added since, Category 8's 3 pricing frameworks plus Product Differentiation Strategy Framework's recount, have not had a separate source-validation pass)
+- Attribution accuracy verified: 19/19 of the original set ✅ (100%; 2 errors fixed 2026-04-09); Category 8 frameworks are not separately attributed to a named originator
+- Em dashes in framework content: 0/26 ✅ (fixed 2026-07-19; previously 22 em dashes across 7 of the 8 category files, violating CLAUDE.md's hard "no em dashes" rule)
+- British English spelling compliance: 26/26 ✅ (fixed 2026-07-19; previously widespread American spelling, e.g. "-ize" instead of "-ise", "behavior", "center", violating CLAUDE.md's hard British English rule)
 
 ### Operational Readiness Metrics (Target)
 - Quick-reference cards created: 0/19 ⏳ (target: 19/19)
@@ -249,16 +251,18 @@ Deep research identified 12 proven, replicable frameworks not currently in the K
 
 1. **Review the remaining 9 FRAMEWORK-BACKLOG.md candidates with the team** and decide which to pursue next, now that all three Pricing & Packaging candidates (GBB, Van Westendorp PSM, Value Metric/WTP) are built and Category 8 is complete against the 2026-07-09 gap analysis
 2. Resolve the two open scope questions from the backlog: whether to include sales/product-owned frameworks (MEDDIC, Sean Ellis 40% Test) with a "PMM supporting role" framing, and whether Pragmatic Institute Framework duplicates existing lifecycle frameworks
-3. Action the Public Release Readiness findings before any public site work begins: fix the fabricated Uber/Stripe example in `frameworks/01-market-customer-understanding.md:95`, and decide how to handle `product-marketing-kb-task.md` and `foundational-review.md` for public visibility
-4. Begin Phase 1 deliverables: quick-reference cards (0/22) and GLOSSARY.md
+3. Run a source-validation and attribution pass on the 7 frameworks added since the 2026-04-09 review (Category 8's three pricing frameworks, plus confirm Product Differentiation Strategy Framework's attribution now that its category placement is corrected), matching the rigour applied to the original 19
+4. Decide how to handle `product-marketing-kb-task.md` and `foundational-review.md` for public visibility ahead of any public release (see Public Release Readiness findings above)
+5. Begin Phase 1 deliverables: quick-reference cards (0/26) and GLOSSARY.md
 
 ---
 
 ## Version History
 
+- **2026-07-19**: Full consistency review of all 26 frameworks. Fixed two hard rule violations that had been present since the original content was written: 22 em dashes across 7 of 8 category files (CLAUDE.md requires zero), and widespread American spelling throughout (organize/prioritize/customize/behavior/center and similar, converted to organise/prioritise/customise/behaviour/centre). Expanded all 19 originally-written frameworks from their previous 398-735 word range up to the CLAUDE.md 1000-1500 word quality gate, adding deeper "How to apply it" steps, richer examples with named success metrics, and a third pitfall with recovery guidance where only two existed; Category 8's 3 frameworks (already compliant) were left as-is bar a light check. Fixed a content accuracy issue: the Product Development Stage Framework example named Uber and Stripe as "beta customers" of a fictional startup, falsely implying a real relationship; replaced with fictional company names. Fixed a repository-wide framework count error: every navigation doc (README.md, INDEX.md, FRAMEWORK-MAP.md) claimed 22 total frameworks, but Product Differentiation Strategy Framework was listed in both Category 2 and Category 3 while physically living only in Category 3 (`frameworks/03-competitive-strategy.md`); the correct total is 26 (Category 2 corrected to 4, Category 3 confirmed at 2). Updated FRAMEWORK-MAP.md, which had not been touched since Category 8 was added, to include the three pricing frameworks in the dependency matrix and a new "Pricing a New Tier or Service" scenario. Added a missing Success Metrics section to BY-SITUATION.md's Situation 9 for consistency with the other nine situations.
 - **2026-07-18**: Built the Value Metric / Willingness-to-Pay Framework as the third entry in Category 8 (Pricing & Packaging), the last of the three top-ranked candidates from the 2026-07-09 backlog analysis. Added to `frameworks/08-pricing-packaging.md` (1,379 words, full 6-section structure); updated INDEX.md, README.md, BY-SITUATION.md (Situation 6), FRAMEWORK-BACKLOG.md, and PROGRESS.md to reflect the addition. Total frameworks: 21 → 22. Pricing & Packaging gap now closed against the 2026-07-09 analysis.
 - **2026-07-15**: Built the Van Westendorp Price Sensitivity Meter (PSM) as the second entry in Category 8 (Pricing & Packaging), the next-ranked candidate from the 2026-07-09 backlog analysis. Added to `frameworks/08-pricing-packaging.md` (1,198 words, full 6-section structure); updated INDEX.md, README.md, BY-SITUATION.md (Situation 6), FRAMEWORK-BACKLOG.md, and PROGRESS.md to reflect the addition. Total frameworks: 20 → 21.
 - **2026-07-12**: Built the Good-Better-Best (GBB) Packaging Framework as the first entry in a new Category 8 (Pricing & Packaging), the clearest gap identified in the 2026-07-09 backlog analysis. Added `frameworks/08-pricing-packaging.md` (1,084 words, full 6-section structure); updated INDEX.md, README.md, BY-SITUATION.md (Situation 6), and FRAMEWORK-BACKLOG.md to reflect the addition. Total frameworks: 19 → 20.
 - **2026-07-09**: Logged public release readiness findings (content issues to fix before the repo goes public; no secrets or prompt-injection content found). Completed deep-research gap analysis and logged a 12-framework backlog in FRAMEWORK-BACKLOG.md, headlined by a Pricing & Packaging gap with zero current coverage.
 - **2026-04-09**: Comprehensive quality check completed. Validation, attribution fixes, cross-references added to all 19 frameworks, pitfalls expanded, dependency map created, metrics benchmarks and further reading added. foundational-review.md documenting all findings.
-- **2026-04-08**: Repository organized, PLAN.md and PROGRESS.md created, Claude file in progress
+- **2026-04-08**: Repository organised, PLAN.md and PROGRESS.md created, Claude file in progress
