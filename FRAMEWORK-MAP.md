@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 19 frameworks relate to each other and the typical workflow sequence for applying them.
+This document shows how the 26 frameworks relate to each other and the typical workflow sequence for applying them.
 
 ---
 
@@ -94,6 +94,15 @@ These coordinate and sequence all other frameworks:
 | **Quarterly PMM** | All above | Budget & resource allocation | Prioritise and sequence work |
 | **PMM Team Scaling** | Quarterly planning + results | Hiring plan | Grow team with business |
 
+### Pricing & Packaging Frameworks (Apply Alongside Go-to-Market)
+Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price once positioning and segments are defined:
+
+| Framework | Prerequisites | Feeds Into | Purpose |
+|-----------|---------------|-----------|---------|
+| **Van Westendorp PSM** | STP | Good-Better-Best Packaging | Find the acceptable price corridor with no existing anchor price |
+| **Value Metric / WTP** | STP + Value Prop Canvas | Good-Better-Best Packaging | Choose what to charge for and confirm persona-level willingness to pay |
+| **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
+
 ---
 
 ## Common Workflow Sequences
@@ -132,6 +141,15 @@ These coordinate and sequence all other frameworks:
 4. **Geoffrey Moore** or **April Dunford** (refine positioning)
 5. **7-Step or 10-Step PMM** (update sales enablement)
 6. **Quarterly PMM** (schedule messaging refresh)
+
+### Scenario 5: Pricing a New Tier or Service
+1. **Value Proposition Canvas** (understand what each segment values)
+2. **STP** (confirm each tier has a distinct target segment)
+3. **Van Westendorp PSM** (find the acceptable price corridor)
+4. **Value Metric / WTP** (choose what to charge for and validate willingness to pay per persona)
+5. **Good-Better-Best Packaging** (structure the tiers and price ladder)
+6. **Bowman's Clock** (check the new tier's price-value position against competitors)
+7. **Quarterly PMM** (resource the launch of the new tier)
 
 ---
 
@@ -185,6 +203,8 @@ These coordinate and sequence all other frameworks:
 ---
 
 ## Version History
+
+**2026-07-19**: Added Category 8 (Pricing & Packaging) to the dependency matrix and a new "Pricing a New Tier or Service" scenario; corrected the framework count to 26 (this map had not been updated since the three Category 8 frameworks were added between 2026-07-12 and 2026-07-18, and the repository-wide total was separately found to have been miscounted at 22 due to Product Differentiation Strategy Framework being double-listed in Category 2 and Category 3; see PROGRESS.md).
 
 **2026-04-09**: Initial framework map created based on 19-framework knowledge base. Includes dependency matrix, common scenarios, and workflow guidance.
 
