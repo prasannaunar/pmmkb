@@ -371,6 +371,12 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Build a playbook that new hires can follow
    - *Do this:* Document how you do positioning, messaging, enablement, measurement
 
+**Success Metrics:**
+- Biggest capacity gap identified and documented (e.g., sales enablement, content, competitive intelligence) ✓
+- First specialised hire onboarded with a documented playbook (time-to-productivity under 6 weeks) ✓
+- New hire's success metrics defined and agreed before their start date ✓
+- Team capacity review scheduled quarterly to catch the next gap early ✓
+
 ---
 
 ## Situation 10: Measuring PMM Impact & ROI
