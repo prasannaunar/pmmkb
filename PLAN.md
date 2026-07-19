@@ -193,7 +193,7 @@ Output: Recommended framework or framework sequence
 **Phase 1 Complete:**
 - [ ] All frameworks have cross-links to related frameworks
 - [ ] BY-SITUATION.md covers 8–10 common situations
-- [ ] Quick-reference cards for all 19 frameworks
+- [ ] Quick-reference cards for all 26 frameworks
 - [ ] Glossary includes 20+ PMM terms
 
 **Phase 2 Complete:**
@@ -250,4 +250,4 @@ Output: Recommended framework or framework sequence
 - This knowledge base is designed to be **referenced during real work, not studied**. When you face a challenge (e.g., "Sales doesn't understand our positioning"), search BY-SITUATION.md or use the decision tree to find the relevant framework, then apply it.
 - **Frameworks are sequences, not standalone.** Most PMM work involves 2–3 frameworks in sequence. Use the cross-links and integration diagrams to understand dependencies.
 - **Update as you go.** When a framework works exceptionally well (or fails), note it. These learnings feed the annual refresh cycle.
-- **Customize for your context.** These frameworks are designed for B2B SaaS but are adaptable. Add your company's context, examples, and metrics as you use them.
+- **Customise for your context.** These frameworks are designed for B2B SaaS but are adaptable. Add your company's context, examples, and metrics as you use them.

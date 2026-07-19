@@ -13,21 +13,21 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 ## Ranked candidates
 
-### 1. Good-Better-Best (GBB) Packaging Framework — ✅ BUILT (2026-07-12)
+### 1. Good-Better-Best (GBB) Packaging Framework: ✅ BUILT (2026-07-12)
 - **Originator:** Standard SaaS practice; most authoritatively documented by Kyle Poyar/OpenView Partners and Price Intelligently/ProfitWell.
 - **What it does:** Structures pricing into three value-ascending tiers that fence features against buyer personas and budget levels.
-- **Home:** New category — Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
+- **Home:** New category, Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
 - **Why it's proven:** De facto default SaaS packaging model (Salesforce, HubSpot, Zoom, Slack); a decade of documented practice.
 - **Status:** Written up and added to the knowledge base as Category 8's first framework. Van Westendorp PSM and Value Metric/WTP remain candidates to round out the category; see open scope questions below.
 
-### 2. Van Westendorp Price Sensitivity Meter (PSM) — ✅ BUILT (2026-07-15)
+### 2. Van Westendorp Price Sensitivity Meter (PSM): ✅ BUILT (2026-07-15)
 - **Originator:** Peter van Westendorp, 1976.
 - **What it does:** Four-question survey method that maps an acceptable price corridor and an indifference price point.
 - **Home:** Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
 - **Why it's proven:** 50 years of continuous use; built into major survey tools; standard first step in SaaS pricing work.
 - **Status:** Written up and added to the knowledge base as Category 8's second framework. Value Metric/WTP remains the strongest remaining candidate to round out the category.
 
-### 3. Value Metric / Willingness-to-Pay Framework — ✅ BUILT (2026-07-18)
+### 3. Value Metric / Willingness-to-Pay Framework: ✅ BUILT (2026-07-18)
 - **Originator:** Patrick Campbell, Price Intelligently/ProfitWell (acquired by Paddle, 2022).
 - **What it does:** Four-step method to set a defensible value metric and price: define personas, survey WTP, plot a value/WTP matrix, align tiers to persona value.
 - **Home:** Pricing & Packaging (`frameworks/08-pricing-packaging.md`).
@@ -74,14 +74,14 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 ### 10. Analyst Relations Tiering & Cadence Model
 - **Originator:** No single author; converged practice documented by a16z, ARInsights, Info-Tech Research Group, Product Marketing Alliance.
 - **What it does:** Segments analysts into Tier 1/2/3 with a quarterly-minimum briefing cadence to build relationship equity ahead of MQ/Wave cycles.
-- **Proposed home:** New category — Analyst Relations. Directly fills the AR gap.
+- **Proposed home:** New category, Analyst Relations. Directly fills the AR gap.
 - **Why it's proven:** Independently converged-upon model across multiple credible sources; weaker on single attribution, ranked lower for that reason.
 
 ### 11. Pragmatic Institute Framework
 - **Originator:** Pragmatic Institute, developed since the 1990s.
 - **What it does:** 37-box, 7-category operating model spanning market understanding through launch and support.
 - **Proposed home:** Category 7, mainly for its Enablement and Business boxes.
-- **Caveat:** Significant overlap with existing 10-Step PMM Process and PMM Lifecycle Management frameworks — evaluate for duplication before adding (CLAUDE.md: "No duplicate concepts under different names").
+- **Caveat:** Significant overlap with existing 10-Step PMM Process and PMM Lifecycle Management frameworks; evaluate for duplication before adding (CLAUDE.md: "No duplicate concepts under different names").
 - **Why it's proven:** Used by 8,000+ companies, 140+ Fortune 500 firms; 30-year training/certification history.
 
 ### 12. Sean Ellis 40% Test (PMF Survey)
@@ -97,9 +97,9 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 | # | Framework | Proposed category | Gap filled |
 |---|---|---|---|
-| 1 | Good-Better-Best Packaging | ✅ Built — Pricing & Packaging | Pricing |
-| 2 | Van Westendorp PSM | ✅ Built — Pricing & Packaging | Pricing |
-| 3 | Value Metric / WTP (Campbell) | ✅ Built — Pricing & Packaging | Pricing |
+| 1 | Good-Better-Best Packaging | ✅ Built (Pricing & Packaging) | Pricing |
+| 2 | Van Westendorp PSM | ✅ Built (Pricing & Packaging) | Pricing |
+| 3 | Value Metric / WTP (Campbell) | ✅ Built (Pricing & Packaging) | Pricing |
 | 4 | StoryBrand SB7 | Cat 2 (or new Brand Narrative) | Brand storytelling |
 | 5 | MEDDIC/MEDDPICC | Cat 4/5 (sales-support framing) | Sales enablement |
 | 6 | Category Design (Play Bigger) | Cat 3 (or new Category Creation) | Category creation |
@@ -114,7 +114,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 ## Open scope questions for the team
 
-1. **New categories:** Adding Pricing & Packaging alone would justify an 8th category file. Analyst Relations, Customer Advocacy, and Category Creation are each thin (1 framework candidate apiece) — worth bundling into existing categories rather than creating single-framework category files.
+1. **New categories:** Adding Pricing & Packaging alone would justify an 8th category file. Analyst Relations, Customer Advocacy, and Category Creation are each thin (1 framework candidate apiece); worth bundling into existing categories rather than creating single-framework category files.
 2. **Sales/product-owned frameworks:** MEDDIC/MEDDPICC and the Sean Ellis 40% Test belong to adjacent disciplines. Decide whether to include with an explicit "PMM's supporting role" framing or exclude as out-of-scope for a PMM-specific KB.
 3. **Duplication risk:** Pragmatic Institute Framework overlaps heavily with the existing 10-Step PMM Process and PMM Lifecycle Management frameworks. Per the "no duplicate concepts" rule, this likely needs to be narrowed to just its pricing/enablement contribution, or dropped.
 4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established; all three are now built, closing out the category's identified gap.
