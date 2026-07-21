@@ -40,6 +40,24 @@ Each framework entry must include (in order):
 5. **Example** (realistic, specific scenario; named company or detailed context, not generic)
 6. **Pitfalls** (2–3 common mistakes with explanation)
 
+### Content Types
+
+The knowledge base began as a collection of frameworks. As it grows it also holds methodologies, models, and primers. Every entry declares one **Type** on a `**Type:**` line directly under its H2 title. The four types are:
+
+- **Framework:** a structured model or template you apply to a specific decision or artefact, with a clear input and output. Examples: STP, Value Proposition Canvas, Good-Better-Best.
+- **Methodology:** a repeatable practice or process you run over time (continuously or as a project), often with cadence, roles, and iteration. Examples: Win/Loss Analysis, Voice of the Customer, conjoint analysis.
+- **Model:** a descriptive map or taxonomy that helps you classify a situation rather than produce an artefact. Examples: Kano Model, GTM Motion Model, a maturity model.
+- **Primer:** an explainer that builds understanding but is not something you "apply". Example: a "GTM strategy vs product marketing" explainer.
+
+Each type uses its own section order:
+
+- **Framework:** What it is → When to use it → How to apply it → Example → Pitfalls → See also.
+- **Methodology:** What it is → When to use it → **How to run it** → **Cadence & ownership** → **Maturity stages** (optional) → Example → Pitfalls → See also.
+- **Model:** What it is → When to use it → **How to read it** → How to apply it → Example → Pitfalls → See also.
+- **Primer:** What it is → Why it matters → **Key distinctions** → **Where PMM fits** → See also. No "How to apply it" and no Example/Pitfalls required.
+
+Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. See [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) for the full rationale and the roadmap of candidate additions.
+
 ### Language Guidelines
 
 - **Clarity over complexity.** Use simple words. Define jargon on first use.
@@ -163,8 +181,10 @@ Each framework entry must include (in order):
 - [ ] Example is specific (not generic) and realistic
 - [ ] Pitfalls are actionable (not just "watch out"; include recovery steps)
 - [ ] At least 2 cross-references to related frameworks
-- [ ] Word count is 1000–1500 words per framework
+- [ ] Word count is 1000–1500 words per framework (500–1000 for primers)
 - [ ] Metrics and numbers are specific, not vague
+- [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
+- [ ] **Cross-doc consistency checklist run** when an entry is added or retagged: category file, INDEX.md (with Type), README.md (summary table and headline count/breakdown), FRAMEWORK-MAP.md (dependencies and any new scenario), BY-SITUATION.md (if it maps to a situation), PROGRESS.md (version history and metrics), and the candidate marked built in ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md
 
 ### Before Publishing Templates
 
