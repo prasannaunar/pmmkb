@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 26 frameworks relate to each other and the typical workflow sequence for applying them.
+This document shows how the 28 entries relate to each other and the typical workflow sequence for applying them.
 
 ---
 
@@ -47,6 +47,7 @@ These build on STP to define what you stand for:
 | **April Dunford** | STP | Product Differentiation | Attribute-based positioning |
 | **JTBD** | STP | Value Prop Canvas | Customer outcome-based positioning |
 | **Value Prop Canvas** | STP + (one of above) | Messaging frameworks | Map value to customer needs |
+| **Message Architecture (Messaging House)** | A validated positioning statement (Geoffrey Moore or April Dunford) | GTM execution, sales enablement, all campaign copy | Turn positioning into a copy hierarchy every asset writes from |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -85,6 +86,7 @@ These provide feedback loops to refine all prior work:
 | **Win/Loss** | Sales + Positioning | Quarterly Planning | Validate positioning effectiveness |
 | **NPS** | Customer base | Quarterly Planning | Measure satisfaction & identify gaps |
 | **Competitive Intelligence** | Positioning + Competitive set | Quarterly Planning | Track competitor moves |
+| **Voice of the Customer (VoC) Programme** | Customer base + instrumented signal sources (surveys, tickets, calls, reviews, churn) | STP refresh, Positioning, Message Architecture, Roadmap, Quarterly Planning | Continuously synthesise customer signal into decisions; the system that connects Win/Loss and NPS |
 
 ### Strategy & Planning Frameworks (Orchestrate All)
 These coordinate and sequence all other frameworks:
@@ -112,11 +114,12 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 2. **STP** (validate market/segment)
 3. **Geoffrey Moore** or **April Dunford** (positioning)
 4. **Value Prop Canvas** (map to segment needs)
-5. **Complete GTM Workflow** (phases)
-6. **GTM Motion** (coordinated launch)
-7. **Feature Adoption** (drive early usage)
-8. **Win/Loss** (validate message resonance)
-9. **Quarterly PMM** (refine Q2)
+5. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
+6. **Complete GTM Workflow** (phases)
+7. **GTM Motion** (coordinated launch)
+8. **Feature Adoption** (drive early usage)
+9. **Win/Loss** (validate message resonance)
+10. **Quarterly PMM** (refine Q2)
 
 ### Scenario 2: Repositioning for New Segment
 1. **STP** (validate segment)
@@ -172,7 +175,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 - **Win/Loss** → Messaging validation
 - **NPS** → Product/support/messaging gaps
 - **Competitive Intelligence** → Positioning refresh
-- All three → Quarterly PMM Planning
+- **Voice of the Customer (VoC) Programme** → the system that connects Win/Loss, NPS, and support/sales signal into a single synthesis
+- All four → Quarterly PMM Planning
 
 **Lifecycle and Activation** frameworks work together:
 - **PMM Lifecycle** defines what to message when
@@ -203,6 +207,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-21**: Added the first two ENRICHMENT-PLAN.md builds to the map. Message Architecture (Messaging House) joins the positioning frameworks (prerequisite: a validated positioning statement; feeds GTM execution and sales enablement) and is now step 5 of the New Product Launch scenario. The Voice of the Customer (VoC) Programme joins the measurement and optimisation frameworks as the system that connects Win/Loss and NPS. Entry count updated 26 → 28.
 
 **2026-07-19**: Added Category 8 (Pricing & Packaging) to the dependency matrix and a new "Pricing a New Tier or Service" scenario; corrected the framework count to 26 (this map had not been updated since the three Category 8 frameworks were added between 2026-07-12 and 2026-07-18, and the repository-wide total was separately found to have been miscounted at 22 due to Product Differentiation Strategy Framework being double-listed in Category 2 and Category 3; see PROGRESS.md).
 

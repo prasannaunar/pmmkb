@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base
 
-A structured, practical reference guide of product marketing frameworks; organised by workflow stage and indexed by situation. Designed for product marketing professionals to apply proven frameworks to day-to-day challenges.
+A structured, practical reference guide of product marketing frameworks and methodologies; organised by workflow stage and indexed by situation. Designed for product marketing professionals to apply proven frameworks to day-to-day challenges.
 
 ---
 
@@ -22,14 +22,14 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 26 Frameworks Across 8 Categories
+### 28 Entries Across 8 Categories
 
-This knowledge base contains 26 proven product marketing frameworks, organised by where they apply in the product marketing workflow.
+This knowledge base contains 28 proven product marketing entries (27 frameworks and 1 methodology), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
-| # | Category | Frameworks | File |
+| # | Category | Entries | File |
 |---|----------|-----------|------|
-| 1 | Market & Customer Understanding | 3 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 4 | `frameworks/02-positioning-messaging.md` |
+| 1 | Market & Customer Understanding | 4 | `frameworks/01-market-customer-understanding.md` |
+| 2 | Positioning & Messaging | 5 | `frameworks/02-positioning-messaging.md` |
 | 3 | Competitive Strategy | 2 | `frameworks/03-competitive-strategy.md` |
 | 4 | Go-to-Market & Launch | 5 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
@@ -95,7 +95,7 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 26 frameworks with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 28 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)**: 5-phase roadmap for polishing and integrating frameworks into day-to-day work
@@ -154,10 +154,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Value Metric / Willingness-to-Pay Framework Added to Category 8:** 2026-07-18
 - **Consistency Review (British English, em dash removal, word count compliance, framework count correction):** 2026-07-19
 - **Enrichment Plan (further framework and methodology candidates; methodology documentation standard):** 2026-07-21
+- **Message Architecture (Messaging House) Added to Category 2 and Voice of the Customer Programme Added to Category 1 (first two ENRICHMENT-PLAN.md builds):** 2026-07-21
 - **Last Updated:** 2026-07-21
-- **Total Frameworks:** 26 (all validated and cross-linked); 28 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 19 from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining framework backlog awaiting team review before further expansion
+- **Total entries:** 28 (27 frameworks and 1 methodology, all cross-linked; the two 2026-07-21 additions still need a source-validation pass); 26 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 17 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining enrichment and backlog queues approved and being built top-down from the "High" batch
 
 ---
 
