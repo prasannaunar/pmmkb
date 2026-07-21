@@ -2,6 +2,7 @@
 
 **Logged:** 2026-07-09
 **Status:** Proposed only. Per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"), none of these should be written up until the team confirms the gap and approves the addition.
+**See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) proposes a further set of candidates with an emphasis on *methodologies*, and a plan for documenting methodologies consistently in this framework-first KB. It does not repeat the candidates below. Once the first batch is built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
 
 ---
 
