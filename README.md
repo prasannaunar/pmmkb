@@ -102,7 +102,7 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 - **[PROGRESS.md](PROGRESS.md)**: Progress tracking, completed work, and development status
 - **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
 - **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis, pending team review (NEW: 2026-07-09)
-- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Roadmap of further candidate frameworks and methodologies to add, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
+- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies to add, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
 
@@ -155,7 +155,7 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Consistency Review (British English, em dash removal, word count compliance, framework count correction):** 2026-07-19
 - **Enrichment Plan (further framework and methodology candidates; methodology documentation standard):** 2026-07-21
 - **Last Updated:** 2026-07-21
-- **Total Frameworks:** 26 (all validated and cross-linked); 9 candidates from the 2026-07-09 gap analysis plus a further set of framework and methodology candidates pending review (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **Total Frameworks:** 26 (all validated and cross-linked); 9 candidates from the 2026-07-09 gap analysis pending review, plus 19 further frameworks and methodologies approved to build (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
 - **New Additions:** `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
 - **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining framework backlog awaiting team review before further expansion
 
