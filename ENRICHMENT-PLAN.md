@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Proposal for the next build sessions. Nothing here is built yet. This document is the pick-up point; a future session should start here, choose a candidate, and build it out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. Nothing here is built yet; this document is the pick-up point. A future session should start here, work through the candidates in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -199,11 +199,13 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A16 | Usage-Based Pricing Model | Model | Cat 8 | Lower | Consumption pricing |
 | A19 | Sales Enablement Maturity Model | Model | new Sales Enablement | Lower | Enablement diagnosis |
 
-**Recommended first batch (the five "High" candidates):** Message Architecture, Competitive Battlecard, Voice of the Customer Programme, Dunford 10-Step Positioning Process, and the GTM vs PMM primer. Together these fill the most-cited gaps, exercise every new content type (Framework, Methodology, Model implied, and Primer), and force the documentation changes in Part B to be proven before the collection grows further.
+All 19 candidates will be built. The priority column sets the order of work, not whether an entry is included; "Lower" means "build later", not "maybe". Work top-down from the "High" batch.
 
-**Possible new categories** (only if two or more entries in a theme are approved, per the backlog's own guidance against single-entry category files):
-- **Sales Enablement** (A17, A18, A19): the strongest case for a new Category 9.
-- **Voice of the Customer:** only if VoC (A6), the Switch interview (A7), and a customer advisory board method are all pursued; otherwise fold into Category 1.
+**First batch (the five "High" candidates):** Message Architecture, Competitive Battlecard, Voice of the Customer Programme, Dunford 10-Step Positioning Process, and the GTM vs PMM primer. Together these fill the most-cited gaps, exercise every new content type (Framework, Methodology, Model, and Primer), and prove the documentation changes in Part B before the collection grows further.
+
+**New categories to stand up as their entries are built:**
+- **Sales Enablement** (a new Category 9) to house A17, A18, and A19.
+- **Voice of the Customer** stays inside Category 1 (Market & Customer Understanding); A6 and A7 are tagged there rather than given a single-theme category, consistent with the guidance against thin category files.
 
 ---
 
@@ -282,11 +284,11 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 
 ## How a future session should use this document
 
-1. **Do Part B first (or alongside).** Add the content-type vocabulary and templates to CLAUDE.md before building an entry, so the first methodology is written to a documented standard rather than inventing one.
-2. **Pick from the "High" priority batch** in the Part A summary table unless the team has redirected priorities.
+1. **Do Part B first (or alongside).** Add the content-type vocabulary and templates to CLAUDE.md before building an entry, so the first methodology is written to a documented standard rather than inventing one. (The four-type vocabulary and templates are already in CLAUDE.md as of 2026-07-21; verify and extend as needed.)
+2. **Build in priority order, starting with the "High" batch** in the Part A summary table. Every candidate is in scope; the priority column is the sequence, not a filter.
 3. **Resolve the overlap/scope note** for that candidate before writing (several candidates deliberately sit next to an existing entry and must be differentiated, not duplicated, per CLAUDE.md).
 4. **Write to the correct template for the type**, hit the word-count gate, British English, no em dashes.
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-All additions remain subject to the CLAUDE.md rule that new entries are built only once the team confirms the gap. This plan is the menu; it is not standing authorisation to build everything on it.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. This plan is the build queue, worked top-down from the "High" batch, until every entry is built.
