@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-19 (consistency review: framework count corrected to 26, British English and em dash cleanup, all frameworks expanded to the 1000-1500 word quality gate)
+**Last Updated:** 2026-07-21 (built the first two ENRICHMENT-PLAN.md candidates: Message Architecture in Category 2 and the Voice of the Customer Programme in Category 1; total 26 → 28 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -11,6 +11,7 @@
 | Segmentation–Targeting–Positioning (STP) Framework | Strategic approach defining target segments, positioning within those segments, and translating into pricing and messaging strategies |
 | Complete Product Experience Framework | Seven-touchpoint framework ensuring positioning is reinforced across marketing, sales, technology, support, and other customer touchpoints |
 | Product Development Stage Framework | Process for conducting market research, developing roadmaps, and establishing positioning during product development |
+| Voice of the Customer (VoC) Programme | **Methodology.** Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
 
 ---
 
@@ -22,6 +23,7 @@
 | April Dunford's 5-Component Positioning Canvas | Framework emphasising customer context through competitive alternatives, features, value, target market, and market category |
 | Jobs-to-be-Done Positioning Framework | Positions products around the "job" customers are trying to accomplish, focusing on functional, emotional, and social dimensions |
 | Value Proposition Canvas | Tool for identifying what customers value and translating insights into relative market position and pricing choices |
+| Message Architecture (Messaging House) | **Framework.** Hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each, as the single source of truth all go-to-market assets write from |
 
 ---
 
@@ -94,15 +96,15 @@
 
 ## Structure Notes
 
-- **Total Frameworks:** 26
-- **Categories:** 8 (Category 8 added 2026-07-12; 3 frameworks now, more pending team review; see FRAMEWORK-BACKLOG.md)
-- **Frameworks per Category:** 2–5
-- **Cross-listed frameworks:** 0 (each framework in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
+- **Total entries:** 28 (27 frameworks and 1 methodology; the Voice of the Customer Programme is the first entry formally tagged Methodology. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Categories:** 8 (Category 8 added 2026-07-12; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
+- **Entries per Category:** 2–5
+- **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 3 frameworks (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 4 frameworks (`frameworks/02-positioning-messaging.md`)
+✅ **Category 1 (Market & Customer Understanding):** 4 entries (`frameworks/01-market-customer-understanding.md`)
+✅ **Category 2 (Positioning & Messaging):** 5 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 2 frameworks (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 5 frameworks (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks (`frameworks/05-lifecycle-workflow.md`)

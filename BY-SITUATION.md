@@ -152,23 +152,27 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Interview recent churners to understand the root cause
    - *Do this second:* Was it unmet expectations? Competitor? Poor onboarding? Missing features?
 
-3. **Customer Onboarding Maturity Framework** (`Category 6`)
+3. **Voice of the Customer (VoC) Programme** (`Category 1`)
+   - *Why:* Connect NPS, churn-survey verbatims, support tickets, and sales calls into one synthesis so the recurring churn driver that no single team can see becomes visible and sized by frequency and revenue
+   - *Do this third:* Stand up (or run a focused cycle of) the programme to find the pattern behind the churn, not just individual anecdotes
+
+4. **Customer Onboarding Maturity Framework** (`Category 6`)
    - *Why:* Analyse if customers are getting stuck during onboarding
    - *Do this if:* Early-tenure churn is the problem (customers leaving in first 3 months)
 
-4. **Feature Adoption Framework** (`Category 5`)
+5. **Feature Adoption Framework** (`Category 5`)
    - *Why:* Analyse if customers are using the full value of the product
    - *Do this if:* Customers leave despite using the product initially
 
-5. **Complete Product Experience Framework** (`Category 1`)
+6. **Complete Product Experience Framework** (`Category 1`)
    - *Why:* Identify misalignment between what you promise (in marketing, sales) and what customers experience
    - *Do this if:* Churn indicates expectation-setting issues
 
-6. **PMM Lifecycle Management Framework** (`Category 5`)
+7. **PMM Lifecycle Management Framework** (`Category 5`)
    - *Why:* Redesign messaging and engagement across the customer lifecycle
    - *Do this:* Ensure you're actively driving adoption, expansion, and advocacy; not just acquisition
 
-7. **Product Differentiation Strategy Framework** (`Category 3`)
+8. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* If churn is due to competition, refine what makes you defensibly different
    - *Do this if:* Customers are leaving for competitors, not just churning outright
 
@@ -333,15 +337,19 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Rebuild consensus on one clear positioning statement
    - *Do this second:* Get marketing, sales, and product aligned on one message
 
-3. **Win / Loss Analysis Framework** (`Category 6`)
+3. **Message Architecture (Messaging House)** (`Category 2`)
+   - *Why:* Turn the agreed positioning into one shared hierarchy (core message, value pillars, proof points) so every team writes from the same source of truth
+   - *Do this third:* Publish the house as the single reference before anyone rebuilds a deck or page; this is the specific fix for teams telling four different stories
+
+4. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Understand how misalignment is affecting customer decisions
    - *Do this parallel:* Interview customers to understand the impact
 
-4. **10-Step PMM Process (Steps 4–5)** (`Category 4`)
-   - *Why:* Rebuild message architecture and collateral from the consensus positioning
-   - *Do this:* Create collateral that sales can trust and use
+5. **10-Step PMM Process (Steps 4–5)** (`Category 4`)
+   - *Why:* Rebuild collateral from the message architecture
+   - *Do this:* Create collateral that sales can trust and use, all traceable to the messaging house
 
-5. **Quarterly PMM Planning Framework** (`Category 7`)
+6. **Quarterly PMM Planning Framework** (`Category 7`)
    - *Why:* Plan the alignment work with explicit milestones and deadlines
    - *Do this:* Make alignment a top-priority OKR for the quarter
 
