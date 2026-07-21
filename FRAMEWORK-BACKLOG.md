@@ -1,8 +1,8 @@
 # Framework Backlog: Candidates for Future Addition
 
 **Logged:** 2026-07-09
-**Status:** Proposed only. Per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"), none of these should be written up until the team confirms the gap and approves the addition.
-**See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) is a separate, **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It does not repeat the candidates below (those remain a proposal pending team review). Once the enrichment batch is built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
+**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Three are already built (GBB, Van Westendorp PSM, Value Metric/WTP); the other nine are queued. Three carry a build *condition* rather than a blocker: MEDDIC/MEDDPICC and the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (they are sales/product-owned methodologies), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
+**See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) is a companion **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It does not repeat the candidates below. Both queues are now approved; once they are built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
 
 ---
 
@@ -113,13 +113,15 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 ---
 
-## Open scope questions for the team
+## Scope questions: resolved (2026-07-21)
 
-1. **New categories:** Adding Pricing & Packaging alone would justify an 8th category file. Analyst Relations, Customer Advocacy, and Category Creation are each thin (1 framework candidate apiece); worth bundling into existing categories rather than creating single-framework category files.
-2. **Sales/product-owned frameworks:** MEDDIC/MEDDPICC and the Sean Ellis 40% Test belong to adjacent disciplines. Decide whether to include with an explicit "PMM's supporting role" framing or exclude as out-of-scope for a PMM-specific KB.
-3. **Duplication risk:** Pragmatic Institute Framework overlaps heavily with the existing 10-Step PMM Process and PMM Lifecycle Management frameworks. Per the "no duplicate concepts" rule, this likely needs to be narrowed to just its pricing/enablement contribution, or dropped.
-4. **Pricing & Packaging is the clearest gap.** All three top-ranked candidates (GBB, Van Westendorp, Value Metric/WTP) sit here and are independently well-established; all three are now built, closing out the category's identified gap.
+The four open questions are now settled as build decisions:
+
+1. **New categories:** Analyst Relations, Customer Advocacy, and Category Creation each have one candidate here. Rather than single-entry category files, build each into the nearest existing category, tagged by type: Category Design into Category 3 (Competitive Strategy), Forrester Customer Advocacy into Category 6, and Analyst Relations Tiering into Category 7 (Strategy & Planning). Revisit a dedicated category only if a theme later grows to two or more entries. (Sales Enablement does cross that threshold via ENRICHMENT-PLAN.md and gets a new Category 9 there.)
+2. **Sales/product-owned frameworks:** Include MEDDIC/MEDDPICC and the Sean Ellis 40% Test, each written with an explicit "PMM's supporting role" framing (what PMM authors and owns versus what sales or product owns). This is a build condition, not a blocker.
+3. **Duplication risk:** Build the Pragmatic Institute Framework narrowed to its non-overlapping contribution (its enablement and business boxes), explicitly cross-referencing the 10-Step PMM Process and PMM Lifecycle Management rather than restating them, to satisfy the "no duplicate concepts" rule.
+4. **Pricing & Packaging** is complete; all three candidates are built.
 
 ## Next step
 
-Pricing & Packaging (Category 8) is now complete against the 2026-07-09 gap analysis. The remaining 9 candidates are still a proposal for team review, not an action queue, per CLAUDE.md ("Add new frameworks only if a gap is identified by the team"). Once the team confirms which candidates to pursue next, follow the existing framework-writing process (CLAUDE.md structure: What it is / When to use it / How to apply it / Example / Pitfalls, 1000–1500 words, British English, cross-referenced).
+All remaining candidates are approved to build. Work through the nine queued entries following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the three build conditions in items 2 and 3 above. Sequence this queue alongside the ENRICHMENT-PLAN.md queue; the enrichment plan's "High" batch is the recommended starting point, after which the two queues can be interleaved by theme.

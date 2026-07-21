@@ -155,7 +155,7 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Consistency Review (British English, em dash removal, word count compliance, framework count correction):** 2026-07-19
 - **Enrichment Plan (further framework and methodology candidates; methodology documentation standard):** 2026-07-21
 - **Last Updated:** 2026-07-21
-- **Total Frameworks:** 26 (all validated and cross-linked); 9 candidates from the 2026-07-09 gap analysis pending review, plus 19 further frameworks and methodologies approved to build (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **Total Frameworks:** 26 (all validated and cross-linked); 28 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 19 from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
 - **New Additions:** `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
 - **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining framework backlog awaiting team review before further expansion
 
