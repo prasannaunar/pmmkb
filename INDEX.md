@@ -116,3 +116,4 @@
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21)
