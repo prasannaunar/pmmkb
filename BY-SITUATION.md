@@ -60,27 +60,31 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Segment the new market and choose your initial target within it
    - *Do this second:* Decide which customer archetype is your beachhead
 
-3. **April Dunford's 5-Component Positioning Canvas** (`Category 2`)
-   - *Why:* Test multiple positioning hypotheses for the new segment
-   - *Do this third:* Validate that your current positioning works or refine it for the segment
+3. **Dunford's 10-Step Positioning Process** (`Category 2`)
+   - *Why:* Run the research and validation steps (best-fit customers, true competitive alternatives, unique attributes) needed to write positioning that is evidenced, not assumed, for a segment you don't yet know well
+   - *Do this third, alongside step 4 below:* Feed the result into the 5-Component Positioning Canvas
 
-4. **Jobs-to-be-Done Positioning Framework** (`Category 2`)
+4. **April Dunford's 5-Component Positioning Canvas** (`Category 2`)
+   - *Why:* Test multiple positioning hypotheses for the new segment
+   - *Do this fourth:* Validate that your current positioning works or refine it for the segment
+
+5. **Jobs-to-be-Done Positioning Framework** (`Category 2`)
    - *Why:* Understand what "job" customers in this segment are trying to do
    - *Do this parallel:* Use JTBD to sense-check your positioning hypothesis
 
-5. **Bowman's Strategic Clock** (`Category 3`)
+6. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Map competitive positions in the new market and choose your strategy
    - *Do this:* Identify white space in the competitive landscape
 
-6. **Complete GTM Workflow Stages** (`Category 4`)
+7. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Plan the phases for entering this market (foundation, launch, scale)
    - *Do this parallel:* Build launch plan in tandem with positioning validation
 
-7. **3-Step Product Marketing Strategy Framework** (`Category 4`)
+8. **3-Step Product Marketing Strategy Framework** (`Category 4`)
    - *Why:* If this is a bootstrapped entry, simplify to core research, positioning, execution
    - *Do this if under-resourced:* Focus ruthlessly on what's essential
 
-8. **Win / Loss Analysis Framework** (`Category 6`)
+9. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* After initial launch, analyse deals to understand why you're winning or losing
    - *Do this after 3–6 months:* Iterate positioning based on real market feedback
 
@@ -122,11 +126,15 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Test positioning that makes competitors irrelevant or positions them as the status quo
    - *Do this:* Validate that your differentiation strategy resonates
 
-7. **10-Step PMM Process** (`Category 4`)
-   - *Why:* Build a complete competitive battlecard and sales enablement programme
+7. **Competitive Battlecard Framework** (`Category 3`)
+   - *Why:* Turn the differentiation and positioning above into a one-page field tool sales can use live in a deal against the named incumbent
+   - *Do this:* Build the card around the incumbent's actual pitch, not an assumption of it, and role-play it with reps before rollout
+
+8. **10-Step PMM Process** (`Category 4`)
+   - *Why:* Build the wider competitive sales enablement programme the battlecard sits inside
    - *Do this:* Equip sales with specific competitor responses and differentiation scripts
 
-8. **Win / Loss Analysis Framework** (`Category 6`)
+9. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Analyse why you're winning against incumbents and losing to others
    - *Do this monthly:* Refine messaging based on what's working in market
 
@@ -212,13 +220,17 @@ Map your current challenge to the frameworks that will help you solve it.
 
 6. **Competitive Intelligence & Positioning Update Framework** (`Category 7`)
    - *Why:* Research competitor positioning and messaging specific to this segment
-   - *Do this:* Build segment-specific battle cards
+   - *Do this:* Feed findings into the segment-specific battlecards built next
 
-7. **10-Step PMM Process (Steps 4–7)** (`Category 4`)
+7. **Competitive Battlecard Framework** (`Category 3`)
+   - *Why:* Build the one-page field tool for each named competitor sales meets in this segment
+   - *Do this:* Role-play the card with reps before it goes live in the segment's deals
+
+8. **10-Step PMM Process (Steps 4–7)** (`Category 4`)
    - *Why:* Build segment-specific message architecture, collateral, and sales enablement
-   - *Do this:* Create one-pagers, battle cards, demo script, FAQs for the segment
+   - *Do this:* Create one-pagers, demo script, and FAQs for the segment, with battlecards already in hand
 
-8. **Quarterly PMM Planning Framework** (`Category 7`)
+9. **Quarterly PMM Planning Framework** (`Category 7`)
    - *Why:* Plan and resource the enablement work for the quarter
    - *Do this:* Set realistic targets for sales training, collateral creation, measurement
 
