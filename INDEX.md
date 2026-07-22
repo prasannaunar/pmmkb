@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-22 (completed the ENRICHMENT-PLAN.md "High" batch and opened the first "Medium" candidate: the GTM Strategy vs Product Marketing primer in the new `concepts/` area and the GTM Motion Model in Category 4; total 30 → 32 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-22 (built the seventh and eighth ENRICHMENT-PLAN.md candidates, the next two "Medium" priority items: the JTBD Switch Interview Method in Category 1 and Product-Led Growth in Category 4; total 32 → 34 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -12,6 +12,7 @@
 | Complete Product Experience Framework | Seven-touchpoint framework ensuring positioning is reinforced across marketing, sales, technology, support, and other customer touchpoints |
 | Product Development Stage Framework | Process for conducting market research, developing roadmaps, and establishing positioning during product development |
 | Voice of the Customer (VoC) Programme | **Methodology.** Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
+| JTBD Switch Interview Method | **Methodology.** Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
 
 ---
 
@@ -48,6 +49,7 @@
 | Complete GTM Workflow Stages | Sequential workflow: Audience definition → Positioning → Channel planning → Enablement → Launch execution → Feedback & iteration |
 | T2D3 Framework (B2B SaaS) | Go-to-market methodology for B2B SaaS scaling: Triple, Triple, Double, Double, Double revenue growth trajectory |
 | GTM Motion Model | **Model.** Taxonomy of the five ways a company acquires and expands customers (self-serve, PLG, inside sales, field sales, partner-channel), plotted by deal size and buyer complexity, used to select the motion a launch or GTM plan is built for before sequencing it |
+| Product-Led Growth (PLG) | **Methodology.** The ongoing practice of running the PLG motion identified by the GTM Motion Model: defining an activation moment, instrumenting product-qualified lead signals, and building in-product upgrade paths that convert self-serve users without a sales conversation |
 
 ---
 
@@ -107,17 +109,17 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 32 (28 frameworks, 2 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 34 (28 frameworks, 4 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
-- **Entries per Category:** 2–6
+- **Entries per Category:** 2–7
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 4 entries (`frameworks/01-market-customer-understanding.md`)
+✅ **Category 1 (Market & Customer Understanding):** 5 entries (`frameworks/01-market-customer-understanding.md`)
 ✅ **Category 2 (Positioning & Messaging):** 6 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
-✅ **Category 4 (Go-to-Market & Launch):** 6 entries (`frameworks/04-go-to-market-launch.md`)
+✅ **Category 4 (Go-to-Market & Launch):** 7 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 3 frameworks (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
@@ -130,4 +132,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 6 of 19 candidates built as of 2026-07-22)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 8 of 19 candidates built as of 2026-07-22)
