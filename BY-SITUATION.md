@@ -30,6 +30,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Confirm which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) this launch is actually built for, before the launch plan and collateral are built around the wrong one
    - *Do this fifth:* Plot ACV and buyer complexity for the target segment and match to a motion before sequencing the launch
 
+5a. **Product-Led Growth** (`Category 4`); *if the motion selected above is self-serve or PLG*
+   - *Why:* Build the activation moment, product-qualified lead signals, and in-product upgrade path this launch's self-serve funnel depends on
+   - *Do this alongside step 6:* Instrument activation and PQL tracking before launch traffic arrives, not after conversion looks weak
+
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
    - *Do this parallel:* Run launch planning in parallel with positioning work
@@ -79,6 +83,10 @@ Map your current challenge to the frameworks that will help you solve it.
 6. **Jobs-to-be-Done Positioning Framework** (`Category 2`)
    - *Why:* Understand what "job" customers in this segment are trying to do
    - *Do this parallel:* Use JTBD to sense-check your positioning hypothesis
+
+6a. **JTBD Switch Interview Method** (`Category 1`)
+   - *Why:* You do not yet know this segment well; ten switch interviews with recent buyers surfaces the real triggering event behind a purchase, not an assumed one
+   - *Do this alongside step 6:* Interview customers who switched to you in the last 1-3 months, walking backwards from the purchase moment
 
 7. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Map competitive positions in the new market and choose your strategy
