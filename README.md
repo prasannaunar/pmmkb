@@ -22,20 +22,21 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 30 Entries Across 8 Categories
+### 32 Entries Across 8 Categories, Plus a Concepts Area
 
-This knowledge base contains 30 proven product marketing entries (28 frameworks and 2 methodologies), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
+This knowledge base contains 32 proven product marketing entries (28 frameworks, 2 methodologies, 1 model, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 4 | `frameworks/01-market-customer-understanding.md` |
 | 2 | Positioning & Messaging | 6 | `frameworks/02-positioning-messaging.md` |
 | 3 | Competitive Strategy | 3 | `frameworks/03-competitive-strategy.md` |
-| 4 | Go-to-Market & Launch | 5 | `frameworks/04-go-to-market-launch.md` |
+| 4 | Go-to-Market & Launch | 6 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 3 | `frameworks/06-product-experience-adoption.md` |
 | 7 | Strategy & Planning | 3 | `frameworks/07-strategy-planning.md` |
 | 8 | Pricing & Packaging | 3 | `frameworks/08-pricing-packaging.md` |
+| — | Concepts (primers; not applyable, so not a workflow category) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 
 See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 
@@ -79,17 +80,19 @@ See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 
 ---
 
-## Each Framework Includes
+## Each Entry Includes
 
-**Six standard sections:**
+**Frameworks** follow six standard sections:
 1. **What it is**: A clear explanation of the framework
 2. **When to use it**: Specific triggers and contexts for application
 3. **How to apply it**: Step-by-step instructions detailed enough to follow
 4. **Example**: A realistic, specific scenario showing the framework in action
 5. **Pitfalls**: Common mistakes and how to avoid or recover from them
-6. **See also**: Cross-references to related frameworks (coming soon)
+6. **See also**: Cross-references to related frameworks
 
-Every framework is designed to be **read standalone**, but frameworks often build on one another. See cross-references to understand dependencies.
+**Methodologies, Models, and Primers** follow their own section template, since a repeatable practice, a taxonomy, and an explainer each need a different shape than a framework's "apply it once" structure. See [CLAUDE.md](CLAUDE.md)'s Content Types section for all four templates.
+
+Every entry is designed to be **read standalone**, but entries often build on one another. See cross-references to understand dependencies.
 
 ---
 
@@ -103,6 +106,7 @@ Every framework is designed to be **read standalone**, but frameworks often buil
 - **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
 - **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis, pending team review (NEW: 2026-07-09)
 - **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies to add, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
+- **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
 
@@ -156,10 +160,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Enrichment Plan (further framework and methodology candidates; methodology documentation standard):** 2026-07-21
 - **Message Architecture (Messaging House) Added to Category 2 and Voice of the Customer Programme Added to Category 1 (first two ENRICHMENT-PLAN.md builds):** 2026-07-21
 - **Competitive Battlecard Framework Added to Category 3 and Dunford's 10-Step Positioning Process Added to Category 2 (third and fourth ENRICHMENT-PLAN.md builds, completing the "High" batch bar the GTM vs PMM primer):** 2026-07-22
+- **GTM Strategy vs Product Marketing Primer Added to the new concepts/ area and GTM Motion Model Added to Category 4 (fifth and sixth ENRICHMENT-PLAN.md builds, completing the "High" batch and opening the "Medium" batch):** 2026-07-22
 - **Last Updated:** 2026-07-22
-- **Total entries:** 30 (28 frameworks and 2 methodologies, all cross-linked; the four 2026-07-21/22 additions still need a source-validation pass); 24 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 15 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining enrichment and backlog queues approved and being built top-down from the "High" batch
+- **Total entries:** 32 (28 frameworks, 2 methodologies, 1 model, 1 primer, all cross-linked; the six 2026-07-21/22 additions still need a source-validation pass); 22 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 13 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework); `frameworks/04-go-to-market-launch.md` (GTM Motion Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework)
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining enrichment and backlog queues approved and being built top-down from the priority order
 
 ---
 
