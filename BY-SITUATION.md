@@ -26,15 +26,19 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Create a clear, tested positioning statement to guide all launch messaging
    - *Do this fourth:* Build consensus across product, sales, and marketing teams
 
-5. **Complete GTM Workflow Stages** (`Category 4`)
+5. **GTM Motion Model** (`Category 4`)
+   - *Why:* Confirm which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) this launch is actually built for, before the launch plan and collateral are built around the wrong one
+   - *Do this fifth:* Plot ACV and buyer complexity for the target segment and match to a motion before sequencing the launch
+
+6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
    - *Do this parallel:* Run launch planning in parallel with positioning work
 
-6. **Go-to-Market Motion Framework** (`Category 5`)
-   - *Why:* Coordinate messaging, content, sales enablement, and customer communication across channels
+7. **Go-to-Market Motion Framework** (`Category 5`)
+   - *Why:* Coordinate messaging, content, sales enablement, and customer communication across channels, within the motion selected in step 5
    - *Do this during launch:* Execute simultaneously across all touchpoints
 
-7. **Feature Adoption Framework** (`Category 5`)
+8. **Feature Adoption Framework** (`Category 5`)
    - *Why:* After launch, drive customer adoption through campaigns and enablement
    - *Do this post-launch:* Measure and iterate on adoption rates
 
@@ -60,33 +64,37 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Segment the new market and choose your initial target within it
    - *Do this second:* Decide which customer archetype is your beachhead
 
-3. **Dunford's 10-Step Positioning Process** (`Category 2`)
+3. **GTM Motion Model** (`Category 4`)
+   - *Why:* A new segment or geography can support a different acquisition motion from your core business; check ACV and buyer complexity for the new segment rather than assuming your existing motion carries over
+   - *Do this third:* Confirm whether self-serve, PLG, inside sales, field sales, or a partner is the right fit before positioning work goes further
+
+4. **Dunford's 10-Step Positioning Process** (`Category 2`)
    - *Why:* Run the research and validation steps (best-fit customers, true competitive alternatives, unique attributes) needed to write positioning that is evidenced, not assumed, for a segment you don't yet know well
-   - *Do this third, alongside step 4 below:* Feed the result into the 5-Component Positioning Canvas
+   - *Do this fourth, alongside step 5 below:* Feed the result into the 5-Component Positioning Canvas
 
-4. **April Dunford's 5-Component Positioning Canvas** (`Category 2`)
+5. **April Dunford's 5-Component Positioning Canvas** (`Category 2`)
    - *Why:* Test multiple positioning hypotheses for the new segment
-   - *Do this fourth:* Validate that your current positioning works or refine it for the segment
+   - *Do this fifth:* Validate that your current positioning works or refine it for the segment
 
-5. **Jobs-to-be-Done Positioning Framework** (`Category 2`)
+6. **Jobs-to-be-Done Positioning Framework** (`Category 2`)
    - *Why:* Understand what "job" customers in this segment are trying to do
    - *Do this parallel:* Use JTBD to sense-check your positioning hypothesis
 
-6. **Bowman's Strategic Clock** (`Category 3`)
+7. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Map competitive positions in the new market and choose your strategy
    - *Do this:* Identify white space in the competitive landscape
 
-7. **Complete GTM Workflow Stages** (`Category 4`)
+8. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Plan the phases for entering this market (foundation, launch, scale)
    - *Do this parallel:* Build launch plan in tandem with positioning validation
 
-8. **3-Step Product Marketing Strategy Framework** (`Category 4`)
+9. **3-Step Product Marketing Strategy Framework** (`Category 4`)
    - *Why:* If this is a bootstrapped entry, simplify to core research, positioning, execution
    - *Do this if under-resourced:* Focus ruthlessly on what's essential
 
-9. **Win / Loss Analysis Framework** (`Category 6`)
-   - *Why:* After initial launch, analyse deals to understand why you're winning or losing
-   - *Do this after 3–6 months:* Iterate positioning based on real market feedback
+10. **Win / Loss Analysis Framework** (`Category 6`)
+    - *Why:* After initial launch, analyse deals to understand why you're winning or losing
+    - *Do this after 3–6 months:* Iterate positioning based on real market feedback
 
 **Success Metrics:**
 - Discovery interviews show 70%+ agreement on core pain ✓
@@ -379,15 +387,19 @@ Map your current challenge to the frameworks that will help you solve it.
 
 **Apply These Frameworks (In Order):**
 
-1. **PMM Team Scaling Framework** (`Category 7`)
-   - *Why:* Understand the evolution from solo to specialised team
-   - *Do this first:* Decide where to hire based on your biggest gaps
+1. **GTM Strategy vs Product Marketing primer** (`concepts/`)
+   - *Why:* Before hiring, get clear on what PMM owns, contributes to, and only supports within the wider GTM strategy; a scaling plan built on an unclear ownership map tends to hire for the wrong gap
+   - *Do this first:* Use the ownership map to confirm which capacity gaps are genuinely PMM's to fill versus another function's
 
-2. **Quarterly PMM Planning Framework** (`Category 7`)
+2. **PMM Team Scaling Framework** (`Category 7`)
+   - *Why:* Understand the evolution from solo to specialised team
+   - *Do this second:* Decide where to hire based on your biggest gaps
+
+3. **Quarterly PMM Planning Framework** (`Category 7`)
    - *Why:* Document all the PMM work you're currently doing
    - *Do this:* Use as a baseline to identify what new hires should own
 
-3. **10-Step PMM Process** (`Category 4`)
+4. **10-Step PMM Process** (`Category 4`)
    - *Why:* Build a playbook that new hires can follow
    - *Do this:* Document how you do positioning, messaging, enablement, measurement
 

@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 30 entries relate to each other and the typical workflow sequence for applying them.
+This document shows how the 32 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -64,6 +64,7 @@ These sequence and execute GTM using positioning:
 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
+| **GTM Motion Model** | STP (target segment identified) | 3/7/10-Step PMM, Complete GTM | Select which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) the launch is built for, before sequencing it |
 | **3-Step PMM** | Positioning | 7-Step PMM | Early-stage simplicity |
 | **7-Step PMM** | Positioning | 10-Step PMM | Mid-stage structure |
 | **10-Step PMM** | Positioning | Quarterly Planning | Large-team operationalisation |
@@ -76,7 +77,7 @@ These drive customer adoption post-launch:
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
 | **PMM Lifecycle** | Positioning + GTM | Feature Adoption, NPS | Full customer journey |
-| **GTM Motion** | Positioning + GTM | Launch campaigns | Coordinated launches |
+| **GTM Motion Framework** | Positioning + GTM | Launch campaigns | Coordinated launches |
 | **Feature Adoption** | PMM Lifecycle | NPS | Drive internal product adoption |
 | **Onboarding Maturity** | Positioning | Retention metrics | Accelerate time-to-value |
 
@@ -114,14 +115,15 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ### Scenario 1: New Product Launch
 1. **Product Dev Stage** (align PMM timeline)
 2. **STP** (validate market/segment)
-3. **Geoffrey Moore** or **April Dunford** (positioning)
-4. **Value Prop Canvas** (map to segment needs)
-5. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
-6. **Complete GTM Workflow** (phases)
-7. **GTM Motion** (coordinated launch)
-8. **Feature Adoption** (drive early usage)
-9. **Win/Loss** (validate message resonance)
-10. **Quarterly PMM** (refine Q2)
+3. **GTM Motion Model** (select which acquisition motion, self-serve, PLG, inside sales, field sales, or partner-channel, this launch is built for)
+4. **Geoffrey Moore** or **April Dunford** (positioning)
+5. **Value Prop Canvas** (map to segment needs)
+6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
+7. **Complete GTM Workflow** (phases)
+8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
+9. **Feature Adoption** (drive early usage)
+10. **Win/Loss** (validate message resonance)
+11. **Quarterly PMM** (refine Q2)
 
 ### Scenario 2: Repositioning for New Segment
 1. **STP** (validate segment)
@@ -184,7 +186,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 
 **Lifecycle and Activation** frameworks work together:
 - **PMM Lifecycle** defines what to message when
-- **GTM Motion** shows how to launch messages
+- **GTM Motion Model** selects which acquisition motion the launch is built for, before execution begins
+- **GTM Motion Framework** shows how to launch messages within that motion, coordinated across channels
 - **Feature Adoption** applies lifecycle thinking to product adoption
 - **Onboarding Maturity** focuses on critical early lifecycle
 
@@ -212,7 +215,9 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 
 ## Version History
 
-**2026-07-22**: Added the third and fourth ENRICHMENT-PLAN.md builds to the map. Dunford's 10-Step Positioning Process joins the positioning frameworks (prerequisite: best-fit customers and STP; feeds the 5-Component Positioning Canvas and Message Architecture) and is now step 2 of the Repositioning for New Segment scenario. The Competitive Battlecard Framework joins the competitive frameworks (prerequisite: Competitive Intelligence, Product Differentiation, and Bowman's Clock; feeds live sales deals and Win/Loss Analysis) and is now step 5 of the Improving Win Rate scenario. Entry count updated 28 → 30.
+**2026-07-22 (fifth and sixth builds)**: Added the fifth and sixth ENRICHMENT-PLAN.md builds. The **GTM Motion Model** joins the Go-to-Market Frameworks table as the new first entry (prerequisite: STP; feeds the 3/7/10-Step PMM frameworks and Complete GTM Workflow) and is now step 3 of the New Product Launch scenario, run before positioning so the launch is built for the right acquisition motion. Renamed the existing "GTM Motion" references to "GTM Motion Framework" throughout this map to distinguish it clearly from the new GTM Motion Model: the Framework choreographs a single launch's cross-channel execution; the Model selects which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) a company or launch runs through in the first place. The **GTM Strategy vs Product Marketing primer** (`concepts/gtm-strategy-vs-product-marketing.md`) is not added to the dependency matrix, since a primer is a scope explainer rather than an applied step; it is noted at the top of this document instead. Entry count updated 30 → 32.
+
+**2026-07-22 (third and fourth builds)**: Added the third and fourth ENRICHMENT-PLAN.md builds to the map. Dunford's 10-Step Positioning Process joins the positioning frameworks (prerequisite: best-fit customers and STP; feeds the 5-Component Positioning Canvas and Message Architecture) and is now step 2 of the Repositioning for New Segment scenario. The Competitive Battlecard Framework joins the competitive frameworks (prerequisite: Competitive Intelligence, Product Differentiation, and Bowman's Clock; feeds live sales deals and Win/Loss Analysis) and is now step 5 of the Improving Win Rate scenario. Entry count updated 28 → 30.
 
 **2026-07-21**: Added the first two ENRICHMENT-PLAN.md builds to the map. Message Architecture (Messaging House) joins the positioning frameworks (prerequisite: a validated positioning statement; feeds GTM execution and sales enablement) and is now step 5 of the New Product Launch scenario. The Voice of the Customer (VoC) Programme joins the measurement and optimisation frameworks as the system that connects Win/Loss and NPS. Entry count updated 26 → 28.
 
