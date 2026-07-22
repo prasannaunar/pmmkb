@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **Two of the five "High" candidates are now built (2026-07-21): A11 Message Architecture and A6 Voice of the Customer Programme.** The remaining 17 are queued; this document is the pick-up point. A future session should continue from the "High" batch, work through the candidates in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **Four of the five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22).** The remaining 15 are queued, starting with A5, the GTM vs PMM primer, the last "High" candidate; this document is the pick-up point. A future session should continue from the "High" batch, work through the candidates in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -93,12 +93,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 
 ## Theme 4: Positioning
 
-### A9. April Dunford's 10-Step Positioning Process
+### A9. April Dunford's 10-Step Positioning Process: ✅ BUILT (2026-07-22)
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,380 words; cross-linked to the 5-Component Positioning Canvas, STP, Win/Loss Analysis, and Message Architecture.
 - **Type:** Methodology.
 - **Originator:** April Dunford, *Obviously Awesome* (2019).
 - **What it does:** The step-by-step *process* for arriving at positioning (list competitive alternatives, isolate unique attributes, map to value, find the best-fit market category, capture in a canvas). The KB currently has Dunford's 5-component *canvas* (the output template) but not the process that produces it.
 - **Proposed home:** Category 2 (Positioning & Messaging), cross-linked to the existing April Dunford canvas.
-- **Overlap/scope note:** This is the clearest example of a methodology that complements an existing framework rather than duplicating it. Build it explicitly as "the process that produces the canvas".
+- **Overlap/scope note:** This is the clearest example of a methodology that complements an existing framework rather than duplicating it. Built explicitly as "the process that produces the canvas".
 
 ### A10. Positioning / Perceptual Map (2x2)
 - **Type:** Framework.
@@ -157,11 +158,13 @@ Category 8 currently holds Good-Better-Best, Van Westendorp PSM, and Value Metri
 
 Sales enablement is currently only touched tangentially (a step inside the 10-Step process). It is a candidate for its **own category** if two or more of the following are built.
 
-### A17. Competitive Battlecard Framework
+### A17. Competitive Battlecard Framework: ✅ BUILT (2026-07-22)
+- **Built as:** Category 3 (Competitive Strategy), `frameworks/03-competitive-strategy.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,278 words; cross-linked to Competitive Intelligence & Positioning Update, Bowman's Strategic Clock, Product Differentiation Strategy Framework, and Win/Loss Analysis.
 - **Type:** Framework.
 - **Originator:** Converged practice; documented by Crayon, Klue, and Product Marketing Alliance.
 - **What it does:** A standard structure for a one-page competitive battlecard (their pitch, our counter, landmines to plant, objection handling, proof points) that sales can use live in a deal.
 - **Proposed home:** Category 3 (Competitive Strategy) or a new Sales Enablement category. High priority; directly fills the enablement gap and builds on the existing Competitive Intelligence framework.
+- **Category decision:** Built into Category 3, not a new single-entry Sales Enablement category, per the guidance against thin category files. Category 9 (Sales Enablement) stands up once A18 and A19 are also built.
 
 ### A18. Buyer's Journey Content Map
 - **Type:** Framework.
@@ -182,9 +185,9 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | # | Candidate | Type | Proposed home | Priority | Gap filled |
 |---|-----------|------|---------------|----------|------------|
 | A11 | Message Architecture / Messaging House | Framework | Cat 2 | ✅ **Built** | Positioning-to-copy gap |
-| A17 | Competitive Battlecard Framework | Framework | Cat 3 / new Sales Enablement | **High** | Sales enablement |
+| A17 | Competitive Battlecard Framework | Framework | Cat 3 | ✅ **Built** | Sales enablement |
 | A6 | Voice of the Customer Programme | Methodology | Cat 1 | ✅ **Built** | Continuous VoC |
-| A9 | Dunford 10-Step Positioning Process | Methodology | Cat 2 | **High** | Positioning process |
+| A9 | Dunford 10-Step Positioning Process | Methodology | Cat 2 | ✅ **Built** | Positioning process |
 | A5 | GTM vs PMM primer | Primer | new concepts/ | **High** | Scope clarity |
 | A1 | GTM Motion Model | Model | Cat 4 | Medium | Motion selection |
 | A2 | Product-Led Growth | Methodology | Cat 4 | Medium | PLG motion |
@@ -203,7 +206,7 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 
 All 19 candidates will be built. The priority column sets the order of work, not whether an entry is included; "Lower" means "build later", not "maybe". Work top-down from the "High" batch.
 
-**First batch (the five "High" candidates):** Message Architecture ✅, Competitive Battlecard, Voice of the Customer Programme ✅, Dunford 10-Step Positioning Process, and the GTM vs PMM primer. Together these fill the most-cited gaps, exercise every new content type (Framework, Methodology, Model, and Primer), and prove the documentation changes in Part B before the collection grows further. Message Architecture (Framework) and Voice of the Customer (Methodology) are built as of 2026-07-21, exercising the Framework and Methodology templates; Competitive Battlecard (Model or Framework), the Dunford process (Methodology), and the GTM vs PMM primer (Primer) remain in the batch.
+**First batch (the five "High" candidates):** Message Architecture ✅, Competitive Battlecard ✅, Voice of the Customer Programme ✅, Dunford 10-Step Positioning Process ✅, and the GTM vs PMM primer. Together these fill the most-cited gaps, exercise every new content type (Framework, Methodology, Model, and Primer), and prove the documentation changes in Part B before the collection grows further. Message Architecture (Framework), Voice of the Customer (Methodology), Competitive Battlecard (Framework), and the Dunford process (Methodology) are built as of 2026-07-22, exercising the Framework and Methodology templates; only the GTM vs PMM primer (Primer) remains in the batch, and it is the only candidate that will exercise the Primer template and the new `concepts/` area.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19.
@@ -293,4 +296,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Two are built as of 2026-07-21 (A11 Message Architecture, A6 Voice of the Customer Programme); 17 remain. This plan is the build queue, worked top-down from the "High" batch, until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Four are built as of 2026-07-22 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process); 15 remain, starting with A5, the GTM vs PMM primer, the last "High" candidate. This plan is the build queue, worked top-down from the "High" batch, until every entry is built.

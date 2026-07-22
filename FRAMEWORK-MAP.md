@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 28 entries relate to each other and the typical workflow sequence for applying them.
+This document shows how the 30 entries relate to each other and the typical workflow sequence for applying them.
 
 ---
 
@@ -48,6 +48,7 @@ These build on STP to define what you stand for:
 | **JTBD** | STP | Value Prop Canvas | Customer outcome-based positioning |
 | **Value Prop Canvas** | STP + (one of above) | Messaging frameworks | Map value to customer needs |
 | **Message Architecture (Messaging House)** | A validated positioning statement (Geoffrey Moore or April Dunford) | GTM execution, sales enablement, all campaign copy | Turn positioning into a copy hierarchy every asset writes from |
+| **Dunford's 10-Step Positioning Process** | Best-fit customers + STP | April Dunford's 5-Component Positioning Canvas, Message Architecture | The research and validation process that produces the canvas |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -56,6 +57,7 @@ These validate positioning against competition:
 |-----------|---------------|-----------|---------|
 | **Bowman's Clock** | STP + Positioning | Pricing strategy | Price-value positioning |
 | **Product Differentiation** | STP + Positioning | Sales enablement | Competitive differentiation |
+| **Competitive Battlecard Framework** | Competitive Intelligence + Product Differentiation + Bowman's Clock | Live sales deals, Win/Loss Analysis | One-page field tool for contested deals |
 
 ### Go-to-Market Frameworks (Apply Fourth)
 These sequence and execute GTM using positioning:
@@ -123,12 +125,13 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 
 ### Scenario 2: Repositioning for New Segment
 1. **STP** (validate segment)
-2. **April Dunford** or **JTBD** (new positioning hypothesis)
-3. **Bowman's Clock** (validate price-value fit)
-4. **Win/Loss** (test with target segment)
-5. **7-Step PMM** (execute with new positioning)
-6. **Competitive Intelligence** (monitor competitor response)
-7. **Quarterly PMM** (measure impact)
+2. **Dunford's 10-Step Positioning Process** (run the research and validation steps behind the new hypothesis)
+3. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
+4. **Bowman's Clock** (validate price-value fit)
+5. **Win/Loss** (test with target segment)
+6. **7-Step PMM** (execute with new positioning)
+7. **Competitive Intelligence** (monitor competitor response)
+8. **Quarterly PMM** (measure impact)
 
 ### Scenario 3: Scaling PMM Team
 1. **Quarterly PMM** (identify capacity gaps)
@@ -142,8 +145,9 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 2. **Competitive Intelligence** (understand competitor messaging)
 3. **Product Differentiation** (validate claimed differentiation)
 4. **Geoffrey Moore** or **April Dunford** (refine positioning)
-5. **7-Step or 10-Step PMM** (update sales enablement)
-6. **Quarterly PMM** (schedule messaging refresh)
+5. **Competitive Battlecard Framework** (equip reps with the counter-position for the specific competitor deals are lost to)
+6. **7-Step or 10-Step PMM** (update sales enablement)
+7. **Quarterly PMM** (schedule messaging refresh)
 
 ### Scenario 5: Pricing a New Tier or Service
 1. **Value Proposition Canvas** (understand what each segment values)
@@ -207,6 +211,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-22**: Added the third and fourth ENRICHMENT-PLAN.md builds to the map. Dunford's 10-Step Positioning Process joins the positioning frameworks (prerequisite: best-fit customers and STP; feeds the 5-Component Positioning Canvas and Message Architecture) and is now step 2 of the Repositioning for New Segment scenario. The Competitive Battlecard Framework joins the competitive frameworks (prerequisite: Competitive Intelligence, Product Differentiation, and Bowman's Clock; feeds live sales deals and Win/Loss Analysis) and is now step 5 of the Improving Win Rate scenario. Entry count updated 28 → 30.
 
 **2026-07-21**: Added the first two ENRICHMENT-PLAN.md builds to the map. Message Architecture (Messaging House) joins the positioning frameworks (prerequisite: a validated positioning statement; feeds GTM execution and sales enablement) and is now step 5 of the New Product Launch scenario. The Voice of the Customer (VoC) Programme joins the measurement and optimisation frameworks as the system that connects Win/Loss and NPS. Entry count updated 26 → 28.
 

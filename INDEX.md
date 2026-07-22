@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-21 (built the first two ENRICHMENT-PLAN.md candidates: Message Architecture in Category 2 and the Voice of the Customer Programme in Category 1; total 26 → 28 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-22 (built the next two ENRICHMENT-PLAN.md "High" candidates: the Competitive Battlecard Framework in Category 3 and Dunford's 10-Step Positioning Process in Category 2; total 28 → 30 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -24,6 +24,7 @@
 | Jobs-to-be-Done Positioning Framework | Positions products around the "job" customers are trying to accomplish, focusing on functional, emotional, and social dimensions |
 | Value Proposition Canvas | Tool for identifying what customers value and translating insights into relative market position and pricing choices |
 | Message Architecture (Messaging House) | **Framework.** Hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each, as the single source of truth all go-to-market assets write from |
+| Dunford's 10-Step Positioning Process | **Methodology.** The step-by-step research and validation process (best-fit customers → competitive alternatives → unique attributes → value → segment → category → pitch → alignment) that produces the 5-Component Positioning Canvas |
 
 ---
 
@@ -33,6 +34,7 @@
 |-----------|-------------|
 | Bowman's Strategic Clock | Competitive positioning framework using price and perceived value to map eight strategic positions from cost leadership to premium differentiation |
 | Product Differentiation Strategy Framework | Structured process for identifying differentiators, mapping competitive positions, and articulating market positioning |
+| Competitive Battlecard Framework | **Framework.** One-page field tool giving sales the competitor's pitch, your counter-position, objection responses, landmines, and proof points for a live deal |
 
 ---
 
@@ -96,16 +98,16 @@
 
 ## Structure Notes
 
-- **Total entries:** 28 (27 frameworks and 1 methodology; the Voice of the Customer Programme is the first entry formally tagged Methodology. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 30 (28 frameworks and 2 methodologies. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 (Category 8 added 2026-07-12; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
-- **Entries per Category:** 2–5
+- **Entries per Category:** 2–6
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 4 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 5 entries (`frameworks/02-positioning-messaging.md`)
-✅ **Category 3 (Competitive Strategy):** 2 frameworks (`frameworks/03-competitive-strategy.md`)
+✅ **Category 2 (Positioning & Messaging):** 6 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 5 frameworks (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 3 frameworks (`frameworks/06-product-experience-adoption.md`)
@@ -118,4 +120,4 @@
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 4 of 19 candidates built as of 2026-07-22)
