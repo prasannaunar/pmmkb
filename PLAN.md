@@ -193,7 +193,7 @@ Output: Recommended framework or framework sequence
 **Phase 1 Complete:**
 - [ ] All frameworks have cross-links to related frameworks
 - [ ] BY-SITUATION.md covers 8–10 common situations
-- [ ] Quick-reference cards for all 28 entries
+- [ ] Quick-reference cards for all 30 entries
 - [ ] Glossary includes 20+ PMM terms
 
 **Phase 2 Complete:**
