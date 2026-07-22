@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). The first "Medium" candidate is also built: A1 GTM Motion Model (2026-07-22).** The remaining 13 are queued, starting with A2 (Product-Led Growth), the next candidate in priority order; this document is the pick-up point. A future session should continue through the "Medium" batch, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Three "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22).** The remaining 11 are queued, starting with A14 (Conjoint Analysis), the next candidate in priority order; this document is the pick-up point. A future session should continue through the "Medium" batch, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -38,7 +38,8 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Why it is proven:** Standard vocabulary across growth-stage SaaS and the major VC playbooks for a decade.
 - **Overlap/scope note:** Must be positioned as motion *selection*, distinct from the Complete GTM Workflow (which assumes a motion is already chosen). **Build note:** a second, unanticipated overlap surfaced during the build: Category 5 already holds a "Go-to-Market Motion Framework" (launch-execution choreography across channels), whose name is easily confused with this new motion-*selection* model. Resolved by keeping both entries (they answer different questions: which motion, versus how to execute inside it), renaming every shorthand "GTM Motion" reference in FRAMEWORK-MAP.md and BY-SITUATION.md to the existing framework's full name, and cross-referencing both explicitly.
 
-### A2. Product-Led Growth (PLG)
+### A2. Product-Led Growth (PLG): ✅ BUILT (2026-07-22)
+- **Built as:** Category 4 (Go-to-Market & Launch), `frameworks/04-go-to-market-launch.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,321 words; cross-linked to the GTM Motion Model, Feature Adoption Framework, Customer Onboarding Maturity Framework, and STP.
 - **Type:** Methodology.
 - **Originator:** Popularised by Wes Bush (*Product-Led Growth*, 2019) and OpenView Partners.
 - **What it does:** A go-to-market practice where the product itself drives acquisition, activation, and expansion (free trial or freemium, product-qualified leads, in-product upgrade paths). Run continuously, not as a one-off.
@@ -79,7 +80,8 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Proposed home:** Category 1 (Market & Customer Understanding) or Category 6. Recommend Category 1, cross-linked to NPS and Win/Loss.
 - **Overlap/scope note:** NPS and Win/Loss are *inputs* to a VoC programme; the entry must position VoC as the system that connects them, not a competing survey method.
 
-### A7. JTBD "Switch" / Timeline Interview Method
+### A7. JTBD "Switch" / Timeline Interview Method: ✅ BUILT (2026-07-22)
+- **Built as:** Category 1 (Market & Customer Understanding), `frameworks/01-market-customer-understanding.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,327 words; cross-linked to the JTBD Positioning Framework, Voice of the Customer Programme, Win/Loss Analysis Framework, and STP.
 - **Type:** Methodology.
 - **Originator:** Bob Moesta and Chris Spiek, The Re-Wired Group.
 - **What it does:** A specific interview technique for uncovering the real "job" behind a purchase by reconstructing the timeline of a customer's switch from the old solution to the new one. This is the *research method*, distinct from the JTBD *positioning* framework already in Category 2.
@@ -192,8 +194,8 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A9 | Dunford 10-Step Positioning Process | Methodology | Cat 2 | ✅ **Built** | Positioning process |
 | A5 | GTM vs PMM primer | Primer | new concepts/ | ✅ **Built** | Scope clarity |
 | A1 | GTM Motion Model | Model | Cat 4 | ✅ **Built** | Motion selection |
-| A2 | Product-Led Growth | Methodology | Cat 4 | Medium | PLG motion |
-| A7 | JTBD Switch Interview Method | Methodology | Cat 1 | Medium | VoC research method |
+| A2 | Product-Led Growth | Methodology | Cat 4 | ✅ **Built** | PLG motion |
+| A7 | JTBD Switch Interview Method | Methodology | Cat 1 | ✅ **Built** | VoC research method |
 | A14 | Conjoint Analysis | Methodology | Cat 8 | Medium | Pricing rigour |
 | A18 | Buyer's Journey Content Map | Framework | new Sales Enablement | Medium | Enablement content |
 | A3 | ICP Development Methodology | Methodology | Cat 1 | Medium | Operational targeting |
@@ -210,7 +212,7 @@ All 19 candidates will be built. The priority column sets the order of work, not
 
 **First batch (the five "High" candidates): all built.** Message Architecture ✅ (Framework), Competitive Battlecard ✅ (Framework), Voice of the Customer Programme ✅ (Methodology), Dunford 10-Step Positioning Process ✅ (Methodology), and the GTM vs PMM primer ✅ (Primer, built 2026-07-22 in the new `concepts/` area). Together these fill the most-cited gaps and exercise every new content type (Framework, Methodology, Model, and Primer), proving the documentation changes in Part B before the collection grew further.
 
-**Second batch (the "Medium" candidates): under way.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4) is the first done. The remaining twelve, A2 Product-Led Growth, A7 JTBD Switch Interview Method, A14 Conjoint Analysis, A18 Buyer's Journey Content Map, A3 ICP Development Methodology, A8 Kano Model, and A13 Command of the Message, are queued next in the table order above, followed by the "Lower" batch (A4, A10, A12, A15, A16, A19).
+**Second batch (the "Medium" candidates): under way.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), and A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1) are now done. The remaining eleven, five "Medium" (A14 Conjoint Analysis, A18 Buyer's Journey Content Map, A3 ICP Development Methodology, A8 Kano Model, A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19.
@@ -300,4 +302,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Six are built as of 2026-07-22 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, and A1 the GTM Motion Model), completing the "High" batch and opening the "Medium" batch; 13 remain, starting with A2, Product-Led Growth, the next "Medium" candidate. This plan is the build queue, worked top-down through the "Medium" batch and then the "Lower" batch, until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Eight are built as of 2026-07-22 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, and A7 the JTBD Switch Interview Method), completing the "High" batch and continuing the "Medium" batch; 11 remain, starting with A14, Conjoint Analysis, the next "Medium" candidate. This plan is the build queue, worked top-down through the rest of the "Medium" batch and then the "Lower" batch, until every entry is built.

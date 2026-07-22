@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 32 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 34 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -49,6 +49,7 @@ These build on STP to define what you stand for:
 | **Value Prop Canvas** | STP + (one of above) | Messaging frameworks | Map value to customer needs |
 | **Message Architecture (Messaging House)** | A validated positioning statement (Geoffrey Moore or April Dunford) | GTM execution, sales enablement, all campaign copy | Turn positioning into a copy hierarchy every asset writes from |
 | **Dunford's 10-Step Positioning Process** | Best-fit customers + STP | April Dunford's 5-Component Positioning Canvas, Message Architecture | The research and validation process that produces the canvas |
+| **JTBD Switch Interview Method** | Recent buyers (purchased within 1–3 months) | JTBD Positioning Framework, Voice of the Customer Programme | The interview technique that finds the job and the switch trigger the JTBD framework then positions around |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -64,7 +65,8 @@ These sequence and execute GTM using positioning:
 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
-| **GTM Motion Model** | STP (target segment identified) | 3/7/10-Step PMM, Complete GTM | Select which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) the launch is built for, before sequencing it |
+| **GTM Motion Model** | STP (target segment identified) | 3/7/10-Step PMM, Complete GTM, Product-Led Growth | Select which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) the launch is built for, before sequencing it |
+| **Product-Led Growth** | GTM Motion Model selects self-serve or PLG | Feature Adoption, Onboarding Maturity | Run the PLG motion: activation moment, product-qualified lead signals, in-product upgrade paths |
 | **3-Step PMM** | Positioning | 7-Step PMM | Early-stage simplicity |
 | **7-Step PMM** | Positioning | 10-Step PMM | Mid-stage structure |
 | **10-Step PMM** | Positioning | Quarterly Planning | Large-team operationalisation |
@@ -115,7 +117,7 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ### Scenario 1: New Product Launch
 1. **Product Dev Stage** (align PMM timeline)
 2. **STP** (validate market/segment)
-3. **GTM Motion Model** (select which acquisition motion, self-serve, PLG, inside sales, field sales, or partner-channel, this launch is built for)
+3. **GTM Motion Model** (select which acquisition motion, self-serve, PLG, inside sales, field sales, or partner-channel, this launch is built for; if it selects self-serve or PLG, run **Product-Led Growth** alongside steps 4 onward to build the activation and upgrade-path work the motion depends on)
 4. **Geoffrey Moore** or **April Dunford** (positioning)
 5. **Value Prop Canvas** (map to segment needs)
 6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
@@ -128,12 +130,13 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ### Scenario 2: Repositioning for New Segment
 1. **STP** (validate segment)
 2. **Dunford's 10-Step Positioning Process** (run the research and validation steps behind the new hypothesis)
-3. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
-4. **Bowman's Clock** (validate price-value fit)
-5. **Win/Loss** (test with target segment)
-6. **7-Step PMM** (execute with new positioning)
-7. **Competitive Intelligence** (monitor competitor response)
-8. **Quarterly PMM** (measure impact)
+3. **JTBD Switch Interview Method** (if the new positioning is framed around a job rather than an attribute, run switch interviews with recent buyers to find the actual triggering event first)
+4. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
+5. **Bowman's Clock** (validate price-value fit)
+6. **Win/Loss** (test with target segment)
+7. **7-Step PMM** (execute with new positioning)
+8. **Competitive Intelligence** (monitor competitor response)
+9. **Quarterly PMM** (measure impact)
 
 ### Scenario 3: Scaling PMM Team
 1. **Quarterly PMM** (identify capacity gaps)
@@ -214,6 +217,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-22 (seventh and eighth builds)**: Added the seventh and eighth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. The **JTBD Switch Interview Method** joins the positioning frameworks table (prerequisite: recent buyers, purchased within 1-3 months; feeds the JTBD Positioning Framework and the Voice of the Customer Programme) and is now step 3 of the Repositioning for New Segment scenario, run before capturing the new positioning hypothesis when the hypothesis is job-based rather than attribute-based. **Product-Led Growth** joins the Go-to-Market Frameworks table (prerequisite: the GTM Motion Model selects self-serve or PLG; feeds Feature Adoption and Onboarding Maturity) and is noted as a parallel track inside step 3 of the New Product Launch scenario. Entry count updated 32 → 34.
 
 **2026-07-22 (fifth and sixth builds)**: Added the fifth and sixth ENRICHMENT-PLAN.md builds. The **GTM Motion Model** joins the Go-to-Market Frameworks table as the new first entry (prerequisite: STP; feeds the 3/7/10-Step PMM frameworks and Complete GTM Workflow) and is now step 3 of the New Product Launch scenario, run before positioning so the launch is built for the right acquisition motion. Renamed the existing "GTM Motion" references to "GTM Motion Framework" throughout this map to distinguish it clearly from the new GTM Motion Model: the Framework choreographs a single launch's cross-channel execution; the Model selects which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) a company or launch runs through in the first place. The **GTM Strategy vs Product Marketing primer** (`concepts/gtm-strategy-vs-product-marketing.md`) is not added to the dependency matrix, since a primer is a scope explainer rather than an applied step; it is noted at the top of this document instead. Entry count updated 30 → 32.
 
