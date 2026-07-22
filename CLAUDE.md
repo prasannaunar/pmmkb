@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-04-08
+**Last Updated:** 2026-07-22
 
 ---
 
@@ -110,16 +110,23 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 ├── PROGRESS.md                  # Progress tracking and team notes
 ├── CLAUDE.md                    # This file; working principles
 ├── GLOSSARY.md                  # PMM terminology (in progress)
+├── FRAMEWORK-MAP.md             # Dependency map and workflow scenarios
+├── FRAMEWORK-BACKLOG.md         # Candidate frameworks pending build (2026-07-09 gap analysis)
+├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
 ├── product-marketing-kb-task.md # Original task specification (reference)
 │
-├── frameworks/                  # Framework files by category
+├── frameworks/                  # Framework, methodology, and model files by workflow category
 │   ├── 01-market-customer-understanding.md
 │   ├── 02-positioning-messaging.md
 │   ├── 03-competitive-strategy.md
 │   ├── 04-go-to-market-launch.md
 │   ├── 05-lifecycle-workflow.md
 │   ├── 06-product-experience-adoption.md
-│   └── 07-strategy-planning.md
+│   ├── 07-strategy-planning.md
+│   └── 08-pricing-packaging.md
+│
+├── concepts/                    # Primers; explainers that are not something you "apply" (added 2026-07-22)
+│   └── gtm-strategy-vs-product-marketing.md
 │
 ├── templates/                   # Reusable templates (in progress)
 │   ├── quarterly-planning-template.md
