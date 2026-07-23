@@ -22,6 +22,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Map the product's features to the target segment's jobs, pains, and gains
    - *Do this third:* Ensure feature set matches what the segment actually needs
 
+3a. **Kano Model** (`Category 6`); *optional*
+   - *Why:* Classify the launch feature set by its effect on satisfaction (must-be, performance, delighter) so the positioning statement in step 4 headlines a genuine delighter rather than a feature customers already assume is there
+   - *Do this alongside step 3:* Survey 30 to 50 target-segment respondents before the positioning statement is finalised
+
 4. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
    - *Why:* Create a clear, tested positioning statement to guide all launch messaging
    - *Do this fourth:* Build consensus across product, sales, and marketing teams
@@ -67,6 +71,10 @@ Map your current challenge to the frameworks that will help you solve it.
 2. **Segmentation–Targeting–Positioning Framework** (`Category 1`)
    - *Why:* Segment the new market and choose your initial target within it
    - *Do this second:* Decide which customer archetype is your beachhead
+
+2a. **ICP Development Methodology** (`Category 1`)
+   - *Why:* Turn the chosen segment into a scored account model, using whatever closed-deal and firmographic data exists for the new market, so sales has a defensible list to prospect rather than the whole segment at once
+   - *Do this alongside step 3:* Treat the first model as provisional; refresh it once enough closed deals exist in the new segment to validate the scoring weights
 
 3. **GTM Motion Model** (`Category 4`)
    - *Why:* A new segment or geography can support a different acquisition motion from your core business; check ACV and buyer complexity for the new segment rather than assuming your existing motion carries over
@@ -218,6 +226,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Clarify the segment's characteristics, pain points, and decision-making process
    - *Do this first:* Sales can't sell effectively without understanding the customer deeply
 
+1a. **ICP Development Methodology** (`Category 1`)
+   - *Why:* Give sales a scored account model for the new segment, not just a description of it, so reps know which accounts to call first
+   - *Do this alongside step 1:* Operationalise the segment into a fit score before enablement training happens, so reps can prioritise from day one
+
 2. **Complete Product Experience Framework** (`Category 1`)
    - *Why:* Identify what "good" looks like across all touchpoints for this segment
    - *Do this:* Set expectations with product, support, onboarding on segment needs
@@ -287,6 +299,10 @@ Map your current challenge to the frameworks that will help you solve it.
 5. **Conjoint Analysis** (`Category 8`)
    - *Why:* Isolate exactly how much each individual feature is worth to each persona, when a bundling decision is genuinely contested (which feature goes in which tier)
    - *Do this fifth, optionally:* Run this only if you have budget and respondent access for a higher-rigour study and the feature-to-tier decision is disputed internally; skip it if PSM and Value Metric/WTP already give you enough to draft the tiers
+
+5a. **Kano Model** (`Category 6`); *optional*
+   - *Why:* Confirm which candidate features are must-be (belong in every tier) versus delighters (strong candidates for the premium tier only), so the fences drawn in step 6 match how each feature actually affects satisfaction
+   - *Do this alongside step 5:* Run if the team disagrees on which tier a specific feature belongs in; skip if the fences are already obvious from step 5's conjoint output
 
 6. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
    - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
