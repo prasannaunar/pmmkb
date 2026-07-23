@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-22 (built the seventh and eighth ENRICHMENT-PLAN.md candidates, the next two "Medium" priority items: the JTBD Switch Interview Method in Category 1 and Product-Led Growth in Category 4; total 32 → 34 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-23 (built the ninth and tenth ENRICHMENT-PLAN.md candidates, continuing the "Medium" batch: Conjoint Analysis in Category 8 and the Buyer's Journey Content Map in Category 5; total 34 → 36 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -55,13 +55,12 @@
 
 ## Category 5: Lifecycle & Workflow
 
-✅ **STATUS: COMPLETE.** All frameworks written with full examples and pitfalls
-
 | Framework | Description |
 |-----------|-------------|
 | PMM Lifecycle Management Framework | Defines product marketing role across customer lifecycle stages (Awareness → Consideration → Purchase → Onboarding → Adoption → Expansion → Advocacy) with specific activities and metrics for each stage |
 | Go-to-Market Motion Framework | Structured approach to executing product launches and campaigns across messaging, content, partnerships, events, sales enablement, and customer communication |
 | Feature Adoption Framework | Systematic approach to driving customer adoption of new or underutilised features through in-app messaging, email campaigns, enablement content, and segmented strategies |
+| Buyer's Journey Content Map | **Framework.** Grid that plots enablement and marketing content against the awareness, consideration, decision, and post-sale stages, so PMM can spot and prioritise content gaps by revenue impact rather than the loudest internal request |
 
 ---
 
@@ -96,6 +95,7 @@
 | Good-Better-Best (GBB) Packaging Framework | Structures pricing into three value-ascending tiers, fenced by feature and persona, to guide buyer self-selection and expansion revenue |
 | Van Westendorp Price Sensitivity Meter (PSM) | Four-question survey method that maps an acceptable price corridor and an indifference price point for a product concept, without asking respondents to name a single price |
 | Value Metric / Willingness-to-Pay Framework | Four-step method to choose a value metric and set prices by surveying persona-level willingness to pay and plotting it against value received |
+| Conjoint Analysis | **Methodology.** Trade-off-based choice survey that infers, feature by feature, how much each persona is willing to pay for it, used to decide which features justify moving a customer up a tier |
 
 ---
 
@@ -109,7 +109,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 34 (28 frameworks, 4 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 36 (29 frameworks, 5 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
 - **Entries per Category:** 2–7
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -120,10 +120,10 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ✅ **Category 2 (Positioning & Messaging):** 6 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 7 entries (`frameworks/04-go-to-market-launch.md`)
-✅ **Category 5 (Lifecycle & Workflow):** 3 frameworks (`frameworks/05-lifecycle-workflow.md`)
+✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 3 frameworks (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
-✅ **Category 8 (Pricing & Packaging):** 3 frameworks (`frameworks/08-pricing-packaging.md`)
+✅ **Category 8 (Pricing & Packaging):** 4 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
 ## Next Steps
@@ -132,4 +132,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 8 of 19 candidates built as of 2026-07-22)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 10 of 19 candidates built as of 2026-07-23)
