@@ -1,12 +1,12 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-07-22
+**Last Updated:** 2026-07-23
 
 ---
 
 ## Project Overview
 
-This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 30 entries across 8 categories, each with clear applications, real-world examples, and common pitfalls.
+This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 36 entries across 8 categories, plus a `concepts/` area for primers, each with clear applications, real-world examples, and common pitfalls.
 
 **Primary Use Case:** A reference guide for product marketing professionals to apply proven frameworks to day-to-day challenges; positioning, go-to-market strategy, competitive intelligence, and customer advocacy.
 
@@ -225,7 +225,7 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 - Update framework files if needed
 
 ### Annually (January)
-- Full pass over all 30 entries
+- Full pass over all entries
 - Check: Are they still being used? Do they still hold up?
 - Update examples with new case studies from past year
 - Deprecate frameworks with zero usage (move to archived/)
