@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Three "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22).** The remaining 11 are queued, starting with A14 (Conjoint Analysis), the next candidate in priority order; this document is the pick-up point. A future session should continue through the "Medium" batch, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Five "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23).** The remaining 9 are queued, starting with A3 (ICP Development Methodology), the next candidate in priority order; this document is the pick-up point. A future session should continue through the rest of the "Medium" batch, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -139,12 +139,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 
 Category 8 currently holds Good-Better-Best, Van Westendorp PSM, and Value Metric/WTP. These extend it with more rigorous research methods and additional packaging models.
 
-### A14. Conjoint Analysis
+### A14. Conjoint Analysis: ✅ BUILT (2026-07-23)
+- **Built as:** Category 8 (Pricing & Packaging), `frameworks/08-pricing-packaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,514 words; cross-linked to Van Westendorp PSM, Value Metric/WTP, Good-Better-Best Packaging, and STP.
 - **Type:** Methodology.
 - **Originator:** Paul Green and V. Srinivasan, 1970s.
 - **What it does:** A trade-off-based survey method that infers how buyers value individual features and price levels by asking them to choose between bundles. More rigorous (and more resource-intensive) than Van Westendorp.
 - **Proposed home:** Category 8 (Pricing & Packaging).
-- **Overlap/scope note:** Position on the spectrum against Van Westendorp (cheap and fast, whole-product price) and Value Metric/WTP (what to charge for); conjoint answers "how much is each feature worth".
+- **Overlap/scope note:** Positioned on the spectrum against Van Westendorp (cheap and fast, whole-product price) and Value Metric/WTP (what to charge for); conjoint answers "how much is each feature worth". Written explicitly as the fourth, most rigorous, and optional step in the pricing-research sequence, feeding per-feature value estimates into Good-Better-Best tier fences.
 
 ### A15. Gabor-Granger
 - **Type:** Methodology.
@@ -170,11 +171,12 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 - **Proposed home:** Category 3 (Competitive Strategy) or a new Sales Enablement category. High priority; directly fills the enablement gap and builds on the existing Competitive Intelligence framework.
 - **Category decision:** Built into Category 3, not a new single-entry Sales Enablement category, per the guidance against thin category files. Category 9 (Sales Enablement) stands up once A18 and A19 are also built.
 
-### A18. Buyer's Journey Content Map
+### A18. Buyer's Journey Content Map: ✅ BUILT (2026-07-23)
+- **Built as:** Category 5 (Lifecycle & Workflow), `frameworks/05-lifecycle-workflow.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,366 words; cross-linked to PMM Lifecycle Management Framework, Win/Loss Analysis, Competitive Battlecard Framework, and the 10-Step PMM Process.
 - **Type:** Framework.
 - **Originator:** Converged content-marketing and enablement practice.
 - **What it does:** Maps enablement and marketing content to buyer-journey stages (awareness, consideration, decision, and post-sale) so PMM can spot and fill gaps in the collateral sales needs at each stage.
-- **Proposed home:** New Sales Enablement category, or Category 5 (Lifecycle & Workflow).
+- **Category decision:** Built into Category 5 (Lifecycle & Workflow), not the new Sales Enablement category, since A19 (Sales Enablement Maturity Model) is not yet built; a single-entry Category 9 would repeat the thin-category problem A17 already avoided. Category 9 remains the plan once A19 is also built, at which point A17, A18, and A19 can be reviewed together for whether to consolidate there.
 
 ### A19. Sales Enablement Maturity Model
 - **Type:** Model.
@@ -196,8 +198,8 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A1 | GTM Motion Model | Model | Cat 4 | ✅ **Built** | Motion selection |
 | A2 | Product-Led Growth | Methodology | Cat 4 | ✅ **Built** | PLG motion |
 | A7 | JTBD Switch Interview Method | Methodology | Cat 1 | ✅ **Built** | VoC research method |
-| A14 | Conjoint Analysis | Methodology | Cat 8 | Medium | Pricing rigour |
-| A18 | Buyer's Journey Content Map | Framework | new Sales Enablement | Medium | Enablement content |
+| A14 | Conjoint Analysis | Methodology | Cat 8 | ✅ **Built** | Pricing rigour |
+| A18 | Buyer's Journey Content Map | Framework | Cat 5 | ✅ **Built** | Enablement content |
 | A3 | ICP Development Methodology | Methodology | Cat 1 | Medium | Operational targeting |
 | A8 | Kano Model | Framework | Cat 1 / 6 | Medium | Feature prioritisation |
 | A13 | Command of the Message | Methodology | Cat 2 | Medium | Value-selling messaging |
@@ -212,10 +214,10 @@ All 19 candidates will be built. The priority column sets the order of work, not
 
 **First batch (the five "High" candidates): all built.** Message Architecture ✅ (Framework), Competitive Battlecard ✅ (Framework), Voice of the Customer Programme ✅ (Methodology), Dunford 10-Step Positioning Process ✅ (Methodology), and the GTM vs PMM primer ✅ (Primer, built 2026-07-22 in the new `concepts/` area). Together these fill the most-cited gaps and exercise every new content type (Framework, Methodology, Model, and Primer), proving the documentation changes in Part B before the collection grew further.
 
-**Second batch (the "Medium" candidates): under way.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), and A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1) are now done. The remaining eleven, five "Medium" (A14 Conjoint Analysis, A18 Buyer's Journey Content Map, A3 ICP Development Methodology, A8 Kano Model, A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above.
+**Second batch (the "Medium" candidates): under way.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), and A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5) are now done. The remaining nine, three "Medium" (A3 ICP Development Methodology, A8 Kano Model, A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above, starting with A3.
 
 **New categories to stand up as their entries are built:**
-- **Sales Enablement** (a new Category 9) to house A17, A18, and A19.
+- **Sales Enablement** (a new Category 9) to house A17, A18, and A19, once all three are built. A17 lives in Category 3 and A18 lives in Category 5 for now; Category 9 remains the plan once A19 joins them, at which point revisit whether to consolidate all three there.
 - **Voice of the Customer** stays inside Category 1 (Market & Customer Understanding); A6 and A7 are tagged there rather than given a single-theme category, consistent with the guidance against thin category files.
 
 ---
@@ -302,4 +304,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Eight are built as of 2026-07-22 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, and A7 the JTBD Switch Interview Method), completing the "High" batch and continuing the "Medium" batch; 11 remain, starting with A14, Conjoint Analysis, the next "Medium" candidate. This plan is the build queue, worked top-down through the rest of the "Medium" batch and then the "Lower" batch, until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Ten are built as of 2026-07-23 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, and A18 the Buyer's Journey Content Map), completing the "High" batch and continuing the "Medium" batch; 9 remain, starting with A3, ICP Development Methodology, the next "Medium" candidate. This plan is the build queue, worked top-down through the rest of the "Medium" batch and then the "Lower" batch, until every entry is built.

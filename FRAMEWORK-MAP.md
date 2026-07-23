@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 34 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 36 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -82,6 +82,7 @@ These drive customer adoption post-launch:
 | **GTM Motion Framework** | Positioning + GTM | Launch campaigns | Coordinated launches |
 | **Feature Adoption** | PMM Lifecycle | NPS | Drive internal product adoption |
 | **Onboarding Maturity** | Positioning | Retention metrics | Accelerate time-to-value |
+| **Buyer's Journey Content Map** | PMM Lifecycle + Win/Loss | Sales enablement, Competitive Battlecard Framework | Audit content against buyer stages and prioritise gaps by revenue impact |
 
 ### Measurement & Optimisation Frameworks (Apply Throughout)
 These provide feedback loops to refine all prior work:
@@ -102,13 +103,14 @@ These coordinate and sequence all other frameworks:
 | **PMM Team Scaling** | Quarterly planning + results | Hiring plan | Grow team with business |
 
 ### Pricing & Packaging Frameworks (Apply Alongside Go-to-Market)
-Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price once positioning and segments are defined:
+Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price once positioning and segments are defined:
 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
 | **Van Westendorp PSM** | STP | Good-Better-Best Packaging | Find the acceptable price corridor with no existing anchor price |
 | **Value Metric / WTP** | STP + Value Prop Canvas | Good-Better-Best Packaging | Choose what to charge for and confirm persona-level willingness to pay |
-| **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
+| **Conjoint Analysis** | STP + (Van Westendorp PSM and/or Value Metric/WTP recommended first) | Good-Better-Best Packaging | Isolate how much each individual feature is worth, feature by feature, to decide which justify a tier upgrade |
+| **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
 
 ---
 
@@ -150,18 +152,20 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 2. **Competitive Intelligence** (understand competitor messaging)
 3. **Product Differentiation** (validate claimed differentiation)
 4. **Geoffrey Moore** or **April Dunford** (refine positioning)
-5. **Competitive Battlecard Framework** (equip reps with the counter-position for the specific competitor deals are lost to)
-6. **7-Step or 10-Step PMM** (update sales enablement)
-7. **Quarterly PMM** (schedule messaging refresh)
+5. **Buyer's Journey Content Map** (confirm content exists at the specific stage deals are stalling, not just that a battlecard exists)
+6. **Competitive Battlecard Framework** (equip reps with the counter-position for the specific competitor deals are lost to)
+7. **7-Step or 10-Step PMM** (update sales enablement)
+8. **Quarterly PMM** (schedule messaging refresh)
 
 ### Scenario 5: Pricing a New Tier or Service
 1. **Value Proposition Canvas** (understand what each segment values)
 2. **STP** (confirm each tier has a distinct target segment)
 3. **Van Westendorp PSM** (find the acceptable price corridor)
 4. **Value Metric / WTP** (choose what to charge for and validate willingness to pay per persona)
-5. **Good-Better-Best Packaging** (structure the tiers and price ladder)
-6. **Bowman's Clock** (check the new tier's price-value position against competitors)
-7. **Quarterly PMM** (resource the launch of the new tier)
+5. **Conjoint Analysis** (optional, higher-rigour step: isolate which individual features justify which tier, when a bundling decision is genuinely contested)
+6. **Good-Better-Best Packaging** (structure the tiers and price ladder)
+7. **Bowman's Clock** (check the new tier's price-value position against competitors)
+8. **Quarterly PMM** (resource the launch of the new tier)
 
 ---
 
@@ -217,6 +221,8 @@ Added as Category 8 (2026-07-12 to 2026-07-18); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-23 (ninth and tenth builds)**: Added the ninth and tenth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. **Conjoint Analysis** joins the Pricing & Packaging table (prerequisite: STP, with Van Westendorp PSM and/or Value Metric/WTP recommended first; feeds Good-Better-Best Packaging) and is now an optional step 5 of the Pricing a New Tier or Service scenario for contested bundling decisions. **Buyer's Journey Content Map** joins the Activation & Adoption Frameworks table (prerequisite: PMM Lifecycle and Win/Loss Analysis; feeds sales enablement and the Competitive Battlecard Framework) and is now step 5 of the Improving Win Rate scenario, run before the battlecard step to confirm content exists at the stage where deals are stalling. Entry count updated 34 → 36.
 
 **2026-07-22 (seventh and eighth builds)**: Added the seventh and eighth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. The **JTBD Switch Interview Method** joins the positioning frameworks table (prerequisite: recent buyers, purchased within 1-3 months; feeds the JTBD Positioning Framework and the Voice of the Customer Programme) and is now step 3 of the Repositioning for New Segment scenario, run before capturing the new positioning hypothesis when the hypothesis is job-based rather than attribute-based. **Product-Led Growth** joins the Go-to-Market Frameworks table (prerequisite: the GTM Motion Model selects self-serve or PLG; feeds Feature Adoption and Onboarding Maturity) and is noted as a parallel track inside step 3 of the New Product Launch scenario. Entry count updated 32 → 34.
 

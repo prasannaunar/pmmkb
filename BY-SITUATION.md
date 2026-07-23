@@ -242,11 +242,15 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Build the one-page field tool for each named competitor sales meets in this segment
    - *Do this:* Role-play the card with reps before it goes live in the segment's deals
 
-8. **10-Step PMM Process (Steps 4–7)** (`Category 4`)
-   - *Why:* Build segment-specific message architecture, collateral, and sales enablement
-   - *Do this:* Create one-pagers, demo script, and FAQs for the segment, with battlecards already in hand
+8. **Buyer's Journey Content Map** (`Category 5`)
+   - *Why:* Confirm content exists for this segment at every stage (awareness, consideration, decision, post-sale), not just the stages already built for other segments
+   - *Do this:* Audit the existing library against the segment's buying journey before briefing new collateral, so production targets the stages that are actually empty
 
-9. **Quarterly PMM Planning Framework** (`Category 7`)
+9. **10-Step PMM Process (Steps 4–7)** (`Category 4`)
+   - *Why:* Build segment-specific message architecture, collateral, and sales enablement
+   - *Do this:* Create one-pagers, demo script, and FAQs for the segment, with battlecards and the content map's prioritised gaps already in hand
+
+10. **Quarterly PMM Planning Framework** (`Category 7`)
    - *Why:* Plan and resource the enablement work for the quarter
    - *Do this:* Set realistic targets for sales training, collateral creation, measurement
 
@@ -280,27 +284,31 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Choose the right unit to charge for (seats, usage, transactions) and confirm each persona's willingness to pay for it before locking tier prices
    - *Do this fourth:* Run this alongside or just after PSM if your current pricing doesn't scale with usage, or if you're unsure per-seat is the right metric at all
 
-5. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
-   - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
-   - *Do this fifth:* Draft the tier structure and price ladder, anchored by the PSM corridor and the chosen value metric, before building sales collateral
+5. **Conjoint Analysis** (`Category 8`)
+   - *Why:* Isolate exactly how much each individual feature is worth to each persona, when a bundling decision is genuinely contested (which feature goes in which tier)
+   - *Do this fifth, optionally:* Run this only if you have budget and respondent access for a higher-rigour study and the feature-to-tier decision is disputed internally; skip it if PSM and Value Metric/WTP already give you enough to draft the tiers
 
-6. **Bowman's Strategic Clock** (`Category 3`)
+6. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
+   - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value
+   - *Do this sixth:* Draft the tier structure and price ladder, anchored by the PSM corridor, the chosen value metric, and any conjoint feature values, before building sales collateral
+
+7. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Understand your competitive position on price-value; position new tier accordingly
    - *Do this:* Don't undermine existing tiers with a premium tier that's actually cheaper
 
-7. **Product Differentiation Strategy Framework** (`Category 3`)
+8. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* Clarify what differentiates the new tier (features, support, integrations)
    - *Do this:* Ensure the difference is meaningful enough to justify price gap
 
-8. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
+9. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
    - *Why:* Create positioning for each tier that justifies the price to its target segment
    - *Do this:* Frame in customer outcomes, not feature count
 
-9. **Win / Loss Analysis Framework** (`Category 6`)
+10. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Analyse past deals by segment; understand what features drive higher WTP
    - *Do this:* Use win/loss data to inform tier differentiation
 
-10. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
+11. **10-Step PMM Process (Steps 5–7)** (`Category 4`)
    - *Why:* Build messaging, sales collateral, and enablement for the new tier
    - *Do this:* Sales needs comparison matrices, ROI calculators, migration guides
 
