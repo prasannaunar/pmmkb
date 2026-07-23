@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 36 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 38 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -37,6 +37,7 @@ These frameworks establish the baseline for all downstream work:
 |-----------|---------------|-----------|---------|
 | **STP Framework** | None | All positioning frameworks | Identify and validate target market |
 | **Product Dev Stage** | None | Complete GTM Workflow | Align PMM work with product timeline |
+| **ICP Development Methodology** | STP (Targeting step) | Sales prospecting, lead scoring, ABM target lists | Operationalise the chosen segment into a weighted, CRM-scored account fit model |
 
 ### Positioning Frameworks (Apply Second)
 These build on STP to define what you stand for:
@@ -93,6 +94,7 @@ These provide feedback loops to refine all prior work:
 | **NPS** | Customer base | Quarterly Planning | Measure satisfaction & identify gaps |
 | **Competitive Intelligence** | Positioning + Competitive set | Quarterly Planning | Track competitor moves |
 | **Voice of the Customer (VoC) Programme** | Customer base + instrumented signal sources (surveys, tickets, calls, reviews, churn) | STP refresh, Positioning, Message Architecture, Roadmap, Quarterly Planning | Continuously synthesise customer signal into decisions; the system that connects Win/Loss and NPS |
+| **Kano Model** | STP (segment the survey by) | Roadmap priority, Good-Better-Best tier fences, launch messaging | Classify features by satisfaction effect (must-be, performance, delighter, indifferent, reverse) |
 
 ### Strategy & Planning Frameworks (Orchestrate All)
 These coordinate and sequence all other frameworks:
@@ -122,6 +124,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 3. **GTM Motion Model** (select which acquisition motion, self-serve, PLG, inside sales, field sales, or partner-channel, this launch is built for; if it selects self-serve or PLG, run **Product-Led Growth** alongside steps 4 onward to build the activation and upgrade-path work the motion depends on)
 4. **Geoffrey Moore** or **April Dunford** (positioning)
 5. **Value Prop Canvas** (map to segment needs)
+5a. **Kano Model** (optional; classify the launch feature set by satisfaction effect so the headline in step 6 is a genuine delighter, not a must-be customers already assume)
 6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
 7. **Complete GTM Workflow** (phases)
 8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
@@ -131,14 +134,15 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 
 ### Scenario 2: Repositioning for New Segment
 1. **STP** (validate segment)
-2. **Dunford's 10-Step Positioning Process** (run the research and validation steps behind the new hypothesis)
-3. **JTBD Switch Interview Method** (if the new positioning is framed around a job rather than an attribute, run switch interviews with recent buyers to find the actual triggering event first)
-4. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
-5. **Bowman's Clock** (validate price-value fit)
-6. **Win/Loss** (test with target segment)
-7. **7-Step PMM** (execute with new positioning)
-8. **Competitive Intelligence** (monitor competitor response)
-9. **Quarterly PMM** (measure impact)
+2. **ICP Development Methodology** (operationalise the validated segment into a scored account list before sales starts prospecting it)
+3. **Dunford's 10-Step Positioning Process** (run the research and validation steps behind the new hypothesis)
+4. **JTBD Switch Interview Method** (if the new positioning is framed around a job rather than an attribute, run switch interviews with recent buyers to find the actual triggering event first)
+5. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
+6. **Bowman's Clock** (validate price-value fit)
+7. **Win/Loss** (test with target segment)
+8. **7-Step PMM** (execute with new positioning)
+9. **Competitive Intelligence** (monitor competitor response)
+10. **Quarterly PMM** (measure impact)
 
 ### Scenario 3: Scaling PMM Team
 1. **Quarterly PMM** (identify capacity gaps)
@@ -163,6 +167,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 3. **Van Westendorp PSM** (find the acceptable price corridor)
 4. **Value Metric / WTP** (choose what to charge for and validate willingness to pay per persona)
 5. **Conjoint Analysis** (optional, higher-rigour step: isolate which individual features justify which tier, when a bundling decision is genuinely contested)
+5a. **Kano Model** (optional: confirm must-be features sit in every tier and delighters are reserved for the premium tier, before the fences in step 6 are drawn)
 6. **Good-Better-Best Packaging** (structure the tiers and price ladder)
 7. **Bowman's Clock** (check the new tier's price-value position against competitors)
 8. **Quarterly PMM** (resource the launch of the new tier)
@@ -221,6 +226,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-23 (eleventh and twelfth builds)**: Added the eleventh and twelfth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. **ICP Development Methodology** joins the Foundation Frameworks table (prerequisite: STP's Targeting step; feeds sales prospecting, lead scoring, and ABM target lists) and is now step 2 of the Repositioning for New Segment scenario, run immediately after STP validates the segment and before the positioning research process begins. **Kano Model** joins the Measurement & Optimisation Frameworks table (prerequisite: STP, to segment the survey; feeds roadmap priority, Good-Better-Best tier fences, and launch messaging) and is now an optional step 5a in both the New Product Launch scenario (classify the launch feature set before drafting the launch headline) and the Pricing a New Tier or Service scenario (confirm must-be versus delighter placement before drawing tier fences). Entry count updated 36 → 38.
 
 **2026-07-23 (ninth and tenth builds)**: Added the ninth and tenth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. **Conjoint Analysis** joins the Pricing & Packaging table (prerequisite: STP, with Van Westendorp PSM and/or Value Metric/WTP recommended first; feeds Good-Better-Best Packaging) and is now an optional step 5 of the Pricing a New Tier or Service scenario for contested bundling decisions. **Buyer's Journey Content Map** joins the Activation & Adoption Frameworks table (prerequisite: PMM Lifecycle and Win/Loss Analysis; feeds sales enablement and the Competitive Battlecard Framework) and is now step 5 of the Improving Win Rate scenario, run before the battlecard step to confirm content exists at the stage where deals are stalling. Entry count updated 34 → 36.
 
