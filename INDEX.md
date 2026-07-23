@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-23 (built the ninth and tenth ENRICHMENT-PLAN.md candidates, continuing the "Medium" batch: Conjoint Analysis in Category 8 and the Buyer's Journey Content Map in Category 5; total 34 → 36 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-23 (built the eleventh and twelfth ENRICHMENT-PLAN.md candidates, continuing the "Medium" batch: ICP Development Methodology in Category 1 and the Kano Model in Category 6; total 36 → 38 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -13,6 +13,7 @@
 | Product Development Stage Framework | Process for conducting market research, developing roadmaps, and establishing positioning during product development |
 | Voice of the Customer (VoC) Programme | **Methodology.** Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
 | JTBD Switch Interview Method | **Methodology.** Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
+| ICP Development Methodology | **Methodology.** Operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals into a weighted, CRM-scored fit model; the layer beneath STP's Targeting step that ranks specific accounts rather than choosing a strategic segment |
 
 ---
 
@@ -66,13 +67,12 @@
 
 ## Category 6: Product Experience & Adoption
 
-✅ **STATUS: COMPLETE.** All frameworks written with full examples and pitfalls
-
 | Framework | Description |
 |-----------|-------------|
 | Customer Onboarding Maturity Framework | Model defining product marketing's role in customer onboarding from self-service to fully-supported, measuring time-to-first-value and identifying activation blockers |
 | Win/Loss Analysis Framework | Systematic process for analyzing why customers buy (wins) and choose competitors (losses) through structured interviews, informing positioning and sales strategy |
 | Net Promoter Score (NPS) & Feedback Loop Framework | Framework for using customer feedback and NPS data to identify advocates, diagnose sentiment drivers, and inform retention and messaging strategies |
+| Kano Model | **Framework.** Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so roadmap priority and launch messaging match what each feature actually does to customer sentiment |
 
 ---
 
@@ -109,19 +109,19 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 36 (29 frameworks, 5 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 38 (30 frameworks, 6 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
 - **Entries per Category:** 2–7
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 5 entries (`frameworks/01-market-customer-understanding.md`)
+✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
 ✅ **Category 2 (Positioning & Messaging):** 6 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 7 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
-✅ **Category 6 (Product Experience & Adoption):** 3 frameworks (`frameworks/06-product-experience-adoption.md`)
+✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 4 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
@@ -132,4 +132,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 10 of 19 candidates built as of 2026-07-23)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 12 of 19 candidates built as of 2026-07-23)
