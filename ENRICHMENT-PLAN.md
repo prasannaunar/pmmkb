@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Five "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23).** The remaining 9 are queued, starting with A3 (ICP Development Methodology), the next candidate in priority order; this document is the pick-up point. A future session should continue through the rest of the "Medium" batch, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Seven "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23).** The remaining 7 are queued, starting with A13 (Command of the Message), the last "Medium" candidate, then the "Lower" batch; this document is the pick-up point. A future session should continue through A13, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -47,12 +47,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Why it is proven:** Dominant motion for self-serve SaaS (Slack, Calendly, Notion, Figma); extensively documented.
 - **Overlap/scope note:** Frame PMM's role specifically (activation messaging, PQL definition, upgrade-path packaging); avoid drifting into product-management territory.
 
-### A3. ICP Development Methodology
+### A3. ICP Development Methodology: ✅ BUILT (2026-07-23)
+- **Built as:** Category 1 (Market & Customer Understanding), `frameworks/01-market-customer-understanding.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,479 words; cross-linked to STP, Win/Loss Analysis, Voice of the Customer Programme, and the JTBD Switch Interview Method.
 - **Type:** Methodology.
 - **Originator:** Converged practice; documented by demandbase, HubSpot, and ABM literature.
 - **What it does:** The operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals, then its use to focus targeting, messaging, and enablement. A repeatable practice refreshed as the customer base shifts.
 - **Proposed home:** Category 1 (Market & Customer Understanding).
-- **Overlap/scope note:** STP already defines targeting at a strategic level; this must be framed as the *operational* ICP build (signals, scoring, list-building), not a second segmentation model. Resolve the overlap explicitly or fold it into an STP "See also".
+- **Overlap/scope note:** STP already defines targeting at a strategic level; this must be framed as the *operational* ICP build (signals, scoring, list-building), not a second segmentation model. **Resolved:** framed explicitly as the layer beneath STP's Targeting step, converting the chosen segment into a weighted, evidence-based account scoring model that sales and marketing operations apply to a specific list, sequential with STP rather than a competing model.
 
 ### A4. Bullseye Framework (traction channel selection)
 - **Type:** Framework.
@@ -88,11 +89,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Proposed home:** Category 1, cross-linked to the existing JTBD Positioning Framework.
 - **Overlap/scope note:** Must be clearly differentiated from the existing JTBD entry: that one is about how to position around a job; this is about how to interview to discover it. A good test case for the framework-vs-methodology distinction.
 
-### A8. Kano Model
+### A8. Kano Model: ✅ BUILT (2026-07-23)
+- **Built as:** Category 6 (Product Experience & Adoption), `frameworks/06-product-experience-adoption.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,394 words; cross-linked to STP, Good-Better-Best Packaging Framework, Feature Adoption Framework, and the Voice of the Customer Programme.
 - **Type:** Framework.
 - **Originator:** Noriaki Kano, 1984.
 - **What it does:** Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so teams prioritise what actually moves customer perception. Useful for PMM in launch messaging and packaging decisions.
 - **Proposed home:** Category 1 or Category 6.
+- **Category decision:** Built into Category 6, not Category 1, to balance category size (Category 6 held the joint-fewest entries before this build) and because its primary PMM use sits closest to the existing NPS and Win/Loss entries there.
 - **Why it is proven:** 40 years of use across product and CX disciplines.
 
 ## Theme 4: Positioning
@@ -200,8 +203,8 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A7 | JTBD Switch Interview Method | Methodology | Cat 1 | ✅ **Built** | VoC research method |
 | A14 | Conjoint Analysis | Methodology | Cat 8 | ✅ **Built** | Pricing rigour |
 | A18 | Buyer's Journey Content Map | Framework | Cat 5 | ✅ **Built** | Enablement content |
-| A3 | ICP Development Methodology | Methodology | Cat 1 | Medium | Operational targeting |
-| A8 | Kano Model | Framework | Cat 1 / 6 | Medium | Feature prioritisation |
+| A3 | ICP Development Methodology | Methodology | Cat 1 | ✅ **Built** | Operational targeting |
+| A8 | Kano Model | Framework | Cat 6 | ✅ **Built** | Feature prioritisation |
 | A13 | Command of the Message | Methodology | Cat 2 | Medium | Value-selling messaging |
 | A4 | Bullseye (traction channels) | Framework | Cat 4 | Lower | Channel selection |
 | A10 | Perceptual Map (2x2) | Framework | Cat 3 | Lower | Visual positioning |
@@ -214,7 +217,7 @@ All 19 candidates will be built. The priority column sets the order of work, not
 
 **First batch (the five "High" candidates): all built.** Message Architecture ✅ (Framework), Competitive Battlecard ✅ (Framework), Voice of the Customer Programme ✅ (Methodology), Dunford 10-Step Positioning Process ✅ (Methodology), and the GTM vs PMM primer ✅ (Primer, built 2026-07-22 in the new `concepts/` area). Together these fill the most-cited gaps and exercise every new content type (Framework, Methodology, Model, and Primer), proving the documentation changes in Part B before the collection grew further.
 
-**Second batch (the "Medium" candidates): under way.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), and A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5) are now done. The remaining nine, three "Medium" (A3 ICP Development Methodology, A8 Kano Model, A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above, starting with A3.
+**Second batch (the "Medium" candidates): nearly complete.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5), A3 ICP Development Methodology ✅ (Methodology, built 2026-07-23 in Category 1), and A8 Kano Model ✅ (Framework, built 2026-07-23 in Category 6) are now done. The remaining seven, one "Medium" (A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above, starting with A13.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19, once all three are built. A17 lives in Category 3 and A18 lives in Category 5 for now; Category 9 remains the plan once A19 joins them, at which point revisit whether to consolidate all three there.
@@ -304,4 +307,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Ten are built as of 2026-07-23 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, and A18 the Buyer's Journey Content Map), completing the "High" batch and continuing the "Medium" batch; 9 remain, starting with A3, ICP Development Methodology, the next "Medium" candidate. This plan is the build queue, worked top-down through the rest of the "Medium" batch and then the "Lower" batch, until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Twelve are built as of 2026-07-23 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, and A8 the Kano Model), completing the "High" batch and nearly completing the "Medium" batch; 7 remain, starting with A13, Command of the Message, the last "Medium" candidate. This plan is the build queue, worked top-down through A13 and then the "Lower" batch, until every entry is built.
