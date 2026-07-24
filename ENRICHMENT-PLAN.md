@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). Seven "Medium" candidates are also built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23).** The remaining 7 are queued, starting with A13 (Command of the Message), the last "Medium" candidate, then the "Lower" batch; this document is the pick-up point. A future session should continue through A13, then the "Lower" batch, in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). All eight "Medium" candidates are now built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23); A13 Command of the Message (2026-07-24), completing the "Medium" batch. The "Lower" batch has opened: A4 Bullseye Framework (2026-07-24).** The remaining 5 candidates are queued, starting with A10 (Perceptual Map), continuing the "Lower" batch; this document is the pick-up point. A future session should continue through the rest of the "Lower" batch in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -55,12 +55,14 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Proposed home:** Category 1 (Market & Customer Understanding).
 - **Overlap/scope note:** STP already defines targeting at a strategic level; this must be framed as the *operational* ICP build (signals, scoring, list-building), not a second segmentation model. **Resolved:** framed explicitly as the layer beneath STP's Targeting step, converting the chosen segment into a weighted, evidence-based account scoring model that sales and marketing operations apply to a specific list, sequential with STP rather than a competing model.
 
-### A4. Bullseye Framework (traction channel selection)
+### A4. Bullseye Framework (traction channel selection): ✅ BUILT (2026-07-24)
+- **Built as:** Category 4 (Go-to-Market & Launch), `frameworks/04-go-to-market-launch.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,370 words; cross-linked to the GTM Motion Model, the 3-Step Product Marketing Strategy Framework, STP, and Complete GTM Workflow Stages.
 - **Type:** Framework.
 - **Originator:** Gabriel Weinberg and Justin Mares, *Traction* (2015).
 - **What it does:** A structured way to test and pick acquisition channels: brainstorm across 19 channels, rank into an inner/middle/outer ring, run cheap tests, then double down on the one channel that works.
 - **Proposed home:** Category 4 (Go-to-Market & Launch).
 - **Why it is proven:** Widely taught in startup GTM curricula; a decade of documented use.
+- **Overlap/scope note resolved:** Differentiated explicitly from the GTM Motion Model (which selects *how* a company sells: self-serve, PLG, inside sales, field sales, or partner-channel) by framing this framework as the *channel* decision made inside whichever motion the Motion Model selects; also cross-referenced against Complete GTM Workflow Stages, whose Phase 2 already names "identify one primary go-to-market channel" as a step, since this framework is the structured method for making that specific choice.
 
 ## Theme 2: GTM vs PMM (a conceptual primer, not a framework)
 
@@ -131,12 +133,14 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **What it does:** Translates a raw feature into the advantage it creates and the benefit the buyer feels, so messaging leads with outcomes rather than specs.
 - **Proposed home:** Category 2, potentially as a section within the Message Architecture entry rather than a standalone framework (decide during build to avoid a thin entry).
 
-### A13. Command of the Message (value-selling messaging discipline)
+### A13. Command of the Message (value-selling messaging discipline): ✅ BUILT (2026-07-24)
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,366 words; cross-linked to Message Architecture, the Competitive Battlecard Framework, Win/Loss Analysis, and Dunford's 10-Step Positioning Process.
 - **Type:** Methodology.
 - **Originator:** Force Management.
 - **What it does:** A discipline for building buyer-centric messaging around required capabilities, differentiators, and quantified value, then embedding it across sales conversations. Bridges messaging and sales enablement.
 - **Proposed home:** Category 2 or a new Sales Enablement category (see Theme 7).
-- **Overlap/scope note:** Vendor-originated methodology; include with a clear "PMM's role" framing (PMM authors the value messaging; sales executes it), consistent with how the backlog treats MEDDIC.
+- **Category decision:** Built into Category 2, not a new Sales Enablement category; the entry is scoped narrowly to the messaging component PMM authors (required capabilities, differentiators, quantified value), explicitly excluding the deal-qualification and forecasting parts of the full Force Management methodology, which sit outside PMM's remit.
+- **Overlap/scope note:** Resolved by framing this entry not as a second messaging hierarchy but as the live-conversation layer that adapts the existing Message Architecture (Messaging House) for a specific rep, deal, and named competitor; written with a clear "PMM's role" framing (PMM authors and owns the value messaging; sales enablement and leadership own training delivery and adoption), consistent with how the backlog treats MEDDIC.
 
 ## Theme 6: Pricing and packaging (extends Category 8)
 
@@ -205,19 +209,21 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A18 | Buyer's Journey Content Map | Framework | Cat 5 | ✅ **Built** | Enablement content |
 | A3 | ICP Development Methodology | Methodology | Cat 1 | ✅ **Built** | Operational targeting |
 | A8 | Kano Model | Framework | Cat 6 | ✅ **Built** | Feature prioritisation |
-| A13 | Command of the Message | Methodology | Cat 2 | Medium | Value-selling messaging |
-| A4 | Bullseye (traction channels) | Framework | Cat 4 | Lower | Channel selection |
+| A13 | Command of the Message | Methodology | Cat 2 | ✅ **Built** | Value-selling messaging |
+| A4 | Bullseye (traction channels) | Framework | Cat 4 | ✅ **Built** | Channel selection |
 | A10 | Perceptual Map (2x2) | Framework | Cat 3 | Lower | Visual positioning |
 | A12 | FAB / Value Messaging ladder | Framework | Cat 2 | Lower | Feature-to-benefit |
 | A15 | Gabor-Granger | Methodology | Cat 8 | Lower | Revenue-optimal price |
 | A16 | Usage-Based Pricing Model | Model | Cat 8 | Lower | Consumption pricing |
 | A19 | Sales Enablement Maturity Model | Model | new Sales Enablement | Lower | Enablement diagnosis |
 
-All 19 candidates will be built. The priority column sets the order of work, not whether an entry is included; "Lower" means "build later", not "maybe". Work top-down from the "High" batch, now complete, through the "Medium" batch.
+All 19 candidates will be built. The priority column sets the order of work, not whether an entry is included; "Lower" means "build later", not "maybe". Work top-down from the "High" batch, now complete, through the "Medium" batch, also now complete.
 
 **First batch (the five "High" candidates): all built.** Message Architecture ✅ (Framework), Competitive Battlecard ✅ (Framework), Voice of the Customer Programme ✅ (Methodology), Dunford 10-Step Positioning Process ✅ (Methodology), and the GTM vs PMM primer ✅ (Primer, built 2026-07-22 in the new `concepts/` area). Together these fill the most-cited gaps and exercise every new content type (Framework, Methodology, Model, and Primer), proving the documentation changes in Part B before the collection grew further.
 
-**Second batch (the "Medium" candidates): nearly complete.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5), A3 ICP Development Methodology ✅ (Methodology, built 2026-07-23 in Category 1), and A8 Kano Model ✅ (Framework, built 2026-07-23 in Category 6) are now done. The remaining seven, one "Medium" (A13 Command of the Message) and six "Lower" (A4, A10, A12, A15, A16, A19), are queued next in the table order above, starting with A13.
+**Second batch (the eight "Medium" candidates): all built.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5), A3 ICP Development Methodology ✅ (Methodology, built 2026-07-23 in Category 1), A8 Kano Model ✅ (Framework, built 2026-07-23 in Category 6), and A13 Command of the Message ✅ (Methodology, built 2026-07-24 in Category 2) complete this batch.
+
+**Third batch (the "Lower" candidates): opened.** A4 Bullseye Framework ✅ (Framework, built 2026-07-24 in Category 4) is the first of six built. The remaining five, A10, A12, A15, A16, and A19, are queued next in the table order above, starting with A10.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19, once all three are built. A17 lives in Category 3 and A18 lives in Category 5 for now; Category 9 remains the plan once A19 joins them, at which point revisit whether to consolidate all three there.
@@ -307,4 +313,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Twelve are built as of 2026-07-23 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, and A8 the Kano Model), completing the "High" batch and nearly completing the "Medium" batch; 7 remain, starting with A13, Command of the Message, the last "Medium" candidate. This plan is the build queue, worked top-down through A13 and then the "Lower" batch, until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Fourteen are built as of 2026-07-24 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, and A4 the Bullseye Framework), completing both the "High" and "Medium" batches and opening the "Lower" batch; 5 remain, starting with A10, the Perceptual Map. This plan is the build queue, worked top-down through the rest of the "Lower" batch until every entry is built.

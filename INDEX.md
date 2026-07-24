@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-23 (built the eleventh and twelfth ENRICHMENT-PLAN.md candidates, continuing the "Medium" batch: ICP Development Methodology in Category 1 and the Kano Model in Category 6; total 36 → 38 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-24 (built the thirteenth and fourteenth ENRICHMENT-PLAN.md candidates: Command of the Message in Category 2, completing the "Medium" batch, and the Bullseye Framework in Category 4, opening the "Lower" batch; total 38 → 40 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -27,6 +27,7 @@
 | Value Proposition Canvas | Tool for identifying what customers value and translating insights into relative market position and pricing choices |
 | Message Architecture (Messaging House) | **Framework.** Hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each, as the single source of truth all go-to-market assets write from |
 | Dunford's 10-Step Positioning Process | **Methodology.** The step-by-step research and validation process (best-fit customers → competitive alternatives → unique attributes → value → segment → category → pitch → alignment) that produces the 5-Component Positioning Canvas |
+| Command of the Message | **Methodology.** Value-selling discipline (Force Management) that adapts the messaging house's core message and pillars into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value |
 
 ---
 
@@ -51,6 +52,7 @@
 | T2D3 Framework (B2B SaaS) | Go-to-market methodology for B2B SaaS scaling: Triple, Triple, Double, Double, Double revenue growth trajectory |
 | GTM Motion Model | **Model.** Taxonomy of the five ways a company acquires and expands customers (self-serve, PLG, inside sales, field sales, partner-channel), plotted by deal size and buyer complexity, used to select the motion a launch or GTM plan is built for before sequencing it |
 | Product-Led Growth (PLG) | **Methodology.** The ongoing practice of running the PLG motion identified by the GTM Motion Model: defining an activation moment, instrumenting product-qualified lead signals, and building in-product upgrade paths that convert self-serve users without a sales conversation |
+| Bullseye Framework (Traction Channel Selection) | **Framework.** Structured method for picking a single acquisition channel: brainstorm across 19 possible channels, cheaply test three or four in a middle ring, then concentrate budget on the one channel with the strongest early signal |
 
 ---
 
@@ -109,17 +111,17 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 38 (30 frameworks, 6 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 40 (31 frameworks, 7 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
-- **Entries per Category:** 2–7
+- **Entries per Category:** 2–8
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 6 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 2 (Positioning & Messaging):** 7 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
-✅ **Category 4 (Go-to-Market & Launch):** 7 entries (`frameworks/04-go-to-market-launch.md`)
+✅ **Category 4 (Go-to-Market & Launch):** 8 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
@@ -132,4 +134,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 12 of 19 candidates built as of 2026-07-23)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 14 of 19 candidates built as of 2026-07-24)
