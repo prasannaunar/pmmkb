@@ -38,6 +38,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Build the activation moment, product-qualified lead signals, and in-product upgrade path this launch's self-serve funnel depends on
    - *Do this alongside step 6:* Instrument activation and PQL tracking before launch traffic arrives, not after conversion looks weak
 
+5b. **Bullseye Framework** (`Category 4`); *optional*
+   - *Why:* Brainstorm across the 19 candidate acquisition channels and cheaply test three or four within the motion selected in step 5, so the primary channel this launch commits budget to is evidenced, not assumed
+   - *Do this alongside step 6:* Complete unpaid, time-boxed tests before Complete GTM Workflow's Phase 2 commits real spend to a single channel
+
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
    - *Do this parallel:* Run launch planning in parallel with positioning work
@@ -153,6 +157,10 @@ Map your current challenge to the frameworks that will help you solve it.
 7. **Competitive Battlecard Framework** (`Category 3`)
    - *Why:* Turn the differentiation and positioning above into a one-page field tool sales can use live in a deal against the named incumbent
    - *Do this:* Build the card around the incumbent's actual pitch, not an assumption of it, and role-play it with reps before rollout
+
+7a. **Command of the Message** (`Category 2`)
+   - *Why:* Give reps a quantified value case, not just a counter-position, so the differentiation from step 3 survives contact with an economic buyer who wants a defensible number, not a claim
+   - *Do this alongside step 7:* Role-play the value case against the incumbent named in the battlecard before either goes live
 
 8. **10-Step PMM Process** (`Category 4`)
    - *Why:* Build the wider competitive sales enablement programme the battlecard sits inside

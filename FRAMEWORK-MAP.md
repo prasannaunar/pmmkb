@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 38 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 40 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -51,6 +51,7 @@ These build on STP to define what you stand for:
 | **Message Architecture (Messaging House)** | A validated positioning statement (Geoffrey Moore or April Dunford) | GTM execution, sales enablement, all campaign copy | Turn positioning into a copy hierarchy every asset writes from |
 | **Dunford's 10-Step Positioning Process** | Best-fit customers + STP | April Dunford's 5-Component Positioning Canvas, Message Architecture | The research and validation process that produces the canvas |
 | **JTBD Switch Interview Method** | Recent buyers (purchased within 1–3 months) | JTBD Positioning Framework, Voice of the Customer Programme | The interview technique that finds the job and the switch trigger the JTBD framework then positions around |
+| **Command of the Message** | Message Architecture (Messaging House) | Live sales conversations, sales enablement training, Competitive Battlecard Framework | Adapts the messaging house's core message and pillars into a value-selling structure a rep runs live, built around required capabilities, a named competitor, and quantified business value |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -68,6 +69,7 @@ These sequence and execute GTM using positioning:
 |-----------|---------------|-----------|---------|
 | **GTM Motion Model** | STP (target segment identified) | 3/7/10-Step PMM, Complete GTM, Product-Led Growth | Select which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) the launch is built for, before sequencing it |
 | **Product-Led Growth** | GTM Motion Model selects self-serve or PLG | Feature Adoption, Onboarding Maturity | Run the PLG motion: activation moment, product-qualified lead signals, in-product upgrade paths |
+| **Bullseye Framework** | GTM Motion Model (motion chosen) + STP (target segment) | Complete GTM Workflow Phase 2, Quarterly PMM Planning | Select the single acquisition channel to concentrate budget on, inside the motion already chosen, by cheaply testing several candidates before committing |
 | **3-Step PMM** | Positioning | 7-Step PMM | Early-stage simplicity |
 | **7-Step PMM** | Positioning | 10-Step PMM | Mid-stage structure |
 | **10-Step PMM** | Positioning | Quarterly Planning | Large-team operationalisation |
@@ -126,6 +128,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 5. **Value Prop Canvas** (map to segment needs)
 5a. **Kano Model** (optional; classify the launch feature set by satisfaction effect so the headline in step 6 is a genuine delighter, not a must-be customers already assume)
 6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
+6a. **Bullseye Framework** (optional; brainstorm and cheaply test candidate acquisition channels within the motion selected in step 3, so Complete GTM Workflow's Phase 2 channel validation starts from a shortlist rather than a guess)
 7. **Complete GTM Workflow** (phases)
 8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
 9. **Feature Adoption** (drive early usage)
@@ -158,6 +161,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 4. **Geoffrey Moore** or **April Dunford** (refine positioning)
 5. **Buyer's Journey Content Map** (confirm content exists at the specific stage deals are stalling, not just that a battlecard exists)
 6. **Competitive Battlecard Framework** (equip reps with the counter-position for the specific competitor deals are lost to)
+6a. **Command of the Message** (translate the refined positioning and the battlecard's counter-position into a quantified value case reps run live in discovery and proposal conversations against that competitor)
 7. **7-Step or 10-Step PMM** (update sales enablement)
 8. **Quarterly PMM** (schedule messaging refresh)
 
@@ -226,6 +230,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-24 (thirteenth and fourteenth builds)**: Added the thirteenth and fourteenth ENRICHMENT-PLAN.md builds, completing the "Medium" batch and opening the "Lower" batch. **Command of the Message** joins the positioning frameworks table (prerequisite: Message Architecture; feeds live sales conversations, sales enablement training, and the Competitive Battlecard Framework) and is now step 6a of the Improving Win Rate scenario, run after the battlecard is built to give reps a quantified value case for the specific competitor named in it. **Bullseye Framework** joins the Go-to-Market Frameworks table (prerequisite: the GTM Motion Model, to fix which acquisition motion the channel test operates within, plus STP for the target segment; feeds Complete GTM Workflow's Phase 2 channel validation and Quarterly PMM Planning) and is now an optional step 6a of the New Product Launch scenario, run after Message Architecture and before Complete GTM Workflow so channel testing starts from a tested shortlist rather than habit or opinion. Entry count updated 38 → 40.
 
 **2026-07-23 (eleventh and twelfth builds)**: Added the eleventh and twelfth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch. **ICP Development Methodology** joins the Foundation Frameworks table (prerequisite: STP's Targeting step; feeds sales prospecting, lead scoring, and ABM target lists) and is now step 2 of the Repositioning for New Segment scenario, run immediately after STP validates the segment and before the positioning research process begins. **Kano Model** joins the Measurement & Optimisation Frameworks table (prerequisite: STP, to segment the survey; feeds roadmap priority, Good-Better-Best tier fences, and launch messaging) and is now an optional step 5a in both the New Product Launch scenario (classify the launch feature set before drafting the launch headline) and the Pricing a New Tier or Service scenario (confirm must-be versus delighter placement before drawing tier fences). Entry count updated 36 → 38.
 
