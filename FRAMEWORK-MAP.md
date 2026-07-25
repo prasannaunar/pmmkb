@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 40 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 42 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -52,6 +52,7 @@ These build on STP to define what you stand for:
 | **Dunford's 10-Step Positioning Process** | Best-fit customers + STP | April Dunford's 5-Component Positioning Canvas, Message Architecture | The research and validation process that produces the canvas |
 | **JTBD Switch Interview Method** | Recent buyers (purchased within 1–3 months) | JTBD Positioning Framework, Voice of the Customer Programme | The interview technique that finds the job and the switch trigger the JTBD framework then positions around |
 | **Command of the Message** | Message Architecture (Messaging House) | Live sales conversations, sales enablement training, Competitive Battlecard Framework | Adapts the messaging house's core message and pillars into a value-selling structure a rep runs live, built around required capabilities, a named competitor, and quantified business value |
+| **Features-Advantages-Benefits (FAB) Ladder** | A feature to translate; ideally a Message Architecture pillar it feeds | Message Architecture proof points, release notes, demo scripts, Command of the Message's quantified value cases | Turns one raw feature into a buyer-tested benefit statement, one level below the messaging house |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -61,6 +62,7 @@ These validate positioning against competition:
 | **Bowman's Clock** | STP + Positioning | Pricing strategy | Price-value positioning |
 | **Product Differentiation** | STP + Positioning | Sales enablement | Competitive differentiation |
 | **Competitive Battlecard Framework** | Competitive Intelligence + Product Differentiation + Bowman's Clock | Live sales deals, Win/Loss Analysis | One-page field tool for contested deals |
+| **Perceptual Map (2x2)** | STP (segment to plot for) + Win/Loss (source of buyer-relevant axes) | Product Differentiation, positioning refresh | Plots competitors on two buyer-chosen attributes to reveal open market space |
 
 ### Go-to-Market Frameworks (Apply Fourth)
 These sequence and execute GTM using positioning:
@@ -129,6 +131,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 5a. **Kano Model** (optional; classify the launch feature set by satisfaction effect so the headline in step 6 is a genuine delighter, not a must-be customers already assume)
 6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
 6a. **Bullseye Framework** (optional; brainstorm and cheaply test candidate acquisition channels within the motion selected in step 3, so Complete GTM Workflow's Phase 2 channel validation starts from a shortlist rather than a guess)
+6b. **Features-Advantages-Benefits (FAB) Ladder** (optional; translate the one or two features that map to a Message Architecture pillar into a tested benefit statement before the launch's headline proof points are locked)
 7. **Complete GTM Workflow** (phases)
 8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
 9. **Feature Adoption** (drive early usage)
@@ -142,6 +145,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 4. **JTBD Switch Interview Method** (if the new positioning is framed around a job rather than an attribute, run switch interviews with recent buyers to find the actual triggering event first)
 5. **April Dunford** or **JTBD** (capture the new positioning hypothesis)
 6. **Bowman's Clock** (validate price-value fit)
+6a. **Perceptual Map** (optional; check the new positioning against a second, buyer-chosen pair of attributes Bowman's Clock does not capture, to confirm the white space is real before committing collateral to it)
 7. **Win/Loss** (test with target segment)
 8. **7-Step PMM** (execute with new positioning)
 9. **Competitive Intelligence** (monitor competitor response)
@@ -230,6 +234,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-25 (fifteenth and sixteenth builds)**: Added the fifteenth and sixteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Perceptual Map (2x2)** joins the Competitive Frameworks table (prerequisite: STP to choose the segment to plot for, plus Win/Loss as the source of buyer-relevant axes; feeds Product Differentiation and a positioning refresh) and is now an optional step 6a of the Repositioning for New Segment scenario, run alongside Bowman's Clock to check the new positioning against a second, buyer-chosen pair of attributes. **Features-Advantages-Benefits (FAB) Ladder** joins the Positioning Frameworks table (prerequisite: a feature to translate, ideally one that maps to a Message Architecture pillar; feeds Message Architecture proof points, release notes, demo scripts, and Command of the Message's quantified value cases) and is now an optional step 6b of the New Product Launch scenario, run after Message Architecture and Bullseye Framework to test the launch's headline proof points before they are locked. Entry count updated 40 → 42.
 
 **2026-07-24 (thirteenth and fourteenth builds)**: Added the thirteenth and fourteenth ENRICHMENT-PLAN.md builds, completing the "Medium" batch and opening the "Lower" batch. **Command of the Message** joins the positioning frameworks table (prerequisite: Message Architecture; feeds live sales conversations, sales enablement training, and the Competitive Battlecard Framework) and is now step 6a of the Improving Win Rate scenario, run after the battlecard is built to give reps a quantified value case for the specific competitor named in it. **Bullseye Framework** joins the Go-to-Market Frameworks table (prerequisite: the GTM Motion Model, to fix which acquisition motion the channel test operates within, plus STP for the target segment; feeds Complete GTM Workflow's Phase 2 channel validation and Quarterly PMM Planning) and is now an optional step 6a of the New Product Launch scenario, run after Message Architecture and before Complete GTM Workflow so channel testing starts from a tested shortlist rather than habit or opinion. Entry count updated 38 → 40.
 

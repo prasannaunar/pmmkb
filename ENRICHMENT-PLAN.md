@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). All eight "Medium" candidates are now built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23); A13 Command of the Message (2026-07-24), completing the "Medium" batch. The "Lower" batch has opened: A4 Bullseye Framework (2026-07-24).** The remaining 5 candidates are queued, starting with A10 (Perceptual Map), continuing the "Lower" batch; this document is the pick-up point. A future session should continue through the rest of the "Lower" batch in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). All eight "Medium" candidates are now built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23); A13 Command of the Message (2026-07-24), completing the "Medium" batch. The "Lower" batch is now three-quarters built: A4 Bullseye Framework (2026-07-24); A10 Perceptual Map and A12 Features-Advantages-Benefits (FAB) Ladder (2026-07-25).** The remaining 3 candidates are queued, starting with A15 (Gabor-Granger), continuing the "Lower" batch; this document is the pick-up point. A future session should continue through the rest of the "Lower" batch in the priority order below, and build each one out following the standards in CLAUDE.md.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -110,12 +110,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Proposed home:** Category 2 (Positioning & Messaging), cross-linked to the existing April Dunford canvas.
 - **Overlap/scope note:** This is the clearest example of a methodology that complements an existing framework rather than duplicating it. Built explicitly as "the process that produces the canvas".
 
-### A10. Positioning / Perceptual Map (2x2)
+### A10. Positioning / Perceptual Map (2x2): ✅ BUILT (2026-07-25)
+- **Built as:** Category 3 (Competitive Strategy), `frameworks/03-competitive-strategy.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,507 words; cross-linked to Bowman's Strategic Clock, Product Differentiation Strategy Framework, STP, and April Dunford's 5-Component Positioning Canvas.
 - **Type:** Framework.
 - **Originator:** Classical marketing (Al Ries and Jack Trout, *Positioning*, 1981; perceptual mapping predates them).
 - **What it does:** Plots competitors on two buyer-relevant axes to find open, ownable space. A fast, visual complement to Bowman's Clock (which is price/value specific).
 - **Proposed home:** Category 3 (Competitive Strategy) or Category 2.
-- **Overlap/scope note:** Check against Bowman's Clock (Category 3); differentiate on axis choice (Bowman is fixed to price vs perceived value; perceptual maps use any two buyer-chosen attributes).
+- **Overlap/scope note resolved:** Differentiated on axis choice, as anticipated: Bowman's Clock is fixed to price versus perceived value and tests whether a competitive strategy is defensible, while the Perceptual Map is axis-agnostic, built fresh each time from whichever two attributes win/loss interviews show buyers actually weigh. Framed as a fast, visual complement run alongside or after the Clock, not a replacement for it.
 
 ## Theme 5: Messaging
 
@@ -127,11 +128,13 @@ Candidates already logged in FRAMEWORK-BACKLOG.md (StoryBrand SB7, MEDDIC/MEDDPI
 - **Proposed home:** Category 2 (Positioning & Messaging).
 - **Why it matters:** Fills the gap between the positioning frameworks (Category 2) and go-to-market execution (Category 4). High priority.
 
-### A12. Value Messaging / Features-Advantages-Benefits (FAB) ladder
+### A12. Value Messaging / Features-Advantages-Benefits (FAB) ladder: ✅ BUILT (2026-07-25)
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). 1,479 words; cross-linked to Message Architecture, Value Proposition Canvas, Command of the Message, and Win/Loss Analysis.
 - **Type:** Framework.
 - **Originator:** Classical sales and marketing technique; formalised in value-selling literature.
 - **What it does:** Translates a raw feature into the advantage it creates and the benefit the buyer feels, so messaging leads with outcomes rather than specs.
 - **Proposed home:** Category 2, potentially as a section within the Message Architecture entry rather than a standalone framework (decide during build to avoid a thin entry).
+- **Build decision:** Built standalone rather than folded into Message Architecture. The ladder operates one level below the messaging house (a per-feature translation discipline, not a hierarchy), and folding it in would have pushed Message Architecture past its word-count gate; framed explicitly as the technique that supplies Message Architecture's proof points and that Command of the Message reuses to quantify a differentiator's value for a specific deal.
 
 ### A13. Command of the Message (value-selling messaging discipline): ✅ BUILT (2026-07-24)
 - **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,366 words; cross-linked to Message Architecture, the Competitive Battlecard Framework, Win/Loss Analysis, and Dunford's 10-Step Positioning Process.
@@ -211,8 +214,8 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A8 | Kano Model | Framework | Cat 6 | ✅ **Built** | Feature prioritisation |
 | A13 | Command of the Message | Methodology | Cat 2 | ✅ **Built** | Value-selling messaging |
 | A4 | Bullseye (traction channels) | Framework | Cat 4 | ✅ **Built** | Channel selection |
-| A10 | Perceptual Map (2x2) | Framework | Cat 3 | Lower | Visual positioning |
-| A12 | FAB / Value Messaging ladder | Framework | Cat 2 | Lower | Feature-to-benefit |
+| A10 | Perceptual Map (2x2) | Framework | Cat 3 | ✅ **Built** | Visual positioning |
+| A12 | FAB / Value Messaging ladder | Framework | Cat 2 | ✅ **Built** | Feature-to-benefit |
 | A15 | Gabor-Granger | Methodology | Cat 8 | Lower | Revenue-optimal price |
 | A16 | Usage-Based Pricing Model | Model | Cat 8 | Lower | Consumption pricing |
 | A19 | Sales Enablement Maturity Model | Model | new Sales Enablement | Lower | Enablement diagnosis |
@@ -223,7 +226,7 @@ All 19 candidates will be built. The priority column sets the order of work, not
 
 **Second batch (the eight "Medium" candidates): all built.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5), A3 ICP Development Methodology ✅ (Methodology, built 2026-07-23 in Category 1), A8 Kano Model ✅ (Framework, built 2026-07-23 in Category 6), and A13 Command of the Message ✅ (Methodology, built 2026-07-24 in Category 2) complete this batch.
 
-**Third batch (the "Lower" candidates): opened.** A4 Bullseye Framework ✅ (Framework, built 2026-07-24 in Category 4) is the first of six built. The remaining five, A10, A12, A15, A16, and A19, are queued next in the table order above, starting with A10.
+**Third batch (the "Lower" candidates): three-quarters built.** A4 Bullseye Framework ✅ (Framework, built 2026-07-24 in Category 4), A10 Perceptual Map ✅ (Framework, built 2026-07-25 in Category 3), and A12 Features-Advantages-Benefits (FAB) Ladder ✅ (Framework, built 2026-07-25 in Category 2) are done. The remaining three, A15, A16, and A19, are queued next in the table order above, starting with A15.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19, once all three are built. A17 lives in Category 3 and A18 lives in Category 5 for now; Category 9 remains the plan once A19 joins them, at which point revisit whether to consolidate all three there.
@@ -313,4 +316,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Fourteen are built as of 2026-07-24 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, and A4 the Bullseye Framework), completing both the "High" and "Medium" batches and opening the "Lower" batch; 5 remain, starting with A10, the Perceptual Map. This plan is the build queue, worked top-down through the rest of the "Lower" batch until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Sixteen are built as of 2026-07-25 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, A4 the Bullseye Framework, A10 the Perceptual Map, and A12 the Features-Advantages-Benefits (FAB) Ladder), completing the "High" and "Medium" batches and taking the "Lower" batch three-quarters of the way; 3 remain, starting with A15, Gabor-Granger. This plan is the build queue, worked top-down through the rest of the "Lower" batch until every entry is built.

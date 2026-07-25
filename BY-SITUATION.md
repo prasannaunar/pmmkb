@@ -42,6 +42,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Brainstorm across the 19 candidate acquisition channels and cheaply test three or four within the motion selected in step 5, so the primary channel this launch commits budget to is evidenced, not assumed
    - *Do this alongside step 6:* Complete unpaid, time-boxed tests before Complete GTM Workflow's Phase 2 commits real spend to a single channel
 
+5c. **Features-Advantages-Benefits (FAB) Ladder** (`Category 2`); *optional*
+   - *Why:* Translate the one or two features that map to a Message Architecture pillar into a tested, benefit-first proof point before the launch's headline copy is locked
+   - *Do this alongside step 6:* Run a fast message test on the rewritten line with a small buyer panel; only the features feeding the launch headline need the full ladder
+
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
    - *Do this parallel:* Run launch planning in parallel with positioning work
@@ -137,6 +141,10 @@ Map your current challenge to the frameworks that will help you solve it.
 2. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Plot your position and theirs on the price-value map; identify white space
    - *Do this second:* Choose a defensible strategic position
+
+2a. **Perceptual Map** (`Category 3`); *optional*
+   - *Why:* Price and perceived value are not the only two attributes buyers weigh against an incumbent; plot a second map on whatever pair of attributes win/loss interviews say actually drives the choice, to check for white space Bowman's Clock cannot see
+   - *Do this alongside step 2:* Source both axes from unprompted buyer language, not an internal guess at what should differentiate you
 
 3. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* Articulate what makes you uniquely valuable given the competitive landscape

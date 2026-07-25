@@ -22,15 +22,15 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 40 Entries Across 8 Categories, Plus a Concepts Area
+### 42 Entries Across 8 Categories, Plus a Concepts Area
 
-This knowledge base contains 40 proven product marketing entries (31 frameworks, 7 methodologies, 1 model, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
+This knowledge base contains 42 proven product marketing entries (33 frameworks, 7 methodologies, 1 model, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 6 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 7 | `frameworks/02-positioning-messaging.md` |
-| 3 | Competitive Strategy | 3 | `frameworks/03-competitive-strategy.md` |
+| 2 | Positioning & Messaging | 8 | `frameworks/02-positioning-messaging.md` |
+| 3 | Competitive Strategy | 4 | `frameworks/03-competitive-strategy.md` |
 | 4 | Go-to-Market & Launch | 8 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 4 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 4 | `frameworks/06-product-experience-adoption.md` |
@@ -98,14 +98,14 @@ Every entry is designed to be **read standalone**, but entries often build on on
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 40 entries with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 42 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)**: 5-phase roadmap for polishing and integrating frameworks into day-to-day work
 - **[PROGRESS.md](PROGRESS.md)**: Progress tracking, completed work, and development status
 - **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
 - **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis, pending team review (NEW: 2026-07-09)
-- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies to add (14 built as of 2026-07-24), plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
+- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies to add (16 built as of 2026-07-25), plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
@@ -165,9 +165,10 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Conjoint Analysis Added to Category 8 and Buyer's Journey Content Map Added to Category 5 (ninth and tenth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch):** 2026-07-23
 - **ICP Development Methodology Added to Category 1 and Kano Model Added to Category 6 (eleventh and twelfth ENRICHMENT-PLAN.md builds, continuing the "Medium" batch):** 2026-07-23
 - **Command of the Message Added to Category 2 and Bullseye Framework Added to Category 4 (thirteenth and fourteenth ENRICHMENT-PLAN.md builds, completing the "Medium" batch and opening the "Lower" batch):** 2026-07-24
-- **Last Updated:** 2026-07-24
-- **Total entries:** 40 (31 frameworks, 7 methodologies, 1 model, 1 primer, all cross-linked; the fourteen 2026-07-21 to 2026-07-24 additions still need a source-validation pass); 14 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 5 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis)
+- **Perceptual Map Added to Category 3 and Features-Advantages-Benefits (FAB) Ladder Added to Category 2 (fifteenth and sixteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch):** 2026-07-25
+- **Last Updated:** 2026-07-25
+- **Total entries:** 42 (33 frameworks, 7 methodologies, 1 model, 1 primer, all cross-linked; the sixteen 2026-07-21 to 2026-07-25 additions still need a source-validation pass); 12 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 3 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis)
 - **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining enrichment and backlog queues approved and being built top-down from the priority order
 
 ---
