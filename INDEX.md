@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-24 (built the thirteenth and fourteenth ENRICHMENT-PLAN.md candidates: Command of the Message in Category 2, completing the "Medium" batch, and the Bullseye Framework in Category 4, opening the "Lower" batch; total 38 → 40 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-25 (built the fifteenth and sixteenth ENRICHMENT-PLAN.md candidates: the Perceptual Map in Category 3 and the Features-Advantages-Benefits (FAB) Ladder in Category 2, continuing the "Lower" batch; total 40 → 42 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -28,6 +28,7 @@
 | Message Architecture (Messaging House) | **Framework.** Hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each, as the single source of truth all go-to-market assets write from |
 | Dunford's 10-Step Positioning Process | **Methodology.** The step-by-step research and validation process (best-fit customers → competitive alternatives → unique attributes → value → segment → category → pitch → alignment) that produces the 5-Component Positioning Canvas |
 | Command of the Message | **Methodology.** Value-selling discipline (Force Management) that adapts the messaging house's core message and pillars into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value |
+| Features-Advantages-Benefits (FAB) Ladder | **Framework.** Three-step translation technique (feature → advantage → benefit) that turns a single raw feature into a proof point or copy line a buyer would repeat back, applied one level below the messaging house's pillars |
 
 ---
 
@@ -38,6 +39,7 @@
 | Bowman's Strategic Clock | Competitive positioning framework using price and perceived value to map eight strategic positions from cost leadership to premium differentiation |
 | Product Differentiation Strategy Framework | Structured process for identifying differentiators, mapping competitive positions, and articulating market positioning |
 | Competitive Battlecard Framework | **Framework.** One-page field tool giving sales the competitor's pitch, your counter-position, objection responses, landmines, and proof points for a live deal |
+| Perceptual Map (2x2) | **Framework.** Visual grid that plots competitors on two buyer-chosen attributes (not fixed to price and value like Bowman's Clock) to reveal genuinely open, ownable market space |
 
 ---
 
@@ -111,7 +113,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 40 (31 frameworks, 7 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 42 (33 frameworks, 7 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
 - **Entries per Category:** 2–8
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -119,8 +121,8 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 7 entries (`frameworks/02-positioning-messaging.md`)
-✅ **Category 3 (Competitive Strategy):** 3 entries (`frameworks/03-competitive-strategy.md`)
+✅ **Category 2 (Positioning & Messaging):** 8 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 3 (Competitive Strategy):** 4 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 8 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
@@ -134,4 +136,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 14 of 19 candidates built as of 2026-07-24)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 16 of 19 candidates built as of 2026-07-25)
