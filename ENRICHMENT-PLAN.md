@@ -1,7 +1,7 @@
 # Enrichment Plan: Adding Frameworks and Methodologies
 
 **Logged:** 2026-07-21
-**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). All eight "Medium" candidates are now built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23); A13 Command of the Message (2026-07-24), completing the "Medium" batch. The "Lower" batch is now three-quarters built: A4 Bullseye Framework (2026-07-24); A10 Perceptual Map and A12 Features-Advantages-Benefits (FAB) Ladder (2026-07-25).** The remaining 3 candidates are queued, starting with A15 (Gabor-Granger), continuing the "Lower" batch; this document is the pick-up point. A future session should continue through the rest of the "Lower" batch in the priority order below, and build each one out following the standards in CLAUDE.md.
+**Status:** Approved build queue. Every candidate in this plan will be built and added to the knowledge base. **All five "High" candidates are now built: A11 Message Architecture and A6 Voice of the Customer Programme (2026-07-21); A17 Competitive Battlecard Framework and A9 Dunford's 10-Step Positioning Process (2026-07-22); A5 the GTM vs PMM primer (2026-07-22). All eight "Medium" candidates are now built: A1 GTM Motion Model (2026-07-22); A2 Product-Led Growth and A7 JTBD Switch Interview Method (2026-07-22); A14 Conjoint Analysis and A18 Buyer's Journey Content Map (2026-07-23); A3 ICP Development Methodology and A8 Kano Model (2026-07-23); A13 Command of the Message (2026-07-24), completing the "Medium" batch. The "Lower" batch is now five-sixths built: A4 Bullseye Framework (2026-07-24); A10 Perceptual Map and A12 Features-Advantages-Benefits (FAB) Ladder (2026-07-25); A15 Gabor-Granger and A16 Usage-Based / Consumption Pricing Model (2026-07-26).** The one remaining candidate, A19 Sales Enablement Maturity Model, is queued next; this document is the pick-up point. A future session should build it out following the standards in CLAUDE.md, and decide at that point whether to stand up the planned Category 9 (Sales Enablement) alongside A17 and A18.
 **Relationship to other docs:** This plan sits alongside [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md). The backlog logged 12 framework candidates in 2026-07-09 (three now built). This plan does not repeat those. It adds a further set of candidates with a deliberate emphasis on **methodologies**, not just frameworks, and it sets out how the documentation should evolve so methodologies sit consistently in a knowledge base that until now has been framework-first.
 
 ---
@@ -157,17 +157,21 @@ Category 8 currently holds Good-Better-Best, Van Westendorp PSM, and Value Metri
 - **Proposed home:** Category 8 (Pricing & Packaging).
 - **Overlap/scope note:** Positioned on the spectrum against Van Westendorp (cheap and fast, whole-product price) and Value Metric/WTP (what to charge for); conjoint answers "how much is each feature worth". Written explicitly as the fourth, most rigorous, and optional step in the pricing-research sequence, feeding per-feature value estimates into Good-Better-Best tier fences.
 
-### A15. Gabor-Granger
+### A15. Gabor-Granger: ✅ BUILT (2026-07-26)
+- **Built as:** Category 8 (Pricing & Packaging), `frameworks/08-pricing-packaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). 1,510 words; cross-linked to Van Westendorp PSM, Conjoint Analysis, Value Metric/WTP, and Good-Better-Best Packaging.
 - **Type:** Methodology.
 - **Originator:** André Gabor and Clive Granger, 1960s.
 - **What it does:** A direct method for finding the revenue-maximising price by testing willingness to buy at ascending price points. Complements Van Westendorp (which finds an acceptable range, not a revenue-optimal point).
 - **Proposed home:** Category 8.
+- **Overlap/scope note resolved:** Positioned explicitly as the decisive next step after Van Westendorp: PSM finds the acceptable corridor, Gabor-Granger narrows that corridor to the single number within it that maximises expected revenue. Differentiated from Conjoint Analysis by scope (a single whole-product price, not a per-feature bundling decision) and by cost/speed (a 1-2 week survey project versus Conjoint's 6-10 week study).
 
-### A16. Usage-Based / Consumption Pricing Model
+### A16. Usage-Based / Consumption Pricing Model: ✅ BUILT (2026-07-26)
+- **Built as:** Category 8 (Pricing & Packaging), `frameworks/08-pricing-packaging.md`, using the Model template (What it is → When to use it → How to read it → How to apply it → Example → Pitfalls → See also). 1,518 words; cross-linked to Value Metric/WTP, Good-Better-Best Packaging, Gabor-Granger Method, and the GTM Motion Model.
 - **Type:** Model.
 - **Originator:** Converged SaaS practice; documented by OpenView and a16z.
 - **What it does:** A pricing model where customers pay for what they consume (API calls, compute, seats-in-use) rather than a flat subscription. Covers when it fits, how it interacts with packaging, and its revenue-predictability trade-offs.
 - **Proposed home:** Category 8.
+- **Overlap/scope note resolved:** Framed explicitly as downstream of Value Metric/WTP: that framework chooses and validates the consumption unit; this model describes how the bill is structured against that unit once chosen (pure usage, hybrid, or flat), reading as a spectrum rather than a single fixed structure. Cross-referenced to the GTM Motion Model since self-serve/PLG motions frequently pair with usage-based entry pricing to lower adoption friction.
 
 ## Theme 7: Sales enablement
 
@@ -216,8 +220,8 @@ Sales enablement is currently only touched tangentially (a step inside the 10-St
 | A4 | Bullseye (traction channels) | Framework | Cat 4 | ✅ **Built** | Channel selection |
 | A10 | Perceptual Map (2x2) | Framework | Cat 3 | ✅ **Built** | Visual positioning |
 | A12 | FAB / Value Messaging ladder | Framework | Cat 2 | ✅ **Built** | Feature-to-benefit |
-| A15 | Gabor-Granger | Methodology | Cat 8 | Lower | Revenue-optimal price |
-| A16 | Usage-Based Pricing Model | Model | Cat 8 | Lower | Consumption pricing |
+| A15 | Gabor-Granger | Methodology | Cat 8 | ✅ **Built** | Revenue-optimal price |
+| A16 | Usage-Based Pricing Model | Model | Cat 8 | ✅ **Built** | Consumption pricing |
 | A19 | Sales Enablement Maturity Model | Model | new Sales Enablement | Lower | Enablement diagnosis |
 
 All 19 candidates will be built. The priority column sets the order of work, not whether an entry is included; "Lower" means "build later", not "maybe". Work top-down from the "High" batch, now complete, through the "Medium" batch, also now complete.
@@ -226,7 +230,7 @@ All 19 candidates will be built. The priority column sets the order of work, not
 
 **Second batch (the eight "Medium" candidates): all built.** A1 GTM Motion Model ✅ (Model, built 2026-07-22 in Category 4), A2 Product-Led Growth ✅ (Methodology, built 2026-07-22 in Category 4), A7 JTBD Switch Interview Method ✅ (Methodology, built 2026-07-22 in Category 1), A14 Conjoint Analysis ✅ (Methodology, built 2026-07-23 in Category 8), A18 Buyer's Journey Content Map ✅ (Framework, built 2026-07-23 in Category 5), A3 ICP Development Methodology ✅ (Methodology, built 2026-07-23 in Category 1), A8 Kano Model ✅ (Framework, built 2026-07-23 in Category 6), and A13 Command of the Message ✅ (Methodology, built 2026-07-24 in Category 2) complete this batch.
 
-**Third batch (the "Lower" candidates): three-quarters built.** A4 Bullseye Framework ✅ (Framework, built 2026-07-24 in Category 4), A10 Perceptual Map ✅ (Framework, built 2026-07-25 in Category 3), and A12 Features-Advantages-Benefits (FAB) Ladder ✅ (Framework, built 2026-07-25 in Category 2) are done. The remaining three, A15, A16, and A19, are queued next in the table order above, starting with A15.
+**Third batch (the "Lower" candidates): five-sixths built.** A4 Bullseye Framework ✅ (Framework, built 2026-07-24 in Category 4), A10 Perceptual Map ✅ (Framework, built 2026-07-25 in Category 3), A12 Features-Advantages-Benefits (FAB) Ladder ✅ (Framework, built 2026-07-25 in Category 2), A15 Gabor-Granger ✅ (Methodology, built 2026-07-26 in Category 8), and A16 Usage-Based / Consumption Pricing Model ✅ (Model, built 2026-07-26 in Category 8) are done. The remaining candidate, A19 Sales Enablement Maturity Model, is queued next, pending the Category 9 (Sales Enablement) decision alongside A17 and A18.
 
 **New categories to stand up as their entries are built:**
 - **Sales Enablement** (a new Category 9) to house A17, A18, and A19, once all three are built. A17 lives in Category 3 and A18 lives in Category 5 for now; Category 9 remains the plan once A19 joins them, at which point revisit whether to consolidate all three there.
@@ -316,4 +320,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 5. **Run the B6 checklist** so every navigation doc and count stays consistent.
 6. **Mark the candidate built here and in FRAMEWORK-BACKLOG.md**, and log it in PROGRESS.md.
 
-The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Sixteen are built as of 2026-07-25 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, A4 the Bullseye Framework, A10 the Perceptual Map, and A12 the Features-Advantages-Benefits (FAB) Ladder), completing the "High" and "Medium" batches and taking the "Lower" batch three-quarters of the way; 3 remain, starting with A15, Gabor-Granger. This plan is the build queue, worked top-down through the rest of the "Lower" batch until every entry is built.
+The gap these candidates fill has been confirmed and the build is approved: all 19 will be added to the knowledge base. Eighteen are built as of 2026-07-26 (A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, A4 the Bullseye Framework, A10 the Perceptual Map, A12 the Features-Advantages-Benefits (FAB) Ladder, A15 Gabor-Granger, and A16 the Usage-Based / Consumption Pricing Model), completing the "High" and "Medium" batches and taking the "Lower" batch five-sixths of the way; 1 remains, A19 Sales Enablement Maturity Model. This plan is the build queue; a future session builds A19 and decides whether to stand up Category 9 (Sales Enablement) alongside A17 and A18.

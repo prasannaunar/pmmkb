@@ -308,9 +308,17 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Find the acceptable price corridor for the new tier or service through direct customer survey data
    - *Do this third:* Run this before drafting the tier structure if you have no existing anchor price to work from
 
+3a. **Gabor-Granger Method** (`Category 8`); *optional*
+   - *Why:* Narrow the PSM corridor down to a single revenue-maximising price, when the decision needs one defensible number rather than a range
+   - *Do this alongside step 3:* Use this if leadership is debating two or three specific price points and wants a demand-based tiebreaker
+
 4. **Value Metric / Willingness-to-Pay Framework** (`Category 8`)
    - *Why:* Choose the right unit to charge for (seats, usage, transactions) and confirm each persona's willingness to pay for it before locking tier prices
    - *Do this fourth:* Run this alongside or just after PSM if your current pricing doesn't scale with usage, or if you're unsure per-seat is the right metric at all
+
+4a. **Usage-Based / Consumption Pricing Model** (`Category 8`); *optional*
+   - *Why:* Once step 4 confirms a usage-scaling value metric, decide where on the pure-usage-to-flat-subscription spectrum the new tier should sit (pure metered, hybrid platform-fee-plus-overage, or prepaid credits) before drafting fences
+   - *Do this alongside step 4:* Skip if the chosen value metric is seats or another non-usage unit; a flat or tiered structure fits better in that case
 
 5. **Conjoint Analysis** (`Category 8`)
    - *Why:* Isolate exactly how much each individual feature is worth to each persona, when a bundling decision is genuinely contested (which feature goes in which tier)

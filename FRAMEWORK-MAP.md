@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 42 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 44 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -113,9 +113,11 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
-| **Van Westendorp PSM** | STP | Good-Better-Best Packaging | Find the acceptable price corridor with no existing anchor price |
-| **Value Metric / WTP** | STP + Value Prop Canvas | Good-Better-Best Packaging | Choose what to charge for and confirm persona-level willingness to pay |
+| **Van Westendorp PSM** | STP | Good-Better-Best Packaging, Gabor-Granger | Find the acceptable price corridor with no existing anchor price |
+| **Gabor-Granger Method** | STP + (Van Westendorp PSM recommended first, to narrow the range tested) | Good-Better-Best Packaging, Usage-Based Pricing Model (per-unit rate) | Narrow the acceptable corridor down to the single revenue-maximising price |
+| **Value Metric / WTP** | STP + Value Prop Canvas | Good-Better-Best Packaging, Usage-Based Pricing Model | Choose what to charge for and confirm persona-level willingness to pay |
 | **Conjoint Analysis** | STP + (Van Westendorp PSM and/or Value Metric/WTP recommended first) | Good-Better-Best Packaging | Isolate how much each individual feature is worth, feature by feature, to decide which justify a tier upgrade |
+| **Usage-Based / Consumption Pricing Model** | Value Metric / WTP (chosen consumption unit) | Good-Better-Best Packaging (usage-banded tiers), GTM Motion Model (self-serve/PLG entry pricing) | Describe how the bill is structured (pure usage, hybrid, or flat) once the value metric is chosen |
 | **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
 
 ---
@@ -173,7 +175,9 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 1. **Value Proposition Canvas** (understand what each segment values)
 2. **STP** (confirm each tier has a distinct target segment)
 3. **Van Westendorp PSM** (find the acceptable price corridor)
+3a. **Gabor-Granger Method** (optional: narrow the Van Westendorp corridor down to the single revenue-maximising price, when the decision needs one number rather than a range)
 4. **Value Metric / WTP** (choose what to charge for and validate willingness to pay per persona)
+4a. **Usage-Based / Consumption Pricing Model** (optional: if the chosen value metric scales with usage rather than seats, decide where on the pure-usage-to-flat-subscription spectrum the new tier or service should sit before drafting fences)
 5. **Conjoint Analysis** (optional, higher-rigour step: isolate which individual features justify which tier, when a bundling decision is genuinely contested)
 5a. **Kano Model** (optional: confirm must-be features sit in every tier and delighters are reserved for the premium tier, before the fences in step 6 are drawn)
 6. **Good-Better-Best Packaging** (structure the tiers and price ladder)
@@ -234,6 +238,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-26 (seventeenth and eighteenth builds)**: Added the seventeenth and eighteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Gabor-Granger Method** joins the Pricing & Packaging table (prerequisite: STP, with Van Westendorp PSM recommended first to narrow the price range tested; feeds Good-Better-Best Packaging and the per-unit rate of the Usage-Based Pricing Model) and is now an optional step 3a of the Pricing a New Tier or Service scenario, run after Van Westendorp PSM when the decision needs a single revenue-maximising number rather than an acceptable range. **Usage-Based / Consumption Pricing Model** joins the Pricing & Packaging table (prerequisite: Value Metric/WTP, to choose the consumption unit; feeds Good-Better-Best Packaging's usage-banded tiers and pairs with the GTM Motion Model's self-serve/PLG motions) and is now an optional step 4a of the same scenario, run after Value Metric/WTP when the chosen value metric scales with usage rather than seats. Entry count updated 42 → 44.
 
 **2026-07-25 (fifteenth and sixteenth builds)**: Added the fifteenth and sixteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Perceptual Map (2x2)** joins the Competitive Frameworks table (prerequisite: STP to choose the segment to plot for, plus Win/Loss as the source of buyer-relevant axes; feeds Product Differentiation and a positioning refresh) and is now an optional step 6a of the Repositioning for New Segment scenario, run alongside Bowman's Clock to check the new positioning against a second, buyer-chosen pair of attributes. **Features-Advantages-Benefits (FAB) Ladder** joins the Positioning Frameworks table (prerequisite: a feature to translate, ideally one that maps to a Message Architecture pillar; feeds Message Architecture proof points, release notes, demo scripts, and Command of the Message's quantified value cases) and is now an optional step 6b of the New Product Launch scenario, run after Message Architecture and Bullseye Framework to test the launch's headline proof points before they are locked. Entry count updated 40 → 42.
 
