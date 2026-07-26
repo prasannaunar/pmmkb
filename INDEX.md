@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-25 (built the fifteenth and sixteenth ENRICHMENT-PLAN.md candidates: the Perceptual Map in Category 3 and the Features-Advantages-Benefits (FAB) Ladder in Category 2, continuing the "Lower" batch; total 40 → 42 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-26 (built the seventeenth and eighteenth ENRICHMENT-PLAN.md candidates: the Gabor-Granger Method and the Usage-Based / Consumption Pricing Model, both in Category 8, continuing the "Lower" batch; total 42 → 44 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -100,6 +100,8 @@
 | Van Westendorp Price Sensitivity Meter (PSM) | Four-question survey method that maps an acceptable price corridor and an indifference price point for a product concept, without asking respondents to name a single price |
 | Value Metric / Willingness-to-Pay Framework | Four-step method to choose a value metric and set prices by surveying persona-level willingness to pay and plotting it against value received |
 | Conjoint Analysis | **Methodology.** Trade-off-based choice survey that infers, feature by feature, how much each persona is willing to pay for it, used to decide which features justify moving a customer up a tier |
+| Gabor-Granger Method | **Methodology.** Direct-questioning survey that tests purchase intent at a sequence of price points to find the single revenue-maximising price, narrower and faster than Van Westendorp's price corridor |
+| Usage-Based / Consumption Pricing Model | **Model.** Taxonomy of the pure-usage-to-flat-subscription pricing spectrum, describing how a bill is structured (metered, hybrid, or flat) once a value metric is chosen |
 
 ---
 
@@ -113,7 +115,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 42 (33 frameworks, 7 methodologies, 1 model, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 44 (33 frameworks, 8 methodologies, 2 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
 - **Entries per Category:** 2–8
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -127,7 +129,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
-✅ **Category 8 (Pricing & Packaging):** 4 entries (`frameworks/08-pricing-packaging.md`)
+✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
 ## Next Steps
@@ -136,4 +138,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 16 of 19 candidates built as of 2026-07-25)
+- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 18 of 19 candidates built as of 2026-07-26)
