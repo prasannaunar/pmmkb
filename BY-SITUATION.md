@@ -312,6 +312,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Choose the right unit to charge for (seats, usage, transactions) and confirm each persona's willingness to pay for it before locking tier prices
    - *Do this fourth:* Run this alongside or just after PSM if your current pricing doesn't scale with usage, or if you're unsure per-seat is the right metric at all
 
+4a. **Usage-Based (Consumption) Pricing Model** (`Category 8`); *optional*
+   - *Why:* If step 4 shows the current value metric doesn't track usage, use this model to decide where on the flat-fee-to-consumption spectrum the new tier should sit, and whether a hybrid base-fee-plus-overage structure fits better than a flat seat fee
+   - *Do this alongside step 4:* Only needed when heavy and light users of the new tier would otherwise pay the same; skip if a flat or per-seat fee already tracks value well enough
+
 5. **Conjoint Analysis** (`Category 8`)
    - *Why:* Isolate exactly how much each individual feature is worth to each persona, when a bundling decision is genuinely contested (which feature goes in which tier)
    - *Do this fifth, optionally:* Run this only if you have budget and respondent access for a higher-rigour study and the feature-to-tier decision is disputed internally; skip it if PSM and Value Metric/WTP already give you enough to draft the tiers
@@ -319,6 +323,10 @@ Map your current challenge to the frameworks that will help you solve it.
 5a. **Kano Model** (`Category 6`); *optional*
    - *Why:* Confirm which candidate features are must-be (belong in every tier) versus delighters (strong candidates for the premium tier only), so the fences drawn in step 6 match how each feature actually affects satisfaction
    - *Do this alongside step 5:* Run if the team disagrees on which tier a specific feature belongs in; skip if the fences are already obvious from step 5's conjoint output
+
+5b. **Gabor-Granger Method** (`Category 8`); *optional*
+   - *Why:* Test purchase intent at several ascending prices to find the single revenue-maximising anchor price for the new tier, rather than settling for the midpoint of the PSM corridor
+   - *Do this alongside step 5:* Run once you have a short list of specific candidate prices already on the table (e.g. from the PSM corridor or a competitor's list price); skip if the PSM corridor alone is precise enough for the decision
 
 6. **Good-Better-Best (GBB) Packaging Framework** (`Category 8`)
    - *Why:* Structure the tiers themselves; group features by persona and set fences that map to value

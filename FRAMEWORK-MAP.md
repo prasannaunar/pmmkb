@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 42 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 44 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -116,7 +116,9 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 | **Van Westendorp PSM** | STP | Good-Better-Best Packaging | Find the acceptable price corridor with no existing anchor price |
 | **Value Metric / WTP** | STP + Value Prop Canvas | Good-Better-Best Packaging | Choose what to charge for and confirm persona-level willingness to pay |
 | **Conjoint Analysis** | STP + (Van Westendorp PSM and/or Value Metric/WTP recommended first) | Good-Better-Best Packaging | Isolate how much each individual feature is worth, feature by feature, to decide which justify a tier upgrade |
-| **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
+| **Gabor-Granger Method** | STP + (Van Westendorp PSM corridor recommended first) | Good-Better-Best Packaging (tier anchor price), a single SKU or add-on price decision | Find the single revenue-maximising price among specific candidate prices, rather than an acceptable range |
+| **Usage-Based (Consumption) Pricing Model** | Value Metric / WTP (to identify the value-scaling usage unit) | Good-Better-Best Packaging (usage allowances scaled by tier), billing and metering build | Choose where a pricing structure sits between flat fee and pure consumption, and whether a hybrid base-fee-plus-overage model fits |
+| **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis and/or Gabor-Granger and/or Usage-Based Pricing Model) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
 
 ---
 
@@ -174,8 +176,10 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 2. **STP** (confirm each tier has a distinct target segment)
 3. **Van Westendorp PSM** (find the acceptable price corridor)
 4. **Value Metric / WTP** (choose what to charge for and validate willingness to pay per persona)
+4a. **Usage-Based (Consumption) Pricing Model** (optional; if step 4 shows the current value metric doesn't scale with usage, use this model to decide whether a hybrid base-fee-plus-overage structure fits better than a flat seat fee)
 5. **Conjoint Analysis** (optional, higher-rigour step: isolate which individual features justify which tier, when a bundling decision is genuinely contested)
 5a. **Kano Model** (optional: confirm must-be features sit in every tier and delighters are reserved for the premium tier, before the fences in step 6 are drawn)
+5b. **Gabor-Granger Method** (optional: once the corridor and value metric are set, test ascending prices against purchase intent to find the specific revenue-maximising anchor price for a tier or add-on, rather than relying on the PSM corridor's midpoint alone)
 6. **Good-Better-Best Packaging** (structure the tiers and price ladder)
 7. **Bowman's Clock** (check the new tier's price-value position against competitors)
 8. **Quarterly PMM** (resource the launch of the new tier)
@@ -234,6 +238,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-27 (seventeenth and eighteenth builds)**: Added the seventeenth and eighteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Gabor-Granger Method** joins the Pricing & Packaging Frameworks table (prerequisite: STP, with the Van Westendorp PSM corridor recommended first; feeds Good-Better-Best's tier anchor price, or a standalone SKU/add-on price decision) and is now an optional step 5b of the Pricing a New Tier or Service scenario, run after Conjoint Analysis and Kano Model to pick the specific revenue-maximising price rather than relying on the PSM corridor's midpoint alone. **Usage-Based (Consumption) Pricing Model** joins the same table (prerequisite: Value Metric/WTP, to identify the value-scaling usage unit; feeds Good-Better-Best's usage-scaled allowances and the billing/metering build) and is now an optional step 4a, run immediately after Value Metric/WTP when that step shows the current value metric doesn't track usage. Entry count updated 42 → 44. This completes 18 of the 19 ENRICHMENT-PLAN.md candidates; A19 (Sales Enablement Maturity Model) remains.
 
 **2026-07-25 (fifteenth and sixteenth builds)**: Added the fifteenth and sixteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Perceptual Map (2x2)** joins the Competitive Frameworks table (prerequisite: STP to choose the segment to plot for, plus Win/Loss as the source of buyer-relevant axes; feeds Product Differentiation and a positioning refresh) and is now an optional step 6a of the Repositioning for New Segment scenario, run alongside Bowman's Clock to check the new positioning against a second, buyer-chosen pair of attributes. **Features-Advantages-Benefits (FAB) Ladder** joins the Positioning Frameworks table (prerequisite: a feature to translate, ideally one that maps to a Message Architecture pillar; feeds Message Architecture proof points, release notes, demo scripts, and Command of the Message's quantified value cases) and is now an optional step 6b of the New Product Launch scenario, run after Message Architecture and Bullseye Framework to test the launch's headline proof points before they are locked. Entry count updated 40 → 42.
 
