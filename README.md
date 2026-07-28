@@ -22,20 +22,21 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 44 Entries Across 8 Categories, Plus a Concepts Area
+### 46 Entries Across 9 Categories, Plus a Concepts Area
 
-This knowledge base contains 44 proven product marketing entries (33 frameworks, 8 methodologies, 2 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
+This knowledge base contains 46 proven product marketing entries (34 frameworks, 8 methodologies, 3 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 6 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 8 | `frameworks/02-positioning-messaging.md` |
+| 2 | Positioning & Messaging | 9 | `frameworks/02-positioning-messaging.md` |
 | 3 | Competitive Strategy | 4 | `frameworks/03-competitive-strategy.md` |
 | 4 | Go-to-Market & Launch | 8 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 4 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 4 | `frameworks/06-product-experience-adoption.md` |
 | 7 | Strategy & Planning | 3 | `frameworks/07-strategy-planning.md` |
 | 8 | Pricing & Packaging | 6 | `frameworks/08-pricing-packaging.md` |
+| 9 | Sales Enablement | 1 | `frameworks/09-sales-enablement.md` |
 | — | Concepts (primers; not applyable, so not a workflow category) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 
 See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
@@ -61,7 +62,7 @@ See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 
 **If you're a...**
 - **Positioning PMM:** Start with Category 2 (Positioning & Messaging); then Category 1 (Market Understanding) for foundational work
-- **Sales Enablement PMM:** Start with Category 4 (Go-to-Market & Launch); then Category 3 (Competitive Strategy) for battle cards
+- **Sales Enablement PMM:** Start with Category 9 (Sales Enablement) to diagnose your function's maturity; then Category 4 (Go-to-Market & Launch) and Category 3 (Competitive Strategy) for battle cards
 - **Segment PMM:** Start with Category 1 (Market Understanding); then Category 2 (Positioning) for segment-specific work
 - **Product PMM:** Start with Category 5 (Lifecycle & Workflow); then Category 6 (Product Experience & Adoption)
 - **Strategy / Planning:** Start with Category 7 (Strategy & Planning); use frameworks to structure quarterly work
@@ -77,6 +78,7 @@ See [INDEX.md](INDEX.md) for the full taxonomy with descriptions.
 - **Driving product adoption and retention:** Category 6
 - **Planning, scaling, and measuring:** Category 7
 - **Pricing and packaging:** Category 8
+- **Diagnosing and building sales enablement:** Category 9
 
 ---
 
@@ -98,14 +100,14 @@ Every entry is designed to be **read standalone**, but entries often build on on
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 44 entries with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 46 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)**: 5-phase roadmap for polishing and integrating frameworks into day-to-day work
 - **[PROGRESS.md](PROGRESS.md)**: Progress tracking, completed work, and development status
 - **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
-- **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis, pending team review (NEW: 2026-07-09)
-- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies to add (18 built as of 2026-07-27), plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
+- **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis (StoryBrand SB7 built 2026-07-28; 8 candidates remain) (NEW: 2026-07-09)
+- **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies; all 19 built as of 2026-07-28, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
@@ -121,7 +123,7 @@ Link each business goal to the frameworks most relevant to achieving it. Use [PL
 Reference the positioning and go-to-market frameworks (Categories 2 and 4) in your campaign briefs to ensure messaging consistency and methodical execution.
 
 ### In Sales Enablement
-Apply frameworks from Category 3 (Competitive Strategy) and Category 4 (Go-to-Market) to build consistent sales playbooks and messaging.
+Start with the Sales Enablement Maturity Model (Category 9) to diagnose where your function stands, then apply frameworks from Category 3 (Competitive Strategy) and Category 4 (Go-to-Market) to build consistent sales playbooks and messaging.
 
 ### In Win / Loss Analysis
 Use the Win / Loss Analysis Framework (Category 6) to conduct structured customer interviews; feed insights back to positioning and competitive intelligence work.
@@ -167,10 +169,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Command of the Message Added to Category 2 and Bullseye Framework Added to Category 4 (thirteenth and fourteenth ENRICHMENT-PLAN.md builds, completing the "Medium" batch and opening the "Lower" batch):** 2026-07-24
 - **Perceptual Map Added to Category 3 and Features-Advantages-Benefits (FAB) Ladder Added to Category 2 (fifteenth and sixteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch):** 2026-07-25
 - **Gabor-Granger Method and Usage-Based (Consumption) Pricing Model Added to Category 8 (seventeenth and eighteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch):** 2026-07-27
-- **Last Updated:** 2026-07-27
-- **Total entries:** 44 (33 frameworks, 8 methodologies, 2 models, 1 primer, all cross-linked; the eighteen 2026-07-21 to 2026-07-27 additions still need a source-validation pass); 10 further entries approved to build across two queues (9 from the 2026-07-09 gap analysis and 1 remaining from the 2026-07-21 enrichment plan), with a growing emphasis on methodologies (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model)
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); remaining enrichment and backlog queues approved and being built top-down from the priority order
+- **Sales Enablement Maturity Model Added as the new Category 9 (nineteenth and final ENRICHMENT-PLAN.md build, completing that queue) and StoryBrand SB7 Framework Added to Category 2 (next-ranked FRAMEWORK-BACKLOG.md candidate):** 2026-07-28
+- **Last Updated:** 2026-07-28
+- **Total entries:** 46 (34 frameworks, 8 methodologies, 3 models, 1 primer, all cross-linked; the twenty entries added 2026-07-21 to 2026-07-28 still need a source-validation pass); 8 further entries approved to build from the 2026-07-09 FRAMEWORK-BACKLOG.md gap analysis, with the ENRICHMENT-PLAN.md queue now fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model, new Category 9)
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); ENRICHMENT-PLAN.md queue fully built; FRAMEWORK-BACKLOG.md queue being built top-down from the priority order
 
 ---
 
