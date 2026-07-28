@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 44 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 46 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -53,6 +53,7 @@ These build on STP to define what you stand for:
 | **JTBD Switch Interview Method** | Recent buyers (purchased within 1–3 months) | JTBD Positioning Framework, Voice of the Customer Programme | The interview technique that finds the job and the switch trigger the JTBD framework then positions around |
 | **Command of the Message** | Message Architecture (Messaging House) | Live sales conversations, sales enablement training, Competitive Battlecard Framework | Adapts the messaging house's core message and pillars into a value-selling structure a rep runs live, built around required capabilities, a named competitor, and quantified business value |
 | **Features-Advantages-Benefits (FAB) Ladder** | A feature to translate; ideally a Message Architecture pillar it feeds | Message Architecture proof points, release notes, demo scripts, Command of the Message's quantified value cases | Turns one raw feature into a buyer-tested benefit statement, one level below the messaging house |
+| **StoryBrand SB7 Framework** | A validated positioning statement (Geoffrey Moore or April Dunford) to draw the Character and Problem from | Homepage and landing-page copy, founder narratives, video scripts, demo scripts | Casts the customer as the hero and the brand as the guide; the narrative arc a single asset is drafted against, complementing Message Architecture's hierarchy of claims |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -120,6 +121,13 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 | **Usage-Based (Consumption) Pricing Model** | Value Metric / WTP (to identify the value-scaling usage unit) | Good-Better-Best Packaging (usage allowances scaled by tier), billing and metering build | Choose where a pricing structure sits between flat fee and pure consumption, and whether a hybrid base-fee-plus-overage model fits |
 | **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis and/or Gabor-Granger and/or Usage-Based Pricing Model) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
 
+### Sales Enablement (Category 9, New 2026-07-28)
+Diagnoses the maturity of the enablement function itself, rather than producing a single point-in-time artefact:
+
+| Framework | Prerequisites | Feeds Into | Purpose |
+|-----------|---------------|-----------|---------|
+| **Sales Enablement Maturity Model** | None (an honest self-assessment plus rep interviews) | Competitive Battlecard Framework and Buyer's Journey Content Map (tells a team whether it is ready to build and sustain them), enablement headcount and tooling business cases | Score content governance, training, tooling, and cross-functional integration on a four-stage ladder (Ad Hoc, Organised, Optimised, Transformative) to find the actual bottleneck |
+
 ---
 
 ## Common Workflow Sequences
@@ -134,6 +142,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 6. **Message Architecture (Messaging House)** (turn positioning into the copy hierarchy every launch asset writes from)
 6a. **Bullseye Framework** (optional; brainstorm and cheaply test candidate acquisition channels within the motion selected in step 3, so Complete GTM Workflow's Phase 2 channel validation starts from a shortlist rather than a guess)
 6b. **Features-Advantages-Benefits (FAB) Ladder** (optional; translate the one or two features that map to a Message Architecture pillar into a tested benefit statement before the launch's headline proof points are locked)
+6c. **StoryBrand SB7 Framework** (optional; draft the launch homepage or founder narrative as a seven-part story arc drawing its Character and Problem from the positioning set in step 4, so the launch page reads as a story rather than a feature list)
 7. **Complete GTM Workflow** (phases)
 8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
 9. **Feature Adoption** (drive early usage)
@@ -161,6 +170,7 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 5. **Win/Loss + NPS** (feedback for team)
 
 ### Scenario 4: Improving Win Rate
+0. **Sales Enablement Maturity Model** (optional, run first if enablement material already exists but reps say it is stale or hard to find; diagnoses whether the real gap is content, governance, training, or measurement before building a new battlecard on top of the same broken function)
 1. **Win/Loss Analysis** (diagnose losses)
 2. **Competitive Intelligence** (understand competitor messaging)
 3. **Product Differentiation** (validate claimed differentiation)
@@ -238,6 +248,8 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 ---
 
 ## Version History
+
+**2026-07-28 (nineteenth ENRICHMENT-PLAN.md build, plus first FRAMEWORK-BACKLOG.md build)**: **Sales Enablement Maturity Model** joins a new "Sales Enablement" table as Category 9's first entry (prerequisite: none, an honest self-assessment plus rep interviews; feeds the Competitive Battlecard Framework and Buyer's Journey Content Map, since it tells a team whether it is ready to build and sustain them, plus enablement headcount and tooling business cases) and is now an optional step 0 of the Improving Win Rate scenario, run first when existing enablement material is stale or hard to find. This completes all 19 ENRICHMENT-PLAN.md candidates. **StoryBrand SB7 Framework** joins the Positioning Frameworks table (prerequisite: a validated positioning statement; feeds homepage and landing-page copy, founder narratives, video scripts, and demo scripts) and is now an optional step 6c of the New Product Launch scenario, drafting the launch page as a seven-part story arc alongside the FAB Ladder's benefit-first proof points. Entry count updated 44 → 46.
 
 **2026-07-27 (seventeenth and eighteenth builds)**: Added the seventeenth and eighteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch. **Gabor-Granger Method** joins the Pricing & Packaging Frameworks table (prerequisite: STP, with the Van Westendorp PSM corridor recommended first; feeds Good-Better-Best's tier anchor price, or a standalone SKU/add-on price decision) and is now an optional step 5b of the Pricing a New Tier or Service scenario, run after Conjoint Analysis and Kano Model to pick the specific revenue-maximising price rather than relying on the PSM corridor's midpoint alone. **Usage-Based (Consumption) Pricing Model** joins the same table (prerequisite: Value Metric/WTP, to identify the value-scaling usage unit; feeds Good-Better-Best's usage-scaled allowances and the billing/metering build) and is now an optional step 4a, run immediately after Value Metric/WTP when that step shows the current value metric doesn't track usage. Entry count updated 42 → 44. This completes 18 of the 19 ENRICHMENT-PLAN.md candidates; A19 (Sales Enablement Maturity Model) remains.
 

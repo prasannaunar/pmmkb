@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-27 (built the seventeenth and eighteenth ENRICHMENT-PLAN.md candidates: the Gabor-Granger Method and the Usage-Based (Consumption) Pricing Model, both in Category 8, continuing the "Lower" batch; total 42 → 44 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-28 (built the nineteenth ENRICHMENT-PLAN.md candidate, the Sales Enablement Maturity Model, completing that queue, and the next-ranked FRAMEWORK-BACKLOG.md candidate, the StoryBrand SB7 Framework; total 44 → 46 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -29,6 +29,7 @@
 | Dunford's 10-Step Positioning Process | **Methodology.** The step-by-step research and validation process (best-fit customers → competitive alternatives → unique attributes → value → segment → category → pitch → alignment) that produces the 5-Component Positioning Canvas |
 | Command of the Message | **Methodology.** Value-selling discipline (Force Management) that adapts the messaging house's core message and pillars into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value |
 | Features-Advantages-Benefits (FAB) Ladder | **Framework.** Three-step translation technique (feature → advantage → benefit) that turns a single raw feature into a proof point or copy line a buyer would repeat back, applied one level below the messaging house's pillars |
+| StoryBrand SB7 Framework | **Framework.** Seven-part narrative template (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide, for homepages, video scripts, and founder narratives |
 
 ---
 
@@ -105,6 +106,16 @@
 
 ---
 
+## Category 9: Sales Enablement
+
+New as of 2026-07-28, once the Sales Enablement Maturity Model completed a two-or-more-entry theme (per CLAUDE.md's guidance against thin category files). Two entries closely associated with this discipline, the Competitive Battlecard Framework and the Buyer's Journey Content Map, remain filed in Category 3 and Category 5 respectively (where they were built before this category existed) to avoid breaking their existing cross-references; consolidating all three into this file is deferred to a future session, per ENRICHMENT-PLAN.md's note to "revisit whether to consolidate."
+
+| Framework | Description |
+|-----------|-------------|
+| Sales Enablement Maturity Model | **Model.** Four-stage model (Ad Hoc, Organised, Optimised, Transformative) scored across content governance, training, tooling, and cross-functional integration, used to diagnose where an enablement function stands and which dimension to invest in next |
+
+---
+
 ## Concepts (Primers)
 
 Not tied to a workflow category because a primer is not something you "apply"; see CLAUDE.md's Content Types section.
@@ -115,27 +126,29 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 44 (33 frameworks, 8 methodologies, 2 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
-- **Categories:** 8 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; further candidates queued in FRAMEWORK-BACKLOG.md and ENRICHMENT-PLAN.md)
-- **Entries per Category:** 2–8
+- **Total entries:** 46 (34 frameworks, 8 methodologies, 3 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; further candidates queued in FRAMEWORK-BACKLOG.md)
+- **Entries per Category:** 1–8
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 8 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 2 (Positioning & Messaging):** 9 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 4 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 8 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
+✅ **Category 9 (Sales Enablement):** 1 entry (`frameworks/09-sales-enablement.md`); plus 2 related entries filed in Category 3 and Category 5 (see Category 9 note above)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
 ## Next Steps
 
 - [x] BY-SITUATION cross-reference index (see [BY-SITUATION.md](BY-SITUATION.md), 10 situations mapped)
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
+- [x] Enrich the KB with further frameworks and methodologies (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; all 19 candidates built as of 2026-07-28)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Enrich the KB with further frameworks and methodologies, and add a Type column to these tables (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; 18 of 19 candidates built as of 2026-07-27)
+- [ ] Build the remaining 8 FRAMEWORK-BACKLOG.md candidates and add a Type column to these tables (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); StoryBrand SB7 built 2026-07-28)
