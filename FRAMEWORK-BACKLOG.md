@@ -1,8 +1,8 @@
 # Framework Backlog: Candidates for Future Addition
 
 **Logged:** 2026-07-09
-**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Three are already built (GBB, Van Westendorp PSM, Value Metric/WTP); the other nine are queued. Three carry a build *condition* rather than a blocker: MEDDIC/MEDDPICC and the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (they are sales/product-owned methodologies), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
-**See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) is a companion **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It does not repeat the candidates below. Both queues are now approved; once they are built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
+**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Four are already built (GBB, Van Westendorp PSM, Value Metric/WTP, and StoryBrand SB7, added 2026-07-28); the other eight are queued. Three carry a build *condition* rather than a blocker: MEDDIC/MEDDPICC and the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (they are sales/product-owned methodologies), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
+**See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) was a companion **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It did not repeat the candidates below, and it is now fully built as of 2026-07-28 (see that document). This backlog's queue remains open; once it is also built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
 
 ---
 
@@ -35,11 +35,13 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 - **Why it's proven:** Applied across hundreds of SaaS pricing engagements; widely cited (OpenView, SaaStr, Intercom, Mind the Product).
 - **Status:** Written up and added to the knowledge base as Category 8's third framework. This closes out all three top-ranked Pricing & Packaging candidates identified in the 2026-07-09 gap analysis.
 
-### 4. StoryBrand SB7 Framework
+### 4. StoryBrand SB7 Framework: ✅ BUILT (2026-07-28)
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Framework template (What it is → When to use it → How to apply it → Example → Pitfalls → See also). ~1,570 words; cross-linked to Message Architecture (Messaging House), Geoffrey Moore's Positioning Statement Framework, Value Proposition Canvas, and the Jobs-to-be-Done Positioning Framework.
 - **Originator:** Donald Miller, *Building a StoryBrand* (2017).
-- **What it does:** Casts the customer as hero and the brand as guide across seven narrative beats to produce clear, jargon-free messaging.
-- **Proposed home:** Category 2 (Positioning & Messaging).
+- **What it does:** Casts the customer as hero and the brand as guide across seven narrative beats (Character, Problem, Guide, Plan, Call to Action, Failure, Success) to produce clear, jargon-free messaging for homepages, video scripts, and founder narratives.
+- **Home:** Category 2 (Positioning & Messaging).
 - **Why it's proven:** Multi-million-copy bestseller; near decade-old certified-agency ecosystem applying it commercially.
+- **Overlap/scope note resolved:** Differentiated from the existing Message Architecture (Messaging House) by altitude, not subject matter: the house is a hierarchy of claims (core message, pillars, proof) built to keep every asset consistent, while SB7 is a narrative arc built to make any single asset land the way an audience processes a story. Framed as complementary: the house's pillars supply SB7's Plan and Success proof points, while SB7 supplies the story sequence and stakes.
 
 ### 5. MEDDIC / MEDDPICC
 - **Originator:** PTC, 1990s (Jack Napoli, Dick Dunkel); extended to MEDDPICC since.
@@ -101,7 +103,7 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 | 1 | Good-Better-Best Packaging | ✅ Built (Pricing & Packaging) | Pricing |
 | 2 | Van Westendorp PSM | ✅ Built (Pricing & Packaging) | Pricing |
 | 3 | Value Metric / WTP (Campbell) | ✅ Built (Pricing & Packaging) | Pricing |
-| 4 | StoryBrand SB7 | Cat 2 (or new Brand Narrative) | Brand storytelling |
+| 4 | StoryBrand SB7 | ✅ Built (Positioning & Messaging) | Brand storytelling |
 | 5 | MEDDIC/MEDDPICC | Cat 4/5 (sales-support framing) | Sales enablement |
 | 6 | Category Design (Play Bigger) | Cat 3 (or new Category Creation) | Category creation |
 | 7 | Launch Tier Framework | Cat 4 | Launch resourcing |
@@ -124,4 +126,4 @@ The four open questions are now settled as build decisions:
 
 ## Next step
 
-All remaining candidates are approved to build. Work through the nine queued entries following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the three build conditions in items 2 and 3 above. Sequence this queue alongside the ENRICHMENT-PLAN.md queue; the enrichment plan's "High" batch is the recommended starting point, after which the two queues can be interleaved by theme.
+All remaining candidates are approved to build. Work through the eight still-queued entries (StoryBrand SB7 built 2026-07-28, the highest-ranked remaining candidate at the time) following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the three build conditions in items 2 and 3 above. The ENRICHMENT-PLAN.md queue is now fully built (2026-07-28); this backlog is the only queue remaining. Work down the ranked list next: MEDDIC/MEDDPICC (5) is next in rank order.

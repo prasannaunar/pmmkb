@@ -46,6 +46,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Translate the one or two features that map to a Message Architecture pillar into a tested, benefit-first proof point before the launch's headline copy is locked
    - *Do this alongside step 6:* Run a fast message test on the rewritten line with a small buyer panel; only the features feeding the launch headline need the full ladder
 
+5d. **StoryBrand SB7 Framework** (`Category 2`); *optional*
+   - *Why:* Draft the launch homepage or founder narrative as a seven-part story (Character, Problem, Guide, Plan, Call to Action, Failure, Success) so the launch page reads as a story a visitor follows, rather than a feature list
+   - *Do this alongside step 6:* Draw the Character and Problem directly from the positioning statement validated in step 4
+
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
    - *Do this parallel:* Run launch planning in parallel with positioning work
@@ -237,6 +241,10 @@ Map your current challenge to the frameworks that will help you solve it.
 **The Challenge:** You've identified a new customer segment (e.g., enterprise; a new vertical; a new geography), but your sales team doesn't know how to sell to it. You need segment-specific positioning, messaging, battle cards, and training.
 
 **Apply These Frameworks (In Order):**
+
+0. **Sales Enablement Maturity Model** (`Category 9`); *optional, run first if enablement already exists*
+   - *Why:* If a battlecard or content library already exists for other segments but reps say it is stale or hard to find, diagnose whether the real gap is content, governance, training, or measurement before building more collateral on top of the same broken function
+   - *Do this first, if applicable:* Score the four dimensions and interview five to eight reps before committing to new segment-specific collateral
 
 1. **Segmentation–Targeting–Positioning Framework** (`Category 1`)
    - *Why:* Clarify the segment's characteristics, pain points, and decision-making process
