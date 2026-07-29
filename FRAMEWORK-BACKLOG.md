@@ -1,7 +1,7 @@
 # Framework Backlog: Candidates for Future Addition
 
 **Logged:** 2026-07-09
-**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Four are already built (GBB, Van Westendorp PSM, Value Metric/WTP, and StoryBrand SB7, added 2026-07-28); the other eight are queued. Three carry a build *condition* rather than a blocker: MEDDIC/MEDDPICC and the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (they are sales/product-owned methodologies), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
+**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Six are already built (GBB, Van Westendorp PSM, Value Metric/WTP, StoryBrand SB7, MEDDIC/MEDDPICC, and Category Design, the last two added 2026-07-29); the other six are queued. Two carry a build *condition* rather than a blocker: the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (it is a product-owned methodology), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
 **See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) was a companion **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It did not repeat the candidates below, and it is now fully built as of 2026-07-28 (see that document). This backlog's queue remains open; once it is also built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
 
 ---
@@ -43,17 +43,19 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 - **Why it's proven:** Multi-million-copy bestseller; near decade-old certified-agency ecosystem applying it commercially.
 - **Overlap/scope note resolved:** Differentiated from the existing Message Architecture (Messaging House) by altitude, not subject matter: the house is a hierarchy of claims (core message, pillars, proof) built to keep every asset consistent, while SB7 is a narrative arc built to make any single asset land the way an audience processes a story. Framed as complementary: the house's pillars supply SB7's Plan and Success proof points, while SB7 supplies the story sequence and stakes.
 
-### 5. MEDDIC / MEDDPICC
+### 5. MEDDIC / MEDDPICC: ✅ BUILT (2026-07-29)
+- **Built as:** Category 9 (Sales Enablement), `frameworks/09-sales-enablement.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). ~1,445 words; cross-linked to the Competitive Battlecard Framework, Command of the Message, the Features-Advantages-Benefits (FAB) Ladder, and the Sales Enablement Maturity Model.
 - **Originator:** PTC, 1990s (Jack Napoli, Dick Dunkel); extended to MEDDPICC since.
 - **What it does:** Deal-qualification framework (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition).
-- **Proposed home:** Category 4/5, framed explicitly as "PMM's supporting role" (battlecards/discovery content mapped to MEDDPICC stages).
-- **Caveat:** This is a sales-owned methodology, not PMM-authored. Include only with that framing, or exclude as out-of-scope.
+- **Home decision:** Built into Category 9 (Sales Enablement) rather than the originally proposed Category 4/5, since Category 9 did not exist when this backlog was logged in 2026-07-09 and now fits a content-mapped-to-a-sales-checklist entry better than either alternative.
+- **Build condition honoured:** Written with an explicit "PMM's supporting role" framing throughout: sales leadership and revenue operations own the qualification discipline itself; PMM's scope is limited to the Metrics, Decision Criteria, and Competition letters' evidenced content, explicitly excluding Economic Buyer identification, Decision Process mapping, Paper Process navigation, and Identify Pain discovery, which stay sales-owned conversations.
 - **Why it's proven:** 30+ years of enterprise use; embedded in Gong, Salesforce, Highspot.
 
-### 6. Category Design (Play Bigger)
+### 6. Category Design (Play Bigger): ✅ BUILT (2026-07-29)
+- **Built as:** Category 3 (Competitive Strategy), `frameworks/03-competitive-strategy.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). ~1,503 words; cross-linked to STP, Bowman's Strategic Clock, Product Differentiation Strategy Framework, and Message Architecture (Messaging House).
 - **Originator:** Al Ramadan, Dave Peterson, Christopher Lochhead, Kevin Maney, *Play Bigger* (2016).
 - **What it does:** Discipline for defining, developing, and dominating a new market category rather than competing within an existing one.
-- **Proposed home:** Category 3 (Competitive Strategy), possibly its own subsection.
+- **Home decision:** Built into Category 3 (Competitive Strategy) as its own entry, not a subsection of an existing one, since it answers a genuinely different question (is the category itself the right container?) from Bowman's Clock, the Perceptual Map, and Product Differentiation Strategy, which all optimise position inside the existing category.
 - **Why it's proven:** Dedicated advisory firm and follow-on toolkit; public case studies (Qualtrics, Drift, Gainsight).
 
 ### 7. Launch Tier Framework (Tier 1/2/3)
@@ -104,8 +106,8 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 | 2 | Van Westendorp PSM | ✅ Built (Pricing & Packaging) | Pricing |
 | 3 | Value Metric / WTP (Campbell) | ✅ Built (Pricing & Packaging) | Pricing |
 | 4 | StoryBrand SB7 | ✅ Built (Positioning & Messaging) | Brand storytelling |
-| 5 | MEDDIC/MEDDPICC | Cat 4/5 (sales-support framing) | Sales enablement |
-| 6 | Category Design (Play Bigger) | Cat 3 (or new Category Creation) | Category creation |
+| 5 | MEDDIC/MEDDPICC | ✅ Built (Sales Enablement) | Sales enablement |
+| 6 | Category Design (Play Bigger) | ✅ Built (Competitive Strategy) | Category creation |
 | 7 | Launch Tier Framework | Cat 4 | Launch resourcing |
 | 8 | Wynter Message Testing | Cat 2 (or new Message Validation) | Message testing |
 | 9 | Forrester Customer Advocacy Model | Cat 6 (or new Customer Advocacy) | Advocacy |
@@ -119,11 +121,11 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 The four open questions are now settled as build decisions:
 
-1. **New categories:** Analyst Relations, Customer Advocacy, and Category Creation each have one candidate here. Rather than single-entry category files, build each into the nearest existing category, tagged by type: Category Design into Category 3 (Competitive Strategy), Forrester Customer Advocacy into Category 6, and Analyst Relations Tiering into Category 7 (Strategy & Planning). Revisit a dedicated category only if a theme later grows to two or more entries. (Sales Enablement does cross that threshold via ENRICHMENT-PLAN.md and gets a new Category 9 there.)
-2. **Sales/product-owned frameworks:** Include MEDDIC/MEDDPICC and the Sean Ellis 40% Test, each written with an explicit "PMM's supporting role" framing (what PMM authors and owns versus what sales or product owns). This is a build condition, not a blocker.
+1. **New categories:** Analyst Relations, Customer Advocacy, and Category Creation each have one candidate here. Rather than single-entry category files, build each into the nearest existing category, tagged by type: Category Design into Category 3 (Competitive Strategy) (built 2026-07-29), Forrester Customer Advocacy into Category 6, and Analyst Relations Tiering into Category 7 (Strategy & Planning). Revisit a dedicated category only if a theme later grows to two or more entries. (Sales Enablement did cross that threshold via ENRICHMENT-PLAN.md and got a new Category 9 there; MEDDIC/MEDDPICC, built 2026-07-29, was placed in that category once it existed, rather than the Category 4/5 originally proposed here.)
+2. **Sales/product-owned frameworks:** Include MEDDIC/MEDDPICC (built 2026-07-29) and the Sean Ellis 40% Test, each written with an explicit "PMM's supporting role" framing (what PMM authors and owns versus what sales or product owns). This is a build condition, not a blocker.
 3. **Duplication risk:** Build the Pragmatic Institute Framework narrowed to its non-overlapping contribution (its enablement and business boxes), explicitly cross-referencing the 10-Step PMM Process and PMM Lifecycle Management rather than restating them, to satisfy the "no duplicate concepts" rule.
 4. **Pricing & Packaging** is complete; all three candidates are built.
 
 ## Next step
 
-All remaining candidates are approved to build. Work through the eight still-queued entries (StoryBrand SB7 built 2026-07-28, the highest-ranked remaining candidate at the time) following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the three build conditions in items 2 and 3 above. The ENRICHMENT-PLAN.md queue is now fully built (2026-07-28); this backlog is the only queue remaining. Work down the ranked list next: MEDDIC/MEDDPICC (5) is next in rank order.
+All remaining candidates are approved to build. Work through the six still-queued entries (StoryBrand SB7 built 2026-07-28; MEDDIC/MEDDPICC and Category Design built 2026-07-29, the fifth and sixth candidates) following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the two build conditions remaining in items 2 and 3 above. The ENRICHMENT-PLAN.md queue is now fully built (2026-07-28); this backlog is the only queue remaining. Work down the ranked list next: the Launch Tier Framework (7) is next in rank order.
