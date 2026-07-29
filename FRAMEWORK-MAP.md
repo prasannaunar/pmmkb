@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 46 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 48 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -64,6 +64,7 @@ These validate positioning against competition:
 | **Product Differentiation** | STP + Positioning | Sales enablement | Competitive differentiation |
 | **Competitive Battlecard Framework** | Competitive Intelligence + Product Differentiation + Bowman's Clock | Live sales deals, Win/Loss Analysis | One-page field tool for contested deals |
 | **Perceptual Map (2x2)** | STP (segment to plot for) + Win/Loss (source of buyer-relevant axes) | Product Differentiation, positioning refresh | Plots competitors on two buyer-chosen attributes to reveal open market space |
+| **Category Design** | STP + evidence the existing category caps the ceiling (win/loss interviews, Voice of the Customer signal) | A Point of View that reframes the market; Message Architecture (the copy hierarchy the new category writes from) | Multi-year discipline to define, develop, and dominate a new market category rather than compete for share inside an existing one |
 
 ### Go-to-Market Frameworks (Apply Fourth)
 These sequence and execute GTM using positioning:
@@ -127,6 +128,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
 | **Sales Enablement Maturity Model** | None (an honest self-assessment plus rep interviews) | Competitive Battlecard Framework and Buyer's Journey Content Map (tells a team whether it is ready to build and sustain them), enablement headcount and tooling business cases | Score content governance, training, tooling, and cross-functional integration on a four-stage ladder (Ad Hoc, Organised, Optimised, Transformative) to find the actual bottleneck |
+| **MEDDIC / MEDDPICC** | None (a sales-owned qualification discipline); PMM's content draws on the Competitive Battlecard Framework, Command of the Message, and the FAB Ladder | Sales forecasting and deal qualification (sales-owned); PMM's Metrics, Decision Criteria, and Competition content, refreshed on the Battlecard's quarterly cadence | Sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition); PMM's supporting role supplies the evidenced content reps need to answer several letters in a live deal |
 
 ---
 
@@ -171,6 +173,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 
 ### Scenario 4: Improving Win Rate
 0. **Sales Enablement Maturity Model** (optional, run first if enablement material already exists but reps say it is stale or hard to find; diagnoses whether the real gap is content, governance, training, or measurement before building a new battlecard on top of the same broken function)
+0a. **Category Design** (optional, run instead of steps 1–6 if win rate is capped by the market category itself, not competitive execution; only warranted when out-executing competitors inside the existing category would still leave a capped ceiling)
 1. **Win/Loss Analysis** (diagnose losses)
 2. **Competitive Intelligence** (understand competitor messaging)
 3. **Product Differentiation** (validate claimed differentiation)
@@ -178,6 +181,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 5. **Buyer's Journey Content Map** (confirm content exists at the specific stage deals are stalling, not just that a battlecard exists)
 6. **Competitive Battlecard Framework** (equip reps with the counter-position for the specific competitor deals are lost to)
 6a. **Command of the Message** (translate the refined positioning and the battlecard's counter-position into a quantified value case reps run live in discovery and proposal conversations against that competitor)
+6b. **MEDDIC / MEDDPICC** (optional; if sales is rolling out or refreshing deal qualification, supply the Metrics, Decision Criteria, and Competition content reps need, drawn directly from the battlecard and the quantified value case built in step 6a)
 7. **7-Step or 10-Step PMM** (update sales enablement)
 8. **Quarterly PMM** (schedule messaging refresh)
 
@@ -248,6 +252,8 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 ---
 
 ## Version History
+
+**2026-07-29 (fifth and sixth FRAMEWORK-BACKLOG.md builds, next in rank order)**: **Category Design** joins the Competitive Frameworks table (prerequisite: STP plus evidence, from win/loss and Voice of the Customer signal, that the existing category caps the ceiling; feeds a new Point of View and Message Architecture's copy hierarchy) and is now an optional step 0a of the Improving Win Rate scenario, run instead of the standard competitive-execution steps only when out-executing competitors inside the existing category would not raise the ceiling. **MEDDIC/MEDDPICC** joins the new Sales Enablement table alongside the Sales Enablement Maturity Model (prerequisite: none, a sales-owned qualification discipline; PMM's supporting content draws on the Competitive Battlecard Framework, Command of the Message, and the FAB Ladder) and is now an optional step 6b of the Improving Win Rate scenario, run after Command of the Message to supply the Metrics, Decision Criteria, and Competition content a rep needs to answer the checklist. Built with an explicit "PMM's supporting role" framing, per FRAMEWORK-BACKLOG.md's build condition, since qualification itself is sales-owned. Entry count updated 46 → 48.
 
 **2026-07-28 (nineteenth ENRICHMENT-PLAN.md build, plus first FRAMEWORK-BACKLOG.md build)**: **Sales Enablement Maturity Model** joins a new "Sales Enablement" table as Category 9's first entry (prerequisite: none, an honest self-assessment plus rep interviews; feeds the Competitive Battlecard Framework and Buyer's Journey Content Map, since it tells a team whether it is ready to build and sustain them, plus enablement headcount and tooling business cases) and is now an optional step 0 of the Improving Win Rate scenario, run first when existing enablement material is stale or hard to find. This completes all 19 ENRICHMENT-PLAN.md candidates. **StoryBrand SB7 Framework** joins the Positioning Frameworks table (prerequisite: a validated positioning statement; feeds homepage and landing-page copy, founder narratives, video scripts, and demo scripts) and is now an optional step 6c of the New Product Launch scenario, drafting the launch page as a seven-part story arc alongside the FAB Ladder's benefit-first proof points. Entry count updated 44 → 46.
 
