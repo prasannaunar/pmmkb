@@ -16,7 +16,7 @@ A structured, practical reference guide of product marketing frameworks and meth
 
 **Have 5 minutes?**
 
-Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge base, or skim the [quick-reference cards](quick-reference/) for a one-page summary of each framework.
+Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge base. (Quick-reference cards are planned but not yet built; see PLAN.md.)
 
 ---
 
@@ -100,16 +100,16 @@ Every entry is designed to be **read standalone**, but entries often build on on
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 51 entries with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 54 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)**: 5-phase roadmap for polishing and integrating frameworks into day-to-day work
 - **[PROGRESS.md](PROGRESS.md)**: Progress tracking, completed work, and development status
-- **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
+- **[foundational-review.md](foundational-review.md)**: Historical quality audit of the original 19 frameworks (2026-04-09); does not cover entries added since
 - **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis; all 12 candidates now built, the last three (Analyst Relations Tiering & Cadence Model, Pragmatic Institute Framework, Sean Ellis 40% Test) on 2026-07-30, completing the queue (NEW: 2026-07-09)
 - **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies; all 19 built as of 2026-07-28, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
-- **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
+- **[CLAUDE.md](CLAUDE.md)**: Working principles and writing standards for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
 
 ---
@@ -181,16 +181,9 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 
 ---
 
-## Quality Assurances (2026-04-09 Update)
+## Quality Assurances
 
-All frameworks have been:
-- ✅ **Validated against established sources**: 13 frameworks verified as industry-standard approaches; 6 are internal/custom frameworks appropriate to PMM context
-- ✅ **Attribution verified**: All author names, book titles, and publication dates cross-checked; 2 attribution errors identified and corrected
-- ✅ **Cross-linked**: All 26 frameworks now reference 2–3 related frameworks, showing dependencies and complementary approaches
-- ✅ **Enhanced with benchmarks**: Key frameworks (NPS, GTM, Win/Loss) now include SaaS industry benchmarks for self-assessment
-- ✅ **Pitfalls expanded**: 3 frameworks now include specific, measurable recovery steps beyond the pitfall description
-
-See [foundational-review.md](foundational-review.md) for the full quality audit report.
+The original 19 frameworks were validated against established sources, attribution-checked, and cross-linked on 2026-04-09; see [foundational-review.md](foundational-review.md) for that historical audit (it does not cover the 35 entries added since). Every entry added afterwards, and every entry in the knowledge base today, is held to the same standard via CLAUDE.md's Quality Gates checklist, run at time of writing rather than in a separate audit pass.
 
 ## Standards & Principles
 
