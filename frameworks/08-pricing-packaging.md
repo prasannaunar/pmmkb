@@ -2,6 +2,8 @@
 
 ## Good-Better-Best (GBB) Packaging Framework
 
+**Type:** Framework.
+
 **What it is:** A pricing structure that groups product features into three value-ascending tiers, commonly labelled Good, Better, and Best (or Starter, Growth, Enterprise). Each tier is built for a distinct buyer persona and fences features so that customers self-select the tier that matches their needs and budget. The middle tier is deliberately positioned as the default choice; it typically captures the majority of purchases because it balances value and price without requiring the buyer to negotiate.
 
 **When to use it:**
@@ -46,6 +48,8 @@ Within two quarters of launch: 35% of new customers choose Starter, 52% choose G
 ---
 
 ## Van Westendorp Price Sensitivity Meter (PSM)
+
+**Type:** Framework.
 
 **What it is:** A survey method that finds the range of prices customers will accept for a product, without asking them to name a single "right" price. Respondents answer four questions about the same product concept: at what price would it be so cheap you'd doubt its quality, so cheap it's a bargain, starting to get expensive, and so expensive you wouldn't consider it. Plotting the four response curves against each other produces a price corridor (the range most customers accept) and an indifference price point (where "expensive" and "cheap" perceptions cross). Unlike frameworks that group features into tiers, PSM answers a narrower, earlier question: what should this product cost at all, before you decide how to package it.
 
@@ -93,6 +97,8 @@ Coverwell sets its launch price at $0.079/mile, just inside the OPP and comforta
 ---
 
 ## Value Metric / Willingness-to-Pay Framework
+
+**Type:** Framework.
 
 **What it is:** A four-step method for setting a defensible price by tying it to the specific unit of value a customer receives, rather than to a flat seat fee or a guess. The "value metric" is that unit (API calls, transactions processed, storage used, seats, revenue managed); the right one scales naturally with the value a customer gets, so price grows with usage instead of being negotiated tier by tier. The framework defines personas, surveys their willingness to pay (WTP), plots the results in a value/WTP matrix, and aligns pricing tiers to what each persona is actually willing to pay for the value they receive. Where the Van Westendorp Price Sensitivity Meter answers "what should this cost overall," this framework answers a different question: "what should we charge for, and how should price scale as usage grows."
 

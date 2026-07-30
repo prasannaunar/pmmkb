@@ -2,6 +2,8 @@
 
 ## PMM Lifecycle Management Framework
 
+**Type:** Methodology.
+
 **What it is:** A model that defines the product marketing role across the entire customer lifecycle: awareness (before the customer knows you exist), consideration (evaluating options), purchase (deciding to buy), onboarding (getting started), adoption (using the product fully), expansion (upselling and cross-selling), and advocacy (turning customers into promoters). PMM activities shift at each stage: awareness demands thought leadership and SEO, while expansion demands case studies and ROI calculators. The framework exists because PMM work is often described as "launches and messaging," which understates the role. In reality, PMM should have a defined contribution at every stage a customer passes through, not just the moment of purchase.
 
 **When to use it:**
@@ -13,7 +15,7 @@
 - When leadership questions PMM's impact beyond launches, to demonstrate the full breadth of the role
 - When restructuring a PMM team, to decide whether to organise by lifecycle stage, product line, or segment
 
-**How to apply it:**
+**How to run it:**
 1. **Define lifecycle stages:** Map your actual customer journey (Awareness → Consideration → Purchase → Onboarding → Adoption → Expansion → Advocacy). Don't copy a generic funnel; interview sales and customer success to confirm the stages match how your customers actually buy and use the product.
 2. **Identify key interactions:** For each stage, list the touchpoints where customers interact with your brand (website, sales call, email campaign, in-app tutorial, support article, case study, community forum, renewal conversation, and so on). Aim for at least three touchpoints per stage; fewer than that usually means the stage is under-resourced.
 3. **Assign PMM activities:** For each touchpoint, document what PMM should deliver: messaging, content, collateral, positioning, or enablement. Be explicit about the deliverable format (a one-page battlecard, a 90-second demo video, a webinar) so the work is plannable and estimable.
@@ -22,6 +24,8 @@
 6. **Sequence work:** Prioritise the highest-impact stages first. Usually Awareness and Expansion generate the most revenue impact, but confirm this with your own funnel data rather than assuming it applies universally; a mature product with high organic demand may get more lift from fixing Onboarding.
 7. **Measure:** Define success metrics for each stage (Awareness: organic traffic; Consideration: demo requests; Purchase: win rate; Onboarding: time-to-first-value; Adoption: feature adoption rate; Expansion: upsell attach rate; Advocacy: NPS and referral volume). Review these metrics monthly, not just at the end of the quarter, so gaps are caught early.
 8. **Revisit quarterly:** Customer journeys shift as the product and market mature. Re-run the mapping exercise every quarter to catch new touchpoints (a new self-serve trial flow, a new partner channel) before they become blind spots.
+
+**Cadence & ownership:** PMM owns the lifecycle map and the gap analysis outright, partnering with sales, support, and customer success on the touchpoints those functions execute day to day; a RACI built in step 4 is what keeps that partnership from drifting into "everyone's and no one's." Review the full map quarterly (step 8) as a standing exercise, and track the stage-level success metrics from step 7 monthly so a gap is caught well before the next quarterly review. Treat a new self-serve flow, a new partner channel, or a leadership question about PMM's impact beyond launches as a trigger for an off-cycle refresh, not just the calendar.
 
 **Example:**
 
@@ -50,6 +54,8 @@ Success metrics to track ongoing: organic traffic (Awareness), SQLs from content
 
 ## Go-to-Market Motion Framework
 
+**Type:** Methodology.
+
 **What it is:** A structured approach to executing a product launch or major campaign across multiple channels simultaneously: messaging, content, partnerships, events, sales enablement, and customer communication. The framework ensures coordinated, synchronised launch activity across teams rather than ad-hoc, piecemeal efforts. It treats a launch as a choreographed sequence with dependencies and owners, not a single announcement date, because most launches fail not from a bad idea but from poor sequencing and unclear accountability.
 
 **When to use it:**
@@ -60,7 +66,7 @@ Success metrics to track ongoing: organic traffic (Awareness), SQLs from content
 - When a previous launch underperformed and you need a repeatable process rather than relying on heroics
 - When the launch has hard external dependencies, such as an analyst embargo, a partner announcement, or a regulatory approval date
 
-**How to apply it:**
+**How to run it:**
 1. **Define the launch narrative:** What is the core story you're telling the market? For example, "We're solving X problem for Y customer in a radically different way." Test this narrative with three to five customers or prospects before building the full campaign; if it doesn't resonate in a five-minute conversation, it won't resonate in a press release either.
 2. **Design the motion:**
    - **Pre-launch (4 to 8 weeks prior):** Build awareness and create curiosity. Tease through thought leadership, partner announcements, and press relationships. Line up 2 to 3 customer references who are willing to speak publicly.
@@ -71,6 +77,8 @@ Success metrics to track ongoing: organic traffic (Awareness), SQLs from content
 5. **Set sync points:** Daily standups pre-launch, weekly post-launch, to track momentum, call out blockers, and adjust messaging if market feedback arrives. Keep these to 15 minutes with a standing agenda: what shipped, what's blocked, what's next.
 6. **Prepare a rollback plan:** Decide in advance what happens if a critical dependency slips (an integration isn't ready, a partner pulls out). Having a pre-agreed fallback narrative avoids a scramble on launch day.
 7. **Measure:** Track engagement, clicks, SQL volume, win rate lift, and revenue attribution from the motion. Compare against the pre-launch baseline for at least 90 days, since some effects (sales cycle compression, ASP uplift) take longer to appear than click-through metrics.
+
+**Cadence & ownership:** A single PMM or launch lead owns the overall motion and the dependency map; individual channel owners (website, email, PR, sales enablement) execute their piece against the sync cadence in step 5. This methodology runs per launch, not on a fixed calendar; the pre-launch, launch-week, and post-launch phases in step 2 are the cadence for any single motion, triggered by the launch itself rather than a quarterly schedule. Treat a previous launch underperforming, or a new hard external dependency (an analyst embargo, a partner announcement), as the signal to run this methodology rather than defaulting to an ad hoc announcement.
 
 **Example:**
 
@@ -96,6 +104,8 @@ Success metrics: launch-week traffic lift, email open rate, SQL volume in the we
 
 ## Feature Adoption Framework
 
+**Type:** Methodology.
+
 **What it is:** A systematic approach to driving customer adoption of new or underutilised features. It recognises that building a feature is different from customers using it; many products languish with powerful capabilities that most users never discover or adopt. The framework applies product marketing discipline to internal product adoption, treating an in-app feature the same way you would treat an external product launch: with segmentation, messaging, and measurement rather than a single release note and hope.
 
 **When to use it:**
@@ -106,7 +116,7 @@ Success metrics: launch-week traffic lift, email open rate, SQL volume in the we
 - Quarterly, or as new features ship
 - When a feature was built in response to a specific customer request but usage data shows only that one customer uses it
 
-**How to apply it:**
+**How to run it:**
 1. **Understand the feature:** What problem does it solve? Who should use it? What's the adoption barrier: discoverability, complexity, or unclear value? Talk to the product manager and at least five customers who haven't adopted it to understand the real barrier before designing a campaign.
 2. **Segment users:** Who has already adopted? Who hasn't? Why not? Segment by persona, company size, industry, or use case, and pull usage data to quantify each segment rather than relying on anecdote.
 3. **Create an adoption campaign:**
@@ -118,6 +128,8 @@ Success metrics: launch-week traffic lift, email open rate, SQL volume in the we
 5. **Measure:** Track activation rate (the percentage who use the feature once), retention rate (the percentage who use it repeatedly after 30 and 90 days), and business impact (revenue, NPS lift, upsell, retention). A feature with high activation but low retention usually signals a usability problem, not an awareness problem.
 6. **Iterate:** If adoption is low, test different messaging, simplify the feature, or provide more training. Don't assume customers will figure it out on their own; run at least two rounds of message testing before concluding the feature itself is the problem.
 7. **Celebrate wins:** Share adoption success stories and user testimonials internally and externally to encourage broader adoption and to give sales a fresh proof point.
+
+**Cadence & ownership:** PMM owns the adoption campaign design and messaging; product management owns the feature itself and supplies usage data; customer success or sales executes the high-touch outreach in step 3 for high-value accounts. Run this methodology per feature release, triggered by a new or underutilised feature shipping, plus a standing quarterly review of usage data across the whole existing feature set to catch anything that quietly went undiscovered. Treat a feature built in response to one customer's request but adopted by no one else as an explicit trigger to run this cycle, not a sign the feature itself failed.
 
 **Example:**
 
@@ -138,45 +150,3 @@ How to know it worked: activation rate crossing the pre-agreed target (in this c
 
 **See also:** STP Framework (segment users by adoption readiness and tailor messaging); PMM Lifecycle Management Framework (feature adoption is a subset of the Adoption stage); Go-to-Market Motion Framework (applies motion concepts to feature launches); NPS Framework (measure whether adopted features correlate with higher NPS).
 
----
-
-## Buyer's Journey Content Map
-
-**Type:** Framework.
-
-**What it is:** A grid that plots every piece of enablement and marketing content against the stages a buyer moves through (awareness, consideration, decision, and post-sale), so PMM can see at a glance where content exists, where it is thin, and where it is missing entirely. Each cell in the grid is a stage-by-format intersection: a case study in the decision column, an ROI calculator in the consideration column, an onboarding guide in the post-sale column. The map does not create content; it audits what already exists against what a buyer actually needs at each point in their journey, and turns a vague sense of "sales says they need more collateral" into a specific, prioritised list of gaps. It is the diagnostic companion to PMM Lifecycle Management: that framework defines PMM's role across the whole customer lifecycle, while this one is a narrower, content-specific audit tool sales, marketing, and PMM can run quickly whenever collateral gaps are suspected.
-
-**When to use it:**
-- Sales repeatedly asks for "more content" without being able to say exactly what is missing
-- A new segment, vertical, or persona is being enabled and you need to confirm content exists for every stage, not just the ones already built for other segments
-- Win/loss interviews or a Voice of the Customer synthesis surface a recurring theme that prospects lacked information at a specific point in the buying process
-- Preparing a launch tier or GTM motion plan and need to confirm the enablement layer (per the 10-Step PMM Process or Complete GTM Workflow Stages) has content ready, not just messaging
-- Auditing content inventory before a quarterly planning cycle, to prioritise content production against the stages with the biggest gaps rather than the loudest internal requests
-- A sales cycle is stalling at a specific, identifiable stage (for example, deals dying after the demo but before procurement) and you suspect a content gap, not a positioning or pricing problem, is the cause
-
-**How to apply it:**
-1. **Define your buyer journey stages.** Use four stages as the default: Awareness (buyer recognises a problem), Consideration (buyer evaluates solution categories and vendors), Decision (buyer is comparing finalists and building an internal business case), and Post-sale (buyer is onboarding, adopting, and renewing). Confirm this matches how your buyers actually move, using the same interviews or CRM stage data you'd use for STP or the PMM Lifecycle Management Framework; do not adopt a generic four-stage funnel without checking it against your own deal data first.
-2. **List every content asset you currently have.** Pull from your CMS, sales enablement platform (Highspot, Seismic, or a shared drive), and any asset library. Include blog posts, guides, case studies, comparison pages, ROI calculators, demo scripts, one-pagers, webinars, and onboarding materials; anything a buyer or a seller might use.
-3. **Tag each asset by stage and format.** For every asset, assign the single stage it best serves (an asset trying to serve all four stages usually serves none of them well) and its format (written, video, interactive tool, live session). Where an asset genuinely spans two stages, list it in both cells rather than forcing an artificial choice.
-4. **Build the grid.** Rows are the four stages; columns are content formats, or vice versa depending on what's easier to scan. Populate each cell with the assets tagged to it. A completed grid makes gaps visually obvious: an empty or thin cell at Decision, for example, is a direct, evidenced sales-enablement gap rather than an assumption.
-5. **Score each stage against buyer needs, not just asset count.** A stage with five assets that all address the same objection is still a gap if three other common objections at that stage have nothing addressing them. Cross-reference against the top objections and questions surfaced in Win/Loss Analysis and sales call notes, and tag each cell not just by count but by whether it addresses the objections that actually recur.
-6. **Prioritise gaps by revenue impact and frequency.** Rank empty or thin cells by how often sales encounters that gap (pull from CRM stage-drop data or a quick sales survey) and by the revenue at stake in the deals stalling there. A gap in Decision-stage content for your highest-value segment usually outranks a thin cell in Awareness content for a segment you are deprioritising.
-7. **Assign content production against the prioritised list.** Brief writers, designers, or video producers against the specific gap, not a generic content calendar slot; a brief that says "we need a Decision-stage asset addressing the procurement security questionnaire objection for enterprise buyers" produces sharper content than "we need more case studies."
-8. **Re-run the audit quarterly, or whenever a new segment or motion launches.** Content maps drift as old assets go stale, competitors shift the objections buyers raise, and new segments or products open journeys the existing map never covered.
-
-**Example:**
-
-Cybersecurity SaaS vendor Fenwick Security runs its first content map ahead of expanding into the mid-market segment, having built its content library almost entirely around enterprise buyers. The team pulls 64 existing assets from its CMS and Highspot library and tags each by stage.
-
-The grid shows Awareness is well covered (18 blog posts, 3 webinars) and Post-sale is adequate (an onboarding guide, a renewal playbook), but Consideration has only two assets, both written for a security-team buyer persona with a six-figure budget, and Decision has a single enterprise-only ROI calculator that assumes a procurement team and a security questionnaire process mid-market buyers do not have. Cross-referencing against 15 recent mid-market win/loss interviews, the team finds the recurring objection at Decision is "we don't have a dedicated security team to manage this", an objection none of the 64 assets address.
-
-Fenwick prioritises two new assets: a Decision-stage case study from a mid-market customer with no dedicated security team, showing time-to-value without one, and a lightweight ROI calculator scaled to mid-market budgets and team sizes. Both ship within five weeks, briefed directly against the named objection rather than a generic content request. Within the following quarter, mid-market win rate rises from 14% to 23%, and sales reports the new case study is referenced in more than half of mid-market discovery calls as the deciding proof point.
-
-Success metrics to track: the ratio of assets to buyer-journey stage (flagging any stage below a minimum threshold, for example fewer than 3 assets), win rate and sales-cycle length in segments where gaps were closed, and sales adoption of new assets (measured by how often reps pull and share them in Highspot or an equivalent platform) within 90 days of publication.
-
-**Pitfalls:**
-- **Counting assets instead of scoring them against actual buyer objections.** A stage can look well covered by volume while every asset addresses the same one or two objections, leaving the real blockers untouched. Recovery: always cross-reference the grid against Win/Loss Analysis and sales call notes before declaring a stage covered; count objections addressed, not just assets produced.
-- **Building the map once and never refreshing it.** Content maps drift out of date as competitors change the objections buyers raise and as new segments or products open journeys the original map never accounted for. Recovery: put a quarterly content-map refresh on the standing PMM calendar, tied to the same cadence as competitive intelligence updates, so gaps are caught before sales notices them first.
-- **Producing content for the loudest internal request rather than the highest-impact gap.** Sales or a single stakeholder pushing hard for one asset can crowd out a bigger, quieter gap elsewhere in the journey. Recovery: rank every gap by the CRM-evidenced revenue and frequency data from step 6 before agreeing to any content brief, and be willing to say no to a loud request that scores lower than a quiet one.
-
-**See also:** PMM Lifecycle Management Framework (defines PMM's broader role across the same journey this map audits at the content level); Win/Loss Analysis Framework (supplies the objection data that scores each cell in the map); Competitive Battlecard Framework (a Decision-stage asset this map will surface as missing if no battlecard exists for a segment); 10-Step PMM Process (build the content this map identifies as part of the sales enablement step).
