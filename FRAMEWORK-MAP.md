@@ -64,7 +64,6 @@ These validate positioning against competition:
 |-----------|---------------|-----------|---------|
 | **Bowman's Clock** | STP + Positioning | Pricing strategy | Price-value positioning |
 | **Product Differentiation** | STP + Positioning | Sales enablement | Competitive differentiation |
-| **Competitive Battlecard Framework** | Competitive Intelligence + Product Differentiation + Bowman's Clock | Live sales deals, Win/Loss Analysis | One-page field tool for contested deals |
 | **Perceptual Map (2x2)** | STP (segment to plot for) + Win/Loss (source of buyer-relevant axes) | Product Differentiation, positioning refresh | Plots competitors on two buyer-chosen attributes to reveal open market space |
 | **Category Design** | STP + evidence the existing category caps the ceiling (win/loss interviews, Voice of the Customer signal) | A Point of View that reframes the market; Message Architecture (the copy hierarchy the new category writes from) | Multi-year discipline to define, develop, and dominate a new market category rather than compete for share inside an existing one |
 
@@ -92,7 +91,6 @@ These drive customer adoption post-launch:
 | **GTM Motion Framework** | Positioning + GTM | Launch campaigns | Coordinated launches |
 | **Feature Adoption** | PMM Lifecycle | NPS | Drive internal product adoption |
 | **Onboarding Maturity** | Positioning | Retention metrics | Accelerate time-to-value |
-| **Buyer's Journey Content Map** | PMM Lifecycle + Win/Loss | Sales enablement, Competitive Battlecard Framework | Audit content against buyer stages and prioritise gaps by revenue impact |
 | **Forrester Customer Advocacy Model** | NPS (source of Promoters) | Case studies, sales reference calls, Competitive Battlecard Framework proof points | Builds a proactive advocacy practice (Reactive → Identified → Programmatic → Embedded) instead of chasing the same few accounts for every reference |
 
 ### Measurement & Optimisation Frameworks (Apply Throughout)
@@ -128,13 +126,15 @@ Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price onc
 | **Usage-Based (Consumption) Pricing Model** | Value Metric / WTP (to identify the value-scaling usage unit) | Good-Better-Best Packaging (usage allowances scaled by tier), billing and metering build | Choose where a pricing structure sits between flat fee and pure consumption, and whether a hybrid base-fee-plus-overage model fits |
 | **Good-Better-Best Packaging** | STP + (Van Westendorp PSM and/or Value Metric/WTP and/or Conjoint Analysis and/or Gabor-Granger and/or Usage-Based Pricing Model) | Sales enablement, Quarterly Planning | Structure the price ladder and tiers buyers self-select into |
 
-### Sales Enablement (Category 9, New 2026-07-28)
-Diagnoses the maturity of the enablement function itself, rather than producing a single point-in-time artefact:
+### Sales Enablement (Category 9)
+Consolidated 2026-07-30 to hold all four entries most closely associated with the discipline; the Sales Enablement Maturity Model diagnoses the maturity of the function itself, rather than producing a single point-in-time artefact, while the Battlecard and Content Map are the point-in-time artefacts it diagnoses readiness for:
 
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
 | **Sales Enablement Maturity Model** | None (an honest self-assessment plus rep interviews) | Competitive Battlecard Framework and Buyer's Journey Content Map (tells a team whether it is ready to build and sustain them), enablement headcount and tooling business cases | Score content governance, training, tooling, and cross-functional integration on a four-stage ladder (Ad Hoc, Organised, Optimised, Transformative) to find the actual bottleneck |
 | **MEDDIC / MEDDPICC** | None (a sales-owned qualification discipline); PMM's content draws on the Competitive Battlecard Framework, Command of the Message, and the FAB Ladder | Sales forecasting and deal qualification (sales-owned); PMM's Metrics, Decision Criteria, and Competition content, refreshed on the Battlecard's quarterly cadence | Sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition); PMM's supporting role supplies the evidenced content reps need to answer several letters in a live deal |
+| **Competitive Battlecard Framework** | Competitive Intelligence (Category 7) + Product Differentiation + Bowman's Clock (Category 3) | Live sales deals, Win/Loss Analysis (Category 6) | One-page field tool for contested deals; consolidated here 2026-07-30 from Category 3 |
+| **Buyer's Journey Content Map** | PMM Lifecycle (Category 5) + Win/Loss (Category 6) | Sales enablement, Competitive Battlecard Framework | Audit content against buyer stages and prioritise gaps by revenue impact; consolidated here 2026-07-30 from Category 5 |
 
 ---
 
@@ -262,6 +262,8 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 ---
 
 ## Version History
+
+**2026-07-30 (housekeeping: Category 9 consolidation)**: Moved the Competitive Battlecard Framework and the Buyer's Journey Content Map into the Sales Enablement table (Category 9), consolidated from Category 3 and Category 5 respectively, alongside the Sales Enablement Maturity Model and MEDDIC/MEDDPICC. Every dependency-matrix and scenario reference to either entry is unchanged in substance (their prerequisites and what they feed remain the same); only their category location changed. Total entry count is unaffected (54).
 
 **2026-07-30 (tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md builds, completing that queue)**: **Analyst Relations Tiering & Cadence Model** and **Pragmatic Institute Framework** join the new Strategy & Planning Frameworks table entries (Analyst Relations: prerequisite none, an analyst universe to build and score; feeds the Competitive Intelligence & Positioning Update Framework, Message Architecture's briefing kit content, and Quarterly PMM Planning's resourcing. Pragmatic Institute: prerequisite an existing enablement programme and a launched product/portfolio to audit; feeds the Sales Enablement Maturity Model's certification inputs and Good-Better-Best Packaging's pricing health review). Analyst Relations Tiering & Cadence Model is now an optional step 2a of the Improving Win Rate scenario, run alongside Competitive Intelligence when analyst reports are cited in competitive deals (and BY-SITUATION.md's matching Competing Against Established Players situation, as step 1a); Pragmatic Institute Framework is noted against BY-SITUATION.md's Measuring PMM Impact & ROI situation as an optional step 4a, since this map's shorter scenario list has no dedicated PMM operating-model scenario. **Sean Ellis 40% Test** joins the Foundation Frameworks table (prerequisite: STP, to cut the survey by segment; feeds the product's growth-investment decision, which stays product-owned, and the segment's positioning and messaging, which is PMM's supporting role) and is now an optional step 7a of the Repositioning for New Segment scenario, run once usage data exists in the new segment (and BY-SITUATION.md's matching Entering a New Market or Segment situation, as step 10a). This completes all 12 FRAMEWORK-BACKLOG.md candidates; entry count updated 51 → 54.
 

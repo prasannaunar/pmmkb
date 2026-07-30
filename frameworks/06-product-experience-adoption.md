@@ -2,6 +2,8 @@
 
 ## Customer Onboarding Maturity Framework
 
+**Type:** Framework.
+
 **What it is:** A model that defines product marketing's role in ensuring customers successfully activate and adopt a product after purchase. It spans customer education (how people learn to use the product), enablement (whether sales and support have the tools to help customers), and feedback loops (customer success signalling product marketing about adoption blockers). Onboarding maturity ranges from self-service, where customers figure it out alone, to fully supported, with dedicated onboarding teams, training, and consulting. The framework treats onboarding as a product marketing responsibility, not purely a support or customer success function, because the messaging a customer receives in their first 30 days shapes whether they ever reach full value.
 
 **When to use it:**
@@ -47,6 +49,8 @@ How to know it worked: rising activation rate at each milestone quarter over qua
 
 ## Win/Loss Analysis Framework
 
+**Type:** Methodology.
+
 **What it is:** A systematic process for analysing why customers buy (wins) and why they choose competitors (losses). Unlike surveys, win/loss analysis involves structured interviews with decision-makers to uncover the real reasons behind purchase decisions. Insights inform positioning, messaging, competitive strategy, and product development priorities. The discipline works because decision-makers are often more candid in a post-decision interview, once the sales pressure is off, than they ever were during the sales process itself.
 
 **When to use it:**
@@ -57,7 +61,7 @@ How to know it worked: rising activation rate at each milestone quarter over qua
 - To inform sales enablement, by identifying which objections deals are lost on most often
 - Before a major pricing or packaging change, to establish a baseline of current win and loss drivers
 
-**How to apply it:**
+**How to run it:**
 1. **Identify the sample:** Interview 10 to 20 recent wins and 10 to 20 recent losses from the past 30 to 90 days. Mix deal sizes and customer segments so the findings aren't skewed by a single account type, and avoid only interviewing the easiest customers to reach.
 2. **Conduct interviews:** Use a semi-structured format, not a survey, so the interviewer can follow up on interesting answers. Ask:
    - What problems were you trying to solve?
@@ -71,6 +75,8 @@ How to know it worked: rising activation rate at each milestone quarter over qua
 5. **Update strategy:** Refine messaging, competitive positioning, pricing, product roadmap priorities, and the sales playbook based on the insights. Assign an owner and a deadline to each recommended change so the analysis doesn't stall at the recommendation stage.
 6. **Track over time:** Run win/loss analysis quarterly. Have loss reasons changed? Is the updated messaging resonating better? Is a product gap widening or closing? Keep a running log so trends across quarters are visible, not just a single quarter's snapshot.
 7. **Close the loop with sales:** Share findings with the sales team within two weeks of completing the analysis, ideally in a live session where reps can ask questions, since sales buy-in is what turns insights into changed behaviour on live deals.
+
+**Cadence & ownership:** PMM owns the interview programme, the pattern analysis, and the resulting recommendations; sales supplies the deal list and participates in the close-the-loop session, and product leadership consumes findings that affect roadmap priority. Run the full cycle quarterly as the standing cadence, with sample selection (step 1) refreshed each time from the prior 30 to 90 days of closed deals. Treat a major loss to a high-value account, a declining win rate with no clear cause, or a pending pricing or packaging change as triggers for an off-cycle round, in addition to the quarterly rhythm.
 
 **Example:**
 
@@ -108,6 +114,8 @@ Twelve weeks after these actions, the team ran a smaller follow-up sample of 10 
 ---
 
 ## Net Promoter Score (NPS) & Feedback Loop Framework
+
+**Type:** Framework.
 
 **What it is:** A framework for using customer feedback, especially NPS, CSAT, and open-ended interviews, to inform product marketing strategy. PMM uses NPS to identify brand advocates (Promoters) and detractors (Detractors), gathers the reasons behind their sentiment, and closes the loop by addressing root causes in product, support, messaging, or pricing. NPS on its own is just a number; the framework's value comes from pairing the score with qualitative follow-up and a defined action for every segment of respondent.
 
@@ -202,7 +210,7 @@ By Q2, SMB NPS rose from 15 to 31 following the Lite tier launch and the chat su
 
 **Type:** Model.
 
-**What it is:** A staged model, developed by Forrester Research, for building a proactive customer advocacy practice rather than treating advocacy as an ad hoc byproduct of whichever happy customer marketing remembers to ask when a case study is due. It reads a company's advocacy activity along four dimensions: how systematically advocates are identified and segmented, how broad and effort-matched the menu of advocacy "asks" is, whether the same small pool of accounts is being repeatedly over-used, and whether advocacy is instrumented into the customer lifecycle or bolted on reactively whenever a specific need arises. Plotting a company against those four dimensions places it on a four-stage ladder: **Reactive** (advocacy is chased only when a specific asset is due, with no tracking of who has already been asked), **Identified** (NPS and win/loss data are used to systematically find and segment Promoters, with a lightweight tracking system so the same three accounts are not approached for everything), **Programmatic** (a formal, tiered programme exists with a menu of asks scaled by effort and a matched reward, run on a defined cadence by a named owner), and **Embedded** (advocacy is triggered automatically at lifecycle moments, its contribution to pipeline and win rate is measured, and it has its own budget justified by that measurement). Most companies with genuinely happy customers still sit at Reactive, because a high NPS score is often mistaken for an advocacy programme, when in practice nobody has built the system that turns satisfied customers into an asset marketing and sales can reliably draw on.
+**What it is:** A staged model for building a proactive customer advocacy practice rather than treating advocacy as an ad hoc byproduct of whichever happy customer marketing remembers to ask when a case study is due. Forrester Research publishes customer-advocacy maturity research along these lines (their own published material describes a staged advocacy maturity assessment; the exact stage count and names vary by report and much of it sits behind a paywall), and this entry adapts that research tradition into a specific, usable four-stage ladder for this knowledge base rather than reproducing Forrester's own proprietary taxonomy verbatim. It reads a company's advocacy activity along four dimensions: how systematically advocates are identified and segmented, how broad and effort-matched the menu of advocacy "asks" is, whether the same small pool of accounts is being repeatedly over-used, and whether advocacy is instrumented into the customer lifecycle or bolted on reactively whenever a specific need arises. Plotting a company against those four dimensions places it on a four-stage ladder: **Reactive** (advocacy is chased only when a specific asset is due, with no tracking of who has already been asked), **Identified** (NPS and win/loss data are used to systematically find and segment Promoters, with a lightweight tracking system so the same three accounts are not approached for everything), **Programmatic** (a formal, tiered programme exists with a menu of asks scaled by effort and a matched reward, run on a defined cadence by a named owner), and **Embedded** (advocacy is triggered automatically at lifecycle moments, its contribution to pipeline and win rate is measured, and it has its own budget justified by that measurement). Most companies with genuinely happy customers still sit at Reactive, because a high NPS score is often mistaken for an advocacy programme, when in practice nobody has built the system that turns satisfied customers into an asset marketing and sales can reliably draw on.
 
 **When to use it:**
 - **Marketing only ever finds a customer reference "just in time" for a specific ask**, and the same handful of accounts get approached repeatedly because they are the ones everyone remembers.
@@ -229,4 +237,4 @@ By Q2, SMB NPS rose from 15 to 31 following the Lite tier launch and the chat su
 - **Advocate fatigue from over-relying on the same small, easy-to-remember pool.** Clearway's original four-account pattern is the common failure mode: the same names get asked because they are top of mind, not because they are the best-matched or most willing advocates available. Recovery: cap asks per account per year (two to three is a reasonable default), track the cap explicitly in the system built in step 2, and route new requests to under-used advocates first.
 - **Running the programme with no measurement, so it never earns a dedicated budget or survives a headcount review.** An advocacy programme that cannot point to a pipeline or win-rate number looks like a nice-to-have the first time budgets tighten. Recovery: track reference-assisted win rate and advocate-sourced pipeline from the programme's first quarter, even informally, so there is evidence ready the moment its value is questioned.
 
-**See also:** Net Promoter Score (NPS) & Feedback Loop Framework (Category 6; the initial source of Promoters this model segments into a managed advocate pool); PMM Lifecycle Management Framework (Category 5; names Advocacy as a lifecycle stage, of which this model is the operational build-out); Win/Loss Analysis Framework (Category 6; a source of strong advocate candidates and the language that becomes case-study copy); Competitive Battlecard Framework (Category 3; a mature advocacy programme is a source of proof points a battlecard can cite in a live deal).
+**See also:** Net Promoter Score (NPS) & Feedback Loop Framework (Category 6; the initial source of Promoters this model segments into a managed advocate pool); PMM Lifecycle Management Framework (Category 5; names Advocacy as a lifecycle stage, of which this model is the operational build-out); Win/Loss Analysis Framework (Category 6; a source of strong advocate candidates and the language that becomes case-study copy); Competitive Battlecard Framework (Category 9; a mature advocacy programme is a source of proof points a battlecard can cite in a live deal).

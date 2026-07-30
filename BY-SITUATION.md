@@ -186,7 +186,7 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Test positioning that makes competitors irrelevant or positions them as the status quo
    - *Do this:* Validate that your differentiation strategy resonates
 
-7. **Competitive Battlecard Framework** (`Category 3`)
+7. **Competitive Battlecard Framework** (`Category 9`)
    - *Why:* Turn the differentiation and positioning above into a one-page field tool sales can use live in a deal against the named incumbent
    - *Do this:* Build the card around the incumbent's actual pitch, not an assumption of it, and role-play it with reps before rollout
 
@@ -298,11 +298,11 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Research competitor positioning and messaging specific to this segment
    - *Do this:* Feed findings into the segment-specific battlecards built next
 
-7. **Competitive Battlecard Framework** (`Category 3`)
+7. **Competitive Battlecard Framework** (`Category 9`)
    - *Why:* Build the one-page field tool for each named competitor sales meets in this segment
    - *Do this:* Role-play the card with reps before it goes live in the segment's deals
 
-8. **Buyer's Journey Content Map** (`Category 5`)
+8. **Buyer's Journey Content Map** (`Category 9`)
    - *Why:* Confirm content exists for this segment at every stage (awareness, consideration, decision, post-sale), not just the stages already built for other segments
    - *Do this:* Audit the existing library against the segment's buying journey before briefing new collateral, so production targets the stages that are actually empty
 

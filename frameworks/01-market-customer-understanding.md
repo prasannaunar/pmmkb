@@ -2,6 +2,8 @@
 
 ## Segmentation–Targeting–Positioning (STP) Framework
 
+**Type:** Framework.
+
 **What it is:** A three-step strategic framework that first divides the overall market into distinct customer segments (Segmentation), then selects the most attractive segments to pursue (Targeting), and finally defines how your product will be perceived within those chosen segments (Positioning). STP is foundational; it underpins all downstream messaging, pricing, and go-to-market decisions. Skip a step and every step after it inherits the gap. Positioning built on a poorly defined segment will always read as generic, however well it is written, because it is trying to speak to everyone at once. The framework works because it enforces sequence: you cannot credibly position a product until you know who it is for, and you cannot know who it is for until you have divided the market into groups that behave differently enough to deserve different treatment.
 
 **When to use it:** Use STP at the start of any product marketing effort, when entering a new market or segment, or when sales plateaus suggest your current positioning no longer resonates. It answers three questions: "Who is our customer? Why them? What do we stand for in their eyes?" Apply it in these specific situations:
@@ -32,6 +34,8 @@
 ---
 
 ## Complete Product Experience Framework
+
+**Type:** Framework.
 
 **What it is:** A seven-touchpoint model that ensures your positioning is reinforced consistently across every customer interaction: Marketing, Sales, Product/Features, Technology, Supporting Systems, Third-party Integrations, and Support. The framework recognises that positioning isn't just messaging; it's the sum of how customers experience your company at every stage. A claim repeated confidently in every marketing asset still fails the moment a customer meets a product, sales process, or support queue that contradicts it. The value of the framework is diagnostic: it gives you seven specific places to look when you sense that "what we say" and "what customers feel" have drifted apart, rather than leaving that instinct vague and undiagnosed.
 
@@ -65,6 +69,8 @@ You will know the audit has done its job when the gaps you identify are specific
 ---
 
 ## Product Development Stage Framework
+
+**Type:** Framework.
 
 **What it is:** A process-oriented framework that guides product marketers through key activities during different phases of product development: ideation, prototype, beta, launch, and maturity. It defines PMM's role at each stage (research, validation, messaging, enablement) and ensures market insights inform product decisions before launch, rather than after the product has already been built around untested assumptions. The framework's core insight is timing: the value of product marketing input is highest early, when direction can still change cheaply, and lowest at launch, when most of the expensive decisions have already been locked in.
 

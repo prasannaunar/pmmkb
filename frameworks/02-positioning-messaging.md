@@ -2,6 +2,8 @@
 
 ## Geoffrey Moore's Positioning Statement Framework
 
+**Type:** Framework.
+
 **What it is:** A structured template designed to clearly articulate a product's or company's market position by defining six core elements: target customer, their specific need or opportunity, product category, primary benefit, main competitive alternative, and key differentiation. Originating from Moore's 1991 book *Crossing the Chasm*, it provides a concise, focused way to communicate unique value to a specific audience. The template forces discipline: because it must be completed as a single, tightly worded paragraph, it is very hard to hide behind vague claims or unresolved internal debates about who the product is actually for. Although it originated in enterprise technology marketing, the format has since spread well beyond software; consumer brands, professional services firms and even non-profits use variations of it to force the same discipline before spending money on campaigns.
 
 The standard template structure is:
@@ -57,6 +59,8 @@ This 1962 tagline, developed decades before Moore's book, is often cited as an e
 
 ## April Dunford's 5-Component Positioning Canvas
 
+**Type:** Framework.
+
 **What it is:** A visual positioning framework that breaks down market positioning into five components: The Competitive Set (who are your alternatives?), Your Unique Attributes (what makes you different?), The Relative Weighting (what matters most to customers?), The Market Segment (who cares about these differences?), and The Compelling Reason to Buy (why does your difference matter *now*?). Dunford's canvas helps PMMs move beyond feature lists to position products on what actually drives customer decisions. Unlike Moore's single-paragraph statement, the canvas is built as a working document: teams fill in each component with evidence and debate it openly, then compress the result into external-facing language only once every component is settled.
 
 **When to use it:**
@@ -102,6 +106,8 @@ Flowlist validated the compelling reason with eight target customers before roll
 ---
 
 ## Jobs-to-be-Done Positioning Framework
+
+**Type:** Framework.
 
 **What it is:** A positioning approach grounded in the idea that customers don't buy products: they hire products to get jobs done. Originated by innovation researcher Tony Ulwick and later popularised by Harvard Business School professor Clayton Christensen and strategist Bob Moesta, JTBD positioning focuses on the job (the outcome the customer wants to achieve), the context (the circumstances that trigger the need), and the competing solutions (including non-product alternatives). Instead of asking "who is our customer?", JTBD asks "what job are they trying to do?" The shift matters because customer segments, defined by firmographic or demographic profile, can change from year to year, while the underlying job a customer is trying to accomplish is often far more stable. This is why JTBD positioning tends to age better than persona-based positioning built purely on job titles or company size.
 
@@ -153,6 +159,8 @@ Within two quarters, trial-to-paid conversion rose from 11% to 17%, and win/loss
 ---
 
 ## Value Proposition Canvas
+
+**Type:** Framework.
 
 **What it is:** A framework co-created by Alexander Osterwalder that maps a product's value proposition against a specific customer segment's needs, pains, and gains. The canvas consists of two halves: the customer profile (what jobs, pains, and gains matter to them) and the value map (what features, pain relievers, and gain creators your product offers). Positioning emerges from the fit between what you offer and what the segment needs. Where Jobs-to-be-Done focuses on identifying the single job a customer is trying to accomplish, the Value Proposition Canvas goes a layer further: it maps every pain and gain attached to that job and checks, item by item, whether the product actually addresses each one, which makes it as useful an audit tool as it is a positioning tool.
 
