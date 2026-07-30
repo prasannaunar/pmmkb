@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 51 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 54 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -38,6 +38,7 @@ These frameworks establish the baseline for all downstream work:
 | **STP Framework** | None | All positioning frameworks | Identify and validate target market |
 | **Product Dev Stage** | None | Complete GTM Workflow | Align PMM work with product timeline |
 | **ICP Development Methodology** | STP (Targeting step) | Sales prospecting, lead scoring, ABM target lists | Operationalise the chosen segment into a weighted, CRM-scored account fit model |
+| **Sean Ellis 40% Test** | STP (segment to cut the survey by) | Product's growth-investment decision (product-owned); the segment's positioning and messaging (PMM's supporting role) | Benchmark product-market fit per segment against a 40% "Very disappointed" threshold before scaling growth spend |
 
 ### Positioning Frameworks (Apply Second)
 These build on STP to define what you stand for:
@@ -112,6 +113,8 @@ These coordinate and sequence all other frameworks:
 |-----------|---------------|-----------|---------|
 | **Quarterly PMM** | All above | Budget & resource allocation | Prioritise and sequence work |
 | **PMM Team Scaling** | Quarterly planning + results | Hiring plan | Grow team with business |
+| **Analyst Relations Tiering & Cadence Model** | None (an analyst universe to build and score) | Competitive Intelligence & Positioning Update Framework, Message Architecture (briefing kit content), Quarterly PMM Planning (resourcing the cadence) | Tier analysts by influence and run a minimum briefing cadence per tier, ahead of Magic Quadrant/Wave cycles |
+| **Pragmatic Institute Framework** | An existing enablement programme and a launched product/portfolio to audit | Sales Enablement Maturity Model (certification and channel-enablement inputs), Good-Better-Best Packaging Framework (pricing health review's usual output) | Score the narrowed Enablement and Business boxes only; the market, positioning, and launch boxes stay owned by the 10-Step PMM Process and PMM Lifecycle Management Framework |
 
 ### Pricing & Packaging Frameworks (Apply Alongside Go-to-Market)
 Added as Category 8 (2026-07-12 to 2026-07-23); these set and validate price once positioning and segments are defined:
@@ -165,6 +168,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 6. **Bowman's Clock** (validate price-value fit)
 6a. **Perceptual Map** (optional; check the new positioning against a second, buyer-chosen pair of attributes Bowman's Clock does not capture, to confirm the white space is real before committing collateral to it)
 7. **Win/Loss** (test with target segment)
+7a. **Sean Ellis 40% Test** (optional, once usage data exists in the new segment; benchmark product-market fit for the segment against the 40% threshold before further GTM investment scales; product owns the go/no-go, PMM cuts the result by segment and translates it into messaging)
 8. **7-Step PMM** (execute with new positioning)
 9. **Competitive Intelligence** (monitor competitor response)
 10. **Quarterly PMM** (measure impact)
@@ -181,6 +185,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 0a. **Category Design** (optional, run instead of steps 1–6 if win rate is capped by the market category itself, not competitive execution; only warranted when out-executing competitors inside the existing category would still leave a capped ceiling)
 1. **Win/Loss Analysis** (diagnose losses)
 2. **Competitive Intelligence** (understand competitor messaging)
+2a. **Analyst Relations Tiering & Cadence Model** (optional; if analyst reports are cited in these competitive deals, a standing tiered briefing cadence shapes the next report's placement more than a pre-deadline scramble)
 3. **Product Differentiation** (validate claimed differentiation)
 4. **Geoffrey Moore** or **April Dunford** (refine positioning)
 5. **Buyer's Journey Content Map** (confirm content exists at the specific stage deals are stalling, not just that a battlecard exists)
@@ -257,6 +262,8 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 ---
 
 ## Version History
+
+**2026-07-30 (tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md builds, completing that queue)**: **Analyst Relations Tiering & Cadence Model** and **Pragmatic Institute Framework** join the new Strategy & Planning Frameworks table entries (Analyst Relations: prerequisite none, an analyst universe to build and score; feeds the Competitive Intelligence & Positioning Update Framework, Message Architecture's briefing kit content, and Quarterly PMM Planning's resourcing. Pragmatic Institute: prerequisite an existing enablement programme and a launched product/portfolio to audit; feeds the Sales Enablement Maturity Model's certification inputs and Good-Better-Best Packaging's pricing health review). Analyst Relations Tiering & Cadence Model is now an optional step 2a of the Improving Win Rate scenario, run alongside Competitive Intelligence when analyst reports are cited in competitive deals (and BY-SITUATION.md's matching Competing Against Established Players situation, as step 1a); Pragmatic Institute Framework is noted against BY-SITUATION.md's Measuring PMM Impact & ROI situation as an optional step 4a, since this map's shorter scenario list has no dedicated PMM operating-model scenario. **Sean Ellis 40% Test** joins the Foundation Frameworks table (prerequisite: STP, to cut the survey by segment; feeds the product's growth-investment decision, which stays product-owned, and the segment's positioning and messaging, which is PMM's supporting role) and is now an optional step 7a of the Repositioning for New Segment scenario, run once usage data exists in the new segment (and BY-SITUATION.md's matching Entering a New Market or Segment situation, as step 10a). This completes all 12 FRAMEWORK-BACKLOG.md candidates; entry count updated 51 → 54.
 
 **2026-07-30 (seventh, eighth, and ninth FRAMEWORK-BACKLOG.md builds, next in rank order)**: **Launch Tier Framework** joins the Go-to-Market Frameworks table (prerequisite: none, a launch ready to be scheduled; feeds the 10-Step PMM Process's choice of lightweight or full sequence, Complete GTM Workflow Stages' phase count, and Quarterly PMM Planning's launch calendar) and is now step 0 of the New Product Launch scenario, run before the rest of the sequence to set the launch's lead time and resourcing. **Message Testing (Message-Market Fit)** joins the Positioning Frameworks table (prerequisite: draft copy from Message Architecture, the FAB Ladder, or StoryBrand SB7; feeds the version that ships and a logged result for the next test cycle) and is now an optional step 6d of the New Product Launch scenario, run after Message Architecture, the FAB Ladder, and StoryBrand SB7 to test the launch's headline copy against a verified buyer panel before it ships. **Forrester Customer Advocacy Model** joins the Activation & Adoption Frameworks table (prerequisite: NPS, as the source of Promoters; feeds case studies, sales reference calls, and Competitive Battlecard Framework proof points) and is added to BY-SITUATION.md's Building a Customer Advocacy Programme situation, run immediately after NPS to convert the Promoter list into a managed, tiered advocacy practice rather than an ad hoc one. Entry count updated 48 → 51.
 

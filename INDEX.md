@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-30 (built the seventh, eighth, and ninth FRAMEWORK-BACKLOG.md candidates, Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model; total 48 → 51 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-30 (built the tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md candidates, Analyst Relations Tiering & Cadence Model, Pragmatic Institute Framework, and the Sean Ellis 40% Test, completing that queue in full; total 51 → 54 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -14,6 +14,7 @@
 | Voice of the Customer (VoC) Programme | **Methodology.** Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
 | JTBD Switch Interview Method | **Methodology.** Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
 | ICP Development Methodology | **Methodology.** Operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals into a weighted, CRM-scored fit model; the layer beneath STP's Targeting step that ranks specific accounts rather than choosing a strategic segment |
+| Sean Ellis 40% Test (PMF Survey) | **Methodology.** Single-question survey ("How would you feel if you could no longer use this product?") that benchmarks product-market fit against a 40% "Very disappointed" threshold; product-owned, with PMM's role scoped to segment-level survey design and translating results into positioning |
 
 ---
 
@@ -87,13 +88,13 @@
 
 ## Category 7: Strategy & Planning
 
-✅ **STATUS: COMPLETE.** All frameworks written with full examples and pitfalls
-
 | Framework | Description |
 |-----------|-------------|
 | Quarterly PMM Planning Framework | Structured approach to defining PMM work for a quarter by translating business goals into PMM deliverables, allocating resources, prioritising by impact, and creating accountability |
 | Competitive Intelligence & Positioning Update Framework | Systematic process for monitoring competitors (monthly scans, quarterly deep dives) and updating positioning and messaging in response to competitive moves |
 | PMM Team Scaling Framework | Model for growing the PMM function from solo practitioner to specialised team as business scales, prioritising hires by business impact and defining role scope |
+| Analyst Relations Tiering & Cadence Model | **Methodology.** Segments industry analysts into Tier 1/2/3 by influence over buyer shortlists and runs a minimum quarterly-to-annual briefing cadence per tier, to build relationship equity ahead of Magic Quadrant/Wave cycles instead of scrambling once a year |
+| Pragmatic Institute Framework | **Model.** 37-box operating model narrowed here to its two non-duplicative box-groups, Enablement (certification and channel roll-out) and Business (post-launch revenue, margin, and pricing health checks), explicitly excluding the market and launch boxes the 10-Step PMM Process and PMM Lifecycle Management Framework already cover |
 
 ---
 
@@ -131,20 +132,20 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 51 (35 frameworks, 10 methodologies, 5 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
-- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; further candidates queued in FRAMEWORK-BACKLOG.md)
-- **Entries per Category:** 1–9
+- **Total entries:** 54 (35 frameworks, 12 methodologies, 6 models, 1 primer. The 10 pre-existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md queue now fully built as of 2026-07-30)
+- **Entries per Category:** 1–10
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
+✅ **Category 1 (Market & Customer Understanding):** 7 entries (`frameworks/01-market-customer-understanding.md`)
 ✅ **Category 2 (Positioning & Messaging):** 10 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 9 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 5 entries (`frameworks/06-product-experience-adoption.md`)
-✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
+✅ **Category 7 (Strategy & Planning):** 5 entries (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Category 9 (Sales Enablement):** 2 entries (`frameworks/09-sales-enablement.md`); plus 2 related entries filed in Category 3 and Category 5 (see Category 9 note above)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
@@ -154,6 +155,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] BY-SITUATION cross-reference index (see [BY-SITUATION.md](BY-SITUATION.md), 10 situations mapped)
 - [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
 - [x] Enrich the KB with further frameworks and methodologies (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; all 19 candidates built as of 2026-07-28)
+- [x] Build the remaining FRAMEWORK-BACKLOG.md candidates (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); all 12 candidates built as of 2026-07-30)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Build the remaining 3 FRAMEWORK-BACKLOG.md candidates and add a Type column to these tables (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model built 2026-07-30)
+- [ ] Add a Type column to the navigation tables above and backfill `**Type:**` on the original 26 entries (ENRICHMENT-PLAN.md B2/B5)
