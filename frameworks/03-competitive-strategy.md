@@ -2,6 +2,8 @@
 
 ## Bowman's Strategic Clock
 
+**Type:** Framework.
+
 **What it is:** A strategic positioning model that maps out eight different competitive strategies based on two dimensions: the price customers pay and the value they perceive in your product. Developed by Cliff Bowman and David Faulkner in 1996, it extends Porter's three generic strategies to show companies exactly where they sit in their market and where they should move to compete more effectively. The clock's central idea is that price and perceived value must be managed together, not separately; a product priced above the value customers perceive will lose share no matter how good the underlying engineering is, and a product priced well below its perceived value is simply leaving margin on the table.
 
 **When to use it:** Use this when you're setting overall competitive strategy, pricing, and positioning for a market or customer segment. It answers: "What's our defensible competitive advantage?" and "How does our price-to-value ratio compare to rivals?" Apply it when entering a new segment, repositioning an existing product, or rationalising a product portfolio that's drifting between incompatible strategies. Quarterly portfolio reviews or moments when sales stalls are common triggers, as are pricing renegotiations that reveal customers no longer see the value they once did.
@@ -30,6 +32,8 @@
 
 ## Product Differentiation Strategy Framework
 
+**Type:** Framework.
+
 **What it is:** A structured approach to identifying what makes your product uniquely valuable and then embedding that distinctiveness into every part of how you build, position, and sell it. Rather than competing mainly on price, differentiation shifts competition toward features, quality, brand, experience, or ecosystem that customers value enough to pay a premium or stay loyal for. The framework treats differentiation as an operational commitment rather than a marketing slogan; a differentiator that only appears in the messaging and nowhere in the product roadmap, pricing, or sales process will not survive contact with a competitor's counter-pitch.
 
 **When to use it:** Employ this when you need to stand out in a crowded market, boost margins, or reduce price sensitivity. It's essential during a new product launch, when a segment becomes commoditised, or when your product is losing to lower-cost competitors on features that customers do not actually prioritise. Reach for it when defining go-to-market strategy, building a value proposition, or architecting a product portfolio (for example, good-better-best tiers), and revisit it whenever a competitor's move starts pulling your win rate down in deals you previously expected to win.
@@ -54,42 +58,6 @@ It is also the right tool whenever a sales team reports that deals are increasin
 - **Choosing a differentiator competitors can copy within a quarter.** Teams sometimes pick a differentiator that is meaningful and unique today but has no real defensibility, such as a single integration or a pricing gimmick, and are surprised when a competitor matches it within a release cycle. Recovery: run the MUD scoring exercise again with defensibility weighted more heavily, and pair any imitable differentiator with a second, harder-to-copy one (deep technical integration, proprietary data, or an accumulating brand asset) so the strategy does not collapse the moment one competitor responds.
 
 **See also:** Bowman's Strategic Clock (map your differentiation to a defensible position on the price-value spectrum); April Dunford's 5-Component Positioning Canvas (weight your differentiated attributes by customer importance); Win/Loss Analysis Framework (validate whether your claimed differentiation actually drives customer decisions).
-
----
-
-## Competitive Battlecard Framework
-
-**Type:** Framework.
-
-**What it is:** A standard one-page structure that gives a sales rep everything they need to win a competitive deal in the middle of a live conversation: the competitor's likely pitch, your counter-position, objection responses, landmines to plant early, and the proof points that back each claim. A battlecard is not a research document; it is a field tool, built to be read in ninety seconds between a discovery call and a demo, that turns the slower, deeper work of the Competitive Intelligence & Positioning Update Framework into something a rep can act on live. Where competitive intelligence answers "what is the competitor doing and how should our positioning respond?", the battlecard is the artefact that carries the answer into the deal itself, structured so that any rep, not just the ones who read every competitor blog post, can hold their own against a well-briefed prospect.
-
-**When to use it:**
-- Sales reports losing deals to a specific named competitor and cannot explain, deal by deal, why.
-- A new competitor enters the market or an existing one repositions, and the sales team's mental model of them is now out of date.
-- Win/loss interviews surface a recurring objection ("Competitor X is cheaper", "Competitor X already has feature Y") that reps are answering inconsistently or not at all.
-- You are onboarding new sales hires and need a fast way to bring them up to competitive speed without a several-week ramp.
-- A significant competitor pricing change, feature launch, or funding round shifts how a deal is likely to be contested.
-- Sales enablement audits (10-Step PMM Process, Step 7) flag that competitive collateral is missing, stale, or inconsistent across the team.
-
-**How to apply it:**
-1. **Choose the competitor and confirm it is worth a card.** Build a battlecard only for competitors you actually face in live deals with enough frequency to matter (a reasonable bar is 10+ competitive deals a quarter); a card for a competitor sales rarely meets is wasted effort and one more document nobody trusts.
-2. **Gather their pitch, not your assumption of it.** Watch a demo if you can get one, read their website and pricing page, pull their capture from recent lost-deal notes, and ask reps what the prospect actually repeated back after meeting them. Write their pitch in their words, not a strawman version that makes them easy to beat on paper but fails the moment a well-prepared prospect quotes them accurately.
-3. **Build the counter-position.** For each of their headline claims, write the specific, evidenced response: not "we're better", but the mechanism and the proof. If they lead on price, the counter is not "we're worth it" but the total-cost-of-ownership comparison that shows why.
-4. **Plant landmines.** Identify one or two questions a rep can ask early in a deal, before the competitor is in the room, that expose the competitor's known weakness without ever naming them: "How does your current process handle multi-region compliance?" is a landmine if you know the competitor's product does not.
-5. **Write objection responses verbatim.** For the three to five objections reps hear most often about this competitor, write the exact sentence a rep should say, not a bullet of talking points; reps under pressure in a live call read scripts far better than they improvise from a list of themes.
-6. **Attach proof points to every claim.** A counter-position without a named customer outcome, a benchmark, or a third-party validation is an assertion, and prospects increasingly ask for evidence live in the call. Pull proof from Win/Loss Analysis and named references, refreshed each quarter.
-7. **Keep it to one page.** A battlecard a rep will not read in the ninety seconds before a call is not a battlecard; ruthlessly cut anything that is not immediately actionable in a live conversation, and push deeper research into a linked appendix instead.
-8. **Train and pressure-test with sales.** Run the card through a live role-play with two or three reps playing the prospect and pushing back; revise language that does not survive contact with a sceptical objection before it goes company-wide.
-9. **Version, distribute, and refresh.** Store the card in the tool reps already use (CRM opportunity view, enablement platform, wherever they actually look mid-deal), owned by one PMM, and refresh it on a fixed cadence and whenever a competitor materially changes their product, pricing, or pitch.
-
-**Example:** Fictional B2B payments platform Ledgerbeam was losing 60% of competitive deals against Instaflow, a better-funded rival two years its senior, and reps could not agree on why: some said price, some said brand, some blamed a missing feature. PMM pulled 22 lost-deal notes and interviewed six reps and four recently lost prospects directly. The pattern: Instaflow's sales team consistently led with "we integrate natively with NetSuite", a claim Ledgerbeam reps had no rehearsed answer to, so the conversation stalled there in roughly half of contested deals. PMM built a one-page battlecard: Instaflow's pitch section named the NetSuite claim explicitly rather than avoiding it; the counter-position showed Ledgerbeam's integration took 3 days to configure against Instaflow's own documented 6-week implementation average, sourced from two of Instaflow's own public case studies; a landmine question ("How long did your NetSuite rollout actually take, end to end?") was placed early in the discovery script; and three named customers who had switched from Instaflow specifically over implementation time were listed as proof, with contact details for reference calls. The card was role-played with the eight-person sales team over one session, then loaded into the CRM opportunity view for any deal tagged "Instaflow" as the competitor. Within one quarter, competitive win rate against Instaflow rose from 40% to 58%, average sales cycle in Instaflow-contested deals shortened from 61 to 44 days, and the reference-call request rate (a proxy for reps actually using the card's proof points) reached 70% of contested deals, the three metrics PMM had set at the outset to judge whether the card was actually being used rather than just filed away.
-
-**Pitfalls:**
-- **Writing the competitor's pitch as a strawman.** Cards that make the competitor sound obviously worse than they are collapse the first time a well-prepared prospect repeats the competitor's real pitch accurately, and reps lose trust in the whole card. Recovery: rebuild the competitor's pitch section from a real demo recording or transcript, not from memory or internal bias, and have someone outside the deal review it for fairness before publishing.
-- **Building a research report instead of a field tool.** A five-page card with market analysis and SWOT tables does not get read in the ninety seconds before a call, so reps default to improvising instead. Recovery: cut the card to one page of immediately usable material and move any deeper analysis into a linked appendix that exists for onboarding, not live deals.
-- **Publishing once and letting it go stale.** A competitor's pricing, features, and messaging move faster than most PMM teams update their cards, so a battlecard six months old can actively mislead a rep into repeating a claim the competitor has already invalidated. Recovery: assign one owner, put a refresh date on every card, and treat a competitor funding round, feature launch, or pricing change as an explicit trigger to update within two weeks, not the next scheduled quarterly review.
-
-**See also:** Competitive Intelligence & Positioning Update Framework (the ongoing monitoring that feeds new information into the battlecard); Bowman's Strategic Clock (understand the price-value position the competitor actually occupies before writing the counter); Product Differentiation Strategy Framework (source the differentiators the battlecard's counter-position leans on); Win/Loss Analysis Framework (validate which claims and proof points actually moved contested deals).
 
 ---
 

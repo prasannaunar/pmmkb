@@ -2,6 +2,8 @@
 
 ## Quarterly PMM Planning Framework
 
+**Type:** Framework.
+
 **What it is:** A structured approach to defining PMM work for a quarter: setting goals (positioning, messaging, content, campaigns), allocating resources, prioritising by business impact, and creating accountability across the team. It connects broad business goals (grow revenue, enter new market) to specific PMM deliverables and success metrics.
 
 **When to use it:**
@@ -53,6 +55,8 @@ B2B SaaS company Q2 goals:
 
 ## Competitive Intelligence & Positioning Update Framework
 
+**Type:** Methodology.
+
 **What it is:** A systematic process for monitoring competitors, gathering market intelligence, and updating your positioning and messaging in response to competitive moves. Unlike one-time competitive analysis, this framework treats competitive strategy as an ongoing discipline: monthly scans for competitive moves, quarterly deep dives, and annual refreshes of positioning.
 
 **When to use it:**
@@ -61,7 +65,7 @@ B2B SaaS company Q2 goals:
 - When a competitor makes a significant move (new funding, acquisition, product launch, aggressive pricing)
 - Before sales kickoffs, product launches, and pricing discussions
 
-**How to apply it:**
+**How to run it:**
 1. **Define Competitive Set:** Identify 4 to 6 direct competitors and 3 to 5 adjacent or indirect competitors, including the status quo (spreadsheets, manual processes, or "do nothing") where relevant. Tier them: Tier 1 competitors show up in most deals and warrant the deepest tracking; Tier 2 are emerging or niche threats worth a lighter monthly glance. Revisit the tiering every two quarters, since a Tier 2 competitor that raises a large funding round can become Tier 1 within months.
 2. **Monthly Scan:** Cover five sources every month and log findings in a shared tracker with the date, source, and a one-line "so what" for each item.
    - Website and pricing changes: new features, new messaging or positioning, changes to target customer or named use cases.
@@ -78,6 +82,8 @@ B2B SaaS company Q2 goals:
 4. **Update Positioning:** If a competitor has moved upmarket, downmarket, or shifted messaging, test whether your positioning still differentiates. Run the update through the same rigour as a fresh positioning exercise: validate the new angle with at least two or three customer conversations before rolling it out broadly.
 5. **Communicate Changes:** Brief sales, product, and executives on competitive shifts and new messaging angles within a week of the quarterly deep dive, while the intelligence is still fresh. Update sales playbooks and battlecards, and confirm with a sample of the sales team that they have actually read and understood the changes, not just received an email about them.
 6. **Annual Review:** Step back and assess whether competitive dynamics have fundamentally shifted. Do you need a major positioning refresh? Is the competitive set still relevant, or has a category shift (new entrants, consolidation, a substitute technology) made parts of it obsolete? Treat this as a standalone strategic session, not an extension of the Q4 quarterly deep dive.
+
+**Cadence & ownership:** PMM owns the monitoring, the quarterly deep dive, and the resulting positioning updates; sales contributes deal-level competitive signal, and executives are briefed on any resulting messaging change. Monthly scans (step 2) are the lightweight standing cadence; the quarterly deep dive (step 3) is the substantive review; the annual review (step 6) is a standalone strategic session, not an extension of the Q4 quarterly cycle. Treat a significant competitor move, funding round, acquisition, or aggressive pricing change as an explicit trigger for an off-cycle response within the five-business-day window named in this framework's own success metrics, rather than waiting for the next scheduled scan.
 
 **Example:**
 
@@ -112,6 +118,8 @@ Project management SaaS Quarterly Competitive Review (Q2):
 ---
 
 ## PMM Team Scaling Framework
+
+**Type:** Framework.
 
 **What it is:** A model for growing the PMM function as the business scales, from a solo practitioner (one person doing everything) to a specialised team (product marketers by segment or product line, plus supporting roles for content, sales enablement, and competitive intelligence). The framework prevents the common trap of adding headcount without clarity on role, scope, or success metrics.
 

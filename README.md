@@ -30,16 +30,16 @@ This knowledge base contains 54 proven product marketing entries (35 frameworks,
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 7 | `frameworks/01-market-customer-understanding.md` |
 | 2 | Positioning & Messaging | 10 | `frameworks/02-positioning-messaging.md` |
-| 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy.md` |
+| 3 | Competitive Strategy | 4 | `frameworks/03-competitive-strategy.md` |
 | 4 | Go-to-Market & Launch | 9 | `frameworks/04-go-to-market-launch.md` |
-| 5 | Lifecycle & Workflow | 4 | `frameworks/05-lifecycle-workflow.md` |
+| 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 5 | `frameworks/06-product-experience-adoption.md` |
 | 7 | Strategy & Planning | 5 | `frameworks/07-strategy-planning.md` |
 | 8 | Pricing & Packaging | 6 | `frameworks/08-pricing-packaging.md` |
-| 9 | Sales Enablement | 2 | `frameworks/09-sales-enablement.md` |
+| 9 | Sales Enablement | 4 | `frameworks/09-sales-enablement.md` |
 | — | Concepts (primers; not applyable, so not a workflow category) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 
-See [INDEX.md](INDEX.md) for the full taxonomy with descriptions. All 12 candidates from the 2026-07-09 gap analysis in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) are now built.
+See [INDEX.md](INDEX.md) for the full taxonomy, now with a dedicated Type column on every table. All 12 candidates from the 2026-07-09 gap analysis in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) are now built.
 
 ---
 
@@ -62,7 +62,7 @@ See [INDEX.md](INDEX.md) for the full taxonomy with descriptions. All 12 candida
 
 **If you're a...**
 - **Positioning PMM:** Start with Category 2 (Positioning & Messaging); then Category 1 (Market Understanding) for foundational work
-- **Sales Enablement PMM:** Start with Category 9 (Sales Enablement) to diagnose your function's maturity; then Category 4 (Go-to-Market & Launch) and Category 3 (Competitive Strategy) for battle cards
+- **Sales Enablement PMM:** Start with Category 9 (Sales Enablement) for maturity diagnosis, battlecards, and the buyer's-journey content audit; then Category 4 (Go-to-Market & Launch) for the wider launch enablement sequence
 - **Segment PMM:** Start with Category 1 (Market Understanding); then Category 2 (Positioning) for segment-specific work
 - **Product PMM:** Start with Category 5 (Lifecycle & Workflow); then Category 6 (Product Experience & Adoption)
 - **Strategy / Planning:** Start with Category 7 (Strategy & Planning); use frameworks to structure quarterly work
@@ -173,10 +173,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **MEDDIC/MEDDPICC Added to Category 9 and Category Design Added to Category 3 (fifth and sixth FRAMEWORK-BACKLOG.md builds, next in rank order):** 2026-07-29
 - **Launch Tier Framework Added to Category 4, Message Testing (Message-Market Fit) Added to Category 2, and Forrester Customer Advocacy Model Added to Category 6 (seventh, eighth, and ninth FRAMEWORK-BACKLOG.md builds, next in rank order):** 2026-07-30
 - **Analyst Relations Tiering & Cadence Model Added to Category 7, Pragmatic Institute Framework Added to Category 7, and Sean Ellis 40% Test Added to Category 1 (tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md builds, completing that queue in full):** 2026-07-30
+- **Housekeeping pass (Type backfill on all 26 pre-existing entries with a Type column added to every INDEX.md table; Competitive Battlecard Framework and Buyer's Journey Content Map consolidated into Category 9; full web-verification pass on entries added since 2026-04-09):** 2026-07-30
 - **Last Updated:** 2026-07-30
 - **Total entries:** 54 (35 frameworks, 12 methodologies, 6 models, 1 primer, all cross-linked; the twenty-eight entries added 2026-07-21 to 2026-07-30 still need a source-validation pass); both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are now fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology; Sean Ellis 40% Test); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit)); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `frameworks/07-strategy-planning.md` (Analyst Relations Tiering & Cadence Model; Pragmatic Institute Framework); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model, new Category 9; MEDDIC/MEDDPICC)
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built; next phase is quick-reference cards, GLOSSARY.md, and public release readiness (see [PROGRESS.md](PROGRESS.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology; Sean Ellis 40% Test); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit)); `frameworks/03-competitive-strategy.md` (Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `frameworks/07-strategy-planning.md` (Analyst Relations Tiering & Cadence Model; Pragmatic Institute Framework); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model; MEDDIC/MEDDPICC; Competitive Battlecard Framework and Buyer's Journey Content Map, consolidated here 2026-07-30 from Category 3 and Category 5 respectively)
+- **Status:** Content complete and quality-assured; both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built, and the housekeeping deferred from those builds (Type backfill, Category 9 consolidation, attribution verification) is complete as of 2026-07-30; operational integration in progress (see [PLAN.md](PLAN.md)); next phase is quick-reference cards, GLOSSARY.md, and public release readiness (see [PROGRESS.md](PROGRESS.md))
 
 ---
 

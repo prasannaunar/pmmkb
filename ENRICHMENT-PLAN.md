@@ -254,9 +254,11 @@ Introduce four content types and define them once, in CLAUDE.md and the (still t
 
 This vocabulary is the backbone of every other change below.
 
-## B2. Declare a type on every entry
+## B2. Declare a type on every entry ✅ Done (2026-07-30)
 
 Add a `**Type:**` line to the top of each entry, directly under the H2 title and above "What it is". Backfill the existing 26 entries. Most are Frameworks; the following are more accurately Methodologies and should be re-tagged (not moved): 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, GTM Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3. Retagging is a labelling change only; nothing moves category.
+
+**Done as:** all 26 backfilled 2026-07-30; the 16 non-listed entries confirmed Framework, and the 10 listed above fully restructured to the Methodology section template (not just relabelled), since a label without matching section headers would leave them failing CLAUDE.md's own Quality Gate for their declared type.
 
 ## B3. A methodology section template (alongside the framework one)
 
@@ -278,12 +280,14 @@ Word-count guidance (1000-1500 words) still applies to Frameworks, Methodologies
 
 Primers are the exception: they are not applyable and do not belong in a workflow category. Give them a `concepts/` directory (or a single CONCEPTS.md) so readers do not expect a "How to apply it".
 
-## B5. Update navigation language and counts
+## B5. Update navigation language and counts ✅ Done (2026-07-30)
 
 The repository says "26 frameworks" in README.md, INDEX.md, FRAMEWORK-MAP.md, and PROGRESS.md. As mixed content arrives:
 - Change the headline from "26 frameworks" to "26 entries" or "frameworks and methodologies", and report a per-type breakdown (e.g., "24 frameworks, 8 methodologies, 3 models, 2 primers").
 - Add a **Type** column to the INDEX.md category tables and the README.md summary table.
 - This KB has already suffered one count-drift error (22 vs 26, corrected 2026-07-19). Mixed types raise that risk, so B6 makes counting a checklist step.
+
+**Done as:** the headline breakdown language was already in place from each build since 2026-07-21; the dedicated Type column was added to every INDEX.md category table 2026-07-30, replacing the inline `**Type.**` prefix used as an interim measure since that date.
 
 ## B6. A cross-doc consistency checklist
 
@@ -316,4 +320,4 @@ Once methodologies are an accepted part of the KB, `FRAMEWORK-BACKLOG.md` and th
 
 All 19 candidates named in Part A are built as of 2026-07-28: A11 Message Architecture, A6 Voice of the Customer Programme, A17 Competitive Battlecard Framework, A9 Dunford's 10-Step Positioning Process, A5 the GTM vs PMM primer, A1 the GTM Motion Model, A2 Product-Led Growth, A7 the JTBD Switch Interview Method, A14 Conjoint Analysis, A18 the Buyer's Journey Content Map, A3 the ICP Development Methodology, A8 the Kano Model, A13 Command of the Message, A4 the Bullseye Framework, A10 the Perceptual Map, A12 the Features-Advantages-Benefits (FAB) Ladder, A15 the Gabor-Granger Method, A16 the Usage-Based (Consumption) Pricing Model, and A19 the Sales Enablement Maturity Model, which stood up the new Category 9. Part B's documentation plan (the four-type vocabulary, per-type templates, the cross-doc consistency checklist) is folded into CLAUDE.md and has been applied to every build in this plan.
 
-Two items remain open for a future session, tracked in PROGRESS.md rather than here: the `**Type:**` backfill on the original 26 entries (Part B's B2), and a source-validation pass on the entries added since 2026-07-21. For further framework candidates, see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md), which has its own separate, still-open queue from the 2026-07-09 gap analysis.
+**Update (2026-07-30):** Both items that were open for a future session are now complete. The `**Type:**` backfill on the original 26 entries (Part B's B2) is done: 16 were confirmed Framework and 10 were retagged Methodology (10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3), each restructured to the Methodology section template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). B5's Type column was also added to every INDEX.md table. A source-validation pass ran across all entries added since 2026-04-09 (three parallel research passes; no outright factual errors found, four precision refinements applied; see PROGRESS.md for the full findings). [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)'s own queue, separate from this plan, is also now fully built as of 2026-07-30.
