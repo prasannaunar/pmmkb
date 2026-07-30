@@ -132,6 +132,10 @@ Map your current challenge to the frameworks that will help you solve it.
     - *Why:* After initial launch, analyse deals to understand why you're winning or losing
     - *Do this after 3–6 months:* Iterate positioning based on real market feedback
 
+10a. **Sean Ellis 40% Test** (`Category 1`); *optional, run once usage data exists in the new segment*
+   - *Why:* Before committing further growth spend to the new segment, get a standardised read on whether it has found real product-market fit, not just an encouraging early win rate; product owns the go/no-go call, PMM's role is cutting the result by segment and translating it into messaging
+   - *Do this after step 10, once 30–40 active users in the new segment exist:* Segment the result against the STP segment from step 2, rather than reading only the blended company-wide score
+
 **Success Metrics:**
 - Discovery interviews show 70%+ agreement on core pain ✓
 - Positioning validated with 10+ target prospects (80%+ resonance) ✓
@@ -153,6 +157,10 @@ Map your current challenge to the frameworks that will help you solve it.
 1. **Competitive Intelligence & Positioning Update Framework** (`Category 7`)
    - *Why:* Map exactly what the incumbents own and where white space exists
    - *Do this first:* Understand competitor positioning, messaging, pricing, and customer perception
+
+1a. **Analyst Relations Tiering & Cadence Model** (`Category 7`); *optional, if analyst reports are cited in these competitive deals*
+   - *Why:* If prospects or sales cite a Magic Quadrant, Wave, or market-landscape report when comparing you to the incumbents, a standing, tiered analyst briefing cadence shapes the next report's placement far more than a scramble before the next submission deadline
+   - *Do this alongside step 1:* Tier the analysts covering your category and set the minimum briefing cadence before the next report cycle locks in
 
 2. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Plot your position and theirs on the price-value map; identify white space
@@ -178,7 +186,7 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Test positioning that makes competitors irrelevant or positions them as the status quo
    - *Do this:* Validate that your differentiation strategy resonates
 
-7. **Competitive Battlecard Framework** (`Category 3`)
+7. **Competitive Battlecard Framework** (`Category 9`)
    - *Why:* Turn the differentiation and positioning above into a one-page field tool sales can use live in a deal against the named incumbent
    - *Do this:* Build the card around the incumbent's actual pitch, not an assumption of it, and role-play it with reps before rollout
 
@@ -290,11 +298,11 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Research competitor positioning and messaging specific to this segment
    - *Do this:* Feed findings into the segment-specific battlecards built next
 
-7. **Competitive Battlecard Framework** (`Category 3`)
+7. **Competitive Battlecard Framework** (`Category 9`)
    - *Why:* Build the one-page field tool for each named competitor sales meets in this segment
    - *Do this:* Role-play the card with reps before it goes live in the segment's deals
 
-8. **Buyer's Journey Content Map** (`Category 5`)
+8. **Buyer's Journey Content Map** (`Category 9`)
    - *Why:* Confirm content exists for this segment at every stage (awareness, consideration, decision, post-sale), not just the stages already built for other segments
    - *Do this:* Audit the existing library against the segment's buying journey before briefing new collateral, so production targets the stages that are actually empty
 
@@ -516,6 +524,10 @@ Map your current challenge to the frameworks that will help you solve it.
 4. **PMM Lifecycle Management Framework** (`Category 5`)
    - *Why:* Track PMM impact across awareness, consideration, purchase, adoption, expansion
    - *Do this:* Measure how PMM content and messaging affect each stage
+
+4a. **Pragmatic Institute Framework** (`Category 7`); *optional, for a post-launch commercial health check*
+   - *Why:* Beyond win rate and sales cycle, confirm a product or portfolio's revenue and margin still track the original business case, and that a pricing health review is happening on a standing cadence rather than only when someone opens an ad hoc pricing project
+   - *Do this alongside step 2:* Score the Business boxes (revenue-versus-business-case, pricing health) and the Enablement boxes (certification, channel roll-out) as a scorecard, not a one-off audit
 
 **Success Metrics:**
 - Win rate tracked and trending up (e.g., +10 points YoY) ✓
