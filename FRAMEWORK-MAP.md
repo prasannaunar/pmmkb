@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 48 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 51 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -54,6 +54,7 @@ These build on STP to define what you stand for:
 | **Command of the Message** | Message Architecture (Messaging House) | Live sales conversations, sales enablement training, Competitive Battlecard Framework | Adapts the messaging house's core message and pillars into a value-selling structure a rep runs live, built around required capabilities, a named competitor, and quantified business value |
 | **Features-Advantages-Benefits (FAB) Ladder** | A feature to translate; ideally a Message Architecture pillar it feeds | Message Architecture proof points, release notes, demo scripts, Command of the Message's quantified value cases | Turns one raw feature into a buyer-tested benefit statement, one level below the messaging house |
 | **StoryBrand SB7 Framework** | A validated positioning statement (Geoffrey Moore or April Dunford) to draw the Character and Problem from | Homepage and landing-page copy, founder narratives, video scripts, demo scripts | Casts the customer as the hero and the brand as the guide; the narrative arc a single asset is drafted against, complementing Message Architecture's hierarchy of claims |
+| **Message Testing (Message-Market Fit)** | Draft copy from Message Architecture, the FAB Ladder, or StoryBrand SB7 | The version that ships; a logged result for the next test cycle | Tests draft messaging against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, rather than shipping on internal preference |
 
 ### Competitive Frameworks (Apply Third)
 These validate positioning against competition:
@@ -74,6 +75,7 @@ These sequence and execute GTM using positioning:
 | **GTM Motion Model** | STP (target segment identified) | 3/7/10-Step PMM, Complete GTM, Product-Led Growth | Select which acquisition motion (self-serve, PLG, inside sales, field sales, partner-channel) the launch is built for, before sequencing it |
 | **Product-Led Growth** | GTM Motion Model selects self-serve or PLG | Feature Adoption, Onboarding Maturity | Run the PLG motion: activation moment, product-qualified lead signals, in-product upgrade paths |
 | **Bullseye Framework** | GTM Motion Model (motion chosen) + STP (target segment) | Complete GTM Workflow Phase 2, Quarterly PMM Planning | Select the single acquisition channel to concentrate budget on, inside the motion already chosen, by cheaply testing several candidates before committing |
+| **Launch Tier Framework** | None (a launch ready to be scheduled on the quarterly calendar) | 10-Step PMM Process (which lightweight or full version applies), Complete GTM Workflow Stages (how many phases run), Quarterly PMM Planning (launch calendar and resourcing) | Classifies a launch into Tier 1, 2, or 3 by revenue impact, cross-functional dependency, external visibility, and customer-facing change, so process and lead time match its actual scope |
 | **3-Step PMM** | Positioning | 7-Step PMM | Early-stage simplicity |
 | **7-Step PMM** | Positioning | 10-Step PMM | Mid-stage structure |
 | **10-Step PMM** | Positioning | Quarterly Planning | Large-team operationalisation |
@@ -90,6 +92,7 @@ These drive customer adoption post-launch:
 | **Feature Adoption** | PMM Lifecycle | NPS | Drive internal product adoption |
 | **Onboarding Maturity** | Positioning | Retention metrics | Accelerate time-to-value |
 | **Buyer's Journey Content Map** | PMM Lifecycle + Win/Loss | Sales enablement, Competitive Battlecard Framework | Audit content against buyer stages and prioritise gaps by revenue impact |
+| **Forrester Customer Advocacy Model** | NPS (source of Promoters) | Case studies, sales reference calls, Competitive Battlecard Framework proof points | Builds a proactive advocacy practice (Reactive → Identified → Programmatic → Embedded) instead of chasing the same few accounts for every reference |
 
 ### Measurement & Optimisation Frameworks (Apply Throughout)
 These provide feedback loops to refine all prior work:
@@ -135,6 +138,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 ## Common Workflow Sequences
 
 ### Scenario 1: New Product Launch
+0. **Launch Tier Framework** (classify the launch as Tier 1, 2, or 3 before committing a lead time or resourcing plan to the rest of this sequence)
 1. **Product Dev Stage** (align PMM timeline)
 2. **STP** (validate market/segment)
 3. **GTM Motion Model** (select which acquisition motion, self-serve, PLG, inside sales, field sales, or partner-channel, this launch is built for; if it selects self-serve or PLG, run **Product-Led Growth** alongside steps 4 onward to build the activation and upgrade-path work the motion depends on)
@@ -145,6 +149,7 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 6a. **Bullseye Framework** (optional; brainstorm and cheaply test candidate acquisition channels within the motion selected in step 3, so Complete GTM Workflow's Phase 2 channel validation starts from a shortlist rather than a guess)
 6b. **Features-Advantages-Benefits (FAB) Ladder** (optional; translate the one or two features that map to a Message Architecture pillar into a tested benefit statement before the launch's headline proof points are locked)
 6c. **StoryBrand SB7 Framework** (optional; draft the launch homepage or founder narrative as a seven-part story arc drawing its Character and Problem from the positioning set in step 4, so the launch page reads as a story rather than a feature list)
+6d. **Message Testing (Message-Market Fit)** (optional, recommended for Tier 1 launches; test the headline or homepage copy produced in steps 6, 6b, and 6c against a verified target-buyer panel before it ships, rather than shipping on internal preference)
 7. **Complete GTM Workflow** (phases)
 8. **GTM Motion Framework** (coordinated launch execution within the motion selected in step 3)
 9. **Feature Adoption** (drive early usage)
@@ -252,6 +257,8 @@ Diagnoses the maturity of the enablement function itself, rather than producing 
 ---
 
 ## Version History
+
+**2026-07-30 (seventh, eighth, and ninth FRAMEWORK-BACKLOG.md builds, next in rank order)**: **Launch Tier Framework** joins the Go-to-Market Frameworks table (prerequisite: none, a launch ready to be scheduled; feeds the 10-Step PMM Process's choice of lightweight or full sequence, Complete GTM Workflow Stages' phase count, and Quarterly PMM Planning's launch calendar) and is now step 0 of the New Product Launch scenario, run before the rest of the sequence to set the launch's lead time and resourcing. **Message Testing (Message-Market Fit)** joins the Positioning Frameworks table (prerequisite: draft copy from Message Architecture, the FAB Ladder, or StoryBrand SB7; feeds the version that ships and a logged result for the next test cycle) and is now an optional step 6d of the New Product Launch scenario, run after Message Architecture, the FAB Ladder, and StoryBrand SB7 to test the launch's headline copy against a verified buyer panel before it ships. **Forrester Customer Advocacy Model** joins the Activation & Adoption Frameworks table (prerequisite: NPS, as the source of Promoters; feeds case studies, sales reference calls, and Competitive Battlecard Framework proof points) and is added to BY-SITUATION.md's Building a Customer Advocacy Programme situation, run immediately after NPS to convert the Promoter list into a managed, tiered advocacy practice rather than an ad hoc one. Entry count updated 48 → 51.
 
 **2026-07-29 (fifth and sixth FRAMEWORK-BACKLOG.md builds, next in rank order)**: **Category Design** joins the Competitive Frameworks table (prerequisite: STP plus evidence, from win/loss and Voice of the Customer signal, that the existing category caps the ceiling; feeds a new Point of View and Message Architecture's copy hierarchy) and is now an optional step 0a of the Improving Win Rate scenario, run instead of the standard competitive-execution steps only when out-executing competitors inside the existing category would not raise the ceiling. **MEDDIC/MEDDPICC** joins the new Sales Enablement table alongside the Sales Enablement Maturity Model (prerequisite: none, a sales-owned qualification discipline; PMM's supporting content draws on the Competitive Battlecard Framework, Command of the Message, and the FAB Ladder) and is now an optional step 6b of the Improving Win Rate scenario, run after Command of the Message to supply the Metrics, Decision Criteria, and Competition content a rep needs to answer the checklist. Built with an explicit "PMM's supporting role" framing, per FRAMEWORK-BACKLOG.md's build condition, since qualification itself is sales-owned. Entry count updated 46 → 48.
 

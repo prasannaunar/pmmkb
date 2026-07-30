@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-29 (built the fifth and sixth FRAMEWORK-BACKLOG.md candidates in rank order, MEDDIC/MEDDPICC and Category Design; total 46 → 48 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
+**Last Updated:** 2026-07-30 (built the seventh, eighth, and ninth FRAMEWORK-BACKLOG.md candidates, Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model; total 48 → 51 entries. Entries now carry a **Type** label; new entries are typed here inline pending the full Type-column rollout and the backfill of the original 26 entries)
 
 ---
 
@@ -30,6 +30,7 @@
 | Command of the Message | **Methodology.** Value-selling discipline (Force Management) that adapts the messaging house's core message and pillars into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value |
 | Features-Advantages-Benefits (FAB) Ladder | **Framework.** Three-step translation technique (feature → advantage → benefit) that turns a single raw feature into a proof point or copy line a buyer would repeat back, applied one level below the messaging house's pillars |
 | StoryBrand SB7 Framework | **Framework.** Seven-part narrative template (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide, for homepages, video scripts, and founder narratives |
+| Message Testing (Message-Market Fit) | **Methodology.** Repeatable practice for testing draft messaging against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, popularised by Wynter as "message-market fit" |
 
 ---
 
@@ -57,6 +58,7 @@
 | GTM Motion Model | **Model.** Taxonomy of the five ways a company acquires and expands customers (self-serve, PLG, inside sales, field sales, partner-channel), plotted by deal size and buyer complexity, used to select the motion a launch or GTM plan is built for before sequencing it |
 | Product-Led Growth (PLG) | **Methodology.** The ongoing practice of running the PLG motion identified by the GTM Motion Model: defining an activation moment, instrumenting product-qualified lead signals, and building in-product upgrade paths that convert self-serve users without a sales conversation |
 | Bullseye Framework (Traction Channel Selection) | **Framework.** Structured method for picking a single acquisition channel: brainstorm across 19 possible channels, cheaply test three or four in a middle ring, then concentrate budget on the one channel with the strongest early signal |
+| Launch Tier Framework (Tier 1/2/3) | **Model.** Classifies launches into Tier 1 (major, cross-functional), Tier 2 (significant, single-team), or Tier 3 (minor, routine) by scoring revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, so process and lead time match a launch's actual scope |
 
 ---
 
@@ -79,6 +81,7 @@
 | Win/Loss Analysis Framework | Systematic process for analyzing why customers buy (wins) and choose competitors (losses) through structured interviews, informing positioning and sales strategy |
 | Net Promoter Score (NPS) & Feedback Loop Framework | Framework for using customer feedback and NPS data to identify advocates, diagnose sentiment drivers, and inform retention and messaging strategies |
 | Kano Model | **Framework.** Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so roadmap priority and launch messaging match what each feature actually does to customer sentiment |
+| Forrester Customer Advocacy Model | **Model.** Four-stage model (Reactive, Identified, Programmatic, Embedded) scored across advocate identification, ask-menu breadth, fatigue management, and lifecycle instrumentation, used to build a proactive advocacy practice instead of chasing the same few customers for every reference |
 
 ---
 
@@ -128,7 +131,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 48 (35 frameworks, 9 methodologies, 3 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
+- **Total entries:** 51 (35 frameworks, 10 methodologies, 5 models, 1 primer. The 10 existing entries that are really methodologies, listed in ENRICHMENT-PLAN.md B2, are not yet retagged; that backfill is pending)
 - **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; further candidates queued in FRAMEWORK-BACKLOG.md)
 - **Entries per Category:** 1–9
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -136,11 +139,11 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 6 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 9 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 2 (Positioning & Messaging):** 10 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy.md`)
-✅ **Category 4 (Go-to-Market & Launch):** 8 entries (`frameworks/04-go-to-market-launch.md`)
+✅ **Category 4 (Go-to-Market & Launch):** 9 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 4 entries (`frameworks/05-lifecycle-workflow.md`)
-✅ **Category 6 (Product Experience & Adoption):** 4 entries (`frameworks/06-product-experience-adoption.md`)
+✅ **Category 6 (Product Experience & Adoption):** 5 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 3 frameworks (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Category 9 (Sales Enablement):** 2 entries (`frameworks/09-sales-enablement.md`); plus 2 related entries filed in Category 3 and Category 5 (see Category 9 note above)
@@ -153,4 +156,4 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Enrich the KB with further frameworks and methodologies (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; all 19 candidates built as of 2026-07-28)
 - [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
-- [ ] Build the remaining 6 FRAMEWORK-BACKLOG.md candidates and add a Type column to these tables (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); MEDDIC/MEDDPICC and Category Design built 2026-07-29)
+- [ ] Build the remaining 3 FRAMEWORK-BACKLOG.md candidates and add a Type column to these tables (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model built 2026-07-30)
