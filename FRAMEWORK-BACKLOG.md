@@ -1,7 +1,7 @@
 # Framework Backlog: Candidates for Future Addition
 
 **Logged:** 2026-07-09
-**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Six are already built (GBB, Van Westendorp PSM, Value Metric/WTP, StoryBrand SB7, MEDDIC/MEDDPICC, and Category Design, the last two added 2026-07-29); the other six are queued. Two carry a build *condition* rather than a blocker: the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (it is a product-owned methodology), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
+**Status:** Approved to build (2026-07-21). The gap has been confirmed; all remaining candidates below will be built and added to the knowledge base, following the CLAUDE.md structure and the content-type standard. Nine are already built (GBB, Van Westendorp PSM, Value Metric/WTP, StoryBrand SB7, MEDDIC/MEDDPICC, Category Design, Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model, the last three added 2026-07-30); the other three are queued. Two carry a build *condition* rather than a blocker: the Sean Ellis 40% Test must be written with an explicit "PMM's supporting role" framing (it is a product-owned methodology), and the Pragmatic Institute Framework must be narrowed to its non-overlapping contribution to satisfy CLAUDE.md's "no duplicate concepts" rule. See "Open scope questions" below for how each condition is resolved.
 **See also:** [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md) (logged 2026-07-21) was a companion **approved build queue** of 19 further candidates with an emphasis on *methodologies*, plus a plan for documenting methodologies consistently in this framework-first KB. It did not repeat the candidates below, and it is now fully built as of 2026-07-28 (see that document). This backlog's queue remains open; once it is also built, the two documents may be consolidated (see ENRICHMENT-PLAN.md, section B8).
 
 ---
@@ -58,22 +58,28 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 - **Home decision:** Built into Category 3 (Competitive Strategy) as its own entry, not a subsection of an existing one, since it answers a genuinely different question (is the category itself the right container?) from Bowman's Clock, the Perceptual Map, and Product Differentiation Strategy, which all optimise position inside the existing category.
 - **Why it's proven:** Dedicated advisory firm and follow-on toolkit; public case studies (Qualtrics, Drift, Gainsight).
 
-### 7. Launch Tier Framework (Tier 1/2/3)
+### 7. Launch Tier Framework (Tier 1/2/3): ✅ BUILT (2026-07-30)
+- **Built as:** Category 4 (Go-to-Market & Launch), `frameworks/04-go-to-market-launch.md`, using the Model template (What it is → When to use it → How to read it → How to apply it → Example → Pitfalls → See also). ~1,547 words; cross-linked to the 10-Step PMM Process, Complete GTM Workflow Stages, Bullseye Framework, and Quarterly PMM Planning Framework.
 - **Originator:** No single author; codified by Pragmatic Institute and Product Marketing Alliance.
-- **What it does:** Classifies launches into Tier 1/2/3 to right-size cross-functional resourcing and timelines.
-- **Proposed home:** Category 4 (Go-to-Market & Launch); complements (doesn't duplicate) the existing 3-/7-/10-step process frameworks.
+- **What it does:** Classifies a launch into Tier 1 (major, cross-functional), Tier 2 (significant, single-team), or Tier 3 (minor, routine) by scoring revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, so process depth and lead time match the launch's actual scope.
+- **Home:** Category 4 (Go-to-Market & Launch); complements, rather than duplicates, the existing 3-/7-/10-step process frameworks.
+- **Overlap/scope note resolved:** The 10-Step PMM Process already names a "lightweight version" of itself for smaller initiatives in its own pitfalls section; this model is the formal, repeatable classification tool that decides which launches get that lightweight treatment and which get the full sequence, rather than leaving the call to whoever argues loudest in a planning meeting. Differentiated from the GTM Motion Model (which acquisition motion a company sells through) and the Bullseye Framework (which channel to concentrate budget on): this model decides how much process a specific launch warrants, independent of motion or channel.
 - **Why it's proven:** Near-universal in mature PMM orgs; consistently taught across Pragmatic Institute and PMA.
 
-### 8. Message Testing / Message-Market Fit
-- **Originator:** Wynter (Peep Laja, also founder of CXL), which productised B2B message testing.
+### 8. Message Testing / Message-Market Fit: ✅ BUILT (2026-07-30)
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Methodology template (What it is → When to use it → How to run it → Cadence & ownership → Example → Pitfalls → See also). ~1,342 words; cross-linked to Message Architecture, Dunford's 10-Step Positioning Process, StoryBrand SB7 Framework, Features-Advantages-Benefits (FAB) Ladder, and Win/Loss Analysis.
+- **Originator:** Wynter (Peep Laja, also founder of CXL), which productised B2B message testing and popularised the term "message-market fit".
 - **What it does:** Tests draft messaging against a verified target-buyer panel for clarity, relevance, value, and differentiation before it ships.
-- **Proposed home:** Category 2, or a new "Message Validation" step in the GTM workflow. Directly fills the message-testing gap.
+- **Home:** Category 2 (Positioning & Messaging).
+- **Overlap/scope note resolved:** Differentiated from Dunford's 10-Step Positioning Process's Step 8 validation, which runs once at a major positioning inflection point, by being a narrower, repeatable gate that can run on any single piece of draft copy (a headline, a landing page, an ad) any time it exists, whether or not the underlying positioning has changed. Framed as the natural test gate for copy produced by Message Architecture, the FAB Ladder, and StoryBrand SB7, rather than a competing copy-generation method.
 - **Why it's proven:** Referenced case studies with known B2B SaaS brands; "message-market fit" now used as a term beyond the originating vendor.
 
-### 9. Forrester Customer Advocacy Model
+### 9. Forrester Customer Advocacy Model: ✅ BUILT (2026-07-30)
+- **Built as:** Category 6 (Product Experience & Adoption), `frameworks/06-product-experience-adoption.md`, using the Model template (What it is → When to use it → How to read it → How to apply it → Example → Pitfalls → See also). ~1,528 words; cross-linked to the Net Promoter Score (NPS) & Feedback Loop Framework, PMM Lifecycle Management Framework, Win/Loss Analysis Framework, and Competitive Battlecard Framework.
 - **Originator:** Forrester Research.
-- **What it does:** Staged, measurable model for building a proactive customer advocacy program (distinct from generic customer marketing).
-- **Proposed home:** Category 6, or a new Customer Advocacy category. Directly fills the advocacy gap.
+- **What it does:** A four-stage model (Reactive, Identified, Programmatic, Embedded) scored across advocate identification and segmentation, ask-menu breadth, fatigue management, and lifecycle instrumentation, used to build a proactive advocacy practice instead of repeatedly chasing the same few accounts whenever a reference is needed.
+- **Home decision:** Built into Category 6 (Product Experience & Adoption), per the "Scope questions: resolved" section below, rather than a new single-candidate Customer Advocacy category, since a lone entry there would repeat the thin-category problem already resolved for other single-theme candidates.
+- **Overlap/scope note resolved:** Positioned explicitly downstream of the existing NPS Framework, which identifies Promoters but has no system for turning that list into a managed, fatigue-aware advocacy practice; this model is that system, not a competing satisfaction metric.
 - **Why it's proven:** Analyst-firm backed; reference model across the customer-marketing vendor ecosystem.
 
 ### 10. Analyst Relations Tiering & Cadence Model
@@ -108,10 +114,10 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 | 4 | StoryBrand SB7 | ✅ Built (Positioning & Messaging) | Brand storytelling |
 | 5 | MEDDIC/MEDDPICC | ✅ Built (Sales Enablement) | Sales enablement |
 | 6 | Category Design (Play Bigger) | ✅ Built (Competitive Strategy) | Category creation |
-| 7 | Launch Tier Framework | Cat 4 | Launch resourcing |
-| 8 | Wynter Message Testing | Cat 2 (or new Message Validation) | Message testing |
-| 9 | Forrester Customer Advocacy Model | Cat 6 (or new Customer Advocacy) | Advocacy |
-| 10 | AR Tiering & Cadence Model | New: Analyst Relations | Analyst relations |
+| 7 | Launch Tier Framework | ✅ Built (Go-to-Market & Launch) | Launch resourcing |
+| 8 | Wynter Message Testing | ✅ Built (Positioning & Messaging) | Message testing |
+| 9 | Forrester Customer Advocacy Model | ✅ Built (Product Experience & Adoption) | Advocacy |
+| 10 | AR Tiering & Cadence Model | Cat 7 (Strategy & Planning) | Analyst relations |
 | 11 | Pragmatic Institute Framework | Cat 7 (overlap risk) | Umbrella/enablement |
 | 12 | Sean Ellis 40% Test | Cat 1 | PMF adjacency |
 
@@ -121,11 +127,11 @@ A gap analysis of the current 19 frameworks found one category with zero coverag
 
 The four open questions are now settled as build decisions:
 
-1. **New categories:** Analyst Relations, Customer Advocacy, and Category Creation each have one candidate here. Rather than single-entry category files, build each into the nearest existing category, tagged by type: Category Design into Category 3 (Competitive Strategy) (built 2026-07-29), Forrester Customer Advocacy into Category 6, and Analyst Relations Tiering into Category 7 (Strategy & Planning). Revisit a dedicated category only if a theme later grows to two or more entries. (Sales Enablement did cross that threshold via ENRICHMENT-PLAN.md and got a new Category 9 there; MEDDIC/MEDDPICC, built 2026-07-29, was placed in that category once it existed, rather than the Category 4/5 originally proposed here.)
-2. **Sales/product-owned frameworks:** Include MEDDIC/MEDDPICC (built 2026-07-29) and the Sean Ellis 40% Test, each written with an explicit "PMM's supporting role" framing (what PMM authors and owns versus what sales or product owns). This is a build condition, not a blocker.
+1. **New categories:** Analyst Relations, Customer Advocacy, and Category Creation each have one candidate here. Rather than single-entry category files, build each into the nearest existing category, tagged by type: Category Design into Category 3 (Competitive Strategy) (built 2026-07-29), Forrester Customer Advocacy into Category 6 (built 2026-07-30), and Analyst Relations Tiering into Category 7 (Strategy & Planning, still queued). Revisit a dedicated category only if a theme later grows to two or more entries. (Sales Enablement did cross that threshold via ENRICHMENT-PLAN.md and got a new Category 9 there; MEDDIC/MEDDPICC, built 2026-07-29, was placed in that category once it existed, rather than the Category 4/5 originally proposed here.)
+2. **Sales/product-owned frameworks:** Include MEDDIC/MEDDPICC (built 2026-07-29) and the Sean Ellis 40% Test, each written with an explicit "PMM's supporting role" framing (what PMM authors and owns versus what sales or product owns). This is a build condition, not a blocker. The Sean Ellis 40% Test remains the only one of these two still queued.
 3. **Duplication risk:** Build the Pragmatic Institute Framework narrowed to its non-overlapping contribution (its enablement and business boxes), explicitly cross-referencing the 10-Step PMM Process and PMM Lifecycle Management rather than restating them, to satisfy the "no duplicate concepts" rule.
 4. **Pricing & Packaging** is complete; all three candidates are built.
 
 ## Next step
 
-All remaining candidates are approved to build. Work through the six still-queued entries (StoryBrand SB7 built 2026-07-28; MEDDIC/MEDDPICC and Category Design built 2026-07-29, the fifth and sixth candidates) following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the two build conditions remaining in items 2 and 3 above. The ENRICHMENT-PLAN.md queue is now fully built (2026-07-28); this backlog is the only queue remaining. Work down the ranked list next: the Launch Tier Framework (7) is next in rank order.
+All remaining candidates are approved to build. Nine of the twelve are now built (StoryBrand SB7, MEDDIC/MEDDPICC, and Category Design, the fourth, fifth, and sixth candidates, built 2026-07-28 and 2026-07-29; Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model, the seventh, eighth, and ninth candidates, built 2026-07-30). Three remain: the Analyst Relations Tiering & Cadence Model (10), the Pragmatic Institute Framework (11), and the Sean Ellis 40% Test (12). Work down the ranked list next, starting with the Analyst Relations Tiering & Cadence Model, following the CLAUDE.md structure and content-type standard (declare a Type; use the matching section template; 1000–1500 words for frameworks/methodologies/models, 500–1000 for primers; British English; no em dashes; cross-referenced), and run the cross-doc consistency checklist for each. Honour the two build conditions remaining in items 2 and 3 above (the Sean Ellis 40% Test and the Pragmatic Institute Framework). The ENRICHMENT-PLAN.md queue is fully built (2026-07-28); this backlog is the only queue remaining.

@@ -22,18 +22,18 @@ Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge
 
 ## What's Inside
 
-### 48 Entries Across 9 Categories, Plus a Concepts Area
+### 51 Entries Across 9 Categories, Plus a Concepts Area
 
-This knowledge base contains 48 proven product marketing entries (35 frameworks, 9 methodologies, 3 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
+This knowledge base contains 51 proven product marketing entries (35 frameworks, 10 methodologies, 5 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 6 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 9 | `frameworks/02-positioning-messaging.md` |
+| 2 | Positioning & Messaging | 10 | `frameworks/02-positioning-messaging.md` |
 | 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy.md` |
-| 4 | Go-to-Market & Launch | 8 | `frameworks/04-go-to-market-launch.md` |
+| 4 | Go-to-Market & Launch | 9 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 4 | `frameworks/05-lifecycle-workflow.md` |
-| 6 | Product Experience & Adoption | 4 | `frameworks/06-product-experience-adoption.md` |
+| 6 | Product Experience & Adoption | 5 | `frameworks/06-product-experience-adoption.md` |
 | 7 | Strategy & Planning | 3 | `frameworks/07-strategy-planning.md` |
 | 8 | Pricing & Packaging | 6 | `frameworks/08-pricing-packaging.md` |
 | 9 | Sales Enablement | 2 | `frameworks/09-sales-enablement.md` |
@@ -100,13 +100,13 @@ Every entry is designed to be **read standalone**, but entries often build on on
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 48 entries with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 51 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[PLAN.md](PLAN.md)**: 5-phase roadmap for polishing and integrating frameworks into day-to-day work
 - **[PROGRESS.md](PROGRESS.md)**: Progress tracking, completed work, and development status
 - **[foundational-review.md](foundational-review.md)**: Quality assurance report: framework validation, attribution verification, and improvement recommendations (NEW: 2026-04-09)
-- **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis (StoryBrand SB7 built 2026-07-28; MEDDIC/MEDDPICC and Category Design built 2026-07-29; 6 candidates remain) (NEW: 2026-07-09)
+- **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis (StoryBrand SB7 built 2026-07-28; MEDDIC/MEDDPICC and Category Design built 2026-07-29; Launch Tier Framework, Message Testing, and the Forrester Customer Advocacy Model built 2026-07-30; 3 candidates remain) (NEW: 2026-07-09)
 - **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies; all 19 built as of 2026-07-28, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles, writing standards, and decision log for this knowledge base
@@ -171,10 +171,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Gabor-Granger Method and Usage-Based (Consumption) Pricing Model Added to Category 8 (seventeenth and eighteenth ENRICHMENT-PLAN.md builds, continuing the "Lower" batch):** 2026-07-27
 - **Sales Enablement Maturity Model Added as the new Category 9 (nineteenth and final ENRICHMENT-PLAN.md build, completing that queue) and StoryBrand SB7 Framework Added to Category 2 (next-ranked FRAMEWORK-BACKLOG.md candidate):** 2026-07-28
 - **MEDDIC/MEDDPICC Added to Category 9 and Category Design Added to Category 3 (fifth and sixth FRAMEWORK-BACKLOG.md builds, next in rank order):** 2026-07-29
-- **Last Updated:** 2026-07-29
-- **Total entries:** 48 (35 frameworks, 9 methodologies, 3 models, 1 primer, all cross-linked; the twenty-two entries added 2026-07-21 to 2026-07-29 still need a source-validation pass); 6 further entries approved to build from the 2026-07-09 FRAMEWORK-BACKLOG.md gap analysis, with the ENRICHMENT-PLAN.md queue now fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model, new Category 9; MEDDIC/MEDDPICC)
-- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); ENRICHMENT-PLAN.md queue fully built; FRAMEWORK-BACKLOG.md queue being built top-down from the priority order
+- **Launch Tier Framework Added to Category 4, Message Testing (Message-Market Fit) Added to Category 2, and Forrester Customer Advocacy Model Added to Category 6 (seventh, eighth, and ninth FRAMEWORK-BACKLOG.md builds, next in rank order):** 2026-07-30
+- **Last Updated:** 2026-07-30
+- **Total entries:** 51 (35 frameworks, 10 methodologies, 5 models, 1 primer, all cross-linked; the twenty-five entries added 2026-07-21 to 2026-07-30 still need a source-validation pass); 3 further entries approved to build from the 2026-07-09 FRAMEWORK-BACKLOG.md gap analysis, with the ENRICHMENT-PLAN.md queue now fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit)); `frameworks/03-competitive-strategy.md` (Competitive Battlecard Framework; Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework); `frameworks/05-lifecycle-workflow.md` (Buyer's Journey Content Map); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model, new Category 9; MEDDIC/MEDDPICC)
+- **Status:** Content complete and quality-assured; operational integration in progress (see [PLAN.md](PLAN.md)); ENRICHMENT-PLAN.md queue fully built; FRAMEWORK-BACKLOG.md queue being built top-down from the priority order, 3 candidates remaining
 
 ---
 

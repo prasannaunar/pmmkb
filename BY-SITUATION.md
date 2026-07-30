@@ -10,6 +10,10 @@ Map your current challenge to the frameworks that will help you solve it.
 
 **Apply These Frameworks (In Order):**
 
+0. **Launch Tier Framework** (`Category 4`)
+   - *Why:* Classify this launch as Tier 1, 2, or 3 before committing a lead time, headcount, or process depth to the rest of this sequence, so a routine update does not absorb the same cross-functional effort as a major launch, or vice versa
+   - *Do this before step 1:* Score revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, and attach the matching resourcing template
+
 1. **Complete Product Experience Framework** (`Category 1`)
    - *Why:* Define what "launch success" means across all customer touchpoints
    - *Do this first:* Ensure all teams understand the positioning before launch
@@ -49,6 +53,10 @@ Map your current challenge to the frameworks that will help you solve it.
 5d. **StoryBrand SB7 Framework** (`Category 2`); *optional*
    - *Why:* Draft the launch homepage or founder narrative as a seven-part story (Character, Problem, Guide, Plan, Call to Action, Failure, Success) so the launch page reads as a story a visitor follows, rather than a feature list
    - *Do this alongside step 6:* Draw the Character and Problem directly from the positioning statement validated in step 4
+
+5e. **Message Testing (Message-Market Fit)** (`Category 2`); *optional, recommended for Tier 1 launches*
+   - *Why:* Test the headline or homepage copy produced in steps 5c and 5d against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, rather than shipping on internal preference
+   - *Do this alongside step 6:* Run with at least two candidate versions and build in a three-to-five-business-day turnaround before the launch date
 
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
@@ -386,29 +394,33 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Identify and segment your promoters
    - *Do this first:* Know who your advocates are and what makes them promoters
 
-2. **Customer Onboarding Maturity Framework** (`Category 6`)
+2. **Forrester Customer Advocacy Model** (`Category 6`)
+   - *Why:* Audit how advocacy actually runs today (how many distinct accounts were approached in the last two quarters, and how often), diagnose which of the four stages, Reactive, Identified, Programmatic, or Embedded, the team is really at, and build the tiered ask menu and tracking system a one-off Promoter list does not give you on its own
+   - *Do this second:* Cross-reference the Promoter list from step 1 against the audit before recruiting or approaching anyone
+
+3. **Customer Onboarding Maturity Framework** (`Category 6`)
    - *Why:* Analyse what onboarding experience produces high-satisfaction customers
    - *Do this:* Replicate that experience to create more advocates
 
-3. **Feature Adoption Framework** (`Category 5`)
+4. **Feature Adoption Framework** (`Category 5`)
    - *Why:* Understand which features drive the most value (and advocacy)
    - *Do this:* Customers who adopt more features are more likely to be advocates
 
-4. **PMM Lifecycle Management Framework** (`Category 5`)
+5. **PMM Lifecycle Management Framework** (`Category 5`)
    - *Why:* Design advocacy touchpoints across the customer lifecycle
-   - *Do this:* Recruit advocates at natural moments (milestone usage, renewal, expansion)
+   - *Do this:* Recruit advocates at natural moments (milestone usage, renewal, expansion), triggered automatically per the Embedded stage of step 2's model
 
-5. **Win / Loss Analysis Framework** (`Category 6`)
+6. **Win / Loss Analysis Framework** (`Category 6`)
    - *Why:* Identify what customers value most about your solution
    - *Do this:* Use these insights to brief advocates on what to highlight in testimonials
 
-6. **Competitive Intelligence & Positioning Update Framework** (`Category 7`)
+7. **Competitive Intelligence & Positioning Update Framework** (`Category 7`)
    - *Why:* Brief advocates on competitive positioning so they can speak to differentiators
    - *Do this:* Ensure advocates can articulate how you're different
 
 **Success Metrics:**
 - Promoter segment identified and segmented (% of customer base) ✓
-- Advocacy programme launched with 10+ active advocates ✓
+- Advocacy programme launched with 10+ active advocates, drawn from more than 2 or 3 distinct accounts ✓
 - 3+ case studies published featuring advocates ✓
 - Referral rate from advocates >5% ✓
 - NPS of advocate segment >60 ✓
