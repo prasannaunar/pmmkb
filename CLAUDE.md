@@ -12,21 +12,17 @@ This repository contains a structured, practically-oriented knowledge base of pr
 
 **Target Users:** Product marketing managers, PMMs scaling from solo to team roles, and cross-functional stakeholders seeking PMM guidance.
 
+For how PMMs, team leads, and new joiners use this repository day-to-day, see README.md. This file covers content standards and editing rules only.
+
 ---
 
 ## Writing Standards
 
 ### Language & Tone
 
-- **Write in British English.** Use British spelling (colour, organisation, realise) and conventions.
-- **Avoid em dashes entirely.** Do not use em dashes (`—`) or double hyphens (`--`) as replacements.
-- **Use semicolons where em dashes would fit.** For example:
-  - ❌ *"The framework has three steps—awareness, consideration, and purchase."*
-  - ✅ *"The framework has three steps; awareness, consideration, and purchase."*
-  - ✅ *"The framework has three steps. These are: awareness, consideration, and purchase."*
-- **Structure sentences to avoid em dashes naturally.** Break complex sentences into two or use colons.
+- **Write in British English.** Use British spelling (colour, organisation, realise) and conventions. No exceptions.
+- **Avoid em dashes entirely.** Do not use em dashes (`—`) or double hyphens (`--`) as replacements. Use a semicolon, a colon, or split into two sentences instead. No exceptions.
   - ❌ *"Positioning is the anchor—it shapes all downstream messaging."*
-  - ✅ *"Positioning is the anchor. It shapes all downstream messaging."*
   - ✅ *"Positioning is the anchor; it shapes all downstream messaging."*
 
 ### Framework Structure
@@ -123,56 +119,14 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 │   ├── 05-lifecycle-workflow.md
 │   ├── 06-product-experience-adoption.md
 │   ├── 07-strategy-planning.md
-│   └── 08-pricing-packaging.md
+│   ├── 08-pricing-packaging.md
+│   └── 09-sales-enablement.md
 │
-├── concepts/                    # Primers; explainers that are not something you "apply" (added 2026-07-22)
-│   └── gtm-strategy-vs-product-marketing.md
-│
-├── templates/                   # Reusable templates (in progress)
-│   ├── quarterly-planning-template.md
-│   ├── campaign-brief-template.md
-│   ├── sales-enablement-audit.md
-│   └── weekly-standup-template.md
-│
-├── quick-reference/             # One-page framework summaries (in progress)
-│   ├── stp-framework-card.md
-│   ├── positioning-canvas-card.md
-│   └── ... (one per framework)
-│
-├── case-studies/                # Extended real-world examples (in progress)
-│   └── deep-dive-case-studies.md
-│
-└── archived/                    # Deprecated frameworks (future use)
+└── concepts/                    # Primers; explainers that are not something you "apply"
+    └── gtm-strategy-vs-product-marketing.md
 ```
 
----
-
-## Workflow for Using This Repository
-
-### For Individual PMMs
-
-1. **Face a problem** ("Our win rate is declining")
-2. **Use BY-SITUATION.md** to find relevant frameworks
-3. **Read the framework** (expect 10–15 minutes)
-4. **Apply the "How to apply it" section** with your data
-5. **Measure the outcome** against the success metrics listed
-6. **Share the result** in monthly team feedback (what worked; what didn't)
-
-### For Team Leads & Managers
-
-1. **In quarterly planning:** Reference PLAN.md phases to integrate framework work
-2. **Use templates** (campaign briefs, audit checklists, planning templates) to embed frameworks into process
-3. **Track framework usage** (which frameworks are actually being used?)
-4. **Monthly feedback loop:** Ask team: "What frameworks did you use? What worked?"
-5. **Annual refresh:** Review top frameworks based on team feedback; add new frameworks if gaps emerge
-
-### For New Team Members
-
-1. **Start with README.md** (overview and structure)
-2. **Read your role's onboarding section** (e.g., "Sales enablement PMM" → recommended frameworks)
-3. **Choose one framework to apply** in your first week
-4. **Ask senior PMM for feedback** on application
-5. **Once comfortable, expand** to broader framework usage
+Not yet created: `GLOSSARY.md`, `templates/`, `quick-reference/`, `case-studies/`, `archived/`. See PLAN.md for the roadmap; don't assume they exist.
 
 ---
 
@@ -191,7 +145,7 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 - [ ] Word count is 1000–1500 words per framework (500–1000 for primers)
 - [ ] Metrics and numbers are specific, not vague
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
-- [ ] **Cross-doc consistency checklist run** when an entry is added or retagged: category file, INDEX.md (with Type), README.md (summary table and headline count/breakdown), FRAMEWORK-MAP.md (dependencies and any new scenario), BY-SITUATION.md (if it maps to a situation), PROGRESS.md (version history and metrics), and the candidate marked built in ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md
+- [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
 
 ### Before Publishing Templates
 
@@ -207,54 +161,8 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 
 ---
 
-## Maintenance Schedule
+## Maintenance Cadence
 
-### Weekly
-- Monitor team Slack/email for framework questions or usage
-- Note any frameworks repeatedly referenced or requested
+Weekly, monthly, quarterly, and annual review cadences are tracked in PROGRESS.md, not here. Frameworks are organised by workflow stage (understand market → position → go to market → measure), not alphabetically; this is a hard rule, reflected in INDEX.md and BY-SITUATION.md.
 
-### Monthly (30-minute team sync)
-- Ask: "What frameworks did you use this month?"
-- Capture: What worked? What didn't? What's missing?
-- Log insights in PROGRESS.md
-
-### Quarterly (after each quarter ends)
-- Review the top 3 frameworks used that quarter
-- Do examples still resonate? Do they need updating?
-- Are pitfalls still relevant? Any new ones?
-- Update framework files if needed
-
-### Annually (January)
-- Full pass over all entries
-- Check: Are they still being used? Do they still hold up?
-- Update examples with new case studies from past year
-- Deprecate frameworks with zero usage (move to archived/)
-- Add new frameworks if team identified gaps
-- Refresh PROGRESS.md with year-end summary
-
----
-
-## Decision Log
-
-**Decision: No em dashes or double hyphens**
-- *Why:* British English convention discourages em dashes; semicolons and shorter sentences are clearer
-- *Implementation:* Review all existing frameworks for em dashes and convert them
-- *Exception:* None; this is a hard rule
-
-**Decision: British English throughout**
-- *Why:* Consistency; audience includes global PMMs; British conventions are formal and precise
-- *Implementation:* Spell checker set to British English
-- *Exception:* None; this is a hard rule
-
-**Decision: Frameworks organised by workflow stage, not alphabetically**
-- *Why:* PMMs follow a workflow (understand market → position → go to market → measure); frameworks should mirror this flow
-- *Implementation:* Index and BY-SITUATION.md explicitly show workflow sequences
-- *Exception:* None; this supports usability
-
----
-
-## Contact & Feedback
-
-This document is version-controlled. Propose changes via a commit to CLAUDE.md with clear justification in the commit message.
-
-For questions on framework curation, content quality, or process, open an issue in this repository.
+Propose changes to this file via a commit to CLAUDE.md with clear justification in the commit message.
