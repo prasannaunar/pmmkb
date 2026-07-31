@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-07-30
+**Last Updated:** 2026-07-31
 
 ---
 
@@ -105,7 +105,9 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 ├── PLAN.md                      # Roadmap for polish and integration
 ├── PROGRESS.md                  # Progress tracking and team notes
 ├── CLAUDE.md                    # This file; working principles
-├── GLOSSARY.md                  # PMM terminology (in progress)
+├── GLOSSARY.md                  # PMM terminology (45+ terms)
+├── ONBOARDING.md                # Role-based onboarding playbook for new PMM team members
+├── FEEDBACK-LOG.md              # Monthly feedback session and annual review cadence log
 ├── FRAMEWORK-MAP.md             # Dependency map and workflow scenarios
 ├── FRAMEWORK-BACKLOG.md         # Candidate frameworks pending build (2026-07-09 gap analysis)
 ├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
@@ -122,11 +124,30 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 │   ├── 08-pricing-packaging.md
 │   └── 09-sales-enablement.md
 │
-└── concepts/                    # Primers; explainers that are not something you "apply"
-    └── gtm-strategy-vs-product-marketing.md
+├── concepts/                    # Primers; explainers that are not something you "apply"
+│   └── gtm-strategy-vs-product-marketing.md
+│
+├── quick-reference/              # One-page condensed cards per entry, mirroring frameworks/ by category
+│   ├── 01-market-customer-understanding.md
+│   ├── 02-positioning-messaging.md
+│   ├── 03-competitive-strategy.md
+│   ├── 04-go-to-market-launch.md
+│   ├── 05-lifecycle-workflow.md
+│   ├── 06-product-experience-adoption.md
+│   ├── 07-strategy-planning.md
+│   ├── 08-pricing-packaging.md
+│   ├── 09-sales-enablement.md
+│   └── concepts-primers.md
+│
+└── templates/                   # Working templates for quarterly planning, campaigns, and enablement
+    ├── quarterly-planning-template.md
+    ├── campaign-brief-template.md
+    ├── sales-enablement-audit.md
+    ├── weekly-standup-template.md
+    └── competitive-intelligence-tracker.md
 ```
 
-Not yet created: `GLOSSARY.md`, `templates/`, `quick-reference/`, `case-studies/`, `archived/`. See PLAN.md for the roadmap; don't assume they exist.
+Not yet created: `case-studies/`, `archived/`. See PLAN.md for the roadmap; don't assume they exist.
 
 ---
 
