@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-04-08
-**Status:** Knowledge base complete; ready for operational use and continuous refinement
+**Last Updated:** 2026-07-31
+**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), and most of Phase 4 (onboarding playbook, weekly standup template) are now built; see PROGRESS.md for the 2026-07-31 build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies and decision trees, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
 
 ---
 
@@ -191,16 +191,16 @@ Output: Recommended framework or framework sequence
 ## Success Criteria
 
 **Phase 1 Complete:**
-- [ ] All frameworks have cross-links to related frameworks
-- [ ] BY-SITUATION.md covers 8–10 common situations
-- [ ] Quick-reference cards for all entries
-- [ ] Glossary includes 20+ PMM terms
+- [x] All frameworks have cross-links to related frameworks
+- [x] BY-SITUATION.md covers 8–10 common situations
+- [x] Quick-reference cards for all entries (54 entries plus the primer, across `quick-reference/`; built 2026-07-31, mirroring `frameworks/` by category)
+- [x] Glossary includes 20+ PMM terms (45+ terms across 6 themes plus an acronym table; built 2026-07-31)
 
 **Phase 2 Complete:**
-- [ ] Quarterly planning template created and tested
-- [ ] Campaign brief template includes framework checklist
-- [ ] Sales enablement audit checklist created
-- [ ] Competitive intelligence tracker template created
+- [x] Quarterly planning template created (`templates/quarterly-planning-template.md`; not yet tested against a live quarter)
+- [x] Campaign brief template includes framework checklist (`templates/campaign-brief-template.md`)
+- [x] Sales enablement audit checklist created (`templates/sales-enablement-audit.md`)
+- [x] Competitive intelligence tracker template created (`templates/competitive-intelligence-tracker.md`)
 
 **Phase 3 Complete:**
 - [ ] 5–6 frameworks expanded with deeper case studies
@@ -209,14 +209,14 @@ Output: Recommended framework or framework sequence
 - [ ] Measurement & reporting guide created
 
 **Phase 4 Complete:**
-- [ ] Weekly standup template created and used
-- [ ] Onboarding playbook created
-- [ ] Framework selection flowchart created
+- [x] Weekly standup template created (`templates/weekly-standup-template.md`; not yet used in a live standup)
+- [x] Onboarding playbook created (`ONBOARDING.md`; role-based reading lists and a first-30-days plan)
+- [ ] Framework selection flowchart created (BY-SITUATION.md and the quick-reference cards cover this need in text form; a visual/interactive flowchart is still open)
 
 **Ongoing Maintenance:**
-- [ ] Quarterly review cycle scheduled (one framework per week)
-- [ ] Feedback loop established (monthly team feedback)
-- [ ] Annual update calendar distributed
+- [ ] Quarterly review cycle scheduled (one framework per week); tooling to log it exists (`FEEDBACK-LOG.md`), cycle has not yet run
+- [ ] Feedback loop established (monthly team feedback); tooling to log it exists (`FEEDBACK-LOG.md`), first session has not yet run
+- [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open
 
 ---
 

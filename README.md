@@ -16,7 +16,11 @@ A structured, practical reference guide of product marketing frameworks and meth
 
 **Have 5 minutes?**
 
-Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge base. (Quick-reference cards are planned but not yet built; see PLAN.md.)
+Read [CLAUDE.md](CLAUDE.md) for the working principles that guide this knowledge base, or skim a [quick-reference card](quick-reference/) for the entry you need right now instead of the full framework file.
+
+**New PMM team member?**
+
+Start with [ONBOARDING.md](ONBOARDING.md); it has a role-based reading list (Positioning, Sales Enablement, Competitive Intelligence, Customer Advocacy, Pricing & Packaging, or Go-to-Market & Launch) and a first-30-days plan.
 
 ---
 
@@ -110,7 +114,11 @@ Every entry is designed to be **read standalone**, but entries often build on on
 - **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies; all 19 built as of 2026-07-28, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles and writing standards for this knowledge base
-- **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions (in progress)
+- **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions; 45+ terms grouped by theme, plus an acronym quick-lookup table (NEW: 2026-07-31)
+- **[quick-reference/](quick-reference/)**: One-page condensed cards for all 54 entries, mirroring the `frameworks/` category structure (NEW: 2026-07-31)
+- **[templates/](templates/)**: Working templates for quarterly planning, campaign briefs, sales enablement audits, weekly standups, and competitive intelligence tracking (NEW: 2026-07-31)
+- **[ONBOARDING.md](ONBOARDING.md)**: Role-based onboarding playbook and first-30-days plan for new PMM team members (NEW: 2026-07-31)
+- **[FEEDBACK-LOG.md](FEEDBACK-LOG.md)**: Running log for the monthly feedback session and annual/quarterly review cadence (NEW: 2026-07-31)
 
 ---
 
@@ -129,7 +137,7 @@ Start with the Sales Enablement Maturity Model (Category 9) to diagnose where yo
 Use the Win / Loss Analysis Framework (Category 6) to conduct structured customer interviews; feed insights back to positioning and competitive intelligence work.
 
 ### In Team Onboarding
-New PMM team members should read the frameworks relevant to their role (see "By Your Role" above) in their first week.
+New PMM team members should follow [ONBOARDING.md](ONBOARDING.md)'s role-based reading list (see "By Your Role" above for the summary) in their first week, then apply one framework to real work in week two.
 
 ---
 
@@ -137,7 +145,7 @@ New PMM team members should read the frameworks relevant to their role (see "By 
 
 ### Have you used a framework?
 
-**Share your results** (what worked, what didn't, what you'd change) in your team's monthly feedback session. These insights feed into quarterly reviews and keep frameworks sharp and current.
+**Share your results** (what worked, what didn't, what you'd change) in your team's monthly feedback session; use the [weekly standup template](templates/weekly-standup-template.md) to track use week to week, and log the monthly session itself in [FEEDBACK-LOG.md](FEEDBACK-LOG.md). These insights feed into quarterly reviews and keep frameworks sharp and current.
 
 ### Is a framework missing?
 
@@ -174,10 +182,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **Launch Tier Framework Added to Category 4, Message Testing (Message-Market Fit) Added to Category 2, and Forrester Customer Advocacy Model Added to Category 6 (seventh, eighth, and ninth FRAMEWORK-BACKLOG.md builds, next in rank order):** 2026-07-30
 - **Analyst Relations Tiering & Cadence Model Added to Category 7, Pragmatic Institute Framework Added to Category 7, and Sean Ellis 40% Test Added to Category 1 (tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md builds, completing that queue in full):** 2026-07-30
 - **Housekeeping pass (Type backfill on all 26 pre-existing entries with a Type column added to every INDEX.md table; Competitive Battlecard Framework and Buyer's Journey Content Map consolidated into Category 9; full web-verification pass on entries added since 2026-04-09):** 2026-07-30
-- **Last Updated:** 2026-07-30
+- **Operational tooling built (quick-reference cards for all 54 entries plus the primer; GLOSSARY.md with 45+ terms; 5 templates covering PLAN.md's Phase 2 in full; ONBOARDING.md role-based playbook; FEEDBACK-LOG.md for the monthly feedback session and review cadence):** 2026-07-31
+- **Last Updated:** 2026-07-31
 - **Total entries:** 54 (35 frameworks, 12 methodologies, 6 models, 1 primer, all cross-linked; the twenty-eight entries added 2026-07-21 to 2026-07-30 still need a source-validation pass); both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are now fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md))
 - **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology; Sean Ellis 40% Test); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit)); `frameworks/03-competitive-strategy.md` (Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `frameworks/07-strategy-planning.md` (Analyst Relations Tiering & Cadence Model; Pragmatic Institute Framework); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model; MEDDIC/MEDDPICC; Competitive Battlecard Framework and Buyer's Journey Content Map, consolidated here 2026-07-30 from Category 3 and Category 5 respectively)
-- **Status:** Content complete and quality-assured; both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built, and the housekeeping deferred from those builds (Type backfill, Category 9 consolidation, attribution verification) is complete as of 2026-07-30; operational integration in progress (see [PLAN.md](PLAN.md)); next phase is quick-reference cards, GLOSSARY.md, and public release readiness (see [PROGRESS.md](PROGRESS.md))
+- **Status:** Content complete and quality-assured; both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built, and all housekeeping deferred from those builds is complete as of 2026-07-30; PLAN.md's Phase 1-2 operational tooling (quick-reference cards, GLOSSARY.md, templates, onboarding) is now built as of 2026-07-31 (see [PROGRESS.md](PROGRESS.md)); next phase is public release readiness and running the feedback/review cadence as an ongoing practice (see [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
 
 ---
 
