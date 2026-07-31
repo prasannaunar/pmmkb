@@ -159,5 +159,6 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Add a Type column to the navigation tables above and backfill `**Type:**` on the original 26 entries (ENRICHMENT-PLAN.md B2/B5; completed 2026-07-30)
 - [x] Consolidate the Competitive Battlecard Framework and Buyer's Journey Content Map into Category 9 (completed 2026-07-30)
 - [x] Full web-verification pass on entries added since 2026-04-09 (completed 2026-07-30; see PROGRESS.md)
-- [ ] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1)
+- [x] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1; built 2026-07-31, see [quick-reference/](quick-reference/) and [GLOSSARY.md](GLOSSARY.md))
+- [x] Operational templates, onboarding playbook, and feedback-log tooling (see [PLAN.md](PLAN.md) Phases 2 and 4; built 2026-07-31, see [templates/](templates/), [ONBOARDING.md](ONBOARDING.md), and [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
