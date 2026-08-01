@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-07-31
-**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), and most of Phase 4 (onboarding playbook, weekly standup template) are now built; see PROGRESS.md for the 2026-07-31 build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies and decision trees, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
+**Last Updated:** 2026-08-01
+**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), most of Phase 4 (onboarding playbook, weekly standup template), and Phase 3's decision-tree item are now built; see PROGRESS.md for the build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies, pitfalls deep-dive, and measurement guide, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
 
 ---
 
@@ -118,13 +118,13 @@ For the most frequently used frameworks (STP, Positioning, Go-to-Market, Competi
 
 **Deliverable:** `/pmm-kb/pitfalls-deep-dive.md` or expanded pitfall sections in each framework
 
-### 3.3 Integration Decision Tree
+### 3.3 Integration Decision Tree ✅ Complete (2026-08-01)
 Create a flowchart or decision tree:
 - "I'm entering a new market" → STP → Customer Onboarding Maturity → Win/Loss Analysis
 - "Sales productivity is down" → Win/Loss → Competitive Intelligence → Sales Enablement (10-Step)
 - "Customer churn is rising" → NPS & Feedback Loop → Feature Adoption → Lifecycle Management
 
-**Deliverable:** `/pmm-kb/decision-trees.md` or interactive visual
+**Deliverable:** [`decision-trees.md`](decision-trees.md); a symptom-to-situation triage tool with branching questions across three top-level entry points (something new launching, something broken, a team/budget/reporting question), pointing into BY-SITUATION.md's nine situations rather than duplicating their framework sequences
 
 ### 3.4 Measurement & Reporting Guide
 Map each framework to:
@@ -205,7 +205,7 @@ Output: Recommended framework or framework sequence
 **Phase 3 Complete:**
 - [ ] 5–6 frameworks expanded with deeper case studies
 - [ ] Pitfalls deep-dive document created
-- [ ] Decision trees or integration guide completed
+- [x] Decision trees or integration guide completed (`decision-trees.md`; built 2026-08-01)
 - [ ] Measurement & reporting guide created
 
 **Phase 4 Complete:**
