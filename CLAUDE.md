@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-08-01
+**Last Updated:** 2026-08-02
 
 ---
 
@@ -110,6 +110,7 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 ├── FEEDBACK-LOG.md              # Monthly feedback session and annual review cadence log
 ├── FRAMEWORK-MAP.md             # Dependency map and workflow scenarios
 ├── decision-trees.md            # Symptom-to-situation triage tool (branching questions, not full sequences)
+├── measurement-guide.md         # Baseline metric, cadence, and owner per entry, plus a roll-up dashboard template
 ├── FRAMEWORK-BACKLOG.md         # Candidate frameworks pending build (2026-07-09 gap analysis)
 ├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
 ├── product-marketing-kb-task.md # Original task specification (reference)

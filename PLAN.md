@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-08-01
-**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), most of Phase 4 (onboarding playbook, weekly standup template), and Phase 3's decision-tree item are now built; see PROGRESS.md for the build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies, pitfalls deep-dive, and measurement guide, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
+**Last Updated:** 2026-08-02
+**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), most of Phase 4 (onboarding playbook, weekly standup template), and Phase 3's decision-tree and measurement-guide items are now built; see PROGRESS.md for the build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies and pitfalls deep-dive, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
 
 ---
 
@@ -126,14 +126,14 @@ Create a flowchart or decision tree:
 
 **Deliverable:** [`decision-trees.md`](decision-trees.md); a symptom-to-situation triage tool with branching questions across three top-level entry points (something new launching, something broken, a team/budget/reporting question), pointing into BY-SITUATION.md's nine situations rather than duplicating their framework sequences
 
-### 3.4 Measurement & Reporting Guide
+### 3.4 Measurement & Reporting Guide ✅ Complete (2026-08-02)
 Map each framework to:
 - Key metrics to track before applying the framework
 - Success metrics to measure after application
 - Reporting cadence (monthly, quarterly, annual)
 - Dashboard/reporting template
 
-**Deliverable:** `/pmm-kb/measurement-guide.md`
+**Deliverable:** [`measurement-guide.md`](measurement-guide.md); a baseline-metric, cadence, and owner for all 54 entries plus the primer, organised by category and cross-referencing each quick-reference card's existing success metrics rather than repeating them, plus a seven-metric roll-up dashboard template that most entries feed into
 
 ---
 
@@ -206,7 +206,7 @@ Output: Recommended framework or framework sequence
 - [ ] 5–6 frameworks expanded with deeper case studies
 - [ ] Pitfalls deep-dive document created
 - [x] Decision trees or integration guide completed (`decision-trees.md`; built 2026-08-01)
-- [ ] Measurement & reporting guide created
+- [x] Measurement & reporting guide created (`measurement-guide.md`; built 2026-08-02)
 
 **Phase 4 Complete:**
 - [x] Weekly standup template created (`templates/weekly-standup-template.md`; not yet used in a live standup)
