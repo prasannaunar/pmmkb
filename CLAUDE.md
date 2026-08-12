@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-08-02
+**Last Updated:** 2026-08-12
 
 ---
 
@@ -113,6 +113,7 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 ├── measurement-guide.md         # Baseline metric, cadence, and owner per entry, plus a roll-up dashboard template
 ├── FRAMEWORK-BACKLOG.md         # Candidate frameworks pending build (2026-07-09 gap analysis)
 ├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
+├── SOURCE-VALIDATION-LOG.md     # Citation audit record: findings and resolutions (2026-08-12)
 ├── product-marketing-kb-task.md # Original task specification (reference)
 │
 ├── frameworks/                  # Framework, methodology, and model files by workflow category
@@ -169,6 +170,8 @@ Not yet created: `case-studies/`, `archived/`. See PLAN.md for the roadmap; don'
 - [ ] Metrics and numbers are specific, not vague
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
+- [ ] **Every fact, figure, quote, or attribution is cited.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source: a "Further reading" line, an inline citation with author/title/year, or a named report. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for the standard this follows and worked examples of both citations and hedged rewrites.
+- [ ] **Fictional example companies are explicitly labelled as fictional.** An invented company used to illustrate a framework (as opposed to a real, verifiably-sourced case study) must say so in its first mention, e.g. "a fictional B2B SaaS company called X" or "X, a fictional Y." Don't leave an invented name unlabelled, even if the scenario is clearly illustrative to the author; a future reader may not know.
 
 ### Before Publishing Templates
 
