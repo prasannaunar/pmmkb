@@ -16,6 +16,16 @@ a primer). Follow CLAUDE.md's Writing Standards and Content Types sections:
 declare `**Type:**` under the H2 title, use that type's section order, hit
 the word-count target, British English, no em dashes.
 
+Cite every real-world fact as you write it, don't leave it for a later pass:
+a framework's origin (who created it, what book/article, what year) needs a
+"Further reading" line or an inline citation; any statistic or benchmark
+presented as general fact needs a named source or a hedge ("commonly cited
+as..."); any named real company, person, or quote needs the same. If the
+example is an invented company rather than a sourced real case study, label
+it explicitly as fictional on first mention. See
+[SOURCE-VALIDATION-LOG.md](../../../SOURCE-VALIDATION-LOG.md) for the
+standard and worked examples.
+
 ## 2. INDEX.md
 
 Add a row to the entry's category table: Entry, Type, one-line Description.
@@ -60,4 +70,4 @@ queue file.
 
 Before finishing, go through CLAUDE.md's "Before Publishing Framework
 Changes" checklist, including the cross-doc consistency check this skill just
-walked through.
+walked through and the citation / fictional-labelling checks.

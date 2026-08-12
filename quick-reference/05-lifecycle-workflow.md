@@ -1,6 +1,6 @@
 # Quick Reference: Lifecycle & Workflow
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow.md](../frameworks/05-lifecycle-workflow.md).
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow.md](../frameworks/05-lifecycle-workflow.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
 
 ## Contents
 

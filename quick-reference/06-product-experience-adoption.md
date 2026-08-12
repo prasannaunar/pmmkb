@@ -1,6 +1,6 @@
 # Quick Reference: Product Experience & Adoption
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/06-product-experience-adoption.md](../frameworks/06-product-experience-adoption.md).
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/06-product-experience-adoption.md](../frameworks/06-product-experience-adoption.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
 
 ## Contents
 
