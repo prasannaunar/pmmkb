@@ -1,6 +1,6 @@
 # Quick Reference: Concepts (Primers)
 
-Condensed summaries of primers. For full detail see [concepts/gtm-strategy-vs-product-marketing.md](../concepts/gtm-strategy-vs-product-marketing.md).
+Condensed summaries of primers. For full detail see [concepts/gtm-strategy-vs-product-marketing.md](../concepts/gtm-strategy-vs-product-marketing.md). Sourcing notes for any claims below are documented in that file, not repeated here.
 
 ## GTM Strategy vs Product Marketing
 

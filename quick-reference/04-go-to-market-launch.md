@@ -1,6 +1,6 @@
 # Quick Reference: Go-to-Market & Launch
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch.md](../frameworks/04-go-to-market-launch.md).
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch.md](../frameworks/04-go-to-market-launch.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
 
 ## Contents
 

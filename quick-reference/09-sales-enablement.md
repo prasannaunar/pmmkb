@@ -1,6 +1,6 @@
 # Quick Reference: Sales Enablement
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement.md](../frameworks/09-sales-enablement.md).
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement.md](../frameworks/09-sales-enablement.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
 
 ## Contents
 
@@ -102,7 +102,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 **Success metrics:**
 - Competitive win rate against the named competitor (one company rose from 40% to 58% in a quarter)
 - Sales cycle length in contested deals (fell from 61 to 44 days in the example)
-- Reference-call request rate as a proxy for reps actually using the card (reached 70% of contested deals)
+- Reference-call request rate as a proxy for reps actually using the card (reached 70% of contested deals in the example)
 
 ---
 
