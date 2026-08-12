@@ -32,7 +32,7 @@ The standard template structure is:
 
 **Example:** 
 
-Hound, a Series A prospecting platform, spent its first eighteen months positioned generically as "an all-in-one sales intelligence tool," a category description shared by more than a dozen well-funded competitors. Win rate against those competitors sat at 19%, and sales cycles averaged 54 days, largely because reps spent the first two calls simply explaining what made Hound different.
+Hound, a fictional Series A prospecting platform, spent its first eighteen months positioned generically as "an all-in-one sales intelligence tool," a category description shared by more than a dozen well-funded competitors. Win rate against those competitors sat at 19%, and sales cycles averaged 54 days, largely because reps spent the first two calls simply explaining what made Hound different.
 
 The marketing team ran Moore's framework with input from the five reps who had closed the most deals over the prior two quarters, pulling language directly from won-deal call recordings rather than the product roadmap. The resulting statement:
 
@@ -43,7 +43,7 @@ Within one quarter of retraining the sales team on this statement and updating t
 Another classic example:
 > "For customers who are unsatisfied with traditional car rental services, Avis is an alternative to Hertz that tries harder."
 
-This 1962 tagline, developed decades before Moore's book, is often cited as an early proof that the format works: it names a customer tension (dissatisfaction with the market leader), a category, a named competitor, and a single differentiator, all inside one sentence.
+This 1962 tagline, developed decades before Moore's book by the Doyle Dane Bernbach agency (creative direction by William Bernbach, copy by Paula Green, art direction by Helmut Krone) for Avis's "We Try Harder" campaign, is often cited as an early proof that the format works: it names a customer tension (dissatisfaction with the market leader), a category, a named competitor, and a single differentiator, all inside one sentence.
 
 **Pitfalls:**
 - **Being too broad.** Targeting "everyone" or using vague customer descriptions defeats the focus of the framework. A statement that could apply to any company in the category persuades nobody, because the reader has to do the work of figuring out whether it is relevant to them at all. Recovery: rewrite the target customer line around one real account you have closed or lost, then generalise outward only as far as the need and buying context still genuinely hold true.
@@ -83,7 +83,7 @@ This 1962 tagline, developed decades before Moore's book, is often cited as an e
 
 **Example:**
 
-Flowlist, a mid-market project management tool, spent its first two years positioned against Asana and Monday.com purely on price, a strategy that worked while it was the cheapest option but collapsed once two lower-priced competitors entered the market. Win rate against these new entrants fell to 22% within two quarters.
+Flowlist, a fictional mid-market project management tool, spent its first two years positioned against Asana and Monday.com purely on price, a strategy that worked while it was the cheapest option but collapsed once two lower-priced competitors entered the market. Win rate against these new entrants fell to 22% within two quarters.
 
 Running Dunford's canvas, the team mapped:
 - **Competitive Set:** Asana, Monday.com, Jira, Microsoft Project, spreadsheets, and, for the newest and smallest customers, doing nothing formal at all
@@ -131,7 +131,7 @@ Flowlist validated the compelling reason with eight target customers before roll
 
 **Example:**
 
-Timeframe, a time-tracking tool for professional services firms, launched with generic positioning built around its feature set ("accurate, one-click time tracking with client billing integration") and struggled to differentiate from a dozen category competitors offering near-identical feature lists. Customer interviews revealed the product was actually being bought for a job the team had not explicitly designed messaging around.
+Timeframe, a fictional time-tracking tool for professional services firms, launched with generic positioning built around its feature set ("accurate, one-click time tracking with client billing integration") and struggled to differentiate from a dozen category competitors offering near-identical feature lists. Customer interviews revealed the product was actually being bought for a job the team had not explicitly designed messaging around.
 
 For a time-tracking tool, the JTBD might be: "I need to understand how my team spends their time so I can allocate resources fairly and avoid burnout."
 
@@ -198,7 +198,7 @@ Within two quarters, trial-to-paid conversion rose from 11% to 17%, and win/loss
 
 **Example:**
 
-Peoplebase, a SaaS HR tool for mid-market startups, had grown to 200 customers largely through inbound demand but was starting to lose competitive deals to larger incumbents; win/loss interviews showed prospects describing Peoplebase as "a nice-to-have, not essential," despite strong product reviews. The team ran a Value Proposition Canvas to find out why the messaging wasn't converting the value customers actually experienced.
+Peoplebase, a fictional SaaS HR tool for mid-market startups, had grown to 200 customers largely through inbound demand but was starting to lose competitive deals to larger incumbents; win/loss interviews showed prospects describing Peoplebase as "a nice-to-have, not essential," despite strong product reviews. The team ran a Value Proposition Canvas to find out why the messaging wasn't converting the value customers actually experienced.
 
 For a SaaS HR tool targeting mid-market startups:
 
@@ -328,6 +328,8 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 **Cadence & ownership:** PMM authors and owns the required-capability list, the differentiator mapping, and the quantified value figures; sales leadership and enablement own training delivery, role-play cadence, and CRM adoption. This is a genuine split of ownership, not a hand-off: PMM keeps the value figures current as new customer outcomes and competitor moves arrive, and sales owns getting reps to actually use the structure live. Refresh the required-capability list and value figures quarterly, aligned with the Competitive Intelligence & Positioning Update Framework's cadence, and refresh immediately whenever a named competitor changes their pitch or a new customer outcome produces a stronger value figure than the one currently in use.
 
 **Example:** Vantree, a fictional supply-chain visibility SaaS company, found through win/loss interviews that reps were losing 60% of competitive deals against one incumbent despite product reviews rating Vantree's core feature, exception alerting, more favourably. Discovery calls showed reps demoing every feature in sequence rather than anchoring on the buyer's stated cost of missed shipments. PMM built a Command of the Message structure for the incumbent-competitive scenario: required capabilities (real-time exception visibility, carrier-agnostic tracking, audit-ready reporting), differentiators against the named incumbent (alerts fire an average of 6 hours earlier, based on a sample of 40 customer accounts), and quantified value (each hour of earlier warning on a delayed shipment avoided an average of $1,800 in expedite fees, drawn from three reference customers who had measured it). Sales enablement ran two role-play sessions per team before rollout. Within one quarter, win rate against the named incumbent rose from 24% to 39%, and CRM data showed deals where reps logged use of the quantified $1,800 figure closed at a 51% rate versus 28% for deals where they did not, giving PMM direct evidence the value case, not just the training, was driving the improvement. Average deal size in contested deals also rose 12%, as the value conversation shifted proposals away from feature-based discounting.
+
+**Further reading:** Force Management (founded 2002), whose sales-process origins and Command of the Message programme are documented at forcemanagement.com, e.g. "What's the Meaning of Command of the Message?" (forcemanagement.com/blog).
 
 **Pitfalls:**
 - **Treating it as a rebrand of the messaging house rather than its live-conversation layer.** Teams sometimes build a second, competing set of pillars under the Command of the Message name, which reintroduces the exact inconsistency the messaging house was built to prevent. Recovery: audit any Command of the Message material against the messaging house before publishing; every required capability and differentiator should trace back to an existing pillar, not invent a new one.
