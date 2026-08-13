@@ -26,24 +26,24 @@ Start with [ONBOARDING.md](ONBOARDING.md); it has a role-based reading list (Pos
 
 ## What's Inside
 
-### 54 Entries Across 9 Categories, Plus a Concepts Area
+### 60 Entries Across 9 Categories, Plus a Concepts Area
 
-This knowledge base contains 54 proven product marketing entries (35 frameworks, 12 methodologies, 6 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
+This knowledge base contains 60 proven product marketing entries (28 frameworks, 24 methodologies, 7 models, and 1 primer), organised by where they apply in the product marketing workflow. Each entry declares a **Type** (Framework, Methodology, Model, or Primer); see [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|-----------|------|
 | 1 | Market & Customer Understanding | 7 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 10 | `frameworks/02-positioning-messaging.md` |
+| 2 | Positioning & Messaging | 12 | `frameworks/02-positioning-messaging.md` |
 | 3 | Competitive Strategy | 4 | `frameworks/03-competitive-strategy.md` |
-| 4 | Go-to-Market & Launch | 9 | `frameworks/04-go-to-market-launch.md` |
+| 4 | Go-to-Market & Launch | 11 | `frameworks/04-go-to-market-launch.md` |
 | 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
 | 6 | Product Experience & Adoption | 5 | `frameworks/06-product-experience-adoption.md` |
-| 7 | Strategy & Planning | 5 | `frameworks/07-strategy-planning.md` |
+| 7 | Strategy & Planning | 7 | `frameworks/07-strategy-planning.md` |
 | 8 | Pricing & Packaging | 6 | `frameworks/08-pricing-packaging.md` |
 | 9 | Sales Enablement | 4 | `frameworks/09-sales-enablement.md` |
 | — | Concepts (primers; not applyable, so not a workflow category) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 
-See [INDEX.md](INDEX.md) for the full taxonomy, now with a dedicated Type column on every table. All 12 candidates from the 2026-07-09 gap analysis in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) are now built.
+See [INDEX.md](INDEX.md) for the full taxonomy, now with a dedicated Type column on every table. All 12 candidates from the 2026-07-09 gap analysis in [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and all 6 approved candidates from the 2026-08-13 gap analysis in [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md) are now built.
 
 ---
 
@@ -104,7 +104,7 @@ Every entry is designed to be **read standalone**, but entries often build on on
 
 ## Key Documents
 
-- **[INDEX.md](INDEX.md)**: Full taxonomy; all 54 entries with one-line descriptions
+- **[INDEX.md](INDEX.md)**: Full taxonomy; all 60 entries with one-line descriptions
 - **[FRAMEWORK-MAP.md](FRAMEWORK-MAP.md)**: Visual dependency map showing framework relationships and workflow sequences (NEW: 2026-04-09)
 - **[BY-SITUATION.md](BY-SITUATION.md)**: Map your challenge to the frameworks that apply (in progress)
 - **[decision-trees.md](decision-trees.md)**: Symptom-to-situation triage tool; branching questions for when you don't yet know which BY-SITUATION.md situation applies (NEW: 2026-08-01)
@@ -115,7 +115,7 @@ Every entry is designed to be **read standalone**, but entries often build on on
 - **[SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md)**: Citation audit across every entry in `frameworks/`, `concepts/`, `quick-reference/`, `GLOSSARY.md`, and `templates/`; records what was found and how it was resolved (NEW: 2026-08-12)
 - **[FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md)**: Candidate frameworks identified through gap analysis; all 12 candidates now built, the last three (Analyst Relations Tiering & Cadence Model, Pragmatic Institute Framework, Sean Ellis 40% Test) on 2026-07-30, completing the queue (NEW: 2026-07-09)
 - **[ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)**: Approved build queue of 19 further frameworks and methodologies; all 19 built as of 2026-07-28, plus the plan for documenting methodologies consistently in a framework-first KB (NEW: 2026-07-21)
-- **[EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md)**: Candidate queue sourced from a 14-repo external GitHub research pass; 6 candidates approved and flagged to build next session, 1 rejected (NEW: 2026-08-13)
+- **[EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md)**: Candidate queue sourced from a 14-repo external GitHub research pass; all 6 approved candidates built 2026-08-13, 1 rejected (logged 2026-08-13)
 - **[concepts/](concepts/)**: Primers; explainers that build understanding but are not something you "apply" (NEW: 2026-07-22)
 - **[CLAUDE.md](CLAUDE.md)**: Working principles and writing standards for this knowledge base
 - **[GLOSSARY.md](GLOSSARY.md)**: PMM terminology and definitions; 45+ terms grouped by theme, plus an acronym quick-lookup table (NEW: 2026-07-31)
@@ -191,10 +191,11 @@ Frameworks are version-controlled. Propose a change with a clear justification i
 - **measurement-guide.md added (PLAN.md's Phase 3.4 deliverable; a baseline metric, reporting cadence, and owner for all 54 entries plus the primer, plus a seven-metric roll-up dashboard):** 2026-08-02
 - **Source-validation pass completed across every entry in `frameworks/`, `concepts/`, `quick-reference/`, `GLOSSARY.md`, and `templates/`: 42 uncited claims found and resolved (citations added or claims hedged/reworded), 14 previously-unlabelled fictional example companies explicitly marked as fictional; see [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md):** 2026-08-12
 - **PMM vs GTM Scope north-star added to CLAUDE.md, plus a required Ownership field retrofitted onto all 41 Framework/Model entries; a 14-repo external gap analysis logged a new candidate queue with 6 approved additions (see [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md)):** 2026-08-13
+- **Built all 6 approved EXTERNAL-REPO-GAP-ANALYSIS.md candidates, completing that queue in full:** Vertical/Segment Messaging via Buying Trigger and Andy Raskin's Strategic Narrative Framework added to Category 2; Pre-mortem and Account-Based Everything (ABX) / TEAM Framework added to Category 4; Playing to Win (Strategic Choice Cascade) and the MOVE GTM Diagnostic added to Category 7: 2026-08-13
 - **Last Updated:** 2026-08-13
-- **Total entries:** 54 (35 frameworks, 12 methodologies, 6 models, 1 primer, all cross-linked and source-validated); both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md)); a new queue of 6 further approved candidates awaits building (see [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md))
-- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology; Sean Ellis 40% Test); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit)); `frameworks/03-competitive-strategy.md` (Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `frameworks/07-strategy-planning.md` (Analyst Relations Tiering & Cadence Model; Pragmatic Institute Framework); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model; MEDDIC/MEDDPICC; Competitive Battlecard Framework and Buyer's Journey Content Map, consolidated here 2026-07-30 from Category 3 and Category 5 respectively)
-- **Status:** Content complete, quality-assured, and source-validated; both the ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md queues are fully built, and all housekeeping deferred from those builds is complete as of 2026-07-30; PLAN.md's Phase 1-2 operational tooling (quick-reference cards, GLOSSARY.md, templates, onboarding) is now built as of 2026-07-31 (see [PROGRESS.md](PROGRESS.md)); the full-repository citation audit is complete as of 2026-08-12 (see [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md)); a "PMM vs GTM Scope" north-star and Ownership field were added 2026-08-13, and a new 6-candidate build queue is open (see [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md)); next phase is building that queue, public release readiness, and running the feedback/review cadence as an ongoing practice (see [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
+- **Total entries:** 60 (28 frameworks, 24 methodologies, 7 models, 1 primer, recounted directly from INDEX.md's Type columns during this build; corrects a stale "39/13/7" split carried forward from an already-inaccurate pre-2026-08-13 baseline, all cross-linked and source-validated); the ENRICHMENT-PLAN.md, FRAMEWORK-BACKLOG.md, and EXTERNAL-REPO-GAP-ANALYSIS.md queues are all fully built (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md), [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), and [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md)); no candidate queue remains open
+- **New Additions:** `frameworks/01-market-customer-understanding.md` (Voice of the Customer Programme; JTBD Switch Interview Method; ICP Development Methodology; Sean Ellis 40% Test); `frameworks/02-positioning-messaging.md` (Message Architecture / Messaging House; Dunford's 10-Step Positioning Process; Command of the Message; Features-Advantages-Benefits (FAB) Ladder; StoryBrand SB7 Framework; Message Testing (Message-Market Fit); Vertical/Segment Messaging via Buying Trigger; Andy Raskin's Strategic Narrative Framework); `frameworks/03-competitive-strategy.md` (Perceptual Map; Category Design); `frameworks/04-go-to-market-launch.md` (GTM Motion Model; Product-Led Growth; Bullseye Framework; Launch Tier Framework; Account-Based Everything (ABX) / TEAM Framework; Pre-mortem); `frameworks/06-product-experience-adoption.md` (Kano Model; Forrester Customer Advocacy Model); `frameworks/07-strategy-planning.md` (Analyst Relations Tiering & Cadence Model; Pragmatic Institute Framework; Playing to Win (Strategic Choice Cascade); MOVE GTM Diagnostic); `concepts/gtm-strategy-vs-product-marketing.md` (GTM Strategy vs Product Marketing primer); `frameworks/08-pricing-packaging.md` (Good-Better-Best Packaging Framework; Van Westendorp Price Sensitivity Meter; Value Metric / Willingness-to-Pay Framework; Conjoint Analysis; Gabor-Granger Method; Usage-Based (Consumption) Pricing Model); `frameworks/09-sales-enablement.md` (Sales Enablement Maturity Model; MEDDIC/MEDDPICC; Competitive Battlecard Framework and Buyer's Journey Content Map, consolidated here 2026-07-30 from Category 3 and Category 5 respectively)
+- **Status:** Content complete, quality-assured, and source-validated; the ENRICHMENT-PLAN.md, FRAMEWORK-BACKLOG.md, and EXTERNAL-REPO-GAP-ANALYSIS.md queues are all fully built as of 2026-08-13, and all housekeeping deferred from earlier builds is complete as of 2026-07-30; PLAN.md's Phase 1-2 operational tooling (quick-reference cards, GLOSSARY.md, templates, onboarding) was built as of 2026-07-31 and still covers the original 54 entries only, the 6 entries added 2026-08-13 do not yet have quick-reference cards, GLOSSARY.md terms, or a measurement-guide.md row, tracked as a Next Session Priority in [PROGRESS.md](PROGRESS.md); the full-repository citation audit is complete as of 2026-08-12 (see [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md)); no candidate queue remains open; next phase is the quick-reference/GLOSSARY/measurement-guide catch-up for the 6 newest entries, public release readiness, and running the feedback/review cadence as an ongoing practice (see [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
 
 ---
 

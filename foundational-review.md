@@ -1,7 +1,7 @@
 # Foundational Quality Review: PMMKB Framework Validation
 
 **Review Date:** 2026-04-09  
-**Scope:** All 19 frameworks across 7 categories (the knowledge base's original set; it has since grown to 54 entries across 9 categories plus a concepts area, none of which this review covers)  
+**Scope:** All 19 frameworks across 7 categories (the knowledge base's original set; it has since grown to 60 entries across 9 categories plus a concepts area, none of which this review covers)  
 **Status:** Historical snapshot; findings below were actioned at the time and are not a current audit  
 **Next Steps:** Full improvements to be made following approval
 
