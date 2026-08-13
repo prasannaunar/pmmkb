@@ -42,6 +42,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Build the activation moment, product-qualified lead signals, and in-product upgrade path this launch's self-serve funnel depends on
    - *Do this alongside step 6:* Instrument activation and PQL tracking before launch traffic arrives, not after conversion looks weak
 
+5a-alt. **Account-Based Everything (ABX) / TEAM Framework** (`Category 4`); *if the motion selected above is field sales for a committee-driven deal*
+   - *Why:* Tier the named target-account universe and build role-specific content for the buying committee this launch's field-sales motion depends on, PLG's structural mirror for the enterprise side
+   - *Do this alongside step 6:* Complete account tiering and Tier 1 committee-role content before sales activation begins on the launch
+
 5b. **Bullseye Framework** (`Category 4`); *optional*
    - *Why:* Brainstorm across the 19 candidate acquisition channels and cheaply test three or four within the motion selected in step 5, so the primary channel this launch commits budget to is evidenced, not assumed
    - *Do this alongside step 6:* Complete unpaid, time-boxed tests before Complete GTM Workflow's Phase 2 commits real spend to a single channel
@@ -57,6 +61,14 @@ Map your current challenge to the frameworks that will help you solve it.
 5e. **Message Testing (Message-Market Fit)** (`Category 2`); *optional, recommended for Tier 1 launches*
    - *Why:* Test the headline or homepage copy produced in steps 5c and 5d against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, rather than shipping on internal preference
    - *Do this alongside step 6:* Run with at least two candidate versions and build in a three-to-five-business-day turnaround before the launch date
+
+5f. **Andy Raskin's Strategic Narrative Framework** (`Category 2`); *optional, for a category-defining or Tier 1 launch with a keynote, pitch deck, or analyst narrative attached*
+   - *Why:* Build the market-shift narrative arc (change → winners/losers → promised land → obstacles → magic gifts → proof) that a keynote or category-launch deck needs, distinct from the homepage-level story StoryBrand SB7 produces in step 5d
+   - *Do this alongside step 6:* Ground the "big change" claim in an independently verifiable source before it goes into any external deck
+
+5g. **Pre-mortem** (`Category 4`); *optional, recommended for Tier 1 launches*
+   - *Why:* Surface concrete, specific failure risks before the launch ships, ranked by severity and likelihood, with an owner and mitigation assigned to each, rather than discovering them in production
+   - *Do this once the launch plan is largely built, before step 6's Launch phase begins:* Run with the full cross-functional launch team, using Klein's silent-brainstorm-first structure
 
 6. **Complete GTM Workflow Stages** (`Category 4`)
    - *Why:* Sequence all launch activities across foundation, launch, scale, and optimise phases
@@ -83,6 +95,10 @@ Map your current challenge to the frameworks that will help you solve it.
 **The Challenge:** You're expanding into a new geography, industry, or customer size. You don't yet know if your current positioning and messaging will resonate.
 
 **Apply These Frameworks (In Order):**
+
+0. **Playing to Win (Strategic Choice Cascade)** (`Category 7`); *optional, run first if the decision to enter this market has not yet been strategically framed*
+   - *Why:* "Where to play" is one of the cascade's five explicit choices; running it before segment validation forces the team to also name how it will win there and what capabilities that requires, rather than validating a segment first and improvising a strategy around it afterwards
+   - *Do this before step 1:* Name the segment as a deliberate choice, including which other plausible segments are being explicitly ruled out for now
 
 1. **Product Development Stage Framework** (`Category 1`)
    - *Why:* Conduct discovery to validate that the market actually has the problem you're solving
@@ -115,6 +131,10 @@ Map your current challenge to the frameworks that will help you solve it.
 6a. **JTBD Switch Interview Method** (`Category 1`)
    - *Why:* You do not yet know this segment well; ten switch interviews with recent buyers surfaces the real triggering event behind a purchase, not an assumed one
    - *Do this alongside step 6:* Interview customers who switched to you in the last 1-3 months, walking backwards from the purchase moment
+
+6b. **Vertical/Segment Messaging via Buying Trigger** (`Category 2`); *optional, if the company already serves other segments with a locked core message*
+   - *Why:* Rather than writing new positioning from scratch for the new segment, route its specific buying-trigger event to the existing pillar that answers it most directly, keeping the new segment's messaging provably consistent with the core message
+   - *Do this alongside step 5:* Source the trigger from win/loss interviews and recent closed-deal notes in the new segment, not an internal guess
 
 7. **Bowman's Strategic Clock** (`Category 3`)
    - *Why:* Map competitive positions in the new market and choose your strategy
@@ -528,6 +548,10 @@ Map your current challenge to the frameworks that will help you solve it.
 4a. **Pragmatic Institute Framework** (`Category 7`); *optional, for a post-launch commercial health check*
    - *Why:* Beyond win rate and sales cycle, confirm a product or portfolio's revenue and margin still track the original business case, and that a pricing health review is happening on a standing cadence rather than only when someone opens an ad hoc pricing project
    - *Do this alongside step 2:* Score the Business boxes (revenue-versus-business-case, pricing health) and the Enablement boxes (certification, channel roll-out) as a scorecard, not a one-off audit
+
+4b. **MOVE GTM Diagnostic** (`Category 7`); *optional, if growth has stalled and leadership disagrees on why*
+   - *Why:* Score the four sequential revenue-engine motions (Make/Sell, Sell/Deliver, Deliver/Renew, Renew/Expand) to find which specific handoff is the binding constraint, rather than resourcing whichever function argues most persuasively that the problem sits elsewhere
+   - *Do this alongside step 2, quarterly:* Score the fit-stage layer honestly against retention and expansion evidence before reading the four-motion scores, and sequence any fix upstream-first when more than one motion scores weak
 
 **Success Metrics:**
 - Win rate tracked and trending up (e.g., +10 points YoY) ✓

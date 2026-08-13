@@ -1,7 +1,7 @@
 # External Repo Gap Analysis: Candidates Sourced from GitHub
 
 **Logged:** 2026-08-13
-**Status:** 🟡 **Verdicts final, nothing built yet.** Candidates 1-4 are approved and queued to build (curator decision, 2026-08-13). Candidates 5-7 carried open questions at first logging; a follow-up web research pass (2026-08-13 addendum, see each entry) resolved all three: 5 and 6 are now approved, reframed based on what the follow-up research found; 7 is rejected. The write-ups themselves (the actual 6-section entries) still happen in a future session, per CLAUDE.md's "Add new frameworks only if a gap is identified" rule and its full Quality Gates checklist (source citation, Ownership field, cross-doc consistency).
+**Status:** ✅ **Fully built as of 2026-08-13.** All 6 approved candidates below were written up the same day they were approved, following the CLAUDE.md structure and the full Quality Gates checklist (source citation, Ownership or Cadence & ownership field, fictional-example labelling, cross-doc consistency). Candidate 7 (RICE Prioritization) remains rejected; see its entry below.
 **See also:** [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md) and [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), the two prior candidate queues (both fully built). This document follows the same ranked-candidate format. It also assumes the "PMM vs GTM Scope" north-star and the Ownership-field requirement added to CLAUDE.md on 2026-08-13; every candidate below has already been screened against both.
 
 ---
@@ -37,7 +37,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 
 ## Ranked candidates
 
-### 1. Vertical/Segment Messaging via Buying Trigger — ✅ **Approved, queued to build**
+### 1. Vertical/Segment Messaging via Buying Trigger — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Framework template. ~1,580 words; cross-linked to Message Architecture (Messaging House), STP, Command of the Message, and the Buyer's Journey Content Map.
 - **Source:** matteotitta/genesys-skills (30★), `skills/primitives/product-marketing/strategy/vertical-messaging/SKILL.md`
 - **Originator/lineage:** Diane Wiredu, founder of Lion Words (lionwords.com), a practicing B2B/SaaS messaging strategist. Credited by name in the source file; confirmed as a real, independently documented practitioner via web search.
 - **What it does:** Adapts an already-locked core messaging library across market segments/verticals without rebuilding it from scratch. For each segment, identifies the specific buying-trigger event, routes the buyer to one leading message pillar from the existing core message, and writes a short entry-point message. Produces a segment-to-pillar routing map.
@@ -46,7 +47,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 - **Inclusion-test:** Pass. A PMM plausibly owns this exercise and produces the routing map directly.
 - **Confidence:** High.
 
-### 2. Andy Raskin's Strategic Narrative Framework — ✅ **Approved, queued to build**
+### 2. Andy Raskin's Strategic Narrative Framework — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 2 (Positioning & Messaging), `frameworks/02-positioning-messaging.md`, using the Framework template. ~1,770 words; cross-linked to StoryBrand SB7 Framework, Category Design, Message Architecture (Messaging House), and Command of the Message. The Ownership section carries the scoping caveat flagged below: PMM owns the launch/category narrative by default, the investor-facing version is typically CEO/founder-led.
 - **Source:** matteotitta/genesys-skills (30★), `skills/research/expert-pov/SKILL.md` (cited in its "OBI frameworks" reference table)
 - **Originator/lineage:** Andy Raskin, strategic narrative consultant. Codified in his 2016 essay "The Greatest Sales Deck I've Ever Seen" (2M+ views); widely cited and taught since (Lenny's Newsletter and multiple public case studies).
 - **What it does:** A narrative-construction method for a company/product story: name a big change in the world, cast winners and losers, reveal a "promised land," identify obstacles, offer "magic gifts" (capabilities), then prove it with evidence. Leads with an external market shift rather than the product itself.
@@ -55,7 +57,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 - **Inclusion-test:** Pass, with a caveat worth the curator's attention: this framework is traditionally associated more with CEO/founder fundraising narrative than day-to-day PMM output. It clears the bar because a PMM plausibly owns the launch/category narrative deck at most companies, but confirm that framing explicitly in the Ownership section if built, rather than implying PMM always leads it.
 - **Confidence:** High, with a scoping caveat.
 
-### 3. Playing to Win (Strategic Choice Cascade) — ✅ **Approved, queued to build**
+### 3. Playing to Win (Strategic Choice Cascade) — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 7 (Strategy & Planning), `frameworks/07-strategy-planning.md`, as the new first entry in that file, using the Framework template. ~1,660 words; cross-linked to Quarterly PMM Planning Framework, Pragmatic Institute Framework, STP, and PMM Team Scaling Framework.
 - **Source:** stefanoskarakasis/Product-Marketing-Skills (5★), cited in README.md credits (not implemented as a working skill in the repo, cited as inspiration/further-reading only)
 - **Originator/lineage:** A.G. Lafley (former P&G CEO) and Roger L. Martin, *Playing to Win: How Strategy Really Works* (Harvard Business Review Press, 2013). Well-documented, widely taught strategy framework.
 - **What it does:** A five-question cascade (winning aspiration, where to play, how to win, capabilities needed, management systems) that forces explicit, mutually reinforcing strategic choices, rather than a list of disconnected goals.
@@ -64,7 +67,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 - **Inclusion-test:** Pass. A PMM plausibly leads or co-leads a "where to play / how to win" exercise for a product line or segment, even where the exec team signs off on the final answer.
 - **Confidence:** High.
 
-### 4. Pre-mortem (Gary Klein) — ✅ **Approved, queued to build**
+### 4. Pre-mortem (Gary Klein) — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 4 (Go-to-Market & Launch), `frameworks/04-go-to-market-launch.md`, as the new last entry, using the Framework template. ~1,525 words; cross-linked to the Launch Tier Framework, Win/Loss Analysis Framework, 10-Step PMM Process, and Complete GTM Workflow Stages. Built into Category 4 (the curator's-call alternative, generic Category 7 placement, was not used, since the launch-specific framing read more naturally alongside the Launch Tier Framework).
 - **Source:** stefanoskarakasis/Product-Marketing-Skills (5★), `pmm-execution/skills/pre-mortem/SKILL.md`, also credited by name in README.md
 - **Originator/lineage:** Gary Klein, cognitive psychologist. Published as "Performing a Project Premortem," *Harvard Business Review*, September 2007. Well-established, frequently cited risk-identification technique.
 - **What it does:** A structured exercise run before a major launch or initiative: generate concrete failure narratives by imagining the initiative has already failed, classify the risks by severity, assign owners and mitigations, and produce a go/no-go recommendation.
@@ -73,7 +77,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 - **Inclusion-test:** Pass. A PMM plausibly facilitates a pre-mortem ahead of a Tier 1 launch, even if engineering/product leadership supplies the failure scenarios.
 - **Confidence:** High.
 
-### 5. Account-Based Everything (ABX) / TEAM Framework — ✅ **Approved, queued to build (reframed)**
+### 5. Account-Based Everything (ABX) / TEAM Framework — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 4 (Go-to-Market & Launch), `frameworks/04-go-to-market-launch.md`, placed immediately after Product-Led Growth per the build-sequencing note below, using the Methodology template. ~1,635 words; cross-linked to the GTM Motion Model, Product-Led Growth, ICP Development Methodology, Buyer's Journey Content Map, Competitive Battlecard Framework, and MEDDIC/MEDDPICC.
 - **Source:** yannickYamo/skills (20★), `skills/abx-strategy/SKILL.md`
 - **Originator/lineage — corrected by the 2026-08-13 addendum research:** the citable source is **Sangram Vajre and Eric Spett, *ABM is B2B.: Why B2B Marketing and Sales is Broken and How to Fix It*** (Ideapress Publishing, 2019), not the *MOVE* book. This is where the TEAM framework (Target, Engage, Activate, Measure) is actually documented; Vajre is also co-founder of Terminus and author of the earlier *Account-Based Marketing For Dummies* (2016). Build from the book's TEAM structure directly. **Drop the source skill file's uncredited sub-tools** (PURE scoring, "Bet Board," the 5-motion DETECT→EXPAND model) — confirmed via this research pass to be the repo author's own inventions layered on top of Vajre's real method, with no external citation of their own.
 - **What it does:** A GTM approach for complex B2B sales (small addressable account universe, high deal size, multi-stakeholder buying committees): select and tier target accounts, engage the full buying committee in a coordinated way, activate sales on accounts showing intent, and measure success against account-level business outcomes rather than lead-volume vanity metrics.
@@ -82,7 +87,8 @@ The repo owner asked for a scan of the broader GitHub ecosystem covering PMM and
 - **Inclusion-test:** Pass. PMM commonly owns account tiering criteria, messaging, and content strategy for the Target and Engage steps; execution of outbound sequencing and rep-level activation sits with sales/SDR, consistent with how PLG already splits ownership with product management.
 - **Confidence:** High (upgraded from Medium — the citation is now solid and the overlap question is resolved).
 
-### 6. MOVE GTM Diagnostic (4-Question GTM Framework) — ✅ **Approved, queued to build**
+### 6. MOVE GTM Diagnostic (4-Question GTM Framework) — ✅ **BUILT (2026-08-13)**
+- **Built as:** Category 7 (Strategy & Planning), `frameworks/07-strategy-planning.md`, as the new last entry, using the Model template. ~1,690 words; cross-linked to the GTM Motion Model, Account-Based Everything (ABX) / TEAM Framework (the entry's text explicitly flags the two distinct Vajre-authored source books, per the sequencing note below), 10-Step PMM Process, Quarterly PMM Planning Framework, Customer Onboarding Maturity Framework, and Feature Adoption Framework.
 - **Source:** swan-gtm/gtm-skills, `skills/sangram-vajre/move-gtm-diagnostic/SKILL.md`
 - **Originator/lineage — confirmed by the 2026-08-13 addendum research:** **Sangram Vajre and Bryan Brown, *MOVE: The 4-Question Go-to-Market Framework*** (Lioncrest Publishing, 2021). The earlier citation gap (co-author and publisher unconfirmed) is now resolved. Note this is a *different* Vajre book from candidate 5's source (*ABM is B2B.*, co-written with Eric Spett) — the two are related in authorship and theme but are separate, separately citable works; do not conflate them when writing the entry's "Originator" line.
 - **What it does:** A four-question GTM health diagnostic (Market, Operations, Velocity, Expansion), first locating the company in one of three fit stages (Problem-Market Fit / Product-Market Fit / Platform-Market Fit), then identifying which of four GTM motions is broken (make/sell, sell/deliver, deliver/renew, renew/expand) and sequencing fixes.
@@ -120,20 +126,20 @@ Documented for the record so this ground doesn't get re-researched:
 
 ## Notes for whoever builds this queue
 
-**Final build queue (6 approved, ranked by suggested build order):**
+**Final build queue (6 approved, all built 2026-08-13, in the ranked order below):**
 
-| # | Candidate | Category | Type | Originator |
-|---|---|---|---|---|
-| 1 | Vertical/Segment Messaging via Buying Trigger | 2 | Framework | Diane Wiredu (Lion Words) |
-| 2 | Andy Raskin's Strategic Narrative Framework | 2 | Framework | Andy Raskin |
-| 3 | Playing to Win (Strategic Choice Cascade) | 7 | Framework | Lafley & Martin |
-| 4 | Pre-mortem | 4 | Framework | Gary Klein |
-| 5 | Account-Based Everything (ABX) / TEAM Framework | 4 | Methodology | Vajre & Spett |
-| 6 | MOVE GTM Diagnostic | 7 | Model | Vajre & Brown |
+| # | Candidate | Category | Type | Originator | Status |
+|---|---|---|---|---|---|
+| 1 | Vertical/Segment Messaging via Buying Trigger | 2 | Framework | Diane Wiredu (Lion Words) | ✅ Built |
+| 2 | Andy Raskin's Strategic Narrative Framework | 2 | Framework | Andy Raskin | ✅ Built |
+| 3 | Playing to Win (Strategic Choice Cascade) | 7 | Framework | Lafley & Martin | ✅ Built |
+| 4 | Pre-mortem | 4 | Framework | Gary Klein | ✅ Built |
+| 5 | Account-Based Everything (ABX) / TEAM Framework | 4 | Methodology | Vajre & Spett | ✅ Built |
+| 6 | MOVE GTM Diagnostic | 7 | Model | Vajre & Brown | ✅ Built |
 
-**Candidate 7 (RICE Prioritization) is rejected**, not merely deferred; see its entry above for the reasoning (ownership fit, not citation, was the blocker) and the recommended lightweight cross-reference alternative.
+**Candidate 7 (RICE Prioritization) is rejected**, not merely deferred; see its entry above for the reasoning (ownership fit, not citation, was the blocker) and the recommended lightweight cross-reference alternative. That lightweight cross-reference inside the Quarterly PMM Planning Framework was not added in this pass; it remains open for a future session to action if desired.
 
-**Build sequencing note:** candidates 5 and 6 both trace to Sangram Vajre but cite two different books (*ABM is B2B.* for 5, *MOVE* for 6) — write their "Originator" lines independently and do not conflate the two. Building 5 directly after Product-Led Growth in `frameworks/04-go-to-market-launch.md` will read most naturally, since the write-up leans on PLG's existing "operationalises a GTM Motion Model motion" framing as its structural template.
+**Build sequencing note:** candidates 5 and 6 both trace to Sangram Vajre but cite two different books (*ABM is B2B.* for 5, *MOVE* for 6); both entries' text explicitly flags this and cites the two books independently rather than conflating them. Candidate 5 was built directly after Product-Led Growth in `frameworks/04-go-to-market-launch.md`, per this note, leaning on PLG's existing "operationalises a GTM Motion Model motion" framing as its structural template.
 
-- **No entries from this queue should be added without running the full CLAUDE.md Quality Gates checklist**, same as any other addition: British English, no em dashes, the four-type structure with the Ownership field, a real Example (fictional companies labelled as such), actionable Pitfalls, at least two cross-references, and the cross-doc consistency checklist (INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, PROGRESS.md) via the `add-kb-entry` skill.
-- **This queue does not need to be exhausted in one pass.** All open questions from the initial logging (overlap, citation, ownership scoping) are now resolved; what remains is sequencing the actual write-ups across future sessions.
+- **This queue is fully built and closed.** All 6 approved candidates ran the full CLAUDE.md Quality Gates checklist (British English, no em dashes, the matching type template with an Ownership or Cadence & ownership field, a sourced citation for every origin claim, a fictional example company explicitly labelled as such, actionable Pitfalls, at least two cross-references) and the cross-doc consistency checklist (INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, PROGRESS.md) via the `add-kb-entry` skill; see the 2026-08-13 build entry in [PROGRESS.md](PROGRESS.md) for the full per-entry detail and file-by-file changes.
+- **Not yet done for these 6 entries:** quick-reference cards, GLOSSARY.md terms, and a measurement-guide.md row, none of which are covered by the `add-kb-entry` skill's checklist; tracked as a Next Session Priority in PROGRESS.md.
