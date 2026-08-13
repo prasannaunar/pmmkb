@@ -126,6 +126,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── FRAMEWORK-BACKLOG.md         # Candidate frameworks pending build (2026-07-09 gap analysis)
 ├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
 ├── SOURCE-VALIDATION-LOG.md     # Citation audit record: findings and resolutions (2026-08-12)
+├── EXTERNAL-REPO-GAP-ANALYSIS.md # Candidate queue sourced from 14 external GitHub repos (2026-08-13, not yet built)
 ├── product-marketing-kb-task.md # Original task specification (reference)
 │
 ├── frameworks/                  # Framework, methodology, and model files by workflow category
