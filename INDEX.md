@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-07-30 (housekeeping pass: every table below now carries a **Type** column, the `**Type:**` label was backfilled on all 26 pre-existing entries, and the Competitive Battlecard Framework and Buyer's Journey Content Map were consolidated into Category 9; see PROGRESS.md for the full housekeeping log). Content queue: built the tenth, eleventh, and twelfth FRAMEWORK-BACKLOG.md candidates (Analyst Relations Tiering & Cadence Model, Pragmatic Institute Framework, Sean Ellis 40% Test), completing that queue in full; total 51 → 54 entries.
+**Last Updated:** 2026-08-13 (built all 6 approved EXTERNAL-REPO-GAP-ANALYSIS.md candidates: Vertical/Segment Messaging via Buying Trigger and Andy Raskin's Strategic Narrative Framework into Category 2; Pre-mortem and Account-Based Everything (ABX) / TEAM Framework into Category 4; Playing to Win and the MOVE GTM Diagnostic into Category 7; completing that queue in full. Total 54 → 60 entries. See PROGRESS.md for the full build log.)
 
 ---
 
@@ -32,6 +32,8 @@
 | Features-Advantages-Benefits (FAB) Ladder | Framework | Three-step translation technique (feature → advantage → benefit) that turns a single raw feature into a proof point or copy line a buyer would repeat back, applied one level below the messaging house's pillars |
 | StoryBrand SB7 Framework | Framework | Seven-part narrative template (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide, for homepages, video scripts, and founder narratives |
 | Message Testing (Message-Market Fit) | Methodology | Repeatable practice for testing draft messaging against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, popularised by Wynter as "message-market fit" |
+| Vertical/Segment Messaging via Buying Trigger | Framework | Adapts an already-locked core message across segments without rebuilding it: routes each segment's specific buying-trigger event to the one existing Message Architecture pillar that answers it, producing a segment-to-pillar routing map |
+| Andy Raskin's Strategic Narrative Framework | Framework | Company or category-level narrative arc (name a market change, cast winners and losers, reveal a promised land, name the obstacles, offer proven "magic gifts") for pitch decks, keynotes, and category-launch narratives, leading with a market shift rather than the product |
 
 ---
 
@@ -57,8 +59,10 @@
 | T2D3 Framework (B2B SaaS) | Methodology | Go-to-market methodology for B2B SaaS scaling: Triple, Triple, Double, Double, Double revenue growth trajectory |
 | GTM Motion Model | Model | Taxonomy of the five ways a company acquires and expands customers (self-serve, PLG, inside sales, field sales, partner-channel), plotted by deal size and buyer complexity, used to select the motion a launch or GTM plan is built for before sequencing it |
 | Product-Led Growth (PLG) | Methodology | The ongoing practice of running the PLG motion identified by the GTM Motion Model: defining an activation moment, instrumenting product-qualified lead signals, and building in-product upgrade paths that convert self-serve users without a sales conversation |
+| Account-Based Everything (ABX) / TEAM Framework | Methodology | The ongoing practice of running the field-sales motion identified by the GTM Motion Model, PLG's structural mirror for committee-driven deals: Target (tier a named account universe), Engage (role-specific content for the whole buying committee), Activate (route sales on multi-signal intent), Measure (account-level outcomes, not lead volume) |
 | Bullseye Framework (Traction Channel Selection) | Framework | Structured method for picking a single acquisition channel: brainstorm across 19 possible channels, cheaply test three or four in a middle ring, then concentrate budget on the one channel with the strongest early signal |
 | Launch Tier Framework (Tier 1/2/3) | Model | Classifies launches into Tier 1 (major, cross-functional), Tier 2 (significant, single-team), or Tier 3 (minor, routine) by scoring revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, so process and lead time match a launch's actual scope |
+| Pre-mortem | Framework | Pre-launch failure-mode exercise (Gary Klein): imagine the launch has already failed, generate concrete failure reasons via individual silent brainstorm, rank by severity and likelihood, assign owners and mitigations, and produce a go/no-go recommendation |
 
 ---
 
@@ -88,11 +92,13 @@
 
 | Entry | Type | Description |
 |-------|------|-------------|
+| Playing to Win (Strategic Choice Cascade) | Framework | Five-question cascade (winning aspiration, where to play, how to win, capabilities needed, management systems), Lafley & Martin, that forces explicit, mutually reinforcing strategic choices above the operational level of quarterly planning |
 | Quarterly PMM Planning Framework | Framework | Structured approach to defining PMM work for a quarter by translating business goals into PMM deliverables, allocating resources, prioritising by impact, and creating accountability |
 | Competitive Intelligence & Positioning Update Framework | Methodology | Systematic process for monitoring competitors (monthly scans, quarterly deep dives) and updating positioning and messaging in response to competitive moves |
 | PMM Team Scaling Framework | Framework | Model for growing the PMM function from solo practitioner to specialised team as business scales, prioritising hires by business impact and defining role scope |
 | Analyst Relations Tiering & Cadence Model | Methodology | Segments industry analysts into Tier 1/2/3 by influence over buyer shortlists and runs a minimum quarterly-to-annual briefing cadence per tier, to build relationship equity ahead of Magic Quadrant/Wave cycles instead of scrambling once a year |
 | Pragmatic Institute Framework | Model | 37-box operating model narrowed here to its two non-duplicative box-groups, Enablement (certification and channel roll-out) and Business (post-launch revenue, margin, and pricing health checks), explicitly excluding the market and launch boxes the 10-Step PMM Process and PMM Lifecycle Management Framework already cover |
+| MOVE GTM Diagnostic (4-Question GTM Framework) | Model | Four-question GTM health diagnostic (Vajre & Brown): locates the company in a fit stage (Problem/Product/Platform-Market Fit), then scores four sequential revenue-engine motions (Make/Sell, Sell/Deliver, Deliver/Renew, Renew/Expand) to find which handoff is the binding constraint on growth |
 
 ---
 
@@ -132,7 +138,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 54 (35 frameworks, 12 methodologies, 6 models, 1 primer. Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
+- **Total entries:** 60 (28 frameworks, 24 methodologies, 7 models, 1 primer, recounted directly from this file's Type columns during the 2026-08-13 build; this corrects a stale "35/12/6" split that had been carried forward, unrecalculated, since before the ENRICHMENT-PLAN.md Methodology retagging and the many Methodology/Model entries added since. Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
 - **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md queue now fully built as of 2026-07-30)
 - **Entries per Category:** 1–10
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -140,12 +146,12 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ## Completion Status
 
 ✅ **Category 1 (Market & Customer Understanding):** 7 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 10 entries (`frameworks/02-positioning-messaging.md`)
+✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 4 entries (`frameworks/03-competitive-strategy.md`)
-✅ **Category 4 (Go-to-Market & Launch):** 9 entries (`frameworks/04-go-to-market-launch.md`)
+✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow.md`)
 ✅ **Category 6 (Product Experience & Adoption):** 5 entries (`frameworks/06-product-experience-adoption.md`)
-✅ **Category 7 (Strategy & Planning):** 5 entries (`frameworks/07-strategy-planning.md`)
+✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Category 9 (Sales Enablement):** 4 entries (`frameworks/09-sales-enablement.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
@@ -161,4 +167,5 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 - [x] Full web-verification pass on entries added since 2026-04-09 (completed 2026-07-30; see PROGRESS.md)
 - [x] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1; built 2026-07-31, see [quick-reference/](quick-reference/) and [GLOSSARY.md](GLOSSARY.md))
 - [x] Operational templates, onboarding playbook, and feedback-log tooling (see [PLAN.md](PLAN.md) Phases 2 and 4; built 2026-07-31, see [templates/](templates/), [ONBOARDING.md](ONBOARDING.md), and [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
+- [x] Build the EXTERNAL-REPO-GAP-ANALYSIS.md queue (see [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md); all 6 approved candidates built 2026-08-13)
 - [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
