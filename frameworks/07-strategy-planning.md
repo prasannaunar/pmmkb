@@ -12,6 +12,8 @@
 - To align PMM team on priorities and prevent scope creep
 - To identify what *not* to do (what gets deprioritised to make room for new work)
 
+**Ownership:** At a company with a specialised PMM team, the Head of PMM or VP of Product Marketing owns the quarterly plan: setting OKRs, allocating people-weeks, and prioritising initiatives. Final sign-off on resourcing trade-offs against other functions typically sits with the CMO or VP Marketing, since the plan competes for shared budget and headcount. At a solo or founding-PMM stage, one person owns the whole cycle outright, checking business goals directly with the CEO rather than through a formal OKR review.
+
 **How to apply it:**
 1. **Understand Business Goals:** What does the company prioritise this quarter? New market entry? Revenue growth? Product launch? Market share gain? Retention improvement? Get this directly from the CEO, VP of Sales, or CPO rather than inferring it from last quarter's plan. Business goals shift faster than PMM plans do, and a stale assumption here derails everything downstream.
 2. **Translate to PMM Goals:** For each business goal, identify the supporting PMM work. Market entry: develop competitive positioning and market education content. Revenue growth: enable sales with persona-specific messaging. Product launch: coordinate the go-to-market motion. Retention: build customer education and upsell messaging. Write this translation down explicitly; it is the single artefact that proves PMM's quarter is not busywork but business-connected work.
@@ -129,6 +131,8 @@ Project management SaaS Quarterly Competitive Review (Q2):
 - Quarterly, as you review team capacity and workload
 - When the business scales (new product lines, new segments, new geographies)
 
+**Ownership:** The Head of PMM or VP of Product Marketing owns the team-shape analysis and role prioritisation, but final headcount approval sits with the CFO or CEO, since new hires draw on company-wide budget rather than a PMM-only line. At a solo or founding-PMM stage, that person owns the case-building outright, presenting the gap analysis and proposed hire directly to the CEO or founder for a yes/no decision, without a layer of PMM leadership in between.
+
 **How to apply it:**
 1. **Assess Current State:** What is PMM doing well? Where are the gaps: messaging gaps, sales enablement gaps, content gaps, competitive intelligence gaps? Where is the current team overloaded to the point of burnout risk? Run this as a structured audit rather than a gut check: list every recurring PMM responsibility, mark who owns it today, and flag anything with no clear owner or with an owner who is stretched across more than three major workstreams.
 2. **Define Future State:** Where does the business need PMM to expand over the next 12 to 18 months? More segments call for segment-focused PMMs. More products call for product-focused PMMs. Weak sales enablement calls for an enablement specialist. Anchor this to the company's own growth plan (new markets, new product lines, funding stage) rather than to what competitors' PMM teams look like; team shape should follow your go-to-market complexity, not headcount envy.
@@ -217,6 +221,8 @@ B2B SaaS PMM scaling journey:
 - **Leadership asks whether a product or a tier is still commercially healthy** 12 to 18 months after launch, and the honest answer is that no one has checked since the launch business case was approved.
 - **A pricing change or a competitor's move has likely shifted a product's health**, but no standing review exists to catch it outside an ad hoc pricing project someone has to actively decide to start.
 - **You are building or refreshing a PMM operating model** and want a checklist for the enablement and business-health boxes specifically, without re-litigating market research or launch process the knowledge base's other frameworks already own.
+
+**Ownership:** The Head of PMM owns the scorecard itself, deciding which boxes are Yes, Partial, or No and prioritising gaps. Execution splits by group: a sales enablement manager builds and runs the certification and channel curricula in the Enablement boxes, while the Business boxes' revenue-and-margin review is jointly owned with Finance, typically a VP Finance or FP&A lead, since it compares actual results against the original business case. At a solo or founding-PMM stage, one person scores, builds, and reviews every box, looping in a finance counterpart only for the business-case numbers.
 
 **How to read it:** Read the two box-groups as two ongoing health checks, not two one-off projects.
 - **Enablement boxes**, read across a maturity axis: does a curriculum exist (not just a single onboarding session), is completion tracked and certified with a pass threshold, does the curriculum extend to indirect channels rather than only direct reps, and is content refreshed on a defined cadence rather than left to go stale after the quarter it was built.
