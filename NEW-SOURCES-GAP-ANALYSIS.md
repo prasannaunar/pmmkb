@@ -1,7 +1,7 @@
 # New Sources Gap Analysis: PMA Advanced Course + calven.ai
 
 **Logged:** 2026-08-14
-**Status:** Candidates 1–3 (MAP Model, RFM Model, MaxDiff Analysis) built 2026-08-14. Candidates 4–8 remain queued.
+**Status:** Candidates 1–3 (MAP Model, RFM Model, MaxDiff Analysis) built 2026-08-14. Candidate 8 (Competitive Advantage Moat Test) researched and rejected 2026-08-14, not merely deferred; see its entry below. Candidates 4–7 remain queued.
 **See also:** [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md), [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), and [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md), the three prior candidate queues (all fully built). This document follows the same ranked-candidate format and assumes the "PMM vs GTM Scope" north-star and the Ownership-field requirement already in CLAUDE.md.
 
 ---
@@ -83,14 +83,14 @@ Full source material: the uploaded "Frameworks and Models Index — PMA Advanced
 - **Inclusion-test:** Pass, conditional on sourcing. Same gate as candidates 4-6: verify against something beyond the course deck (e.g. published PM/PMM operating-model content from Reforge, Pragmatic Institute, or a named practitioner) before building.
 - **Confidence:** Medium-low — gated on finding a citable source independent of the course.
 
-### 8. Competitive Advantage Moat Test — ⚠️ Weak/hold
+### 8. Competitive Advantage Moat Test — ❌ **Rejected (researched 2026-08-14)**
 - **Source:** calven.ai/resources (vendor marketing page).
-- **Originator/lineage:** No named originator; calven.ai appears to be a competitive-intelligence/sales-enablement vendor presenting this as house content, the same single-source problem that has sunk every previous candidate lacking one.
-- **What it does:** An assessment rubric for separating genuinely defensible competitive advantages ("moats") from superficial differentiators.
-- **Proposed home:** Category 3 (Competitive Strategy), if built.
-- **Why it's flagged rather than ranked normally:** The underlying idea (moats vs. superficial differentiation) is a real strategy concept with a well-documented lineage outside this vendor (Warren Buffett's "economic moat" concept, ported into competitive strategy literature by multiple authors), but calven.ai's specific "test" as presented is uncredited vendor copy with no visible methodology beyond a page description. A builder should either find the underlying moat-strategy literature and cite that directly (treating this as a rename of an existing strategy concept, not calven.ai's invention), or decline to build.
-- **Inclusion-test:** Undetermined pending sourcing.
-- **Confidence:** Low. Do not build from the calven.ai page alone.
+- **Originator/lineage:** calven.ai itself has no named originator or visible methodology beyond a page description. Independent research found two legitimate, well-documented traditions behind the underlying "moat" concept: Warren Buffett's economic moat, as documented by Morningstar and in Pat Dorsey, *The Little Book That Builds Wealth* (2008); and Hamilton Helmer, *7 Powers: The Foundations of Business Strategy* (2016), which explicitly frames itself as a durability test (does a structural power survive a competitor actively trying to arbitrage it away?). Both are real and citable, so the original citation concern is solvable.
+- **What it does:** An assessment for separating genuinely defensible competitive advantages ("moats") from superficial differentiators that a competitor can copy quickly.
+- **Why it's rejected, not just gated on sourcing:** The blocker turned out to be ownership fit and duplication, not citation, the same reasoning that sank RICE Prioritization in EXTERNAL-REPO-GAP-ANALYSIS.md. Buffett/Morningstar's version is a financial-analysis tool (sustained ROIC above WACC over 10+ years), Finance/IR-owned, not something PMM runs. Helmer's 7 Powers operates at whole-business-model strategy (scale economies, network effects, cornered resources), overlapping two entries already in the KB, Category Design and Playing to Win, both of which already sit at that strategic-choice altitude. Most importantly, the actual PMM-relevant job either version would do for a single claimed differentiator, testing whether it survives a competitor trying to copy it, is already built: the existing Product Differentiation Strategy Framework's MUD (Meaningful, Unique, Defensible) scoring has a dedicated Defensibility criterion and a named step 8 stress-test ("ask specifically how a well-resourced competitor could copy the differentiator within twelve months"), with a matching pitfall and recovery. A standalone Moat Test entry would restate that Defensibility axis under different terminology, which CLAUDE.md's "no duplicate concepts under different names" rule exists to block.
+- **Recommended alternative:** implemented 2026-08-14. Product Differentiation Strategy Framework's "Further reading" now cites Buffett/Morningstar and Helmer directly as the broader moat literature its Defensibility criterion draws on, plus a short note explaining why a standalone Moat Test entry was considered and rejected. This matches the recommended-alternative pattern used for RICE: a cross-reference inside the framework that already does the job, not a new entry.
+- **Inclusion-test:** Fail (ownership fit and duplication, not citation).
+- **Confidence:** High confidence in the rejection. This is now a settled no, not an open question.
 
 ---
 
@@ -124,6 +124,6 @@ These were screened out under the inclusion/exclusion test or the citation rule,
 | 5 | Time to Value Framework | Model | Cat 6 | Medium (sourcing gate) | Queued |
 | 6 | VARS Framework | Framework | Cat 9 | Medium-low (sourcing gate) | Queued |
 | 7 | PM/PMM Collaboration Maturity Model | Model | Cat 7 | Medium-low (sourcing gate) | Queued |
-| 8 | Competitive Advantage Moat Test | Framework | Cat 3 | Low — hold | Queued, hold |
+| 8 | Competitive Advantage Moat Test | Framework | Cat 3 | — | ❌ Rejected 2026-08-14 |
 
-**Build order recommendation:** candidates 1–3, built 2026-08-14. Candidates 4–7 remain queued and need a builder to locate a citation beyond the PMA deck before writing, same standard the existing Sales Enablement Maturity Model and every other entry in this KB already meets; candidate 8 should not be built from calven.ai alone.
+**Build order recommendation:** candidates 1–3, built 2026-08-14. Candidates 4–7 remain queued and need a builder to locate a citation beyond the PMA deck before writing, same standard the existing Sales Enablement Maturity Model and every other entry in this KB already meets. Candidate 8 is a settled no; see its entry above for why, and see the cross-reference now added to Product Differentiation Strategy Framework's "Further reading" instead.
