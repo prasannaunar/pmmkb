@@ -1,7 +1,7 @@
 # New Sources Gap Analysis: PMA Advanced Course + calven.ai
 
 **Logged:** 2026-08-14
-**Status:** Candidates 1–3 (MAP Model, RFM Model, MaxDiff Analysis) built 2026-08-14. Candidate 8 (Competitive Advantage Moat Test) researched and rejected 2026-08-14, not merely deferred; see its entry below. Candidates 4–7 remain queued.
+**Status:** Queue closed 2026-08-14. Six of eight candidates built (MAP Model, RFM Model, MaxDiff Analysis, CI Program Maturity Model, VARS Framework, Time to Value Framework); two rejected (Competitive Advantage Moat Test, PM/PMM Collaboration Maturity Model). No candidates remain open.
 **See also:** [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md), [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), and [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md), the three prior candidate queues (all fully built). This document follows the same ranked-candidate format and assumes the "PMM vs GTM Scope" north-star and the Ownership-field requirement already in CLAUDE.md.
 
 ---
@@ -47,41 +47,30 @@ Full source material: the uploaded "Frameworks and Models Index — PMA Advanced
 - **Inclusion-test:** Pass. Same ownership profile as the KB's existing Conjoint Analysis and Gabor-Granger entries.
 - **Confidence:** High.
 
-### 4. CI Program Maturity Model
-- **Source:** PMA Advanced, Module 5 (Competitive Intelligence). No source cited in the deck.
-- **Originator/lineage:** Not independently sourced in the course material. Structurally identical to maturity-model conventions used across the CI/competitive-intelligence vendor space (Klue, Crayon, SCIP — the Strategic and Competitive Intelligence Professionals association publish comparable stage models), but a builder must locate and cite an external, converged source before writing this up, the same bar the existing Sales Enablement Maturity Model met (cited to Sales Enablement Society, Highspot, Pragmatic Institute) rather than a single course deck.
-- **What it does:** A four-stage model (Early → Developing → Mature → Optimized) describing how a competitive intelligence function matures, scored across process, tooling, and cross-functional distribution.
-- **Proposed home:** Category 3 (Competitive Strategy), the direct structural sibling of the Sales Enablement Maturity Model in Category 9. **Type: Model.**
-- **Why it's a genuine gap:** Category 3 has no maturity model at all; every other function-maturity entry in the KB (Sales Enablement, Customer Advocacy) has one.
-- **Inclusion-test:** Pass, conditional on sourcing. Do not build directly off the PMA deck alone; corroborate with SCIP or a named vendor source first, or this repeats the PMMC Framework rejection below.
-- **Confidence:** Medium — gated on finding a citable source independent of the course.
+### 4. CI Program Maturity Model — ✅ **BUILT (2026-08-14)**
+- **Built as:** Category 3 (Competitive Strategy), `frameworks/03-competitive-strategy.md`, using the Model template. ~1,570 words; cross-linked to the Sales Enablement Maturity Model, Competitive Intelligence & Positioning Update Framework, Competitive Battlecard Framework, and Bowman's Strategic Clock.
+- **Sourcing resolved:** The gate on this candidate (find a source beyond the uncited PMA deck) was cleared. Built citing Klue's *Competitive Enablement Maturity Model* (2021), developed with SCIP (Strategic and Competitive Intelligence Professionals) from the Klue/SCIP 2021 Competitive Enablement Report, five stages: Ad Hoc, Adopting, Impacting, Influencing, Transforming. Independent corroboration that CI maturity models converge on the same underlying dimensions came from a 2023 systematic review in the *Journal of Intelligence Studies in Business*, which surveyed fourteen published CI maturity models. The PMA deck's own four-stage version (Early/Developing/Mature/Optimized) was not used; the entry builds from the better-sourced five-stage Klue/SCIP version instead, adapted rather than reproduced verbatim, in the same spirit as the KB's existing Forrester Customer Advocacy Model.
+- **What it does:** A five-stage model diagnosing how mature a competitive intelligence function is, scored across repository/process, distribution to sales, cross-functional reach, and measurement.
+- **Why it's a genuine gap:** Confirmed. Category 3 previously had no maturity model at all; every other function-maturity entry in the KB (Sales Enablement, Customer Advocacy) had one.
 
-### 5. Time to Value Framework (TTBV, TTEV, ITTV, LTTV)
-- **Source:** PMA Advanced, Module 13 (Metrics). No source cited in the deck.
-- **Originator/lineage:** Not independently sourced in the course material. "Time to value" as a general SaaS onboarding concept is extremely well documented (Gainsight, Totango, ProfitWell); the specific four-way split (Time to Basic/First/Initial/Last Value) is less commonly seen as a named, converged industry framework and needs corroboration.
-- **What it does:** Breaks "time to value" into four measurable sub-metrics tracking how quickly a customer reaches different value milestones after purchase.
-- **Proposed home:** Category 6 (Product Experience & Adoption), alongside the Customer Onboarding Maturity Framework. **Type: Model.**
-- **Why it's a genuine gap:** The Onboarding Maturity Framework already names "time-to-first-value" as a metric but doesn't break it into sub-types; this would formalise that.
-- **Inclusion-test:** Pass, conditional on sourcing. A builder should verify the four-way split against an independent source or simplify to the well-documented single "time to value" metric with a citation, rather than presenting the four-part acronym set as an established industry standard on the PMA deck's authority alone.
-- **Confidence:** Medium — gated on finding a citable source independent of the course.
+### 5. Time to Value Framework — ✅ **BUILT (2026-08-14)**
+- **Built as:** Category 6 (Product Experience & Adoption), `frameworks/06-product-experience-adoption.md`, using the Model template. ~1,600 words; cross-linked to the Customer Onboarding Maturity Framework, Product-Led Growth, NPS & Feedback Loop Framework, and the RFM Model.
+- **Sourcing resolved:** As flagged, the PMA deck's specific four-way acronym split (TTBV/TTEV/ITTV/LTTV) was not independently corroborated anywhere and was not used. Built instead on the well-documented, converged industry distinction between Time to First Value (TTFV) and Time to Core Value, closely associated with Lincoln Murphy's customer-success writing at Sixteen Ventures, plus the activation-rate-versus-time-to-value and aha-moment-versus-activation-event distinctions, both of which are converged practice across customer-success and PLG literature (Gainsight, ProfitWell).
+- **What it does:** Breaks "time to value" into TTFV and Time to Core Value, plus the activation-rate/TTV and aha-moment/activation-event distinctions, so a team stops treating the phrase as one vague number.
+- **Why it's a genuine gap:** Confirmed. The Onboarding Maturity Framework already named "time-to-first-value" as a metric without breaking it into sub-types; this entry supplies that breakdown with a validated methodology for choosing the activation event and Core Value threshold.
 
-### 6. VARS Framework (Validate, Acknowledge, Reframe, Specify)
-- **Source:** PMA Advanced, Module 5 (Competitive Intelligence). No source cited in the deck.
-- **Originator/lineage:** Not independently sourced in the course material.
-- **What it does:** A four-step conversational technique for handling live customer questions about competitors: validate the question, acknowledge the competitor, reframe the comparison on your own terms, and specify your differentiated proof point.
-- **Proposed home:** Category 9 (Sales Enablement), as the live-conversation counterpart to the Competitive Battlecard Framework (content) already there. **Type: Framework.**
-- **Why it's a genuine gap:** The Battlecard Framework is the artefact; nothing in the KB documents the conversational technique for using it in the room.
-- **Inclusion-test:** Pass, conditional on sourcing. This is uncited in its only known source; a builder must find independent corroboration (sales-methodology literature on objection reframing uses similar four-step patterns, e.g. Feel-Felt-Found) before building, or risk repeating the PMMC Framework problem below.
-- **Confidence:** Medium-low — gated on finding a citable source independent of the course.
+### 6. VARS Framework (Validate, Acknowledge, Reframe, Specify) — ✅ **BUILT (2026-08-14)**
+- **Built as:** Category 9 (Sales Enablement), `frameworks/09-sales-enablement.md`, using the Framework template. ~1,400 words; cross-linked to the Competitive Battlecard Framework, CI Program Maturity Model, Win/Loss Analysis Framework, and Command of the Message.
+- **Sourcing resolved:** Independent sourcing found. VARS is documented on the Competitive Intelligence Alliance's site ("How to Deliver Competitive Intelligence to Sales and Customer Success"), credited as material presented by Alex McDonnell as part of the Alliance's CI: Masters certification programme, an identifiable practitioner and a named, independent organisation, not calven.ai or the PMA deck. This clears the citation gate the candidate was originally held on.
+- **What it does:** A four-step live-conversation technique for handling a buyer's direct competitor question: Validate their concern, Acknowledge the competitor's real strength, Reframe the problem, Specify a concrete proof point.
+- **Why it's a genuine gap:** Confirmed. The Competitive Battlecard Framework is the prepared content; nothing in the KB documented the delivery technique for using it live without sounding defensive.
 
-### 7. PM/PMM Collaboration Maturity Model
+### 7. PM/PMM Collaboration Maturity Model — ❌ **Rejected (researched 2026-08-14)**
 - **Source:** PMA Advanced, Module 17 (Cross-functionality). No source cited in the deck.
-- **Originator/lineage:** Not independently sourced in the course material.
-- **What it does:** A four-stage model (Ambiguous roles → Tentative collaboration → Working relationship → True partnership) describing how the Product Management/Product Marketing relationship matures at a company.
-- **Proposed home:** Category 7 (Strategy & Planning), alongside the PMM Team Scaling Framework. **Type: Model.**
-- **Why it's a genuine gap:** No cross-functional maturity model exists anywhere in the KB; every other maturity model here is single-function (Sales Enablement, Customer Advocacy, and the proposed CI Program Maturity Model above).
-- **Inclusion-test:** Pass, conditional on sourcing. Same gate as candidates 4-6: verify against something beyond the course deck (e.g. published PM/PMM operating-model content from Reforge, Pragmatic Institute, or a named practitioner) before building.
-- **Confidence:** Medium-low — gated on finding a citable source independent of the course.
+- **Research finding:** Extensive independent searching (targeted queries for the PMA deck's specific stage names, "ambiguous roles," "tentative collaboration," "working relationship," "true partnership," against Reforge, Product Marketing Alliance, Productschool, and general web search) found no independent source for this specific four-stage model anywhere. Real content exists on the general PM/PMM relationship (role differentiation, why the partnership matters), and separately on generic product-management maturity models, but nothing ties the two together into a named, staged maturity model matching the PMA deck's terminology.
+- **Why it's rejected:** This is the same failure mode as the PMMC Framework, rejected earlier in this document: a course-proprietary model with no external originator and no independent corroboration. CLAUDE.md's citation rule requires a defensible source for a named framework's origin; none exists here beyond the course itself.
+- **Recommended alternative:** if a future entry needs to cover the PM/PMM relationship, the material already exists as context inside this KB's PMM Team Scaling Framework (Category 7) and the GTM Strategy vs Product Marketing primer's ownership map; a short cross-reference there is more defensible than a standalone, uncited maturity model.
+- **Confidence:** High confidence in the rejection.
 
 ### 8. Competitive Advantage Moat Test — ❌ **Rejected (researched 2026-08-14)**
 - **Source:** calven.ai/resources (vendor marketing page).
@@ -120,10 +109,10 @@ These were screened out under the inclusion/exclusion test or the citation rule,
 | 1 | MAP Model | Methodology | Cat 1 | High | ✅ Built 2026-08-14 |
 | 2 | RFM Model | Model | Cat 6 | High | ✅ Built 2026-08-14 |
 | 3 | MaxDiff Analysis | Methodology | Cat 8 | High | ✅ Built 2026-08-14 |
-| 4 | CI Program Maturity Model | Model | Cat 3 | Medium (sourcing gate) | Queued |
-| 5 | Time to Value Framework | Model | Cat 6 | Medium (sourcing gate) | Queued |
-| 6 | VARS Framework | Framework | Cat 9 | Medium-low (sourcing gate) | Queued |
-| 7 | PM/PMM Collaboration Maturity Model | Model | Cat 7 | Medium-low (sourcing gate) | Queued |
+| 4 | CI Program Maturity Model | Model | Cat 3 | High (resolved) | ✅ Built 2026-08-14 |
+| 5 | Time to Value Framework | Model | Cat 6 | High (resolved) | ✅ Built 2026-08-14 |
+| 6 | VARS Framework | Framework | Cat 9 | High (resolved) | ✅ Built 2026-08-14 |
+| 7 | PM/PMM Collaboration Maturity Model | Model | Cat 7 | — | ❌ Rejected 2026-08-14 |
 | 8 | Competitive Advantage Moat Test | Framework | Cat 3 | — | ❌ Rejected 2026-08-14 |
 
-**Build order recommendation:** candidates 1–3, built 2026-08-14. Candidates 4–7 remain queued and need a builder to locate a citation beyond the PMA deck before writing, same standard the existing Sales Enablement Maturity Model and every other entry in this KB already meets. Candidate 8 is a settled no; see its entry above for why, and see the cross-reference now added to Product Differentiation Strategy Framework's "Further reading" instead.
+**Queue closed 2026-08-14.** All eight candidates resolved: six built, two rejected. Every "sourcing gate" candidate cleared it by locating an independent source beyond the PMA deck (Klue/SCIP for candidate 4, Lincoln Murphy/Sixteen Ventures plus converged CS/PLG literature for candidate 5, the Competitive Intelligence Alliance/Alex McDonnell for candidate 6), except candidate 7, where extensive searching found no independent source at all, and candidate 8, rejected for ownership fit and duplication rather than citation. No candidates remain open in this document.

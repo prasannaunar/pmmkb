@@ -174,6 +174,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* If the market genuinely cannot tell you apart from the incumbents no matter how positioning is redrawn, the existing category itself, not your competitive execution, may be the ceiling; category design is the multi-year, executive-sponsored bet to define and own a new category instead
    - *Do this first, if applicable:* Confirm with win/loss and Voice of the Customer evidence that a Legendary Problem exists before committing to this path; most teams should use steps 1–9 below instead
 
+0b. **CI Program Maturity Model** (`Category 3`); *optional, run first if competitive intelligence already exists but reps say it's stale or hard to find*
+   - *Why:* Diagnose whether the actual bottleneck is content, distribution, cross-functional reach, or measurement before committing to another round of research that will hit the same structural gap
+   - *Do this first, if applicable:* Score the four dimensions and interview a sample of consuming reps and product managers before step 1's research
+
 1. **Competitive Intelligence & Positioning Update Framework** (`Category 7`)
    - *Why:* Map exactly what the incumbents own and where white space exists
    - *Do this first:* Understand competitor positioning, messaging, pricing, and customer perception
@@ -260,6 +264,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Analyse if customers are getting stuck during onboarding
    - *Do this if:* Early-tenure churn is the problem (customers leaving in first 3 months)
 
+4a. **Time to Value Framework** (`Category 6`); *optional, alongside step 4*
+   - *Why:* If early-tenure churners never reach the onboarding milestones, confirm the milestone list is anchored to a validated activation event and Core Value threshold, not an assumed one, before redesigning the onboarding flow around it
+   - *Do this alongside step 4:* Interview a sample of recently churned early-tenure customers for the qualitative "aha moment" they never reached, rather than assuming the existing milestone list already captures it
+
 5. **Feature Adoption Framework** (`Category 5`)
    - *Why:* Analyse if customers are using the full value of the product
    - *Do this if:* Customers leave despite using the product initially
@@ -325,6 +333,10 @@ Map your current challenge to the frameworks that will help you solve it.
 7. **Competitive Battlecard Framework** (`Category 9`)
    - *Why:* Build the one-page field tool for each named competitor sales meets in this segment
    - *Do this:* Role-play the card with reps before it goes live in the segment's deals
+
+7a. **VARS Framework** (`Category 9`); *optional, alongside step 7*
+   - *Why:* A battlecard supplies the content; reps new to this segment also need the live-conversation sequence (Validate, Acknowledge, Reframe, Specify) for delivering it without sounding defensive the first time a buyer names the competitor directly
+   - *Do this alongside step 7's role-play:* Practise the full four-step sequence, not just the battlecard's talking points, before the card goes live in the segment's deals
 
 8. **Buyer's Journey Content Map** (`Category 9`)
    - *Why:* Confirm content exists for this segment at every stage (awareness, consideration, decision, post-sale), not just the stages already built for other segments
