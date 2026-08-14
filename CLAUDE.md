@@ -1,12 +1,12 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-08-13
+**Last Updated:** 2026-08-14
 
 ---
 
 ## Project Overview
 
-This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 60 entries (28 frameworks, 24 methodologies, 7 models, 1 primer) across 9 categories, plus a `concepts/` area for primers, each with clear applications, real-world examples, and common pitfalls.
+This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 66 entries (29 frameworks, 26 methodologies, 10 models, 1 primer) across 9 categories, plus a `concepts/` area for primers, each with clear applications, real-world examples, and common pitfalls.
 
 **Primary Use Case:** A reference guide for product marketing professionals to apply proven frameworks to day-to-day challenges; positioning, go-to-market strategy, competitive intelligence, and customer advocacy.
 
@@ -127,7 +127,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── ENRICHMENT-PLAN.md           # Approved build queue of further frameworks and methodologies (2026-07-21)
 ├── SOURCE-VALIDATION-LOG.md     # Citation audit record: findings and resolutions (2026-08-12)
 ├── EXTERNAL-REPO-GAP-ANALYSIS.md # Candidate queue sourced from 14 external GitHub repos (2026-08-13, not yet built)
-├── NEW-SOURCES-GAP-ANALYSIS.md  # Candidate queue sourced from the PMA Advanced course index and calven.ai (2026-08-14, not yet built)
+├── NEW-SOURCES-GAP-ANALYSIS.md  # Candidate queue sourced from the PMA Advanced course index and calven.ai (2026-08-14, closed: 6 of 8 built, 2 rejected)
 ├── product-marketing-kb-task.md # Original task specification (reference)
 │
 ├── frameworks/                  # Framework, methodology, and model files by workflow category
