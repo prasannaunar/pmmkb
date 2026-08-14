@@ -30,6 +30,14 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **PMF (Product-Market Fit):** The point at which a product satisfies strong enough market demand that growth spend compounds rather than being wasted. Benchmarked by the [Sean Ellis 40% Test](frameworks/01-market-customer-understanding.md).
 
+**Buyer persona:** A semi-fictional profile of an individual decision-maker (role, goals, objections, buying behaviour), distinct from the company-level [ICP](frameworks/01-market-customer-understanding.md). Assumed throughout the ICP Development Methodology and Win/Loss Analysis but not separately defined until now.
+
+**Buying centre:** The group of roles involved in a B2B purchase decision (initiator, user, influencer, decision maker, approver, buyer, gatekeeper), rarely a single person. Useful context for building a buyer persona set or scoping a Win/Loss interview list.
+
+**RICE (Reach, Impact, Confidence, Effort):** A prioritisation score, (Reach × Impact × Confidence) ÷ Effort, for ranking initiatives. Product/roadmapping-owned by default, not a PMM framework in its own right; PMM may encounter it when contributing launch or campaign inputs to a roadmap review.
+
+**ICE (Impact, Confidence, Ease):** A lighter-weight prioritisation score than RICE, used to rank which customer insights or backlog items to act on first. Same ownership caveat as RICE.
+
 ---
 
 ## Positioning & Messaging
@@ -47,6 +55,28 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 **Message-market fit:** Whether draft messaging lands as clear, relevant, and differentiated with a verified target-buyer panel, tested before the messaging ships. See [Message Testing](frameworks/02-positioning-messaging.md).
 
 **Category design:** The discipline of defining a new market category, rather than competing for share inside an existing one, when a company's differentiation is capped by how the market currently frames the problem. See [Category Design](frameworks/03-competitive-strategy.md).
+
+---
+
+## Competitive Strategy & Analyst Relations
+
+**SWOT analysis:** A four-quadrant scan (Strengths, Weaknesses, Opportunities, Threats) used to assess a competitive position or strategic option. Generic enough that it isn't a standalone KB entry, but referenced as a comparison tool inside the [Competitive Battlecard Framework](frameworks/09-sales-enablement.md).
+
+**PESTLE analysis:** A six-factor scan (Political, Economic, Social, Technological, Legal, Environmental) used to check a market or narrative for external forces a purely competitor-focused view would miss.
+
+**Magic Quadrant (Gartner):** A 2x2 report plotting vendors as Leaders, Challengers, Visionaries, or Niche Players on ability to execute versus completeness of vision. PMM does not produce these; the [Analyst Relations Tiering & Cadence Model](frameworks/07-strategy-planning.md) covers PMM's actual job of building relationship equity with the analysts who write them.
+
+**Forrester Wave:** Forrester's equivalent vendor-comparison report to Gartner's Magic Quadrant, plotting vendors as Challengers, Contenders, Strong Performers, or Leaders. Same PMM relationship, same caveat as the Magic Quadrant above.
+
+**Gartner Hype Cycle:** A technology-maturity curve (Innovation Trigger → Peak of Inflated Expectations → Trough of Disillusionment → Slope of Enlightenment → Plateau of Productivity) used to gauge how a market frames a technology's maturity, useful context when timing a category-creation push. See [Category Design](frameworks/03-competitive-strategy.md).
+
+---
+
+## Cross-Functional & Stakeholder Management
+
+**Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push.
+
+**GROW model (Goal, Reality, Options, Will):** A four-step sales-coaching conversation structure. Sales-manager owned, not a PMM framework; relevant context for [Sales Enablement](frameworks/09-sales-enablement.md) work that feeds a coaching programme rather than replaces it.
 
 ---
 
@@ -94,6 +124,18 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **Win rate:** The percentage of sales opportunities that close won, typically tracked by segment or against a specific competitor.
 
+**CLV (Customer Lifetime Value):** Another common name for LTV, defined above; the two terms are used interchangeably across the industry. This KB standardises on LTV.
+
+**CES (Customer Effort Score):** A short survey ("How easy was it to resolve your issue?") measuring the effort a customer expended in a single interaction, a narrower and more transactional sibling to CSAT and NPS.
+
+**Churn rate:** Customers lost in a period divided by customers at the start of the period. A signal, alongside NPS, that positioning or product experience may need revisiting.
+
+**Customer Retention Cost (CRC):** Retention spend divided by active customers; typically benchmarked at three to six times cheaper than the equivalent CAC to acquire a replacement customer, the usual justification for retention/advocacy investment.
+
+**Sales velocity:** (Number of opportunities × average deal size × win rate) ÷ sales cycle length. A single throughput metric combining pipeline volume, deal size, win rate, and speed; used in [Sales Enablement](frameworks/09-sales-enablement.md) reviews to see which lever moves revenue fastest.
+
+**Retention vs. loyalty:** Retention is repeat business, the measurable cause; loyalty is the emotional or advocacy outcome that produces it. Conflating the two risks optimising only for the metric (discount-driven repeat purchases) while losing the outcome it's meant to signal. Relevant to the [NPS & Feedback Loop Framework](frameworks/06-product-experience-adoption.md) and the Forrester Customer Advocacy Model.
+
 ---
 
 ## Pricing & Packaging
@@ -107,6 +149,19 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 **PSM (Price Sensitivity Meter):** A four-question survey method (Van Westendorp) that maps an acceptable price corridor without asking respondents to name a single price. See [Van Westendorp PSM](frameworks/08-pricing-packaging.md).
 
 **Conjoint analysis:** A trade-off-based choice survey that infers how much a persona values each individual feature, used to decide which features justify a tier upgrade. See [Conjoint Analysis](frameworks/08-pricing-packaging.md).
+
+**Price elasticity of demand:** Percentage change in quantity demanded divided by percentage change in price. High elasticity means small price moves swing demand sharply; low elasticity means price can move with limited demand impact. Context for reading the results of the [Van Westendorp PSM](frameworks/08-pricing-packaging.md) or [Gabor-Granger Method](frameworks/08-pricing-packaging.md).
+
+### Pricing strategy types
+
+Named pricing strategies distinct from the KB's pricing-*research* methodologies above (which find a defensible price; these are stances on what price to charge once you know it):
+
+- **Price waterfall:** The sequence from list price down to pocket margin (List Price → on-invoice discount → off-invoice discount → invoice price → COGS → pocket margin), used to see where negotiated discounts are eroding realised revenue.
+- **Cost-plus pricing:** Price set as cost plus a fixed margin, the simplest and least value-based approach.
+- **Penetration pricing:** A deliberately low launch price to capture market share quickly, raised later once share is established.
+- **Price skimming:** A deliberately high launch price that is lowered over time, capturing early-adopter willingness to pay before opening to the broader market.
+- **Freemium pricing:** A free tier plus paid tiers, aiming to convert a subset of free users; the pricing counterpart to the [Product-Led Growth](frameworks/04-go-to-market-launch.md) motion.
+- **Dynamic pricing:** Price adjusted in real time based on demand, location, time, or competitor moves.
 
 ---
 
@@ -133,9 +188,13 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 | ARR | Annual Recurring Revenue | Metrics & Financial Terms above |
 | B2B | Business-to-Business | throughout |
 | CAC | Customer Acquisition Cost | Metrics & Financial Terms above |
+| CES | Customer Effort Score | Metrics & Financial Terms above |
+| CLV | Customer Lifetime Value (see LTV) | Metrics & Financial Terms above |
+| CRC | Customer Retention Cost | Metrics & Financial Terms above |
 | CRM | Customer Relationship Management (system) | throughout |
 | CSAT | Customer Satisfaction Score | Metrics & Financial Terms above |
 | GTM | Go-to-Market | Go-to-Market & Launch above |
+| ICE | Impact, Confidence, Ease (prioritisation) | Market Sizing & Segmentation above |
 | ICP | Ideal Customer Profile | Market Sizing & Segmentation above |
 | JTBD | Jobs-to-be-Done | Market Sizing & Segmentation above |
 | LTV | Lifetime Value | Metrics & Financial Terms above |
@@ -144,14 +203,17 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 | MRR | Monthly Recurring Revenue | Metrics & Financial Terms above |
 | NPS | Net Promoter Score | Metrics & Financial Terms above |
 | NRR | Net Revenue Retention | Metrics & Financial Terms above |
+| PESTLE | Political, Economic, Social, Technological, Legal, Environmental | Competitive Strategy & Analyst Relations above |
 | PLG | Product-Led Growth | Go-to-Market & Launch above |
 | PMF | Product-Market Fit | Market Sizing & Segmentation above |
 | PQL | Product-Qualified Lead | Go-to-Market & Launch above |
+| RICE | Reach, Impact, Confidence, Effort (prioritisation) | Market Sizing & Segmentation above |
 | SaaS | Software-as-a-Service | throughout |
 | SAM | Serviceable Addressable Market | Market Sizing & Segmentation above |
 | SOM | Serviceable Obtainable Market | Market Sizing & Segmentation above |
 | SQL | Sales-Qualified Lead | Go-to-Market & Launch above |
 | STP | Segmentation-Targeting-Positioning | Market Sizing & Segmentation above |
+| SWOT | Strengths, Weaknesses, Opportunities, Threats | Competitive Strategy & Analyst Relations above |
 | TAM | Total Addressable Market | Market Sizing & Segmentation above |
 | T2D3 | Triple, Triple, Double, Double, Double | Go-to-Market & Launch above |
 | WTP | Willingness-to-Pay | Pricing & Packaging above |
