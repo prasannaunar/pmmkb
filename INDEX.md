@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-08-14 (built the first three NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model into Category 1, RFM Model into Category 6, MaxDiff Analysis into Category 8. Total 60 → 63 entries. See PROGRESS.md for the full build log.)
+**Last Updated:** 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research: CI Program Maturity Model into Category 3, VARS Framework into Category 9, Time to Value Framework into Category 6, following the first three built earlier the same day (MAP Model, RFM Model, MaxDiff Analysis). The PM/PMM Collaboration Maturity Model was researched and rejected, uncited anywhere beyond the course deck. Total 63 → 66 entries. See PROGRESS.md for the full build log.)
 
 ---
 
@@ -46,6 +46,7 @@
 | Product Differentiation Strategy Framework | Framework | Structured process for identifying differentiators, mapping competitive positions, and articulating market positioning |
 | Perceptual Map (2x2) | Framework | Visual grid that plots competitors on two buyer-chosen attributes (not fixed to price and value like Bowman's Clock) to reveal genuinely open, ownable market space |
 | Category Design | Methodology | Play Bigger's discipline for defining a "Legendary Problem" and a Point of View that reframes a crowded, commoditised market into a new category the company originates, then developing proof and dominating the category over years, rather than competing for share inside an existing one |
+| CI Program Maturity Model | Model | Five-stage model (Ad Hoc, Adopting, Impacting, Influencing, Transforming; Klue & SCIP) diagnosing how mature a competitive intelligence function is, the structural sibling of the Sales Enablement Maturity Model applied to the CI discipline |
 
 ---
 
@@ -87,6 +88,7 @@
 | Kano Model | Framework | Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so roadmap priority and launch messaging match what each feature actually does to customer sentiment |
 | Forrester Customer Advocacy Model | Model | Four-stage model (Reactive, Identified, Programmatic, Embedded) scored across advocate identification, ask-menu breadth, fatigue management, and lifecycle instrumentation, used to build a proactive advocacy practice instead of chasing the same few customers for every reference |
 | RFM Model (Recency, Frequency, Monetary Value) | Model | Behavioural customer segmentation (Champions, At-risk, New/Promising, Hibernating, Loyal-but-low-value) that catches value and engagement shifts a sentiment metric like NPS alone would miss, used to target save-plays and advocacy asks |
+| Time to Value Framework | Model | Breaks "time to value" into Time to First Value, Time to Core Value, and the aha-moment-versus-activation-event distinction, giving the Customer Onboarding Maturity Framework's milestone metric an evidenced, validated definition instead of a loosely used phrase |
 
 ---
 
@@ -128,6 +130,7 @@ New as of 2026-07-28, once the Sales Enablement Maturity Model completed a two-o
 | MEDDIC / MEDDPICC | Methodology | Sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition); PMM's supporting role is building and maintaining the Metrics, Decision Criteria, and Competition content reps use to answer the checklist in a live deal |
 | Competitive Battlecard Framework | Framework | One-page field tool giving sales the competitor's pitch, your counter-position, objection responses, landmines, and proof points for a live deal |
 | Buyer's Journey Content Map | Framework | Grid that plots enablement and marketing content against the awareness, consideration, decision, and post-sale stages, so PMM can spot and prioritise content gaps by revenue impact rather than the loudest internal request |
+| VARS Framework (Validate, Acknowledge, Reframe, Specify) | Framework | Four-step live-conversation technique (Alex McDonnell, Competitive Intelligence Alliance) for handling a buyer's direct competitor question without sounding defensive, the delivery technique that puts the Competitive Battlecard Framework's content to work in the room |
 
 ---
 
@@ -141,8 +144,8 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 63 (28 frameworks, 26 methodologies, 8 models, 1 primer, recounted directly from this file's Type columns after the 2026-08-14 build of the first three NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model (Methodology, Category 1), RFM Model (Model, Category 6), and MaxDiff Analysis (Methodology, Category 8). Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
-- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue has 5 candidates remaining, see PROGRESS.md)
+- **Total entries:** 66 (29 frameworks, 26 methodologies, 10 models, 1 primer, recounted directly from this file's Type columns after the 2026-08-14 build of six of the eight NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model (Methodology, Category 1), RFM Model (Model, Category 6), MaxDiff Analysis (Methodology, Category 8), CI Program Maturity Model (Model, Category 3), VARS Framework (Framework, Category 9), and Time to Value Framework (Model, Category 6). Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model), see PROGRESS.md)
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
@@ -150,13 +153,13 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ✅ **Category 1 (Market & Customer Understanding):** 8 entries (`frameworks/01-market-customer-understanding.md`)
 ✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging.md`)
-✅ **Category 3 (Competitive Strategy):** 4 entries (`frameworks/03-competitive-strategy.md`)
+✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow.md`)
-✅ **Category 6 (Product Experience & Adoption):** 6 entries (`frameworks/06-product-experience-adoption.md`)
+✅ **Category 6 (Product Experience & Adoption):** 7 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning.md`)
 ✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging.md`)
-✅ **Category 9 (Sales Enablement):** 4 entries (`frameworks/09-sales-enablement.md`)
+✅ **Category 9 (Sales Enablement):** 5 entries (`frameworks/09-sales-enablement.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
 ## Next Steps
