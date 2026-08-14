@@ -240,6 +240,10 @@ Map your current challenge to the frameworks that will help you solve it.
 
 **Apply These Frameworks (In Order):**
 
+0a. **RFM Model** (`Category 6`); *optional, run alongside step 1 if usage or purchase data exists*
+   - *Why:* NPS tells you how customers feel; RFM tells you which ones are behaviourally sliding right now, based on what they actually do, so you can find at-risk accounts before the next survey cycle catches the sentiment shift
+   - *Do this alongside step 1:* Cross-reference the RFM "At-risk" segment against NPS Detractors; a mismatch (behaviourally sliding but still scoring well on sentiment) is the clearest early-warning signal
+
 1. **Net Promoter Score (NPS) & Feedback Loop Framework** (`Category 6`)
    - *Why:* Identify which customer segments are churning and what's driving the sentiment
    - *Do this first:* Segment detractors by company size, industry, use case, tenure
@@ -367,6 +371,10 @@ Map your current challenge to the frameworks that will help you solve it.
 4a. **Usage-Based (Consumption) Pricing Model** (`Category 8`); *optional*
    - *Why:* If step 4 shows the current value metric doesn't track usage, use this model to decide where on the flat-fee-to-consumption spectrum the new tier should sit, and whether a hybrid base-fee-plus-overage structure fits better than a flat seat fee
    - *Do this alongside step 4:* Only needed when heavy and light users of the new tier would otherwise pay the same; skip if a flat or per-seat fee already tracks value well enough
+
+4b. **MaxDiff Analysis** (`Category 8`); *optional*
+   - *Why:* If more than roughly six candidate features are still in question for the new tier, narrow the list to the genuinely contested few before committing budget to a full Conjoint Analysis study
+   - *Do this alongside step 4a:* Run a MaxDiff pre-study first if the feature list is long; skip straight to step 5 if the list is already short and the dispute is narrow
 
 5. **Conjoint Analysis** (`Category 8`)
    - *Why:* Isolate exactly how much each individual feature is worth to each persona, when a bundling decision is genuinely contested (which feature goes in which tier)
@@ -506,6 +514,10 @@ Map your current challenge to the frameworks that will help you solve it.
 2. **PMM Team Scaling Framework** (`Category 7`)
    - *Why:* Understand the evolution from solo to specialised team
    - *Do this second:* Decide where to hire based on your biggest gaps
+
+2a. **MAP Model** (`Category 1`); *optional, if you sell into more than one existing segment*
+   - *Why:* Scaling decisions default to spreading a new hire's focus evenly across every segment; MAP Model ranks the segments you already serve by measured performance, not headline size, so the next hire's remit targets the segment that has actually earned the investment
+   - *Do this alongside step 2:* Run Measure and Analyze on your existing segments before finalising which one the next specialised hire is scoped around
 
 3. **Quarterly PMM Planning Framework** (`Category 7`)
    - *Why:* Document all the PMM work you're currently doing

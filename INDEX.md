@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-08-13 (built all 6 approved EXTERNAL-REPO-GAP-ANALYSIS.md candidates: Vertical/Segment Messaging via Buying Trigger and Andy Raskin's Strategic Narrative Framework into Category 2; Pre-mortem and Account-Based Everything (ABX) / TEAM Framework into Category 4; Playing to Win and the MOVE GTM Diagnostic into Category 7; completing that queue in full. Total 54 → 60 entries. See PROGRESS.md for the full build log.)
+**Last Updated:** 2026-08-14 (built the first three NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model into Category 1, RFM Model into Category 6, MaxDiff Analysis into Category 8. Total 60 → 63 entries. See PROGRESS.md for the full build log.)
 
 ---
 
@@ -15,6 +15,7 @@
 | JTBD Switch Interview Method | Methodology | Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
 | ICP Development Methodology | Methodology | Operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals into a weighted, CRM-scored fit model; the layer beneath STP's Targeting step that ranks specific accounts rather than choosing a strategic segment |
 | Sean Ellis 40% Test (PMF Survey) | Methodology | Single-question survey ("How would you feel if you could no longer use this product?") that benchmarks product-market fit against a 40% "Very disappointed" threshold; product-owned, with PMM's role scoped to segment-level survey design and translating results into positioning |
+| MAP Model (Measure, Analyze, Prioritize) | Methodology | Three-stage method (Tamara Grominsky) that ranks existing customer segments against each other by measured size and performance, so resourcing decisions rest on evidence rather than on whichever segment looks biggest or was pitched loudest |
 
 ---
 
@@ -85,6 +86,7 @@
 | Net Promoter Score (NPS) & Feedback Loop Framework | Framework | Uses customer feedback and NPS data to identify advocates, diagnose sentiment drivers, and inform retention and messaging strategies |
 | Kano Model | Framework | Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so roadmap priority and launch messaging match what each feature actually does to customer sentiment |
 | Forrester Customer Advocacy Model | Model | Four-stage model (Reactive, Identified, Programmatic, Embedded) scored across advocate identification, ask-menu breadth, fatigue management, and lifecycle instrumentation, used to build a proactive advocacy practice instead of chasing the same few customers for every reference |
+| RFM Model (Recency, Frequency, Monetary Value) | Model | Behavioural customer segmentation (Champions, At-risk, New/Promising, Hibernating, Loyal-but-low-value) that catches value and engagement shifts a sentiment metric like NPS alone would miss, used to target save-plays and advocacy asks |
 
 ---
 
@@ -112,6 +114,7 @@
 | Conjoint Analysis | Methodology | Trade-off-based choice survey that infers, feature by feature, how much each persona is willing to pay for it, used to decide which features justify moving a customer up a tier |
 | Gabor-Granger Method | Methodology | Direct pricing study that tests purchase intent at ascending price points to find the single revenue-maximising price, rather than an acceptable range |
 | Usage-Based (Consumption) Pricing Model | Model | Classifies pricing structures along a flat-fee-to-consumption spectrum by revenue predictability versus usage-value correlation, and guides the choice of a value-scaling usage unit and a hybrid base-fee-plus-overage structure |
+| MaxDiff Analysis (Best-Worst Scaling) | Methodology | Cheap, forced best-worst ranking of a long feature or benefit list, without price attached; the standard pre-study to narrow a candidate list before committing to a full Conjoint Analysis study |
 
 ---
 
@@ -138,21 +141,21 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Structure Notes
 
-- **Total entries:** 60 (28 frameworks, 24 methodologies, 7 models, 1 primer, recounted directly from this file's Type columns during the 2026-08-13 build; this corrects a stale "35/12/6" split that had been carried forward, unrecalculated, since before the ENRICHMENT-PLAN.md Methodology retagging and the many Methodology/Model entries added since. Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
-- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md queue now fully built as of 2026-07-30)
-- **Entries per Category:** 1–10
+- **Total entries:** 63 (28 frameworks, 26 methodologies, 8 models, 1 primer, recounted directly from this file's Type columns after the 2026-08-14 build of the first three NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model (Methodology, Category 1), RFM Model (Model, Category 6), and MaxDiff Analysis (Methodology, Category 8). Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue has 5 candidates remaining, see PROGRESS.md)
+- **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 7 entries (`frameworks/01-market-customer-understanding.md`)
+✅ **Category 1 (Market & Customer Understanding):** 8 entries (`frameworks/01-market-customer-understanding.md`)
 ✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging.md`)
 ✅ **Category 3 (Competitive Strategy):** 4 entries (`frameworks/03-competitive-strategy.md`)
 ✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch.md`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow.md`)
-✅ **Category 6 (Product Experience & Adoption):** 5 entries (`frameworks/06-product-experience-adoption.md`)
+✅ **Category 6 (Product Experience & Adoption):** 6 entries (`frameworks/06-product-experience-adoption.md`)
 ✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning.md`)
-✅ **Category 8 (Pricing & Packaging):** 6 entries (`frameworks/08-pricing-packaging.md`)
+✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging.md`)
 ✅ **Category 9 (Sales Enablement):** 4 entries (`frameworks/09-sales-enablement.md`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
