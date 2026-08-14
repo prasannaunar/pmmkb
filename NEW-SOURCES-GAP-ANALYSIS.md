@@ -1,7 +1,7 @@
 # New Sources Gap Analysis: PMA Advanced Course + calven.ai
 
 **Logged:** 2026-08-14
-**Status:** Approved build queue, not yet built.
+**Status:** Candidates 1–3 (MAP Model, RFM Model, MaxDiff Analysis) built 2026-08-14. Candidates 4–8 remain queued.
 **See also:** [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md), [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), and [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md), the three prior candidate queues (all fully built). This document follows the same ranked-candidate format and assumes the "PMM vs GTM Scope" north-star and the Ownership-field requirement already in CLAUDE.md.
 
 ---
@@ -20,7 +20,7 @@ Full source material: the uploaded "Frameworks and Models Index — PMA Advanced
 
 ## Ranked candidates
 
-### 1. MAP Model (Measure → Analyze → Prioritize)
+### 1. MAP Model (Measure → Analyze → Prioritize) — ✅ **BUILT (2026-08-14)**
 - **Source:** PMA Advanced, Module 7 (Segmentation), attributed to Tamara Grominsky, Founder of PMM Camp.
 - **Originator/lineage:** Named, identifiable practitioner; PMM Camp is a real, independently documented PMM training brand.
 - **What it does:** A three-stage method for finding the best customers to double down on: measure segment volume, analyse segment performance (revenue, retention, expansion), then prioritise which segments are worth further investment.
@@ -29,7 +29,7 @@ Full source material: the uploaded "Frameworks and Models Index — PMA Advanced
 - **Inclusion-test:** Pass. A PMM plausibly owns this analysis and the resulting prioritisation call.
 - **Confidence:** High.
 
-### 2. RFM Model (Recency, Frequency, Monetary value)
+### 2. RFM Model (Recency, Frequency, Monetary value) — ✅ **BUILT (2026-08-14)**
 - **Source:** PMA Advanced, Module 16 (Retention).
 - **Originator/lineage:** No single named originator in the PMA deck, but RFM is a decades-old, independently documented direct-marketing and retention-analytics staple (traceable to database-marketing literature from the 1990s onward, well before any single vendor).
 - **What it does:** Segments customers by how recently they engaged, how often, and how much value they represent, to separate valuable/at-risk customers from the rest of the base for retention and advocacy targeting.
@@ -38,7 +38,7 @@ Full source material: the uploaded "Frameworks and Models Index — PMA Advanced
 - **Inclusion-test:** Pass. PMM plausibly runs RFM segmentation to feed advocacy/reference targeting even where CS or RevOps owns the resulting save-play execution.
 - **Confidence:** High.
 
-### 3. MaxDiff Analysis (Best-Worst Scaling)
+### 3. MaxDiff Analysis (Best-Worst Scaling) — ✅ **BUILT (2026-08-14)**
 - **Source:** PMA Advanced, Module 12 (Pricing); also referenced in passing inside the KB's own existing Conjoint Analysis entry's pitfalls section (`frameworks/08-pricing-packaging.md:186`) as a pre-study technique, but never documented as its own method.
 - **Originator/lineage:** Jordan Louviere (with Woodworth), early 1990s; a well-established discrete-choice research technique used widely in market research since.
 - **What it does:** Presents respondents with sets of features/attributes and asks which is most and least valuable, repeated across sets, to produce a forced-ranking of what customers value most without the cost of a full conjoint study.
@@ -115,15 +115,15 @@ These were screened out under the inclusion/exclusion test or the citation rule,
 
 ## Summary table
 
-| # | Candidate | Type | Proposed home | Confidence |
-|---|---|---|---|---|
-| 1 | MAP Model | Methodology | Cat 1 | High |
-| 2 | RFM Model | Model | Cat 6 | High |
-| 3 | MaxDiff Analysis | Methodology | Cat 8 | High |
-| 4 | CI Program Maturity Model | Model | Cat 3 | Medium (sourcing gate) |
-| 5 | Time to Value Framework | Model | Cat 6 | Medium (sourcing gate) |
-| 6 | VARS Framework | Framework | Cat 9 | Medium-low (sourcing gate) |
-| 7 | PM/PMM Collaboration Maturity Model | Model | Cat 7 | Medium-low (sourcing gate) |
-| 8 | Competitive Advantage Moat Test | Framework | Cat 3 | Low — hold |
+| # | Candidate | Type | Proposed home | Confidence | Status |
+|---|---|---|---|---|---|
+| 1 | MAP Model | Methodology | Cat 1 | High | ✅ Built 2026-08-14 |
+| 2 | RFM Model | Model | Cat 6 | High | ✅ Built 2026-08-14 |
+| 3 | MaxDiff Analysis | Methodology | Cat 8 | High | ✅ Built 2026-08-14 |
+| 4 | CI Program Maturity Model | Model | Cat 3 | Medium (sourcing gate) | Queued |
+| 5 | Time to Value Framework | Model | Cat 6 | Medium (sourcing gate) | Queued |
+| 6 | VARS Framework | Framework | Cat 9 | Medium-low (sourcing gate) | Queued |
+| 7 | PM/PMM Collaboration Maturity Model | Model | Cat 7 | Medium-low (sourcing gate) | Queued |
+| 8 | Competitive Advantage Moat Test | Framework | Cat 3 | Low — hold | Queued, hold |
 
-**Build order recommendation:** candidates 1–3 first (independently well-sourced, no gate); candidates 4–7 need a builder to locate a citation beyond the PMA deck before writing, same standard the existing Sales Enablement Maturity Model and every other entry in this KB already meets; candidate 8 should not be built from calven.ai alone.
+**Build order recommendation:** candidates 1–3, built 2026-08-14. Candidates 4–7 remain queued and need a builder to locate a citation beyond the PMA deck before writing, same standard the existing Sales Enablement Maturity Model and every other entry in this KB already meets; candidate 8 should not be built from calven.ai alone.
