@@ -128,7 +128,17 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── SOURCE-VALIDATION-LOG.md     # Citation audit record: findings and resolutions (2026-08-12)
 ├── EXTERNAL-REPO-GAP-ANALYSIS.md # Candidate queue sourced from 14 external GitHub repos (2026-08-13, not yet built)
 ├── NEW-SOURCES-GAP-ANALYSIS.md  # Candidate queue sourced from the PMA Advanced course index and calven.ai (2026-08-14, closed: 6 of 8 built, 2 rejected)
+├── framework-selector.md        # Selection matrix by business goal, timeline, and data availability
+├── pitfalls-deep-dive.md        # Deep dives on STP, positioning, GTM, and competitive pitfalls
 ├── product-marketing-kb-task.md # Original task specification (reference)
+│
+├── case-studies/                 # Extended case study walkthroughs (STP, VPC, Win/Loss, 10-Step, GTM)
+│   ├── README.md
+│   ├── stp-framework.md
+│   ├── value-proposition-canvas.md
+│   ├── win-loss-analysis.md
+│   ├── ten-step-pmm-process.md
+│   └── complete-gtm-workflow.md
 │
 ├── frameworks/                  # Framework, methodology, and model files by workflow category
 │   ├── 01-market-customer-understanding.md
@@ -164,7 +174,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
     └── competitive-intelligence-tracker.md
 ```
 
-Not yet created: `case-studies/`, `archived/`. See PLAN.md for the roadmap; don't assume they exist.
+Not yet created: `archived/`. See PLAN.md for the roadmap; don't assume it exists.
 
 ---
 

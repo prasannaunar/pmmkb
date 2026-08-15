@@ -8,6 +8,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [MEDDIC / MEDDPICC](#meddic--meddpicc)
 - [Competitive Battlecard Framework](#competitive-battlecard-framework)
 - [Buyer's Journey Content Map](#buyers-journey-content-map)
+- [VARS Framework (Validate, Acknowledge, Reframe, Specify)](#vars-framework-validate-acknowledge-reframe-specify)
 
 ---
 
@@ -135,3 +136,33 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Asset-to-stage ratio, flagging any stage below a minimum threshold (for example, fewer than 3 assets)
 - Win rate in the segment where gaps were closed (one company's mid-market win rate rose from 14% to 23%)
 - Sales adoption of new assets within 90 days of publication (referenced in more than half of relevant discovery calls in the example)
+
+---
+
+## VARS Framework (Validate, Acknowledge, Reframe, Specify)
+
+**Type:** Framework
+
+**Core concept:** A four-step conversational technique for handling a buyer's live question about a competitor, presented by Alex McDonnell via the Competitive Intelligence Alliance's CI: Masters programme. The four steps: Validate (learn what is on the buyer's mind before responding), Acknowledge (name the competitor's genuine strength), Reframe (shift attention to a different, more fundamental problem the competitor is not positioned to solve), and Specify (close with a concrete proof point, demo moment, or named customer outcome). The insight is that a rep who jumps straight to rebuttal turns a competitive question into an argument the buyer never asked for.
+
+**When to use it:**
+- A buyer asks directly how you compare to a named competitor and the rep's instinct is to launch into a feature list
+- Competitive conversations feel like arguments rather than discovery
+- A battlecard exists but reps still stumble in live competitive moments
+- Win/loss shows deals lost because a rep "got defensive" or "didn't seem to know the competitor"
+
+**Key steps:**
+1. Train reps on the full four-step sequence, not just the acronym; role-play all steps together.
+2. Pair VARS with the relevant Competitive Battlecard entry as the content source.
+3. Practise the Validate step as a genuine question: "What's drawing you to look at [competitor]?"
+4. Write the Acknowledge line for each competitor in advance from honest research.
+5. Draft the Reframe as a genuine shift in the problem discussed, not a disguised feature comparison.
+6. End Specify with something concrete and, where possible, visual (a demo moment or a specific outcome).
+7. Review call recordings for VARS adherence, not just deal outcomes.
+
+**Apply it:** Build a one-page cheat sheet per competitor with four boxes (Validate question, Acknowledge line, Reframe angle, Specify proof point), and role-play it once before any rep uses it live.
+
+**Success metrics:**
+- Win rate in competitive deals against the named competitor (Rosterlane, a fictional company: 34% to 49% against Shiftwise)
+- VARS adherence in call recordings (20% to 71% of competitive conversations in the example)
+- Rep confidence in live competitive moments, measured by reduced escalation requests

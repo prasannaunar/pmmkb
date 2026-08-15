@@ -4,11 +4,44 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 
 ## Contents
 
+- [Playing to Win (Strategic Choice Cascade)](#playing-to-win-strategic-choice-cascade)
 - [Quarterly PMM Planning Framework](#quarterly-pmm-planning-framework)
 - [Competitive Intelligence & Positioning Update Framework](#competitive-intelligence--positioning-update-framework)
 - [PMM Team Scaling Framework](#pmm-team-scaling-framework)
 - [Analyst Relations Tiering & Cadence Model](#analyst-relations-tiering--cadence-model)
 - [Pragmatic Institute Framework](#pragmatic-institute-framework)
+- [MOVE GTM Diagnostic](#move-gtm-diagnostic)
+
+---
+
+## Playing to Win (Strategic Choice Cascade)
+
+**Type:** Framework
+
+**Core concept:** A five-question cascade of explicit, mutually reinforcing strategic choices, developed by A.G. Lafley and Roger L. Martin in *Playing to Win* (2013). The questions run in order: what is our winning aspiration; where will we play (and not play); how will we win there; what capabilities must we have; and what management systems reinforce those choices day to day. Each answer must follow logically from the one above it and demonstrably deliver it; a list of five answers that do not reinforce each other is not yet a strategy.
+
+**When to use it:**
+- Quarterly planning produces initiatives with no clear strategic thread connecting them
+- A "strategy" is really a list of everything the team could plausibly do, with nothing ruled out
+- Leadership disagreement over focus keeps resurfacing as a tactical argument when the real gap is upstream
+- A new segment or product line needs a strategy behind it, not just a launch plan
+
+**Key steps:**
+1. Define the winning aspiration as specific and falsifiable, naming at least one ruled-out alternative.
+2. Choose where to play, naming excluded segments or channels just as explicitly.
+3. Choose how to win with a specific, defensible mechanism no competitor could easily replicate.
+4. Identify the specific capabilities the chosen way of winning demands, and assess gaps honestly.
+5. Name the metrics, hiring criteria, and incentives that reinforce these choices day to day.
+6. Test the cascade for mutual reinforcement, top-down and bottom-up.
+7. Stress-test against a competitor's most plausible response.
+8. Publish the five choices as a single briefing document for downstream planning.
+
+**Apply it:** Sketch a five-row table, one row per cascade question, with columns for the choice made and the choice explicitly ruled out; confirm each row reinforces the one above and below it.
+
+**Success metrics:**
+- Win rate in the chosen segment after restructuring (Northlane, a fictional company: 19% to 34%)
+- Implementation time tracked for the first time as a KPI (unmeasured to 17 days in the example)
+- Explicit sunset of unfocused investments based on the cascade's "where not to play" answer
 
 ---
 
@@ -165,3 +198,33 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Recertification held to a fixed cadence (example: every two quarters)
 - Standing pricing health review run on schedule regardless of active projects
 - Win rate recovered following a caught pricing or margin gap (example: three points against price-cutting competitors)
+
+---
+
+## MOVE GTM Diagnostic
+
+**Type:** Model
+
+**Core concept:** A four-question go-to-market health diagnostic from Sangram Vajre and Bryan Brown's *MOVE* (2021). It works in two layers: first, it locates the company in a fit stage (Problem-Market Fit, Product-Market Fit, or Platform-Market Fit); second, it scores four sequential motions in the revenue engine: Make/Sell, Sell/Deliver, Deliver/Renew, and Renew/Expand. A weakness upstream caps what any downstream motion can show, so the model pinpoints which specific handoff is the binding constraint rather than launching a generic "improve GTM" initiative.
+
+**When to use it:**
+- As a standing quarterly GTM health check alongside Quarterly PMM Planning
+- Growth has plateaued and leadership disagrees on whether the cause is fit, execution, or expansion
+- The company is transitioning between fit stages and needs to know which motion requires rebuilding
+- Net revenue retention is underperforming and the root cause is unclear
+
+**Key steps:**
+1. Score the fit-stage layer first, using evidence (retention data, validated research) rather than aspiration.
+2. Gather one revealing metric per motion (win rate, time-to-value, gross renewal, net revenue retention).
+3. Identify the weakest motion from the evidence, not from internal debate.
+4. Route the fix to the existing framework built for that motion's problem.
+5. Sequence fixes upstream-first when more than one motion scores weak.
+6. Re-run the four-motion scoring quarterly.
+7. Re-assess the fit-stage layer annually or when a platform expansion is being considered.
+
+**Apply it:** Build a one-page four-row scorecard (one row per motion) with columns for the key metric, current score, target, and the named framework to apply if the motion is the weakest.
+
+**Success metrics:**
+- Onboarding completion after fixing the weakest motion (Coralbridge, a fictional company: 61% to 84%)
+- Time-to-value improvement (47 days to 24 days in the example)
+- Net revenue retention after upstream fix (96% to 103% over two quarters in the example)

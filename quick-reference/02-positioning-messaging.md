@@ -14,6 +14,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 8. [Features-Advantages-Benefits (FAB) Ladder](#features-advantages-benefits-fab-ladder)
 9. [StoryBrand SB7 Framework](#storybrand-sb7-framework)
 10. [Message Testing (Message-Market Fit)](#message-testing-message-market-fit)
+11. [Vertical/Segment Messaging via Buying Trigger](#verticalsegment-messaging-via-buying-trigger)
+12. [Andy Raskin's Strategic Narrative Framework](#andy-raskins-strategic-narrative-framework)
 
 ---
 
@@ -327,3 +329,64 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Clarity/compelling score comparison (Ironclad Cyber: 22% vs 61%)
 - Campaign click-through rate versus historical average (3.8% vs 1.9%)
 - Cost per qualified lead (-34%)
+
+---
+
+## Vertical/Segment Messaging via Buying Trigger
+
+**Type:** Framework
+
+**Core concept:** Developed by Diane Wiredu of Lion Words, this framework adapts an already-locked core message across multiple verticals without rebuilding positioning from scratch for each one. For every segment, it identifies the specific buying-trigger event that makes that segment ready to act now (a regulation deadline, a failed vendor, a security incident) and routes the buyer to the one existing Message Architecture pillar that answers that trigger most directly. The output is a routing map: segment, trigger, matched pillar, and a short entry-point line, not a new positioning statement per segment.
+
+**When to use it:**
+- A validated Message Architecture exists but every new vertical gets a bespoke pitch written from scratch
+- You sell one product into three or more distinct verticals and the blended message under-performs in all of them
+- Outbound or ABM sequences need a segment-specific opening line rather than a generic opener
+- A previously effective trigger has stopped working (a deadline passed, a competitor closed the gap)
+
+**Key steps:**
+1. Confirm the core message is locked before starting; if it is unsettled, fix that first.
+2. List every segment you actively message to, from STP-validated segments.
+3. Identify each segment's buying-trigger event from win/loss and closed-deal notes, not internal assumption.
+4. Match each trigger to the single existing pillar that answers it most directly.
+5. Write a short entry-point message per segment naming the trigger in the segment's own language.
+6. Assemble the routing map as a single shared document alongside Message Architecture.
+7. Test each entry-point line in-segment before wide rollout, and revisit triggers at least twice a year.
+
+**Apply it:** Build a four-column table (segment, trigger, matched pillar, entry-point message), one row per active vertical, and require writers to draw from it rather than freelancing a new opener per campaign.
+
+**Success metrics:**
+- Reply rate on vertical-matched outbound (Auditrix, a fictional company: 2.1% to 5.4% overall; healthcare reached 7.2%)
+- Consistency of segment entry-point copy with the core message (no pillar drift)
+- Time to produce a new segment's opening line once the routing map exists
+
+---
+
+## Andy Raskin's Strategic Narrative Framework
+
+**Type:** Framework
+
+**Core concept:** A five-move narrative arc, developed by strategic narrative consultant Andy Raskin, that leads with a market shift rather than the product. The sequence: name a real change already happening in the world; cast the winners and losers of that change; reveal a "promised land" (what winning looks like); name the obstacles standing in the way; and offer "magic gifts" (product capabilities that remove each obstacle, proven with evidence). The insight is that opening with a market shift the audience already has a stake in earns attention before the product is introduced.
+
+**When to use it:**
+- A pitch deck, keynote, or category-launch narrative opens with the company rather than a market shift
+- Launching or defending a new category and needing the narrative arc for why it exists now
+- Differentiation reads as a feature race rather than a story about where the market is heading
+- A sales deck's opening slides are "About Us" and a logo wall
+
+**Key steps:**
+1. Name a real, independently verifiable change already happening in the world.
+2. Cast the winners and losers of that change concretely, without naming your product.
+3. Reveal the promised land: a vivid outcome the audience wants, before any product mention.
+4. Name the specific obstacles between the audience and the promised land.
+5. Introduce product capabilities as "magic gifts" mapped to the named obstacles.
+6. Prove every capability with a customer result or data point.
+7. Sequence the full arc in order and close with a call to action tied to the promised land.
+8. Pressure-test with a sceptical audience before the deck goes live.
+
+**Apply it:** Sketch a five-slide storyboard (change, winners/losers, promised land, obstacles, magic gifts with proof), filling each frame before any copy is drafted, and check whether the product earns its entrance by slide five.
+
+**Success metrics:**
+- Investor or prospect follow-up meeting rate (Continuo, a fictional company: roughly 20% to 45%)
+- Share of prospect questions shifting from "why now" to implementation detail
+- Audience recognition of the named change as real and independently verifiable

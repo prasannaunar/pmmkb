@@ -9,6 +9,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Net Promoter Score (NPS) & Feedback Loop Framework](#net-promoter-score-nps--feedback-loop-framework)
 - [Kano Model](#kano-model)
 - [Forrester Customer Advocacy Model](#forrester-customer-advocacy-model)
+- [RFM Model (Recency, Frequency, Monetary Value)](#rfm-model-recency-frequency-monetary-value)
+- [Time to Value Framework](#time-to-value-framework)
 
 ---
 
@@ -166,3 +168,63 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Ratio of advocacy asks to distinct accounts used (a high ratio signals fatigue risk)
 - Size of the active advocate pool (example: grew from 4 to 23 accounts in two quarters)
 - Reference-assisted win rate uplift (example: 14 points higher than deals without a reference)
+
+---
+
+## RFM Model (Recency, Frequency, Monetary Value)
+
+**Type:** Model
+
+**Core concept:** RFM classifies customers along three behavioural dimensions: Recency (how recently they last engaged), Frequency (how often they engage), and Monetary value (how much revenue they represent). Scoring every customer 1 to 5 on each dimension, using quintiles from your own base, produces segments NPS alone cannot: a customer can score high on NPS while quietly sliding on Recency, a red flag sentiment metrics will not catch until the next survey cycle.
+
+**When to use it:**
+- Retention resource is spread evenly with no systematic way to identify at-risk accounts
+- Advocacy requests keep going to the same small pool instead of newly identified high-value customers
+- NPS data alone does not distinguish "genuinely engaged" from "scored 9 six months ago and has not logged in since"
+- A lifecycle-messaging programme needs to trigger different treatment for different value tiers
+
+**Key steps:**
+1. Pull date of last engagement, event count over a trailing window, and total revenue per customer.
+2. Score each dimension 1 to 5 using quintiles within your own customer base.
+3. Assign each customer to a named segment: Champions, At-risk, New/Promising, Hibernating, or Loyal-but-low-value.
+4. Cross-reference against NPS or CSAT where available; flag mismatches for closer review.
+5. Assign a distinct action per segment (advocacy asks for Champions, proactive outreach for At-risk, expansion nurture for Loyal-but-low-value).
+6. Automate scoring on a recurring cadence, at minimum monthly.
+7. Track segment migration over time as the primary actionable signal.
+
+**Apply it:** Build a one-page segment dashboard with columns for customer, R/F/M scores, segment name, assigned action, and migration since last refresh; flag any Champion-to-At-risk migration for immediate outreach.
+
+**Success metrics:**
+- Recovery rate of At-risk accounts after proactive outreach (Ledgerway, a fictional company: 61% returned to active)
+- Advocacy participants from the Champion segment versus old tenure-based pool (34% more in the example)
+- Share of the base scored and actioned on a recurring cadence
+
+---
+
+## Time to Value Framework
+
+**Type:** Model
+
+**Core concept:** This model breaks the loosely used phrase "time to value" into distinct, measurable sub-metrics. The core distinction, closely associated with Lincoln Murphy's customer success writing, is between Time to First Value (TTFV), the moment a customer first experiences a genuine benefit, and Time to Core Value, the later point at which usage becomes a sustained pattern predicting renewal. It also separates the "aha moment" (the qualitative feeling of value) from the activation event (the measurable in-product action used as a proxy).
+
+**When to use it:**
+- "Time to value" is used loosely, with sales, product, and CS each meaning something different
+- Activation rate looks healthy but retention still lags, or vice versa
+- A defined activation event exists but retention data suggests it is the wrong proxy for the real aha moment
+- Customers report an early win in interviews but usage does not become a sustained pattern
+
+**Key steps:**
+1. Define the aha moment qualitatively through customer interviews, not analytics.
+2. Choose the activation event as the closest measurable proxy for that aha moment.
+3. Measure TTFV as elapsed time from signup to that activation event, segmented by channel and tier.
+4. Separately define and measure Time to Core Value, validated against actual retention data.
+5. Track activation rate and time to value as two separate numbers, not one blended metric.
+6. Feed the validated activation event and Core Value threshold into onboarding design and messaging.
+7. Re-validate both periodically as the product and customer base evolve.
+
+**Apply it:** Sketch a two-row table (TTFV and Time to Core Value) with columns for the event definition, current median time, and the retention correlation each is validated against.
+
+**Success metrics:**
+- Median TTFV improvement (Ledgerfast, a fictional company: 4.2 days to 1.6 days)
+- 90-day retention shift after redesigning onboarding around the validated metrics (61% to 74% in the example)
+- Correlation strength between the Core Value threshold and actual renewal rates (84% versus 41% in the example)
