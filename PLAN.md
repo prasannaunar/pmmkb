@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-08-02
-**Status:** Knowledge base content complete. Phase 1 (quality polish, quick-reference cards, glossary), Phase 2 (templates), most of Phase 4 (onboarding playbook, weekly standup template), and Phase 3's decision-tree and measurement-guide items are now built; see PROGRESS.md for the build log. Remaining open items: a visual framework-selection flowchart, Phase 3's deeper case studies and pitfalls deep-dive, and running the feedback/review cadence as a live practice (tooling for it exists in FEEDBACK-LOG.md).
+**Last Updated:** 2026-08-15
+**Status:** All content-creation phases (1 through 4) are now complete. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. Remaining open items are operational: running the quarterly review cycle, the monthly team feedback session, and the annual update calendar distribution as live practices (tooling for all three exists in FEEDBACK-LOG.md).
 
 ---
 
@@ -203,15 +203,15 @@ Output: Recommended framework or framework sequence
 - [x] Competitive intelligence tracker template created (`templates/competitive-intelligence-tracker.md`)
 
 **Phase 3 Complete:**
-- [ ] 5–6 frameworks expanded with deeper case studies
-- [ ] Pitfalls deep-dive document created
+- [x] 5 frameworks expanded with deeper case studies (`case-studies/`; STP, Value Proposition Canvas, Win/Loss Analysis, 10-Step PMM Process, Complete GTM Workflow; built 2026-08-15)
+- [x] Pitfalls deep-dive document created (`pitfalls-deep-dive.md`; 9 deep-dive sections across STP, positioning, GTM execution, and competitive strategy; built 2026-08-15)
 - [x] Decision trees or integration guide completed (`decision-trees.md`; built 2026-08-01)
 - [x] Measurement & reporting guide created (`measurement-guide.md`; built 2026-08-02)
 
 **Phase 4 Complete:**
 - [x] Weekly standup template created (`templates/weekly-standup-template.md`; not yet used in a live standup)
 - [x] Onboarding playbook created (`ONBOARDING.md`; role-based reading lists and a first-30-days plan)
-- [ ] Framework selection flowchart created (BY-SITUATION.md and the quick-reference cards cover this need in text form; a visual/interactive flowchart is still open)
+- [x] Framework selection flowchart created (`framework-selector.md`; structured selection matrix by business goal, timeline, and data availability, with Quick Start table and links to full BY-SITUATION.md sequences)
 
 **Ongoing Maintenance:**
 - [ ] Quarterly review cycle scheduled (one framework per week); tooling to log it exists (`FEEDBACK-LOG.md`), cycle has not yet run

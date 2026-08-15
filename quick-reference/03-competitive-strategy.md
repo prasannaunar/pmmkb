@@ -7,6 +7,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Bowman's Strategic Clock](#bowmans-strategic-clock)
 - [Product Differentiation Strategy Framework](#product-differentiation-strategy-framework)
 - [Perceptual Map (2x2)](#perceptual-map-2x2)
+- [CI Program Maturity Model](#ci-program-maturity-model)
 - [Category Design](#category-design)
 
 ---
@@ -106,6 +107,36 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Average sales cycle length (58 to 41 days in the example)
 - Agreement rate between team placement and blind buyer placement (aim for 5 of 6-8 buyers matching)
 - Consistency of axis and source choice across each re-plot, so movement is genuinely comparable
+
+---
+
+## CI Program Maturity Model
+
+**Type:** Model
+
+**Core concept:** A staged maturity model for diagnosing how advanced a company's competitive intelligence function is, adapted from the Klue/SCIP Competitive Enablement Maturity Model and independently corroborated by academic research. It scores five stages (Ad Hoc, Adopting, Impacting, Influencing, Transforming) across four dimensions: repository and process, distribution to sales, cross-functional reach, and measurement. A function is rarely at the same stage across all four dimensions; the gap between them is usually the real finding.
+
+**When to use it:**
+- Inheriting or building a CI function with no clear picture of what exists
+- Sales reports competitive intel is stale, hard to find, or contradicts what they hear in deals
+- Battlecards or perceptual maps decay within a quarter despite strong initial quality
+- Building a business case for CI headcount or a dedicated platform
+
+**Key steps:**
+1. Score each of the four dimensions separately and honestly.
+2. Interview sales reps and product managers who consume CI output, not just the CI owner.
+3. Identify the lowest-scoring dimension as the priority, not the lowest stage overall.
+4. Set a realistic target: one stage forward on the priority dimension over two quarters.
+5. Name an owner and review cadence for the dimension being advanced.
+6. Re-score quarterly, tracking dimension movement rather than activity.
+7. Use the scored gap as the business case for the next CI investment.
+
+**Apply it:** Draw a four-by-five grid (four dimensions by five stages), mark the honest current stage per dimension, and circle the single cell to advance next quarter.
+
+**Success metrics:**
+- Dimension score movement quarter over quarter
+- Battlecard usage rate in competitive deals (Vantark, a fictional company: estimated 15% to 68%)
+- Win rate against top named competitors (29% to 38% in the example)
 
 ---
 

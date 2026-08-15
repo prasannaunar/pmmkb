@@ -10,6 +10,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 4. [Conjoint Analysis](#conjoint-analysis)
 5. [Gabor-Granger Method](#gabor-granger-method)
 6. [Usage-Based (Consumption) Pricing Model](#usage-based-consumption-pricing-model)
+7. [MaxDiff Analysis (Best-Worst Scaling)](#maxdiff-analysis-best-worst-scaling)
 
 ---
 
@@ -204,3 +205,33 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Revenue lift among previously under-billed heavy-usage accounts
 - Number of existing accounts flagged and protected from bill spikes during transition
 - Support complaints about unexpected bills (target: zero)
+
+---
+
+## MaxDiff Analysis (Best-Worst Scaling)
+
+**Type:** Methodology
+
+**Core concept:** A trade-off survey method, developed by Jordan Louviere in the early 1990s, that ranks how much respondents value a list of items by repeatedly asking which is most important and which is least important from small rotating subsets. It produces a forced ranking without ever showing a price, making it cheaper and simpler than Conjoint Analysis. MaxDiff answers a narrower question: which items actually matter most. It is the natural first pass before deciding which features are worth pricing rigorously with conjoint.
+
+**When to use it:**
+- A long list of candidate features, benefits, or messaging claims needs a forced ranking
+- A conjoint study is planned but the feature list is too long (past roughly 6 attributes) to test directly
+- Internal teams disagree on which roadmap items or message pillars to prioritise
+- You need a respondent-friendly method that avoids Likert-scale clustering at "somewhat important"
+
+**Key steps:**
+1. List 10 to 20 candidate items (features, benefits, or messaging claims).
+2. Use MaxDiff survey software to generate balanced choice sets of 4 to 5 items each.
+3. Present 10 to 15 sets per respondent, asking "most important" and "least important" for each.
+4. Recruit at least 100 respondents per persona or segment.
+5. Score results by counting "most" minus "least" picks per item across all respondents.
+6. Run scoring separately by persona where sample size allows.
+7. Feed the ranking into a decision: cut low-priority items, narrow the conjoint list, or lead with the top-ranked pillar.
+
+**Apply it:** Sketch a one-page ranked list of all tested items from highest to lowest importance score, with a persona column alongside, and draw a cut line above the items worth carrying into a conjoint study or a launch.
+
+**Success metrics:**
+- Feature list narrowed before a conjoint study (Shiftwell, a fictional company: 12 items to 6)
+- Persona-level ranking divergence surfaced (mobile clock-in ranked highest for small-team owners, lowest for mid-market managers in the example)
+- Combined research cost lower than a single overloaded conjoint design
