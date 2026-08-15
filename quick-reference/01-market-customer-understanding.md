@@ -11,6 +11,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [JTBD Switch Interview Method](#jtbd-switch-interview-method)
 - [ICP Development Methodology](#icp-development-methodology)
 - [Sean Ellis 40% Test (PMF Survey)](#sean-ellis-40-test-pmf-survey)
+- [MAP Model (Measure, Analyze, Prioritize)](#map-model-measure-analyze-prioritize)
 
 ---
 
@@ -225,3 +226,33 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Very-disappointed percentage overall and by segment (e.g. 34% blended, 51% in one segment)
 - Trial-to-paid conversion change in the strong-fit segment (e.g. 11% to 17%)
 - Consistency of the score on re-run (e.g. held at 54%)
+
+---
+
+## MAP Model (Measure, Analyze, Prioritize)
+
+**Type:** Methodology
+
+**Core concept:** The MAP Model, developed by Tamara Grominsky of PMM Camp, ranks existing customer segments against each other using real performance data rather than size alone. It runs in three stages: Measure (segment volume and revenue), Analyze (retention, expansion, and margin performance), and Prioritize (which segments deserve further investment and which should be deprioritised). Its value lies in forcing Measure and Analyze apart; a segment can be large while quietly unprofitable or churning fast.
+
+**When to use it:**
+- Resourcing is spread evenly across segments with no evidence of which is worth the investment
+- A large segment looks impressive by logo count but underperforms on retention or margin
+- Quarterly or annual planning needs a defensible segment-investment decision
+- STP was run some time ago and segment performance has since diverged
+
+**Key steps:**
+1. Measure segment volume and revenue from CRM or billing data, using STP's existing segment definitions.
+2. Analyze each segment's retention, expansion, margin, and sales cycle length.
+3. Cross-tabulate Measure against Analyze on a two-axis grid.
+4. Rank segments into invest-further, maintain, and deprioritise tiers based on both axes, not size alone.
+5. Translate the ranking into a specific resourcing decision with cross-functional sign-off.
+6. Communicate any deprioritisation explicitly, with Measure and Analyze evidence attached.
+7. Re-run on a fixed cadence, at least annually.
+
+**Apply it:** Plot every segment on a two-axis grid (size on one axis, performance on the other), circle the "invest further" quadrant, and name the one resourcing decision it triggers.
+
+**Success metrics:**
+- Revenue growth in the top-tier segment after reallocation (Rosterly, a fictional company: small-team segment revenue grew 41% in two quarters)
+- Net revenue retention shift in the prioritised segment (94% to 107% in the example)
+- Retention and margin gap surfaced between a segment's reputation and its actual numbers
