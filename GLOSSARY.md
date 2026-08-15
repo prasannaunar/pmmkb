@@ -28,6 +28,8 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **JTBD (Jobs-to-be-Done):** The theory that customers "hire" a product to make progress on a specific job, rather than buying it for its features. See the [JTBD Positioning Framework](frameworks/02-positioning-messaging.md) and the [JTBD Switch Interview Method](frameworks/01-market-customer-understanding.md) that surfaces the job.
 
+**MAP Model (Measure-Analyse-Prioritise):** A three-stage methodology for segment prioritisation: Measure segment volume and revenue, Analyse segment performance (retention, expansion, margin, sales cycle length), then Prioritise by cross-tabulating segment scores on a grid. Developed by Tamara Grominsky at PMM Camp. See [MAP Model](frameworks/01-market-customer-understanding.md).
+
 **PMF (Product-Market Fit):** The point at which a product satisfies strong enough market demand that growth spend compounds rather than being wasted. Benchmarked by the [Sean Ellis 40% Test](frameworks/01-market-customer-understanding.md).
 
 **Buyer persona:** A semi-fictional profile of an individual decision-maker (role, goals, objections, buying behaviour), distinct from the company-level [ICP](frameworks/01-market-customer-understanding.md). Assumed throughout the ICP Development Methodology and Win/Loss Analysis but not separately defined until now.
@@ -65,6 +67,8 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 **PESTLE analysis:** A six-factor scan (Political, Economic, Social, Technological, Legal, Environmental) used to check a market or narrative for external forces a purely competitor-focused view would miss.
 
 **Magic Quadrant (Gartner):** A 2x2 report plotting vendors as Leaders, Challengers, Visionaries, or Niche Players on ability to execute versus completeness of vision. PMM does not produce these; the [Analyst Relations Tiering & Cadence Model](frameworks/07-strategy-planning.md) covers PMM's actual job of building relationship equity with the analysts who write them.
+
+**CI Program Maturity Model:** A five-stage maturity model (Ad Hoc, Reactive, Active, Managed, Transforming) for assessing competitive intelligence programme readiness across four dimensions: repository and process, distribution to sales, cross-functional reach, and measurement. Based on Klue/SCIP research. See [CI Program Maturity Model](frameworks/03-competitive-strategy.md).
 
 **Forrester Wave:** Forrester's equivalent vendor-comparison report to Gartner's Magic Quadrant, plotting vendors as Challengers, Contenders, Strong Performers, or Leaders. Same PMM relationship, same caveat as the Magic Quadrant above.
 
@@ -130,6 +134,10 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **Churn rate:** Customers lost in a period divided by customers at the start of the period. A signal, alongside NPS, that positioning or product experience may need revisiting.
 
+**RFM Model (Recency, Frequency, Monetary):** A behavioural segmentation model that scores each customer on three dimensions (how recently they engaged, how often, and how much they spend), each on a 1-5 scale, to classify customers into actionable segments such as Champions, At-risk, and Hibernating. See [RFM Model](frameworks/06-product-experience-adoption.md).
+
+**Time to Value (TTV):** The elapsed time between a customer's first interaction with a product and the moment they realise its core value. The Time to Value Framework breaks this into Time to First Value (TTFV), Time to Core Value, and maps activation rate against time to value to identify onboarding bottlenecks. See [Time to Value Framework](frameworks/06-product-experience-adoption.md).
+
 **Customer Retention Cost (CRC):** Retention spend divided by active customers; typically benchmarked at three to six times cheaper than the equivalent CAC to acquire a replacement customer, the usual justification for retention/advocacy investment.
 
 **Sales velocity:** (Number of opportunities × average deal size × win rate) ÷ sales cycle length. A single throughput metric combining pipeline volume, deal size, win rate, and speed; used in [Sales Enablement](frameworks/09-sales-enablement.md) reviews to see which lever moves revenue fastest.
@@ -149,6 +157,8 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 **PSM (Price Sensitivity Meter):** A four-question survey method (Van Westendorp) that maps an acceptable price corridor without asking respondents to name a single price. See [Van Westendorp PSM](frameworks/08-pricing-packaging.md).
 
 **Conjoint analysis:** A trade-off-based choice survey that infers how much a persona values each individual feature, used to decide which features justify a tier upgrade. See [Conjoint Analysis](frameworks/08-pricing-packaging.md).
+
+**MaxDiff analysis (best-worst scaling):** A forced-ranking survey methodology, developed by Jordan Louviere, that asks respondents to pick the most and least important item from repeated subsets of a feature or benefit list, producing a ratio-scaled priority ranking free of the scale-use biases that afflict Likert surveys. Typically run before a conjoint study to narrow the feature list. See [MaxDiff Analysis](frameworks/08-pricing-packaging.md).
 
 **Price elasticity of demand:** Percentage change in quantity demanded divided by percentage change in price. High elasticity means small price moves swing demand sharply; low elasticity means price can move with limited demand impact. Context for reading the results of the [Van Westendorp PSM](frameworks/08-pricing-packaging.md) or [Gabor-Granger Method](frameworks/08-pricing-packaging.md).
 
@@ -177,6 +187,8 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 
 **Economic buyer:** The person at a prospect account with the authority and budget to approve a purchase, as distinct from an end user or a champion.
 
+**VARS Framework (Validate-Acknowledge-Reframe-Specify):** A four-step objection-handling framework by Alex McDonnell (CI Alliance) for responding to competitive objections in live sales conversations: Validate the concern, Acknowledge the competitor's strength, Reframe the evaluation criteria, and Specify a differentiator with proof. See [VARS Framework](frameworks/09-sales-enablement.md).
+
 ---
 
 ## Common Acronyms (Quick Lookup)
@@ -198,6 +210,8 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | ICP | Ideal Customer Profile | Market Sizing & Segmentation above |
 | JTBD | Jobs-to-be-Done | Market Sizing & Segmentation above |
 | LTV | Lifetime Value | Metrics & Financial Terms above |
+| MAP | Measure-Analyse-Prioritise (segment prioritisation) | Market Sizing & Segmentation above |
+| MaxDiff | Maximum Difference Scaling (best-worst scaling) | Pricing & Packaging above |
 | MEDDIC/MEDDPICC | Sales qualification checklist | Sales Enablement above |
 | MQL | Marketing-Qualified Lead | Go-to-Market & Launch above |
 | MRR | Monthly Recurring Revenue | Metrics & Financial Terms above |
@@ -207,6 +221,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | PLG | Product-Led Growth | Go-to-Market & Launch above |
 | PMF | Product-Market Fit | Market Sizing & Segmentation above |
 | PQL | Product-Qualified Lead | Go-to-Market & Launch above |
+| RFM | Recency, Frequency, Monetary (customer segmentation) | Metrics & Financial Terms above |
 | RICE | Reach, Impact, Confidence, Effort (prioritisation) | Market Sizing & Segmentation above |
 | SaaS | Software-as-a-Service | throughout |
 | SAM | Serviceable Addressable Market | Market Sizing & Segmentation above |
@@ -216,6 +231,9 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | SWOT | Strengths, Weaknesses, Opportunities, Threats | Competitive Strategy & Analyst Relations above |
 | TAM | Total Addressable Market | Market Sizing & Segmentation above |
 | T2D3 | Triple, Triple, Double, Double, Double | Go-to-Market & Launch above |
+| TTFV | Time to First Value | Metrics & Financial Terms above |
+| TTV | Time to Value | Metrics & Financial Terms above |
+| VARS | Validate-Acknowledge-Reframe-Specify (objection handling) | Sales Enablement above |
 | WTP | Willingness-to-Pay | Pricing & Packaging above |
 
 ---

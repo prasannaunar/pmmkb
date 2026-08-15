@@ -11,8 +11,10 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [T2D3 Framework (B2B SaaS)](#t2d3-framework-b2b-saas)
 - [GTM Motion Model](#gtm-motion-model)
 - [Product-Led Growth (PLG)](#product-led-growth-plg)
+- [Account-Based Everything (ABX) / TEAM Framework](#account-based-everything-abx--team-framework)
 - [Bullseye Framework (Traction Channel Selection)](#bullseye-framework-traction-channel-selection)
 - [Launch Tier Framework (Tier 1/2/3)](#launch-tier-framework-tier-123)
+- [Pre-mortem](#pre-mortem)
 
 ---
 
@@ -233,6 +235,38 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 
 ---
 
+## Account-Based Everything (ABX) / TEAM Framework
+
+**Type:** Methodology
+
+**Core concept:** A go-to-market methodology for complex B2B sales built around the TEAM structure from Sangram Vajre and Eric Spett's *ABM is B2B.* (2019): Target (select and tier named accounts), Engage (build role-specific messaging for the full buying committee), Activate (route sales effort to accounts showing multi-signal intent), and Measure (track account-level outcomes, not lead volume). It operationalises the field-sales motion the GTM Motion Model identifies for high-ACV, committee-driven deals; the structural mirror of Product-Led Growth on the self-serve side.
+
+**When to use it:**
+- The GTM Motion Model selects field sales and the team needs the practice for running it
+- The addressable market is a small, named universe of accounts
+- Deals stall when a stakeholder nobody engaged raises a late-stage objection
+- Marketing and sales run disconnected programmes against the same named accounts
+- Success is measured on MQL count when deals come from a small number of named accounts
+
+**Key steps:**
+1. Define account-selection criteria combining firmographics, buying signals, and strategic fit.
+2. Tier accounts: Tier 1 (one-to-one), Tier 2 (one-to-few), Tier 3 (one-to-many).
+3. Map the buying committee for each target account (economic buyer, champion, technical evaluator, end user).
+4. Build role-specific content for each committee member, sequenced across the committee.
+5. Instrument intent signals at the account level, not just contact level.
+6. Activate sales on a multi-signal threshold with full account context.
+7. Measure account-level outcomes: pipeline per account, win rate by tier, account penetration.
+8. Re-tier accounts on a standing quarterly cadence.
+
+**Apply it:** Build a one-page account dashboard with columns for account name, tier, committee roles engaged, intent signals, and pipeline stage; review weekly for Tier 1 accounts.
+
+**Success metrics:**
+- Buying-committee roles engaged before late stage (Ashford Data, a fictional company: 1.4 to 3.2)
+- Win rate on Tier 1 accounts (21% to 38% in the example)
+- Average deal cycle reduction (roughly three weeks shorter in the example)
+
+---
+
 ## Bullseye Framework (Traction Channel Selection)
 
 **Type:** Framework
@@ -294,3 +328,35 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Tier distribution across the quarter (a healthy, fast-shipping org should see Tier 3 as the largest bucket)
 - Lead time actually matching the tier (8-12 weeks for Tier 1, 3-4 for Tier 2)
 - Quarterly retrospective flags on mis-scored launches, tracked over time
+
+---
+
+## Pre-mortem
+
+**Type:** Framework
+
+**Core concept:** A structured pre-launch exercise, developed by cognitive psychologist Gary Klein and published in the *Harvard Business Review* (2007), in which the team imagines the initiative has already failed completely, then works backwards to generate specific reasons why. Klein's technique exploits "prospective hindsight": people generate more specific explanations for an outcome framed as already having happened than for one framed as merely possible, bypassing the social pressure to defend a plan the group has invested in. Resulting risks are ranked, assigned owners and mitigations, and rolled into a go or no-go recommendation.
+
+**When to use it:**
+- Ahead of a Tier 1 launch where failure carries real revenue or reputational cost
+- The team is confident and no one has voiced doubts in planning meetings
+- A previous launch failed and its postmortem showed the failure mode was foreseeable but never raised
+- Launching into unfamiliar territory (new segment, new GTM motion, new geography)
+
+**Key steps:**
+1. Assemble the team running the launch, plus genuine sceptics or a designated dissenter.
+2. State the premise as fact: "It is [three to six months] from now. This launch has failed completely."
+3. Have every participant write failure reasons individually and silently before any discussion.
+4. Go around the group, one reason per turn, recording all without debate.
+5. Cluster raw reasons into five to ten distinct failure themes.
+6. Score each theme on severity and likelihood; rank the list.
+7. Assign a named owner and dated mitigation to every top-ranked risk.
+8. Decide whether any risk warrants delaying, rescoping, or cancelling the launch.
+9. Revisit the risk list at the post-launch review.
+
+**Apply it:** Sketch a one-page risk register with columns for failure theme, severity, likelihood, owner, and mitigation deadline; fill it during the session and check it off at the post-launch review.
+
+**Success metrics:**
+- Number of risks surfaced that would not have emerged in a standard planning meeting
+- Share of top-ranked risks with a completed mitigation before launch (Harborcode, a fictional company: metering fix shipped pre-launch, zero capacity incidents in first month)
+- Churn or incident rate versus pre-fix projections (roughly half the modelled churn in the example)
