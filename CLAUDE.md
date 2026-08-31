@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-08-14
+**Last Updated:** 2026-08-30
 
 ---
 
@@ -166,15 +166,51 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 │   ├── 09-sales-enablement.md
 │   └── concepts-primers.md
 │
-└── templates/                   # Working templates for quarterly planning, campaigns, and enablement
-    ├── quarterly-planning-template.md
-    ├── campaign-brief-template.md
-    ├── sales-enablement-audit.md
-    ├── weekly-standup-template.md
-    └── competitive-intelligence-tracker.md
+├── templates/                   # Working templates for quarterly planning, campaigns, and enablement
+│   ├── quarterly-planning-template.md
+│   ├── campaign-brief-template.md
+│   ├── sales-enablement-audit.md
+│   ├── weekly-standup-template.md
+│   └── competitive-intelligence-tracker.md
+│
+└── agent-skills/                # PMM skills in the open Agent Skills format, written for AI agents rather than people
+    ├── README.md                # What they are, how to install and validate them, conventions for adding one
+    ├── ATTRIBUTION.md           # Format source (agentskills.io) and per-skill content sourcing
+    ├── pmm-framework-router/    # Symptom to framework sequence
+    ├── icp-definition/          # Segmentation, targeting, and a scored fit model
+    ├── positioning-development/ # Evidence-first positioning, canvas and statement
+    ├── messaging-architecture/  # Messaging house, proof points, message matrix
+    ├── competitive-battlecard/  # One-page field tool plus live delivery technique
+    ├── launch-planning/         # Tiering, motion, pre-mortem, measurement baseline
+    ├── win-loss-programme/      # Interview programme, coding, routed findings
+    ├── pricing-study-design/    # Picks and designs the right pricing study
+    └── quarterly-pmm-planning/  # Goals to deliverables, capacity, and a not-doing list
 ```
 
 Not yet created: `archived/`. See PLAN.md for the roadmap; don't assume it exists.
+
+### The `agent-skills/` area
+
+`agent-skills/` holds this knowledge base's methods packaged for AI agents, in
+the open [Agent Skills](https://agentskills.io) format. It is deliberately
+separate from everything above:
+
+- **It is not part of the entry count.** Skills are not entries. They do not
+  appear in INDEX.md, they do not carry a `**Type:**` line, and adding one does
+  not run the `add-kb-entry` checklist.
+- **It has its own conventions**, set out in `agent-skills/README.md`: a
+  `SKILL.md` with valid frontmatter, a directory name matching the `name`
+  field, a description written for triggering accuracy, `SKILL.md` under 500
+  lines with longer material in `assets/`, and a Gotchas section.
+- **Every skill traces to an entry.** No skill may introduce a method the
+  knowledge base has not researched and cited; the skill compresses the entry,
+  and the entry stays authoritative. Sourcing is recorded in the frontmatter
+  `metadata` block and in `agent-skills/ATTRIBUTION.md`.
+- **The Writing Standards above still apply**: British English, no em dashes,
+  no hedging, specific numbers.
+- **When an entry changes materially, check whether a skill cites it** and
+  update the skill in the same commit. `agent-skills/ATTRIBUTION.md` maps
+  skills to the entries behind them.
 
 ---
 
