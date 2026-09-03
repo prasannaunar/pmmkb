@@ -237,17 +237,65 @@ Output: Recommended framework or framework sequence
 
 ## Next Steps (Immediate)
 
-1. Create BY-SITUATION.md with situation-to-framework mapping
-2. Build quick-reference cards for top 5 frameworks (STP, Positioning, Value Prop, Win/Loss, GTM)
-3. Create initial quarterly planning template and test with next quarter's planning
-4. Establish feedback loop: monthly 30-minute PMM team sync to discuss framework usage and learnings
-5. Document which frameworks are used most frequently and prioritise them for deeper case studies
+These items from the original plan are complete:
+1. ~~Create BY-SITUATION.md~~ ✅
+2. ~~Build quick-reference cards~~ ✅
+3. ~~Create quarterly planning template~~ ✅
+4. ~~Establish feedback loop tooling~~ ✅ (FEEDBACK-LOG.md created; first live session pending)
+5. ~~Document framework usage frequency~~ (deferred; requires live usage data)
+
+---
+
+## Phase 6: Web App (Next)
+
+**Status:** Planned. Stack decisions captured; scaffolding to follow.
+
+The knowledge base is being deployed as a web app for public consumption.
+
+### Decisions captured (2026-09-03)
+
+- **Stack:** Next.js 15 (App Router) + MDX, deployed on Vercel
+- **Design direction:** Editorial / magazine feel; strong serif typography, generous whitespace, reading-optimised
+- **Content loading:** Parse existing category markdown files at build time, splitting on H2 boundaries to extract individual entries. The markdown files remain the single source of truth; the app is a read-only view layer.
+- **Licence:** CC BY 4.0
+
+### Core routes
+
+- `/` homepage with category overview and situation-based entry points
+- `/category/[slug]` for category listing pages
+- `/framework/[slug]` for individual entry pages
+
+### Design system scope
+
+- Editorial typography (serif display, complementary body face)
+- Colour palette with dark/light theme support
+- Sidebar navigation with category tree
+- Client-side search (likely Fuse.js over a pre-built index)
+- Quick-reference card layout
+- Responsive, mobile-first (this is a reference tool; phone readability matters)
+
+### Phase 7: Quiz Feature (Future)
+
+Layered on top of the stable web app. No user accounts, no gating, no personalisation.
+
+- Quiz data model: JSON alongside each entry, or a central quiz bank
+- Questions test application, not recall ("Given this scenario, which framework would you reach for?")
+- Session-only state via sessionStorage; no server-side persistence
+- Inline quiz sections on entry pages, plus a standalone quiz mode spanning categories
+- Immediate feedback with explanation and link back to the relevant entry
+
+### Open questions
+
+- Custom domain (can be added to Vercel at any point)
+- Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first)
+- Contributor workflow (contributing guide and CI checks, if others will submit entries)
+- Whether to surface `agent-skills/` in the web app or keep them repo-only
 
 ---
 
 ## Notes for Users
 
 - This knowledge base is designed to be **referenced during real work, not studied**. When you face a challenge (e.g., "Sales doesn't understand our positioning"), search BY-SITUATION.md or use the decision tree to find the relevant framework, then apply it.
-- **Frameworks are sequences, not standalone.** Most PMM work involves 2–3 frameworks in sequence. Use the cross-links and integration diagrams to understand dependencies.
+- **Frameworks are sequences, not standalone.** Most PMM work involves 2-3 frameworks in sequence. Use the cross-links and integration diagrams to understand dependencies.
 - **Update as you go.** When a framework works exceptionally well (or fails), note it. These learnings feed the annual refresh cycle.
 - **Customise for your context.** These frameworks are designed for B2B SaaS but are adaptable. Add your company's context, examples, and metrics as you use them.

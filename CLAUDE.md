@@ -115,7 +115,6 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── INDEX.md                     # Full taxonomy of all frameworks
 ├── BY-SITUATION.md              # Situation-to-framework mapper
 ├── PLAN.md                      # Roadmap for polish and integration
-├── PROGRESS.md                  # Progress tracking and team notes
 ├── CLAUDE.md                    # This file; working principles
 ├── GLOSSARY.md                  # PMM terminology (45+ terms)
 ├── ONBOARDING.md                # Role-based onboarding playbook for new PMM team members
@@ -130,7 +129,6 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── NEW-SOURCES-GAP-ANALYSIS.md  # Candidate queue sourced from the PMA Advanced course index and calven.ai (2026-08-14, closed: 6 of 8 built, 2 rejected)
 ├── framework-selector.md        # Selection matrix by business goal, timeline, and data availability
 ├── pitfalls-deep-dive.md        # Deep dives on STP, positioning, GTM, and competitive pitfalls
-├── product-marketing-kb-task.md # Original task specification (reference)
 │
 ├── case-studies/                 # Extended case study walkthroughs (STP, VPC, Win/Loss, 10-Step, GTM)
 │   ├── README.md
@@ -250,6 +248,6 @@ separate from everything above:
 
 ## Maintenance Cadence
 
-Weekly, monthly, quarterly, and annual review cadences are tracked in PROGRESS.md, not here. Frameworks are organised by workflow stage (understand market → position → go to market → measure), not alphabetically; this is a hard rule, reflected in INDEX.md and BY-SITUATION.md.
+Frameworks are organised by workflow stage (understand market → position → go to market → measure), not alphabetically; this is a hard rule, reflected in INDEX.md and BY-SITUATION.md.
 
 Propose changes to this file via a commit to CLAUDE.md with clear justification in the commit message.
