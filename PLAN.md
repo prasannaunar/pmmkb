@@ -248,13 +248,13 @@ These items from the original plan are complete:
 
 ## Phase 6: Web App (Next)
 
-**Status:** Planned. Stack decisions captured; scaffolding to follow.
+**Status:** Scaffolded. Core app running in `web/` with all three route types, sidebar navigation, search, dark/light theme, and mobile responsiveness. All 66 entries statically generated at build time. Ready for design polish and Vercel deployment.
 
 The knowledge base is being deployed as a web app for public consumption.
 
 ### Decisions captured (2026-09-03)
 
-- **Stack:** Next.js 15 (App Router) + MDX, deployed on Vercel
+- **Stack:** Next.js 16 (App Router), deployed on Vercel
 - **Design direction:** Editorial / magazine feel; strong serif typography, generous whitespace, reading-optimised
 - **Content loading:** Parse existing category markdown files at build time, splitting on H2 boundaries to extract individual entries. The markdown files remain the single source of truth; the app is a read-only view layer.
 - **Licence:** CC BY 4.0
@@ -273,6 +273,17 @@ The knowledge base is being deployed as a web app for public consumption.
 - Client-side search (likely Fuse.js over a pre-built index)
 - Quick-reference card layout
 - Responsive, mobile-first (this is a reference tool; phone readability matters)
+
+### Scaffold built (2026-09-03)
+
+- **App location:** `web/` directory (Next.js 16.3, TypeScript, Tailwind CSS v4)
+- **Typography:** Playfair Display (serif display headings) + Source Sans 3 (body)
+- **Content parsing:** `src/lib/content.ts` reads `frameworks/*.md` and `concepts/*.md` at build time, splits on H2 boundaries, extracts Type tags, and generates slugs; markdown remains the single source of truth
+- **Routes built:** `/` (homepage with category grid, type counts, and full entry listing), `/category/[slug]` (10 category pages with entry cards and snippets), `/framework/[slug]` (66 individual entry pages with breadcrumb navigation and rendered prose)
+- **Search:** Client-side Fuse.js fuzzy search over all entries (Ctrl+K shortcut), searching title, snippet, and category
+- **Theme:** System/light/dark toggle with CSS custom properties, persisted to localStorage
+- **Sidebar:** Category tree navigation with active-state highlighting, collapsible on mobile with hamburger menu
+- **Static generation:** All pages pre-rendered via `generateStaticParams`; production build generates 78 HTML pages (homepage, 10 categories, 66 entries, 404)
 
 ### Phase 7: Quiz Feature (Future)
 
