@@ -1,6 +1,6 @@
 ---
 name: add-kb-entry
-description: Use when adding a new framework, methodology, model, or primer to the PMM knowledge base, or retagging an existing entry's Type or category. Walks through every doc that must stay in sync (category file, INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, PROGRESS.md, and any candidate queue), so nothing is left stale.
+description: Use when adding a new framework, methodology, model, or primer to the PMM knowledge base, or retagging an existing entry's Type or category. Walks through every doc that must stay in sync (category file, INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, and any candidate queue), so nothing is left stale.
 ---
 
 # Adding or retagging a knowledge base entry
@@ -54,19 +54,13 @@ Only if the entry maps to one of the existing numbered situations: add it to
 that situation's recommended-frameworks list. Don't force a mapping if none
 fits.
 
-## 6. PROGRESS.md
-
-Add a dated line to the version history noting what was built, and update the
-entry-count breakdown (frameworks / methodologies / models / primers) at the
-top of the file if the totals changed.
-
-## 7. Candidate queues
+## 6. Candidate queues
 
 If the entry came from ENRICHMENT-PLAN.md or FRAMEWORK-BACKLOG.md, mark that
 candidate `✅ BUILT (YYYY-MM-DD)` in place; don't delete the entry from the
 queue file.
 
-## 8. Run the Quality Gates checklist
+## 7. Run the Quality Gates checklist
 
 Before finishing, go through CLAUDE.md's "Before Publishing Framework
 Changes" checklist, including the cross-doc consistency check this skill just
