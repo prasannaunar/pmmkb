@@ -3,7 +3,7 @@
 - [ ] New entry (framework / methodology / model / primer)
 - [ ] Edit to an existing entry
 - [ ] Retag (Type or category change)
-- [ ] Navigation/index doc only (README, INDEX, FRAMEWORK-MAP, BY-SITUATION, PROGRESS)
+- [ ] Navigation/index doc only (README, INDEX, FRAMEWORK-MAP, BY-SITUATION)
 - [ ] Housekeeping (typo, broken link, formatting, CLAUDE.md, tooling)
 
 ## What changed and why
@@ -21,7 +21,6 @@
 - [ ] `README.md` (counts/summary table)
 - [ ] `FRAMEWORK-MAP.md`
 - [ ] `BY-SITUATION.md`
-- [ ] `PROGRESS.md`
 - [ ] Candidate queue marked built (`ENRICHMENT-PLAN.md` / `FRAMEWORK-BACKLOG.md`)
 
 ## Style guide compliance
@@ -34,4 +33,3 @@
 ## Other checks
 
 - [ ] `/docs` or CLAUDE.md updated if this adds a new tool, skill, or workflow
-- [ ] `PROGRESS.md` updated with a dated line for this change
