@@ -1,0 +1,150 @@
+import Link from "next/link";
+import { getAllCategories, getSearchIndex } from "@/lib/content";
+import { Search } from "@/components/search";
+import { TypeBadge } from "@/components/type-badge";
+import { pluralType } from "@/lib/plural";
+
+const CATEGORY_ICONS: Record<number, string> = {
+  1: "M",
+  2: "P",
+  3: "C",
+  4: "G",
+  5: "L",
+  6: "X",
+  7: "S",
+  8: "$",
+  9: "E",
+  10: "?",
+};
+
+export default function HomePage() {
+  const categories = getAllCategories();
+  const searchEntries = getSearchIndex();
+
+  const totalEntries = categories.reduce((sum, c) => sum + c.entries.length, 0);
+  const typeCounts = categories
+    .flatMap((c) => c.entries)
+    .reduce(
+      (acc, e) => {
+        acc[e.type] = (acc[e.type] || 0) + 1;
+        return acc;
+      },
+      {} as Record<string, number>
+    );
+
+  return (
+    <div className="px-6 lg:px-12 py-12 max-w-5xl mx-auto">
+      <header className="mb-16">
+        <h1
+          className="text-4xl lg:text-5xl font-bold tracking-tight mb-4"
+          style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
+        >
+          Product Marketing
+          <br />
+          Knowledge Base
+        </h1>
+        <p
+          className="text-lg max-w-2xl mb-8 leading-relaxed"
+          style={{ color: "var(--text-secondary)" }}
+        >
+          {totalEntries} proven frameworks, methodologies, and models for product marketing
+          professionals. Practical, structured, and ready to apply.
+        </p>
+
+        <div className="flex flex-wrap gap-3 mb-8">
+          {Object.entries(typeCounts).map(([type, count]) => (
+            <span
+              key={type}
+              className="text-sm px-3 py-1 rounded-full border"
+              style={{ borderColor: "var(--border)", color: "var(--text-secondary)" }}
+            >
+              {count} {pluralType(type, count)}
+            </span>
+          ))}
+        </div>
+
+        <Search entries={searchEntries} />
+      </header>
+
+      <section className="mb-16">
+        <h2
+          className="text-2xl font-bold mb-8"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Browse by Category
+        </h2>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {categories.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/category/${cat.slug}`}
+              className="group block p-5 rounded-xl border transition-all hover:shadow-md"
+              style={{
+                backgroundColor: "var(--bg-card)",
+                borderColor: "var(--border)",
+              }}
+            >
+              <div className="flex items-start gap-3">
+                <span
+                  className="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold"
+                  style={{
+                    backgroundColor: "var(--accent-light)",
+                    color: "var(--accent)",
+                  }}
+                >
+                  {CATEGORY_ICONS[cat.number] || cat.number}
+                </span>
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-sm leading-snug" style={{ color: "var(--text-primary)" }}>
+                    {cat.title}
+                  </h3>
+                  <p className="text-xs mt-1" style={{ color: "var(--text-tertiary)" }}>
+                    {cat.entries.length} {cat.entries.length === 1 ? "entry" : "entries"}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2
+          className="text-2xl font-bold mb-8"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          All Entries
+        </h2>
+        <div className="space-y-2">
+          {categories.map((cat) =>
+            cat.entries.map((entry) => (
+              <Link
+                key={entry.slug}
+                href={`/framework/${entry.slug}`}
+                className="flex items-center gap-3 px-4 py-3 rounded-lg border transition-colors hover:shadow-sm"
+                style={{
+                  backgroundColor: "var(--bg-card)",
+                  borderColor: "var(--border)",
+                }}
+              >
+                <TypeBadge type={entry.type} />
+                <span className="font-medium text-sm flex-1 min-w-0 truncate" style={{ color: "var(--text-primary)" }}>
+                  {entry.title}
+                </span>
+                <span className="text-xs flex-shrink-0 hidden sm:inline" style={{ color: "var(--text-tertiary)" }}>
+                  {cat.title.replace(/^Category \d+: /, "")}
+                </span>
+              </Link>
+            ))
+          )}
+        </div>
+      </section>
+
+      <footer className="mt-20 pt-8 border-t text-center" style={{ borderColor: "var(--border)" }}>
+        <p className="text-xs" style={{ color: "var(--text-tertiary)" }}>
+          CC BY 4.0 &middot; A reference guide for product marketing professionals
+        </p>
+      </footer>
+    </div>
+  );
+}
