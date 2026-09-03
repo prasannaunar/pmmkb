@@ -1,8 +1,8 @@
 # Feedback Log & Review Cadence
 
-Tracks the monthly team feedback loop and annual framework-review cadence described in [PLAN.md](PLAN.md) Phase 5 and [CLAUDE.md](CLAUDE.md)'s "Updates & Additions" principles. This file is the running record; PROGRESS.md's Maintenance Metrics summarises status from it.
+Tracks the monthly team feedback loop and annual framework-review cadence described in [PLAN.md](PLAN.md) Phase 5 and [CLAUDE.md](CLAUDE.md)'s "Updates & Additions" principles.
 
-No entries exist yet: this log starts empty and is filled in as the practices below actually run, not backfilled with invented history. See PROGRESS.md's "Operational tooling" priorities for the decision to stand this up now, ahead of the first live session.
+No entries exist yet: this log starts empty and is filled in as the practices below actually run, not backfilled with invented history.
 
 ---
 

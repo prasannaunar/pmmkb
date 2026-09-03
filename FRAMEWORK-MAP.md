@@ -310,7 +310,7 @@ Consolidated 2026-07-30 to hold all four entries most closely associated with th
 
 **2026-07-21**: Added the first two ENRICHMENT-PLAN.md builds to the map. Message Architecture (Messaging House) joins the positioning frameworks (prerequisite: a validated positioning statement; feeds GTM execution and sales enablement) and is now step 5 of the New Product Launch scenario. The Voice of the Customer (VoC) Programme joins the measurement and optimisation frameworks as the system that connects Win/Loss and NPS. Entry count updated 26 → 28.
 
-**2026-07-19**: Added Category 8 (Pricing & Packaging) to the dependency matrix and a new "Pricing a New Tier or Service" scenario; corrected the framework count to 26 (this map had not been updated since the three Category 8 frameworks were added between 2026-07-12 and 2026-07-18, and the repository-wide total was separately found to have been miscounted at 22 due to Product Differentiation Strategy Framework being double-listed in Category 2 and Category 3; see PROGRESS.md).
+**2026-07-19**: Added Category 8 (Pricing & Packaging) to the dependency matrix and a new "Pricing a New Tier or Service" scenario; corrected the framework count to 26 (this map had not been updated since the three Category 8 frameworks were added between 2026-07-12 and 2026-07-18, and the repository-wide total was separately found to have been miscounted at 22 due to Product Differentiation Strategy Framework being double-listed in Category 2 and Category 3).
 
 **2026-04-09**: Initial framework map created based on 19-framework knowledge base. Includes dependency matrix, common scenarios, and workflow guidance.
 

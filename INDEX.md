@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research: CI Program Maturity Model into Category 3, VARS Framework into Category 9, Time to Value Framework into Category 6, following the first three built earlier the same day (MAP Model, RFM Model, MaxDiff Analysis). The PM/PMM Collaboration Maturity Model was researched and rejected, uncited anywhere beyond the course deck. Total 63 → 66 entries. See PROGRESS.md for the full build log.)
+**Last Updated:** 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research: CI Program Maturity Model into Category 3, VARS Framework into Category 9, Time to Value Framework into Category 6, following the first three built earlier the same day (MAP Model, RFM Model, MaxDiff Analysis). The PM/PMM Collaboration Maturity Model was researched and rejected, uncited anywhere beyond the course deck. Total 63 → 66 entries.)
 
 ---
 
@@ -145,7 +145,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ## Structure Notes
 
 - **Total entries:** 66 (29 frameworks, 26 methodologies, 10 models, 1 primer, recounted directly from this file's Type columns after the 2026-08-14 build of six of the eight NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model (Methodology, Category 1), RFM Model (Model, Category 6), MaxDiff Analysis (Methodology, Category 8), CI Program Maturity Model (Model, Category 3), VARS Framework (Framework, Category 9), and Time to Value Framework (Model, Category 6). Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
-- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model), see PROGRESS.md)
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
@@ -165,13 +165,13 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ## Next Steps
 
 - [x] BY-SITUATION cross-reference index (see [BY-SITUATION.md](BY-SITUATION.md), 10 situations mapped)
-- [x] Consistency and quality review (see [PROGRESS.md](PROGRESS.md) for the 2026-07-19 review: British English, em dash removal, word count compliance)
+- [x] Consistency and quality review (2026-07-19: British English, em dash removal, word count compliance)
 - [x] Enrich the KB with further frameworks and methodologies (see [ENRICHMENT-PLAN.md](ENRICHMENT-PLAN.md), logged 2026-07-21; all 19 candidates built as of 2026-07-28)
 - [x] Build the remaining FRAMEWORK-BACKLOG.md candidates (see [FRAMEWORK-BACKLOG.md](FRAMEWORK-BACKLOG.md); all 12 candidates built as of 2026-07-30)
 - [x] Add a Type column to the navigation tables above and backfill `**Type:**` on the original 26 entries (ENRICHMENT-PLAN.md B2/B5; completed 2026-07-30)
 - [x] Consolidate the Competitive Battlecard Framework and Buyer's Journey Content Map into Category 9 (completed 2026-07-30)
-- [x] Full web-verification pass on entries added since 2026-04-09 (completed 2026-07-30; see PROGRESS.md)
+- [x] Full web-verification pass on entries added since 2026-04-09 (completed 2026-07-30)
 - [x] Quick-reference cards and GLOSSARY.md (see [PLAN.md](PLAN.md) Phase 1; built 2026-07-31, see [quick-reference/](quick-reference/) and [GLOSSARY.md](GLOSSARY.md))
 - [x] Operational templates, onboarding playbook, and feedback-log tooling (see [PLAN.md](PLAN.md) Phases 2 and 4; built 2026-07-31, see [templates/](templates/), [ONBOARDING.md](ONBOARDING.md), and [FEEDBACK-LOG.md](FEEDBACK-LOG.md))
 - [x] Build the EXTERNAL-REPO-GAP-ANALYSIS.md queue (see [EXTERNAL-REPO-GAP-ANALYSIS.md](EXTERNAL-REPO-GAP-ANALYSIS.md); all 6 approved candidates built 2026-08-13)
-- [ ] Final publication readiness (see "Public Release Readiness" in [PROGRESS.md](PROGRESS.md))
+- [x] Public release readiness (licence, .gitignore, README rewrite; completed 2026-09-03)

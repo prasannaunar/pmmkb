@@ -111,8 +111,7 @@ Run it on every skill you add or edit.
    British English, no em dashes, no hedging, specific numbers.
 7. **Record attribution** in the frontmatter `metadata` block and in
    [ATTRIBUTION.md](ATTRIBUTION.md).
-8. **Validate, then update** this README's table and add a line to
-   `PROGRESS.md`.
+8. **Validate, then update** this README's table.
 
 ---
 
