@@ -1,7 +1,7 @@
 # Improvements Plan: September 2026 Feedback Round
 
 **Logged:** 2026-09-05
-**Status:** Proposed. Awaiting sign-off before implementation.
+**Status:** Approved 2026-09-05. The three open decisions are resolved and folded in below (light-only theme; domain-dependent SEO deferred until the move to pmmkb.com; sources rendered under the entry title). Implementation will span multiple sessions; work through the phases in order.
 **Scope:** The web app in `web/` plus a full attribution pass over the knowledge base content. Source of feedback: owner review of the deployed site.
 
 This plan turns the September feedback into six workstreams, sequenced so that content changes (which the web app renders) land before the rendering changes that depend on them. Each workstream lists concrete tasks, files touched, and acceptance criteria.
@@ -45,7 +45,7 @@ Add a short section to CLAUDE.md (Writing Standards) defining a **Sources** bloc
 
 ### 1c. Render attribution prominently in the web app
 
-- Entry pages get a visually distinct "Sources" section (rendered from the Sources block) near the top or clearly styled at the end, with outbound links (`rel="noopener"`, external-link affordance).
+- **Attribution sits right under the entry title.** Entry pages render the Sources block as a clearly styled section directly beneath the title (originator, work, year, outbound links with `rel="noopener"` and an external-link affordance), before the body begins. The same applies wherever a title-plus-content pattern exists (quick-reference cards once they carry source lines).
 - Site footer gains a standing acknowledgement line: the knowledge base summarises frameworks created by their named originators; links in each entry point to the original material.
 
 **Acceptance:** all 66 entries have at least one working outbound link to original material; CLAUDE.md encodes the standard; the web app shows sources on every entry page.
@@ -59,7 +59,7 @@ Port the personal site's brand into `web/`, adapted for a reference app.
 ### 2a. Design tokens (`web/src/app/globals.css`)
 
 - Replace the stone/amber palette with the website tokens: brand `#569ED0`, brand-alt `#D08856` (sparingly: one accent per viewport, per the build spec's usage rule), heading `#1C1C1C`, text `#2B2B2B`, bg `#FDFDFB`, bg-secondary/card `#FAF9F6`, subtle `#B5B5B5`.
-- **Dark mode:** keep the existing toggle and system preference support (the KB is a reading tool; dark mode earns its keep), but rebuild the dark palette from the brand: bg `#1C1C1C`, text `#FDFDFB`/`#EDEDEA`, brand blue lightened for AA contrast on dark. The website itself is light-only, so this is the one deliberate divergence; flagged as an open decision below.
+- **Light-only, matching the website (decided 2026-09-05).** Remove the theme toggle, `theme-provider.tsx`, `theme-toggle.tsx`, the `data-theme` handling, and the entire dark palette (`prefers-color-scheme` block included). One theme, the website's light palette.
 - WCAG AA contrast on every combination (the website spec makes this non-negotiable). Note `#569ED0` on `#FDFDFB` fails AA for body-size text; use it for large text, borders, and accents, and use a darkened variant (the website already uses `#457eaa` for link hover) for link text.
 
 ### 2b. Rounded corners
@@ -147,20 +147,23 @@ Owner's proposed rule, verified against the website and adopted:
 
 Scoped as requested; implementation items in priority order.
 
+**Domain note (decided 2026-09-05):** production is currently pmmkb.vercel.app and will eventually move to pmmkb.com. Anything that bakes absolute URLs into pages or files (canonical URLs, `metadataBase`, `og:url`, `sitemap.xml`, JSON-LD `url`/`@id` fields, `llms.txt` entry URLs) **waits until pmmkb.com is live**, so nothing gets indexed or cited against the temporary domain. The domain-independent items below can ship any time. When the domain move happens, implement the deferred items in one pass and read the domain from a single env var (e.g. `NEXT_PUBLIC_SITE_URL`) so a future change is one-line.
+
 ### 6a. Technical SEO foundations
 
-- Set `metadataBase` and canonical URLs in `layout.tsx` (needs the production domain; open decision below).
-- Per-page metadata: entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags; `og:type=article` for entries.
-- Generate `sitemap.xml` and `robots.txt` via the App Router conventions (`app/sitemap.ts`, `app/robots.ts`); works with static export.
+- **Deferred until pmmkb.com:** `metadataBase`, canonical URLs, `og:url`, `sitemap.xml`.
+- Per-page metadata (domain-independent, ship now): entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags without absolute URLs; `og:type=article` for entries.
+- `robots.txt` via `app/robots.ts` (sitemap reference added later with the domain).
 - Semantic HTML pass: one `h1` per page, real heading hierarchy (delivered by Workstream 5a), `<article>`, `<nav aria-label>`, skip link, landmark roles (mirrors the website's non-negotiables).
 
 ### 6b. Structured data (JSON-LD)
 
 - `WebSite` with `SearchAction` on the homepage; `BreadcrumbList` on category and entry pages; `Article` (headline, about, isPartOf, citation) per entry, with `citation` populated from the Sources block (Workstream 1 feeds this directly); `CollectionPage` for category and type pages.
+- Structure and content can be built now, but the `url`/`@id` fields make this effectively domain-dependent: ship it in the post-domain-move pass alongside canonicals.
 
 ### 6c. GEO/AEO (discoverability by AI assistants and answer engines)
 
-- Publish `llms.txt` (site map with one-line descriptions per entry) and `llms-full.txt` (or per-entry `.md` endpoints) so agents can ingest entries cleanly; the markdown source makes this nearly free.
+- Publish `llms.txt` (site map with one-line descriptions per entry) and `llms-full.txt` (or per-entry `.md` endpoints) so agents can ingest entries cleanly; the markdown source makes this nearly free. Entry URLs make these domain-dependent: defer to the post-domain-move pass.
 - Answer-shaped content: the promoted section headings ("What it is", "When to use it") are already question-shaped; add a concise definition sentence at the top of each entry page (the existing first sentence of "What it is", surfaced as a styled summary) so extractors get a self-contained answer.
 - Stable anchors per section (from 5a) enable deep links from search and citations from assistants.
 - Entry pages should carry visible authorship/provenance ("Summarised from [originator]; see Sources") which both AEO and the attribution goal reward.
@@ -170,7 +173,7 @@ Scoped as requested; implementation items in priority order.
 - URL restructuring (`/framework/[slug]` for all types is slightly misleading for methodologies, but changing URLs breaks existing links for marginal SEO gain; revisit only alongside a redirect strategy).
 - Analytics, search console registration, and any paid tooling (owner-side tasks; the plan only makes the site ready for them).
 
-**Acceptance:** Lighthouse SEO score 100 on entry/category/home pages; valid JSON-LD (Rich Results test); `sitemap.xml`, `robots.txt`, `llms.txt` deployed; unique meta descriptions on all 66 entries.
+**Acceptance (now):** semantic HTML pass complete; `robots.txt` deployed; unique meta descriptions on all 66 entries. **Acceptance (after the pmmkb.com move):** Lighthouse SEO score 100 on entry/category/home pages; valid JSON-LD (Rich Results test); `sitemap.xml` and `llms.txt` deployed with pmmkb.com URLs; canonicals set.
 
 ---
 
@@ -179,11 +182,11 @@ Scoped as requested; implementation items in priority order.
 1. **Phase 1 (content):** Workstream 1a + 1b (citation standard, then the 66-entry link pass, committed per category file). No app dependency; the largest and most valuable block.
 2. **Phase 2 (foundation):** Workstream 2 (tokens, fonts, corners, tag redesign) and 3 (type pages, homepage, terminology) together, since both touch the same pages.
 3. **Phase 3 (behaviour):** Workstream 4 (sticky header, back to top, mobile bar) on the redesigned pages.
-4. **Phase 4 (rendering + SEO):** Workstream 5 (section promotion, See also links, Sources rendering = 1c) then 6 (metadata, JSON-LD, llms.txt), which depends on 5's heading structure and 1's citations.
+4. **Phase 4 (rendering + SEO):** Workstream 5 (section promotion, See also links, Sources rendering = 1c) then the domain-independent parts of 6 (semantic HTML, meta descriptions, robots.txt), which depend on 5's heading structure and 1's citations. The domain-dependent parts of 6 form a fifth, later pass once pmmkb.com is live.
 5. Each phase ends with `npm run lint` and `npm run build` in `web/`, plus a Playwright viewport smoke check for Phase 3.
 
-## Open decisions (recommendations included; none block Phase 1)
+## Decisions taken (2026-09-05)
 
-1. **Dark mode:** keep (recommended, rebuilt on brand colours) or drop to match the light-only website. Plan assumes keep.
-2. **Production domain** for canonical URLs and sitemap (e.g. a subdomain of prasannaunar.com or the Vercel domain). Needed before Workstream 6a ships; a placeholder env var keeps it unblocked.
-3. **Sources placement on entry pages:** end of entry (recommended, standard for references) versus a compact byline under the title ("Created by April Dunford") linking down to full sources. Plan assumes end-of-entry block plus a one-line provenance note under the title.
+1. **Theme:** light-only, matching the website. Dark mode, the toggle, and the theme provider are removed (Workstream 2a).
+2. **Domain:** production is pmmkb.vercel.app for now, moving to pmmkb.com eventually. All absolute-URL SEO work (canonicals, sitemap, JSON-LD URLs, llms.txt) waits for that move; see the domain note in Workstream 6.
+3. **Sources placement:** rendered directly under the entry title, before the body (Workstream 1c).
