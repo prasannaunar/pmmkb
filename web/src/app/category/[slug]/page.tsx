@@ -97,21 +97,19 @@ export default async function CategoryPage({
                 borderColor: "var(--border)",
               }}
             >
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-0.5">
+              <Link href={`/framework/${entry.slug}`} className="block">
+                <div className="mb-1.5">
                   <TypeBadge type={entry.type} />
                 </div>
-                <Link href={`/framework/${entry.slug}`} className="min-w-0 block">
-                  <h2 className="font-semibold leading-snug" style={{ color: "var(--text-primary)" }}>
-                    {entry.title}
-                  </h2>
-                  {snippet && (
-                    <p className="text-sm mt-1.5 leading-relaxed line-clamp-2" style={{ color: "var(--text-secondary)" }}>
-                      {snippet}
-                    </p>
-                  )}
-                </Link>
-              </div>
+                <h2 className="font-semibold leading-snug" style={{ color: "var(--text-primary)" }}>
+                  {entry.title}
+                </h2>
+                {snippet && (
+                  <p className="text-sm mt-1.5 leading-relaxed line-clamp-2" style={{ color: "var(--text-secondary)" }}>
+                    {snippet}
+                  </p>
+                )}
+              </Link>
             </div>
           );
         })}

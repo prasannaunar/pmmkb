@@ -1,20 +1,8 @@
 import Link from "next/link";
 import { getAllCategories, getSearchIndex, TYPE_SLUGS } from "@/lib/content";
 import { Search } from "@/components/search";
+import { CategoryIcon } from "@/components/category-icon";
 import { pluralType } from "@/lib/plural";
-
-const CATEGORY_ICONS: Record<number, string> = {
-  1: "M",
-  2: "P",
-  3: "C",
-  4: "G",
-  5: "L",
-  6: "X",
-  7: "S",
-  8: "$",
-  9: "E",
-  10: "?",
-};
 
 export default function HomePage() {
   const categories = getAllCategories();
@@ -77,13 +65,13 @@ export default function HomePage() {
             >
               <div className="flex items-start gap-3">
                 <span
-                  className="flex-shrink-0 w-8 h-8 flex items-center justify-center text-sm font-bold"
+                  className="flex-shrink-0 w-8 h-8 flex items-center justify-center"
                   style={{
                     backgroundColor: "var(--accent-light)",
                     color: "var(--accent)",
                   }}
                 >
-                  {CATEGORY_ICONS[cat.number] || cat.number}
+                  <CategoryIcon number={cat.number} className="w-4 h-4" />
                 </span>
                 <div className="min-w-0">
                   <h3 className="font-semibold text-sm leading-snug" style={{ color: "var(--text-primary)" }}>
