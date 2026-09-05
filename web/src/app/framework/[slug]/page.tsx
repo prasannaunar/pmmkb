@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllEntries, getEntryBySlug, markdownToHtml } from "@/lib/content";
+import { extractSpecialSections, parseSeeAlso } from "@/lib/entry-sections";
 import { TypeBadge } from "@/components/type-badge";
+import { StickyHeader } from "@/components/sticky-header";
+import { EntrySources } from "@/components/entry-sources";
+import { EntrySeeAlso } from "@/components/entry-see-also";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -31,10 +35,28 @@ export default async function FrameworkPage({
   const entry = getEntryBySlug(slug);
   if (!entry) notFound();
 
-  const contentHtml = await markdownToHtml(entry.rawMarkdown);
+  const { body, sourcesMarkdown, seeAlsoText } = extractSpecialSections(entry.rawMarkdown);
+  const contentHtml = await markdownToHtml(body);
+
+  const seeAlsoItems = seeAlsoText ? parseSeeAlso(seeAlsoText, getAllEntries()) : [];
+  for (const item of seeAlsoItems) {
+    if (!item.slug) {
+      console.warn(
+        `[See also] "${entry.title}" references "${item.name}", which does not match any entry title.`
+      );
+    }
+  }
+
+  const categoryLabel = entry.categoryTitle.replace(/^Category \d+: /, "");
 
   return (
     <div className="px-6 lg:px-12 py-12 max-w-3xl mx-auto">
+      <StickyHeader
+        crumbs={[{ label: "Home" }, { label: categoryLabel }, { label: entry.title }]}
+        title={entry.title}
+        badge={<TypeBadge type={entry.type} />}
+      />
+
       <nav className="mb-8">
         <Link
           href="/"
@@ -49,7 +71,7 @@ export default async function FrameworkPage({
           className="text-sm transition-colors hover:underline"
           style={{ color: "var(--text-tertiary)" }}
         >
-          {entry.categoryTitle.replace(/^Category \d+: /, "")}
+          {categoryLabel}
         </Link>
         <span className="mx-2 text-sm" style={{ color: "var(--text-tertiary)" }}>/</span>
         <span className="text-sm" style={{ color: "var(--text-secondary)" }}>
@@ -66,16 +88,20 @@ export default async function FrameworkPage({
         </div>
         <h1
           className="text-3xl lg:text-4xl font-bold tracking-tight"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-sans)" }}
         >
           {entry.title}
         </h1>
       </header>
 
+      {sourcesMarkdown && <EntrySources markdown={sourcesMarkdown} />}
+
       <article
         className="prose"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
+
+      <EntrySeeAlso items={seeAlsoItems} />
 
       <footer className="mt-12 pt-6 border-t" style={{ borderColor: "var(--border)" }}>
         <Link
