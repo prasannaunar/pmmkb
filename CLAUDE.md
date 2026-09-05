@@ -71,6 +71,19 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 - **Cross-references must link frameworks.** When one framework builds on another, note it: "See also: [Framework Name]"
 - **Word count per framework: 1000–1500 words.** Avoid exceeding 3000 words per category file
 
+### Sources block (citation standard)
+
+Every entry must carry a **`**Sources:**` block**, immediately before `**See also:**`, replacing the older optional `**Further reading:**` line. This is the entry's link to the original material; being useful and respectful to the people who created these frameworks is the point.
+
+- **Format:** one bullet per source, each naming the originator, the work title, the year, and a markdown link to the most canonical stable URL available, e.g.:
+  ```
+  **Sources:**
+  - Wendell R. Smith, ["Product Differentiation and Market Segmentation as Alternative Marketing Strategies"](https://example.com/...), *Journal of Marketing* (1956)
+  ```
+- **Link preference order:** the originator's own site or the framework's official page first; then the publisher's page for a book; then a stable, well-known reference (e.g. the originator's own article or a major publication that documents it). Never a scraped summary site, never an affiliate link.
+- **Every entry needs at least one linked source.** Where a framework has no single originator (e.g. a differentiation lens compiled by practitioners), cite the best-documented version and say so explicitly, matching the precedent in SOURCE-VALIDATION-LOG.md.
+- Verify every URL resolves before committing it.
+
 ---
 
 ## Content Principles
@@ -229,7 +242,7 @@ separate from everything above:
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
 - [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
-- [ ] **Every fact, figure, quote, or attribution is cited.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source: a "Further reading" line, an inline citation with author/title/year, or a named report. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for the standard this follows and worked examples of both citations and hedged rewrites.
+- [ ] **Every fact, figure, quote, or attribution is cited, with a working link.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source in the `**Sources:**` block (see "Sources block (citation standard)" above): originator, work title, year, and a verified URL. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for worked examples of both citations and hedged rewrites.
 - [ ] **Fictional example companies are explicitly labelled as fictional.** An invented company used to illustrate a framework (as opposed to a real, verifiably-sourced case study) must say so in its first mention, e.g. "a fictional B2B SaaS company called X" or "X, a fictional Y." Don't leave an invented name unlabelled, even if the scenario is clearly illustrative to the author; a future reader may not know.
 
 ### Before Publishing Templates
