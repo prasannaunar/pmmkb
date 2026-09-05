@@ -110,3 +110,36 @@ All five template files (`campaign-brief-template.md`, `competitive-intelligence
 - **One claim removed outright** (the Perceptual Map's "predates the book" aside) rather than sourced, since no defensible citation could be found and the claim added little.
 - **One real-company example converted to fictional** (Atlassian → Meridian Ops in the 10-Step PMM Process) because its specific internal-process claims could not be fully verified against public sources, and CLAUDE.md's own quality gate requires real-company examples to have real, verifiable outcomes.
 - **Fictional-company labelling**: 14 example companies across `frameworks/01`, `02`, `08`, and `09` that were clearly invented but not explicitly marked "fictional" now are, closing the gap the user flagged directly. Anonymised, unnamed examples (e.g. "a $1.1B smartphone maker," "a mid-market HR tech company") were left as-is since there is no company name to be mistaken for real.
+
+---
+
+## Follow-up: Sources block link pass (2026-09-05)
+
+**Status:** Complete. All 66 entries now carry a `**Sources:**` block.
+
+**Trigger:** IMPROVEMENTS-PLAN-2026-09.md Workstream 1, following owner feedback that every entry should link to its original material, not just name it in text.
+
+**Method:** CLAUDE.md's "Sources block (citation standard)" section (added the same day) was applied file by file across `frameworks/01`–`09` and `concepts/gtm-strategy-vs-product-marketing.md`. For each of the 18 entries that already carried a `**Further reading:**` line, the citation was converted to one bullet per source with a verified URL added. For the 48 entries with no prior citation, an originator or best-documented practitioner source was researched and a verified URL attached, reusing this log's existing identity research wherever it applied. Every URL was checked to resolve via WebFetch (or curl, for the handful of sites that bot-block automated fetchers) before being used; where a source genuinely has no single originator, the bullet says so explicitly rather than inventing an attribution.
+
+**Per-file link counts** (entries with a Sources block / total entries):
+
+| File | Entries sourced |
+|---|---|
+| `frameworks/01-market-customer-understanding.md` | 8 / 8 |
+| `frameworks/02-positioning-messaging.md` | 12 / 12 |
+| `frameworks/03-competitive-strategy.md` | 5 / 5 |
+| `frameworks/04-go-to-market-launch.md` | 11 / 11 |
+| `frameworks/05-lifecycle-workflow.md` | 3 / 3 |
+| `frameworks/06-product-experience-adoption.md` | 7 / 7 |
+| `frameworks/07-strategy-planning.md` | 7 / 7 |
+| `frameworks/08-pricing-packaging.md` | 7 / 7 |
+| `frameworks/09-sales-enablement.md` | 5 / 5 |
+| `concepts/gtm-strategy-vs-product-marketing.md` | 1 / 1 |
+| **Total** | **66 / 66** |
+
+**Notable findings during this pass:**
+- Several previously cited OpenView Partners blog URLs (Good-Better-Best's 1:3:7 ratio, T2D3's NRR benchmark, Complete GTM Workflow Stages) had gone dead since the 2026-08-12 audit; the same benchmark data is now cited via its live High Alpha mirror instead.
+- The Kano Model's original 1984 paper carries a pagination discrepancy between the page range commonly cited in secondary sources (pp. 39–48, already used elsewhere in this knowledge base) and J-STAGE's own listing (pp. 147–156); both are noted in the entry's Sources bullet rather than silently picking one.
+- The CI Program Maturity Model's body text attributes Klue's maturity model to a joint effort with SCIP; this could not be independently re-verified from Klue's current live page, so the new Sources bullet cites Klue alone. The body text is unchanged pending a closer look.
+- A small number of sources (John McMahon's *The Qualified Sales Leader*; Louviere & Woodworth's original 1983 MaxDiff working paper) have no defensible canonical URL (self-published listing, or unpublished and never posted online); these are cited by name without a link, consistent with the standard's "never a scraped summary site, never an affiliate link" rule taking priority over forcing a link to exist.
+- `agent-skills/ATTRIBUTION.md` was updated to point to the Sources block rather than the retired Further reading line; no skill's underlying originator attribution changed as a result of this pass, so no skill content needed rewriting.

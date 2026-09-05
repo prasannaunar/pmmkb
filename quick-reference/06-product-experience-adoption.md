@@ -1,6 +1,6 @@
 # Quick Reference: Product Experience & Adoption
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/06-product-experience-adoption.md](../frameworks/06-product-experience-adoption.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/06-product-experience-adoption.md](../frameworks/06-product-experience-adoption.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -43,6 +43,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Shrinking time-to-first-value
 - Correlation between activation speed and 12-month retention (example: 85% retention if activated within 30 days versus 45% if not activated within 90 days)
 
+**Source:** [Track your success: the customer onboarding maturity model](https://www.customersuccesscollective.com/keep-track-of-your-success-with-the-customer-onboarding-maturity-model/)
+
 ---
 
 ## Win/Loss Analysis Framework
@@ -73,6 +75,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Number of deals citing each win/loss theme (a pattern needs five or more mentions)
 - Win rate by segment against benchmark (for example, SMB 40 to 60%, enterprise 15 to 35%)
 - Reduction in a specific loss theme in a follow-up sample (example: a messaging fix took "didn't know you could do X" losses to zero)
+
+**Source:** [A Comprehensive Approach to Win/Loss Analysis](https://www.pragmaticinstitute.com/resources/articles/product/comprehensive-approach-to-win-loss-analysis/)
 
 ---
 
@@ -105,6 +109,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - NPS by segment (example: SMB rose from 15 to 31 after a targeted fix)
 - Owner assigned to every major Detractor theme within one week of survey close
 
+**Source:** [Fred Reichheld](https://hbr.org/2003/12/the-one-number-you-need-to-grow)
+
 ---
 
 ## Kano Model
@@ -135,6 +141,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Percentage split of "like it" versus "dislike it" responses defining each category (example: 92% dissatisfied without a must-be feature)
 - Segment-specific NPS movement tied to a reclassified feature's launch (example: mid-market NPS rose from 34 to 47 after a delighter launch, while an untouched segment held flat)
 - Age of a feature's last Kano check, flagged for re-survey past 12 to 18 months
+
+**Source:** [Attractive Quality and Must-Be Quality](https://www.jstage.jst.go.jp/article/quality/14/2/14_KJ00002952366/_article/-char/en)
 
 ---
 
@@ -169,6 +177,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Size of the active advocate pool (example: grew from 4 to 23 accounts in two quarters)
 - Reference-assisted win rate uplift (example: 14 points higher than deals without a reference)
 
+**Source:** [Forrester Research](https://www.forrester.com/report/introducing-the-forrester-customer-advocacy-model/RES172291)
+
 ---
 
 ## RFM Model (Recency, Frequency, Monetary Value)
@@ -199,6 +209,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Advocacy participants from the Champion segment versus old tenure-based pool (34% more in the example)
 - Share of the base scored and actioned on a recurring cadence
 
+**Source:** [Arthur Middleton Hughes](https://archive.org/details/strategicdatabas00hugh)
+
 ---
 
 ## Time to Value Framework
@@ -228,3 +240,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Median TTFV improvement (Ledgerfast, a fictional company: 4.2 days to 1.6 days)
 - 90-day retention shift after redesigning onboarding around the validated metrics (61% to 74% in the example)
 - Correlation strength between the Core Value threshold and actual renewal rates (84% versus 41% in the example)
+
+**Source:** [Lincoln Murphy](https://sixteenventures.com/customer-onboarding-ttfv/)

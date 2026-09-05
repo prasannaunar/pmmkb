@@ -1,6 +1,6 @@
 # Quick Reference: Concepts (Primers)
 
-Condensed summaries of primers. For full detail see [concepts/gtm-strategy-vs-product-marketing.md](../concepts/gtm-strategy-vs-product-marketing.md). Sourcing notes for any claims below are documented in that file, not repeated here.
+Condensed summaries of primers. For full detail see [concepts/gtm-strategy-vs-product-marketing.md](../concepts/gtm-strategy-vs-product-marketing.md). Each card names its primary source; full citations and any hedged attributions are documented in that file.
 
 ## GTM Strategy vs Product Marketing
 
@@ -19,3 +19,5 @@ Condensed summaries of primers. For full detail see [concepts/gtm-strategy-vs-pr
 - PMM usually holds the pen on cross-functional GTM documents because it sits at the intersection of product, sales, and marketing, but drafting the plan is not the same as owning it.
 - PMM authors the parts requiring deep customer and market fluency, and coordinates parts needing other functions' commitment, without being able to unilaterally commit their resources.
 - When a launch underperforms, the useful question is which specific piece of the ownership map broke (positioning, channel, sales capacity, or product), not a blanket verdict on PMM's performance.
+
+**Source:** [Product Marketing Alliance](https://www.productmarketingalliance.com/what-is-product-marketing/)

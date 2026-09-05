@@ -1,6 +1,6 @@
 # Quick Reference: Sales Enablement
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement.md](../frameworks/09-sales-enablement.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement.md](../frameworks/09-sales-enablement.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -41,6 +41,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Rate at which top assets are opened during flagged live deals (one company's battlecards reached 74% usage versus 20% for old collateral)
 - Win rate in deals where governed content was used (31% to 44% in the example)
 
+**Source:** [Revenue Enablement Society](https://www.resociety.global/)
+
 ---
 
 ## MEDDIC / MEDDPICC
@@ -71,6 +73,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Slip-and-loss rate on "commit" deals (one company's fell from 40% to 24% in two quarters)
 - Close rate for deals with a logged, sourced Metrics figure versus without (47% versus 29% in the example)
 - Proportion of deal reviews citing a specific letter as consistently weak, tracked down over successive quarters
+
+**Source:** [Dick Dunkel, John McMahon, and Jack Napoli](https://meddicc.com/resources/who-created-meddic)
 
 ---
 
@@ -105,6 +109,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Sales cycle length in contested deals (fell from 61 to 44 days in the example)
 - Reference-call request rate as a proxy for reps actually using the card (reached 70% of contested deals in the example)
 
+**Source:** [Klue](https://klue.com/blog/competitive-battlecards-101)
+
 ---
 
 ## Buyer's Journey Content Map
@@ -137,6 +143,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Win rate in the segment where gaps were closed (one company's mid-market win rate rose from 14% to 23%)
 - Sales adoption of new assets within 90 days of publication (referenced in more than half of relevant discovery calls in the example)
 
+**Source:** [Stephanie Trovato, HubSpot](https://blog.hubspot.com/marketing/content-mapping-template-personalize-marketing)
+
 ---
 
 ## VARS Framework (Validate, Acknowledge, Reframe, Specify)
@@ -166,3 +174,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Win rate in competitive deals against the named competitor (Rosterlane, a fictional company: 34% to 49% against Shiftwise)
 - VARS adherence in call recordings (20% to 71% of competitive conversations in the example)
 - Rep confidence in live competitive moments, measured by reduced escalation requests
+
+**Source:** [Alex McDonnell](https://www.competitiveintelligencealliance.io/how-to-deliver-competitive-intelligence-sales-customer-success/)

@@ -1,6 +1,6 @@
 # Quick Reference: Strategy & Planning
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/07-strategy-planning.md](../frameworks/07-strategy-planning.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/07-strategy-planning.md](../frameworks/07-strategy-planning.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -43,6 +43,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Implementation time tracked for the first time as a KPI (unmeasured to 17 days in the example)
 - Explicit sunset of unfocused investments based on the cascade's "where not to play" answer
 
+**Source:** [A.G. Lafley and Roger L. Martin](https://hbr.org/chapters/playing-to-win)
+
 ---
 
 ## Quarterly PMM Planning Framework
@@ -74,6 +76,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Zero shipped initiatives without a documented business goal attached
 - Weekly tracked completion percentage per initiative
 
+**Source:** [What are OKRs in Product Marketing? Your Complete Guide](https://www.productmarketingalliance.com/your-guide-to-okrs/)
+
 ---
 
 ## Competitive Intelligence & Positioning Update Framework
@@ -103,6 +107,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Percentage of deals where competitive battlecards were actually used (from CRM notes)
 - Time-to-brief-sales after a material competitor move (target: within 5 business days)
 - Win rate against top two competitors holding or improving as the market grows
+
+**Source:** [Competitive Intelligence: A Proven Framework for Success](https://www.competitiveintelligencealliance.io/competitive-intelligence-framework/)
 
 ---
 
@@ -134,6 +140,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Team size roughly tracks revenue (example benchmark: one PMM per $5M ARR)
 - Cross-functional satisfaction (sales, product, customer success) holds or improves as headcount grows
 - Voluntary attrition on the PMM team stays low (example target: under 15% annually)
+
+**Source:** [State of Product Marketing Report](https://www.productmarketingalliance.com/state-of-product-marketing-report-2025/)
 
 ---
 
@@ -167,6 +175,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Analyst citations raised unprompted by prospects in competitive deals (example: cited in 4 of 6 RFPs)
 - Certification/briefing cadence hit consistently, not only before deadlines
 
+**Source:** [Tiering the Analyst Briefing List for Better Resource Allocation](https://www.arinsights.com/resource/tiering-the-analyst-briefing-list-for-better-resource-allocation)
+
 ---
 
 ## Pragmatic Institute Framework
@@ -199,6 +209,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Standing pricing health review run on schedule regardless of active projects
 - Win rate recovered following a caught pricing or margin gap (example: three points against price-cutting competitors)
 
+**Source:** [Pragmatic Institute](https://www.pragmaticinstitute.com/product/framework/)
+
 ---
 
 ## MOVE GTM Diagnostic
@@ -228,3 +240,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Onboarding completion after fixing the weakest motion (Coralbridge, a fictional company: 61% to 84%)
 - Time-to-value improvement (47 days to 24 days in the example)
 - Net revenue retention after upstream fix (96% to 103% over two quarters in the example)
+
+**Source:** [Sangram Vajre and Bryan Brown](https://lioncrest.com/books/move/)

@@ -1,6 +1,6 @@
 # Quick Reference: Lifecycle & Workflow
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow.md](../frameworks/05-lifecycle-workflow.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow.md](../frameworks/05-lifecycle-workflow.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -40,6 +40,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Stage metrics: organic traffic, demo requests, win rate, time-to-first-value, feature adoption rate, upsell attach rate, NPS
 - A measurable lift in at least one rebalanced stage within two quarters (example: upsell attach rate rose from 12% to 19% in six months)
 
+**Source:** [Use contact and company lifecycle stages](https://knowledge.hubspot.com/records/use-lifecycle-stages)
+
 ---
 
 ## Go-to-Market Motion Framework
@@ -71,6 +73,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Feature or offer adoption rate at 60 days (target: at least 40% of the eligible base)
 - Commercial impact within the following quarter: win rate, average selling price, or sales cycle time (example: 18% faster cycle time and 11% higher ASP)
 
+**Source:** [Product launches 101: launch plan fundamentals](https://www.appcues.com/product-adoption-academy/product-launches-101/launch-plan-fundamentals)
+
 ---
 
 ## Feature Adoption Framework
@@ -101,3 +105,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Activation rate against the pre-agreed target (example: 25% at 60 days)
 - 90-day retention of activated users (target: above 70%)
 - Downstream business impact: upsell rate, NPS, or churn movement (example: feature referenced in 30% of upsell conversations)
+
+**Source:** [What is feature adoption?](https://www.pendo.io/glossary/feature-adoption/)

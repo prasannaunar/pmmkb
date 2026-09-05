@@ -59,9 +59,9 @@ the entry is authoritative.
 | `quarterly-pmm-planning` | Quarterly PMM Planning Framework, Playing to Win, MOVE GTM Diagnostic, PMM Team Scaling Framework (`frameworks/07-strategy-planning.md`) | A.G. Lafley and Roger Martin (Playing to Win); Sangram Vajre and Bryan Brown (MOVE) |
 
 The originator column is a pointer, not a citation. Full citations, including
-titles, publishers, and years, live in the "Further reading" line of each entry
-in `frameworks/`, and any hedged or contested attribution is recorded in
-[SOURCE-VALIDATION-LOG.md](../SOURCE-VALIDATION-LOG.md).
+titles, publishers, years, and a working link to the source, live in the
+"Sources" block of each entry in `frameworks/`, and any hedged or contested
+attribution is recorded in [SOURCE-VALIDATION-LOG.md](../SOURCE-VALIDATION-LOG.md).
 
 ---
 
