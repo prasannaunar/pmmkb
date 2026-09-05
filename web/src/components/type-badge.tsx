@@ -1,22 +1,25 @@
-import type { EntryType } from "@/lib/content";
+import Link from "next/link";
+import { TYPE_SLUGS, type EntryType } from "@/lib/content";
 
-const TYPE_STYLES: Record<EntryType, string> = {
-  Framework:
-    "bg-blue-50 text-blue-700 dark:bg-blue-950 dark:text-blue-300 border-blue-200 dark:border-blue-800",
-  Methodology:
-    "bg-violet-50 text-violet-700 dark:bg-violet-950 dark:text-violet-300 border-violet-200 dark:border-violet-800",
-  Model:
-    "bg-teal-50 text-teal-700 dark:bg-teal-950 dark:text-teal-300 border-teal-200 dark:border-teal-800",
-  Primer:
-    "bg-orange-50 text-orange-700 dark:bg-orange-950 dark:text-orange-300 border-orange-200 dark:border-orange-800",
+const TYPE_COLORS: Record<EntryType, string> = {
+  Framework: "var(--color-type-framework)",
+  Methodology: "var(--color-type-methodology)",
+  Model: "var(--color-type-model)",
+  Primer: "var(--color-type-primer)",
 };
 
 export function TypeBadge({ type }: { type: EntryType }) {
   return (
-    <span
-      className={`inline-block text-xs font-semibold px-2 py-0.5 rounded border ${TYPE_STYLES[type]}`}
+    <Link
+      href={`/type/${TYPE_SLUGS[type]}`}
+      className="inline-flex items-center gap-1.5 text-[0.65rem] font-medium uppercase tracking-wider px-2 py-0.5 border transition-colors hover:underline"
+      style={{
+        fontFamily: "var(--font-sans)",
+        color: TYPE_COLORS[type],
+        borderColor: "var(--border)",
+      }}
     >
       {type}
-    </span>
+    </Link>
   );
 }

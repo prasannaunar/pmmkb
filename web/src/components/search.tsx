@@ -116,7 +116,7 @@ export function Search({ entries }: SearchProps) {
           onKeyDown={handleKeyDown}
           onFocus={() => query.length >= 2 && setIsOpen(true)}
           placeholder="Search frameworks..."
-          className="w-full pl-10 pr-16 py-2.5 rounded-lg border text-sm outline-none transition-colors"
+          className="w-full pl-10 pr-16 py-2.5 border text-sm outline-none transition-colors"
           style={{
             backgroundColor: "var(--bg-card)",
             borderColor: "var(--border)",
@@ -124,7 +124,7 @@ export function Search({ entries }: SearchProps) {
           }}
         />
         <kbd
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-xs px-1.5 py-0.5 rounded border"
+          className="absolute right-3 top-1/2 -translate-y-1/2 text-xs px-1.5 py-0.5 border"
           style={{
             color: "var(--text-tertiary)",
             borderColor: "var(--border)",
@@ -137,7 +137,7 @@ export function Search({ entries }: SearchProps) {
 
       {isOpen && results.length > 0 && (
         <div
-          className="absolute top-full mt-2 w-full rounded-lg border shadow-lg overflow-hidden z-50"
+          className="absolute top-full mt-2 w-full border shadow-lg overflow-hidden z-50"
           style={{
             backgroundColor: "var(--bg-card)",
             borderColor: "var(--border)",
@@ -158,7 +158,7 @@ export function Search({ entries }: SearchProps) {
                   {entry.title}
                 </span>
                 <span
-                  className="text-xs px-1.5 py-0.5 rounded"
+                  className="text-xs px-1.5 py-0.5"
                   style={{ color: "var(--text-tertiary)" }}
                 >
                   {entry.type}

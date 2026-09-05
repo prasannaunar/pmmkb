@@ -52,7 +52,7 @@ Add a short section to CLAUDE.md (Writing Standards) defining a **Sources** bloc
 
 ---
 
-## Workstream 2: Branding
+## Workstream 2: Branding ✅ Complete (2026-09-05)
 
 Port the personal site's brand into `web/`, adapted for a reference app.
 
@@ -82,9 +82,11 @@ Owner's proposed rule, verified against the website and adopted:
 
 **Acceptance:** no rounded corners anywhere; palette and fonts match the tokens above; AA contrast verified; type badges are links.
 
+**Done as:** `globals.css` tokens replaced with the website palette (`--color-brand` #569ED0, `--color-brand-alt` #D08856, heading #1C1C1C, ink #2B2B2B, bg #FDFDFB/#FAF9F6, subtle #B5B5B5); `--accent` set to the AA-safe darkened link blue (#457eaa) used for all text-weight accents, with raw brand blue reserved for borders/decorative fills. Light-only: `theme-provider.tsx` and `theme-toggle.tsx` deleted, `data-theme`/`prefers-color-scheme` blocks removed from CSS, `layout.tsx` no longer wraps in a theme provider. A global `* { border-radius: 0 !important; }` guard plus a `rounded-*` sweep across every component removes every rounded corner. Fonts switched to Merriweather (`--font-serif`) and Poppins (`--font-sans`) via `next/font/google`; navigational pages (home, category, type index, sidebar) keep serif headings over sans body text, while entry pages invert it (serif `.prose` body, sans `h1`/`.prose h2`/`.prose h3`) per the owner's confirmed rule. `TypeBadge` redesigned as a small square-cornered, uppercase, single-hue Poppins tag that links to its type index page; the home and category cards that used to nest it inside their own link were restructured (badge lifted out as a sibling, category card's title/snippet wrapped in its own inner link) so there are no nested anchors.
+
 ---
 
-## Workstream 3: Structural changes
+## Workstream 3: Structural changes ✅ Complete (2026-09-05)
 
 ### 3a. Type index pages
 
@@ -105,6 +107,8 @@ Owner's proposed rule, verified against the website and adopted:
 - Sidebar tagline ("66 entries across 9 categories") is wrong on two counts once concepts is a navigable tenth area; compute counts from content rather than hard-coding.
 
 **Acceptance:** four type pages exist and are linked from the homepage buttons and every type badge; homepage counts are plain text; "Concepts"/"Primer" used consistently everywhere; no hard-coded counts.
+
+**Done as:** `content.ts` gained `TYPE_SLUGS`/`getTypeBySlug`/`getAllTypeSlugs`/`getEntriesByType`/`getSiteStats`; new route `web/src/app/type/[slug]/page.tsx` statically generates `/type/frameworks`, `/type/methodologies`, `/type/models`, `/type/primers`, each grouping its entries by category to preserve workflow-stage order. Homepage type counts are now a plain-text sentence in the intro paragraph; the flat "All Entries" list is removed; a "Browse by Type" row of four bordered links (`View all frameworks` etc., with a sparing brand-alt hover accent) sits below "Browse by Category", which remains the dominant section. The synthetic category is titled "Concepts" everywhere (was "Concepts (Primers)" in `content.ts`; the sidebar already said "Concepts"); the sidebar tagline is computed from `getSiteStats()` (now correctly "66 entries across 10 categories") instead of hard-coded text.
 
 ---
 

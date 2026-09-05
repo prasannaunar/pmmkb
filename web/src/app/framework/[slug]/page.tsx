@@ -66,7 +66,7 @@ export default async function FrameworkPage({
         </div>
         <h1
           className="text-3xl lg:text-4xl font-bold tracking-tight"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-sans)" }}
         >
           {entry.title}
         </h1>

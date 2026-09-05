@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ThemeToggle } from "./theme-toggle";
 
 interface NavCategory {
   slug: string;
@@ -24,7 +23,12 @@ const CATEGORIES: NavCategory[] = [
   { slug: "concepts-primers", shortTitle: "Concepts", number: 10 },
 ];
 
-export function Sidebar() {
+interface SidebarProps {
+  totalEntries: number;
+  categoryCount: number;
+}
+
+export function Sidebar({ totalEntries, categoryCount }: SidebarProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -32,7 +36,7 @@ export function Sidebar() {
     <>
       <button
         onClick={() => setOpen(!open)}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-lg border"
+        className="lg:hidden fixed top-4 left-4 z-50 p-2 border"
         style={{
           backgroundColor: "var(--bg-card)",
           borderColor: "var(--border)",
@@ -76,12 +80,12 @@ export function Sidebar() {
           >
             <h1
               className="text-xl font-bold tracking-tight"
-              style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
+              style={{ fontFamily: "var(--font-serif)", color: "var(--text-primary)" }}
             >
               PMM Knowledge Base
             </h1>
             <p className="text-xs mt-1" style={{ color: "var(--text-tertiary)" }}>
-              66 entries across 9 categories
+              {totalEntries} entries across {categoryCount} categories
             </p>
           </Link>
 
@@ -96,7 +100,7 @@ export function Sidebar() {
                       href={href}
                       onClick={() => setOpen(false)}
                       className={`
-                        block px-3 py-2 rounded-lg text-sm transition-colors
+                        block px-3 py-2 text-sm transition-colors
                         ${isActive ? "font-semibold" : ""}
                       `}
                       style={{
@@ -117,10 +121,6 @@ export function Sidebar() {
               })}
             </ul>
           </nav>
-
-          <div className="mt-8 pt-4 border-t" style={{ borderColor: "var(--border)" }}>
-            <ThemeToggle />
-          </div>
         </div>
       </aside>
     </>

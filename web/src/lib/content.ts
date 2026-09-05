@@ -156,7 +156,7 @@ export function getAllCategories(): Category[] {
   for (const file of CONCEPT_FILES) {
     const filePath = path.join(REPO_ROOT, file);
     const content = fs.readFileSync(filePath, "utf-8");
-    const entries = splitEntries(content, "concepts-primers", "Concepts (Primers)", 10);
+    const entries = splitEntries(content, "concepts-primers", "Concepts", 10);
     if (entries.length > 0) {
       const existing = categories.find((c) => c.slug === "concepts-primers");
       if (existing) {
@@ -164,7 +164,7 @@ export function getAllCategories(): Category[] {
       } else {
         categories.push({
           slug: "concepts-primers",
-          title: "Concepts (Primers)",
+          title: "Concepts",
           number: 10,
           entries,
         });
@@ -185,6 +185,37 @@ export function getEntryBySlug(slug: string): Entry | undefined {
 
 export function getCategoryBySlug(slug: string): Category | undefined {
   return getAllCategories().find((c) => c.slug === slug);
+}
+
+export const TYPE_SLUGS: Record<EntryType, string> = {
+  Framework: "frameworks",
+  Methodology: "methodologies",
+  Model: "models",
+  Primer: "primers",
+};
+
+const SLUG_TO_TYPE: Record<string, EntryType> = Object.fromEntries(
+  Object.entries(TYPE_SLUGS).map(([type, slug]) => [slug, type as EntryType])
+);
+
+export function getTypeBySlug(slug: string): EntryType | undefined {
+  return SLUG_TO_TYPE[slug];
+}
+
+export function getAllTypeSlugs(): string[] {
+  return Object.values(TYPE_SLUGS);
+}
+
+export function getEntriesByType(type: EntryType): Entry[] {
+  return getAllEntries().filter((e) => e.type === type);
+}
+
+export function getSiteStats(): { totalEntries: number; categoryCount: number } {
+  const categories = getAllCategories();
+  return {
+    totalEntries: categories.reduce((sum, c) => sum + c.entries.length, 0),
+    categoryCount: categories.length,
+  };
 }
 
 export async function markdownToHtml(markdown: string): Promise<string> {
