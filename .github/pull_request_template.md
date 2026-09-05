@@ -21,7 +21,7 @@
 - [ ] `README.md` (counts/summary table)
 - [ ] `FRAMEWORK-MAP.md`
 - [ ] `BY-SITUATION.md`
-- [ ] Candidate queue marked built (`ENRICHMENT-PLAN.md` / `FRAMEWORK-BACKLOG.md`)
+- [ ] If this entry came from a logged candidate queue, mark it built there; otherwise n/a (see `PLAN.md` for any open queue)
 
 ## Style guide compliance
 
