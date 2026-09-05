@@ -1,7 +1,50 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-08-15
-**Status:** All content-creation phases (1 through 4) are now complete. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. Remaining open items are operational: running the quarterly review cycle, the monthly team feedback session, and the annual update calendar distribution as live practices (tooling for all three exists in FEEDBACK-LOG.md).
+**Last Updated:** 2026-09-05
+**Status:** All content-creation phases (1 through 4) are now complete. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review have been moved to `archived/` (see that folder's README for what and why); their content is not repeated here except where a genuinely open item was carried forward.
+
+---
+
+## Open work (start here)
+
+Everything below is either not started, partially done, or explicitly waiting on a future trigger. Nothing in this section duplicates the archived documents; where an archived plan had open items, they were copied forward here and the source noted.
+
+### Content maintenance (from Phase 5, below)
+
+- [ ] **Quarterly review cycle** (one framework per week, ~7 weeks/quarter). Tooling exists in [FEEDBACK-LOG.md](FEEDBACK-LOG.md); the cycle has never run.
+- [ ] **Monthly team feedback session.** Tooling exists in FEEDBACK-LOG.md; no session has been logged yet.
+- [ ] **Annual update calendar distribution.** The calendar is documented in FEEDBACK-LOG.md; it has not been distributed to the team.
+
+### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
+
+Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting; see `archived/IMPROVEMENTS-PLAN-2026-09.md` for the full implementation record if you need the detail). Workstream 6 was scoped but not built. Ship now (domain-independent):
+
+- [ ] Per-page metadata: entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags without absolute URLs; `og:type=article` for entries.
+- [ ] `robots.txt` via `app/robots.ts` (no sitemap reference yet; that waits on the domain move below).
+- [ ] Semantic HTML pass: one `h1` per page, `<article>`, `<nav aria-label>`, a skip link, landmark roles.
+- [ ] Structured data (JSON-LD) content and structure: `WebSite` + `SearchAction` on the homepage, `BreadcrumbList` on category/entry pages, `Article` per entry with `citation` populated from the Sources block, `CollectionPage` for category/type pages. Build the structure now; the `url`/`@id` fields still need the domain (see below).
+- [ ] GEO/AEO answer-shaping: a concise definition sentence at the top of each entry page (surfacing the existing first sentence of "What it is"); visible authorship/provenance line ("Summarised from [originator]; see Sources").
+
+**Deferred until pmmkb.com is live** (do not ship against the temporary `pmmkb.vercel.app` domain): `metadataBase`, canonical URLs, `og:url`, `sitemap.xml`, JSON-LD `url`/`@id` fields, `llms.txt` and `llms-full.txt`. When the domain moves, implement all of these in one pass, reading the domain from a single env var (e.g. `NEXT_PUBLIC_SITE_URL`).
+
+**Explicitly out of scope:** URL restructuring (`/framework/[slug]` for all types), analytics, search console registration, and any paid tooling.
+
+**Acceptance (now):** semantic HTML pass complete; `robots.txt` deployed; unique meta descriptions on all 66 entries. **Acceptance (after the pmmkb.com move):** Lighthouse SEO score 100 on entry/category/home pages; valid JSON-LD; `sitemap.xml` and `llms.txt` deployed with pmmkb.com URLs; canonicals set.
+
+### Web app: open questions (from Phase 6, below)
+
+- [ ] Custom domain (pmmkb.com; can be added to Vercel at any point — see the SEO deferral above, which is gated on this).
+- [ ] Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first).
+- [ ] Contributor workflow (contributing guide and CI checks, if others will submit entries).
+- [ ] Whether to surface `agent-skills/` in the web app or keep them repo-only.
+
+### Web app: Phase 7 quiz feature (future, not started)
+
+Layered on top of the stable web app. No user accounts, no gating, no personalisation. See Phase 7 below for the full sketch (data model, question style, session-only state, inline plus standalone quiz modes).
+
+### Archival follow-through
+
+- [ ] **Re-scan before deleting `archived/`.** Six documents (four closed candidate-build queues, one superseded quality review, one retired improvements plan) were moved to `archived/` on 2026-09-05, pending one more check before permanent deletion. See `archived/README.md`'s "Start here next session" for the exact grep to run and what to confirm. Do this before deleting the folder.
 
 ---
 
@@ -213,7 +256,7 @@ Output: Recommended framework or framework sequence
 - [x] Onboarding playbook created (`ONBOARDING.md`; role-based reading lists and a first-30-days plan)
 - [x] Framework selection flowchart created (`framework-selector.md`; structured selection matrix by business goal, timeline, and data availability, with Quick Start table and links to full BY-SITUATION.md sequences)
 
-**Ongoing Maintenance:**
+**Ongoing Maintenance:** tracked as the canonical checklist in "Open work" at the top of this file; kept here too as part of the Phase 4 success-criteria record. Tick both copies together.
 - [ ] Quarterly review cycle scheduled (one framework per week); tooling to log it exists (`FEEDBACK-LOG.md`), cycle has not yet run
 - [ ] Feedback loop established (monthly team feedback); tooling to log it exists (`FEEDBACK-LOG.md`), first session has not yet run
 - [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open
@@ -296,6 +339,8 @@ Layered on top of the stable web app. No user accounts, no gating, no personalis
 - Immediate feedback with explanation and link back to the relevant entry
 
 ### Open questions
+
+Also tracked in "Open work" at the top of this file.
 
 - Custom domain (can be added to Vercel at any point)
 - Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first)

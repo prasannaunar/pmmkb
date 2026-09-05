@@ -80,7 +80,7 @@ Track weekly picks here once the cycle starts running:
 
 ## New Framework Proposals
 
-Per CLAUDE.md's "Add new frameworks only if a gap is identified by the team": log a candidate here as soon as it comes up in a monthly session, before deciding whether to build it. A gap that recurs across 2-3 applications (per README.md's "Is a framework missing?" guidance) is the bar for moving from this log into FRAMEWORK-BACKLOG.md or ENRICHMENT-PLAN.md.
+Per CLAUDE.md's "Add new frameworks only if a gap is identified by the team": log a candidate here as soon as it comes up in a monthly session, before deciding whether to build it. A gap that recurs across 2-3 applications (per README.md's "Is a framework missing?" guidance) is the bar for moving from this log into a candidate queue logged in [PLAN.md](PLAN.md)'s "Open work" section (the prior standalone queue files, ENRICHMENT-PLAN.md and FRAMEWORK-BACKLOG.md among them, are closed and archived; see `archived/README.md`).
 
 | Date raised | Gap described | Raised by | Recurrence (how many times seen) | Status |
 |---|---|---|---|---|
