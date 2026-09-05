@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getCategoryBySlug } from "@/lib/content";
 import { TypeBadge } from "@/components/type-badge";
+import { StickyHeader } from "@/components/sticky-header";
 import { pluralType } from "@/lib/plural";
 import type { Metadata } from "next";
 
@@ -42,6 +43,8 @@ export default async function CategoryPage({
 
   return (
     <div className="px-6 lg:px-12 py-12 max-w-4xl mx-auto">
+      <StickyHeader crumbs={[{ label: "Home" }, { label: category.title }]} title={category.title} />
+
       <nav className="mb-8">
         <Link
           href="/"
@@ -59,7 +62,7 @@ export default async function CategoryPage({
       <header className="mb-12">
         <h1
           className="text-3xl lg:text-4xl font-bold tracking-tight mb-3"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-serif)" }}
         >
           {category.title}
         </h1>
@@ -67,7 +70,7 @@ export default async function CategoryPage({
           {Object.entries(typeCounts).map(([type, count]) => (
             <span
               key={type}
-              className="text-sm px-3 py-1 rounded-full border"
+              className="text-sm px-3 py-1 border"
               style={{ borderColor: "var(--border)", color: "var(--text-secondary)" }}
             >
               {count} {pluralType(type, count)}
@@ -86,18 +89,19 @@ export default async function CategoryPage({
             : "";
 
           return (
-            <Link
+            <div
               key={entry.slug}
-              href={`/framework/${entry.slug}`}
-              className="block p-5 rounded-xl border transition-all hover:shadow-md"
+              className="p-5 border transition-all hover:shadow-md"
               style={{
                 backgroundColor: "var(--bg-card)",
                 borderColor: "var(--border)",
               }}
             >
               <div className="flex items-start gap-3">
-                <TypeBadge type={entry.type} />
-                <div className="min-w-0">
+                <div className="flex-shrink-0 mt-0.5">
+                  <TypeBadge type={entry.type} />
+                </div>
+                <Link href={`/framework/${entry.slug}`} className="min-w-0 block">
                   <h2 className="font-semibold leading-snug" style={{ color: "var(--text-primary)" }}>
                     {entry.title}
                   </h2>
@@ -106,9 +110,9 @@ export default async function CategoryPage({
                       {snippet}
                     </p>
                   )}
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           );
         })}
       </div>

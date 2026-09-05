@@ -43,16 +43,18 @@ Add a short section to CLAUDE.md (Writing Standards) defining a **Sources** bloc
 - Check `agent-skills/ATTRIBUTION.md` afterwards: where a skill cites an entry whose sourcing materially changed, update the skill in the same commit (per CLAUDE.md rule).
 - Quick-reference cards: add a single "Source: [name](url)" line per card, mirroring the entry. Lower priority; can trail the main pass.
 
-### 1c. Render attribution prominently in the web app
+### 1c. Render attribution prominently in the web app ✅ Complete (2026-09-05, delivered alongside Workstream 5)
 
 - **Attribution sits right under the entry title.** Entry pages render the Sources block as a clearly styled section directly beneath the title (originator, work, year, outbound links with `rel="noopener"` and an external-link affordance), before the body begins. The same applies wherever a title-plus-content pattern exists (quick-reference cards once they carry source lines).
 - Site footer gains a standing acknowledgement line: the knowledge base summarises frameworks created by their named originators; links in each entry point to the original material.
 
 **Acceptance:** all 66 entries have at least one working outbound link to original material; CLAUDE.md encodes the standard; the web app shows sources on every entry page.
 
+**Done as:** as planned in the Sequencing section below, this sub-task shipped with Workstream 5 rather than at the time of the 1a/1b content pass, since it needed the same render-time markdown pipeline. See Workstream 5's "Done as" note for the implementation.
+
 ---
 
-## Workstream 2: Branding
+## Workstream 2: Branding ✅ Complete (2026-09-05)
 
 Port the personal site's brand into `web/`, adapted for a reference app.
 
@@ -82,9 +84,11 @@ Owner's proposed rule, verified against the website and adopted:
 
 **Acceptance:** no rounded corners anywhere; palette and fonts match the tokens above; AA contrast verified; type badges are links.
 
+**Done as:** `globals.css` tokens replaced with the website palette (`--color-brand` #569ED0, `--color-brand-alt` #D08856, heading #1C1C1C, ink #2B2B2B, bg #FDFDFB/#FAF9F6, subtle #B5B5B5); `--accent` set to the AA-safe darkened link blue (#457eaa) used for all text-weight accents, with raw brand blue reserved for borders/decorative fills. Light-only: `theme-provider.tsx` and `theme-toggle.tsx` deleted, `data-theme`/`prefers-color-scheme` blocks removed from CSS, `layout.tsx` no longer wraps in a theme provider. A global `* { border-radius: 0 !important; }` guard plus a `rounded-*` sweep across every component removes every rounded corner. Fonts switched to Merriweather (`--font-serif`) and Poppins (`--font-sans`) via `next/font/google`; navigational pages (home, category, type index, sidebar) keep serif headings over sans body text, while entry pages invert it (serif `.prose` body, sans `h1`/`.prose h2`/`.prose h3`) per the owner's confirmed rule. `TypeBadge` redesigned as a small square-cornered, uppercase, single-hue Poppins tag that links to its type index page; the home and category cards that used to nest it inside their own link were restructured (badge lifted out as a sibling, category card's title/snippet wrapped in its own inner link) so there are no nested anchors.
+
 ---
 
-## Workstream 3: Structural changes
+## Workstream 3: Structural changes ✅ Complete (2026-09-05)
 
 ### 3a. Type index pages
 
@@ -106,9 +110,11 @@ Owner's proposed rule, verified against the website and adopted:
 
 **Acceptance:** four type pages exist and are linked from the homepage buttons and every type badge; homepage counts are plain text; "Concepts"/"Primer" used consistently everywhere; no hard-coded counts.
 
+**Done as:** `content.ts` gained `TYPE_SLUGS`/`getTypeBySlug`/`getAllTypeSlugs`/`getEntriesByType`/`getSiteStats`; new route `web/src/app/type/[slug]/page.tsx` statically generates `/type/frameworks`, `/type/methodologies`, `/type/models`, `/type/primers`, each grouping its entries by category to preserve workflow-stage order. Homepage type counts are now a plain-text sentence in the intro paragraph; the flat "All Entries" list is removed; a "Browse by Type" row of four bordered links (`View all frameworks` etc., with a sparing brand-alt hover accent) sits below "Browse by Category", which remains the dominant section. The synthetic category is titled "Concepts" everywhere (was "Concepts (Primers)" in `content.ts`; the sidebar already said "Concepts"); the sidebar tagline is computed from `getSiteStats()` (now correctly "66 entries across 10 categories") instead of hard-coded text.
+
 ---
 
-## Workstream 4: Navigation behaviour
+## Workstream 4: Navigation behaviour ✅ Complete (2026-09-05)
 
 ### 4a. Dynamically sticky entry/category header
 
@@ -125,9 +131,11 @@ Owner's proposed rule, verified against the website and adopted:
 
 **Acceptance:** scrolling down hides the header and back-to-top control; any upward scroll reveals both; verified on mobile and desktop widths (Playwright is already a dev dependency; add a viewport check); no overlap between hamburger and breadcrumb at any width.
 
+**Done as:** a shared `useScrollVisibility`/`usePastViewport` pair in `src/lib/scroll.ts` (rAF-throttled, passive-listener scroll tracking) drives every hide/show behaviour. A new `SidebarProvider` context (`sidebar-context.tsx`) holds the mobile drawer's open state and a `mobileSlot` node, replacing the drawer's own local state. `MobileTopBar` is a single global fixed bar (hamburger + site name, `lg:hidden`) that hides on scroll down and reappears on scroll up; the drawer (`sidebar.tsx`) now starts below it (`top-14` on mobile) so the two never overlap. `StickyHeader`, used on category and entry pages, renders its own sticky condensed breadcrumb/title bar on desktop and, on mobile, publishes the same condensed content into `MobileTopBar`'s `mobileSlot` instead of drawing a second bar — hamburger and breadcrumb share one bar as the plan required. `BackToTop` is a floating square button (bottom-right) that appears only past one viewport of scroll and follows the same show-on-scroll-up/hide-on-scroll-down rule, with `prefers-reduced-motion` respected on click. Verified with `npm run build`, `npm run lint`, and a Playwright pass at 1280×900 and 390×800 (scroll-down/scroll-up screenshots at each, plus the mobile drawer open) confirming hide/reveal behaviour and no hamburger/breadcrumb overlap.
+
 ---
 
-## Workstream 5: Content formatting on entry pages
+## Workstream 5: Content formatting on entry pages ✅ Complete (2026-09-05)
 
 ### 5a. Section structure
 
@@ -140,6 +148,16 @@ Owner's proposed rule, verified against the website and adopted:
 - Parse `**See also:**` lines: match the leading entry name in each semicolon-separated clause against the entry index (names before any parenthetical), and render matched names as internal links to `/framework/[slug]`, keeping the parenthetical guidance as plain text. Log any unmatched name at build time so drift between prose names and entry titles gets caught.
 
 **Acceptance:** every entry page renders with real, anchored section headings; See also names are internal links; build fails or warns loudly on unmatched See also references.
+
+**Done as:** `content.ts`'s `markdownToHtml` now runs a render-time pipeline: a `promoteLabelsToHeadings` pre-transform turns every recognised `**Label:**` marker (all Framework/Methodology/Model section labels, plus the Primer variants "Why it matters", "Key distinctions", "Where PMM fits") into a real `## Label` heading, then a `unified`/`remark-rehype`/`rehype-slug`/`rehype-stringify` pipeline parses it, slugs every heading into a stable `id` (e.g. `#how-to-apply-it`), and a custom `wrapSections` rehype step wraps each heading and its content into an `<section class="entry-section">`, adding `entry-section-panel` (a bordered `#FAF9F6` panel) specifically to the Example and Pitfalls sections. Markdown source files are untouched; the transform is render-only, as required.
+
+Sources and See also are extracted from the raw markdown by a new `src/lib/entry-sections.ts` (`extractSpecialSections`) before that pipeline runs, so they render as dedicated components instead of inline prose: `EntrySources` renders the Sources bullets directly beneath the entry title, before the body (closing out Workstream 1c), with every link forced to `target="_blank" rel="noopener noreferrer"` and a small "↗" affordance; `EntrySeeAlso` renders after the body with real `<Link>`s to `/framework/[slug]`.
+
+`parseSeeAlso` matches each semicolon-separated clause's leading name against every entry's title, a "stem" with the generic suffix (Framework/Methodology/Model/etc.) stripped, and an acronym-based alias (e.g. "STP Framework" resolves to "Segmentation–Targeting–Positioning (STP) Framework") — needed because clauses split naively on `;` broke wherever a clause's own guidance parenthetical contained a semicolon, so both the clause splitter and the trailing-parenthetical splitter are paren-depth-aware. Unmatched names are logged with `console.warn` during `next build` (visible in the build log) rather than failing the build; after the fix, only 6 of the See also references across all 66 entries remain unmatched, all genuine prose that bundles multiple entry names or a catch-all phrase ("All category frameworks") into one clause rather than a single resolvable name — real drift for a future content pass to clean up, not a parsing bug.
+
+The homepage footer also gained the standing attribution acknowledgement line from Workstream 1c.
+
+Verified with `npm run build` (TypeScript clean, all 84 pages generate, warnings visible and expected) and a Playwright pass confirming: every promoted heading has a stable `id` on both a Framework entry and the Primer (which uses the different label set); a See also link resolves to the correct `/framework/[slug]`; no console errors on any page.
 
 ---
 

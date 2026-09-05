@@ -1,18 +1,23 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import { Merriweather, Poppins } from "next/font/google";
 import { Sidebar } from "@/components/sidebar";
-import { ThemeProvider } from "@/components/theme-provider";
+import { SidebarProvider } from "@/components/sidebar-context";
+import { MobileTopBar } from "@/components/mobile-top-bar";
+import { BackToTop } from "@/components/back-to-top";
+import { getSiteStats } from "@/lib/content";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const merriweather = Merriweather({
   subsets: ["latin"],
-  variable: "--font-display",
+  weight: ["400", "600", "700"],
+  variable: "--font-serif",
   display: "swap",
 });
 
-const sourceSans = Source_Sans_3({
+const poppins = Poppins({
   subsets: ["latin"],
-  variable: "--font-body",
+  weight: ["400", "500", "600"],
+  variable: "--font-sans",
   display: "swap",
 });
 
@@ -26,17 +31,16 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const { totalEntries, categoryCount } = getSiteStats();
   return (
-    <html
-      lang="en"
-      className={`${playfair.variable} ${sourceSans.variable} h-full`}
-      suppressHydrationWarning
-    >
-      <body className="min-h-full flex" style={{ fontFamily: "var(--font-body)" }}>
-        <ThemeProvider>
-          <Sidebar />
-          <main className="flex-1 min-w-0">{children}</main>
-        </ThemeProvider>
+    <html lang="en" className={`${merriweather.variable} ${poppins.variable} h-full`}>
+      <body className="min-h-full flex" style={{ fontFamily: "var(--font-sans)" }}>
+        <SidebarProvider>
+          <Sidebar totalEntries={totalEntries} categoryCount={categoryCount} />
+          <MobileTopBar />
+          <main className="flex-1 min-w-0 pt-14 lg:pt-0">{children}</main>
+          <BackToTop />
+        </SidebarProvider>
       </body>
     </html>
   );
