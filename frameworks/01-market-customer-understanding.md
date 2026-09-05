@@ -31,7 +31,10 @@
 - **Positioning that doesn't differentiate.** "We're an expense management tool" describes the category, not your position. State what makes you unique: "Built for startup founders who want real-time spend visibility without finance team overhead."
 - **Treating STP as a one-off exercise.** Teams often run STP once at launch and never revisit it, so positioning quietly drifts out of date as the market and product change. Recovery: put a standing quarterly review on the calendar, owned by PMM, that checks whether segment size, competitive intensity, and win rates still match the original analysis. If two consecutive quarters show declining win rate in the primary segment, treat that as a trigger to re-run the full STP process rather than patching messaging in isolation.
 
-**Further reading:** Wendell R. Smith, "Product Differentiation and Market Segmentation as Alternative Marketing Strategies," *Journal of Marketing* (1956), introduced market segmentation as a strategy. The full segment-target-position sequence was popularised by Philip Kotler in successive editions of *Marketing Management* (from the late 1960s onward), with the positioning stage refined by Al Ries and Jack Trout in *Positioning: The Battle for Your Mind* (1981).
+**Sources:**
+- Wendell R. Smith, ["Product Differentiation and Market Segmentation as Alternative Marketing Strategies"](https://journals.sagepub.com/doi/abs/10.1177/002224295602100102), *Journal of Marketing* (1956), which introduced market segmentation as a strategy.
+- Philip Kotler, [*Marketing Management*](https://www.pearson.com/en-us/subject-catalog/p/marketing-management/P200000010451/9780138184889), which popularised the full segment-target-position sequence across successive editions from the late 1960s onward.
+- Al Ries & Jack Trout, [*Positioning: The Battle for Your Mind*](https://www.mheducation.com/highered/mhp/product/positioning-battle-your-mind-20th-anniversary-edition.html) (1981), which refined the positioning stage.
 
 **See also:** Geoffrey Moore's Positioning Statement Framework (articulate your positioning statement for each segment); Value Proposition Canvas (map your offering to what each segment needs); Jobs-to-be-Done Positioning Framework (understand what job each segment is trying to accomplish); MAP Model (ranks the segments STP defines against each other once you have live performance data).
 
@@ -69,6 +72,9 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Assuming marketing drives the experience.** Positioning isn't what you say; it's what customers experience. A great website can't overcome a bad product or slow support. Recovery: Audit all seven touchpoints. Identify which one is most misaligned with positioning (often Sales, Product, or Support). Fix that critical gap first (usually requires 6–8 weeks of cross-functional work). Don't invest in marketing refresh until the product experience matches claims.
 - **Fixing marketing without fixing operations.** "We'll just update the website" doesn't solve an 8-week onboarding or missing features. Fix the core experience first. Recovery: Create a simple prioritisation matrix: Impact (how much does this gap hurt customer satisfaction?) × Effort (time/cost to fix). Start with high-impact, low-effort gaps (e.g., improve support response time, update sales demo script). Build momentum with quick wins before tackling engineering-heavy fixes.
 - **Auditing once and calling it done.** Teams often run the seven-touchpoint audit after a bad quarter, fix the worst gap, and then stop tracking it. Because customer expectations and the product both keep moving, a gap closed this quarter can reopen within two quarters. Recovery: Assign a single owner (usually PMM) to re-run a lightweight version of the audit every quarter, even when nothing seems obviously broken, and log findings in a shared tracker so drift is visible before a customer has to point it out.
+
+**Sources:**
+- Brian de Haaff, Aha! co-founder and CEO, first documented the seven-touchpoint Complete Product Experience concept in his book *Lovability* (2017); Aha!'s own guide summarises it here: [The Complete Product Experience (CPE)](https://www.aha.io/roadmapping/guide/product-strategy/complete-product-experience).
 
 **See also:** Geoffrey Moore's Positioning Statement Framework (define your positioning statement clearly before mapping touchpoints); Value Proposition Canvas (ensure touchpoints reflect your value proposition); PMM Lifecycle Management Framework (applies positioning consistently across customer lifecycle stages).
 
@@ -124,6 +130,9 @@ You will know the audit has done its job when the gaps you identify are specific
 - **PMM joining too late (Phase 4).** If marketing joins only at launch, the product may already be un-positionable. Involvement from Phase 1 prevents costly misalignment.
 - **Treating case study customers as an afterthought.** Waiting until Phase 4 to look for reference customers usually means scrambling for names under deadline pressure, which produces thin, generic case studies. Recovery: identify at least one likely reference customer in Phase 2, and formally confirm their willingness to be named by the end of Phase 3, so the launch collateral has real detail rather than a vague, anonymised "a logistics company saw improved efficiency" placeholder.
 
+**Sources:**
+- No single originator; this entry adapts the general phased new-product-development model to PMM's specific inputs and outputs at each stage. The most documented version of that underlying phased model is Robert G. Cooper's Stage-Gate system, developed from the mid-1980s: [Stage-Gate International, "Our Story"](https://www.stage-gate.com/about/our-story-2/).
+
 **See also:** Complete GTM Workflow Stages (sequences phases from Foundation through Expand with go-to-market focus); STP Framework (segment and position before Phase 3 to ensure product roadmap aligns with target market); Jobs-to-be-Done Positioning Framework (identify the core job customers are hiring your product to do during Phase 1 research).
 
 ---
@@ -164,7 +173,8 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Loudest-voice and recency bias.** A single large account or a vivid recent call hijacks priorities. Why it matters: the roadmap bends toward one customer while the pattern across hundreds is missed. Recovery: size every theme by frequency, severity, and segment weight, and require that number before a theme is escalated, not the strength of the anecdote.
 - **No closed loop.** Customers give feedback into a void and internal teams never hear the outcome. Why it matters: response rates fall and colleagues stop trusting the data, starving the programme. Recovery: run a standing "you said, we did" update to customers and a route-and-report step internally, so every escalated theme has a visible resolution.
 
-**Further reading:** Abbie Griffin & John R. Hauser, "The Voice of the Customer," *Marketing Science*, 12(1) (1993), pp. 1–27.
+**Sources:**
+- Abbie Griffin & John R. Hauser, ["The Voice of the Customer"](https://pubsonline.informs.org/doi/10.1287/mksc.12.1.1), *Marketing Science*, 12(1) (1993), pp. 1–27.
 
 **See also:** Net Promoter Score (NPS) & Feedback Loop Framework (a core quantitative input and pulse for the programme); Win/Loss Analysis Framework (a structured input that explains why deals are won or lost); Segmentation–Targeting–Positioning (STP) Framework (VoC refreshes the segment understanding that STP depends on); Complete Product Experience Framework (VoC surfaces the touchpoint gaps that framework audits).
 
@@ -201,7 +211,9 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Interviewing long-tenured customers instead of recent switchers.** Memory of the specific trigger fades within a few months, and long-tenured customers reconstruct a cleaner story that has drifted from what actually happened. Recovery: set a hard recruiting window (purchased in the last one to three months) and decline interviews outside it, however willing the customer is to talk.
 - **Generalising from one or two interviews.** A single vivid trigger story is memorable and tempting to build a whole positioning pivot on, but it may be an outlier. Recovery: hold off on any positioning change until 8 to 12 interviews show the same trigger, force, or anxiety repeating, and note how many of the sample described it, not just that one customer did.
 
-**Further reading:** Bob Moesta and Chris Spiek developed and popularised the switch interview technique through The Re-Wired Group's client work and public training (therewiredgroup.com). A worked example, "the Mattress Interview," is documented in Clayton M. Christensen, Taddy Hall, Karen Dillon & David S. Duncan, *Competing Against Luck* (2016).
+**Sources:**
+- Bob Moesta and Chris Spiek developed and popularised the switch interview technique through The Re-Wired Group's client work and public training; see their write-up of the technique's best-known worked example, ["The Mattress Interview"](https://therewiredgroup.com/case-studies/the-mattress-interview/).
+- Clayton M. Christensen, Taddy Hall, Karen Dillon & David S. Duncan, [*Competing Against Luck*](https://harpercollins.co.uk/products/competing-against-luck-the-story-of-innovation-and-customer-choice-clayton-m-christensen) (2016), which documents the Mattress Interview case in full.
 
 **See also:** Jobs-to-be-Done Positioning Framework (Category 2; the positioning framework this method's findings feed, and which names switch interviews as its validation step); Voice of the Customer (VoC) Programme (a standing source this method's synthesised findings should feed into, alongside NPS and Win/Loss); Win/Loss Analysis Framework (Category 6; a complementary structured interview method focused on the sales-cycle decision rather than the pre-purchase trigger timeline); Segmentation–Targeting–Positioning (STP) Framework (switch-interview findings often refine or validate the segmentation and targeting choices STP made earlier).
 
@@ -238,6 +250,9 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Treating the ICP as a one-time document instead of a live, scored field.** A static ICP slide deck gets presented once in a QBR and then ignored, while the CRM keeps no memory of which accounts fit. Recovery: the model is only working once it lives as a field on every account record that reps and marketing automation actually filter and route by, not a reference document that requires someone to remember to consult it.
 - **Confusing ICP with buyer persona.** An ICP describes the account (the company); a persona describes the individual buyer within it. Conflating the two produces a model that scores "VP of Engineering" as a firmographic attribute of a company, which does not work in a scoring system built on account-level fields. Recovery: keep the ICP strictly at the account level, and maintain buyer personas as a separate, complementary artefact that describes who within a Tier A account to actually target.
 
+**Sources:**
+- No single originator; ICP as a scored, evidence-based account model is a converged practitioner discipline across B2B sales, marketing, and RevOps. The most documented modern treatment is HubSpot's own guide: ["Ideal Customer Profile Template"](https://www.hubspot.com/make-my-persona/ideal-customer-profile-template).
+
 **See also:** Segmentation–Targeting–Positioning (STP) Framework (STP chooses the strategic segment; this methodology operationalises it into a scored account model); Win/Loss Analysis Framework (Category 6; the same closed-won and closed-lost interviews that inform win/loss themes are the evidence base this methodology scores against); Voice of the Customer (VoC) Programme (behavioural and intent signals surfaced through VoC synthesis can sharpen the scoring model's behavioural criteria); JTBD Switch Interview Method (switch-interview findings about what triggered a purchase often reveal the behavioural signals worth scoring for).
 
 ---
@@ -273,7 +288,8 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Reading the aggregate score and stopping there.** A blended score across two very different segments can sit just below 40% while masking one segment well above it and another nowhere close, leading leadership to the wrong company-wide decision. Recovery: always cut the result by the segments STP already defined before anyone acts on the topline number.
 - **PMM treating the result as a mandate to redesign the product.** Because the survey feels like a marketing instrument, being a single easy-to-run question, PMM sometimes over-reaches into interpreting what the score means for the roadmap, which is product's call, not PMM's. Recovery: keep the deliverable to a segmented score, the raw qualitative quotes, and a messaging recommendation; hand the go or no-go verdict to product explicitly, the same boundary this knowledge base draws around MEDDIC/MEDDPICC.
 
-**Further reading:** Sean Ellis & Morgan Brown, *Hacking Growth* (2017), Chapter 2.
+**Sources:**
+- Sean Ellis & Morgan Brown, [*Hacking Growth*](https://www.penguinrandomhouse.com/books/545936/hacking-growth-by-sean-ellis-founder-of-growthhackerscom-and-morgan-brown/) (2017), Chapter 2, which documents the test and the roughly 40% "very disappointed" benchmark drawn from Ellis's work advising dozens of startups.
 
 **See also:** Segmentation–Targeting–Positioning (STP) Framework (the segments this test's results should always be cut by before anyone acts on them); Voice of the Customer (VoC) Programme (a standing home for the qualitative "why" responses alongside other listening sources); Net Promoter Score (NPS) & Feedback Loop Framework (Category 6; a related, more frequent pulse metric measuring satisfaction rather than a binary PMF benchmark); MEDDIC / MEDDPICC (Category 9; the knowledge base's other product- or sales-owned methodology, written with the same explicit PMM-supporting-role framing).
 
@@ -310,6 +326,7 @@ You will know the audit has done its job when the gaps you identify are specific
 - **Re-segmenting instead of using STP's existing segments.** Running MAP Model analysis against a freshly invented segmentation, rather than the one STP already defined and the business already reports against, produces numbers no other function can cross-check against their own data. Recovery: always start from the segment definitions already live in the CRM and STP's documentation; if those definitions genuinely need revisiting, that is a separate STP re-run, not something to fold into a MAP Model cycle.
 - **Deprioritising a segment quietly instead of communicating the decision.** Letting a segment's resourcing thin out without telling the team that built its original business case erodes trust and produces confused, contradictory messaging to customers in that segment. Recovery: treat step 6 as mandatory, with the Measure and Analyze evidence shared directly with anyone whose work touches the deprioritised segment.
 
-**Further reading:** Tamara Grominsky, Founder of PMM Camp, has taught the MAP Model across PMM Camp's training content and public talks on segment prioritisation for product marketing teams.
+**Sources:**
+- Tamara Grominsky, Founder of PMM Camp, ["How to MAP Your Best Customers"](https://www.productmarketingalliance.com/how-to-map-your-best-customers/), Product Marketing Alliance.
 
 **See also:** Segmentation–Targeting–Positioning (STP) Framework (defines the segments this model ranks; run STP first, MAP Model second); ICP Development Methodology (scores individual accounts within a chosen segment; MAP Model ranks segments against each other rather than accounts within one); Voice of the Customer (VoC) Programme (a qualitative complement to MAP Model's quantitative Measure and Analyze data, useful for understanding *why* a segment's retention or expansion numbers look the way they do).
