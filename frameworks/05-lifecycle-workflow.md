@@ -48,6 +48,9 @@ Success metrics to track ongoing: organic traffic (Awareness), SQLs from content
 - **Unclear ownership.** If PMM doesn't explicitly own onboarding or support messaging, no one will; it falls through the cracks or becomes inconsistent across channels. Recovery: Run a RACI exercise with sales, support, and customer success leads in a single 60-minute workshop. Document it in a shared file and revisit every quarter, since ownership tends to drift as teams grow.
 - **Forgetting the internal handoff.** Messaging flows from PMM to sales to support. If the handoff is poor, the message gets diluted or distorted at each stage, so a customer hears a different story from marketing than from a support agent. Recovery: Create a single source of truth (a positioning and messaging document) that every team references, and require sign-off from sales and support leads before any major messaging change ships.
 
+**Sources:**
+- No single originator is documented for stage-based customer lifecycle marketing; the concept developed informally across CRM, marketing automation, and customer success practice. The best-documented, most widely referenced formalisation is HubSpot, ["Use contact and company lifecycle stages"](https://knowledge.hubspot.com/records/use-lifecycle-stages), HubSpot Knowledge Base (accessed 2026), which this entry's stage list adapts specifically to the PMM function's activities at each stage.
+
 **See also:** Complete Product Experience Framework (validates messaging consistency across all touchpoints); Feature Adoption Framework (applies lifecycle thinking to driving adoption within the product); Win/Loss Analysis Framework (understand which lifecycle stage messaging resonates most).
 
 ---
@@ -98,6 +101,9 @@ Success metrics: launch-week traffic lift, email open rate, SQL volume in the we
 - **Announcement without follow-through.** A big launch event followed by silence. Sustaining momentum for 4 to 12 weeks post-launch is where much of the real commercial impact happens, but it's a phase teams commonly under-resource once the excitement of launch day fades. Recovery: Staff and budget the post-launch phase with the same rigour as launch week; assign a single owner accountable for the full 12-week content calendar before launch day, not after.
 - **Ignoring market feedback.** If customers are confused about the announcement or push back on positioning, iterate fast. Don't defend the original message if it isn't landing. Recovery: Build a feedback checkpoint into week two of the motion specifically to review customer and sales reactions, and give the launch lead explicit authority to adjust messaging without needing to re-run a full approval cycle.
 
+**Sources:**
+- No single originator is documented for the pre-launch/launch/post-launch phase structure; it developed informally across product marketing and product management practice. The best-documented practitioner treatment is Sara Detrik, ["Product launches 101: launch plan fundamentals"](https://www.appcues.com/product-adoption-academy/product-launches-101/launch-plan-fundamentals), Appcues Product Adoption Academy (2026).
+
 **See also:** Complete GTM Workflow Stages (provides a phased approach to launch planning across Foundation, Launch, Scale); Feature Adoption Framework (applies motion thinking to individual feature launches); Win/Loss Analysis Framework (validates whether launch messaging resonated with customers).
 
 ---
@@ -147,6 +153,9 @@ How to know it worked: activation rate crossing the pre-agreed target (in this c
 - **Assuming "if we build it, they will come."** Customers rarely discover features on their own, however good the feature is. You need active adoption campaigns with dedicated messaging. Recovery: Treat every meaningful feature release as a mini go-to-market motion with its own segment plan, campaign, and success metric, not just a changelog entry.
 - **One-size-fits-all messaging.** Power users and beginners respond to different messages, and a single generic email will under-perform for both groups. Recovery: Split any adoption campaign into at least two segments before sending, even if it means writing two versions of the same email; the extra effort typically doubles response rates.
 - **Launching without onboarding.** If customers don't understand how to use the feature once they've noticed it, no amount of messaging will drive lasting adoption, and activation will spike then collapse. Recovery: Pair every adoption campaign with a short in-product walkthrough or tooltip sequence so the moment of interest converts into a completed first use, not just a click.
+
+**Sources:**
+- No single originator is documented for feature adoption as a discipline; it developed across product-led growth and product analytics practice. The best-documented practitioner treatment is Pendo, ["What is feature adoption?"](https://www.pendo.io/glossary/feature-adoption/), Pendo.io glossary (accessed 2026).
 
 **See also:** STP Framework (segment users by adoption readiness and tailor messaging); PMM Lifecycle Management Framework (feature adoption is a subset of the Adoption stage); Go-to-Market Motion Framework (applies motion concepts to feature launches); NPS Framework (measure whether adopted features correlate with higher NPS).
 

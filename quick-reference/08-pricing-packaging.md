@@ -1,6 +1,6 @@
 # Quick Reference: Pricing & Packaging
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/08-pricing-packaging.md](../frameworks/08-pricing-packaging.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/08-pricing-packaging.md](../frameworks/08-pricing-packaging.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -44,6 +44,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Faster deal-close time, especially for the top tier
 - Upgrade rate from entry to middle tier over the first year
 
+**Source:** [Pricing strategy guide: 7 types, examples, and how to choose](https://www.paddle.com/resources/pricing-strategy)
+
 ---
 
 ## Van Westendorp Price Sensitivity Meter (PSM)
@@ -76,6 +78,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Reduction in price-related quote or deal abandonment after launch (e.g. below industry benchmark)
 - Segment-level corridors identified where they diverge meaningfully
 
+**Source:** [Peter H. van Westendorp](https://ana.esomar.org/documents/nss-pricesensitivity-meter-psm-)
+
 ---
 
 ## Value Metric / Willingness-to-Pay Framework
@@ -107,6 +111,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Reduced churn among previously mispriced (usually smaller) accounts
 - Number of existing accounts flagged and protected from bill shock during migration
 - Correlation strength between chosen metric and customer-reported value
+
+**Source:** [How to use value metrics to optimize pricing](https://www.paddle.com/blog/value-metrics-pricing)
 
 ---
 
@@ -141,6 +147,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Upgrade conversion rate change after re-bundling
 - Change in deal-cycle length once features map cleanly to buyer needs
 
+**Source:** [R. Duncan Luce and John W. Tukey](https://doi.org/10.1016/0022-2496(64)90015-X)
+
 ---
 
 ## Gabor-Granger Method
@@ -172,6 +180,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Post-launch revenue lift from the new price
 - Churn increase kept under a pre-agreed ceiling (e.g. under 5 points)
 - Segment-level demand curve divergence identified before rollout
+
+**Source:** [André Gabor and C.W.J. Granger](https://www.jstor.org/stable/2552272)
 
 ---
 
@@ -206,6 +216,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Number of existing accounts flagged and protected from bill spikes during transition
 - Support complaints about unexpected bills (target: zero)
 
+**Source:** [Usage-based pricing 101: What it is and strategies to implement it](https://stripe.com/resources/more/usage-based-pricing-101-what-it-is-and-strategies-to-implement-it)
+
 ---
 
 ## MaxDiff Analysis (Best-Worst Scaling)
@@ -235,3 +247,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Feature list narrowed before a conjoint study (Shiftwell, a fictional company: 12 items to 6)
 - Persona-level ranking divergence surfaced (mobile clock-in ranked highest for small-team owners, lowest for mid-market managers in the example)
 - Combined research cost lower than a single overloaded conjoint design
+
+**Source:** [Best-Worst Scaling: Theory, Methods and Applications](https://books.google.com/books/about/Best_Worst_Scaling.html?id=UlrHCgAAQBAJ)
