@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllEntries, getEntryBySlug, markdownToHtml } from "@/lib/content";
 import { TypeBadge } from "@/components/type-badge";
+import { StickyHeader } from "@/components/sticky-header";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -33,8 +34,16 @@ export default async function FrameworkPage({
 
   const contentHtml = await markdownToHtml(entry.rawMarkdown);
 
+  const categoryLabel = entry.categoryTitle.replace(/^Category \d+: /, "");
+
   return (
     <div className="px-6 lg:px-12 py-12 max-w-3xl mx-auto">
+      <StickyHeader
+        crumbs={[{ label: "Home" }, { label: categoryLabel }, { label: entry.title }]}
+        title={entry.title}
+        badge={<TypeBadge type={entry.type} />}
+      />
+
       <nav className="mb-8">
         <Link
           href="/"
@@ -49,7 +58,7 @@ export default async function FrameworkPage({
           className="text-sm transition-colors hover:underline"
           style={{ color: "var(--text-tertiary)" }}
         >
-          {entry.categoryTitle.replace(/^Category \d+: /, "")}
+          {categoryLabel}
         </Link>
         <span className="mx-2 text-sm" style={{ color: "var(--text-tertiary)" }}>/</span>
         <span className="text-sm" style={{ color: "var(--text-secondary)" }}>

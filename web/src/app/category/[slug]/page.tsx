@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getCategoryBySlug } from "@/lib/content";
 import { TypeBadge } from "@/components/type-badge";
+import { StickyHeader } from "@/components/sticky-header";
 import { pluralType } from "@/lib/plural";
 import type { Metadata } from "next";
 
@@ -42,6 +43,8 @@ export default async function CategoryPage({
 
   return (
     <div className="px-6 lg:px-12 py-12 max-w-4xl mx-auto">
+      <StickyHeader crumbs={[{ label: "Home" }, { label: category.title }]} title={category.title} />
+
       <nav className="mb-8">
         <Link
           href="/"

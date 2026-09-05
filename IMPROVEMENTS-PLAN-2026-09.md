@@ -112,7 +112,7 @@ Owner's proposed rule, verified against the website and adopted:
 
 ---
 
-## Workstream 4: Navigation behaviour
+## Workstream 4: Navigation behaviour ✅ Complete (2026-09-05)
 
 ### 4a. Dynamically sticky entry/category header
 
@@ -128,6 +128,8 @@ Owner's proposed rule, verified against the website and adopted:
 - Replace the floating fixed hamburger with a proper mobile top bar: hamburger, site name, and (on entry/category pages) the condensed breadcrumb share one bar that participates in the sticky hide/show behaviour. This removes the overlap by construction rather than nudging offsets.
 
 **Acceptance:** scrolling down hides the header and back-to-top control; any upward scroll reveals both; verified on mobile and desktop widths (Playwright is already a dev dependency; add a viewport check); no overlap between hamburger and breadcrumb at any width.
+
+**Done as:** a shared `useScrollVisibility`/`usePastViewport` pair in `src/lib/scroll.ts` (rAF-throttled, passive-listener scroll tracking) drives every hide/show behaviour. A new `SidebarProvider` context (`sidebar-context.tsx`) holds the mobile drawer's open state and a `mobileSlot` node, replacing the drawer's own local state. `MobileTopBar` is a single global fixed bar (hamburger + site name, `lg:hidden`) that hides on scroll down and reappears on scroll up; the drawer (`sidebar.tsx`) now starts below it (`top-14` on mobile) so the two never overlap. `StickyHeader`, used on category and entry pages, renders its own sticky condensed breadcrumb/title bar on desktop and, on mobile, publishes the same condensed content into `MobileTopBar`'s `mobileSlot` instead of drawing a second bar — hamburger and breadcrumb share one bar as the plan required. `BackToTop` is a floating square button (bottom-right) that appears only past one viewport of scroll and follows the same show-on-scroll-up/hide-on-scroll-down rule, with `prefers-reduced-motion` respected on click. Verified with `npm run build`, `npm run lint`, and a Playwright pass at 1280×900 and 390×800 (scroll-down/scroll-up screenshots at each, plus the mobile drawer open) confirming hide/reveal behaviour and no hamburger/breadcrumb overlap.
 
 ---
 
