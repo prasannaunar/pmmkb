@@ -124,6 +124,10 @@ export default function HomePage() {
       </section>
 
       <footer className="pt-8 border-t text-center" style={{ borderColor: "var(--border)" }}>
+        <p className="text-xs max-w-xl mx-auto mb-2" style={{ color: "var(--text-tertiary)" }}>
+          This knowledge base summarises frameworks, methodologies, and models created by their
+          named originators. Every entry links to the original material in its Sources section.
+        </p>
         <p className="text-xs" style={{ color: "var(--text-tertiary)" }}>
           CC BY 4.0 &middot; A reference guide for product marketing professionals
         </p>

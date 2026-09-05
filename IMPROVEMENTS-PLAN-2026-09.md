@@ -43,12 +43,14 @@ Add a short section to CLAUDE.md (Writing Standards) defining a **Sources** bloc
 - Check `agent-skills/ATTRIBUTION.md` afterwards: where a skill cites an entry whose sourcing materially changed, update the skill in the same commit (per CLAUDE.md rule).
 - Quick-reference cards: add a single "Source: [name](url)" line per card, mirroring the entry. Lower priority; can trail the main pass.
 
-### 1c. Render attribution prominently in the web app
+### 1c. Render attribution prominently in the web app ✅ Complete (2026-09-05, delivered alongside Workstream 5)
 
 - **Attribution sits right under the entry title.** Entry pages render the Sources block as a clearly styled section directly beneath the title (originator, work, year, outbound links with `rel="noopener"` and an external-link affordance), before the body begins. The same applies wherever a title-plus-content pattern exists (quick-reference cards once they carry source lines).
 - Site footer gains a standing acknowledgement line: the knowledge base summarises frameworks created by their named originators; links in each entry point to the original material.
 
 **Acceptance:** all 66 entries have at least one working outbound link to original material; CLAUDE.md encodes the standard; the web app shows sources on every entry page.
+
+**Done as:** as planned in the Sequencing section below, this sub-task shipped with Workstream 5 rather than at the time of the 1a/1b content pass, since it needed the same render-time markdown pipeline. See Workstream 5's "Done as" note for the implementation.
 
 ---
 
@@ -133,7 +135,7 @@ Owner's proposed rule, verified against the website and adopted:
 
 ---
 
-## Workstream 5: Content formatting on entry pages
+## Workstream 5: Content formatting on entry pages ✅ Complete (2026-09-05)
 
 ### 5a. Section structure
 
@@ -146,6 +148,16 @@ Owner's proposed rule, verified against the website and adopted:
 - Parse `**See also:**` lines: match the leading entry name in each semicolon-separated clause against the entry index (names before any parenthetical), and render matched names as internal links to `/framework/[slug]`, keeping the parenthetical guidance as plain text. Log any unmatched name at build time so drift between prose names and entry titles gets caught.
 
 **Acceptance:** every entry page renders with real, anchored section headings; See also names are internal links; build fails or warns loudly on unmatched See also references.
+
+**Done as:** `content.ts`'s `markdownToHtml` now runs a render-time pipeline: a `promoteLabelsToHeadings` pre-transform turns every recognised `**Label:**` marker (all Framework/Methodology/Model section labels, plus the Primer variants "Why it matters", "Key distinctions", "Where PMM fits") into a real `## Label` heading, then a `unified`/`remark-rehype`/`rehype-slug`/`rehype-stringify` pipeline parses it, slugs every heading into a stable `id` (e.g. `#how-to-apply-it`), and a custom `wrapSections` rehype step wraps each heading and its content into an `<section class="entry-section">`, adding `entry-section-panel` (a bordered `#FAF9F6` panel) specifically to the Example and Pitfalls sections. Markdown source files are untouched; the transform is render-only, as required.
+
+Sources and See also are extracted from the raw markdown by a new `src/lib/entry-sections.ts` (`extractSpecialSections`) before that pipeline runs, so they render as dedicated components instead of inline prose: `EntrySources` renders the Sources bullets directly beneath the entry title, before the body (closing out Workstream 1c), with every link forced to `target="_blank" rel="noopener noreferrer"` and a small "↗" affordance; `EntrySeeAlso` renders after the body with real `<Link>`s to `/framework/[slug]`.
+
+`parseSeeAlso` matches each semicolon-separated clause's leading name against every entry's title, a "stem" with the generic suffix (Framework/Methodology/Model/etc.) stripped, and an acronym-based alias (e.g. "STP Framework" resolves to "Segmentation–Targeting–Positioning (STP) Framework") — needed because clauses split naively on `;` broke wherever a clause's own guidance parenthetical contained a semicolon, so both the clause splitter and the trailing-parenthetical splitter are paren-depth-aware. Unmatched names are logged with `console.warn` during `next build` (visible in the build log) rather than failing the build; after the fix, only 6 of the See also references across all 66 entries remain unmatched, all genuine prose that bundles multiple entry names or a catch-all phrase ("All category frameworks") into one clause rather than a single resolvable name — real drift for a future content pass to clean up, not a parsing bug.
+
+The homepage footer also gained the standing attribution acknowledgement line from Workstream 1c.
+
+Verified with `npm run build` (TypeScript clean, all 84 pages generate, warnings visible and expected) and a Playwright pass confirming: every promoted heading has a stable `id` on both a Framework entry and the Primer (which uses the different label set); a See also link resolves to the correct `/framework/[slug]`; no console errors on any page.
 
 ---
 

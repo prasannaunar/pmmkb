@@ -121,6 +121,42 @@ body {
   border-color: var(--brand-alt);
 }
 
+.entry-section-panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
+.entry-section-panel h2 {
+  margin-top: 0;
+}
+
+.sources-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.sources-list li {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.sources-list a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sources-list a::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.15em;
+  font-size: 0.75em;
+}
+
 .prose hr {
   border: none;
   border-top: 1px solid var(--border);

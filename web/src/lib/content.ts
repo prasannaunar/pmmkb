@@ -2,6 +2,18 @@ import fs from "fs";
 import path from "path";
 import { remark } from "remark";
 import html from "remark-html";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeSlug from "rehype-slug";
+import rehypeStringify from "rehype-stringify";
+import { toString as hastToString } from "hast-util-to-string";
+import type {
+  Root as HastRoot,
+  RootContent as HastNode,
+  Element as HastElement,
+  ElementContent as HastElementContent,
+} from "hast";
 
 const REPO_ROOT = path.join(/*turbopackIgnore: true*/ process.cwd(), "..");
 
@@ -218,7 +230,90 @@ export function getSiteStats(): { totalEntries: number; categoryCount: number } 
   };
 }
 
+const SECTION_LABELS = [
+  "What it is",
+  "When to use it",
+  "Ownership",
+  "How to apply it",
+  "How to run it",
+  "Cadence & ownership",
+  "Maturity stages",
+  "How to read it",
+  "Example",
+  "Pitfalls",
+  "Why it matters",
+  "Key distinctions",
+  "Where PMM fits",
+];
+
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+const LABEL_PATTERN = new RegExp(
+  `^\\*\\*(${SECTION_LABELS.map(escapeRegExp).join("|")}):\\*\\*\\s*(.*)$`
+);
+
+/** Promotes the bold inline `**Label:**` markers into real `## Label` headings. */
+function promoteLabelsToHeadings(markdown: string): string {
+  return markdown
+    .split("\n")
+    .map((line) => {
+      const match = line.match(LABEL_PATTERN);
+      if (!match) return line;
+      const [, label, rest] = match;
+      return `## ${label}\n\n${rest}`;
+    })
+    .join("\n");
+}
+
+const PANEL_HEADINGS = new Set(["example", "pitfalls"]);
+
+/** Wraps each `<h2>` and its following siblings into an anchored `<section>`. */
+function wrapSections() {
+  return (tree: HastRoot) => {
+    const newChildren: HastNode[] = [];
+    let current: HastElement | null = null;
+
+    for (const node of tree.children) {
+      if (node.type === "element" && node.tagName === "h2") {
+        const heading = hastToString(node).trim().toLowerCase();
+        const className = PANEL_HEADINGS.has(heading)
+          ? ["entry-section", "entry-section-panel"]
+          : ["entry-section"];
+        current = {
+          type: "element",
+          tagName: "section",
+          properties: { className },
+          children: [node],
+        };
+        newChildren.push(current);
+      } else if (current) {
+        current.children.push(node as HastElementContent);
+      } else {
+        newChildren.push(node);
+      }
+    }
+
+    tree.children = newChildren;
+  };
+}
+
+const entryProcessor = unified()
+  .use(remarkParse)
+  .use(remarkRehype)
+  .use(rehypeSlug)
+  .use(wrapSections)
+  .use(rehypeStringify);
+
 export async function markdownToHtml(markdown: string): Promise<string> {
+  const promoted = promoteLabelsToHeadings(markdown);
+  const file = await entryProcessor.process(promoted);
+  return String(file);
+}
+
+/** Small inline markdown (a Sources bullet list, a snippet) with no section wrapping. */
+export async function markdownToInlineHtml(markdown: string): Promise<string> {
   const result = await remark().use(html).process(markdown);
   return result.toString();
 }
