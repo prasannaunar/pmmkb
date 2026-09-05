@@ -28,6 +28,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     try {
       const saved = localStorage.getItem("theme") as Theme | null;
       if (saved && ["system", "light", "dark"].includes(saved)) {
+        // Reads the client-only saved preference after the SSR-safe "system" first paint.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setThemeState(saved);
         applyTheme(saved);
       }
