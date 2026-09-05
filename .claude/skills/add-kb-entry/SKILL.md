@@ -56,9 +56,12 @@ fits.
 
 ## 6. Candidate queues
 
-If the entry came from ENRICHMENT-PLAN.md or FRAMEWORK-BACKLOG.md, mark that
-candidate `✅ BUILT (YYYY-MM-DD)` in place; don't delete the entry from the
-queue file.
+All prior candidate-build queues (ENRICHMENT-PLAN.md, FRAMEWORK-BACKLOG.md,
+EXTERNAL-REPO-GAP-ANALYSIS.md, NEW-SOURCES-GAP-ANALYSIS.md) are closed and
+archived to `archived/`. If a new candidate queue is opened in the future,
+log it in [PLAN.md](../../../PLAN.md)'s "Open work" section and mark
+candidates built there in place; don't delete a candidate from the log once
+built.
 
 ## 7. Run the Quality Gates checklist
 
