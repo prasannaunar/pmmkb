@@ -1,6 +1,6 @@
 # Quick Reference: Go-to-Market & Launch
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch.md](../frameworks/04-go-to-market-launch.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch.md](../frameworks/04-go-to-market-launch.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -44,6 +44,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Channel conversion rate versus industry benchmark
 - Minimum sample size before judging a channel (100+ prospects for outbound, 4-6 weeks for inbound)
 
+**Source:** [The 3-Step Product Marketing Strategy Framework](https://www.courageous-careers.com/the-3-step-product-marketing-strategy-framework)
+
 ---
 
 ## 7-Step Product Marketing Framework
@@ -74,6 +76,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Sales cycle length trend
 - Collateral usage rate (below 50% signals a mismatch with what reps hear)
 - Lead response time against the agreed SLA
+
+**Source:** [monday.com](https://monday.com/blog/marketing/product-marketing-strategy/)
 
 ---
 
@@ -109,6 +113,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - At least four iteration cycles completed per year
 - Win rate and CAC payback by segment
 
+**Source:** [Product Marketing Alliance](https://www.productmarketingalliance.com/product-marketing-framework/)
+
 ---
 
 ## Complete GTM Workflow Stages
@@ -139,6 +145,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Scale: 3x lead volume versus end of Launch, CAC payback under 18 months, win rate above 20%
 - Optimise: CAC payback under 12 months, conversion up 15-20% versus Scale
 
+**Source:** [2024 SaaS Benchmarks Report](https://www.highalpha.com/saas-benchmarks/2024)
+
 ---
 
 ## T2D3 Framework (B2B SaaS)
@@ -168,6 +176,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Net revenue retention of 110%+ by Year 3
 - CAC payback trending down or flat, not climbing, as the motion matures
 - Two consecutive quarters missing target by more than 25% triggers a plan revisit
+
+**Source:** [Neeraj Agrawal](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)
 
 ---
 
@@ -201,6 +211,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Deal cycle length and average contract value matching the assigned motion
 - Re-run trigger: average deal size shifting by more than roughly 25% over two consecutive quarters
 
+**Source:** [Dock](https://www.dock.us/library/go-to-market-motions)
+
 ---
 
 ## Product-Led Growth (PLG)
@@ -232,6 +244,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Time from signup to first value event
 - Average contract value uplift from sales-assisted PQLs versus pure self-serve
 - Quarterly re-validation of each PQL signal's predictive strength
+
+**Source:** [Wes Bush](https://productled.com/book/product-led-growth)
 
 ---
 
@@ -265,6 +279,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Win rate on Tier 1 accounts (21% to 38% in the example)
 - Average deal cycle reduction (roughly three weeks shorter in the example)
 
+**Source:** [Sangram Vajre & Eric Spett](https://www.porchlightbooks.com/products/abm-is-b2b-sangram-vajre-9781940858951)
+
 ---
 
 ## Bullseye Framework (Traction Channel Selection)
@@ -296,6 +312,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Minimum spend per test sufficient for 20-30 leads or conversions
 - Share of new signups or pipeline from the inner-ring channel (example: 58% of trial signups)
 - Blended CAC improvement versus the previous multi-channel spread
+
+**Source:** [Gabriel Weinberg & Justin Mares](https://www.penguinrandomhouse.com/books/319121/traction-by-gabriel-weinberg-and-justin-mares/)
 
 ---
 
@@ -329,6 +347,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Lead time actually matching the tier (8-12 weeks for Tier 1, 3-4 for Tier 2)
 - Quarterly retrospective flags on mis-scored launches, tracked over time
 
+**Source:** [Use Product Launch Tiers to Allocate Launch Resources](https://www.pragmaticinstitute.com/resources/articles/product/prioritize-product-launch-resources-with-launch-tiers/)
+
 ---
 
 ## Pre-mortem
@@ -360,3 +380,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Number of risks surfaced that would not have emerged in a standard planning meeting
 - Share of top-ranked risks with a completed mitigation before launch (Harborcode, a fictional company: metering fix shipped pre-launch, zero capacity incidents in first month)
 - Churn or incident rate versus pre-fix projections (roughly half the modelled churn in the example)
+
+**Source:** [Gary Klein](https://hbr.org/2007/09/performing-a-project-premortem)

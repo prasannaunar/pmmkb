@@ -1,6 +1,6 @@
 # Quick Reference: Competitive Strategy
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/03-competitive-strategy.md](../frameworks/03-competitive-strategy.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/03-competitive-strategy.md](../frameworks/03-competitive-strategy.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -42,6 +42,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Average selling price held or improved despite any cost changes
 - Measurable movement toward the target position at the next re-plot, not just an announced strategy change
 
+**Source:** [Cliff Bowman & David Faulkner](https://openlibrary.org/books/OL10235705M/Competitive_and_Corporate_Strategy)
+
 ---
 
 ## Product Differentiation Strategy Framework
@@ -74,6 +76,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Average contract value (up 22% in the example)
 - Net revenue retention in the segment (96% to 108%)
 - Time for a competitor to copy the differentiator (test against a 12-month horizon)
+
+**Source:** [Identifying Product Differentiators Using the MUD Framework](https://www.productmarketingalliance.com/identifying-product-differentiators-mud-framework/)
 
 ---
 
@@ -108,6 +112,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Agreement rate between team placement and blind buyer placement (aim for 5 of 6-8 buyers matching)
 - Consistency of axis and source choice across each re-plot, so movement is genuinely comparable
 
+**Source:** [Al Ries & Jack Trout](https://www.alries.com/positioning)
+
 ---
 
 ## CI Program Maturity Model
@@ -137,6 +143,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Dimension score movement quarter over quarter
 - Battlecard usage rate in competitive deals (Vantark, a fictional company: estimated 15% to 68%)
 - Win rate against top named competitors (29% to 38% in the example)
+
+**Source:** [Klue](https://klue.com/maturity-model)
 
 ---
 
@@ -170,3 +178,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Average deal size uplift (41% in the example, once procurement stopped benchmarking against the old category)
 - Win rate in deals where the prospect used the term unprompted versus generic deals (61% versus 24%)
 - Survey evidence the Legendary Problem is real and widely felt (68% of 200 surveyed leaders in the example)
+
+**Source:** [Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets](https://playbigger.com)
