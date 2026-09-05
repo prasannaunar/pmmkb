@@ -1,6 +1,6 @@
 # Quick Reference: Market & Customer Understanding
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/01-market-customer-understanding.md](../frameworks/01-market-customer-understanding.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/01-market-customer-understanding.md](../frameworks/01-market-customer-understanding.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -44,6 +44,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Trial-to-paid conversion rate
 - Segment-level NPS
 
+**Source:** [Wendell R. Smith](https://journals.sagepub.com/doi/abs/10.1177/002224295602100102)
+
 ---
 
 ## Complete Product Experience Framework
@@ -74,6 +76,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Adoption of the feature/claim in question (e.g. mobile usage reaching 34% of sessions)
 - Support response time against promised SLA
 
+**Source:** [The Complete Product Experience (CPE)](https://www.aha.io/roadmapping/guide/product-strategy/complete-product-experience)
+
 ---
 
 ## Product Development Stage Framework
@@ -101,6 +105,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - ARR and customer count at a set milestone
 - Trial-to-paid conversion rate
 - Monthly logo churn and time-to-first-value
+
+**Source:** [Stage-Gate International](https://www.stage-gate.com/about/our-story-2/)
 
 ---
 
@@ -134,6 +140,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - NPS movement (e.g. 28 to 41)
 - Time from issue raised to appearing in a theme report (e.g. under two weeks)
 
+**Source:** [Abbie Griffin & John R. Hauser](https://pubsonline.informs.org/doi/10.1287/mksc.12.1.1)
+
 ---
 
 ## JTBD Switch Interview Method
@@ -164,6 +172,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Number of interviews showing the same trigger/anxiety (e.g. 8 of 10)
 - Demo-to-trial conversion rate change (e.g. 22% to 34%)
 - Consistency of the trigger story surfaced in later sales discovery calls
+
+**Source:** [The Mattress Interview](https://therewiredgroup.com/case-studies/the-mattress-interview/)
 
 ---
 
@@ -196,6 +206,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Win rate gap between top and bottom tier (e.g. 24% versus 2%)
 - Sales cycle length reduction for top-tier accounts (e.g. 35% shorter)
 
+**Source:** [Ideal Customer Profile Template](https://www.hubspot.com/make-my-persona/ideal-customer-profile-template)
+
 ---
 
 ## Sean Ellis 40% Test (PMF Survey)
@@ -227,6 +239,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Trial-to-paid conversion change in the strong-fit segment (e.g. 11% to 17%)
 - Consistency of the score on re-run (e.g. held at 54%)
 
+**Source:** [Sean Ellis & Morgan Brown](https://www.penguinrandomhouse.com/books/545936/hacking-growth-by-sean-ellis-founder-of-growthhackerscom-and-morgan-brown/)
+
 ---
 
 ## MAP Model (Measure, Analyze, Prioritize)
@@ -256,3 +270,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Revenue growth in the top-tier segment after reallocation (Rosterly, a fictional company: small-team segment revenue grew 41% in two quarters)
 - Net revenue retention shift in the prioritised segment (94% to 107% in the example)
 - Retention and margin gap surfaced between a segment's reputation and its actual numbers
+
+**Source:** [Tamara Grominsky, Founder of PMM Camp](https://www.productmarketingalliance.com/how-to-map-your-best-customers/)

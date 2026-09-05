@@ -1,6 +1,6 @@
 # Quick Reference: Positioning & Messaging
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/02-positioning-messaging.md](../frameworks/02-positioning-messaging.md). Origin attributions, benchmark sources, and citations for the claims below are documented in that file, not repeated here.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/02-positioning-messaging.md](../frameworks/02-positioning-messaging.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
@@ -49,6 +49,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Sales cycle length (54 to 39 days)
 - Discovery-call-to-demo conversion (41% to 58%)
 
+**Source:** [Geoffrey Moore](https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986)
+
 ---
 
 ## April Dunford's 5-Component Positioning Canvas
@@ -80,6 +82,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Average deal size in target segment (+15%)
 - Number of target customers whose unprompted description matches intent (validation step)
 
+**Source:** [April Dunford](https://www.aprildunford.com/books)
+
 ---
 
 ## Jobs-to-be-Done Positioning Framework
@@ -109,6 +113,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Trial-to-paid conversion (Timeframe: 11% to 17%)
 - Share of won deals citing the intended job as the reason (24% to 60%)
 - Support signal tied to the emotional job (surveillance-related tickets halved)
+
+**Source:** [Clayton M. Christensen & Michael E. Raynor](https://www.christenseninstitute.org/book/the-innovators-solution/)
 
 ---
 
@@ -141,6 +147,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Homepage-to-trial conversion (3.1% to 4.6%)
 - Close rate for leads citing the led-with pain (38% vs 24%)
 
+**Source:** [Value Proposition Design: How to Create Products and Services Customers Want](https://www.strategyzer.com/library/value-proposition-design-book-summary)
+
 ---
 
 ## Message Architecture (Messaging House)
@@ -171,6 +179,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Demo-request conversion (Sentra: 1.9% to 3.1%)
 - Message-test clarity score (54% to 82% "immediately clear")
 - New-hire ramp to confident pitch (11 weeks to 6)
+
+**Source:** [guide to messaging frameworks](https://www.productmarketingalliance.com/your-guide-to-messaging/)
 
 ---
 
@@ -206,6 +216,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Sales cycle length (71 to 52 days)
 - Category-recall in cold validation (1/6 to 4/6 customers repeating the frame unprompted)
 
+**Source:** [April Dunford](https://www.aprildunford.com/books)
+
 ---
 
 ## Command of the Message
@@ -237,6 +249,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Close rate when the quantified value figure was logged (51% vs 28%)
 - Average deal size in contested deals (+12%)
 
+**Source:** [Force Management (founded 2002)](https://www.forcemanagement.com/blog/whats-the-meaning-of-command-of-the-message)
+
 ---
 
 ## Features-Advantages-Benefits (FAB) Ladder
@@ -266,6 +280,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 **Success metrics:**
 - Message-test "clear and compelling" score (Ledgerline: 31% to 68%)
 - Feature mention rate in sales calls (12% to 47%)
+
+**Source:** [FAB analysis guide](https://airfocus.com/glossary/what-is-a-features-advantages-and-benefits-analysis/)
 
 ---
 
@@ -299,6 +315,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Homepage-to-trial conversion (2.1% to 3.8%)
 - Share of inbound leads who can describe the product correctly in the first call (30% to 70%)
 
+**Source:** [Donald Miller](https://storybrand.com/building-a-storybrand-book-new/)
+
 ---
 
 ## Message Testing (Message-Market Fit)
@@ -330,6 +348,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Campaign click-through rate versus historical average (3.8% vs 1.9%)
 - Cost per qualified lead (-34%)
 
+**Source:** [Peep Laja / Wynter](https://wynter.com/post/what-is-message-testing)
+
 ---
 
 ## Vertical/Segment Messaging via Buying Trigger
@@ -359,6 +379,8 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Reply rate on vertical-matched outbound (Auditrix, a fictional company: 2.1% to 5.4% overall; healthcare reached 7.2%)
 - Consistency of segment entry-point copy with the core message (no pillar drift)
 - Time to produce a new segment's opening line once the routing map exists
+
+**Source:** [Diane Wiredu, Lion Words](https://www.lionwords.com/about)
 
 ---
 
@@ -390,3 +412,5 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Investor or prospect follow-up meeting rate (Continuo, a fictional company: roughly 20% to 45%)
 - Share of prospect questions shifting from "why now" to implementation detail
 - Audience recognition of the named change as real and independently verifiable
+
+**Source:** [Andy Raskin](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0)
