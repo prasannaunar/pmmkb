@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getCategoryBySlug } from "@/lib/content";
-import { TypeBadge } from "@/components/type-badge";
 import { StickyHeader } from "@/components/sticky-header";
-import { pluralType } from "@/lib/plural";
+import { CategoryEntries } from "@/components/category-entries";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -66,54 +65,9 @@ export default async function CategoryPage({
         >
           {category.title}
         </h1>
-        <div className="flex flex-wrap gap-3">
-          {Object.entries(typeCounts).map(([type, count]) => (
-            <span
-              key={type}
-              className="text-sm px-3 py-1 border"
-              style={{ borderColor: "var(--border)", color: "var(--text-secondary)" }}
-            >
-              {count} {pluralType(type, count)}
-            </span>
-          ))}
-        </div>
       </header>
 
-      <div className="space-y-3">
-        {category.entries.map((entry) => {
-          const whatItIs = entry.rawMarkdown.match(
-            /\*\*What it is:\*\*\s*([\s\S]*?)(?=\n\n\*\*|\n##|$)/
-          );
-          const snippet = whatItIs
-            ? whatItIs[1].trim().slice(0, 180) + (whatItIs[1].trim().length > 180 ? "..." : "")
-            : "";
-
-          return (
-            <div
-              key={entry.slug}
-              className="p-5 border transition-all hover:shadow-md"
-              style={{
-                backgroundColor: "var(--bg-card)",
-                borderColor: "var(--border)",
-              }}
-            >
-              <Link href={`/framework/${entry.slug}`} className="block">
-                <div className="mb-1.5">
-                  <TypeBadge type={entry.type} />
-                </div>
-                <h2 className="font-semibold leading-snug" style={{ color: "var(--text-primary)" }}>
-                  {entry.title}
-                </h2>
-                {snippet && (
-                  <p className="text-sm mt-1.5 leading-relaxed line-clamp-2" style={{ color: "var(--text-secondary)" }}>
-                    {snippet}
-                  </p>
-                )}
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+      <CategoryEntries entries={category.entries} typeCounts={typeCounts} />
     </div>
   );
 }
