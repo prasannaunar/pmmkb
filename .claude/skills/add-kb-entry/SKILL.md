@@ -76,9 +76,10 @@ fits.
 ## 7. Candidate queues
 
 All prior candidate-build queues (ENRICHMENT-PLAN.md, FRAMEWORK-BACKLOG.md,
-EXTERNAL-REPO-GAP-ANALYSIS.md, NEW-SOURCES-GAP-ANALYSIS.md) are closed and
-archived to `archived/`. If a new candidate queue is opened in the future,
-log it in [PLAN.md](../../../PLAN.md)'s "Open work" section and mark
+EXTERNAL-REPO-GAP-ANALYSIS.md, NEW-SOURCES-GAP-ANALYSIS.md) are closed; they
+were archived, then deleted outright once a re-scan confirmed nothing in the
+repo still depended on them. If a new candidate queue is opened in the
+future, log it in [PLAN.md](../../../PLAN.md)'s "Open work" section and mark
 candidates built there in place; don't delete a candidate from the log once
 built.
 
