@@ -14,6 +14,7 @@ import type {
   Element as HastElement,
   ElementContent as HastElementContent,
 } from "hast";
+import { extractCategoryQuiz } from "./quiz";
 
 const REPO_ROOT = path.join(/*turbopackIgnore: true*/ process.cwd(), "..");
 
@@ -34,6 +35,7 @@ export interface Category {
   title: string;
   number: number;
   entries: Entry[];
+  quizMarkdown: string | null;
 }
 
 const CATEGORY_FILES = [
@@ -157,12 +159,13 @@ export function getAllCategories(): Category[] {
 
   for (const file of CATEGORY_FILES) {
     const filePath = path.join(REPO_ROOT, file);
-    const content = fs.readFileSync(filePath, "utf-8");
+    const rawContent = fs.readFileSync(filePath, "utf-8");
     const { number, slug } = extractCategoryInfo(file);
-    const title = extractCategoryTitle(content);
+    const title = extractCategoryTitle(rawContent);
+    const { content, quizMarkdown } = extractCategoryQuiz(rawContent);
 
     const entries = splitEntries(content, slug, title, number);
-    categories.push({ slug, title, number, entries });
+    categories.push({ slug, title, number, entries, quizMarkdown });
   }
 
   for (const file of CONCEPT_FILES) {
@@ -179,6 +182,7 @@ export function getAllCategories(): Category[] {
           title: "Concepts",
           number: 10,
           entries,
+          quizMarkdown: null,
         });
       }
     }
