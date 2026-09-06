@@ -26,19 +26,38 @@ it explicitly as fictional on first mention. See
 [SOURCE-VALIDATION-LOG.md](../../../SOURCE-VALIDATION-LOG.md) for the
 standard and worked examples.
 
-## 2. INDEX.md
+## 2. Write the entry's Quiz section
+
+Every entry needs a `**Quiz:**` section as its last section (after
+`**See also:**`): 5 questions, following
+[QUIZ-SPEC.md](../../../QUIZ-SPEC.md) exactly — four options per question,
+one correct, at least 3 of 5 scenario-based, explanatory feedback on every
+option (correct and incorrect), the correct option always written as **A**
+in the source (the web app shuffles display order; don't reorder options
+yourself), no combination answers ("both A and C") or "all/none of the
+above". Draw scenarios and distractors from the entry's own "When to use
+it" and "Pitfalls" sections.
+
+Check whether the entry should also appear in its category's existing
+`## Category Quiz` (10 questions, at the top of the category file): if the
+new entry names a genuinely distinguishing use case not yet covered by an
+existing category-quiz question, consider adding or swapping in a question
+for it. This isn't mandatory for every new entry, since a category quiz
+tests judgement across entries rather than covering each one individually.
+
+## 3. INDEX.md
 
 Add a row to the entry's category table: Entry, Type, one-line Description.
 Update the "Last Updated" line at the top with a short note on what changed.
 
-## 3. README.md
+## 4. README.md
 
 - If the category's entry count changed, update the count in the category
   table (`## What's Inside`) and the headline total ("54 Entries Across...").
 - Update the "Quality Assurances" status line if it references queue
   completion state.
 
-## 4. FRAMEWORK-MAP.md
+## 5. FRAMEWORK-MAP.md
 
 - Add the entry to the relevant dependency-matrix section (e.g. "Positioning
   Frameworks (Apply Second)").
@@ -48,13 +67,13 @@ Update the "Last Updated" line at the top with a short note on what changed.
 - Only touch "Common Workflow Sequences" if the entry changes a named
   scenario's recommended sequence.
 
-## 5. BY-SITUATION.md
+## 6. BY-SITUATION.md
 
 Only if the entry maps to one of the existing numbered situations: add it to
 that situation's recommended-frameworks list. Don't force a mapping if none
 fits.
 
-## 6. Candidate queues
+## 7. Candidate queues
 
 All prior candidate-build queues (ENRICHMENT-PLAN.md, FRAMEWORK-BACKLOG.md,
 EXTERNAL-REPO-GAP-ANALYSIS.md, NEW-SOURCES-GAP-ANALYSIS.md) are closed and
@@ -63,7 +82,7 @@ log it in [PLAN.md](../../../PLAN.md)'s "Open work" section and mark
 candidates built there in place; don't delete a candidate from the log once
 built.
 
-## 7. Run the Quality Gates checklist
+## 8. Run the Quality Gates checklist
 
 Before finishing, go through CLAUDE.md's "Before Publishing Framework
 Changes" checklist, including the cross-doc consistency check this skill just

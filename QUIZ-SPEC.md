@@ -1,6 +1,6 @@
 # Quiz Specification for PMMKB
 
-**Status:** Content build complete — all 66 entries and all 9 category quizzes written. Web app wiring (rendering, client-side state, answer-order randomisation) is the remaining open work; see "Build progress" below.
+**Status:** Feature complete. All 66 entries and all 9 category quizzes are written and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle). Only remaining item: updating CLAUDE.md's quality gates and the `add-kb-entry` skill so future entries include a quiz by default (see "Build progress" below).
 **Last Updated:** 2026-09-06
 
 This is the source-of-truth spec for the quiz feature described in PLAN.md's Phase 7. If a build session runs out of room partway through, resume from here rather than re-deriving the requirements; update the "Build progress" section at the bottom as work lands.
@@ -111,7 +111,7 @@ In the source markdown, the correct option is always written as **A** for every 
 
 1. **Where quizzes live in the source of truth.** Settled: a new `**Quiz:**` bold-label section inside each entry's existing markdown, placed as the last section (after `**See also:**`), matching the existing bold-label convention (`**What it is:**`, `**Sources:**`, etc.) rather than an H3 heading. Each question is a numbered list item containing the stem, four lettered options (`- **A.** ...` through `- **D.**`), a `**Correct answer: X.**` paragraph with reinforcing feedback, then three `*Why not X:*` paragraphs, one per incorrect option, in letter order. The web app's parser (`web/src/lib/content.ts`) will need extending to recognise and extract this block separately from prose when quiz rendering is built; that extension has not been done yet (content-only phase, see below).
 2. **Category quiz placement.** Settled: a `## Category Quiz` H2 section at the very top of each category markdown file (`frameworks/0X-*.md`), before the first entry's H2, separated by the same `---` rule used between entries. Uses the same numbered-list question format as entry quizzes.
-3. **Web app interactivity.** Deferred. This build pass is content-only: quiz markdown is written and structurally validated (correct answer + option counts) but not yet wired into the web app's parser or rendered with client-side state. Tracked as open work below.
+3. **Web app interactivity.** Done (2026-09-06). See `web/src/lib/quiz.ts` (parser + deterministic per-question option shuffle), `web/src/components/quiz-section.tsx` (client component: click-to-reveal feedback, progress indicator, Retry), and the wiring into `web/src/lib/content.ts`, `web/src/lib/entry-sections.ts`, `web/src/app/framework/[slug]/page.tsx`, and `web/src/app/category/[slug]/page.tsx`.
 4. **Which entries first.** Sequencing by category. Category 3 (Competitive Strategy) built first as the pilot, chosen because it has all three non-primer types (Framework, Methodology, Model) in one category.
 5. **Quality gate integration.** Still open; not yet added to CLAUDE.md's publishing checklist or the `add-kb-entry` skill. Revisit once the format has been used across more than one category and any format issues have surfaced.
 
@@ -133,5 +133,5 @@ In the source markdown, the correct option is always written as **A** for every 
 
 **Content build total: 66 entries × 5 questions (330) + 9 category quizzes × 10 questions (90) = 420 questions, all written and structurally validated (correct-answer count, option count, no combination answers, whitespace-clean).**
 
-- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A). This is the only remaining work on the quiz feature.
-- [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill so future entries/categories include a quiz section by default, now that the format is proven across all 9 categories.
+- [x] **Wire quiz content into the web app — done (2026-09-06).** Verified with `next build` (all 84 static pages), a scripted parser check (420/420 questions valid, exactly one correct option and full feedback each), and an interactive Playwright pass (click reveals feedback, progress updates, summary and Retry appear once all answered, Retry clears state).
+- [x] **Update CLAUDE.md quality gates and `add-kb-entry` skill — done (2026-09-06).** New entries and category files now require a quiz section as part of the standard publishing checklist; see CLAUDE.md's "Quiz section (quiz standard)" and the `add-kb-entry` skill's updated checklist.
