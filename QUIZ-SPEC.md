@@ -101,23 +101,20 @@ Professional but not stiff. Match the knowledge base voice: clear, direct, groun
 
 ---
 
-## Open implementation questions (not yet decided)
+## Implementation decisions (settled 2026-09-06)
 
-These need a decision before or during build; they are not part of the content spec above but will shape it:
-
-1. **Where quizzes live in the source of truth.** The markdown files (`frameworks/*.md`, `concepts/*.md`) are the single source of truth parsed at build time by the web app (see PLAN.md Phase 6). Quizzes could be: (a) a new section within each markdown entry, parsed like the rest; (b) a parallel JSON/YAML file per entry; (c) a central quiz bank file. Given "embedded at the end of their respective pages" and "natively part of the page," and given the existing markdown-is-source-of-truth pattern, embedding as a markdown section per entry is the leading option, but needs confirming against how the web app's parser (`web/src/lib/content.ts`) would need to change to extract a structured Q&A block rather than prose.
-2. **Category quiz placement.** Category markdown files (`frameworks/0X-*.md`) contain multiple entries; a 10-question category quiz needs to live at the category-page level, not inside any one entry's markdown. This likely means a separate source file per category quiz (e.g. `quizzes/0X-category-name.md` or similar), since it doesn't belong inside any single entry file.
-3. **Web app interactivity.** The web app is currently a static, read-only view layer (Next.js, statically generated). Quiz state (selected answer, "4 of 5" progress, retry) needs client-side interactivity (React state, sessionStorage per Phase 7 sketch in PLAN.md) layered onto otherwise-static pages. No server-side persistence, no accounts.
-4. **Which entries first.** 66 entries x 5 questions = 330 entry-level questions, plus 9 categories x 10 = 90 category-level questions (420 total). This is a large content-writing effort; may need to be sequenced (e.g. by category) across multiple sessions rather than attempted in one pass.
-5. **Quality gate integration.** Whether quiz authoring gets added to the "Before Publishing Framework Changes" checklist in CLAUDE.md (e.g. "quiz present, 5 questions, correct scenario/recall ratio, feedback on every option") and to the `add-kb-entry` skill's checklist for new entries going forward.
+1. **Where quizzes live in the source of truth.** Settled: a new `**Quiz:**` bold-label section inside each entry's existing markdown, placed as the last section (after `**See also:**`), matching the existing bold-label convention (`**What it is:**`, `**Sources:**`, etc.) rather than an H3 heading. Each question is a numbered list item containing the stem, four lettered options (`- **A.** ...` through `- **D.**`), a `**Correct answer: X.**` paragraph with reinforcing feedback, then three `*Why not X:*` paragraphs, one per incorrect option, in letter order. The web app's parser (`web/src/lib/content.ts`) will need extending to recognise and extract this block separately from prose when quiz rendering is built; that extension has not been done yet (content-only phase, see below).
+2. **Category quiz placement.** Settled: a `## Category Quiz` H2 section at the very top of each category markdown file (`frameworks/0X-*.md`), before the first entry's H2, separated by the same `---` rule used between entries. Uses the same numbered-list question format as entry quizzes.
+3. **Web app interactivity.** Deferred. This build pass is content-only: quiz markdown is written and structurally validated (correct answer + option counts) but not yet wired into the web app's parser or rendered with client-side state. Tracked as open work below.
+4. **Which entries first.** Sequencing by category. Category 3 (Competitive Strategy) built first as the pilot, chosen because it has all three non-primer types (Framework, Methodology, Model) in one category.
+5. **Quality gate integration.** Still open; not yet added to CLAUDE.md's publishing checklist or the `add-kb-entry` skill. Revisit once the format has been used across more than one category and any format issues have surfaced.
 
 ---
 
 ## Build progress
 
-- [ ] Decide open implementation questions above (source-of-truth format, category quiz file location, web app interactivity approach).
-- [ ] Pilot: write quizzes for one entry and one category end-to-end, including web app rendering, to validate the format before scaling to all 66 entries + 9 categories.
-- [ ] Scale to remaining entries, by category.
-- [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill once the format is proven.
-
-_No entries or categories have quizzes yet as of this spec's creation._
+- [x] Decide open implementation questions above (source-of-truth format, category quiz file location; web app interactivity deferred).
+- [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries (Bowman's Strategic Clock, Product Differentiation Strategy Framework, Perceptual Map (2x2), Category Design, CI Program Maturity Model) have a 5-question `**Quiz:**` section; the category has a 10-question `## Category Quiz` section at the top of `frameworks/03-competitive-strategy.md`. 35 questions total, each with 4 options and a feedback paragraph on every option (140 feedback paragraphs). At least 8 of the 10 category questions are framework-selection questions (situation → choose the right entry from the category); all 5 entries appear as the correct answer at least once. Not yet wired into the web app (see decision 3 above).
+- [ ] Scale to remaining 8 categories (61 entries + 8 category quizzes; ~305 entry-level questions + 80 category-level questions remaining).
+- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
+- [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill once the format is proven across more than one category.
