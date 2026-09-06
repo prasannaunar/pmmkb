@@ -1,6 +1,6 @@
 # Quiz Specification for PMMKB
 
-**Status:** Approved specification, build not started.
+**Status:** Content build complete — all 66 entries and all 9 category quizzes written. Web app wiring (rendering, client-side state, answer-order randomisation) is the remaining open work; see "Build progress" below.
 **Last Updated:** 2026-09-06
 
 This is the source-of-truth spec for the quiz feature described in PLAN.md's Phase 7. If a build session runs out of room partway through, resume from here rather than re-deriving the requirements; update the "Build progress" section at the bottom as work lands.
@@ -123,12 +123,15 @@ In the source markdown, the correct option is always written as **A** for every 
 - [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries have a 5-question `**Quiz:**` section; 10-question `## Category Quiz` at the top of `frameworks/03-competitive-strategy.md`. 35 questions total.
 - [x] **Category 1: Market & Customer Understanding — done (2026-09-06).** All 8 entries (STP, Complete Product Experience, Product Development Stage, Voice of the Customer, JTBD Switch Interview, ICP Development, Sean Ellis 40% Test, MAP Model) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/01-market-customer-understanding.md`. 50 questions total.
 - [x] **Category 2: Positioning & Messaging — done (2026-09-06).** All 12 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/02-positioning-messaging.md`. 70 questions total.
-- [ ] Category 4: Go-to-Market & Launch (11 entries) — not started.
+- [x] **Category 4: Go-to-Market & Launch — done (2026-09-06).** All 11 entries (3-Step, 7-Step, 10-Step PMM frameworks, Complete GTM Workflow Stages, T2D3, GTM Motion Model, Product-Led Growth, ABX/TEAM, Bullseye, Launch Tier Framework, Pre-mortem) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/04-go-to-market-launch.md`. 65 questions total — the largest category.
 - [x] **Category 5: Lifecycle & Workflow — done (2026-09-06).** All 3 entries (PMM Lifecycle Management, Go-to-Market Motion, Feature Adoption) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/05-lifecycle-workflow.md`. 25 questions total.
 - [x] **Category 6: Product Experience & Adoption — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/06-product-experience-adoption.md`. 45 questions total.
 - [x] **Category 7: Strategy & Planning — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/07-strategy-planning.md`. 45 questions total.
 - [x] **Category 8: Pricing & Packaging — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/08-pricing-packaging.md`. 45 questions total.
 - [x] **Category 9: Sales Enablement — done (2026-09-06).** All 5 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/09-sales-enablement.md`. 35 questions total.
-- [ ] `concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — 5-question quiz only, no category quiz (concepts is not one of the 9 workflow categories).
-- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
-- [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill once the format is proven across more than one category.
+- [x] **`concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — done (2026-09-06).** 5-question quiz added; no category quiz, per the decision above (concepts is not one of the 9 workflow categories).
+
+**Content build total: 66 entries × 5 questions (330) + 9 category quizzes × 10 questions (90) = 420 questions, all written and structurally validated (correct-answer count, option count, no combination answers, whitespace-clean).**
+
+- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A). This is the only remaining work on the quiz feature.
+- [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill so future entries/categories include a quiz section by default, now that the format is proven across all 9 categories.
