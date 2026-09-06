@@ -1,5 +1,149 @@
 # Category 2: Positioning & Messaging
 
+## Category Quiz
+
+1. Positioning is agreed internally, but the website says one thing, the sales deck says another, and the analyst briefing says a third. Which tool should the PMM build to fix this?
+   - **A.** Message Architecture (Messaging House)
+   - **B.** Geoffrey Moore's Positioning Statement Framework
+   - **C.** StoryBrand SB7 Framework
+   - **D.** Message Testing (Message-Market Fit)
+
+   **Correct answer: A.** This is exactly the messaging house's named trigger: positioning is settled, yet each asset phrases the value differently, because nothing connects the agreed positioning to the copy every writer produces. The house is the shared hierarchy, core message, pillars, proof points, that keeps every asset saying the same thing.
+
+   *Why not B:* Moore's template produces the positioning statement itself; it does not solve the cross-channel copy inconsistency once positioning is already agreed, which is what the house is specifically built to prevent.
+
+   *Why not C:* SB7 builds a narrative arc for a single asset; it does not create the shared, governed hierarchy needed to keep multiple different assets consistent with each other.
+
+   *Why not D:* Message Testing evaluates whether draft copy lands with buyers; it does not address the underlying structural problem of inconsistent messaging across channels.
+
+2. A company is positioning a product for the first time and internal teams disagree about what makes it unique, with no evidence settling the argument. Which should the PMM run?
+   - **A.** Dunford's 10-Step Positioning Process
+   - **B.** Message Architecture (Messaging House)
+   - **C.** Command of the Message
+   - **D.** Features-Advantages-Benefits (FAB) Ladder
+
+   **Correct answer: A.** This is the named trigger for the full ten-step process: positioning for the first time, with internal disagreement that has never been tested against real customer and competitor evidence. The process's interviews, competitive-alternative list, and attribute isolation steps are built to settle exactly this kind of dispute with evidence.
+
+   *Why not B:* The messaging house is built on top of already-validated positioning; it assumes the underlying uniqueness question has already been settled, which is not yet true here.
+
+   *Why not C:* Command of the Message adapts an existing messaging house into a live sales conversation; it does not settle a foundational dispute about what makes the product unique in the first place.
+
+   *Why not D:* The FAB Ladder translates a single feature into buyer language; it operates far below the level of resolving a company-wide disagreement about core differentiation.
+
+3. Reps keep opening discovery calls with a full product tour instead of anchoring on the buyer's stated cost of the problem, and champions cannot repeat the value case in dollar terms to their economic buyer. Which tool addresses this directly?
+   - **A.** Command of the Message
+   - **B.** Message Architecture (Messaging House)
+   - **C.** Vertical/Segment Messaging via Buying Trigger
+   - **D.** Andy Raskin's Strategic Narrative Framework
+
+   **Correct answer: A.** This is Command of the Message's named trigger: reps defaulting to features rather than quantified value, and a champion unable to translate the value case into dollar terms for the economic buyer. It exists specifically to arm reps with required capabilities, differentiators, and quantified value figures for live conversations.
+
+   *Why not B:* The messaging house provides the shared core message and pillars, but it does not itself translate that into a live-conversation, deal-specific value structure; that translation is Command of the Message's job.
+
+   *Why not C:* This framework adapts an opening line by segment and trigger event for cold outreach and campaigns; it does not build the live, deal-specific value-selling structure a rep runs through discovery to proposal.
+
+   *Why not D:* Raskin's framework operates at the company or category narrative level, for pitch decks and keynotes; it is not built for individual, deal-specific value conversations.
+
+4. A release note describing a new feature reads as a dry technical capability list, and readers say "not sure why I'd need this." Which tool is the fastest, most direct fix?
+   - **A.** Features-Advantages-Benefits (FAB) Ladder
+   - **B.** Dunford's 10-Step Positioning Process
+   - **C.** April Dunford's 5-Component Positioning Canvas
+   - **D.** Andy Raskin's Strategic Narrative Framework
+
+   **Correct answer: A.** The FAB Ladder is purpose-built for exactly this: translating a single raw feature into feature, advantage, and benefit rungs so a release note or spec-sheet line reads as an outcome a buyer cares about, rather than a bare capability statement.
+
+   *Why not B:* The full ten-step process addresses company-wide positioning strategy; it is a far heavier tool than needed to fix a single feature description's wording.
+
+   *Why not C:* Dunford's canvas maps competitive attributes at the strategic positioning level; it does not provide the sentence-by-sentence feature-to-benefit translation a release note needs.
+
+   *Why not D:* Raskin's framework builds a company or category-level narrative arc; it is not designed for translating an individual feature description into buyer language.
+
+5. A company's homepage opens with "We are the leading provider of enterprise solutions, trusted by 500+ companies," followed by a feature grid and three competing calls to action. Bounce rate is high. Which framework directly targets this problem?
+   - **A.** StoryBrand SB7 Framework
+   - **B.** Message Architecture (Messaging House)
+   - **C.** Value Proposition Canvas
+   - **D.** Command of the Message
+
+   **Correct answer: A.** SB7 is built precisely for this failure mode: a brand-as-hero opening and competing calls to action, rather than a customer-as-hero narrative with one clear Guide position, Plan, and single Call to Action, which is what a homepage rewrite under this framework would fix.
+
+   *Why not B:* A messaging house supplies pillars and proof points, but the specific problem here, brand-as-hero framing and no narrative arc, is what SB7's structure is designed to correct, not what a pillar hierarchy alone fixes.
+
+   *Why not C:* The Value Proposition Canvas maps pains and gains to features; it does not address the narrative structure and brand-versus-customer framing problem described on this homepage.
+
+   *Why not D:* Command of the Message is a live sales-conversation structure for reps in deals; it has no bearing on a homepage's narrative framing or its competing calls to action.
+
+6. Two candidate headlines are under internal debate before a $150,000 paid campaign launches, and the team has no objective way to choose beyond personal preference. Which tool should decide it?
+   - **A.** Message Testing (Message-Market Fit)
+   - **B.** StoryBrand SB7 Framework
+   - **C.** Geoffrey Moore's Positioning Statement Framework
+   - **D.** Vertical/Segment Messaging via Buying Trigger
+
+   **Correct answer: A.** This is exactly the named trigger for Message Testing: real budget about to be committed to messaging nobody outside the company has seen cold, with internal debate stalled on opinion. Testing both candidates against a verified buyer panel settles it with evidence rather than preference.
+
+   *Why not B:* SB7 is a narrative-writing framework, not an evaluation method; it does not itself provide the objective, panel-based comparison needed to choose between two already-written headline candidates.
+
+   *Why not C:* Moore's framework produces a positioning statement, not a mechanism for testing two finished headline candidates against real buyers before a spend commitment.
+
+   *Why not D:* This framework builds segment-specific entry-point lines; it does not provide the panel-based testing method needed to objectively choose between two headline candidates.
+
+7. A company sells one product into healthcare, fintech, and retail verticals, and sales currently improvises a fresh opening pitch for each new vertical it enters, drifting further from the core message each time. Which tool fixes this?
+   - **A.** Vertical/Segment Messaging via Buying Trigger
+   - **B.** Jobs-to-be-Done Positioning Framework
+   - **C.** Message Architecture (Messaging House)
+   - **D.** Andy Raskin's Strategic Narrative Framework
+
+   **Correct answer: A.** This is the named trigger for this framework: a validated core message exists, but every new vertical gets an improvised, drifting pitch. It builds a routing map, segment, trigger, matched pillar, entry line, that adapts the existing message without rewriting it per segment.
+
+   *Why not B:* JTBD identifies the underlying job a customer hires a product to do; it does not itself produce the vertical-specific routing map and entry-point lines this scenario calls for.
+
+   *Why not C:* The messaging house provides the core message and pillars themselves, but the specific gap described, drifting per-vertical openers, needs the adaptation layer this framework adds on top of an existing house.
+
+   *Why not D:* Raskin's framework builds a company or category-level narrative arc for decks and keynotes; it does not address per-vertical cold-open and campaign-copy adaptation.
+
+8. A pitch deck opens with a product screenshot and feature comparison table, and investors repeatedly ask "so what's actually changing that makes this the moment for this product?" Which framework answers that question directly?
+   - **A.** Andy Raskin's Strategic Narrative Framework
+   - **B.** StoryBrand SB7 Framework
+   - **C.** April Dunford's 5-Component Positioning Canvas
+   - **D.** Message Architecture (Messaging House)
+
+   **Correct answer: A.** Raskin's arc opens by naming a real, verifiable market change before the product ever appears, precisely the "why now" investors and buyers are asking for. It is built for company or category-level narratives like pitch decks and keynotes, exactly this scenario.
+
+   *Why not B:* SB7 builds a customer-as-hero arc for a single asset and one buyer archetype; Raskin's framework operates at the company or category level, which better matches an investor pitch deck's altitude.
+
+   *Why not C:* Dunford's canvas maps competitive attributes and segment fit; it does not build the market-shift narrative arc investors are asking the deck to supply.
+
+   *Why not D:* A messaging house's pillars can supply proof for Raskin's "magic gifts" step, but the house itself does not build the market-shift narrative that answers "why now."
+
+9. A team has validated, through Dunford's 10-Step Process, that its product is genuinely differentiated for a specific segment. It now needs to translate that validated positioning into a governed hierarchy every writer across the company can produce copy from. What should come next?
+   - **A.** Message Architecture (Messaging House)
+   - **B.** April Dunford's 5-Component Positioning Canvas
+   - **C.** Message Testing (Message-Market Fit)
+   - **D.** Command of the Message
+
+   **Correct answer: A.** The 10-Step Process's own guidance names Message Architecture as the natural next step after validated positioning, turning the pitch into a full messaging hierarchy, core message, pillars, proof points, that every writer and asset can be built from.
+
+   *Why not B:* The 5-Component Canvas is the output template the 10-Step Process itself produces; it is not the next step after that, and it does not provide the governed, company-wide copy hierarchy a messaging house supplies.
+
+   *Why not C:* Message Testing evaluates draft copy against buyers; it is a useful gate later in the process, but it does not build the governed hierarchy the team needs immediately after validating positioning.
+
+   *Why not D:* Command of the Message adapts an existing messaging house into a live sales structure; it presumes the house already exists, which is exactly what needs to be built first here.
+
+10. Win/loss interviews for a time-tracking tool reveal that customers are actually buying it to avoid guilt about team burnout and to demonstrate fair resource allocation to leadership, not for the accurate-billing reason the original messaging assumed. Which framework surfaces this kind of finding?
+    - **A.** Jobs-to-be-Done Positioning Framework
+    - **B.** Features-Advantages-Benefits (FAB) Ladder
+    - **C.** Message Testing (Message-Market Fit)
+    - **D.** Command of the Message
+
+    **Correct answer: A.** This is a textbook JTBD finding: the functional, emotional, and social dimensions of the real job (avoiding burnout guilt, appearing well-managed to leadership) differ from the assumed job (accurate billing), which is exactly what switch interviews and job-mapping under this framework are designed to surface.
+
+    *Why not B:* The FAB Ladder translates an already-known feature into benefit language; it does not itself uncover a previously unrecognised functional, emotional, or social job driving the purchase.
+
+    *Why not C:* Message Testing evaluates whether draft copy lands with buyers; it does not perform the qualitative job-discovery work that surfaces an unrecognised emotional or social driver behind a purchase.
+
+    *Why not D:* Command of the Message operationalises an already-understood value story for live sales conversations; it does not uncover the underlying job driving the purchase in the first place.
+
+---
+
 ## Geoffrey Moore's Positioning Statement Framework
 
 **Type:** Framework.
@@ -58,6 +202,78 @@ This 1962 tagline, developed decades before Moore's book by the Doyle Dane Bernb
 
 **See also:** STP Framework (identify and target a specific segment before crafting your positioning statement); April Dunford's 5-Component Positioning Canvas (alternative approach to positioning that weighs attributes by customer importance); Complete Product Experience Framework (ensure your positioning statement is reinforced across all seven touchpoints).
 
+**Quiz:**
+
+1. A PMM drafts a positioning statement describing the target customer as "businesses that want to grow." Win rate stays flat after it ships. What is the core problem?
+   - **A.** The target is too broad; if no single real, named prospect fits the description, the segment is not specific enough for the statement to persuade anyone.
+   - **B.** The statement is missing a quantified benefit, which is the only element that actually drives win rate.
+   - **C.** The statement should have been tested with sales before targeting was addressed.
+   - **D.** The category name chosen was unfamiliar and needs more buyer education first.
+
+   **Correct answer: A.** "Businesses that want to grow" describes nearly every company; the framework requires a target specific enough that one real prospect clearly fits, otherwise the statement persuades no one because it demands the reader do the work of deciding if it applies to them.
+
+   *Why not B:* A missing quantified benefit is a separate weakness, but a target this broad would undermine even a well-quantified benefit, since the statement still would not signal who it is for.
+
+   *Why not C:* Pressure-testing with sales happens after the statement is drafted; it does not fix an underlying target that is too broad to begin with.
+
+   *Why not D:* Category familiarity is a distinct concern from target specificity; nothing here indicates the category name, rather than the customer description, is the problem.
+
+2. A team names its weakest, least-threatening competitor as the "primary competitive alternative" in its positioning statement, even though win-loss data shows most deals are actually lost to a different, stronger rival. What is the risk?
+   - **A.** The statement will win arguments internally but fall apart in a live sales conversation, since it was not pressure-tested against the competitor buyers actually compare it to.
+   - **B.** There is no risk, since the choice of named competitor does not affect how differentiation is perceived by buyers.
+   - **C.** The risk is limited to the "key benefit" clause, which becomes irrelevant once the wrong competitor is named.
+   - **D.** This is the correct approach, since naming a weaker competitor makes the differentiation claim easier to defend.
+
+   **Correct answer: A.** Naming a weaker alternative than the one you actually lose deals to produces a statement that sounds convincing in a workshop but collapses the moment a rep faces the real competitor buyers are actually comparing against.
+
+   *Why not B:* The named competitor is central to the differentiation claim; picking the wrong one means the "unlike X, we..." clause never gets tested against the comparison that actually decides deals.
+
+   *Why not C:* The benefit clause is unaffected in wording, but its credibility depends on differentiation actually holding against the real competitive alternative, which this choice undermines.
+
+   *Why not D:* Naming a weaker competitor makes the claim easier to win internally, not in the market; it is exactly the mistake the framework's pitfalls section warns against.
+
+3. A statement reads: "Unlike competitors, we are cloud-based and AI-powered." Prospects in discovery calls do not react to this line at all. What is missing?
+   - **A.** A consequence attached to the differentiator; "cloud-based" and "AI-powered" are attributes, not reasons the difference matters to the buyer.
+   - **B.** A longer list of additional attributes to strengthen the claim.
+   - **C.** Removal of the word "unlike," since comparative language weakens positioning statements.
+   - **D.** A rewritten target customer description, since attribute-only differentiation is always a targeting problem.
+
+   **Correct answer: A.** "Cloud-based" and "AI-powered" are attributes, not differentiation with a stated consequence; the fix is naming what that attribute means for the buyer, for example a specific time or cost saved, since an attribute alone doesn't explain why it matters.
+
+   *Why not B:* Adding more attributes compounds the same problem; the fix is depth (a stated consequence) on the existing claim, not breadth.
+
+   *Why not C:* The comparative "unlike" structure is a required part of the template; removing it drops the competitive contrast the framework is built around.
+
+   *Why not D:* This is a differentiation-clause problem, not a targeting problem; the target customer description is a separate element of the template entirely.
+
+4. A team finalises its positioning statement after a single internal workshop and rolls it out company-wide without checking it against any live sales opportunities. What does the framework recommend they should have done first?
+   - **A.** Pressure-test the statement against three to five active sales opportunities to confirm it matches what actually persuaded the buyer to move forward.
+   - **B.** Nothing further is needed; a statement approved in an internal workshop is ready for rollout.
+   - **C.** Test the statement only with the marketing team, since sales validation is a later-stage step reserved for larger companies.
+   - **D.** Skip pressure-testing and instead wait for the next quarterly review to check whether the statement is working.
+
+   **Correct answer: A.** The framework's final step is pressure-testing with three to five live opportunities, checking whether the statement matches what actually persuaded a real buyer; a statement that only sounds good in a workshop is not yet proven in the field.
+
+   *Why not B:* Workshop approval reflects internal agreement, not market validation; the framework explicitly requires the live pressure-test before rollout, regardless of internal confidence.
+
+   *Why not C:* Sales pressure-testing applies at any company stage, including a solo-PMM setup working directly with the founder or head of sales; it is not reserved for larger teams.
+
+   *Why not D:* Waiting for a quarterly review lets an unvalidated statement run company-wide for months; the pressure-test is meant to happen before rollout, not after.
+
+5. A statement is read aloud to someone outside the company, and they cannot repeat back what the product does in their own words. What should the team conclude?
+   - **A.** The statement needs to be simplified further, since the clarity test specifically checks whether an outside listener can restate it unprompted.
+   - **B.** The listener was simply not a good fit for the exercise and a different person should be asked instead.
+   - **C.** The statement is fine as long as internal stakeholders understand it clearly.
+   - **D.** The issue must be with the target customer definition, since clarity failures always stem from an overly broad target.
+
+   **Correct answer: A.** The clarity test is exactly this: reading the statement aloud and asking someone to repeat it back in their own words; if they cannot, the framework calls for simplifying further, not concluding the test itself was flawed.
+
+   *Why not B:* Swapping the listener sidesteps the actual signal the test is designed to catch; an outside listener's inability to restate the line is the finding, not a flaw in who was asked.
+
+   *Why not C:* Internal understanding is not the bar the framework sets; the whole point of testing outside the company is that people close to the product understand it regardless of how clearly it's actually written.
+
+   *Why not D:* A clarity failure can stem from many elements, wording, structure, jargon, not only target breadth; the framework treats this as a distinct test from the target-customer step.
+
 ---
 
 ## April Dunford's 5-Component Positioning Canvas
@@ -108,6 +324,78 @@ Flowlist validated the compelling reason with eight target customers before roll
 - April Dunford, [*Obviously Awesome: How to Nail Product Positioning so Customers Get it, Buy it, Love it*](https://www.aprildunford.com/books) (2019)
 
 **See also:** STP Framework (target a specific segment before identifying unique attributes); Geoffrey Moore's Positioning Statement Framework (structured approach to articulating differentiation once you've identified your unique attributes); Value Proposition Canvas (map your unique attributes to specific customer pains and gains).
+
+**Quiz:**
+
+1. A team lists five "unique" attributes, but three of them are also offered by two of their four main competitors. What should happen to those three attributes in the final positioning?
+   - **A.** They should be separated out as merely good, not unique, and excluded from what earns a place in the final positioning, since only attributes no competitor shares count as truly unique.
+   - **B.** They should remain in the positioning as long as the product does them slightly better than competitors.
+   - **C.** They should be removed from the product roadmap entirely, since shared attributes provide no value.
+   - **D.** They should be kept in the canvas but moved to the "Compelling Reason" component instead.
+
+   **Correct answer: A.** The canvas explicitly distinguishes attributes that are truly unique, ones no competitor in the set shares, from attributes that are merely good and shared by others; only the former earn a place in the final positioning.
+
+   *Why not B:* Doing something "slightly better" than competitors who also offer it does not make an attribute unique in the canvas's sense; the distinction is about presence versus absence in the competitive set, not relative quality.
+
+   *Why not C:* Removing shared attributes from the roadmap conflates a positioning decision with a product decision; the canvas is about what to lead with externally, not what to keep building.
+
+   *Why not D:* The Compelling Reason component explains why a genuinely unique, valued attribute matters now; it is not a holding place for attributes that failed the uniqueness test.
+
+2. A canvas exercise ranks five attributes purely by an internal team vote on which ones feel most impressive, without any customer input. What is the flaw in this approach?
+   - **A.** Weighting should come from customer-stated importance, not internal opinion; an attribute nobody asked for is a curiosity, not a positioning asset, however impressive it seems internally.
+   - **B.** There is no flaw, since internal teams best understand which attributes matter most to the roadmap's direction.
+   - **C.** The flaw is only that the vote should have included the sales team specifically, not that it lacked customer data altogether.
+   - **D.** Weighting is not part of the canvas process; it belongs to the separate 10-Step Positioning Process instead.
+
+   **Correct answer: A.** The canvas explicitly calls for weighting attributes by how much customers say they matter, not internal impressiveness; an attribute nobody asked for is a curiosity, not something worth positioning around, regardless of how proud the team is of building it.
+
+   *Why not B:* Internal understanding of the roadmap is a different question from what actually drives a customer's buying decision, which is what the weighting step is meant to capture.
+
+   *Why not C:* Broadening the internal vote to include sales still leaves the exercise without direct customer evidence, which is the actual gap the canvas calls for closing.
+
+   *Why not D:* Weighting attributes by customer importance is component three of this canvas itself, not a separate process; it belongs squarely within this framework's own steps.
+
+3. A company's canvas identifies a genuinely unique, highly valued attribute, but the compelling-reason statement never explains why that difference matters right now. What is the likely consequence?
+   - **A.** The positioning will not resonate, since a real trigger or timing element is what makes a unique, valued attribute feel urgent rather than merely interesting.
+   - **B.** No consequence, since uniqueness and customer value are sufficient on their own to drive purchase decisions regardless of timing.
+   - **C.** The consequence only affects long sales cycles, not shorter ones.
+   - **D.** The team should drop the attribute entirely and search for a different one instead.
+
+   **Correct answer: A.** Forgetting the "why now" is a named pitfall: even a genuinely unique, valued attribute will not resonate if the positioning never connects it to a current problem or trigger event that makes the timing, not just the fit, compelling.
+
+   *Why not B:* Uniqueness and value are necessary but not sufficient; the canvas explicitly separates "why this matters" from "why now," and skipping the latter leaves urgency unaddressed.
+
+   *Why not C:* The urgency gap applies regardless of sales cycle length; a buyer in either a short or long cycle still needs a reason the timing matters now, not just that the attribute is good.
+
+   *Why not D:* The attribute itself may be sound; the fix is adding the missing timing and trigger context to the compelling reason, not discarding a genuinely unique, valued attribute.
+
+4. A company builds one canvas and one set of messaging meant to serve both its startup customers and its enterprise customers at once. What does the framework predict?
+   - **A.** The blended messaging will likely satisfy neither segment well, since attributes that matter to one segment, like flat pricing, can be irrelevant or even a concern to the other, like governance-focused enterprise buyers.
+   - **B.** This approach works fine as long as the unique attributes list is long enough to cover both segments' needs.
+   - **C.** The canvas is only designed for single-segment products, so this scenario falls outside its intended use entirely.
+   - **D.** Enterprise and startup segments always share the same weighting of attributes, so one canvas is sufficient in this case.
+
+   **Correct answer: A.** Positioning to everyone is a named pitfall: attributes that matter to one segment (speed, flat pricing) are often irrelevant or a red flag to another (security, governance), so blended messaging tends to satisfy neither.
+
+   *Why not B:* A longer attribute list does not resolve the conflict; the problem is that different segments weight the same attributes very differently, not that too few attributes were listed.
+
+   *Why not C:* The canvas is explicitly built to be run per segment when a product serves more than one; the recommended fix is separate canvases, not abandoning the framework.
+
+   *Why not D:* The framework's own example shows the opposite: startup and enterprise buyers routinely weight the same attributes very differently, which is exactly why separate canvases are recommended.
+
+5. After validating a compelling reason with five customers, three of them describe the product back in a way that doesn't match what the team intended when writing the canvas. What should happen next?
+   - **A.** Treat this as a signal the canvas needs another pass, not just softer language, since the mismatch shows the positioning itself, not merely its wording, is unclear.
+   - **B.** Rewrite only the wording of the compelling reason to make it sound more persuasive, keeping the underlying canvas unchanged.
+   - **C.** Disregard the three mismatched responses as outliers, since two out of five validated the intended meaning correctly.
+   - **D.** Skip validation going forward, since customer interpretation is inherently unpredictable and testing adds little value.
+
+   **Correct answer: A.** The validation step is explicit that a mismatch between customer interpretation and team intent calls for another pass on the canvas itself, not simply softer or punchier language on top of an unresolved substance problem.
+
+   *Why not B:* A wording-only fix treats the symptom; if three of five respondents misunderstood the intended meaning, the underlying substance in the canvas likely needs revisiting, not just the phrasing.
+
+   *Why not C:* Three out of five respondents missing the intended meaning is a majority, not an outlier; validation exists precisely to catch a mismatch like this before it reaches broader messaging.
+
+   *Why not D:* This is exactly the scenario validation is designed to catch; unpredictable interpretation is the reason to keep testing, not a reason to stop.
 
 ---
 
@@ -165,6 +453,78 @@ Within two quarters, trial-to-paid conversion rose from 11% to 17%, and win/loss
 - Tony Ulwick, [*Jobs to Be Done: Theory to Practice*](https://anthonyulwick.com/2016/10/25/jobs-to-be-done-from-theory-to-practice/), Idea Bite Press (2016)
 
 **See also:** STP Framework (segment first to identify which customers share the same core job); Value Proposition Canvas (map the job to specific customer pains and gains); Win/Loss Analysis Framework (validate whether customers actually chose or rejected you based on the job you identified).
+
+**Quiz:**
+
+1. A team defines its core job as "provide reliable project management software." What is wrong with this job statement?
+   - **A.** It names the product category rather than a tool-agnostic outcome, which means the company ends up positioning against every vendor in that category instead of the true competitor, often a manual workaround.
+   - **B.** It is too long and should be shortened to a single word.
+   - **C.** It is missing a specific customer segment name, which every job statement must include.
+   - **D.** It correctly describes the job, but the emotional dimension should have been listed first instead.
+
+   **Correct answer: A.** Confusing the product with the job is a named pitfall: naming the product category as the job means the company positions against every vendor in that category rather than the true competitor, which is often a manual workaround like spreadsheets. A proper job statement should be written without naming the product category at all.
+
+   *Why not B:* Length is not the issue; a short statement that still names the product category, "software," would have exactly the same underlying problem.
+
+   *Why not C:* A job statement describes an outcome in verb-object-context terms; segmentation is a separate, prior question about who shares that job, not a required component of the job statement itself.
+
+   *Why not D:* The functional, emotional, and social dimensions all matter, but the ordering is not the core issue here; the fundamental flaw is that the job statement names the product category rather than a tool-agnostic outcome.
+
+2. Churn analysis shows customers are leaving not because of missing features, but because they simply no longer need to do the job the product was hired for. What does this pattern suggest?
+   - **A.** JTBD positioning is worth revisiting, since this is precisely the kind of "job" reason for churn the framework is designed to diagnose, distinct from a feature gap.
+   - **B.** The company should add more features immediately, since churn always signals an unmet functional need.
+   - **C.** This pattern indicates a pricing problem, not a positioning problem, and should be handled separately from JTBD.
+   - **D.** Nothing should change, since job-related churn is unavoidable and not actionable.
+
+   **Correct answer: A.** The entry names exactly this pattern as a trigger for applying JTBD: when churn analysis shows customers leaving for a "job" reason rather than a feature gap, it signals a need to revisit whether the positioning still matches the actual job customers are trying to accomplish.
+
+   *Why not B:* Adding features addresses a feature-gap churn cause; this scenario describes the opposite, customers no longer needing the job at all, which a new feature would not fix.
+
+   *Why not C:* Nothing here points to price as the driver; the described pattern is specifically a job-related churn reason, which is JTBD's named diagnostic domain.
+
+   *Why not D:* The framework treats this exact churn pattern as actionable evidence to investigate and potentially reposition around, not as something to accept as unavoidable.
+
+3. A JTBD analysis for a project-management tool only documents the functional job (organise tasks and deadlines) and skips the emotional and social dimensions entirely. What is the risk?
+   - **A.** The team may miss where lasting differentiation actually lives, since the functional dimension is the easiest for competitors to copy, while emotional and social dimensions are harder to observe and replicate.
+   - **B.** There is no risk, since the functional job is the only dimension that affects purchase decisions in B2B contexts.
+   - **C.** The risk applies only to emotional dimensions; social dimensions are irrelevant to enterprise software purchases.
+   - **D.** Skipping these dimensions only matters for consumer products, not B2B tools.
+
+   **Correct answer: A.** Most positioning stops at the functional dimension, which is also the easiest for competitors to copy; the framework specifically notes that emotional and social dimensions are frequently where lasting differentiation lives, precisely because they are harder to observe and replicate.
+
+   *Why not B:* The framework explicitly applies all three dimensions to B2B contexts, as shown in the Timeframe example, where the emotional job (reducing guilt about overwork) and social job (showing leadership the team is well-managed) both drove real positioning decisions.
+
+   *Why not C:* Social dimensions like "justify headcount to finance" are named directly in the framework's own B2B example; they are not irrelevant to enterprise purchase decisions.
+
+   *Why not D:* The framework is explicitly applied to B2B software in its own worked example; the functional-emotional-social structure is not limited to consumer products.
+
+4. A PMM interviews customers about the job a product does, and every interview begins with the direct question "why did you buy this product?" Responses come back generic and unrevealing. What does the framework suggest as the better approach?
+   - **A.** Use switch interviews that walk backwards from the purchase moment to the first sign the old way wasn't working, which reveals the actual job more reliably than a direct question or a features-based survey.
+   - **B.** Replace interviews entirely with a features-based survey, since surveys produce more objective data than conversations.
+   - **C.** Continue asking the direct "why" question, but interview a much larger number of customers to compensate.
+   - **D.** Skip customer testing altogether once the job has been identified internally, since testing is optional under this framework.
+
+   **Correct answer: A.** The framework specifically recommends switch interviews, walking backwards from the purchase moment to the first moment the old way stopped working, as more reliable than a direct why-question, which tends to produce a generic, rationalised answer.
+
+   *Why not B:* A features-based survey is explicitly what the framework says is less reliable than the switch-interview timeline approach for revealing the actual job.
+
+   *Why not C:* More interviews using the same direct, generic question would simply produce more generic answers; the fix is the interview technique itself, not the sample size.
+
+   *Why not D:* Testing with customers is an explicit, named step in applying the framework; skipping it removes the check on whether the identified job actually matches what customers describe.
+
+5. Switch interviews for a single product surface four or five genuinely distinct jobs across different customer groups, and the team tries to write one blended positioning statement that touches on all of them. What does the framework suggest instead?
+   - **A.** Treat more than two or three distinct jobs as a segmentation signal, and build separate positioning per job rather than one blended statement that undersells all of them.
+   - **B.** Combine all the jobs into a single, longer positioning statement so no customer group feels excluded.
+   - **C.** Choose the job mentioned most frequently and discard the others from consideration entirely.
+   - **D.** Conclude that JTBD does not apply to this product, since it serves more than one job.
+
+   **Correct answer: A.** Over-segmenting is a named pitfall: trying to serve many distinct jobs with one blended positioning statement undersells all of them. The framework's fix is treating more than two or three distinct jobs surfacing in interviews as a segmentation signal, building separate positioning per job rather than forcing one statement to cover everything.
+
+   *Why not B:* A longer, combined statement compounds the dilution problem rather than solving it; blended messaging trying to speak to several distinct jobs at once tends to resonate with none of them.
+
+   *Why not C:* Discarding the other genuine jobs abandons segments the product may still serve well; the framework's guidance is to build separate positioning per job, not to pick one and ignore the rest.
+
+   *Why not D:* JTBD still applies; the framework explicitly anticipates multiple distinct jobs emerging and treats that as a segmentation signal to act on, not a sign the framework itself is the wrong tool.
 
 ---
 
@@ -243,6 +603,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 
 **See also:** STP Framework (segment and target before building the canvas so you design the right value proposition for the right audience); Jobs-to-be-Done Positioning Framework (identify the core job first, then map it to the customer profile's functional, emotional, and social needs); April Dunford's 5-Component Positioning Canvas (alternative approach that focuses on attributes and competitive set).
 
+**Quiz:**
+
+1. A team fills in the value map with "Dashboard" as a pain reliever, without connecting it to any specific documented pain. What does the framework say about this entry?
+   - **A.** It is noise: a feature that doesn't address any customer pain or gain should be deprioritised in messaging even if it stays in the product.
+   - **B.** It should automatically be promoted to the top of messaging priority, since dashboards are broadly popular features.
+   - **C.** It should be moved into the customer profile half of the canvas instead of the value map.
+   - **D.** It is acceptable as written, since naming any feature in the value map counts as a valid pain reliever.
+
+   **Correct answer: A.** A feature with no linked pain or gain is noise under this framework; the fix is deprioritising it in messaging, or at minimum keeping it out of primary messaging, even if it remains in the product itself.
+
+   *Why not B:* Popularity is irrelevant to the canvas's fit test; only a documented link to a specific pain or gain earns a feature a place in prioritised messaging.
+
+   *Why not C:* The customer profile documents the segment's own jobs, pains, and gains; a product feature like a dashboard belongs in the value map, not the customer profile, regardless of whether it maps to anything.
+
+   *Why not D:* The framework explicitly requires a linked pain or gain for an entry to count as a genuine pain reliever or gain creator; simply naming a feature does not meet that bar.
+
+2. A company builds one Value Proposition Canvas meant to serve both its enterprise customers and its small-business customers. Messaging built from it performs poorly with both groups. What is the likely cause?
+   - **A.** Assuming one canvas fits all segments; a startup and an enterprise have different jobs, pains, and gains, so shared messaging tends to default to generic language that undersells the fit for either.
+   - **B.** The canvas format itself does not work for B2B products with more than one customer type.
+   - **C.** The team should have skipped the customer profile entirely and started directly from the value map.
+   - **D.** The issue is that the canvas was built by PMM rather than by Product Management.
+
+   **Correct answer: A.** This is the named "one canvas fits all segments" pitfall; different segments have different jobs, pains, and gains, and shared messaging built from a single blended canvas tends to default to generic language that fits neither segment well.
+
+   *Why not B:* The canvas format works across B2B and B2C contexts; the fix here is building a distinct canvas per segment, not abandoning the framework.
+
+   *Why not C:* Skipping the customer profile removes the very evidence, documented jobs, pains, and gains, that the value map is supposed to be checked against; it does not address the multi-segment problem.
+
+   *Why not D:* Ownership structure is a separate question from whether one canvas can serve two very different segments; the fix is segment-specific canvases regardless of who builds them.
+
+3. A fit analysis shows that roughly half of a product's features do not map to any documented customer pain or gain. What should the team do with this finding?
+   - **A.** Treat the growing list of unmapped features as a prioritisation red flag, reviewing it at each quarterly product review, since unmapped features cost engineering time and clutter messaging without moving the buying decision.
+   - **B.** Ignore the finding, since unmapped features still demonstrate the product's overall sophistication to prospects.
+   - **C.** Add all the unmapped features into the value map as gain creators regardless of whether a documented gain exists yet.
+   - **D.** Conclude that the customer profile, not the value map, must be incomplete or wrong.
+
+   **Correct answer: A.** This is a named pitfall: a high proportion of unmapped features signals a need to cut features or refocus on different customers, since they still cost engineering time to maintain and clutter messaging with claims that don't move the buying decision.
+
+   *Why not B:* Unmapped features do not demonstrate value to a buyer evaluating fit against their own pains and gains; the framework treats this pattern as a red flag, not a strength.
+
+   *Why not C:* Forcing unmapped features into the value map as gain creators without a documented gain violates the canvas's own discipline, which requires every entry to link to a real, evidenced pain or gain.
+
+   *Why not D:* The mismatch could originate from either half of the canvas, but the framework's guidance is to treat the pattern as a prioritisation signal on the product and messaging side, not to assume the customer profile itself is wrong.
+
+4. A canvas documents a customer pain as "employees feel deprioritised" and a corresponding pain reliever as "feedback tools." The fit analysis marks this as only a partial fit. What is the most likely reason for a partial rather than strong fit score?
+   - **A.** The feature may surface the problem without yet helping resolve it, meaning the mechanism connecting the pain reliever to the actual pain is incomplete.
+   - **B.** Partial fit scores are assigned at random to keep the fit analysis from looking too favourable.
+   - **C.** The pain itself should have been removed from the customer profile since feedback tools already exist.
+   - **D.** A partial fit always means the feature should be removed from the product immediately.
+
+   **Correct answer: A.** As in the Peoplebase example, a feedback-loop feature can surface a problem (partial fit) without yet giving managers the means to act on it, which is why the fit is scored partial rather than strong; the gap becomes a specific, evidenced input to the next roadmap cycle.
+
+   *Why not B:* Fit scores are meant to reflect an honest, evidence-based assessment of whether the mechanism actually closes the gap, not an arbitrary or cosmetic rating.
+
+   *Why not C:* The pain remains real and documented; a partial-fit pain reliever is a signal to improve the mechanism, not evidence the underlying pain should be struck from the customer profile.
+
+   *Why not D:* A partial fit is explicitly treated as a roadmap input to close the gap, not an automatic instruction to remove the feature from the product.
+
+5. A team builds a Value Proposition Canvas once, presents it at a launch kickoff, and never revisits it, even as the product and customer base evolve over the following year. What does the framework recommend instead?
+   - **A.** Treat the canvas as a living document tied to a cadence, typically quarterly, updating it as the team learns more and sharing updates with product and sales to keep everyone aligned.
+   - **B.** Leave the canvas unchanged indefinitely, since a canvas built correctly at launch should not need revisiting.
+   - **C.** Rebuild the canvas from scratch every time a new competitor enters the market, but not on any other schedule.
+   - **D.** Replace the canvas entirely with a Jobs-to-be-Done statement once one year has passed.
+
+   **Correct answer: A.** The framework explicitly calls for iterating the canvas on a cadence, quarterly is typical, treating it as a living document rather than a one-off workshop output that gets filed away after the initial exercise.
+
+   *Why not B:* Customer needs and the product both evolve; treating an initial canvas as permanent risks messaging drifting out of step with what customers actually value over time.
+
+   *Why not C:* A new competitor is one reasonable trigger to revisit the canvas, but the framework recommends a standing cadence regardless of competitive moves, not only a reactive rebuild.
+
+   *Why not D:* JTBD and the Value Proposition Canvas are complementary, not substitutes for one another; the fix for a stale canvas is updating it, not replacing it with a different framework entirely.
+
 ---
 
 ## Message Architecture (Messaging House)
@@ -280,6 +712,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 - No single originator; the messaging house has circulated in corporate communications and PR practice since at least the 1990s. The most documented current version for product marketing is Product Marketing Alliance's [guide to messaging frameworks](https://www.productmarketingalliance.com/your-guide-to-messaging/), which sets out the same primary message, supporting pillars, and proof points structure under a different label.
 
 **See also:** Geoffrey Moore's Positioning Statement Framework (produces the positioning statement the house is built on); April Dunford's 5-Component Positioning Canvas (an alternative positioning input that feeds the roof and pillars); Value Proposition Canvas (source pillars and proof points from documented customer gains and pains); Segmentation–Targeting–Positioning (STP) Framework (defines the personas the audience layer adapts the house for).
+
+**Quiz:**
+
+1. A company's website, sales deck, and analyst briefing each describe the product differently, even though everyone agrees the underlying positioning is sound. What should the PMM build?
+   - **A.** A messaging house, since the underlying problem is a missing copy standard that keeps every asset saying the same thing in the same order of priority, not a positioning problem.
+   - **B.** A new positioning statement, since inconsistent copy always means the underlying positioning itself is flawed.
+   - **C.** A Value Proposition Canvas, since inconsistency across channels is primarily a customer-research gap.
+   - **D.** Nothing; some variation in wording across channels is expected and does not need to be addressed.
+
+   **Correct answer: A.** This is precisely the named trigger for building a messaging house: positioning is agreed, yet each asset phrases the value differently, because nothing connects the positioning statement to the copy every writer produces. The house is the shared source of truth that fixes this.
+
+   *Why not B:* The scenario states the underlying positioning is sound; the gap is the missing translation layer between positioning and copy, which is exactly what the messaging house exists to close.
+
+   *Why not C:* A Value Proposition Canvas documents customer pains and gains; it does not itself create the cross-channel copy consistency a messaging house is specifically built to enforce.
+
+   *Why not D:* The framework treats this inconsistency as a real problem: the market hears four products instead of one, undermining trust and clarity, not an acceptable stylistic variation.
+
+2. A team writes pillars named "Integrations," "Reporting," and "Security" for its messaging house. A buyer reviewing the house cannot tell which pillar matters most to their specific priority. What is the issue?
+   - **A.** The pillars are really a feature list; each should be rewritten as a buyer benefit and required to earn at least two proof points, since feature-named pillars invite endless additions and never test buyer relevance.
+   - **B.** The house needs a fourth pillar added to cover any remaining gaps in the product's feature set.
+   - **C.** This is not an issue, since pillars are meant to describe categories of the product rather than value themes.
+   - **D.** The proof points beneath each pillar should be removed to make the pillars easier to compare.
+
+   **Correct answer: A.** Pillars named after feature categories are a named pitfall: the house becomes a spec sheet and buyer priority disappears, since feature-named pillars invite endless additions and never test whether a claim actually matters to the buyer.
+
+   *Why not B:* Adding a fourth pillar does not fix the underlying problem, that the existing pillars are named as feature categories rather than buyer benefits; more feature-shaped pillars would compound the issue.
+
+   *Why not C:* The framework is explicit that pillars should be named as benefits, not feature categories, precisely so a buyer can see which one addresses their priority.
+
+   *Why not D:* Proof points are what make a pillar credible rather than a slogan; removing them makes the problem worse, not better.
+
+3. A team starts drafting a messaging house's core message and pillars while positioning itself is still being debated internally, reasoning that the house can be revised once positioning settles. What is the risk?
+   - **A.** A polished hierarchy built on unsettled positioning spreads the underlying vagueness faster and further, and every downstream asset built from it inherits the same flaw.
+   - **B.** There is no risk, since a messaging house and positioning can be developed fully independently of each other.
+   - **C.** The risk applies only to the proof points, which cannot be gathered until positioning is finalised.
+   - **D.** The house should be built first in every case, since it is what reveals whether positioning is actually settled.
+
+   **Correct answer: A.** Building the house before positioning is settled is a named pitfall: a polished hierarchy on top of vague positioning spreads the vagueness faster, and every downstream asset, website, deck, launch, inherits the flaw, making the eventual fix more expensive.
+
+   *Why not B:* The framework explicitly gates the house behind validated positioning; if the roof cannot be filled in with one clear sentence, the guidance is to return to positioning first, not to treat the two as independent.
+
+   *Why not C:* The risk is not confined to proof points; the core message and pillars themselves inherit the same unresolved vagueness as positioning, spreading it into every asset built from the house.
+
+   *Why not D:* The house is meant to be built from already-validated positioning, not used as a diagnostic to determine whether positioning is settled; using it that way risks encoding confusion rather than exposing it early.
+
+4. A messaging house is published and used enthusiastically for the first two quarters, but by quarter three, sales reps and the website have quietly drifted back to improvised wording, with no one tracking the change. What does the framework recommend to prevent this?
+   - **A.** Assign one named owner, usually PMM, to hold version control and review the house each quarter, embedding it in every campaign and enablement brief rather than letting ownership sit with no one in particular.
+   - **B.** Rebuild the house entirely from scratch each time drift is noticed, rather than maintaining version control on the existing one.
+   - **C.** Accept the drift as inevitable, since messaging houses naturally become outdated within two quarters regardless of governance.
+   - **D.** Remove pillars from the house that reps have stopped using, without investigating why they stopped.
+
+   **Correct answer: A.** Writing the house once and never governing it is a named pitfall; the fix is a single named owner holding version control and a quarterly review, embedding the house in every campaign and enablement brief so drift is caught and corrected rather than allowed to compound.
+
+   *Why not B:* Rebuilding from scratch discards a house that may still be substantively sound; the fix is ongoing governance and version control, not periodic full reconstruction.
+
+   *Why not C:* Drift is explicitly named as preventable through consistent ownership and a quarterly review cadence, not an inevitable outcome of time passing.
+
+   *Why not D:* Removing pillars reps have stopped using without investigating why treats a symptom without diagnosing whether the drift stems from a governance gap, a stale pillar, or something else entirely.
+
+5. A PMM builds a messaging house with a strong core message and pillars, but skips the audience layer entirely, using identical wording for every persona and journey stage. What is missing?
+   - **A.** A message matrix noting which pillars lead for each priority persona and how wording shifts, since different personas prioritise different pillars even when the underlying substance stays the same.
+   - **B.** Nothing; the house is complete once the core message and pillars are finalised, and an audience layer is an optional extra.
+   - **C.** A completely separate messaging house should be built for each individual persona, discarding the shared core message.
+   - **D.** The proof points should be duplicated identically for every persona to ensure consistency.
+
+   **Correct answer: A.** The audience layer is a named step: for each priority persona, noting which pillars lead and how wording shifts, typically as a message matrix, since a single undifferentiated version misses that different personas care most about different pillars even under the same core message.
+
+   *Why not B:* The audience layer is one of the framework's explicit steps, not an optional add-on; skipping it leaves personas with different priorities all receiving the same, undifferentiated emphasis.
+
+   *Why not C:* The point of the audience layer is adapting emphasis while keeping the same core message and pillar set; building entirely separate houses per persona defeats the purpose of having one shared source of truth.
+
+   *Why not D:* Identical proof points for every persona ignores that different personas often care about different evidence; the audience layer exists to adjust which pillars and proofs lead for each one.
 
 ---
 
@@ -322,6 +826,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 
 **See also:** April Dunford's 5-Component Positioning Canvas (the output template this process produces); Segmentation–Targeting–Positioning (STP) Framework (segment before running step 5, or use STP's segmentation as an input to it); Win/Loss Analysis Framework (a recurring trigger for re-running the process, and a source of evidence for steps 1 and 2); Message Architecture (Messaging House) (the next step after validated positioning, turning the pitch from step 9 into a full messaging hierarchy).
 
+**Quiz:**
+
+1. A PMM is handed a 5-Component Positioning Canvas built by a predecessor with no record of how each component was decided. What should happen before trusting it further?
+   - **A.** Run steps 1, 2, and 8 (best-fit customer interviews, true competitive alternatives, and validation) retroactively, since a canvas filled in without the process behind it is a document built on assumption rather than evidence.
+   - **B.** Trust the canvas as written, since a completed canvas is inherently evidence of a sound positioning process.
+   - **C.** Discard the canvas entirely and rebuild the product's positioning starting from step 9.
+   - **D.** Ask sales to approve the canvas, since sales sign-off is what makes a canvas defensible.
+
+   **Correct answer: A.** Starting from the canvas instead of the process is a named pitfall: a canvas without the research behind it looks complete but rests on assumption. The fix for an inherited canvas is running the key evidence-gathering and validation steps retroactively before trusting it.
+
+   *Why not B:* A completed canvas by itself proves nothing about whether it reflects real customer and competitive evidence; that is precisely what running the process retroactively is meant to confirm.
+
+   *Why not C:* Discarding the canvas and starting from step 9, writing the pitch, skips the evidence-gathering steps entirely; step 9 assumes positioning has already been validated through steps 1 through 8.
+
+   *Why not D:* Sales approval is not a substitute for the evidence-based steps (best-fit interviews, competitive alternatives, validation) that make a canvas defensible in the first place.
+
+2. Under deadline pressure, a team skips segment selection (step 5) and validation (step 8) and moves straight to writing the pitch (step 9) once they have a rough sense of differentiation. What is the likely consequence?
+   - **A.** A well-written pitch may be aimed at the wrong segment or one nobody has confirmed actually resonates, wasting the polish spent on copy that has not been tested.
+   - **B.** No consequence, since steps 5 and 8 are optional refinements that do not affect the core pitch.
+   - **C.** The consequence is limited to a slightly longer positioning statement, not a fundamentally flawed one.
+   - **D.** Skipping these steps only matters if the product is entering a genuinely new category.
+
+   **Correct answer: A.** Skipping straight to step 9 is a named pitfall: a well-written pitch aimed at the wrong segment, or one nobody has validated actually resonates, wastes the effort spent on copywriting, since the substance underneath was never confirmed.
+
+   *Why not B:* Segment selection and validation are core steps in the sequence, not optional refinements; skipping them risks building copy on an unconfirmed foundation regardless of how polished the writing is.
+
+   *Why not C:* The risk described is substantive, wasted effort on a pitch that may not resonate or may target the wrong segment, not merely a cosmetic issue with statement length.
+
+   *Why not D:* This risk applies whenever segment selection and validation are skipped, regardless of whether the product is entering a new category or repositioning within an existing one.
+
+3. A team wants to add urgency to its positioning by claiming "the market is fundamentally shifting" without being able to point to any independent source confirming this. What does the process recommend?
+   - **A.** Omit step 7 (layering on a relevant trend) entirely rather than manufacture urgency with a trend that cannot be backed by an independent source.
+   - **B.** Include the trend claim anyway, since urgency is more important to the pitch than the trend's verifiability.
+   - **C.** Replace the trend claim with a stronger differentiation claim in step 3 instead, without addressing timing at all.
+   - **D.** Ask the sales team to validate the trend claim internally before including it.
+
+   **Correct answer: A.** Forcing a trend into step 7 that is not real is a named pitfall: an invented trend undermines trust in every other claim in the positioning, even the well-evidenced ones. The process explicitly recommends skipping the step rather than manufacturing urgency.
+
+   *Why not B:* An unverifiable trend is exactly what a sceptical prospect or analyst is likely to see through first, damaging credibility across the whole positioning, not just the trend claim itself.
+
+   *Why not C:* Differentiation (step 3) and market timing (step 7) address different questions; strengthening one does not substitute for honestly addressing, or omitting, the other.
+
+   *Why not D:* Internal sales validation does not substitute for an independent, external source; the process specifically requires an analyst report, regulatory filing, or published market data to support a trend claim.
+
+4. Interviews for step 1 focus on customers the team considers the biggest, most prestigious logos, rather than customers who are genuinely the best fit and happiest with the product. What risk does this introduce?
+   - **A.** The evidence base for every subsequent step may reflect what makes a customer impressive rather than what makes them representative of the product's actual best-fit users, skewing steps 2 through 5.
+   - **B.** There is no risk, since larger, more prestigious customers always provide the most reliable positioning evidence.
+   - **C.** The risk is limited to step 6 (finding the best market category) and does not affect earlier steps.
+   - **D.** This is the correct approach, since the process specifically calls for prioritising the most prestigious available customers.
+
+   **Correct answer: A.** Step 1 explicitly calls for starting from happiest, best-fit customers, not a hypothetical or prestige-driven persona; since this interview evidence is the foundation for every subsequent step, choosing customers based on prestige rather than genuine fit risks skewing the competitive alternatives, unique attributes, and segment selection built on top of it.
+
+   *Why not B:* Prestige does not equal fit; a large, prestigious account may not represent the customers who genuinely value the product's actual unique attributes, which is what step 1 is designed to surface.
+
+   *Why not C:* Because step 1 is the foundational evidence base, a skewed sample affects every subsequent step, not just category selection in step 6.
+
+   *Why not D:* The process explicitly calls for happiest, best-fit customers as the starting point, not the most prestigious ones; conflating the two undermines the evidence the rest of the process depends on.
+
+5. A team runs the full ten-step process for an initial positioning launch, then two years later notices win rate has been declining for two consecutive quarters, and other diagnostics trace the cause back to positioning. What should happen?
+   - **A.** Re-run the full ten-step process, since this is exactly the inflection-point trigger the methodology names for a complete re-run, not just a lighter quarterly touch-up.
+   - **B.** Only revisit step 9 (writing the pitch), since the original research from two years ago should still hold.
+   - **C.** Wait for a merger or major product pivot before considering another full run of the process.
+   - **D.** Rely solely on the lighter quarterly revisits of steps 1 to 5, without ever running the full process again.
+
+   **Correct answer: A.** The methodology explicitly names two consecutive quarters of declining win rate, traced by other diagnostics to positioning, as a trigger for a full re-run, alongside initial positioning, a pivot, or a merger; this is not a case for a lighter touch-up alone.
+
+   *Why not B:* Rewriting only the pitch without revisiting the underlying evidence, competitive alternatives, unique attributes, segment, risks producing new language on top of positioning substance that may no longer reflect the market.
+
+   *Why not C:* A merger or pivot is one named trigger among several; sustained declining win rate traced to positioning is explicitly named as its own sufficient trigger for a full re-run.
+
+   *Why not D:* The lighter quarterly revisits are meant to catch drift between full runs, not replace a full re-run when a major inflection point, like this one, has already been identified.
+
 ---
 
 ## Command of the Message
@@ -359,6 +935,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 - Force Management (founded 2002), ["What's the Meaning of Command of the Message?"](https://www.forcemanagement.com/blog/whats-the-meaning-of-command-of-the-message), forcemanagement.com
 
 **See also:** Message Architecture (Messaging House) (the source of truth this methodology adapts for a live sales conversation); Competitive Battlecard Framework (the reference artefact a rep consults for a specific competitor; Command of the Message is the value narrative that runs through the conversation the battlecard supports); Win/Loss Analysis Framework (the recurring evidence source for required capabilities, competitor differentiators, and which value stories actually correlate with wins); Dunford's 10-Step Positioning Process (validates the differentiators this methodology quantifies before they reach a live deal).
+
+**Quiz:**
+
+1. Reps consistently open discovery calls and demos with a full product tour rather than anchoring on the buyer's stated cost of the problem. What does this suggest is missing?
+   - **A.** The messaging house exists but nobody has translated it into a live-conversation structure that a rep can run deal by deal; Command of the Message is built specifically for that translation.
+   - **B.** The messaging house itself must be flawed and should be rebuilt from scratch.
+   - **C.** Reps need a longer product training session covering every feature in more depth.
+   - **D.** The company should abandon structured messaging and let reps improvise based on individual deal context.
+
+   **Correct answer: A.** This is the named trigger for the methodology: a feature-tour default in discovery and demos signals that the messaging house's core message and pillars have never been translated into a structure reps can run live, deal by deal, against a specific buyer's priorities.
+
+   *Why not B:* The messaging house may be perfectly sound; the gap described is the missing translation layer between it and a live sales conversation, which is exactly what this methodology adds.
+
+   *Why not C:* More feature training compounds the very problem described; the fix is a value-conversation structure anchored on quantified value, not a deeper product tour.
+
+   *Why not D:* Abandoning structure entirely removes the consistency the messaging house and this methodology are both designed to protect; the fix is building the missing translation layer, not removing structure altogether.
+
+2. A rep tells a prospect "our alerting is faster than our competitor's," but the prospect's economic buyer later says they didn't see enough differentiation to justify the price. What is the likely gap?
+   - **A.** The differentiator was never quantified into a number the economic buyer could defend internally; an unquantified differentiator is a feature claim, not a value claim.
+   - **B.** The rep should have named a different, unrelated differentiator instead of alerting speed.
+   - **C.** The economic buyer simply was not the right stakeholder to have this conversation with.
+   - **D.** The messaging house itself needs an entirely new pillar to cover this competitor.
+
+   **Correct answer: A.** Skipping quantification is a named pitfall: "faster alerting" is a differentiator claim, but a number a buyer can defend to their own finance team, like a specific dollar figure tied to that speed advantage, is what turns it into a value case; without it, the economic buyer has nothing concrete to justify the price with.
+
+   *Why not B:* The differentiator itself (faster alerting) may be genuinely valid; the gap is that it was never converted into a quantified value figure, not that the wrong differentiator was chosen.
+
+   *Why not C:* The economic buyer is exactly the audience this methodology is built to arm with a defensible, quantified value case; the issue is the missing quantification, not the audience.
+
+   *Why not D:* A new pillar is a messaging house-level change; the fix here is quantifying an existing differentiator for the live conversation, which is squarely within this methodology's scope.
+
+3. A team builds a Command of the Message structure with new pillars invented specifically for this methodology, separate from the pillars already defined in the messaging house. What is the risk?
+   - **A.** This reintroduces the exact inconsistency the messaging house was built to prevent; every required capability and differentiator should trace back to an existing pillar, not invent a new one.
+   - **B.** There is no risk, since Command of the Message is meant to operate as an entirely independent messaging system from the house.
+   - **C.** The risk is limited to sales training costs, not to message consistency.
+   - **D.** New pillars are required at this stage, since the messaging house's pillars are too general for a live sales conversation.
+
+   **Correct answer: A.** Treating this as a rebrand with its own new pillars is a named pitfall: it reintroduces the inconsistency the messaging house exists to prevent. The methodology is meant to operationalise existing positioning for a live conversation, not invent a competing set of pillars under a different name.
+
+   *Why not B:* The entry is explicit that this methodology adapts the messaging house's existing core message and pillars for a live conversation; it is not meant to run as an independent, parallel messaging system.
+
+   *Why not C:* The deeper risk is message inconsistency across the organisation, the market hearing different stories from marketing collateral versus live sales conversations, not merely a training-cost concern.
+
+   *Why not D:* The methodology is designed to translate existing pillars into a live-conversation structure, not to generate new ones; if the existing pillars genuinely do not fit, that is a messaging-house-level gap to fix at that level, not a reason to invent parallel pillars here.
+
+4. A PMM builds a detailed required-capability list, differentiator mapping, and quantified value figures, publishes it as a document, but never schedules a role-play session with the sales team. What is the likely outcome?
+   - **A.** The well-researched structure never reaches a live deal; the methodology specifically calls for gating publication on a role-play session and CRM tracking, treating actual rep usage as the real success metric.
+   - **B.** No issue, since a well-written document is sufficient on its own to change how reps sell.
+   - **C.** The document should instead be sent directly to the economic buyers themselves rather than to sales reps.
+   - **D.** The quantified value figures become invalid once six months pass without a role-play session.
+
+   **Correct answer: A.** Building the structure and never training or instrumenting it is a named pitfall: a well-researched value case that lives only in a document never reaches a live deal. The fix is gating publication on at least one role-play session and a CRM field to track usage, with actual rep adoption as the success metric, not the document's existence.
+
+   *Why not B:* A document alone does not change live rep behaviour; the methodology explicitly requires role-play and instrumentation before it can be expected to influence actual deal conversations.
+
+   *Why not C:* The value case is meant to arm reps and champions for internal buyer conversations, not to be sent directly to economic buyers as an external document.
+
+   *Why not D:* The figures' validity depends on whether the underlying customer data and competitor positioning are current, not on elapsed time since a role-play session; the issue described is adoption, not figure expiry.
+
+5. Sales leadership wants to know which quantified value stories reps use actually correlate with won deals, rather than just which ones reps say they like delivering. What should have been built into the rollout to answer this?
+   - **A.** A CRM field or required note capturing which quantified value case was used per opportunity, so win/loss analysis can later show which value stories actually correlate with wins.
+   - **B.** An annual survey of reps asking them to rank their favourite value stories from memory.
+   - **C.** This question cannot be answered under this methodology, since it only measures training completion, not deal outcomes.
+   - **D.** A separate Sean Ellis 40% Test administered to the sales team.
+
+   **Correct answer: A.** The methodology explicitly calls for instrumenting the CRM with a field or required note tracking which quantified value case was used per opportunity, which is what lets win/loss analysis later show which value stories actually correlate with wins, not just which reps preferred delivering.
+
+   *Why not B:* Rep preference recalled from memory does not establish a correlation with actual deal outcomes; the methodology specifically calls for CRM-level tracking tied to real opportunities instead.
+
+   *Why not C:* The methodology explicitly extends beyond training into CRM instrumentation precisely so outcome correlation, not just training completion, can be measured.
+
+   *Why not D:* The Sean Ellis test measures product-market fit among active product users; it has no bearing on which sales value stories correlate with won deals.
 
 ---
 
@@ -399,6 +1047,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 
 **See also:** Message Architecture (Messaging House) (the top-level hierarchy this ladder supplies proof points and copy for); Value Proposition Canvas (the source of documented customer pains and gains a benefit should be tested against); Command of the Message (the live-conversation layer that quantifies a differentiator's value for a specific deal, using the same feature-to-benefit discipline this ladder teaches); Win/Loss Analysis Framework (the evidence source for which benefits actually correlate with a buyer's stated priorities).
 
+**Quiz:**
+
+1. A release note reads "Smart approval routing uses configurable rules to direct invoices based on amount, vendor, and cost centre." A message test scores it poorly, with readers writing "not sure why I'd need this." What rung of the ladder is missing?
+   - **A.** The benefit; the line describes the feature and its mechanism but never states the outcome the customer actually experiences, ideally quantified.
+   - **B.** The feature description itself, which needs to be rewritten with more technical detail.
+   - **C.** Nothing is missing; the score reflects a mismatched test panel rather than a ladder problem.
+   - **D.** The advantage; the line should describe what the rules are configured to do in more depth.
+
+   **Correct answer: A.** The original line stops at describing the feature and its mechanism (an advantage, in effect) without climbing to the benefit rung: the outcome a customer actually experiences, ideally quantified, is what tells the reader why any of it matters to them.
+
+   *Why not B:* The feature description is already factual and specific; the fix is climbing further up the ladder to state a benefit, not adding more technical detail to the feature itself.
+
+   *Why not C:* Nothing indicates a mismatched panel; the actual gap is a missing benefit rung, which the rewritten example in the entry confirms once a quantified benefit is added.
+
+   *Why not D:* The original line already gestures at a mechanism (rules based on amount, vendor, cost centre); what's missing is the further step to the outcome the customer experiences, the benefit, not more advantage detail.
+
+2. A writer drafts a benefit as "our automated routing saves time." No customer data supports this specific claim. What is the risk?
+   - **A.** This reads as an unquantified guess a sceptical buyer can puncture in one question; a sourced number from real customer usage should back a quantified benefit before it ships.
+   - **B.** There is no risk, since "saves time" is a benefit regardless of whether it is quantified.
+   - **C.** The claim should be removed from all copy entirely rather than marked as directional.
+   - **D.** The risk applies only if the copy appears in a sales deck, not in a website or release note.
+
+   **Correct answer: A.** Writing a benefit with no evidence behind it is a named pitfall: an unquantified claim like "saves time" is a guess a sceptical buyer can puncture easily. The fix is requiring a sourced number before the claim ships, or marking it explicitly as directional while a reference customer is found to validate it.
+
+   *Why not B:* "Saves time" is still functional-level, not yet a genuine, evidenced benefit; the ladder specifically calls for pushing past this kind of restatement toward a quantified, sourced outcome.
+
+   *Why not C:* The entry's guidance is to mark an unvalidated claim as directional and pursue evidence, not to remove it outright; a directional claim can still be useful while data is gathered.
+
+   *Why not D:* The risk of an unquantified claim being punctured applies wherever a sceptical buyer encounters it, whether in a release note, website, or sales deck; the channel does not change the underlying exposure.
+
+3. A team applies the full FAB ladder treatment, with quantified benefits and pressure-testing, to every single line item in a release note, including several minor, table-stakes features. What does the framework suggest about this approach?
+   - **A.** Reserve the complete ladder treatment for features that map to a Message Architecture pillar or a genuinely contested buying criterion; minor features can stay as a plain comparison-table line.
+   - **B.** This is the correct approach, since every feature deserves equal prominence and treatment in external copy.
+   - **C.** The full ladder should never be applied to release notes, only to website copy.
+   - **D.** Table-stakes features should be removed from release notes entirely rather than given a lighter treatment.
+
+   **Correct answer: A.** Running the full ladder on every feature is a named pitfall: it dilutes attention from the one or two that genuinely differentiate and trains readers to skim past everything. The fix is ranking features by how much they map to a validated pillar or contested criterion, reserving the full treatment for that shortlist.
+
+   *Why not B:* Equal treatment for every feature is exactly what the pitfall warns against; not every feature earns the same prominence, since doing so buries the genuinely differentiating ones among minor ones.
+
+   *Why not C:* The ladder applies wherever a feature needs translating into buyer-relevant language, release notes included; the issue is applying it to every feature, not using it in this format at all.
+
+   *Why not D:* Removing minor features entirely loses useful information; the framework's guidance is a lighter treatment (a plain comparison-table line), not deletion.
+
+4. A PMM writes a finished line, reads it to a colleague in a completely different function, and the colleague repeats back the feature rather than describing what the customer gets from it. What should happen next?
+   - **A.** Rewrite rung two or three (the advantage or the benefit), since the ladder has not yet been climbed far enough if the listener repeats the feature back instead of the outcome.
+   - **B.** Conclude the pressure-test step is unreliable and skip it for future copy.
+   - **C.** Rewrite only the feature description, since that is the rung the colleague repeated back.
+   - **D.** Ask a different colleague from the same function until someone repeats back the intended benefit.
+
+   **Correct answer: A.** This is exactly what the pressure-test step is designed to catch: if a colleague outside the product team repeats the feature rather than the benefit, the ladder has not been climbed far enough, and the fix is rewriting the advantage or benefit rungs, not the feature description itself.
+
+   *Why not B:* This outcome is precisely the useful signal the pressure-test is meant to surface; treating it as unreliable would discard the check that caught a real gap in the copy.
+
+   *Why not C:* The feature description is already meant to be plain and factual; the issue is that the advantage or benefit rungs above it were not strong enough to land, not that the feature line itself needs rewriting.
+
+   *Why not D:* Swapping colleagues until one happens to repeat back the intended benefit does not fix the underlying copy; the finding from the first colleague is the actual signal to act on.
+
+5. A benefit line quantifies a specific, sourced outcome, but no target buyer has ever mentioned caring about that particular outcome in interviews or discovery calls. What does the framework recommend?
+   - **A.** Cross-check the benefit against the buyer's actual stated priorities before leading with it; a technically true benefit no target buyer has mentioned caring about is not worth leading with.
+   - **B.** Lead with the benefit regardless, since a quantified, sourced claim is always strong enough to use as the headline.
+   - **C.** Replace the benefit with an entirely invented one that sounds more aligned with buyer priorities.
+   - **D.** Move the benefit into the feature description instead, since it lacks buyer relevance as a benefit.
+
+   **Correct answer: A.** The ladder explicitly requires testing the benefit against real buyer priorities, from win/loss interviews, discovery notes, or the Value Proposition Canvas; a technically true but uncared-about benefit is accurate but not worth leading with in messaging.
+
+   *Why not B:* Being quantified and sourced does not guarantee relevance; the framework treats buyer relevance as a separate, required check even for an accurate, well-evidenced benefit.
+
+   *Why not C:* Inventing a different benefit abandons the evidence discipline the ladder is built on; the fix is finding or emphasising a benefit that is both evidenced and actually relevant to buyers, not fabricating one.
+
+   *Why not D:* A benefit that lacks buyer relevance is still a benefit in structure; it simply is not the right one to lead with. Demoting it to a feature description misclassifies what it actually is.
+
 ---
 
 ## StoryBrand SB7 Framework
@@ -438,6 +1158,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 
 **See also:** Message Architecture (Messaging House) (supplies the Plan's steps and Success proof points once the SB7 arc is drafted); Geoffrey Moore's Positioning Statement Framework (defines the Character and competitive alternative before the story is drafted); Value Proposition Canvas (source of the pains and gains that populate Problem and Success); Jobs-to-be-Done Positioning Framework (functional, emotional, and social job dimensions map onto SB7's Problem layers).
 
+**Quiz:**
+
+1. A homepage opens with "We are the leading provider of enterprise data solutions, trusted by 500+ companies." Bounce rate is high, and visitors rarely make it to the pricing page. What does SB7 suggest is happening?
+   - **A.** The brand has cast itself as the hero rather than the guide, which disengages a reader who is scanning for a guide that understands their problem, not a company describing its own greatness.
+   - **B.** The statistic "500+ companies" is inaccurate and should be replaced with a larger number.
+   - **C.** The page needs more calls to action to capture visitors before they leave.
+   - **D.** The philosophical Problem layer was stated too aggressively and should be softened.
+
+   **Correct answer: A.** Making the brand the hero out of habit is a named pitfall: a sentence like "we are the leading provider of..." puts the company, not the customer, as the subject, and a reader scanning for a guide who understands their problem disengages the moment the brand starts describing its own greatness.
+
+   *Why not B:* The specific number is not the issue; the framework flags this kind of self-focused opening line regardless of whether the statistic behind it is accurate, since the structural problem is who the sentence is about.
+
+   *Why not C:* More calls to action do not fix a brand-as-hero opening; SB7 calls for exactly one clear, primary call to action, not more competing links, and neither addresses the deeper narrative problem here.
+
+   *Why not D:* Nothing in the scenario describes the philosophical Problem layer at all; the issue described is the opening's framing of the brand as hero, a separate step in the arc entirely.
+
+2. A demo script numbers three product capabilities as "1. Automation. 2. Reporting. 3. Integrations." and calls this the Plan. What is wrong with this Plan?
+   - **A.** It is a feature list with numbers added, not a Plan; a real Plan describes what the customer experiences in sequence, not what the product contains.
+   - **B.** Nothing is wrong; any numbered sequence of capabilities satisfies the Plan step.
+   - **C.** The Plan should have exactly five steps rather than three to feel sufficiently thorough.
+   - **D.** The issue is that these three items belong in the Success step instead of the Plan.
+
+   **Correct answer: A.** Writing a Plan that is really a feature list with numbers added is a named pitfall: numbering product capabilities is not a Plan, since a Plan describes what the customer experiences in sequence ("we map your process," "you go live"), leaving the buyer unsure what actually happens after they say yes.
+
+   *Why not B:* Any numbered list is not sufficient; the content of each step matters, specifically that it describes customer-experienced actions, not product feature names.
+
+   *Why not C:* The framework calls for three or four numbered steps as a rough guide, not a fixed count of five; the core problem here is content, not the number of steps.
+
+   *Why not D:* These items describe product capabilities, not a vivid picture of life after the product has worked, which is what the Success step requires; they don't belong in either step as currently written.
+
+3. A company's messaging names the Failure stakes as "Don't get left behind." Message testing shows this line scores poorly on persuasiveness. What is the likely reason?
+   - **A.** The stakes are too vague to feel real; the framework calls for tying Failure to a specific, evidenced consequence rather than a generic scare phrase.
+   - **B.** Naming any stakes of failure at all is inappropriate under SB7, since the framework avoids negative framing entirely.
+   - **C.** The line should be moved earlier in the arc, before the Character and Problem are introduced.
+   - **D.** The issue is unrelated to the Failure step; testing scores like this typically reflect a weak Plan instead.
+
+   **Correct answer: A.** Naming Failure so vaguely it reads as generic scare tactics is a named pitfall: "don't get left behind" names no real stakes and persuades nobody. The fix is tying the stakes to a specific, evidenced consequence, a missed deadline, a real cost figure, sourced from win/loss interviews or support tickets.
+
+   *Why not B:* SB7 explicitly includes naming the stakes of Failure as one of its seven parts; the issue is vagueness, not that stakes should be omitted altogether.
+
+   *Why not C:* Sequencing is not the issue; Failure's placement late in the arc, after the Plan and before Success, is intentional so it sets up urgency for the Call to Action, not something to move earlier.
+
+   *Why not D:* The scenario specifically points to the Failure line itself scoring poorly; there is no indication the Plan is the actual source of the weak test result here.
+
+4. A landing page has three calls to action of equal visual weight: "Start Trial," "Book Demo," and "Download Guide." Visitors report confusion about what to do next. What does SB7 recommend?
+   - **A.** Every asset should have exactly one primary action stated as an imperative; a lower-commitment secondary action can exist but should stay visually subordinate.
+   - **B.** All three calls to action should be removed entirely until the Plan and Failure sections are rewritten.
+   - **C.** The three actions should be reordered alphabetically to reduce visitor confusion.
+   - **D.** Equal visual weight across multiple actions is correct, since it gives visitors maximum choice and flexibility.
+
+   **Correct answer: A.** SB7 calls for exactly one primary Call to Action stated as an imperative, with any lower-commitment secondary action kept visually subordinate; competing links of equal weight is precisely what creates the ambiguity visitors are reporting.
+
+   *Why not B:* Removing all calls to action does not address the actual problem, which is that there are too many competing options of equal weight, not that a call to action is unwarranted.
+
+   *Why not C:* Reordering does not resolve equal visual weight; the fix is establishing one clearly primary action and subordinating the rest visually, regardless of order.
+
+   *Why not D:* Equal weight across multiple options is exactly what the framework identifies as causing visitor hesitation; SB7 calls for a single, clear primary action instead.
+
+5. A company writes its Guide section as: "Our platform has won three industry awards and processes ten million transactions daily." Nothing in this section connects to the customer's stated problem. What is missing?
+   - **A.** An empathy statement, ideally in the character's own words, tying the brand's authority back to the customer's problem, since achievements described without that connection read as self-focused rather than guide-like.
+   - **B.** Nothing; authority claims like awards and transaction volume are sufficient on their own to establish the Guide role.
+   - **C.** The Problem step should be removed since the Guide section already covers enough ground.
+   - **D.** These achievements belong in the Success step instead of the Guide step.
+
+   **Correct answer: A.** The Guide position requires two things: an empathy statement (ideally in the customer's own words) and an authority statement, both tied back to the customer's problem. Authority claims alone, with no empathy connection, cut the sentence describing the brand's own achievements without linking them to the customer's problem is exactly what the framework warns against.
+
+   *Why not B:* Authority alone is only half of the Guide position; without an empathy statement connecting it to the customer's actual problem, the section reads as the brand describing itself, the same brand-as-hero habit the framework warns against elsewhere.
+
+   *Why not C:* The Problem step (external, internal, philosophical) is a separate, required part of the arc; nothing about a strong Guide section removes the need to diagnose the customer's problem first.
+
+   *Why not D:* Awards and transaction volume are authority credentials suited to the Guide step; Success describes a vivid picture of the customer's life after the product has worked, a different kind of content entirely.
+
 ---
 
 ## Message Testing (Message-Market Fit)
@@ -475,6 +1267,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 - Peep Laja / Wynter, ["What is Message Testing in Marketing and How To Do It"](https://wynter.com/post/what-is-message-testing), wynter.com
 
 **See also:** Message Architecture (Messaging House) (the copy hierarchy this methodology tests before it scales across channels); Dunford's 10-Step Positioning Process (Step 8's validation targets positioning strategy at a major inflection point; this methodology is the narrower, repeatable test for any single piece of draft copy, whether or not positioning itself has changed); StoryBrand SB7 Framework and Features-Advantages-Benefits (FAB) Ladder (both produce draft copy that this methodology is the natural test gate for before it ships); Win/Loss Analysis Framework (a recurring, retrospective source of real buyer language to build new test candidates from).
+
+**Quiz:**
+
+1. A team tests a single headline candidate and reports back "58% clear and compelling" as proof the headline is ready to ship. What is the flaw in this approach?
+   - **A.** A lone score has no comparison point; the methodology calls for testing at least two candidate versions so a relative winner emerges.
+   - **B.** There is no flaw, since 58% is comfortably above the threshold needed to ship any headline.
+   - **C.** The flaw is only that the test should have used a larger panel, not that a single version was tested.
+   - **D.** Single-version testing is acceptable as long as the rubric was defined before the test ran.
+
+   **Correct answer: A.** Testing a single version and treating its score as an absolute measure is a named pitfall: a lone score has no comparison point and tells the team little about whether that is good or bad for this audience and category. The fix is always testing at least two candidates so a relative winner emerges.
+
+   *Why not B:* No fixed threshold makes a score meaningful in isolation; the methodology treats the percentage as directional and only useful relative to an alternative version tested at the same time.
+
+   *Why not C:* Panel size is a separate concern from the core issue described, which is the absence of any comparison version, not the number of respondents.
+
+   *Why not D:* Defining the rubric in advance is good practice, but it does not solve the comparison problem; a single tested version still has nothing to be judged against.
+
+2. A message test is run using the company's own newsletter subscriber list, since it was the fastest list to access before a launch deadline. What risk does this introduce?
+   - **A.** A mismatched panel produces a confident-sounding score that predicts nothing about how a real target buyer will react, since newsletter subscribers are not verified against the actual ICP.
+   - **B.** No risk, since any list of people who have engaged with the company before is a reasonable proxy for the target buyer.
+   - **C.** The risk applies only if the newsletter list is smaller than 30 to 50 people.
+   - **D.** This approach is recommended specifically for evergreen, high-traffic assets like a homepage.
+
+   **Correct answer: A.** Testing with an unverified or mismatched panel is a named pitfall: a newsletter list scores copy differently from a true target buyer encountering it cold, and a confident-looking result built on the wrong panel produces false confidence that a launch then gets built on.
+
+   *Why not B:* Prior engagement with the company does not equal matching the actual ICP by job title, company size, and industry; the methodology requires verification against the real target profile, not just any existing list.
+
+   *Why not C:* The mismatch problem exists regardless of list size; a larger but still mismatched panel does not fix the underlying issue of testing the wrong audience.
+
+   *Why not D:* Nothing about this practice is specific to evergreen assets; the panel-verification requirement applies to every message test, evergreen or campaign-specific.
+
+3. A team reads the aggregate clarity score from a message test, sees it passed the threshold, and ships the winning version without reading any of the open-text comments. What have they likely missed?
+   - **A.** The reasoning behind the score, since the qualitative comments explain why a version scored the way it did, and skipping them risks missing useful signal even from a passing version.
+   - **B.** Nothing important; the aggregate score alone is sufficient to make a shipping decision.
+   - **C.** The open-text comments are only useful when a version fails the threshold, not when it passes.
+   - **D.** The team should have re-run the test with a different panel instead of reading the comments.
+
+   **Correct answer: A.** The methodology calls for reading the qualitative comments before the aggregate score, since the number tells you whether a version passed, but the comments tell you what is actually working or could be sharpened further, useful information regardless of whether the version already cleared the bar.
+
+   *Why not B:* Passing the numeric threshold does not mean there is nothing left to learn; the reasoning behind the score often surfaces nuance a single aggregate number cannot capture.
+
+   *Why not C:* The entry does not limit qualitative reading to failing versions; it treats the open-text reasoning as valuable context for any tested version, passing or not.
+
+   *Why not D:* Re-running with a different panel is not the guidance here; the fix is simply reading the comments that already exist from the completed test, not repeating the exercise.
+
+4. A company's homepage headline was tested and shipped eighteen months ago and has not been re-tested since, even though it remains one of the site's highest-traffic pages. What does the methodology recommend?
+   - **A.** Re-test evergreen, high-traffic assets on a fixed cadence, quarterly or semi-annually is typical, since buyer language and competitive context shift and a message that scored well in the past is not guaranteed to still be the clearest option today.
+   - **B.** No action is needed, since a message that passed testing once remains valid indefinitely.
+   - **C.** The homepage should be retested only if traffic to it declines noticeably.
+   - **D.** Re-testing evergreen pages is unnecessary as long as no new campaign is being built around them.
+
+   **Correct answer: A.** The methodology explicitly calls for re-testing evergreen, high-traffic assets on a quarterly or semi-annual cadence, since these pages accumulate traffic against copy that can quietly go stale even when no new campaign is shipping, and buyer language or competitive context can shift well before traffic itself visibly declines.
+
+   *Why not B:* A message-market fit score reflects buyer perception at a point in time; the methodology explicitly treats fit as something that can erode as language and competitive context shift, not something that stays fixed once achieved.
+
+   *Why not C:* Waiting for a visible traffic decline is reactive; the point of a fixed re-test cadence is catching staleness before it shows up as a lagging metric like reduced traffic or conversion.
+
+   *Why not D:* The recurring cadence applies specifically because no new campaign is triggering a review; evergreen assets need their own standing check independent of active campaign activity.
+
+5. A $150,000 paid campaign is about to launch around an internally approved headline. No message test has been run, since the launch timeline is tight and the team is confident in the headline's quality. What does the methodology suggest is the risk?
+   - **A.** Internal reviewers, who understand the product deeply, are consistently the worst judges of whether new copy is clear to someone encountering it for the first time; skipping the test risks committing real budget to unproven copy.
+   - **B.** There is no meaningful risk, since a message test would only confirm what internal reviewers already believe.
+   - **C.** The risk is limited to wasted design time, not to the campaign's actual performance.
+   - **D.** The fix is to skip message testing but add more calls to action to the campaign's landing page instead.
+
+   **Correct answer: A.** Skipping the test under deadline pressure and shipping whatever the internal team already liked is a named pitfall, and the specific risk the entry highlights: internal reviewers are consistently the worst judges of clarity to a first-time reader, and the cost of a bad message compounds with every dollar of paid spend built on top of it.
+
+   *Why not B:* The methodology's own example shows the opposite: an internally approved headline scored poorly with a real target panel, while a different, untested option performed far better, directly contradicting the assumption that internal confidence predicts test results.
+
+   *Why not C:* The risk is compounding paid spend behind unproven messaging, a real performance and budget risk, not merely a design-time cost.
+
+   *Why not D:* Adding more calls to action does not address whether the underlying headline itself is clear and compelling to a real buyer; it does not substitute for the test the methodology calls for as a gate before major spend.
 
 ---
 
@@ -516,6 +1380,78 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 
 **See also:** Message Architecture (Messaging House) (the core message and pillars this framework adapts, never rewrites, per segment); Segmentation–Targeting–Positioning (STP) Framework (validates which segments this framework builds a routing map for); Command of the Message (adapts the same core message for a live, deal-specific sales conversation, the complementary altitude to this framework's cold-open and campaign-copy focus); Buyer's Journey Content Map (Category 9; audits content by funnel stage once a segment's entry-point message has already earned attention).
 
+**Quiz:**
+
+1. A company sells one product into three verticals, and sales writes a fresh, bespoke pitch from scratch for every new vertical it enters. What problem does this framework solve?
+   - **A.** It replaces improvised, drifting per-vertical pitches with a routing map that opens on each segment's specific buying trigger while staying provably consistent with the single validated core message.
+   - **B.** It requires building an entirely new Message Architecture and core message for each vertical the company enters.
+   - **C.** It eliminates the need for sales reps to tailor any part of the pitch to a specific vertical.
+   - **D.** It replaces STP as the method for deciding which verticals to pursue in the first place.
+
+   **Correct answer: A.** This is exactly the named trigger: when a validated core message exists but every new vertical gets an improvised pitch, this framework provides a routing map, segment, trigger, matched pillar, entry line, that opens with what that segment cares about most while staying consistent with the one existing core message.
+
+   *Why not B:* The framework explicitly reuses the existing core message and pillars, adapting rather than rewriting them per segment; building a new Message Architecture per vertical is exactly what it is designed to avoid.
+
+   *Why not C:* The framework produces a segment-specific entry-point line precisely so some tailoring happens, in a controlled, consistent way, rather than eliminating tailoring altogether.
+
+   *Why not D:* STP still decides which segments to pursue; this framework operates one layer below that, adapting messaging for segments STP has already validated, not replacing that targeting decision.
+
+2. A team builds trigger events for each vertical based on what "probably" motivates buyers in that industry, without checking any actual closed-deal notes. What is the risk?
+   - **A.** Unevidenced triggers produce entry lines that land flat, since they answer a concern the segment doesn't actually feel most urgently; every trigger should trace to a specific closed-deal note or win/loss interview.
+   - **B.** There is no risk, since experienced sales and marketing teams can reliably predict buyer motivations without deal evidence.
+   - **C.** The risk applies only to newly entered verticals, not to verticals the company has sold into for years.
+   - **D.** This approach is recommended specifically when time pressure prevents pulling closed-deal data.
+
+   **Correct answer: A.** Inventing trigger events from assumption is a named pitfall: a trigger that sounds plausible in a planning meeting is not the same as one a real closed deal actually cites, and the fix is requiring every trigger to trace to specific evidence, marking anything without it as an unvalidated hypothesis.
+
+   *Why not B:* Even experienced teams can be wrong about what actually drives a segment's urgency; the framework specifically requires evidence over assumption, regardless of how confident the team feels.
+
+   *Why not C:* The evidence requirement applies to every vertical, established or new; a long-served vertical's assumed trigger can be just as unvalidated as a new one's if it was never checked against actual deal notes.
+
+   *Why not D:* Time pressure is a reason evidence gets skipped in practice, not a justification the framework endorses; it explicitly calls for evidenced triggers regardless of deadline pressure.
+
+3. A team builds a routing map with a unique trigger for every job title within every sub-industry it sells into, resulting in dozens of rows. What does the framework suggest went wrong?
+   - **A.** The map was segmented too finely; it should be capped at the segments STP has validated as active targets, with near-identical triggers consolidated across adjacent segments.
+   - **B.** Nothing went wrong; more granular segmentation always produces a more effective routing map.
+   - **C.** The team should abandon the routing map entirely and return to one universal entry-point message.
+   - **D.** The issue is only that dozens of rows takes too long to read, not that the segmentation itself is flawed.
+
+   **Correct answer: A.** Building a map with too many segments is a named pitfall: excessive granularity produces a map so complex no one can maintain it, and writers default back to a generic opener out of sheer complexity. The fix is capping the map at STP's validated active segments and consolidating near-identical triggers.
+
+   *Why not B:* Finer granularity is explicitly named as counterproductive past a certain point; the framework calls for capping and consolidating, not maximising, the number of distinct rows.
+
+   *Why not C:* Abandoning the map for one universal message discards the framework's whole value, tailoring the opening to what each real segment cares about; the fix is simplifying the map, not eliminating it.
+
+   *Why not D:* The problem is structural maintainability and usability, not simply reading time; an overly granular map collapses under its own complexity regardless of how quickly someone can skim it.
+
+4. A regulation deadline that had been driving a segment's buying trigger passed six months ago, but the routing map's entry-point message for that segment still references the now-expired deadline. What should the team do?
+   - **A.** Revisit trigger events on a cadence and immediately whenever a named trigger event resolves, since a trigger tied to a specific deadline loses its power once that moment passes.
+   - **B.** Leave the entry-point message unchanged, since a trigger, once validated, remains valid indefinitely.
+   - **C.** Remove the segment from the routing map entirely, since its original trigger is no longer relevant.
+   - **D.** Wait for the next full STP re-run before updating the routing map's trigger.
+
+   **Correct answer: A.** The framework explicitly calls for revisiting trigger events on a cadence, at least twice a year, and immediately whenever a named trigger event resolves; a deadline-based trigger loses its power once the moment passes, and the entry point needs refreshing without touching the core message underneath it.
+
+   *Why not B:* The framework is explicit that triggers tied to specific events lose their power once that event resolves; treating a trigger as permanently valid ignores this built-in expectation of refresh.
+
+   *Why not C:* The segment itself likely remains valid; what needs updating is the specific trigger and entry-point line, not removal of the whole segment from the map.
+
+   *Why not D:* Refreshing a stale trigger is explicitly independent of a full STP re-run; the framework calls for revisiting triggers on its own cadence, not waiting for a separate, larger process.
+
+5. A PMM finds that no existing Message Architecture pillar answers a newly identified trigger well for a specific segment. What should happen?
+   - **A.** Treat this as a signal the pillar set itself may need revisiting, escalating it as a Message Architecture gap rather than inventing a new pillar just for this one segment.
+   - **B.** Invent a new pillar specifically for this segment and add it directly to the routing map without changing the messaging house.
+   - **C.** Drop the trigger from consideration, since a trigger with no matching pillar cannot be used at all.
+   - **D.** Route the trigger to the closest available pillar regardless of fit, since some connection is better than none.
+
+   **Correct answer: A.** The framework is explicit: if no existing pillar answers a trigger well, that is a signal the pillar set itself may need revisiting, a Message Architecture-level issue, not a reason to invent new pillars per segment, which would fragment the core message the framework is built to protect.
+
+   *Why not B:* Inventing a new pillar just for this segment is exactly the named pitfall of writing new positioning per segment instead of routing to an existing pillar; it rebuilds the messaging house one segment at a time.
+
+   *Why not C:* Dropping the trigger discards potentially valuable, evidenced insight into what drives this segment; the better response is escalating the underlying pillar gap rather than discarding the finding.
+
+   *Why not D:* Forcing a poor-fit routing produces a diluted entry line that defeats the purpose of a fast, specific opening; the framework calls for escalating the gap, not routing to whatever pillar is closest regardless of fit.
+
 ---
 
 ## Andy Raskin's Strategic Narrative Framework
@@ -554,3 +1490,75 @@ Peoplebase rewrote its homepage and top-of-funnel sales deck to lead with the co
 - Andy Raskin, ["The Greatest Sales Deck I've Ever Seen"](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0), Medium / Mission.org (2016)
 
 **See also:** StoryBrand SB7 Framework (a customer-as-hero narrative arc for a single asset, the closest structural relative in this category, distinguished by altitude: SB7 for one asset and one buyer archetype, Raskin's arc for a company or category-level story); Category Design (Category 3; the multi-year discipline of defining and dominating a new category that this narrative frequently supplies the pitch-deck and launch story for); Message Architecture (Messaging House) (a validated pillar set is a natural source for the "magic gifts" in step 5); Command of the Message (the live, deal-specific value-selling structure that follows once this bigger market narrative has set the stage in a sales conversation).
+
+**Quiz:**
+
+1. A pitch deck opens with a product screenshot and a feature comparison table against two named competitors. Investors keep asking "so what's actually changing that makes this the moment for this product?" What does the framework suggest is missing?
+   - **A.** The opening move: naming a real, verifiable change already happening in the world before the product is introduced, so the audience recognises a stake they already have.
+   - **B.** A larger growth-metrics slide placed earlier in the deck, before the product screenshot.
+   - **C.** More named competitors in the comparison table, to make the market context clearer.
+   - **D.** A stronger call to action at the very end of the deck.
+
+   **Correct answer: A.** The deck's structure asks the audience to care about the company first; the investors' recurring question is exactly what the framework's first move is built to pre-empt, naming a real market shift and giving the audience a stake in the story before the product ever appears.
+
+   *Why not B:* A growth-metrics slide still centres the company's own performance rather than a market shift the audience already has a stake in; moving it earlier does not address the missing "why now."
+
+   *Why not C:* More named competitors deepens a feature-race comparison, which is the opposite of the framework's intent: naming winners and losers of a market shift, not a product-versus-product comparison.
+
+   *Why not D:* A stronger call to action addresses the end of the arc, not the missing opening; the investors' question is about what comes before the product is even introduced.
+
+2. A team writes its "winners and losers" section as "companies using our product are outperforming companies using our two named competitors." What is the issue?
+   - **A.** This collapses the market-level narrative back into a feature race; winners and losers should describe the market shift itself, without naming your own product or a specific competitor.
+   - **B.** There is no issue; naming your own product and its competitors is exactly what this step calls for.
+   - **C.** The step should instead focus on the promised land, which comes later in the sequence.
+   - **D.** The problem is only that two competitors is too few to name; naming more competitors would resolve it.
+
+   **Correct answer: A.** Turning winners and losers into a disguised feature comparison is a named pitfall: naming your own product and a competitor collapses the market-level story back into the same feature race the framework exists to escape. The fix is rewriting the step without naming your product or a specific rival at all.
+
+   *Why not B:* The framework is explicit that this step should stand as a description of the market shift alone; if it cannot stand without naming your own product or a competitor, it has drifted into product comparison.
+
+   *Why not C:* The promised land is a separate, later step describing what winning looks like; it does not fix the underlying problem that winners and losers has been written as a product comparison.
+
+   *Why not D:* Naming more competitors does not solve the structural issue; the fix is removing product and competitor names from this step entirely, not adjusting how many are named.
+
+3. A team names a "big change" in its pitch: "the market is shifting toward our kind of solution," with no independent source to back the claim. What risk does the framework identify?
+   - **A.** A manufactured or exaggerated trend is usually the first thing a sophisticated investor or technical buyer challenges, undermining trust in every claim that follows.
+   - **B.** There is no risk, since audiences generally accept a stated trend without needing independent verification.
+   - **C.** The risk applies only to investor pitches, not to prospect-facing sales decks.
+   - **D.** The fix is to state the trend even more forcefully so it sounds more convincing.
+
+   **Correct answer: A.** Inventing or exaggerating the opening change is a named pitfall: an unverifiable trend is usually the first thing a sophisticated audience challenges, and once it is punctured, it undermines trust in every claim that follows, even the well-evidenced ones.
+
+   *Why not B:* The framework explicitly assumes a sceptical audience, investor or technical buyer, that tests this claim first; assuming automatic acceptance ignores exactly the risk the pitfall describes.
+
+   *Why not C:* The framework's guidance applies to any audience testing the opening change, prospects and analysts included, not solely investors; the risk of an unverifiable trend is not confined to fundraising contexts.
+
+   *Why not D:* Stating an unverifiable trend more forcefully does not make it more credible; the fix is requiring an independently checkable source, or narrowing the claim, not increasing its rhetorical intensity.
+
+4. A deck ends on a vivid description of the promised land and a list of the product's capabilities, with no case study, data point, or customer result included anywhere. What is missing?
+   - **A.** The proof step; a promised land and a set of capabilities with no evidence behind them reads as aspiration, not a credible plan, and is where a sceptical audience's trust is actually earned or lost.
+   - **B.** Nothing; a vivid promised land and clear capability list are sufficient to close a pitch persuasively.
+   - **C.** A second, alternative promised land, in case the first one doesn't resonate with the audience.
+   - **D.** A return to the winners-and-losers step, repeated at the end for emphasis.
+
+   **Correct answer: A.** Skipping the proof step and ending on the vision is a named pitfall: without evidence backing each "magic gift," the pitch leaves a sceptical audience with an appealing story and no reason to believe it actually works.
+
+   *Why not B:* Vividness and clarity do not substitute for evidence; the framework treats proof as a non-negotiable step precisely because vision alone does not earn a sceptical audience's trust.
+
+   *Why not C:* A second promised land does not address the missing evidence; the gap is proof for the capabilities already presented, not an alternative vision.
+
+   *Why not D:* Repeating winners and losers does not supply the missing case studies or data; the fix is adding proof for the magic gifts already introduced, not revisiting an earlier step.
+
+5. A team introduces its product's capabilities in the very first slide of a narrative deck, before naming any market change, casting winners and losers, or describing a promised land. What does the framework say about this sequencing?
+   - **A.** The product's arrival will feel unearned, since magic gifts are meant to appear only after the change, winners and losers, promised land, and obstacles have been established, mapped explicitly to a named obstacle.
+   - **B.** This sequencing is fine, since introducing the product early helps orient the audience before the narrative develops.
+   - **C.** The issue is only that the capabilities should have been quantified with a specific metric, not that they were introduced early.
+   - **D.** Sequencing does not matter under this framework, as long as all five moves eventually appear somewhere in the deck.
+
+   **Correct answer: A.** The framework calls for a specific order: change, winners and losers, promised land, obstacles, then magic gifts, and each capability should map to a named obstacle. Introducing the product first skips the setup that makes its arrival feel earned rather than an assumption the audience has to take on faith.
+
+   *Why not B:* Early product introduction is exactly what the framework argues against; orienting the audience around the company before establishing the market stake reproduces the same problem SB7 and this framework both diagnose in company-first messaging.
+
+   *Why not C:* Quantification strengthens a capability's credibility, but it does not fix a sequencing problem; even a well-quantified capability introduced too early skips the obstacle-setup that makes it feel earned.
+
+   *Why not D:* The framework explicitly calls for sequencing the arc in a specific order; treating order as unimportant ignores that each step is built to set up the one that follows, particularly obstacles preceding magic gifts.

@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-08-30
+**Last Updated:** 2026-09-06 (added the Quiz section as a required section for every entry and category file; see "Quiz section (quiz standard)" and QUIZ-SPEC.md)
 
 ---
 
@@ -47,14 +47,16 @@ The knowledge base began as a collection of frameworks. As it grows it also hold
 
 Each type uses its own section order:
 
-- **Framework:** What it is → When to use it → **Ownership** → How to apply it → Example → Pitfalls → See also.
-- **Methodology:** What it is → When to use it → **How to run it** → **Cadence & ownership** → **Maturity stages** (optional) → Example → Pitfalls → See also.
-- **Model:** What it is → When to use it → **Ownership** → **How to read it** → How to apply it → Example → Pitfalls → See also.
-- **Primer:** What it is → Why it matters → **Key distinctions** → **Where PMM fits** → See also. No "How to apply it" and no Example/Pitfalls required.
+- **Framework:** What it is → When to use it → **Ownership** → How to apply it → Example → Pitfalls → Sources → See also → **Quiz**.
+- **Methodology:** What it is → When to use it → **How to run it** → **Cadence & ownership** → **Maturity stages** (optional) → Example → Pitfalls → Sources → See also → **Quiz**.
+- **Model:** What it is → When to use it → **Ownership** → **How to read it** → How to apply it → Example → Pitfalls → Sources → See also → **Quiz**.
+- **Primer:** What it is → Why it matters → **Key distinctions** → **Where PMM fits** → Sources → See also → **Quiz**. No "How to apply it" and no Example/Pitfalls required.
+
+Every entry's `**Quiz:**` section, 5 questions, sits last, after `**See also:**`; see "Quiz section (quiz standard)" below and [QUIZ-SPEC.md](QUIZ-SPEC.md) for the full format and content rules. A category file (`frameworks/0N-*.md`) additionally carries a `## Category Quiz` section (10 questions) at the very top of the file, before its first entry.
 
 **Ownership** (Framework and Model types; Methodology covers the same ground inside "Cadence & ownership") is one short paragraph naming who typically owns the decision/output versus who typically executes it, and noting that this shifts with company stage: a solo or founding PMM commonly owns outright what a specialised team hands off to Sales, RevOps, or a CEO once the company scales. This is not a hedge; it is a factual note on how ownership redistributes as headcount grows, matching the pattern already used in Methodology entries' "Cadence & ownership" sections (see T2D3 Framework or MEDDIC/MEDDPICC for the target voice).
 
-Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. The full rationale for this vocabulary and how it was rolled out is recorded in [archived/ENRICHMENT-PLAN.md](archived/ENRICHMENT-PLAN.md), a closed build queue kept for historical reference; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
+Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. This vocabulary was rolled out via a 2026-07 build queue (ENRICHMENT-PLAN.md), since closed and, after its 2026-09 re-scan found nothing depending on it, deleted; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
 
 ### Language Guidelines
 
@@ -83,6 +85,18 @@ Every entry must carry a **`**Sources:**` block**, immediately before `**See als
 - **Link preference order:** the originator's own site or the framework's official page first; then the publisher's page for a book; then a stable, well-known reference (e.g. the originator's own article or a major publication that documents it). Never a scraped summary site, never an affiliate link.
 - **Every entry needs at least one linked source.** Where a framework has no single originator (e.g. a differentiation lens compiled by practitioners), cite the best-documented version and say so explicitly, matching the precedent in SOURCE-VALIDATION-LOG.md.
 - Verify every URL resolves before committing it.
+
+### Quiz section (quiz standard)
+
+Every entry must carry a **`**Quiz:**` block** as its last section, and every category file (`frameworks/0N-*.md`) carries a **`## Category Quiz`** section as the first thing in the file. Full rules, rationale, and worked examples live in [QUIZ-SPEC.md](QUIZ-SPEC.md); this is the summary to check against when writing or reviewing one.
+
+- **Counts:** 5 questions per entry; 10 questions per category quiz.
+- **Purpose:** reinforce and test whether the reader can apply the entry, not recall its structure. Target Bloom's levels 3–4 (Apply, Analyse); never pure recall ("what are the five steps of X").
+- **Format:** four options per question, one clearly correct, three plausible distractors of similar length and detail. Never "all/none of the above" or a combination answer ("both A and C").
+- **Scenario majority:** at least 3 of 5 questions per entry, and at least 7 of 10 per category quiz, present a realistic PMM situation and ask what to do, what went wrong, or which tool fits. Draw these from the entry's own "When to use it" and "Pitfalls" sections; category-quiz questions should mostly ask the reader to pick the right entry from that category for a given situation.
+- **Feedback:** every option, correct and incorrect, gets 2–3 sentences of explanation tying back to the entry's core principle. Never just "incorrect."
+- **Answer key convention:** the correct option is always written as **A** in the source markdown (an authoring convenience, not a real ranking). The web app shuffles display order per question at render time; never manually reorder options to vary which letter is correct, and never assume a reader of the raw markdown sees it in final order.
+- **Source format** (see `web/src/lib/quiz.ts` for the exact parser): a numbered list, each item is the stem, then `- **A.**` through `- **D.**` options, then a `**Correct answer: A.**` paragraph with feedback, then `*Why not B:*`, `*Why not C:*`, `*Why not D:*` paragraphs in letter order.
 
 ---
 
@@ -128,6 +142,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── INDEX.md                     # Full taxonomy of all frameworks
 ├── BY-SITUATION.md              # Situation-to-framework mapper
 ├── PLAN.md                      # Roadmap for polish and integration
+├── QUIZ-SPEC.md                 # Quiz feature spec: format, content rules, build progress
 ├── CLAUDE.md                    # This file; working principles
 ├── GLOSSARY.md                  # PMM terminology (45+ terms)
 ├── ONBOARDING.md                # Role-based onboarding playbook for new PMM team members
@@ -138,8 +153,6 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── SOURCE-VALIDATION-LOG.md     # Citation audit record: findings and resolutions (2026-08-12)
 ├── framework-selector.md        # Selection matrix by business goal, timeline, and data availability
 ├── pitfalls-deep-dive.md        # Deep dives on STP, positioning, GTM, and competitive pitfalls
-│
-├── archived/                     # Closed candidate-build queues and a superseded quality review; pending a re-scan before deletion (see its README.md). Not the same as the "archive retired frameworks" convention below, which has no folder yet because nothing has qualified.
 │
 ├── case-studies/                 # Extended case study walkthroughs (STP, VPC, Win/Loss, 10-Step, GTM)
 │   ├── README.md
@@ -196,7 +209,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
     └── quarterly-pmm-planning/  # Goals to deliverables, capacity, and a not-doing list
 ```
 
-`archived/` now exists, but only for the closed planning documents described in its own README.md. No framework, methodology, model, or primer has ever been retired under the "Archive, don't delete" principle above; don't assume a framework-retirement archive exists just because the folder does. See PLAN.md for the roadmap.
+There is no `archived/` folder at present. A temporary one held closed candidate-build queues and a superseded quality review between 2026-09-05 and 2026-09-06, pending a re-scan; that re-scan found no remaining references anywhere in the repo, and the folder was deleted. No framework, methodology, model, or primer has ever been retired under the "Archive, don't delete" principle above; if one ever is, that principle still governs where it goes, starting a fresh `archived/` folder rather than assuming an old one persists. See PLAN.md for the roadmap.
 
 ### The `agent-skills/` area
 
@@ -239,6 +252,7 @@ separate from everything above:
 - [ ] Metrics and numbers are specific, not vague
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
 - [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
+- [ ] **Quiz section present and spec-compliant.** A `**Quiz:**` section (the entry's last section, 5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
 - [ ] **Every fact, figure, quote, or attribution is cited, with a working link.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source in the `**Sources:**` block (see "Sources block (citation standard)" above): originator, work title, year, and a verified URL. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for worked examples of both citations and hedged rewrites.
 - [ ] **Fictional example companies are explicitly labelled as fictional.** An invented company used to illustrate a framework (as opposed to a real, verifiably-sourced case study) must say so in its first mention, e.g. "a fictional B2B SaaS company called X" or "X, a fictional Y." Don't leave an invented name unlabelled, even if the scenario is clearly illustrative to the author; a future reader may not know.

@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getCategoryBySlug } from "@/lib/content";
+import { parseQuizMarkdown } from "@/lib/quiz";
 import { StickyHeader } from "@/components/sticky-header";
 import { CategoryEntries } from "@/components/category-entries";
+import { QuizSection } from "@/components/quiz-section";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -31,6 +33,10 @@ export default async function CategoryPage({
   const { slug } = await params;
   const category = getCategoryBySlug(slug);
   if (!category) notFound();
+
+  const quizQuestions = category.quizMarkdown
+    ? parseQuizMarkdown(category.quizMarkdown, category.slug)
+    : [];
 
   const typeCounts = category.entries.reduce(
     (acc, e) => {
@@ -68,6 +74,14 @@ export default async function CategoryPage({
       </header>
 
       <CategoryEntries entries={category.entries} typeCounts={typeCounts} />
+
+      {quizQuestions.length > 0 && (
+        <QuizSection
+          title="Category quiz"
+          description="Cross-framework judgement: given a situation, pick which entry in this category fits it best."
+          questions={quizQuestions}
+        />
+      )}
     </div>
   );
 }

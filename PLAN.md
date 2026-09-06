@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-09-05
-**Status:** All content-creation phases (1 through 4) are now complete. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review have been moved to `archived/` (see that folder's README for what and why); their content is not repeated here except where a genuinely open item was carried forward.
+**Last Updated:** 2026-09-06
+**Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
 
@@ -17,7 +17,7 @@ Everything below is either not started, partially done, or explicitly waiting on
 
 ### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
 
-Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting; see `archived/IMPROVEMENTS-PLAN-2026-09.md` for the full implementation record if you need the detail). Workstream 6 was scoped but not built. Ship now (domain-independent):
+Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting). The full implementation record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06 after its re-scan found nothing depending on it; the summary above is what remains. Workstream 6 was scoped but not built. Ship now (domain-independent):
 
 - [ ] Per-page metadata: entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags without absolute URLs; `og:type=article` for entries.
 - [ ] `robots.txt` via `app/robots.ts` (no sitemap reference yet; that waits on the domain move below).
@@ -37,14 +37,6 @@ Workstreams 1-5 of that plan are complete (attribution, branding, structural cha
 - [ ] Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first).
 - [ ] Contributor workflow (contributing guide and CI checks, if others will submit entries).
 - [ ] Whether to surface `agent-skills/` in the web app or keep them repo-only.
-
-### Web app: Phase 7 quiz feature (future, not started)
-
-Layered on top of the stable web app. No user accounts, no gating, no personalisation. See Phase 7 below for the full sketch (data model, question style, session-only state, inline plus standalone quiz modes).
-
-### Archival follow-through
-
-- [ ] **Re-scan before deleting `archived/`.** Six documents (four closed candidate-build queues, one superseded quality review, one retired improvements plan) were moved to `archived/` on 2026-09-05, pending one more check before permanent deletion. See `archived/README.md`'s "Start here next session" for the exact grep to run and what to confirm. Do this before deleting the folder.
 
 ---
 
@@ -328,15 +320,15 @@ The knowledge base is being deployed as a web app for public consumption.
 - **Sidebar:** Category tree navigation with active-state highlighting, collapsible on mobile with hamburger menu
 - **Static generation:** All pages pre-rendered via `generateStaticParams`; production build generates 78 HTML pages (homepage, 10 categories, 66 entries, 404)
 
-### Phase 7: Quiz Feature (Future)
+### Phase 7: Quiz Feature — complete (2026-09-06)
 
-Layered on top of the stable web app. No user accounts, no gating, no personalisation.
+Layered on top of the stable web app. No user accounts, no gating, no personalisation. Full content specification: [QUIZ-SPEC.md](QUIZ-SPEC.md).
 
-- Quiz data model: JSON alongside each entry, or a central quiz bank
-- Questions test application, not recall ("Given this scenario, which framework would you reach for?")
-- Session-only state via sessionStorage; no server-side persistence
-- Inline quiz sections on entry pages, plus a standalone quiz mode spanning categories
-- Immediate feedback with explanation and link back to the relevant entry
+- **Content:** 5 questions per entry, 10 per category quiz; 420 questions total across all 66 entries and all 9 category quizzes. Apply/Analyse level, scenario-based majority, four-option multiple choice with explanatory feedback on every option, written directly into each entry's `**Quiz:**` section and each category file's `## Category Quiz` section.
+- **Data model:** no separate JSON or database; quizzes live in the same markdown files as everything else and are parsed at build time (`web/src/lib/quiz.ts`), consistent with "markdown is the single source of truth."
+- **Rendering:** `QuizSection` (`web/src/components/quiz-section.tsx`), a client component on both the entry page and the category page. Click an option to reveal correct/incorrect state and feedback inline; a progress bar and "X of N answered/correct" indicator, not a pass/fail score; a Retry button clears all answers freely, any number of times. No account, no persistence between visits: state is plain in-memory component state, reset on page reload, which is enough for a self-check tool with no gating.
+- **Answer-order shuffling:** the correct option is always written as A in the source markdown (an authoring convenience); the parser shuffles each question's options with a deterministic per-question seed, so the shuffle is stable across server and client renders (no hydration mismatch) without ever landing the correct answer on the same letter every time.
+- This is now the standing quality bar for new entries too: see CLAUDE.md's "Quiz section (quiz standard)" and the `add-kb-entry` skill.
 
 ### Open questions
 
