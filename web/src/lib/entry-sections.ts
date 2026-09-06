@@ -1,9 +1,11 @@
 import type { Entry } from "./content";
+import { extractEntryQuiz } from "./quiz";
 
 export interface ExtractedSections {
   body: string;
   sourcesMarkdown: string | null;
   seeAlsoText: string | null;
+  quizMarkdown: string | null;
 }
 
 /**
@@ -13,7 +15,8 @@ export interface ExtractedSections {
  * the remaining body for the generic section pipeline.
  */
 export function extractSpecialSections(markdown: string): ExtractedSections {
-  const lines = markdown.split("\n");
+  const { body: withoutQuiz, quizMarkdown } = extractEntryQuiz(markdown);
+  const lines = withoutQuiz.split("\n");
   const toRemove = new Set<number>();
 
   const sourcesIdx = lines.findIndex((l) => l.trim() === "**Sources:**");
@@ -39,7 +42,7 @@ export function extractSpecialSections(markdown: string): ExtractedSections {
   }
 
   const body = lines.filter((_, i) => !toRemove.has(i)).join("\n");
-  return { body, sourcesMarkdown, seeAlsoText };
+  return { body, sourcesMarkdown, seeAlsoText, quizMarkdown };
 }
 
 function normalize(s: string): string {

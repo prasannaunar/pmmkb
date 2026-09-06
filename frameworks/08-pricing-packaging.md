@@ -1,5 +1,149 @@
 # Category 8: Pricing & Packaging
 
+## Category Quiz
+
+1. A company is launching a genuinely new product category with no direct competitor to benchmark against, and leadership is split on what price to charge. Which tool directly resolves this?
+   - **A.** Van Westendorp Price Sensitivity Meter
+   - **B.** Good-Better-Best (GBB) Packaging Framework
+   - **C.** Conjoint Analysis
+   - **D.** Usage-Based (Consumption) Pricing Model
+
+   **Correct answer: A.** This is exactly PSM's named use case: setting a price for a new product with no competitor to benchmark against, using customer data (an acceptable price corridor) to settle an internal pricing disagreement rather than guessing.
+
+   *Why not B:* GBB structures features into tiers; it assumes a price ladder already exists or is being built alongside persona work, but does not itself discover the fundamental price level a brand-new category should charge.
+
+   *Why not C:* Conjoint analysis isolates the value of individual features, a much heavier and more specific question than "what should this whole new product cost," and is overkill before a basic price level is even established.
+
+   *Why not D:* The Usage-Based Pricing Model classifies pricing structures along a spectrum; it does not itself discover what price level customers will accept for a new product.
+
+2. A company has three or more distinct buyer personas with meaningfully different needs and budgets, and its single flat price is losing deals at both the low and high ends. Which tool should it use to restructure pricing?
+   - **A.** Good-Better-Best (GBB) Packaging Framework
+   - **B.** Gabor-Granger Method
+   - **C.** MaxDiff Analysis
+   - **D.** Van Westendorp Price Sensitivity Meter
+
+   **Correct answer: A.** This is exactly GBB's named trigger: a single-price plan losing deals at both ends, with three or more distinct personas differing in needs and willingness to pay, calling for a tiered structure built around those persona differences.
+
+   *Why not B:* Gabor-Granger optimises a single SKU's price among a few candidates; it does not build a multi-tier structure across distinct personas.
+
+   *Why not C:* MaxDiff ranks relative feature importance with no price attached; it does not itself restructure a pricing model into tiers.
+
+   *Why not D:* Van Westendorp finds a whole-product price corridor; it does not map personas to differentiated tiers, which is what this scenario specifically calls for.
+
+3. A company's current billing charges per seat, but usage varies enormously between customers doing very different amounts of work, and heavy users are undercharged relative to the infrastructure cost of serving them. Which tool identifies the right unit to charge for instead?
+   - **A.** Value Metric / Willingness-to-Pay Framework
+   - **B.** Good-Better-Best (GBB) Packaging Framework
+   - **C.** Van Westendorp Price Sensitivity Meter
+   - **D.** MaxDiff Analysis
+
+   **Correct answer: A.** This framework directly answers "what should we charge for": it brainstorms candidate value metrics, surveys willingness to pay per persona and candidate metric, and selects the unit that correlates most closely with actual value received, exactly the mismatch described.
+
+   *Why not B:* GBB structures already-chosen pricing into value-ascending tiers; it does not itself discover which underlying unit (seats, transactions, GB) should anchor the price in the first place.
+
+   *Why not C:* Van Westendorp finds an acceptable price range for a whole product; it does not determine which usage unit price should scale with.
+
+   *Why not D:* MaxDiff ranks feature importance with no price or usage-unit question involved; it is unrelated to choosing a value metric.
+
+4. Sales and product disagree about which of four candidate premium features should be Enterprise-only, with genuine disagreement about which buyers would actually pay more for each one. Which tool resolves this with rigorous, feature-level evidence?
+   - **A.** Conjoint Analysis
+   - **B.** Gabor-Granger Method
+   - **C.** Usage-Based (Consumption) Pricing Model
+   - **D.** Value Metric / Willingness-to-Pay Framework
+
+   **Correct answer: A.** This is exactly conjoint analysis's named use case: an internal dispute about which roadmap features should be premium-only, resolved by isolating each feature's standalone value to each persona through bundle-choice trade-offs, the most statistically rigorous of the pricing methods for this specific question.
+
+   *Why not B:* Gabor-Granger prices a single SKU against a small set of candidate whole-product prices; it does not isolate the value of individual features within a bundle.
+
+   *Why not C:* The Usage-Based Pricing Model classifies how pricing tracks usage broadly; it has no mechanism for resolving which specific feature justifies premium placement.
+
+   *Why not D:* The Value Metric/WTP Framework identifies the unit to charge for overall; it does not isolate the standalone value of four specific candidate features against each other.
+
+5. Leadership has narrowed a price increase to two specific numbers, $19 or $25, for one existing add-on, and needs to know which one maximises revenue. Which tool answers this directly and most efficiently?
+   - **A.** Gabor-Granger Method
+   - **B.** Conjoint Analysis
+   - **C.** Good-Better-Best (GBB) Packaging Framework
+   - **D.** MaxDiff Analysis
+
+   **Correct answer: A.** This is exactly Gabor-Granger's named use case: a small number of specific candidate prices for a single SKU, answered efficiently by tracing a demand curve and reading off the revenue-maximising point, without the added expense of a full conjoint study.
+
+   *Why not B:* Conjoint analysis is the heavier, more expensive method for isolating individual feature values; using it to choose between two whole-product prices for one SKU is unnecessary overkill.
+
+   *Why not C:* GBB structures a multi-tier pricing ladder; it is not designed to choose between two specific candidate prices for a single existing add-on.
+
+   *Why not D:* MaxDiff ranks relative importance with no price attached; it cannot compare or choose between two specific price points.
+
+6. A team has 16 candidate premium features it wants to test in a full conjoint study but knows this is too many to test rigorously at once. What should happen first?
+   - **A.** MaxDiff Analysis, to narrow the list to the genuinely contested few before designing the full conjoint study.
+   - **B.** Gabor-Granger Method, to test all 16 features directly against price points.
+   - **C.** Van Westendorp Price Sensitivity Meter, to reduce the feature list to a manageable size.
+   - **D.** Usage-Based (Consumption) Pricing Model, to classify which features belong on the pricing spectrum.
+
+   **Correct answer: A.** This is exactly MaxDiff's named role: the standard pre-study for narrowing a longer feature list (10-plus items) down to the genuinely contested few before committing budget to a full conjoint design, since conjoint's data quality degrades sharply past roughly 6 attributes.
+
+   *Why not B:* Gabor-Granger prices a single SKU against a handful of candidate prices; it is not designed to test or narrow a list of 16 distinct features.
+
+   *Why not C:* Van Westendorp finds a whole-product price corridor; it does not rank or narrow a list of candidate features at all.
+
+   *Why not D:* The Usage-Based Pricing Model classifies pricing structures along a predictability-versus-correlation spectrum; it has no role in narrowing a feature list for a conjoint study.
+
+7. A company's smallest customers feel overcharged by its flat monthly fee, and its heaviest users cost far more to serve than they pay. Leadership wants a framework for thinking through where on the pricing spectrum the company should sit. Which tool provides this?
+   - **A.** Usage-Based (Consumption) Pricing Model
+   - **B.** Gabor-Granger Method
+   - **C.** Conjoint Analysis
+   - **D.** Good-Better-Best (GBB) Packaging Framework
+
+   **Correct answer: A.** This model gives exactly this shared vocabulary: classifying pricing along a spectrum from flat fee through per-seat to fully usage-based, and making explicit the trade-off between revenue predictability and usage-value correlation that this exact mismatch calls for resolving.
+
+   *Why not B:* Gabor-Granger finds a specific revenue-optimising price for a single SKU; it does not classify or reposition an entire pricing structure along a predictability-versus-correlation spectrum.
+
+   *Why not C:* Conjoint analysis isolates individual feature values; it does not address the structural question of how tightly the whole pricing model should track usage.
+
+   *Why not D:* GBB structures tiers around personas; it can incorporate a usage-based component within a tier, but the underlying spectrum classification and predictability trade-off is this model's specific contribution.
+
+8. A pricing team has just identified, through the Value Metric/WTP Framework, that "per-transaction" is the strongest correlating value metric. They now need to know the specific price ladder and validate it with real customer data before finalising tiers. Which tool should they use next?
+   - **A.** Van Westendorp Price Sensitivity Meter
+   - **B.** MaxDiff Analysis
+   - **C.** Usage-Based (Consumption) Pricing Model
+   - **D.** Playing to Win (Strategic Choice Cascade)
+
+   **Correct answer: A.** Van Westendorp is explicitly positioned to validate the price ladder's anchor price with real customer data once a value metric or persona structure is chosen, providing the acceptable price corridor GBB's tier ladder should be built against.
+
+   *Why not B:* MaxDiff ranks relative feature importance with no price attached; it does not validate a price ladder once a value metric has already been chosen.
+
+   *Why not C:* The Usage-Based Pricing Model classifies the pricing structure's position on a spectrum; it does not itself validate specific price points with customer survey data.
+
+   *Why not D:* The Strategic Choice Cascade (Category 7) sets high-level strategic direction; it is not a pricing-validation research method for setting a specific price ladder.
+
+9. A team ran a Van Westendorp study for its flagship product two years ago and has shipped a major new capability since then that materially repositions the product, but has never re-tested pricing. What should happen, and why?
+   - **A.** Re-run Van Westendorp, since the corridor is tied to the specific product concept respondents evaluated, and a materially repositioned product is effectively a different concept.
+   - **B.** Continue using the original corridor indefinitely, since a validated Van Westendorp result does not need retesting once established.
+   - **C.** Switch permanently to Gabor-Granger instead, since it never needs to be repeated after a product change.
+   - **D.** Run MaxDiff Analysis instead, since it replaces the need for price corridor validation entirely.
+
+   **Correct answer: A.** Van Westendorp's own guidance calls for re-running the study whenever the product concept changes materially, a major new feature or repositioning being exactly such a change, since the corridor reflects the specific concept originally tested, not the product in the abstract.
+
+   *Why not B:* The method explicitly warns against treating an old corridor as permanent; a materially changed product concept invalidates the relevance of a corridor tested against the old concept.
+
+   *Why not C:* Gabor-Granger answers a different, narrower question (which specific price maximises revenue) and is itself explicitly named as needing re-runs after product changes; it is not a permanent substitute that avoids retesting.
+
+   *Why not D:* MaxDiff ranks feature importance with no price dimension at all; it cannot substitute for a price corridor validation of any kind.
+
+10. A company is deciding whether to move from a flat fee to a hybrid usage-based model, needs to identify the right usage unit, validate a base fee's price corridor, and find the revenue-optimising overage rate, all as part of one connected pricing project. Which combination of tools, read together, supports this full sequence?
+    - **A.** Usage-Based (Consumption) Pricing Model to frame the trade-off and choose a spectrum position; Value Metric/WTP Framework to identify the usage unit and base fee; Van Westendorp to validate the base fee corridor; Gabor-Granger to find the optimal overage rate.
+    - **B.** MaxDiff Analysis alone, since it can rank, price, and validate every element of a hybrid pricing structure in a single study.
+    - **C.** Conjoint Analysis alone, since it is the single most rigorous method and therefore replaces the need for any other tool in a hybrid pricing project.
+    - **D.** Good-Better-Best (GBB) Packaging Framework alone, since tiering inherently resolves the usage-unit and base-fee questions without further research.
+
+    **Correct answer: A.** This sequence matches exactly how the category's own cross-references describe these tools working together: the Usage-Based Pricing Model frames the predictability-versus-correlation trade-off and spectrum position, the Value Metric/WTP Framework identifies the usage unit and its persona-level pricing, Van Westendorp validates the resulting base fee's corridor, and Gabor-Granger finds the specific revenue-optimising overage rate.
+
+    *Why not B:* MaxDiff ranks relative importance with no price attached at all; it cannot identify a usage unit, validate a price corridor, or find a revenue-optimising rate on its own.
+
+    *Why not C:* Conjoint analysis isolates individual feature values; it does not classify pricing-spectrum trade-offs, validate a whole-product price corridor, or find a single SKU's revenue-optimising rate, each of which needs its own dedicated method.
+
+    *Why not D:* GBB structures tiers around personas but explicitly depends on other methods, Value Metric/WTP, Van Westendorp, Conjoint, to supply the underlying value metric, price validation, and feature-value evidence; it does not generate these itself.
+
+---
+
 ## Good-Better-Best (GBB) Packaging Framework
 
 **Type:** Framework.
@@ -49,6 +193,78 @@ Within two quarters of launch: 35% of new customers choose Starter, 52% choose G
 - No single originator is credited for Good-Better-Best packaging; it is a converged SaaS pricing practice documented across multiple pricing consultancies. The best-documented live version is Paddle, ["Pricing strategy guide: 7 types, examples, and how to choose"](https://www.paddle.com/resources/pricing-strategy) (accessed 2026)
 
 **See also:** Value Proposition Canvas (map what each persona values before assigning it to a tier); Segmentation–Targeting–Positioning (STP) Framework (define the personas that GBB tiers are built around); Product Differentiation Strategy Framework (ensure tier fences reflect genuine differentiation, not arbitrary limits); Van Westendorp Price Sensitivity Meter (validate the price ladder with real customer data before finalising tiers).
+
+**Quiz:**
+
+1. A single-price plan is losing deals at both ends: too expensive for small buyers, too basic for large ones. What should the team check first when building a Good-Better-Best structure?
+   - **A.** Whether there are three or more distinct buyer personas with different needs and willingness to pay, since GBB tiers are built around genuine persona differences, not an arbitrary three-way split.
+   - **B.** Whether the middle tier price should simply be set halfway between the smallest and largest customer's current spend.
+   - **C.** Whether the entry tier should be removed entirely to simplify the pricing page.
+   - **D.** Whether all customers should be moved to a single renegotiated flat price instead of building tiers at all.
+
+   **Correct answer: A.** The framework's first step is identifying genuinely distinct buyer personas with different needs, budgets, and decision-making processes; tiers only work if they map to real differences in who buys and what they need, not an arbitrary split of one blended price.
+
+   *Why not B:* Splitting the difference numerically ignores what each persona actually values and can pay; the framework calls for pricing against value received, not an average of existing informal prices.
+
+   *Why not C:* Removing the entry tier abandons the price-sensitive or small-buyer segment entirely rather than serving them with a genuinely usable, appropriately priced Good tier.
+
+   *Why not D:* A single flat price is exactly the structure failing at both ends already; the fix is building tiers around distinct personas, not consolidating back to one price.
+
+2. A company launches its Good tier with a one-project cap, reasoning this will push small customers to upgrade quickly. Small-team users complain publicly that the product is unusable, and word-of-mouth referrals drop. What pitfall does this describe?
+   - **A.** Crippling the entry tier to force upgrades; the fix is testing Good with real small-team users so it solves their core job completely, without the advanced features larger buyers need.
+   - **B.** Cost-plus pricing instead of value-based pricing; the fix is running a Willingness-to-Pay exercise for the Good tier specifically.
+   - **C.** Too many fences with unclear differentiation; the fix is consolidating Good and Better into a single tier.
+   - **D.** This is expected behaviour and the tier should remain unchanged, since some upgrade pressure at entry level is intentional.
+
+   **Correct answer: A.** Crippling the entry tier to force upgrades is a named pitfall: making Good so limited it's unusable frustrates genuine small-buyer use cases and damages word-of-mouth, particularly in self-serve motions. The fix is testing Good with real small-team users to confirm it solves their core job completely.
+
+   *Why not B:* The complaint described is about usability and restriction, not about price relative to value; a WTP exercise addresses pricing levels, not whether the tier's feature limits make it genuinely usable.
+
+   *Why not C:* The problem is not fence count or differentiation clarity between tiers; it is that the entry tier itself is too restricted to serve its intended small-buyer use case at all.
+
+   *Why not D:* The framework explicitly names this pattern as damaging, not intentional or acceptable; the fix is ensuring Good is genuinely usable, not preserving the restriction.
+
+3. A pricing team sets tier prices based entirely on what each tier costs the company to deliver, rather than researching what each persona is willing to pay. What risk does this create?
+   - **A.** Cost-plus pricing leaves money on the table in Best and prices out buyers in Good, since price should track the value the persona receives, not the delivery cost.
+   - **B.** There is no risk, since cost-plus pricing guarantees a healthy margin on every tier regardless of what customers are willing to pay.
+   - **C.** The risk applies only to the Best tier; Good and Better tiers are unaffected by a cost-plus approach.
+   - **D.** The fix is to raise all three tier prices uniformly by the same percentage.
+
+   **Correct answer: A.** Cost-plus pricing instead of value-based pricing is a named pitfall: pricing to cost rather than to value received leaves revenue on the table with high-value Best-tier buyers and simultaneously prices out price-sensitive Good-tier buyers. The fix is a Value Metric/Willingness-to-Pay exercise for each persona before finalising prices.
+
+   *Why not B:* A guaranteed margin per delivery cost does not mean the price is optimal; it can still be too low relative to what high-value buyers would pay, or too high relative to what price-sensitive buyers can afford, in either direction.
+
+   *Why not C:* The pitfall explicitly describes both ends of the ladder being mispriced, Best undervalued and Good overpriced, not a single-tier problem.
+
+   *Why not D:* A uniform percentage increase does not fix the underlying issue, that prices are anchored to cost rather than to each persona's actual willingness to pay; it would simply compound the existing mismatch.
+
+4. Two months after launch, a team notices 70% of new customers choose the Good tier, and almost none choose Best. What should this signal, according to the framework?
+   - **A.** The Better tier likely isn't compelling enough, or is priced too high relative to its value, and the Best tier's fences may not matter enough to buyers or lack sufficient enterprise-only value.
+   - **B.** This is a healthy, expected distribution and no action is needed.
+   - **C.** The Good tier should be removed immediately, since its popularity indicates it is undervalued relative to its true cost.
+   - **D.** The pricing page's visual design is the only thing that needs to change; the tier content itself is fine.
+
+   **Correct answer: A.** The framework explicitly names this distribution pattern as a diagnostic signal: a majority defaulting to Good suggests Better isn't compelling enough or is priced too high relative to its value, and near-zero Best adoption suggests its fences don't matter to buyers or it lacks enough differentiated, enterprise-only value.
+
+   *Why not B:* This distribution is explicitly flagged as a problem to investigate, not a healthy pattern; the framework's target distribution in its own example skews toward the middle tier capturing the majority of purchases.
+
+   *Why not C:* Popularity of the Good tier is a signal about the other tiers' compellingness and pricing, not evidence that Good itself is mispriced or should be removed.
+
+   *Why not D:* While comparison-table design matters, the framework attributes this pattern primarily to tier content and pricing, not visual presentation alone; a design fix would not address an underlying value or pricing gap.
+
+5. A team splits 20 features across three tiers with no clear organising logic, and prospects consistently stall on the comparison table without choosing a tier. What does the framework recommend?
+   - **A.** Limit each tier's headline differentiators to 3-5 items that map directly to a persona's biggest pain point, moving minor feature differences to a detailed comparison page.
+   - **B.** Add a fourth tier to better distribute the 20 features across more manageable groups.
+   - **C.** Remove the comparison table entirely and let prospects contact sales for feature details.
+   - **D.** List all 20 features identically across all three tiers to eliminate any confusion about differences.
+
+   **Correct answer: A.** Too many fences with unclear differentiation is a named pitfall: splitting many features across tiers with no clear logic causes buyers to stall rather than choose. The fix is limiting each tier's headline differentiators to 3 to 5 items tied to a persona's biggest pain point, moving minor differences to a secondary comparison page.
+
+   *Why not B:* Adding a fourth tier compounds the complexity problem rather than solving it; the fix is reducing the number of headline differentiators shown at once, not adding more tiers to sort features into.
+
+   *Why not C:* Removing the comparison table entirely eliminates the self-service decision-making the framework is built to enable; the fix is simplifying what the table highlights, not removing it.
+
+   *Why not D:* Identical features across all tiers eliminates any meaningful tier differentiation at all, which defeats the purpose of a tiered structure entirely.
 
 ---
 
@@ -104,6 +320,78 @@ Coverwell sets its launch price at $0.079/mile, just inside the OPP and comforta
 
 **See also:** Good-Better-Best (GBB) Packaging Framework (use PSM to validate the anchor price before building the tier ladder); Value Proposition Canvas (understand what drives willingness to pay before running the survey); Segmentation–Targeting–Positioning (STP) Framework (define the buyer segments to sample and analyse separately).
 
+**Quiz:**
+
+1. A team wants to price a genuinely new product category with no direct competitor to benchmark against, and internal leadership disagrees sharply on what the price should be. Which method directly addresses this?
+   - **A.** Van Westendorp Price Sensitivity Meter, since it finds the range of prices customers will accept without needing a competitor to benchmark against, using customer data to settle internal disagreement.
+   - **B.** Conjoint Analysis, since it is the fastest way to settle an internal pricing disagreement.
+   - **C.** MaxDiff Analysis, since it directly measures how much customers would pay for the new product.
+   - **D.** Usage-Based Pricing Model, since it always applies to genuinely new product categories regardless of context.
+
+   **Correct answer: A.** This is exactly PSM's named use case: setting a price for a new product with no direct competitor benchmark, and using customer data to settle an internal debate (sales wants it cheaper, finance wants it dearer) rather than guessing.
+
+   *Why not B:* Conjoint analysis is a heavier, more resource-intensive method for isolating individual feature values, not the fastest tool for settling a whole-product price debate; it is also the more expensive of the two for this specific question.
+
+   *Why not C:* MaxDiff ranks the relative importance of items with no price attached at all; it does not measure willingness to pay or produce a price range.
+
+   *Why not D:* The Usage-Based Pricing Model classifies pricing structures by what customers pay for; it does not itself determine what price level customers will accept for a new product.
+
+2. A survey shows respondents pricing wildly different mental products, and the resulting Van Westendorp corridor is unusable. What is the most likely cause?
+   - **A.** The product concept description shown to respondents was underspecified or overly abstract, so respondents priced different products in their heads.
+   - **B.** The sample size was too large, since PSM works best with fewer than 50 respondents.
+   - **C.** The four questions were asked in the wrong numerical order, which always produces unusable data regardless of concept clarity.
+   - **D.** The survey should have used a five-point purchase-intent scale instead of open-ended price questions.
+
+   **Correct answer: A.** Testing an underspecified or overly abstract concept is a named pitfall: without a concrete, specific product description, respondents price wildly different mental products, producing a meaningless corridor. The fix is a pilot with 5 to 10 respondents to confirm they understood the exact concept before running the full sample.
+
+   *Why not B:* PSM explicitly calls for at least 100 respondents, not fewer than 50; a larger sample is not the source of an unusable corridor, and too few responses is the named risk, not too many.
+
+   *Why not C:* The four Van Westendorp questions do have a specified order in this entry's guidance, but the described symptom, wildly different mental products, points specifically to concept clarity, not question sequencing.
+
+   *Why not D:* PSM is explicitly an open-ended price-question method, distinct from Gabor-Granger's fixed-price purchase-intent scale; switching formats does not address the actual problem, a poorly specified concept.
+
+3. A team runs a Van Westendorp study and finds the Optimal Price Point (OPP), then sets that number as the final launch price without any further analysis. What has been skipped?
+   - **A.** Sense-checking the OPP against margin, cost base, competitor moves, and strategic goals, since PSM tells you what customers will tolerate, not what your business needs to charge.
+   - **B.** Nothing has been skipped; the OPP is designed to be used directly as the final price with no further adjustment.
+   - **C.** The team should have used the Point of Marginal Cheapness instead, since it is always the correct final price.
+   - **D.** The team should re-run the same survey with a larger sample before accepting any result.
+
+   **Correct answer: A.** Treating the OPP as the final price without margin or strategy input is a named pitfall: PSM says nothing about cost base, competitor moves, or margin targets. The recovery is using the corridor as the acceptable-price boundary, then setting the actual price using cost, margin, and strategic goals as a second, separate step.
+
+   *Why not B:* The OPP is explicitly one data point in a corridor, not a final price on its own; the framework calls for further business judgement on top of it before finalising.
+
+   *Why not C:* The Point of Marginal Cheapness marks the lower risk boundary, not an automatically correct final price; both PMC and PME are the corridor's edges, not the recommended price itself.
+
+   *Why not D:* Sample size is not the issue described; the gap is the missing step of weighing business factors against the corridor, not statistical confidence in the corridor itself.
+
+4. A company runs Van Westendorp across its full customer base without separating SMB and enterprise respondents, and the resulting single corridor looks unremarkable. What risk does this blended approach create?
+   - **A.** The blended corridor can mask meaningfully different corridors by segment, leaving money on the table with a high-willingness-to-pay segment or pricing out a budget-constrained one.
+   - **B.** There is no risk, since Van Westendorp is specifically designed to produce one universal price regardless of segment differences.
+   - **C.** The risk applies only if the total sample size is below 100 respondents; above that threshold, blending segments is always safe.
+   - **D.** The fix is to run the survey twice with the exact same blended sample to confirm the result is stable.
+
+   **Correct answer: A.** Ignoring segment differences by blending all respondents into one corridor is a named pitfall: it averages away real differences and can leave revenue on the table with a high-willingness-to-pay segment while pricing out a budget-constrained one. The fix is analysing by segment separately whenever sample size allows.
+
+   *Why not B:* PSM is explicitly meant to be segmented when the sample spans multiple personas; the entry states different segments often produce meaningfully different corridors that a single blended analysis would hide.
+
+   *Why not C:* Sample size above 100 does not remove the risk of blending distinct segments; the concern is about averaging away real behavioural differences between segments, not about total respondent count alone.
+
+   *Why not D:* Repeating the same blended survey does not surface segment-level differences; the fix is analysing existing responses by segment, not re-running an identically structured blended study.
+
+5. A company runs Van Westendorp for its flagship product, gets a validated corridor, and ships a major new feature a year later that materially repositions the product. It continues using the original corridor without re-testing. What does the entry recommend?
+   - **A.** Re-run PSM whenever the product concept changes materially, since the corridor is tied to the specific concept respondents evaluated, not the product in the abstract.
+   - **B.** Continue using the original corridor indefinitely, since a validated Van Westendorp result does not need retesting once established.
+   - **C.** Only re-run PSM if a competitor changes their price, not in response to internal product changes.
+   - **D.** Switch to Gabor-Granger permanently instead of re-running PSM, since Gabor-Granger never needs to be repeated after a product change.
+
+   **Correct answer: A.** The entry explicitly calls for re-running PSM whenever the product concept changes materially, a major new feature, a shift in positioning, entry into a new market, since the corridor is tied to the exact concept respondents evaluated, not the product in the abstract.
+
+   *Why not B:* A corridor's validity depends on the specific concept tested; a materially repositioned product is effectively a different concept, and the entry explicitly warns against treating an old corridor as permanent.
+
+   *Why not C:* Competitor pricing changes are one trigger among several; the entry names product concept changes, like a major new feature, as an equally valid and explicit trigger for re-testing.
+
+   *Why not D:* Gabor-Granger is a distinct method answering a different question and is explicitly named elsewhere as needing re-runs whenever the product concept or competitive landscape shifts meaningfully; it is not a permanent substitute that avoids retesting.
+
 ---
 
 ## Value Metric / Willingness-to-Pay Framework
@@ -151,6 +439,78 @@ Pulsegrid rebuilds pricing around a per-server-monitored metric: $3/server/month
 - No single originator is credited for the value-metric concept; it is a converged SaaS pricing practice discussed independently by OpenView Partners, Price Intelligently/ProfitWell, Ibbaka, and Mark Stiving's Impact Pricing, none of whom claim to have coined it. The best-documented live version is Paddle, ["How to use value metrics to optimize pricing"](https://www.paddle.com/blog/value-metrics-pricing) (accessed 2026)
 
 **See also:** Good-Better-Best (GBB) Packaging Framework (use the value metric and persona clusters from this framework as the input for tier design); Van Westendorp Price Sensitivity Meter (use its four-question structure to run the WTP survey in step 3); Value Proposition Canvas (identify the outcome each persona buys for, which anchors the value axis of the matrix); Segmentation–Targeting–Positioning (STP) Framework (define the personas surveyed in step 1).
+
+**Quiz:**
+
+1. A company currently charges a flat monthly fee regardless of usage, and heavy users cost far more to serve than light users while paying the same amount. What question does this framework specifically answer that a Van Westendorp study would not?
+   - **A.** What unit should we charge for so that price scales naturally with the value a customer receives, rather than just what the whole product should cost.
+   - **B.** What is the single revenue-optimising price point across a small set of candidate prices.
+   - **C.** Which individual features are worth the most to customers in isolation from all others.
+   - **D.** How should pricing be classified along a spectrum from flat fee to fully variable.
+
+   **Correct answer: A.** This framework specifically answers "what should we charge for, and how should price scale as usage grows," a distinct question from Van Westendorp's "what should this cost overall." A flat fee decoupled from actual usage is exactly the mismatch this framework's value-metric selection process is built to fix.
+
+   *Why not B:* Finding the single revenue-optimising price among candidate prices is the Gabor-Granger Method's specific question, not this framework's; this framework is about choosing the right unit to charge for, not a single price point.
+
+   *Why not C:* Isolating individual feature values is Conjoint Analysis's specific question; this framework identifies the value metric (the unit of usage), not the value of specific features.
+
+   *Why not D:* Classifying the pricing spectrum is the Usage-Based Pricing Model's role; this framework is the process for selecting the actual value metric and running the WTP survey behind that classification.
+
+2. A team brainstorms three candidate value metrics: per-seat, per-transaction, and per-GB-stored. The WTP survey and value/matrix analysis show per-transaction correlates most strongly with perceived value, even though per-seat is far easier to bill today. What should the team do?
+   - **A.** Choose per-transaction as the value metric despite the added billing complexity, since a small one-time engineering cost to bill a better metric accurately is usually worth it against years of mispriced revenue.
+   - **B.** Choose per-seat regardless of the correlation finding, since ease of billing should always outweigh value correlation.
+   - **C.** Average the three candidate metrics together into a blended pricing formula.
+   - **D.** Delay the decision until a fourth candidate metric can be tested, since three candidates are never sufficient.
+
+   **Correct answer: A.** Choosing a value metric that's easy to bill but doesn't track value is a named pitfall; the framework calls for weighting the value/WTP correlation above ease of billing, since a modest one-time engineering investment in accurate billing is usually worth it against years of revenue that doesn't track actual value delivered.
+
+   *Why not B:* This is precisely the named pitfall the framework warns against: prioritising billing ease over which metric actually correlates with value leaves money mispriced for years.
+
+   *Why not C:* Blending metrics into one formula undermines the clarity the value/WTP matrix is designed to produce; the framework calls for selecting the single metric that best correlates with value, not averaging multiple candidates together.
+
+   *Why not D:* Three well-tested candidates with a clear correlation winner is sufficient evidence to act on; there is no requirement to test a fixed minimum number of candidates before deciding.
+
+3. A company decides to switch its billing to a new value metric that would, overnight, more than double the bills of 45 of its 340 existing customers, with no advance communication planned. What risk does this create?
+   - **A.** A value metric change that spikes existing customers' bills overnight is a churn risk; the fix is modelling the revenue impact first and grandfathering or phasing in affected accounts.
+   - **B.** There is no risk, since a genuinely fairer pricing metric always justifies an immediate, uncommunicated bill increase.
+   - **C.** The risk applies only to the 45 affected accounts' satisfaction scores, not to overall company revenue.
+   - **D.** The fix is to apply the new metric only to new customers and never revisit existing customer pricing at all.
+
+   **Correct answer: A.** Switching value metrics without modelling the impact on existing customers is a named pitfall: a metric that spikes bills overnight with no warning reads as a bait-and-switch and drives churn, even if the new metric is genuinely fairer. The fix is running the revenue-impact model first, then grandfathering or phasing in affected accounts with direct communication.
+
+   *Why not B:* Fairness of the new metric does not eliminate the churn and trust risk of an uncommunicated bill spike; the framework explicitly calls for modelling impact and communicating the change regardless of how justified the new metric is.
+
+   *Why not C:* An uncommunicated bill shock risks churn and public complaints that can affect the company's broader reputation and revenue, not just the 45 directly affected accounts' individual satisfaction.
+
+   *Why not D:* Applying the new metric only to new customers avoids the immediate risk but does not address whether existing customers' pricing should ever be updated; the framework's guidance is to model and phase in the transition, not simply exempt existing customers permanently.
+
+4. A team surveyed willingness to pay for its value metric two years ago and has not revisited it since, even though a major competitor has since repriced and the product has shipped a significant new capability. What does the framework recommend?
+   - **A.** Re-survey WTP annually or after a major product change, since willingness to pay drifts as the product, competitive landscape, and customer expectations shift.
+   - **B.** Continue using the two-year-old WTP data indefinitely, since willingness to pay is a stable, unchanging customer attribute once measured.
+   - **C.** Only re-survey WTP if churn has already increased noticeably, rather than proactively.
+   - **D.** Replace the WTP survey entirely with a Gabor-Granger study, since Gabor-Granger never needs repeating.
+
+   **Correct answer: A.** Surveying WTP once and treating it as permanent is a named pitfall: willingness to pay shifts as competitors reprice, the product adds value, or customer budgets change, and a two-year-old matrix may no longer reflect current reality. The fix is re-running the survey at least annually or immediately after a major competitive or product change.
+
+   *Why not B:* The framework explicitly treats WTP as something that drifts over time due to competitive and product changes; treating it as permanently stable contradicts this core guidance.
+
+   *Why not C:* Waiting for a visible churn increase is reactive; the framework calls for proactively re-surveying on a cadence and after named trigger events, not waiting for a lagging symptom to appear first.
+
+   *Why not D:* Gabor-Granger answers a different question (which specific price maximises revenue) and is itself explicitly named elsewhere as needing periodic re-runs; it is not a permanent substitute for this framework's ongoing WTP tracking.
+
+5. A value/WTP matrix shows one persona clusters high on the value axis (they receive substantial value from the product) but low on the willingness-to-pay axis. What does the framework suggest as the appropriate response?
+   - **A.** Consider a different packaging approach for that persona, such as lower-touch or self-serve, rather than simply cutting the price.
+   - **B.** Always raise the price for that persona, since high value received justifies a higher price regardless of their stated WTP.
+   - **C.** Drop that persona from consideration entirely, since low WTP indicates they are not a viable customer segment.
+   - **D.** Treat the low WTP score as a data error and re-run the survey with the same respondents until the result changes.
+
+   **Correct answer: A.** The framework specifically flags this cluster, high value but low WTP, as needing a different packaging approach, lower touch or self-serve, rather than a price cut; the mismatch between value received and willingness to pay suggests a delivery-model problem, not simply a pricing problem.
+
+   *Why not B:* High value received does not automatically justify a higher price if the persona's actual stated willingness to pay is low; ignoring that data point risks losing the segment rather than serving it appropriately.
+
+   *Why not C:* The framework treats this cluster as needing a different approach, not automatic disqualification; a lower-touch, self-serve model may still make this a viable, profitable segment.
+
+   *Why not D:* Re-running the same survey with the same respondents does not test a new hypothesis; the framework's guidance is to adjust the packaging approach for this cluster, not to treat the finding as an error to be resurveyed away.
 
 ---
 
@@ -202,6 +562,78 @@ Relaycore moves webhook retry logic into Growth and keeps the other three Enterp
 
 **See also:** Van Westendorp Price Sensitivity Meter (use for a faster, whole-product price corridor before committing budget to a full conjoint study); Value Metric / Willingness-to-Pay Framework (choose the unit to charge for; conjoint then prices the individual features within it); Good-Better-Best (GBB) Packaging Framework (feed conjoint's per-feature value estimates directly into tier fences and the price ladder); Segmentation–Targeting–Positioning (STP) Framework (define the personas sampled and analysed separately in the conjoint design); MaxDiff Analysis (a cheaper best-worst pre-study to narrow the feature list before committing to a full conjoint design).
 
+**Quiz:**
+
+1. Sales wants a specific premium feature restricted to Enterprise only, while product argues it should be available to everyone regardless of tier, and neither side has evidence for their position. Which method resolves this?
+   - **A.** Conjoint Analysis, since it isolates how much each persona actually values the specific feature in question, in price terms, independent of internal opinion.
+   - **B.** Van Westendorp Price Sensitivity Meter, since it is the fastest way to settle a feature-placement dispute.
+   - **C.** Gabor-Granger Method, since it is designed specifically for deciding which tier a feature belongs in.
+   - **D.** Usage-Based Pricing Model, since it classifies which features should be usage-metered versus flat-fee.
+
+   **Correct answer: A.** This is exactly conjoint analysis's named use case: an internal dispute about which roadmap feature should be premium-only, with genuine disagreement about which one buyers would actually pay more for, resolved by isolating each feature's standalone value to each persona through the bundle-choice methodology.
+
+   *Why not B:* Van Westendorp answers a whole-product pricing question, not which individual feature justifies moving a customer up a tier; it does not isolate feature-level value.
+
+   *Why not C:* Gabor-Granger finds the revenue-optimising price for a single SKU or product; it does not isolate the value of individual features within a bundle.
+
+   *Why not D:* The Usage-Based Pricing Model classifies how pricing tracks usage broadly; it has no mechanism for resolving a dispute about a specific feature's tier placement.
+
+2. A team runs a conjoint study, gets part-worth utility estimates for four features, and immediately treats the exact dollar figures as guaranteed real-world pricing outcomes without any further validation. What pitfall does this describe?
+   - **A.** Treating part-worth utilities as an exact price rather than a directional signal; the fix is validating the winning scenario with a smaller live pricing test before rolling out to the full base.
+   - **B.** Testing too many attributes or price levels to keep respondents engaged; the fix is running a MaxDiff pre-study.
+   - **C.** Skipping the market simulation and reading part-worths feature by feature; the fix is running the step 8 simulation.
+   - **D.** This is not a pitfall; part-worth estimates are designed to be used directly as final prices with no further validation needed.
+
+   **Correct answer: A.** Treating part-worth utilities as an exact price rather than a directional signal is a named pitfall: a part-worth model estimates relative preference under survey conditions, not a guarantee of real buyer behaviour with a real budget. The fix is validating the winning scenario with a smaller live pricing test before full rollout.
+
+   *Why not B:* This scenario does not describe an overloaded survey design; it describes over-trusting the resulting estimates as literal, guaranteed prices, a separate, later-stage pitfall.
+
+   *Why not C:* The scenario describes treating individual part-worths as literal prices, not necessarily skipping the simulation step entirely; the core issue here is over-interpreting the numbers' certainty, not the specific analytical step skipped.
+
+   *Why not D:* The entry is explicit that part-worths require validation through simulation and live testing before being treated as reliable real-world prices; direct, unvalidated use is exactly the named pitfall.
+
+3. A team looks at each feature's standalone part-worth value individually and decides on a bundling strategy without ever running a full-scenario simulation. What risk does this create?
+   - **A.** A bundle that looks optimal feature by feature can still lose to a different combination once buyers see the whole package and its total price, since features interact.
+   - **B.** There is no risk, since individual part-worths always sum cleanly to predict how a full bundle will perform.
+   - **C.** The risk only matters if fewer than four features are being considered for bundling.
+   - **D.** The fix is to increase the number of price levels tested per feature, not to run a simulation.
+
+   **Correct answer: A.** Skipping the market simulation and reading part-worths feature by feature is a named pitfall: looking at standalone values in isolation misses how features interact, and a bundle optimal feature by feature can still lose to a different combination once buyers evaluate the whole package and its total price.
+
+   *Why not B:* The entry explicitly warns that features interact in ways individual part-worths do not capture; summing them individually does not reliably predict how a full bundle performs against buyers.
+
+   *Why not C:* The interaction risk applies regardless of how many features are being considered; even a small number of features can interact in ways a feature-by-feature read misses.
+
+   *Why not D:* Adding more price levels addresses a different concern (attribute/price-level overload); it does not address the missing step of simulating full bundle scenarios against each other.
+
+4. A team wants to test 15 candidate features in a single conjoint study to save time, rather than narrowing the list first. What does the methodology suggest?
+   - **A.** Run a smaller pre-study, such as MaxDiff Analysis, to cut the candidate list down to the features genuinely still in question before designing the full conjoint.
+   - **B.** Proceed directly with all 15 features, since conjoint analysis performs equally well regardless of how many attributes are tested.
+   - **C.** Reduce the sample size instead of the feature count, since fewer respondents compensate for a longer attribute list.
+   - **D.** Skip the choice-based conjoint design entirely and use a simple ranking survey instead for all 15 features.
+
+   **Correct answer: A.** Testing too many attributes overwhelms respondents and degrades data quality; the methodology's explicit recovery is running a smaller pre-study, like MaxDiff Analysis, a cheaper best-worst ranking method, to narrow the list to roughly 6 or fewer genuinely contested features before designing the full conjoint.
+
+   *Why not B:* The methodology explicitly caps recommended attributes at roughly 4 to 6; beyond that, response quality degrades sharply as respondents start satisficing, so more attributes is not a neutral trade-off.
+
+   *Why not C:* Reducing sample size addresses statistical power, not the respondent fatigue and satisficing caused by too many attributes; the fix is narrowing the feature list itself, not the number of respondents.
+
+   *Why not D:* Switching to a simple ranking survey loses the price-trade-off structure that makes conjoint analysis specifically useful for pricing decisions; the recommended fix is a MaxDiff pre-study, not abandoning conjoint's design entirely.
+
+5. A conjoint study is run using hand-built bundles the research team assembled themselves, rather than a randomised design generated by conjoint software. What is the risk?
+   - **A.** A non-randomised design confounds features with each other, making the resulting part-worth estimates unusable.
+   - **B.** There is no risk, since hand-building bundles is the standard, recommended approach for choice-based conjoint design.
+   - **C.** The risk applies only to the price attribute, not to the other tested features.
+   - **D.** Hand-built bundles are acceptable as long as the sample size exceeds 150 respondents per segment.
+
+   **Correct answer: A.** The methodology explicitly warns against hand-building bundles: a non-randomised design confounds the features with each other, since each feature and price level needs to appear often enough, and in enough balanced combinations, for the statistical model to isolate its individual effect.
+
+   *Why not B:* The methodology explicitly calls for using conjoint software (Sawtooth, Qualtrics Conjoint, or similar) to generate a statistically balanced design, not hand-building bundles, which is named as a specific risk to avoid.
+
+   *Why not C:* Confounding from a non-randomised design affects the ability to isolate any feature's or the price attribute's individual effect; the risk is not limited to price alone.
+
+   *Why not D:* A larger sample size does not fix a confounded, non-randomised bundle design; the underlying statistical problem is in how the bundles were constructed, not how many respondents saw them.
+
 ---
 
 ## Gabor-Granger Method
@@ -249,6 +681,78 @@ Vaultline sets the new price at $22/month, just below the modelled peak to leave
 - Sawtooth Software, ["Gabor-Granger Pricing Method: Definition, How It Works, Examples, and More"](https://sawtoothsoftware.com/resources/blog/posts/gabor-granger-pricing-method) (accessed 2026), documenting current market-research practice for running the method and treating stated purchase intent
 
 **See also:** Van Westendorp Price Sensitivity Meter (run first to find the acceptable price corridor; Gabor-Granger then finds the specific revenue-optimising point inside it); Value Metric / Willingness-to-Pay Framework (use when the question is what to charge for, not which specific price to charge); Conjoint Analysis (use instead when the decision is about which individual features justify a price change, not a single SKU's price); Good-Better-Best (GBB) Packaging Framework (feed the recommended price into a tier's anchor price where relevant).
+
+**Quiz:**
+
+1. Leadership has narrowed a price-increase decision to two specific candidate prices, $19 and $25, for a single add-on SKU, and needs to know which one maximises revenue. Which method directly answers this?
+   - **A.** Gabor-Granger Method, since it tests specific candidate prices against purchase intent and identifies the revenue-optimising point among them.
+   - **B.** Van Westendorp Price Sensitivity Meter, since it is designed specifically to choose between two named candidate prices.
+   - **C.** MaxDiff Analysis, since it ranks which price point customers consider most important.
+   - **D.** Conjoint Analysis, since a single SKU price decision always requires isolating individual feature values first.
+
+   **Correct answer: A.** This is exactly Gabor-Granger's named use case: a small number of specific candidate prices already on the table, needing a choice between them rather than an open-ended range, answered by tracing a demand curve and reading off the revenue-maximising point.
+
+   *Why not B:* Van Westendorp discovers an open-ended acceptable price range, not a choice between two specific named candidates; it answers a different, earlier question than the one posed here.
+
+   *Why not C:* MaxDiff ranks the relative importance of items with no price attached at all; it cannot compare specific price points against each other.
+
+   *Why not D:* Conjoint analysis isolates the value of individual features within a bundle; a single SKU with no features to unbundle does not need this heavier, more expensive method.
+
+2. A Gabor-Granger study shows 78% of respondents would buy at the current $15 price. The team treats this figure as a literal, guaranteed prediction of actual purchase behaviour. What pitfall does this describe?
+   - **A.** Treating stated purchase intent as a guarantee of actual behaviour; the fix is applying a conservatism discount and validating with a smaller live test.
+   - **B.** Assuming a flat, unsegmented demand curve when the sample spans very different buyer types; the fix is segmenting by persona.
+   - **C.** Testing too narrow or poorly anchored a price range; the fix is widening the candidate price points.
+   - **D.** This is not a pitfall; stated purchase-intent percentages in Gabor-Granger studies always match real-world conversion rates exactly.
+
+   **Correct answer: A.** Treating stated purchase intent as a guarantee of actual behaviour is a named pitfall: respondents answering a hypothetical question tend to overstate true willingness to buy, particularly at low prices. The fix is applying a conservatism discount to top-box responses and validating with a live price test before full rollout.
+
+   *Why not B:* This scenario describes over-trusting a stated percentage at the current price, not a segmentation problem; segmentation addresses a different risk, blending distinct buyer types together.
+
+   *Why not C:* Range anchoring concerns whether the tested prices bracket the true revenue-maximising point; the issue here is interpreting a stated intent figure as literal fact, a distinct problem.
+
+   *Why not D:* The entry explicitly warns that stated intent tends to overstate real behaviour, particularly at low prices where saying yes costs the respondent nothing; treating the figure as an exact match to real conversion is exactly the named pitfall.
+
+3. A revenue curve is built from a Gabor-Granger study without segmenting by company size, and the resulting recommended price undershoots what enterprise respondents would pay while still being too high for SMB respondents. What does the entry recommend?
+   - **A.** Segment the demand and revenue curves by persona or firmographic band whenever sample size allows, since a single blended curve can hide meaningfully different segment behaviour.
+   - **B.** Accept the single blended price as the correct compromise for both segments, since a compromise price always serves mixed audiences best.
+   - **C.** Discard the study entirely and switch to Van Westendorp instead, since Gabor-Granger cannot be segmented under any circumstances.
+   - **D.** Increase the number of price points tested, without segmenting the existing data by persona.
+
+   **Correct answer: A.** Assuming a flat, unsegmented demand curve when the sample spans very different buyer types is a named pitfall, illustrated directly in the entry's own example; the fix is always segmenting by persona or firmographic band when sample size allows, and considering a segmented or tiered price if the curves diverge meaningfully.
+
+   *Why not B:* A single blended price is explicitly shown, in the entry's own worked example, to undershoot high-value segments while still being too high for price-sensitive ones; it is not framed as an acceptable compromise.
+
+   *Why not C:* Gabor-Granger explicitly supports segmentation as a named step; discarding the method entirely is unnecessary when the fix is simply re-analysing the existing data by segment.
+
+   *Why not D:* Adding more price points does not address the blending problem; the fix is analysing the data already collected separately by segment, not expanding the tested range.
+
+4. A price increase study tests five price points, all clustered in a narrow range near the current price, and the resulting "peak" sits at the very edge of the tested range. What does this suggest?
+   - **A.** The price range may not bracket the true revenue-maximising price; the "peak" found could just be the edge of the test range rather than the actual optimum.
+   - **B.** The result is definitively accurate, since a peak found at the edge of any tested range is always the true optimal price.
+   - **C.** The study should be abandoned entirely rather than re-run with a wider range.
+   - **D.** This pattern indicates the sample size, not the price range, needs to be increased.
+
+   **Correct answer: A.** Testing too narrow or poorly anchored a price range is a named pitfall: if the candidate prices don't bracket the true revenue-maximising price, the peak found is just the edge of the test range, not the actual optimum. The fix is anchoring the range using a Van Westendorp corridor or piloting a wider spread first.
+
+   *Why not B:* A peak at the very edge of a tested range is exactly the named warning sign that the true optimum likely lies outside the tested prices, not confirmation of an accurate result.
+
+   *Why not C:* The fix is re-running with a wider, better-anchored price range, not abandoning the research approach entirely.
+
+   *Why not D:* Sample size affects how noisy the curve is at each price point, not whether the tested range itself brackets the true peak; the issue here is range selection, not respondent count.
+
+5. A company is about to raise the price of an existing add-on and wants to confirm the increase won't cross a point where demand falls off a cliff, something the last pricing study, run over a year ago, never tested. What does the entry recommend?
+   - **A.** Re-run the Gabor-Granger study immediately before the planned increase, since the method should be re-run whenever the product, competitive landscape, or cost base shifts meaningfully, and always before a planned price increase.
+   - **B.** Skip re-testing, since a Gabor-Granger study's results remain valid indefinitely once conducted.
+   - **C.** Rely solely on the original study's revenue curve, since demand cliffs cannot be detected by this method under any circumstances.
+   - **D.** Switch to MaxDiff Analysis instead, since it is the only method capable of detecting a demand cliff.
+
+   **Correct answer: A.** The entry explicitly recommends re-running Gabor-Granger whenever the product, competitive landscape, or cost base shifts meaningfully, and always immediately before a planned price increase, specifically to confirm the new price does not cross a demand cliff the last study did not test.
+
+   *Why not B:* The entry treats results as time-bound to the conditions tested; a study run over a year ago, especially one that never tested near the planned new price, cannot be assumed to still hold.
+
+   *Why not C:* Gabor-Granger's demand curve is precisely the tool that reveals where demand drops sharply (a cliff); the issue here is that the specific higher price point was never tested, not that the method cannot detect this pattern.
+
+   *Why not D:* MaxDiff ranks relative importance with no price attached; it cannot detect a demand cliff at a specific price point, which is exactly what Gabor-Granger's demand curve is built to reveal.
 
 ---
 
@@ -308,6 +812,78 @@ Sendlayer settles on a hybrid position: a $19/month base fee including 10,000 em
 
 **See also:** Value Metric / Willingness-to-Pay Framework (use its persona and value-scaling discovery process to identify the usage unit and set the base fee and allowance); Good-Better-Best (GBB) Packaging Framework (a hybrid usage-based model often sits inside a GBB tier structure, with usage allowances scaled by tier); Van Westendorp Price Sensitivity Meter (validate the base fee's price corridor before finalising a hybrid structure); Gabor-Granger Method (find the revenue-optimising base fee or per-unit rate once the usage unit is chosen).
 
+**Quiz:**
+
+1. A company's smallest customers feel overcharged by a flat monthly fee, while its heaviest users cost far more to serve than they pay. Leadership wants to know whether moving toward usage-based pricing would help, and by how much. What should the team do first, according to this model?
+   - **A.** Name the specific problem a move would solve, since usage-based pricing solves nameable problems like this mismatch, and if no such symptom can be named, the move should not happen.
+   - **B.** Move immediately to pure usage-based pricing, since it always maximises both revenue predictability and usage-value correlation simultaneously.
+   - **C.** Skip diagnosis and go straight to building metering infrastructure, since infrastructure is always the first constraint regardless of the underlying pricing question.
+   - **D.** Adopt per-seat pricing instead, since it is the simplest structure to bill accurately.
+
+   **Correct answer: A.** The model's third step is diagnosing the specific problem a move would solve, heavy users under-billed relative to cost to serve, small buyers priced out by a high floor, or flat expansion revenue; this scenario names exactly such symptoms, which is the necessary first step before considering any specific structural change.
+
+   *Why not B:* The model is explicit that no point on the spectrum maximises both revenue predictability and usage-value correlation simultaneously; that trade-off is the central judgement the model exists to make explicit, not something pure usage-based pricing resolves.
+
+   *Why not C:* Metering infrastructure is a later, critical step, but the model calls for diagnosing the actual problem and choosing a position on the spectrum first, before committing to the specific infrastructure a chosen model would require.
+
+   *Why not D:* Per-seat pricing is explicitly named as poorly correlated with value where usage scales with infrastructure or output rather than headcount, which is exactly the mismatch described in this scenario.
+
+2. A team decides to move to usage-based pricing and sets a launch date six weeks out, assuming the billing team can adapt the existing flat-fee invoicing system in time. What does the model warn is the most common failure in this kind of transition?
+   - **A.** Underestimating the metering and billing infrastructure required for accurate, near-real-time usage tracking and variable invoicing, which is the most common cause of a launch slipping or shipping with billing errors.
+   - **B.** Choosing a usage unit that is too easy for customers to predict and control.
+   - **C.** Communicating the change too far in advance of the actual launch date.
+   - **D.** Setting the base fee too low relative to the allowance included.
+
+   **Correct answer: A.** The model explicitly names this as the most common cause of a usage-based pricing launch slipping by a quarter or more, or shipping with billing errors that damage trust: underestimating the engineering lift required for accurate, near-real-time metering and variable invoicing.
+
+   *Why not B:* The model actually warns against the opposite, choosing a unit customers cannot predict or control, since that reads as punitive; ease of prediction and control is a goal, not a risk, for the chosen unit.
+
+   *Why not C:* Communicating a pricing change well in advance is explicitly recommended, not a risk; the model warns against under-communicating and causing invoice shock, the opposite problem.
+
+   *Why not D:* Base fee and allowance calibration is a real design decision, but it is not named as the most common cause of a usage-based launch failing; the infrastructure underestimation is explicitly called out as the most common cause.
+
+3. A company chooses to meter a background process invisible to the customer as its usage-based billing unit, reasoning it accurately reflects infrastructure cost. Customers begin filing complaints about unpredictable bills. What pitfall does this describe?
+   - **A.** Choosing a usage unit customers cannot predict or control, which reads as punitive rather than fair; the fix is metering a unit the customer directly initiates and can see in real time.
+   - **B.** Moving to usage-based pricing without adequate metering and billing infrastructure.
+   - **C.** Under-communicating the change and causing invoice shock; the fix is simply sending an email before the change goes live.
+   - **D.** This is expected and unavoidable, since all usage-based metrics inevitably feel unpredictable to customers regardless of visibility.
+
+   **Correct answer: A.** Choosing a usage unit customers cannot predict or control is a named pitfall: if the unit driving the bill is invisible to the buyer, such as a background process or an automatically retried API call, usage-based pricing reads as punitive rather than fair. The fix is choosing a unit the customer directly initiates and can see in real time, or metering a more visible proxy unit instead.
+
+   *Why not B:* The problem described is specifically about unit visibility and predictability, not whether the underlying metering infrastructure itself is technically accurate or capable; the complaints stem from the customer's inability to see or control the metered unit.
+
+   *Why not C:* An email notification does not fix an inherently invisible or uncontrollable unit; the deeper fix is choosing a different, visible unit, not simply better communication about an unpredictable one.
+
+   *Why not D:* The model explicitly treats unpredictability as avoidable through a specific, correctable choice, a visible, customer-controlled unit, not as an inevitable feature of all usage-based pricing.
+
+4. A finance team is evaluating a proposed move from flat-fee to pure usage-based pricing and is concerned about forecasting reliability for an upcoming funding round. What does the model say this concern reflects?
+   - **A.** The revenue-predictability axis, one of the two axes the model uses to evaluate any position on the pricing spectrum, which decreases as pricing moves toward the fully variable end.
+   - **B.** An unfounded concern, since usage-based pricing always improves revenue predictability compared with flat-fee pricing.
+   - **C.** A concern that only applies to per-seat pricing, not to usage-based models.
+   - **D.** A problem that has no bearing on which position on the spectrum a company should choose.
+
+   **Correct answer: A.** Revenue predictability is one of the model's two core axes; moving toward the fully variable end of the spectrum increases usage-value correlation but decreases how confidently finance can forecast next quarter's revenue, exactly the trade-off finance's concern reflects.
+
+   *Why not B:* The model explicitly states the opposite: usage-based pricing decreases revenue predictability compared with flat-fee or per-seat models, precisely because bills vary with a business cycle the company does not control.
+
+   *Why not C:* Revenue predictability applies across the whole spectrum, not only to per-seat pricing; it is one of the two axes used to evaluate any pricing position, flat fee through pure usage-based.
+
+   *Why not D:* The model explicitly names revenue predictability as a central, deciding factor, frequently the reason a company chooses a hybrid model over a pure usage-based move even when correlation would improve.
+
+5. A company settles on a hybrid model, a base fee covering an included usage allowance plus overage billed on top, rather than moving to pure usage-based pricing. What does this choice typically reflect, according to the model?
+   - **A.** The dominant real-world pattern for balancing some revenue predictability with usage-value correlation for the heaviest users, rather than maximising one axis at the total expense of the other.
+   - **B.** A failure to fully commit to usage-based pricing, since only a pure usage-based model can solve a mismatch between price and value.
+   - **C.** An approach that eliminates the need for any usage metering infrastructure at all.
+   - **D.** A temporary stopgap that should always be replaced with pure usage-based pricing within a year.
+
+   **Correct answer: A.** The model explicitly names the hybrid position, a base fee plus usage overage, as the dominant real-world pattern for companies needing some revenue predictability while still tracking heavy usage, reflecting the deliberate trade-off between the two axes rather than a compromise to be corrected.
+
+   *Why not B:* A hybrid model is presented as a legitimate, common, and often optimal choice on the spectrum, not a failure to commit; the model explicitly frames it as solving real problems while managing the predictability trade-off.
+
+   *Why not C:* A hybrid model still requires metering the usage portion past the included allowance; it does not eliminate the need for metering infrastructure, only reduces its scope relative to pure usage-based pricing.
+
+   *Why not D:* The model does not frame hybrid pricing as a temporary stopgap with an expiry date; it is presented as a deliberate, often permanent position chosen for its balance of predictability and correlation.
+
 ---
 
 ## MaxDiff Analysis (Best-Worst Scaling)
@@ -345,3 +921,75 @@ Sendlayer settles on a hybrid position: a $19/month base fee including 10,000 em
 - Jordan J. Louviere and George Woodworth developed the method in an unpublished 1983 (some sources date it 1990-91) working paper at the University of Alberta that was never formally published; it has since been documented extensively in market-research literature, most authoritatively in Jordan J. Louviere, Terry N. Flynn, and A.A.J. Marley, [*Best-Worst Scaling: Theory, Methods and Applications*](https://books.google.com/books/about/Best_Worst_Scaling.html?id=UlrHCgAAQBAJ), Cambridge University Press (2015)
 
 **See also:** Conjoint Analysis (the natural next step once MaxDiff has narrowed a long feature list to the genuinely contested items worth pricing rigorously); Van Westendorp Price Sensitivity Meter (a whole-product price corridor method, useful once MaxDiff has confirmed which product concept to price); Good-Better-Best (GBB) Packaging Framework (feed MaxDiff's importance ranking into deciding which features anchor which tier).
+
+**Quiz:**
+
+1. A team has 18 candidate features it wants to test in a full Conjoint Analysis study, but recognises this is far more than conjoint can handle rigorously. What should happen first?
+   - **A.** Run a MaxDiff Analysis to rank all 18 items by relative importance and narrow the list to the genuinely contested few before designing the full conjoint study.
+   - **B.** Proceed directly with the 18-item conjoint study, since MaxDiff is only useful after a conjoint study, not before one.
+   - **C.** Skip both methods and ask internal stakeholders to vote on which features matter most.
+   - **D.** Run a Van Westendorp study instead, since it is designed to reduce feature lists to a manageable size.
+
+   **Correct answer: A.** This is exactly MaxDiff's named role: it is the standard pre-study for narrowing a longer feature list down to the genuinely contested few before committing to a full conjoint design, since conjoint's data quality degrades sharply past roughly 6 attributes.
+
+   *Why not B:* MaxDiff is specifically positioned as the pre-study that comes before conjoint, not after; proceeding directly with 18 items in a conjoint study is exactly the overload the pre-study is meant to prevent.
+
+   *Why not C:* An internal stakeholder vote reflects opinion, not customer evidence; MaxDiff is specifically valuable because it produces a forced ranking based on actual customer responses rather than internal preference.
+
+   *Why not D:* Van Westendorp answers a whole-product pricing question and does not rank or narrow feature lists at all; it is not the tool for reducing a long list of candidate features.
+
+2. A team runs a rating-scale survey on 15 candidate messaging claims, asking respondents to rate each one's importance from 1 to 5. Nearly every claim scores "somewhat important," and the team cannot distinguish which claims actually matter most. What does this entry suggest instead?
+   - **A.** MaxDiff Analysis, since a forced best-worst choice produces genuine differentiation between items, unlike a rating scale where everything tends to cluster at "somewhat important."
+   - **B.** A larger rating-scale survey with more respondents, since the original sample size was likely too small to produce differentiation.
+   - **C.** Conjoint Analysis, since it is always the correct replacement for a failed rating-scale exercise regardless of whether price is relevant.
+   - **D.** Abandoning quantitative research entirely in favour of a single internal workshop discussion.
+
+   **Correct answer: A.** This is exactly the named problem MaxDiff solves: a rating scale tends to cluster most items at "somewhat important" and fails to differentiate, while MaxDiff's forced best-worst choice across repeated subsets produces a genuine, differentiated ranking of the full list.
+
+   *Why not B:* More respondents would not fix the underlying issue; a rating scale's tendency to cluster ratings is a structural property of the method itself, not a sample-size problem.
+
+   *Why not C:* Conjoint analysis specifically tests feature-and-price trade-offs; it is a heavier, price-focused method, not the natural fix for a rating-scale importance-ranking problem where no price question is involved.
+
+   *Why not D:* Abandoning quantitative research loses the evidence-based ranking a structured method like MaxDiff would provide; the entry recommends switching methods, not abandoning research entirely.
+
+3. A team runs a MaxDiff study, gets a clear importance ranking, and then uses that ranking directly to set the price of the top-ranked feature. What is wrong with this approach?
+   - **A.** MaxDiff's importance ranking says nothing about how much customers would pay for any item, since no price is ever shown; the ranking should instead decide which items are worth pricing rigorously with a method like Conjoint Analysis.
+   - **B.** Nothing is wrong; MaxDiff scores are already expressed in currency terms and can be used directly as prices.
+   - **C.** The team should have used a larger MaxDiff sample size specifically to generate price estimates.
+   - **D.** MaxDiff should never be used before any pricing decision under any circumstances.
+
+   **Correct answer: A.** Treating MaxDiff's importance ranking as a price signal is a named pitfall: MaxDiff ranks relative importance with no price ever shown to respondents. The fix is using MaxDiff to decide which items are worth pricing rigorously, then handing the narrowed list to Conjoint Analysis, Van Westendorp, or Gabor-Granger to actually answer the pricing question.
+
+   *Why not B:* MaxDiff scores are relative importance measures (most minus least selected), not currency figures; they carry no price information regardless of scale or sample size.
+
+   *Why not C:* No amount of additional sample size converts a relative importance score into a price estimate; MaxDiff's survey design never asks about price at all, so scaling up sample size does not add that missing dimension.
+
+   *Why not D:* MaxDiff is explicitly useful before a pricing decision, specifically to narrow which items are worth pricing rigorously with another method; it is a valid and recommended precursor step, just not a pricing method itself.
+
+4. A team wants to prioritise five candidate messaging claims for a Message Architecture refresh and considers running a full MaxDiff study to rank them. What does the entry suggest about this specific use case?
+   - **A.** For a very short list like five items, a simpler direct ranking question gets a comparable answer without the survey-design overhead MaxDiff requires.
+   - **B.** MaxDiff should always be used regardless of list length, since it always produces more reliable results than any simpler ranking method.
+   - **C.** Five items is the exact minimum threshold required before MaxDiff can be used at all.
+   - **D.** A rating scale should be used instead, since it is more reliable than either MaxDiff or direct ranking for short lists.
+
+   **Correct answer: A.** Running MaxDiff with too short a candidate list is a named pitfall: MaxDiff's advantage is handling longer lists (10-plus items) that a rating scale would compress into an undifferentiated cluster; for a very short list of four or five items, a simpler direct ranking question gets a comparable answer without the added survey-design overhead.
+
+   *Why not B:* The entry explicitly reserves MaxDiff for lists of roughly 10 items or more; for shorter lists, it recommends a simpler ranking exercise instead, not defaulting to MaxDiff regardless of length.
+
+   *Why not C:* Five items is described as below the threshold where MaxDiff's advantages apply, not a minimum requirement; the entry's guidance is to use direct ranking for lists this short, not MaxDiff.
+
+   *Why not D:* A rating scale is explicitly named elsewhere as producing poor differentiation, clustering most items at "somewhat important"; it is not recommended as more reliable than ranking for a short list.
+
+5. A MaxDiff study surveys both small-team owners and mid-market operations managers together and reports one blended importance ranking. The two personas' underlying preferences are, in reality, quite different. What risk does the blended reporting create?
+   - **A.** A single blended score can average away a genuine, actionable difference between personas, masking distinct priorities that should inform separate messaging or roadmap decisions.
+   - **B.** There is no risk, since MaxDiff results are inherently robust to blending different personas together.
+   - **C.** The risk applies only if fewer than 100 total respondents participated in the study.
+   - **D.** The fix is to run the exact same blended survey a second time to confirm the ranking is stable.
+
+   **Correct answer: A.** Reading the blended, unsegmented ranking when personas diverge is a named pitfall, illustrated directly in the entry's own example: two personas ranked the same list very differently, and a single blended score can average away a genuine, actionable difference between them.
+
+   *Why not B:* The entry explicitly warns that blended scores can mask real, actionable persona-level differences; MaxDiff is not immune to this risk simply because of its forced-choice design.
+
+   *Why not C:* The risk of masking persona differences exists regardless of total respondent count above the minimum threshold; the issue is whether the analysis is segmented, not the overall sample size.
+
+   *Why not D:* Repeating the same blended survey does not surface the segment-level differences; the fix is scoring separately by persona when the sample allows, not re-running an identically blended study.
