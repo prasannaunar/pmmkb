@@ -122,9 +122,9 @@ In the source markdown, the correct option is always written as **A** for every 
 - [x] Decide open implementation questions above (source-of-truth format, category quiz file location; web app interactivity deferred).
 - [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries have a 5-question `**Quiz:**` section; 10-question `## Category Quiz` at the top of `frameworks/03-competitive-strategy.md`. 35 questions total.
 - [x] **Category 1: Market & Customer Understanding — done (2026-09-06).** All 8 entries (STP, Complete Product Experience, Product Development Stage, Voice of the Customer, JTBD Switch Interview, ICP Development, Sean Ellis 40% Test, MAP Model) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/01-market-customer-understanding.md`. 50 questions total.
-- [ ] Category 2: Positioning & Messaging (12 entries) — not started.
+- [x] **Category 2: Positioning & Messaging — done (2026-09-06).** All 12 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/02-positioning-messaging.md`. 70 questions total.
 - [ ] Category 4: Go-to-Market & Launch (11 entries) — not started.
-- [ ] Category 5: Lifecycle & Workflow (3 entries) — not started.
+- [x] **Category 5: Lifecycle & Workflow — done (2026-09-06).** All 3 entries (PMM Lifecycle Management, Go-to-Market Motion, Feature Adoption) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/05-lifecycle-workflow.md`. 25 questions total.
 - [ ] Category 6: Product Experience & Adoption (7 entries) — not started.
 - [ ] Category 7: Strategy & Planning (7 entries) — not started.
 - [ ] Category 8: Pricing & Packaging (7 entries) — not started.
