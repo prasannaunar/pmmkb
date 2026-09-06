@@ -40,7 +40,10 @@ Workstreams 1-5 of that plan are complete (attribution, branding, structural cha
 
 ### Web app: Phase 7 quiz feature (future, not started)
 
-Layered on top of the stable web app. No user accounts, no gating, no personalisation. See Phase 7 below for the full sketch (data model, question style, session-only state, inline plus standalone quiz modes).
+Layered on top of the stable web app. No user accounts, no gating, no personalisation. Full content specification (counts, cognitive level, format, distractor quality, feedback, category-quiz rules, style rules) is locked in [QUIZ-SPEC.md](QUIZ-SPEC.md); resume any interrupted build from that file's "Build progress" checklist. See Phase 7 below for the implementation sketch (data model, session-only state, inline plus standalone quiz modes) and QUIZ-SPEC.md's "Open implementation questions" for what's still undecided.
+
+- [ ] Resolve QUIZ-SPEC.md's open implementation questions (source-of-truth format for quiz content, category-quiz file location, web app interactivity approach).
+- [ ] Pilot one entry quiz and one category quiz end-to-end before scaling to all 66 entries + 9 categories.
 
 ### Archival follow-through
 
@@ -330,12 +333,13 @@ The knowledge base is being deployed as a web app for public consumption.
 
 ### Phase 7: Quiz Feature (Future)
 
-Layered on top of the stable web app. No user accounts, no gating, no personalisation.
+Layered on top of the stable web app. No user accounts, no gating, no personalisation. Content specification: [QUIZ-SPEC.md](QUIZ-SPEC.md).
 
-- Quiz data model: JSON alongside each entry, or a central quiz bank
-- Questions test application, not recall ("Given this scenario, which framework would you reach for?")
+- 5 questions per entry, 10 per category; Apply/Analyse level; scenario-based majority; four-option multiple choice with explanatory feedback on every option (full rules in QUIZ-SPEC.md)
+- Quiz data model: JSON alongside each entry, or a central quiz bank (undecided; see QUIZ-SPEC.md's open implementation questions)
 - Session-only state via sessionStorage; no server-side persistence
 - Inline quiz sections on entry pages, plus a standalone quiz mode spanning categories
+- Progress indicator ("4 of 5"), not a pass/fail score; unlimited free retries
 - Immediate feedback with explanation and link back to the relevant entry
 
 ### Open questions
