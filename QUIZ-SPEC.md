@@ -127,7 +127,7 @@ In the source markdown, the correct option is always written as **A** for every 
 - [x] **Category 5: Lifecycle & Workflow — done (2026-09-06).** All 3 entries (PMM Lifecycle Management, Go-to-Market Motion, Feature Adoption) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/05-lifecycle-workflow.md`. 25 questions total.
 - [x] **Category 6: Product Experience & Adoption — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/06-product-experience-adoption.md`. 45 questions total.
 - [x] **Category 7: Strategy & Planning — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/07-strategy-planning.md`. 45 questions total.
-- [ ] Category 8: Pricing & Packaging (7 entries) — not started.
+- [x] **Category 8: Pricing & Packaging — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/08-pricing-packaging.md`. 45 questions total.
 - [ ] Category 9: Sales Enablement (5 entries) — not started.
 - [ ] `concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — 5-question quiz only, no category quiz (concepts is not one of the 9 workflow categories).
 - [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
