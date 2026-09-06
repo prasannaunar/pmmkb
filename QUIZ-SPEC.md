@@ -120,7 +120,15 @@ In the source markdown, the correct option is always written as **A** for every 
 ## Build progress
 
 - [x] Decide open implementation questions above (source-of-truth format, category quiz file location; web app interactivity deferred).
-- [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries (Bowman's Strategic Clock, Product Differentiation Strategy Framework, Perceptual Map (2x2), Category Design, CI Program Maturity Model) have a 5-question `**Quiz:**` section; the category has a 10-question `## Category Quiz` section at the top of `frameworks/03-competitive-strategy.md`. 35 questions total, each with 4 options and a feedback paragraph on every option (140 feedback paragraphs). At least 8 of the 10 category questions are framework-selection questions (situation → choose the right entry from the category); all 5 entries appear as the correct answer at least once. Not yet wired into the web app (see decision 3 above).
-- [ ] Scale to remaining 8 categories (61 entries + 8 category quizzes; ~305 entry-level questions + 80 category-level questions remaining).
+- [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries have a 5-question `**Quiz:**` section; 10-question `## Category Quiz` at the top of `frameworks/03-competitive-strategy.md`. 35 questions total.
+- [x] **Category 1: Market & Customer Understanding — done (2026-09-06).** All 8 entries (STP, Complete Product Experience, Product Development Stage, Voice of the Customer, JTBD Switch Interview, ICP Development, Sean Ellis 40% Test, MAP Model) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/01-market-customer-understanding.md`. 50 questions total.
+- [ ] Category 2: Positioning & Messaging (12 entries) — not started.
+- [ ] Category 4: Go-to-Market & Launch (11 entries) — not started.
+- [ ] Category 5: Lifecycle & Workflow (3 entries) — not started.
+- [ ] Category 6: Product Experience & Adoption (7 entries) — not started.
+- [ ] Category 7: Strategy & Planning (7 entries) — not started.
+- [ ] Category 8: Pricing & Packaging (7 entries) — not started.
+- [ ] Category 9: Sales Enablement (5 entries) — not started.
+- [ ] `concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — 5-question quiz only, no category quiz (concepts is not one of the 9 workflow categories).
 - [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
 - [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill once the format is proven across more than one category.
