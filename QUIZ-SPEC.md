@@ -93,6 +93,12 @@ Professional but not stiff. Match the knowledge base voice: clear, direct, groun
 
 ---
 
+## Deployment note: answer order
+
+In the source markdown, the correct option is always written as **A** for every question, across every entry and category quiz. This is deliberate: it makes the content faster to write and review at the authoring stage. **The web app must randomise option order per question at render or session time** (e.g. shuffle the four options client-side before display, tracking which shuffled position maps to the correct answer) so a reader never sees "the answer is always A" as a pattern. This is a rendering-layer requirement, not a content-authoring one; do not reorder options in the markdown itself. Tracked in "Build progress" below and must be included whenever the web app wiring (still deferred) is scoped.
+
+---
+
 ## Style rules (consistent with the rest of the knowledge base)
 
 - **Progress indicator, not a score.** Show something like "4 of 5" or a simple progress bar, not a pass/fail grade. The goal is self-assessment and learning, framed as a check rather than a test.
@@ -116,5 +122,5 @@ Professional but not stiff. Match the knowledge base voice: clear, direct, groun
 - [x] Decide open implementation questions above (source-of-truth format, category quiz file location; web app interactivity deferred).
 - [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries (Bowman's Strategic Clock, Product Differentiation Strategy Framework, Perceptual Map (2x2), Category Design, CI Program Maturity Model) have a 5-question `**Quiz:**` section; the category has a 10-question `## Category Quiz` section at the top of `frameworks/03-competitive-strategy.md`. 35 questions total, each with 4 options and a feedback paragraph on every option (140 feedback paragraphs). At least 8 of the 10 category questions are framework-selection questions (situation → choose the right entry from the category); all 5 entries appear as the correct answer at least once. Not yet wired into the web app (see decision 3 above).
 - [ ] Scale to remaining 8 categories (61 entries + 8 category quizzes; ~305 entry-level questions + 80 category-level questions remaining).
-- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
+- [ ] Wire quiz content into the web app (`content.ts` parser extension, rendering component, session-only state, progress indicator, retry, **client-side option-order randomisation per question** since the source markdown always writes the correct option as A) once content build is far enough along to be worth the engineering investment, or sooner if the user wants to validate rendering against the Category 3 pilot first.
 - [ ] Update CLAUDE.md quality gates and `add-kb-entry` skill once the format is proven across more than one category.
