@@ -91,20 +91,20 @@ export function CategoryEntries({ entries, typeCounts }: CategoryEntriesProps) {
                 borderColor: "var(--border)",
               }}
             >
+              <div className="mb-1.5">
+                <Link
+                  href={`/type/${TYPE_SLUGS[entry.type]}`}
+                  className="inline-flex items-center gap-1.5 text-[0.65rem] font-medium uppercase tracking-wider px-2 py-0.5 border transition-colors hover:underline"
+                  style={{
+                    fontFamily: "var(--font-sans)",
+                    color: TYPE_COLORS[entry.type],
+                    borderColor: "var(--border)",
+                  }}
+                >
+                  {entry.type}
+                </Link>
+              </div>
               <Link href={`/framework/${entry.slug}`} className="block">
-                <div className="mb-1.5">
-                  <Link
-                    href={`/type/${TYPE_SLUGS[entry.type]}`}
-                    className="inline-flex items-center gap-1.5 text-[0.65rem] font-medium uppercase tracking-wider px-2 py-0.5 border transition-colors hover:underline"
-                    style={{
-                      fontFamily: "var(--font-sans)",
-                      color: TYPE_COLORS[entry.type],
-                      borderColor: "var(--border)",
-                    }}
-                  >
-                    {entry.type}
-                  </Link>
-                </div>
                 <h2 className="font-semibold leading-snug" style={{ color: "var(--text-primary)" }}>
                   {entry.title}
                 </h2>
