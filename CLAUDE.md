@@ -56,7 +56,7 @@ Every entry's `**Quiz:**` section, 5 questions, sits last, after `**See also:**`
 
 **Ownership** (Framework and Model types; Methodology covers the same ground inside "Cadence & ownership") is one short paragraph naming who typically owns the decision/output versus who typically executes it, and noting that this shifts with company stage: a solo or founding PMM commonly owns outright what a specialised team hands off to Sales, RevOps, or a CEO once the company scales. This is not a hedge; it is a factual note on how ownership redistributes as headcount grows, matching the pattern already used in Methodology entries' "Cadence & ownership" sections (see T2D3 Framework or MEDDIC/MEDDPICC for the target voice).
 
-Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. The full rationale for this vocabulary and how it was rolled out is recorded in [archived/ENRICHMENT-PLAN.md](archived/ENRICHMENT-PLAN.md), a closed build queue kept for historical reference; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
+Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. This vocabulary was rolled out via a 2026-07 build queue (ENRICHMENT-PLAN.md), since closed and, after its 2026-09 re-scan found nothing depending on it, deleted; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
 
 ### Language Guidelines
 
@@ -154,8 +154,6 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── framework-selector.md        # Selection matrix by business goal, timeline, and data availability
 ├── pitfalls-deep-dive.md        # Deep dives on STP, positioning, GTM, and competitive pitfalls
 │
-├── archived/                     # Closed candidate-build queues and a superseded quality review; pending a re-scan before deletion (see its README.md). Not the same as the "archive retired frameworks" convention below, which has no folder yet because nothing has qualified.
-│
 ├── case-studies/                 # Extended case study walkthroughs (STP, VPC, Win/Loss, 10-Step, GTM)
 │   ├── README.md
 │   ├── stp-framework.md
@@ -211,7 +209,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
     └── quarterly-pmm-planning/  # Goals to deliverables, capacity, and a not-doing list
 ```
 
-`archived/` now exists, but only for the closed planning documents described in its own README.md. No framework, methodology, model, or primer has ever been retired under the "Archive, don't delete" principle above; don't assume a framework-retirement archive exists just because the folder does. See PLAN.md for the roadmap.
+There is no `archived/` folder at present. A temporary one held closed candidate-build queues and a superseded quality review between 2026-09-05 and 2026-09-06, pending a re-scan; that re-scan found no remaining references anywhere in the repo, and the folder was deleted. No framework, methodology, model, or primer has ever been retired under the "Archive, don't delete" principle above; if one ever is, that principle still governs where it goes, starting a fresh `archived/` folder rather than assuming an old one persists. See PLAN.md for the roadmap.
 
 ### The `agent-skills/` area
 
