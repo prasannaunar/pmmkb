@@ -14,7 +14,8 @@ import type {
   Element as HastElement,
   ElementContent as HastElementContent,
 } from "hast";
-import { extractCategoryQuiz } from "./quiz";
+import { extractCategoryQuiz, extractEntryQuiz } from "./quiz";
+import { guidanceFor, plainText, cleanTitle } from "./editorial";
 
 const REPO_ROOT = path.join(/*turbopackIgnore: true*/ process.cwd(), "..");
 
@@ -329,23 +330,20 @@ export interface SearchEntry {
   categoryTitle: string;
   categorySlug: string;
   snippet: string;
+  content: string;
 }
 
 export function getSearchIndex(): SearchEntry[] {
   return getAllEntries().map((entry) => {
-    const whatItIs = entry.rawMarkdown.match(
-      /\*\*What it is:\*\*\s*([\s\S]*?)(?=\n\n\*\*|\n##|$)/
-    );
-    const snippet = whatItIs
-      ? whatItIs[1].trim().slice(0, 200)
-      : entry.rawMarkdown.slice(0, 200);
+    const snippet = guidanceFor(entry).useWhen;
     return {
       title: entry.title,
       slug: entry.slug,
       type: entry.type,
-      categoryTitle: entry.categoryTitle,
+      categoryTitle: cleanTitle(entry.categoryTitle),
       categorySlug: entry.categorySlug,
       snippet,
+      content: plainText(extractEntryQuiz(entry.rawMarkdown).body),
     };
   });
 }

@@ -1,28 +1,42 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import type { QuizQuestion } from "@/lib/quiz";
 
 interface QuizSectionProps {
   title: string;
   description?: string;
   questions: QuizQuestion[];
+  reviewLinks?: { href: string; label: string }[];
+  nextLink?: { href: string; label: string };
 }
 
 type Stage = "start" | "question" | "end";
 
-export function QuizSection({ title, description, questions }: QuizSectionProps) {
+export function QuizSection({
+  title,
+  description,
+  questions,
+  reviewLinks,
+  nextLink,
+}: QuizSectionProps) {
   const [stage, setStage] = useState<Stage>("start");
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<(number | null)[]>(() =>
-    questions.map(() => null)
+    questions.map(() => null),
   );
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  useEffect(() => {
+    if (stage !== "start") headingRef.current?.focus();
+  }, [stage, current]);
 
   if (questions.length === 0) return null;
 
   const correctCount = selected.reduce<number>(
-    (sum, sel, i) => sum + (sel !== null && questions[i].options[sel].correct ? 1 : 0),
-    0
+    (sum, sel, i) =>
+      sum + (sel !== null && questions[i].options[sel].correct ? 1 : 0),
+    0,
   );
 
   function choose(questionIndex: number, optionIndex: number) {
@@ -62,8 +76,13 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
     <section className="quiz-section entry-section-panel" aria-label={title}>
       <div className="quiz-header">
         <h2
+          ref={headingRef}
+          tabIndex={-1}
           className="text-xl font-semibold"
-          style={{ fontFamily: "var(--font-sans)", color: "var(--text-primary)" }}
+          style={{
+            fontFamily: "var(--font-sans)",
+            color: "var(--text-primary)",
+          }}
         >
           {title}
         </h2>
@@ -75,7 +94,10 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
       </div>
 
       {description && stage !== "end" && (
-        <p className="text-sm quiz-description" style={{ color: "var(--text-secondary)" }}>
+        <p
+          className="text-sm quiz-description"
+          style={{ color: "var(--text-secondary)" }}
+        >
           {description}
         </p>
       )}
@@ -84,7 +106,9 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
         <div className="quiz-progress-track" aria-hidden="true">
           <div
             className="quiz-progress-fill"
-            style={{ width: `${((current + (answered ? 1 : 0)) / questions.length) * 100}%` }}
+            style={{
+              width: `${((current + (answered ? 1 : 0)) / questions.length) * 100}%`,
+            }}
           />
         </div>
       )}
@@ -92,8 +116,8 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
       {stage === "start" && (
         <div className="quiz-start">
           <p className="quiz-start-copy">
-            Test your knowledge of {title.replace(/^Quiz:\s*/i, "")} with {questions.length}{" "}
-            questions.
+            {questions.length} practical scenarios. Choose an answer, explore
+            the reasoning, and revisit the guide whenever you need.
           </p>
           <button type="button" className="quiz-start-button" onClick={start}>
             Start quiz
@@ -124,7 +148,9 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
                     disabled={answered}
                     aria-pressed={isSelected}
                   >
-                    <span className="quiz-option-letter">{String.fromCharCode(65 + oi)}</span>
+                    <span className="quiz-option-letter">
+                      {String.fromCharCode(65 + oi)}
+                    </span>
                     <span className="quiz-option-text">{opt.text}</span>
                   </button>
                 </li>
@@ -133,13 +159,26 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
           </ul>
           {answered && (
             <p
+              role="status"
               className={
                 "quiz-feedback " +
-                (q.options[sel].correct ? "quiz-feedback-correct" : "quiz-feedback-incorrect")
+                (q.options[sel].correct
+                  ? "quiz-feedback-correct"
+                  : "quiz-feedback-incorrect")
               }
             >
+              <strong>
+                {q.options[sel].correct
+                  ? "That's right. "
+                  : "A different approach fits here. "}
+              </strong>
               {q.options[sel].feedback}
             </p>
+          )}
+          {answered && reviewLinks?.[current] && (
+            <Link className="quiz-review-link" href={reviewLinks[current].href}>
+              {reviewLinks[current].label} →
+            </Link>
           )}
           {answered && (
             <div className="quiz-nav">
@@ -157,8 +196,41 @@ export function QuizSection({ title, description, questions }: QuizSectionProps)
             You scored {correctCount} of {questions.length}.
           </span>
           <button type="button" className="quiz-retry" onClick={retry}>
-            Retry
+            Try again
           </button>
+          <div className="quiz-follow-through">
+            <p>
+              {correctCount === questions.length
+                ? "You connected the ideas well. Try applying one of them to a real decision."
+                : "Use the explanations and the guides below to revisit the decisions that need more practice."}
+            </p>
+            {reviewLinks && (
+              <ul>
+                {reviewLinks
+                  .filter(
+                    (link, i, all) =>
+                      selected[i] !== null &&
+                      !questions[i].options[selected[i]!].correct &&
+                      all.findIndex(
+                        (other, j) =>
+                          other.href === link.href &&
+                          selected[j] !== null &&
+                          !questions[j].options[selected[j]!].correct,
+                      ) === i,
+                  )
+                  .map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href}>{link.label} →</Link>
+                    </li>
+                  ))}
+              </ul>
+            )}
+            {nextLink && (
+              <Link className="text-link" href={nextLink.href}>
+                {nextLink.label} →
+              </Link>
+            )}
+          </div>
         </div>
       )}
     </section>
