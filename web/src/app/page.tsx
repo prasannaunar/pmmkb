@@ -1,125 +1,172 @@
 import Link from "next/link";
-import { getAllCategories, getSearchIndex, TYPE_SLUGS } from "@/lib/content";
+import { getAllCategories } from "@/lib/content";
+import { getDiscoveryIndex } from "@/lib/discovery";
 import { Search } from "@/components/search";
-import { CategoryIcon } from "@/components/category-icon";
-import { pluralType } from "@/lib/plural";
-
 export default function HomePage() {
   const categories = getAllCategories();
-  const searchEntries = getSearchIndex();
-
-  const totalEntries = categories.reduce((sum, c) => sum + c.entries.length, 0);
-  const typeCounts = categories
-    .flatMap((c) => c.entries)
-    .reduce(
-      (acc, e) => {
-        acc[e.type] = (acc[e.type] || 0) + 1;
-        return acc;
-      },
-      {} as Record<string, number>
-    );
-
-  const typeSummary = Object.entries(typeCounts)
-    .map(([type, count]) => `${count} ${pluralType(type, count).toLowerCase()}`)
-    .join(", ");
-
+  const challenges = [
+    [
+      "messaging",
+      "Our messaging sounds generic",
+      "Find your differentiation. Turn it into a message buyers understand.",
+    ],
+    [
+      "launch",
+      "We're launching a product",
+      "Decide the scope, choose your motion, and bring the right work together.",
+    ],
+    [
+      "competition",
+      "We keep losing to a competitor",
+      "Understand the loss before rewriting the pitch.",
+    ],
+    [
+      "adoption",
+      "Customers aren't finding value",
+      "Connect your promise to onboarding, adoption and retention.",
+    ],
+    [
+      "pricing",
+      "We need to rethink pricing",
+      "Work through value, willingness to pay and packaging.",
+    ],
+    [
+      "planning",
+      "Too many priorities, too little time",
+      "Turn business goals into focused PMM work.",
+    ],
+  ];
   return (
-    <div className="px-6 lg:px-12 py-12 max-w-5xl mx-auto">
-      <header className="mb-16">
-        <h1
-          className="text-4xl lg:text-5xl font-bold tracking-tight mb-4"
-          style={{ fontFamily: "var(--font-serif)", color: "var(--text-primary)" }}
-        >
-          Product Marketing
-          <br />
-          Knowledge Base
-        </h1>
-        <p
-          className="text-lg max-w-2xl mb-8 leading-relaxed"
-          style={{ color: "var(--text-secondary)" }}
-        >
-          {totalEntries} entries: {typeSummary}, for product marketing professionals.
-          Practical, structured, and ready to apply.
-        </p>
-
-        <Search entries={searchEntries} />
-      </header>
-
-      <section className="mb-12">
-        <h2
-          className="text-2xl font-bold mb-8"
-          style={{ fontFamily: "var(--font-serif)" }}
-        >
-          Browse by Category
-        </h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="page-shell">
+      <section className="home-intro">
+        <div>
+          <p className="eyebrow">The product marketing field guide</p>
+          <h1>
+            Good judgement.
+            <br />
+            <em>Built through practice.</em>
+          </h1>
+          <p className="lede">
+            Find the right framework for the decision in front of you.
+            Understand it, try it, and make it part of your practice.
+          </p>
+          <Search entries={getDiscoveryIndex()} />
+        </div>
+        <aside className="start-feature">
+          <p className="eyebrow">New here? Start with the foundations</p>
+          <h2>See how the pieces fit.</h2>
+          <p>
+            Connect customer understanding, positioning and messaging in one
+            guided reading path.
+          </p>
+          <Link className="text-link" href="/learn/foundations">
+            Build your PMM foundations <span aria-hidden="true">→</span>
+          </Link>
+          <div
+            className="mini-sequence"
+            aria-label="Understand, position, communicate"
+          >
+            <span>Understand</span>
+            <span>Position</span>
+            <span>Communicate</span>
+          </div>
+        </aside>
+      </section>
+      <section className="section-block">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Start with your situation</p>
+            <h2>What are you working on?</h2>
+          </div>
+          <Link className="text-link" href="/challenges">
+            All challenges →
+          </Link>
+        </div>
+        <div className="challenge-grid">
+          {challenges.map(([slug, title, description]) => (
+            <Link
+              className="challenge-link"
+              key={slug}
+              href={`/challenges/${slug}`}
+            >
+              <h3>
+                {title}
+                <span aria-hidden="true">↗</span>
+              </h3>
+              <p>{description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="section-block">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">A little deeper</p>
+            <h2>Learn something you can use.</h2>
+          </div>
+        </div>
+        <div className="editorial-grid">
+          <Link
+            className="feature-story"
+            href="/framework/geoffrey-moores-positioning-statement-framework"
+          >
+            <p className="eyebrow">Framework in focus</p>
+            <h3>
+              A clear position.
+              <br />
+              In one paragraph.
+            </h3>
+            <p>
+              Use Geoffrey Moore&apos;s template to make six decisions your
+              messaging depends on.
+            </p>
+            <span className="text-link">Read the field guide →</span>
+          </Link>
+          <div className="story-stack">
+            <Link href="/framework/value-proposition-canvas#example">
+              <p className="eyebrow">Learn through an example</p>
+              <h3>From a customer problem to a value proposition</h3>
+              <p>
+                See the Value Proposition Canvas applied in a worked example.
+              </p>
+              <span className="text-link">Explore the example →</span>
+            </Link>
+            <Link href="/learn/positioning-to-messaging">
+              <p className="eyebrow">Guided learning</p>
+              <h3>Turn positioning into messaging</h3>
+              <p>
+                Move from differentiated value to a shared message, then test
+                it.
+              </p>
+              <span className="text-link">Follow the learning path →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="section-block" id="library">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Keep exploring</p>
+            <h2>The complete library</h2>
+          </div>
+          <span className="metadata">
+            {categories.reduce((n, c) => n + c.entries.length, 0)} entries ·{" "}
+            {categories.length} topics
+          </span>
+        </div>
+        <div className="topic-index">
           {categories.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={`/category/${cat.slug}`}
-              className="group block p-5 border transition-all hover:shadow-md"
-              style={{
-                backgroundColor: "var(--bg-card)",
-                borderColor: "var(--border)",
-              }}
-            >
-              <div className="flex items-start gap-3">
-                <span
-                  className="flex-shrink-0 w-8 h-8 flex items-center justify-center"
-                  style={{
-                    backgroundColor: "var(--accent-light)",
-                    color: "var(--accent)",
-                  }}
-                >
-                  <CategoryIcon number={cat.number} className="w-4 h-4" />
-                </span>
-                <div className="min-w-0">
-                  <h3 className="font-semibold text-sm leading-snug" style={{ color: "var(--text-primary)" }}>
-                    {cat.title}
-                  </h3>
-                  <p className="text-xs mt-1" style={{ color: "var(--text-tertiary)" }}>
-                    {cat.entries.length} {cat.entries.length === 1 ? "entry" : "entries"}
-                  </p>
-                </div>
-              </div>
+            <Link key={cat.slug} href={`/category/${cat.slug}`}>
+              <span>{cat.title.replace(/^Category \d+: /, "")}</span>
+              <span className="metadata">
+                {cat.entries.length}{" "}
+                {cat.entries.length === 1 ? "entry" : "entries"}{" "}
+                <span aria-hidden="true">↗</span>
+              </span>
             </Link>
           ))}
         </div>
       </section>
-
-      <section className="mb-16">
-        <h2
-          className="text-sm font-semibold uppercase tracking-wider mb-4"
-          style={{ fontFamily: "var(--font-sans)", color: "var(--text-tertiary)" }}
-        >
-          Browse by Type
-        </h2>
-        <div className="flex flex-wrap gap-3">
-          {(Object.keys(TYPE_SLUGS) as Array<keyof typeof TYPE_SLUGS>).map((type) => (
-            <Link
-              key={type}
-              href={`/type/${TYPE_SLUGS[type]}`}
-              className="type-pill text-sm font-medium px-4 py-2 border transition-colors"
-              style={{
-                borderColor: "var(--border)",
-                color: "var(--text-primary)",
-              }}
-            >
-              View all {pluralType(type, 2).toLowerCase()}
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <footer className="pt-8 border-t text-center" style={{ borderColor: "var(--border)" }}>
-        <p className="text-xs max-w-xl mx-auto mb-2" style={{ color: "var(--text-tertiary)" }}>
-          This knowledge base summarises frameworks, methodologies, and models created by their
-          named originators. Every entry links to the original material in its Sources section.
-        </p>
-        <p className="text-xs" style={{ color: "var(--text-tertiary)" }}>
-          CC BY 4.0 &middot; A reference guide for product marketing professionals
-        </p>
-      </footer>
     </div>
   );
 }

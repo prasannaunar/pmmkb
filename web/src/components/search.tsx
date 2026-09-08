@@ -1,174 +1,197 @@
 "use client";
-
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useMemo, useId } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
-import type { SearchEntry } from "@/lib/content";
-
-interface SearchProps {
-  entries: SearchEntry[];
+export interface SearchItem {
+  title: string;
+  slug: string;
+  type: string;
+  categoryTitle: string;
+  snippet: string;
+  content?: string;
+  href?: string;
 }
-
-export function Search({ entries }: SearchProps) {
+export function Search({
+  entries,
+  expanded = false,
+}: {
+  entries: SearchItem[];
+  expanded?: boolean;
+}) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchEntry[]>([]);
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(-1);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  const fuse = useRef(
-    new Fuse(entries, {
-      keys: [
-        { name: "title", weight: 2 },
-        { name: "snippet", weight: 1 },
-        { name: "categoryTitle", weight: 0.5 },
-      ],
-      threshold: 0.3,
-      includeScore: true,
-    })
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState(-1);
+  const input = useRef<HTMLInputElement>(null);
+  const container = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+  const id = useId();
+  const fuse = useMemo(
+    () =>
+      new Fuse(entries, {
+        keys: [
+          { name: "title", weight: 3 },
+          { name: "snippet", weight: 2 },
+          { name: "categoryTitle", weight: 1 },
+          { name: "content", weight: 0.6 },
+        ],
+        ignoreLocation: true,
+        threshold: 0.32,
+      }),
+    [entries],
   );
-
+  const results = useMemo(
+    () =>
+      query.trim().length >= 2
+        ? fuse
+            .search(query.trim(), { limit: expanded ? 30 : 8 })
+            .map((r) => r.item)
+        : [],
+    [query, fuse, expanded],
+  );
+  const show = open && query.trim().length >= 2;
   useEffect(() => {
-    fuse.current = new Fuse(entries, {
-      keys: [
-        { name: "title", weight: 2 },
-        { name: "snippet", weight: 1 },
-        { name: "categoryTitle", weight: 0.5 },
-      ],
-      threshold: 0.3,
-      includeScore: true,
-    });
-  }, [entries]);
-
-  useEffect(() => {
-    if (query.length >= 2) {
-      const found = fuse.current.search(query, { limit: 8 });
-      setResults(found.map((r) => r.item));
-      setIsOpen(true);
-      setSelectedIndex(-1);
-    } else {
-      setResults([]);
-      setIsOpen(false);
-    }
-  }, [query]);
-
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+    function shortcut(e: KeyboardEvent) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        inputRef.current?.focus();
+        input.current?.focus();
       }
     }
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, []);
-
-  const close = useCallback(() => {
-    setIsOpen(false);
-    setQuery("");
-    setSelectedIndex(-1);
-  }, []);
-
-  useEffect(() => {
-    function handleClick(e: MouseEvent) {
-      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
-        setIsOpen(false);
-      }
+    function outside(e: MouseEvent) {
+      if (!container.current?.contains(e.target as Node) && !expanded)
+        setOpen(false);
     }
-    document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
-  }, []);
-
-  function handleKeyDown(e: React.KeyboardEvent) {
+    document.addEventListener("keydown", shortcut);
+    document.addEventListener("mousedown", outside);
+    return () => {
+      document.removeEventListener("keydown", shortcut);
+      document.removeEventListener("mousedown", outside);
+    };
+  }, [expanded]);
+  function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "ArrowDown") {
       e.preventDefault();
-      setSelectedIndex((i) => Math.min(i + 1, results.length - 1));
+      setOpen(true);
+      setSelected((i) => Math.min(i + 1, results.length - 1));
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
-      setSelectedIndex((i) => Math.max(i - 1, -1));
-    } else if (e.key === "Enter" && selectedIndex >= 0) {
-      e.preventDefault();
-      close();
+      setSelected((i) => Math.max(i - 1, 0));
     } else if (e.key === "Escape") {
-      close();
+      setOpen(false);
+      setSelected(-1);
+    } else if (e.key === "Enter" && show && results.length) {
+      e.preventDefault();
+      const item = results[Math.max(selected, 0)];
+      setOpen(false);
+      router.push(item.href || `/framework/${item.slug}`);
     }
   }
-
   return (
-    <div ref={containerRef} className="relative w-full max-w-xl">
-      <div className="relative">
-        <svg
-          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"
-          style={{ color: "var(--text-tertiary)" }}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <circle cx="11" cy="11" r="8" strokeWidth="2" />
-          <path d="M21 21l-4.35-4.35" strokeWidth="2" strokeLinecap="round" />
-        </svg>
+    <div
+      className={`search-surface ${expanded ? "search-expanded" : ""}`}
+      ref={container}
+    >
+      <label className="sr-only" htmlFor={id}>
+        Search the knowledge base
+      </label>
+      <div className="search-input-wrap">
+        <span className="search-symbol" aria-hidden="true">
+          ⌕
+        </span>
         <input
-          ref={inputRef}
-          type="text"
+          id={id}
+          ref={input}
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={handleKeyDown}
-          onFocus={() => query.length >= 2 && setIsOpen(true)}
-          placeholder="Search frameworks..."
-          className="w-full pl-10 pr-16 py-2.5 border text-sm outline-none transition-colors"
-          style={{
-            backgroundColor: "var(--bg-card)",
-            borderColor: "var(--border)",
-            color: "var(--text-primary)",
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setOpen(true);
+            setSelected(-1);
           }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={onKeyDown}
+          placeholder="Search a framework, question or challenge…"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded={show}
+          aria-controls={show ? `${id}-results` : undefined}
+          aria-activedescendant={
+            show && selected >= 0 && results[selected]
+              ? `${id}-option-${selected}`
+              : undefined
+          }
+          autoComplete="off"
         />
-        <kbd
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-xs px-1.5 py-0.5 border"
-          style={{
-            color: "var(--text-tertiary)",
-            borderColor: "var(--border)",
-            backgroundColor: "var(--bg)",
-          }}
-        >
-          Ctrl+K
-        </kbd>
+        <kbd aria-hidden="true">Ctrl K</kbd>
       </div>
-
-      {isOpen && results.length > 0 && (
+      <div className="sr-only" role="status">
+        {show
+          ? `${results.length} results${results.length ? ". Use arrow keys to choose and Enter to open." : ". Try a shorter phrase or browse topics."}`
+          : ""}
+      </div>
+      {show && (
         <div
-          className="absolute top-full mt-2 w-full border shadow-lg overflow-hidden z-50"
-          style={{
-            backgroundColor: "var(--bg-card)",
-            borderColor: "var(--border)",
-          }}
+          className="search-results"
+          id={`${id}-results`}
+          role="listbox"
+          aria-label="Search results"
         >
-          {results.map((entry, i) => (
-            <Link
-              key={entry.slug}
-              href={`/framework/${entry.slug}`}
-              onClick={close}
-              className="block px-4 py-3 transition-colors"
-              style={{
-                backgroundColor: i === selectedIndex ? "var(--accent-light)" : "transparent",
-              }}
-            >
-              <div className="flex items-center gap-2">
-                <span className="font-medium text-sm" style={{ color: "var(--text-primary)" }}>
-                  {entry.title}
-                </span>
-                <span
-                  className="text-xs px-1.5 py-0.5"
-                  style={{ color: "var(--text-tertiary)" }}
+          {results.length ? (
+            results.map((item, i) => (
+              <div
+                key={item.slug}
+                id={`${id}-option-${i}`}
+                role="option"
+                aria-selected={selected === i}
+              >
+                <Link
+                  tabIndex={-1}
+                  href={item.href || `/framework/${item.slug}`}
+                  onClick={() => setOpen(false)}
+                  onMouseEnter={() => setSelected(i)}
                 >
-                  {entry.type}
-                </span>
+                  <span className="metadata">
+                    {item.categoryTitle.replace(/^Category \d+: /, "")} ·{" "}
+                    {item.type}
+                  </span>
+                  <strong>{item.title}</strong>
+                  <span className="search-snippet">{item.snippet}</span>
+                </Link>
               </div>
-              <p className="text-xs mt-0.5 line-clamp-1" style={{ color: "var(--text-secondary)" }}>
-                {entry.categoryTitle}
+            ))
+          ) : (
+            <div className="search-empty">
+              <p>No matches for “{query}”.</p>
+              <p>
+                Try a shorter phrase, such as “positioning”, “launch” or
+                “customer feedback”.
               </p>
-            </Link>
-          ))}
+            </div>
+          )}
+        </div>
+      )}
+      {expanded && !show && (
+        <div className="search-suggestions">
+          <p className="eyebrow">Try a starting point</p>
+          <div className="filter-bar">
+            {["positioning", "launch", "customer feedback", "pricing"].map(
+              (term) => (
+                <button
+                  key={term}
+                  onClick={() => {
+                    setQuery(term);
+                    setOpen(true);
+                    setSelected(-1);
+                    input.current?.focus();
+                  }}
+                >
+                  {term}
+                </button>
+              ),
+            )}
+          </div>
+          <Link className="text-link" href="/topics">
+            Or browse all topics →
+          </Link>
         </div>
       )}
     </div>

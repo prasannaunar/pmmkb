@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Merriweather, Poppins } from "next/font/google";
-import { Sidebar } from "@/components/sidebar";
-import { SidebarProvider } from "@/components/sidebar-context";
-import { MobileTopBar } from "@/components/mobile-top-bar";
+import Link from "next/link";
+import { SiteHeader } from "@/components/site-header";
 import { BackToTop } from "@/components/back-to-top";
-import { getSiteStats } from "@/lib/content";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -30,17 +28,44 @@ export const metadata: Metadata = {
     "A structured, practically-oriented knowledge base of product marketing frameworks and methodologies.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const { totalEntries, categoryCount } = getSiteStats();
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" className={`${merriweather.variable} ${poppins.variable} h-full`}>
-      <body className="min-h-full flex" style={{ fontFamily: "var(--font-sans)" }}>
-        <SidebarProvider>
-          <Sidebar totalEntries={totalEntries} categoryCount={categoryCount} />
-          <MobileTopBar />
-          <main className="flex-1 min-w-0 pt-14 lg:pt-0">{children}</main>
-          <BackToTop />
-        </SidebarProvider>
+    <html
+      lang="en"
+      className={`${merriweather.variable} ${poppins.variable} h-full`}
+    >
+      <body>
+        <a className="skip-link" href="#main-content">
+          Skip to content
+        </a>
+        <SiteHeader />
+        <main id="main-content" tabIndex={-1}>
+          {children}
+        </main>
+        <footer className="site-footer">
+          <div>
+            <Link className="footer-title" href="/">
+              PMM Knowledge Base
+            </Link>
+            <p>A field guide for product marketing practice.</p>
+          </div>
+          <div>
+            <p>
+              Built on the work of the named originators.
+              <br />
+              Every entry links to its sources.
+            </p>
+            <p>
+              CC BY 4.0 ·{" "}
+              <Link href="/topics">Explore the complete library</Link>
+            </p>
+          </div>
+        </footer>
+        <BackToTop />
       </body>
     </html>
   );

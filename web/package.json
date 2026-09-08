@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:content": "node scripts/verify-content.mjs"
   },
   "dependencies": {
     "fuse.js": "^7.5.0",
