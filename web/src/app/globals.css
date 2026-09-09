@@ -1042,9 +1042,16 @@ h3 {
   margin-bottom: 1rem;
 }
 .attribution-link {
+  display: inline-block;
+  max-width: 65ch;
   color: var(--text-tertiary);
   font-size: 0.8125rem;
+  line-height: 1.7;
+  text-decoration: none;
+}
+.attribution-link .view-sources {
   text-decoration: underline;
+  white-space: nowrap;
 }
 .article-contents {
   position: sticky;

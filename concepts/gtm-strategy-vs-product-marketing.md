@@ -17,7 +17,7 @@
 
 **Where PMM fits:** In practice, PMM is usually the function best placed to hold the pen on cross-functional GTM documents (a positioning brief, a launch plan, a campaign brief), because PMM sits at the intersection of product, sales, and marketing and is the one role expected to translate between all three. That drafting role can look, from the outside, like PMM "owns" GTM strategy. It does not: PMM authors the parts of the plan that require deep customer and market fluency, and coordinates the parts that require other functions' commitment (a sales leader's headcount plan, a demand generation budget, a product team's release date), but PMM cannot unilaterally commit those other functions' resources. When a launch or GTM motion underperforms, the useful diagnostic question is not "did PMM fail," but "which specific piece of the ownership map broke": was positioning untested, was the channel wrong for the segment, did sales capacity fall short of the plan, or did the product not meet the bar the messaging promised. Naming the specific failure point is what makes a post-mortem actionable instead of a general finger-pointing exercise.
 
-**Sources:**
+**Sources:** Product Marketing Alliance
 - Product Marketing Alliance, ["What is Product Marketing? The 2026 Guide"](https://www.productmarketingalliance.com/what-is-product-marketing/) (2026)
 - Product Marketing Alliance, ["What is a Go-to-Market Strategy? Complete GTM Guide"](https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/) (2026)
 

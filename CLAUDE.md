@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-09-06 (added the Quiz section as a required section for every entry and category file; see "Quiz section (quiz standard)" and QUIZ-SPEC.md)
+**Last Updated:** 2026-09-09 (added the required credits line to the Sources block; see "Sources block (citation standard)")
 
 ---
 
@@ -77,11 +77,17 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 
 Every entry must carry a **`**Sources:**` block**, immediately before `**See also:**`, replacing the older optional `**Further reading:**` line. This is the entry's link to the original material; being useful and respectful to the people who created these frameworks is the point.
 
-- **Format:** one bullet per source, each naming the originator, the work title, the year, and a markdown link to the most canonical stable URL available, e.g.:
+- **Format:** a credits line on the `**Sources:**` label itself, then one bullet per source, each naming the originator, the work title, the year, and a markdown link to the most canonical stable URL available, e.g.:
   ```
-  **Sources:**
+  **Sources:** Wendell R. Smith; Philip Kotler; Al Ries; Jack Trout
   - Wendell R. Smith, ["Product Differentiation and Market Segmentation as Alternative Marketing Strategies"](https://example.com/...), *Journal of Marketing* (1956)
   ```
+- **Credits line (required):** every person or organisation credited anywhere in the block, semicolon-separated, in the order the bullets cite them, deduplicated. Names only: no titles, affiliations, work titles, years, links, or hedging prose. This is what the web app shows under the entry title as "Wendell R. Smith, Philip Kotler, Al Ries and Jack Trout · View sources ↓", so the rules are fixed and identical for every entry:
+  - **Name every credited party, however many there are.** A four-author book lists four names. Never "et al.", never just the first author, never a subset chosen for brevity.
+  - **Credit the named author where a work has one; credit the organisation where the work is corporate-authored.** Name the author or the organisation, not both: "Tamara Grominsky", not "Tamara Grominsky, Product Marketing Alliance". A publisher or imprint is not a credit.
+  - **Where the block says no single originator exists**, credit whoever authored the best-documented version it cites, on the same rules ("Pendo", "Jim Semick"). The hedge itself stays in the bullet prose and never appears in the credits line.
+  - Keep the spelling the source uses, including lowercase brands ("airfocus", "monday.com").
+  `web/scripts/verify-content.mjs` fails the build if an entry has no credits line or if a credit looks like prose rather than a name.
 - **Link preference order:** the originator's own site or the framework's official page first; then the publisher's page for a book; then a stable, well-known reference (e.g. the originator's own article or a major publication that documents it). Never a scraped summary site, never an affiliate link.
 - **Every entry needs at least one linked source.** Where a framework has no single originator (e.g. a differentiation lens compiled by practitioners), cite the best-documented version and say so explicitly, matching the precedent in SOURCE-VALIDATION-LOG.md.
 - Verify every URL resolves before committing it.
@@ -254,6 +260,7 @@ separate from everything above:
 - [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
 - [ ] **Quiz section present and spec-compliant.** A `**Quiz:**` section (the entry's last section, 5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
+- [ ] **Sources block carries a credits line** on the `**Sources:**` label, naming every credited person or organisation, semicolon-separated, names only (see "Sources block (citation standard)"). Run `npm run test:content` in `web/` to check it.
 - [ ] **Every fact, figure, quote, or attribution is cited, with a working link.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source in the `**Sources:**` block (see "Sources block (citation standard)" above): originator, work title, year, and a verified URL. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for worked examples of both citations and hedged rewrites.
 - [ ] **Fictional example companies are explicitly labelled as fictional.** An invented company used to illustrate a framework (as opposed to a real, verifiably-sourced case study) must say so in its first mention, e.g. "a fictional B2B SaaS company called X" or "X, a fictional Y." Don't leave an invented name unlabelled, even if the scenario is clearly illustrative to the author; a future reader may not know.
 

@@ -170,7 +170,7 @@
 - **Confusing perceived value with price.** A premium brand isn't "position 5" unless customers actually perceive the higher value. Without proof (certifications, outcomes, customer testimonials), you're just expensive.
 - **Plotting the clock once and never revisiting it.** Teams often run the exercise as a one-time workshop ahead of an annual plan, then never check whether the intended move actually happened. Recovery: build the re-plotting step into a recurring cadence (every two quarters is usually enough), using the same win-loss and pricing data sources each time so the comparison is consistent, and hold whoever owns the target position accountable for showing measurable movement, not just intent.
 
-**Sources:**
+**Sources:** Cliff Bowman; David Faulkner
 - Cliff Bowman & David Faulkner, [*Competitive and Corporate Strategy*](https://openlibrary.org/books/OL10235705M/Competitive_and_Corporate_Strategy) (Irwin, 1996), the book that introduced the Strategic Clock, extending Michael Porter's generic strategies to eight positions based on price and perceived value.
 
 **See also:** Product Differentiation Strategy Framework (develop the differentiation that supports your chosen position on the clock); STP Framework (ensure your target segment actually values the position you're claiming); Geoffrey Moore's Positioning Statement Framework (articulate how your clock position translates into a clear positioning statement).
@@ -278,7 +278,7 @@ It is also the right tool whenever a sales team reports that deals are increasin
 - **Claiming differentiation without proof.** "We have great customer service" is not differentiation until you back it with outcomes, awards, or customer testimonials. Validate claims with proof points before messaging.
 - **Choosing a differentiator competitors can copy within a quarter.** Teams sometimes pick a differentiator that is meaningful and unique today but has no real defensibility, such as a single integration or a pricing gimmick, and are surprised when a competitor matches it within a release cycle. Recovery: run the MUD scoring exercise again with defensibility weighted more heavily, and pair any imitable differentiator with a second, harder-to-copy one (deep technical integration, proprietary data, or an accumulating brand asset) so the strategy does not collapse the moment one competitor responds.
 
-**Sources:**
+**Sources:** Product Marketing Alliance; Morningstar; Pat Dorsey; Hamilton Helmer
 - No single academic originator for the Meaningful, Unique, Defensible (MUD) scoring lens; the most documented practitioner version is Product Marketing Alliance, ["Identifying Product Differentiators Using the MUD Framework"](https://www.productmarketingalliance.com/identifying-product-differentiators-mud-framework/).
 - Morningstar, ["Economic Moat"](https://www.morningstar.com/investing-terms/economic-moat), the firm's own definition of Warren Buffett's economic moat concept, which underpins the Defensibility criterion and step 8's stress-test against imitation.
 - Pat Dorsey, [*The Little Book That Builds Wealth*](https://www.wiley.com/en-us/The+Little+Book+That+Builds+Wealth:+The+Knockout+Formula+for+Finding+Great+Investments-p-9781118045398) (Wiley, 2008).
@@ -396,7 +396,7 @@ It is also the right tool whenever a sales team reports that deals are increasin
 - **Plotting competitors from their marketing rather than buyer perception.** A competitor's own website will always claim to be fast, simple, and comprehensive at once; plotting from their homepage copy instead of how buyers actually describe them produces a map that is really just a collection of marketing claims arranged on a grid. Recovery: score every competitor, including yourself, from the same evidence source (win/loss interviews, review-site text, analyst comparisons), and flag any competitor you cannot score from real buyer evidence as unverified rather than guessing.
 - **Treating an empty quadrant as automatically valuable.** Space with no competitor sometimes means genuine opportunity, and sometimes means no buyer wants what sits there; conflating the two leads teams to chase white space that turns out to be empty for a good reason. Recovery: before committing a positioning claim to an empty quadrant, validate demand directly with five to eight target buyers, and treat silence or confusion in that validation as a signal to keep looking, not a reason to force the claim through anyway.
 
-**Sources:**
+**Sources:** Al Ries; Jack Trout
 - Al Ries & Jack Trout, [*Positioning: The Battle for Your Mind*](https://www.alries.com/positioning) (1981), which popularised perceptual mapping alongside its broader positioning theory.
 
 **See also:** Bowman's Strategic Clock (the fixed price-and-perceived-value version of this exercise; run both when price-value and a second buyer attribute both matter to the strategy question); Product Differentiation Strategy Framework (turn a validated white-space finding into an operational differentiation commitment); Segmentation–Targeting–Positioning (STP) Framework (confirm the segment that actually cares about the axes chosen before building the map); April Dunford's 5-Component Positioning Canvas (translate the map's white-space finding into a full positioning statement with a named competitive alternative).
@@ -507,7 +507,7 @@ It is also the right tool whenever a sales team reports that deals are increasin
 - **Fully resourcing Define and Develop, then abandoning Dominate.** Companies often invest heavily in the initial launch, then stop, and a well-resourced competitor either ignores the new term or co-opts it without doing the underlying work. Recovery: budget category design as a standing multi-year programme with a named owner and a fixed cadence, and track unprompted term-usage share as an ongoing metric, not a launch-week result.
 - **Confusing category design with a rebrand.** Swapping a homepage headline to a new category name without the Legendary Problem evidence and a flagship customer reference fools no one, and can damage credibility when a sceptical buyer tests the claim and finds nothing behind it. Recovery: gate any external category claim on the evidence base, the published POV, and at least one flagship reference being ready before the term appears in copy.
 
-**Sources:**
+**Sources:** Al Ramadan; Dave Peterson; Christopher Lochhead; Kevin Maney
 - Al Ramadan, Dave Peterson, Christopher Lochhead, & Kevin Maney, [*Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets*](https://playbigger.com) (HarperBusiness, 2016), the book that named category design and its Define, Develop, Dominate phases.
 
 **See also:** STP Framework (confirms the segment a new category claim is validated against); Bowman's Strategic Clock (use first, to confirm the existing category's ceiling is genuinely capped before attempting this); Product Differentiation Strategy Framework (the lower-risk alternative when out-competing inside the existing category would be enough); Message Architecture (Messaging House) (turns a validated Point of View into the copy hierarchy every category-defining asset writes from).
@@ -619,7 +619,7 @@ It is also the right tool whenever a sales team reports that deals are increasin
 - **Investing in a CI tool before the repository and process stage is solid.** Buying a competitive-intelligence platform while intel is still scattered across Slack and personal notes produces an expensive tool populated with the same fragmented content it was meant to fix. Recovery: reach Adopting or Impacting on repository and process, a single structured location with a defined intake habit, before evaluating a dedicated platform.
 - **Treating CI as sales-only and never advancing cross-functional reach.** A function that only ever produces sales battlecards plateaus at Impacting and never demonstrates the strategic value that justifies further investment. Recovery: deliberately route at least one CI finding per quarter into a product or planning conversation, and track whether it changed a decision, as the specific evidence needed to advance the cross-functional-reach dimension.
 
-**Sources:**
+**Sources:** Klue; Luis Madureira; Aleš Popovič; Mauro Castelli
 - Klue, [*Competitive Enablement Maturity Model*](https://klue.com/maturity-model) (2021), built from the Klue 2021 Competitive Enablement Report survey of over 550 practitioners.
 - Luis Madureira, Aleš Popovič, & Mauro Castelli, ["Competitive Intelligence Maturity Models: Systematic Review, Unified Model and Implementation Frameworks"](https://journal.lu.lv/JISIB/article/view/2357), *Journal of Intelligence Studies in Business*, Vol. 13, No. 1 (2023), independent corroboration that the fourteen published CI maturity models it reviewed converge on similar dimensions.
 

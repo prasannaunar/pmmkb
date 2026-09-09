@@ -18,6 +18,7 @@ const content = load("../src/lib/content.ts");
 const editorial = load("../src/lib/editorial.ts");
 const guides = load("../src/lib/guides.ts");
 const quiz = load("../src/lib/quiz.ts");
+const sections = load("../src/lib/entry-sections.ts");
 const categories = content.getAllCategories();
 const entries = content.getAllEntries();
 assert.equal(entries.length, 66);
@@ -28,6 +29,19 @@ for (const entry of entries) {
     editorial.entryGuidance[entry.title],
     `Missing editorial summary: ${entry.title}`,
   );
+  const { sourcesMarkdown, sourceCredits } = sections.extractSpecialSections(
+    entry.rawMarkdown,
+  );
+  assert.ok(sourcesMarkdown, `Missing Sources block: ${entry.title}`);
+  assert.ok(
+    sourceCredits.length > 0,
+    `Missing credits on the **Sources:** line: ${entry.title}`,
+  );
+  for (const name of sourceCredits)
+    assert.ok(
+      !/[[\]()*]|\bhttp/.test(name) && name.length <= 40,
+      `Credit should be a bare name: ${entry.title} -> ${name}`,
+    );
   const q = quiz.parseQuizMarkdown(
     quiz.extractEntryQuiz(entry.rawMarkdown).quizMarkdown,
     entry.slug,
@@ -59,5 +73,5 @@ for (const guide of guides.learningPaths) {
   }
 }
 console.log(
-  "PASS: 66 entries, 66 editorial summaries, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
+  "PASS: 66 entries with source credits, 66 editorial summaries, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
 );
