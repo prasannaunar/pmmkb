@@ -18,13 +18,21 @@ the word-count target, British English, no em dashes.
 
 Cite every real-world fact as you write it, don't leave it for a later pass:
 a framework's origin (who created it, what book/article, what year) needs a
-"Further reading" line or an inline citation; any statistic or benchmark
-presented as general fact needs a named source or a hedge ("commonly cited
-as..."); any named real company, person, or quote needs the same. If the
-example is an invented company rather than a sourced real case study, label
-it explicitly as fictional on first mention. See
+bullet in the entry's `**Sources:**` block or an inline citation; any
+statistic or benchmark presented as general fact needs a named source or a
+hedge ("commonly cited as..."); any named real company, person, or quote
+needs the same. If the example is an invented company rather than a sourced
+real case study, label it explicitly as fictional on first mention. See
 [SOURCE-VALIDATION-LOG.md](../../../SOURCE-VALIDATION-LOG.md) for the
 standard and worked examples.
+
+The `**Sources:**` label also carries a credits line: every credited person
+or organisation, semicolon-separated, in bullet order, names only
+(`**Sources:** Wendell R. Smith; Philip Kotler; Al Ries; Jack Trout`). The
+web app renders it under the entry title, so the rules are exact; see
+"Sources block (citation standard)" in
+[CLAUDE.md](../../../CLAUDE.md). Run `npm run test:content` in `web/` to
+check the entry passes.
 
 ## 2. Write the entry's Quiz section
 

@@ -2,7 +2,11 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getAllEntries, getEntryBySlug, markdownToHtml } from "@/lib/content";
-import { extractSpecialSections, parseSeeAlso } from "@/lib/entry-sections";
+import {
+  extractSpecialSections,
+  formatCredits,
+  parseSeeAlso,
+} from "@/lib/entry-sections";
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { cleanTitle, guidanceFor, plainText } from "@/lib/editorial";
 import { learningPaths, resolveSteps } from "@/lib/guides";
@@ -34,7 +38,7 @@ export default async function FrameworkPage({
   const { slug } = await params;
   const entry = getEntryBySlug(slug);
   if (!entry) notFound();
-  const { body, sourcesMarkdown, seeAlsoText, quizMarkdown } =
+  const { body, sourcesMarkdown, sourceCredits, seeAlsoText, quizMarkdown } =
     extractSpecialSections(entry.rawMarkdown);
   const html = await markdownToHtml(
     body.replace(/^\*\*Type:\*\*[^\n]*\n?/m, ""),
@@ -121,14 +125,10 @@ export default async function FrameworkPage({
             </p>
             <h1>{entry.title}</h1>
             <p className="lede">{guidance.output}</p>
-            {sourcesMarkdown && (
+            {sourcesMarkdown && sourceCredits.length > 0 && (
               <a className="attribution-link" href="#sources">
-                {
-                  plainText(sourcesMarkdown.split("\n")[0])
-                    .replace(/^-\s*/, "")
-                    .split(",")[0]
-                }{" "}
-                · View sources ↓
+                {formatCredits(sourceCredits)}{" "}
+                <span className="view-sources">· View sources ↓</span>
               </a>
             )}
           </header>
