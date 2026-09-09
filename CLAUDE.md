@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-09-06 (added the Quiz section as a required section for every entry and category file; see "Quiz section (quiz standard)" and QUIZ-SPEC.md)
+**Last Updated:** 2026-09-09 (added the required credits line to the Sources block; tightened the quiz distractor standard; see "Sources block (citation standard)" and "Quiz section (quiz standard)")
 
 ---
 
@@ -77,11 +77,17 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 
 Every entry must carry a **`**Sources:**` block**, immediately before `**See also:**`, replacing the older optional `**Further reading:**` line. This is the entry's link to the original material; being useful and respectful to the people who created these frameworks is the point.
 
-- **Format:** one bullet per source, each naming the originator, the work title, the year, and a markdown link to the most canonical stable URL available, e.g.:
+- **Format:** a credits line on the `**Sources:**` label itself, then one bullet per source, each naming the originator, the work title, the year, and a markdown link to the most canonical stable URL available, e.g.:
   ```
-  **Sources:**
+  **Sources:** Wendell R. Smith; Philip Kotler; Al Ries; Jack Trout
   - Wendell R. Smith, ["Product Differentiation and Market Segmentation as Alternative Marketing Strategies"](https://example.com/...), *Journal of Marketing* (1956)
   ```
+- **Credits line (required):** every person or organisation credited anywhere in the block, semicolon-separated, in the order the bullets cite them, deduplicated. Names only: no titles, affiliations, work titles, years, links, or hedging prose. This is what the web app shows under the entry title as "Wendell R. Smith, Philip Kotler, Al Ries and Jack Trout · View sources ↓", so the rules are fixed and identical for every entry:
+  - **Name every credited party, however many there are.** A four-author book lists four names. Never "et al.", never just the first author, never a subset chosen for brevity.
+  - **Credit the named author where a work has one; credit the organisation where the work is corporate-authored.** Name the author or the organisation, not both: "Tamara Grominsky", not "Tamara Grominsky, Product Marketing Alliance". A publisher or imprint is not a credit.
+  - **Where the block says no single originator exists**, credit whoever authored the best-documented version it cites, on the same rules ("Pendo", "Jim Semick"). The hedge itself stays in the bullet prose and never appears in the credits line.
+  - Keep the spelling the source uses, including lowercase brands ("airfocus", "monday.com").
+  `web/scripts/verify-content.mjs` fails the build if an entry has no credits line or if a credit looks like prose rather than a name.
 - **Link preference order:** the originator's own site or the framework's official page first; then the publisher's page for a book; then a stable, well-known reference (e.g. the originator's own article or a major publication that documents it). Never a scraped summary site, never an affiliate link.
 - **Every entry needs at least one linked source.** Where a framework has no single originator (e.g. a differentiation lens compiled by practitioners), cite the best-documented version and say so explicitly, matching the precedent in SOURCE-VALIDATION-LOG.md.
 - Verify every URL resolves before committing it.
@@ -93,6 +99,9 @@ Every entry must carry a **`**Quiz:**` block** as its last section, and every ca
 - **Counts:** 5 questions per entry; 10 questions per category quiz.
 - **Purpose:** reinforce and test whether the reader can apply the entry, not recall its structure. Target Bloom's levels 3–4 (Apply, Analyse); never pure recall ("what are the five steps of X").
 - **Format:** four options per question, one clearly correct, three plausible distractors of similar length and detail. Never "all/none of the above" or a combination answer ("both A and C").
+- **Options state the claim, never argue for it.** No "since...", "because...", "a named pitfall" clause inside an option; that reasoning goes in the feedback. A correct option that explains itself is both a giveaway and the reason it runs longer than its distractors.
+- **One near miss per question:** exactly one distractor that is the right family of response, wrong in one nameable way (wrong sequence, scope, evidence, owner or cadence, adjacent method, or correct but incomplete), whose feedback names the discriminator. The other two stay ordinary plausible-but-wrong options.
+- **Length parity:** all four options within ±20% of that question's median option length, and no option more than 25% longer than the longest of the others. Across a category file, the correct answer should be the longest option in no more than 35% of questions. Check with `npm run audit:quiz` in `web/`.
 - **Scenario majority:** at least 3 of 5 questions per entry, and at least 7 of 10 per category quiz, present a realistic PMM situation and ask what to do, what went wrong, or which tool fits. Draw these from the entry's own "When to use it" and "Pitfalls" sections; category-quiz questions should mostly ask the reader to pick the right entry from that category for a given situation.
 - **Feedback:** every option, correct and incorrect, gets 2–3 sentences of explanation tying back to the entry's core principle. Never just "incorrect."
 - **Answer key convention:** the correct option is always written as **A** in the source markdown (an authoring convenience, not a real ranking). The web app shuffles display order per question at render time; never manually reorder options to vary which letter is correct, and never assume a reader of the raw markdown sees it in final order.
@@ -143,6 +152,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── BY-SITUATION.md              # Situation-to-framework mapper
 ├── PLAN.md                      # Roadmap for polish and integration
 ├── QUIZ-SPEC.md                 # Quiz feature spec: format, content rules, build progress
+├── QUIZ-REVISION-PLAN.md        # Batch programme rewriting quiz options to the 2026-09-09 distractor standard
 ├── CLAUDE.md                    # This file; working principles
 ├── GLOSSARY.md                  # PMM terminology (45+ terms)
 ├── ONBOARDING.md                # Role-based onboarding playbook for new PMM team members
@@ -253,7 +263,9 @@ separate from everything above:
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
 - [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
 - [ ] **Quiz section present and spec-compliant.** A `**Quiz:**` section (the entry's last section, 5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
+- [ ] **Quiz options are not guessable.** No option argues for itself, exactly one distractor is a near miss whose feedback names the discriminator, and the four options are within ±20% of their median length. Run `npm run audit:quiz` in `web/` on the file: no `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags on the questions you touched.
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
+- [ ] **Sources block carries a credits line** on the `**Sources:**` label, naming every credited person or organisation, semicolon-separated, names only (see "Sources block (citation standard)"). Run `npm run test:content` in `web/` to check it.
 - [ ] **Every fact, figure, quote, or attribution is cited, with a working link.** Any claim about a real person, company, publication, or market statistic (a framework's origin, a named individual's finding, a benchmark presented as general fact) needs a source in the `**Sources:**` block (see "Sources block (citation standard)" above): originator, work title, year, and a verified URL. If no defensible source exists, soften the claim (e.g. "commonly cited," "a widely held practitioner view") rather than stating it as fact. See [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md) for worked examples of both citations and hedged rewrites.
 - [ ] **Fictional example companies are explicitly labelled as fictional.** An invented company used to illustrate a framework (as opposed to a real, verifiably-sourced case study) must say so in its first mention, e.g. "a fictional B2B SaaS company called X" or "X, a fictional Y." Don't leave an invented name unlabelled, even if the scenario is clearly illustrative to the author; a future reader may not know.
 

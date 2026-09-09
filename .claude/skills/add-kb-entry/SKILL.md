@@ -18,13 +18,21 @@ the word-count target, British English, no em dashes.
 
 Cite every real-world fact as you write it, don't leave it for a later pass:
 a framework's origin (who created it, what book/article, what year) needs a
-"Further reading" line or an inline citation; any statistic or benchmark
-presented as general fact needs a named source or a hedge ("commonly cited
-as..."); any named real company, person, or quote needs the same. If the
-example is an invented company rather than a sourced real case study, label
-it explicitly as fictional on first mention. See
+bullet in the entry's `**Sources:**` block or an inline citation; any
+statistic or benchmark presented as general fact needs a named source or a
+hedge ("commonly cited as..."); any named real company, person, or quote
+needs the same. If the example is an invented company rather than a sourced
+real case study, label it explicitly as fictional on first mention. See
 [SOURCE-VALIDATION-LOG.md](../../../SOURCE-VALIDATION-LOG.md) for the
 standard and worked examples.
+
+The `**Sources:**` label also carries a credits line: every credited person
+or organisation, semicolon-separated, in bullet order, names only
+(`**Sources:** Wendell R. Smith; Philip Kotler; Al Ries; Jack Trout`). The
+web app renders it under the entry title, so the rules are exact; see
+"Sources block (citation standard)" in
+[CLAUDE.md](../../../CLAUDE.md). Run `npm run test:content` in `web/` to
+check the entry passes.
 
 ## 2. Write the entry's Quiz section
 
@@ -37,6 +45,18 @@ in the source (the web app shuffles display order; don't reorder options
 yourself), no combination answers ("both A and C") or "all/none of the
 above". Draw scenarios and distractors from the entry's own "When to use
 it" and "Pitfalls" sections.
+
+Two rules are easy to miss and are what the 2026-09-09 standard tightened.
+First, an option states the action or claim and never argues for it: no
+"since...", "because...", "a named pitfall" clause, because that reasoning
+belongs in the feedback and a correct option that explains itself gives the
+answer away by length. Second, exactly one of the three distractors is a
+near miss: the right family of response, wrong in one nameable way (wrong
+sequence, scope, evidence, owner or cadence, adjacent method, or correct
+but incomplete), with feedback that names the discriminator. Keep all four
+options within roughly 20% of each other in length. Check with
+`npm run audit:quiz -- --file <path>` in `web/`; see QUIZ-SPEC.md's
+"Distractor quality" for the taxonomy and worked examples.
 
 Check whether the entry should also appear in its category's existing
 `## Category Quiz` (10 questions, at the top of the category file): if the
