@@ -11,7 +11,7 @@ Everything below is either not started, partially done, or explicitly waiting on
 
 ### Quiz revision (opened 2026-09-09)
 
-- [ ] **Rewrite the option sets on all 435 quiz questions** to the tightened distractor standard. The existing questions are answerable without knowing the material: in 86% of them the correct answer is the longest option, because it states the action and then argues for it while the distractors state only an action. Two thirds have no distractor close enough to the correct answer to be worth weighing. The rules are now in QUIZ-SPEC.md ("Distractor quality") and CLAUDE.md's quality gate; the batch programme, worked example, and progress table are in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md). Batch 0 (rules, `npm run audit:quiz` tooling, plan) is done; batches 1 to 10 are open, starting with the `frameworks/05-lifecycle-workflow.md` pilot.
+- [ ] **Rewrite the option sets on all 435 quiz questions** to the tightened distractor standard. The existing questions are answerable without knowing the material: in 86% of them the correct answer is the longest option, because it states the action and then argues for it while the distractors state only an action. Two thirds have no distractor close enough to the correct answer to be worth weighing. The rules are now in QUIZ-SPEC.md ("Distractor quality") and CLAUDE.md's quality gate; the batch programme, worked example, and progress table are in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md). Batch 0 (rules, `npm run audit:quiz` tooling, plan) is done; twelve batches remain. **Next session starts at batch 1**, the `frameworks/05-lifecycle-workflow.md` pilot (25 questions).
 
 ### Content maintenance (from Phase 5, below)
 
