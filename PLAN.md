@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-09-06
+**Last Updated:** 2026-09-09
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -8,6 +8,10 @@
 ## Open work (start here)
 
 Everything below is either not started, partially done, or explicitly waiting on a future trigger. Nothing in this section duplicates the archived documents; where an archived plan had open items, they were copied forward here and the source noted.
+
+### Quiz revision (opened 2026-09-09)
+
+- [ ] **Rewrite the option sets on all 435 quiz questions** to the tightened distractor standard. The existing questions are answerable without knowing the material: in 86% of them the correct answer is the longest option, because it states the action and then argues for it while the distractors state only an action. Two thirds have no distractor close enough to the correct answer to be worth weighing. The rules are now in QUIZ-SPEC.md ("Distractor quality") and CLAUDE.md's quality gate; the batch programme, worked example, and progress table are in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md). Batch 0 (rules, `npm run audit:quiz` tooling, plan) is done; twelve batches remain. **Next session starts at batch 1**, the `frameworks/05-lifecycle-workflow.md` pilot (25 questions).
 
 ### Content maintenance (from Phase 5, below)
 

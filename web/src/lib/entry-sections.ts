@@ -4,6 +4,11 @@ import { extractEntryQuiz } from "./quiz";
 export interface ExtractedSections {
   body: string;
   sourcesMarkdown: string | null;
+  /** Every person or organisation credited in the Sources block, in source
+   * order and deduplicated, taken from the `**Sources:**` label line (see the
+   * citation standard in CLAUDE.md). Names only, so the credit shown under an
+   * entry title reads the same length and shape on every entry. */
+  sourceCredits: string[];
   seeAlsoText: string | null;
   quizMarkdown: string | null;
 }
@@ -19,9 +24,14 @@ export function extractSpecialSections(markdown: string): ExtractedSections {
   const lines = withoutQuiz.split("\n");
   const toRemove = new Set<number>();
 
-  const sourcesIdx = lines.findIndex((l) => l.trim() === "**Sources:**");
+  const sourcesIdx = lines.findIndex((l) => /^\*\*Sources:\*\*/.test(l.trim()));
   let sourcesMarkdown: string | null = null;
+  let sourceCredits: string[] = [];
   if (sourcesIdx !== -1) {
+    sourceCredits = (lines[sourcesIdx].trim().match(/^\*\*Sources:\*\*\s*(.*)$/)?.[1] ?? "")
+      .split(";")
+      .map((name) => name.trim())
+      .filter(Boolean);
     toRemove.add(sourcesIdx);
     const bullets: string[] = [];
     let i = sourcesIdx + 1;
@@ -42,7 +52,7 @@ export function extractSpecialSections(markdown: string): ExtractedSections {
   }
 
   const body = lines.filter((_, i) => !toRemove.has(i)).join("\n");
-  return { body, sourcesMarkdown, seeAlsoText, quizMarkdown };
+  return { body, sourcesMarkdown, sourceCredits, seeAlsoText, quizMarkdown };
 }
 
 function normalize(s: string): string {
@@ -163,4 +173,13 @@ export function parseSeeAlso(text: string, entries: Entry[]): SeeAlsoItem[] {
       const slug = lookup.get(normalize(name)) ?? lookup.get(stem(name)) ?? null;
       return { name, guidance, slug };
     });
+}
+
+/** Renders the credits as one readable clause: "A, B and C". Used for the
+ * attribution line under an entry title, which always shows every credited
+ * name and nothing else, so no entry gets a fuller credit than another. */
+export function formatCredits(names: string[]): string {
+  if (names.length === 0) return "";
+  if (names.length === 1) return names[0];
+  return `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
 }

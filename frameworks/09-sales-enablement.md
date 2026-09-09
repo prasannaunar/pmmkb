@@ -177,7 +177,7 @@
 - **Trying to advance all four dimensions simultaneously.** Ambitious teams draft a plan to fix all four in the same quarter, spreading headcount so thin that no dimension clears its next-stage bar. Recovery: name one priority dimension per quarter (per step 3) and treat the other three as maintained, not advanced, during that period.
 - **Buying an enablement platform before governance is in place.** Tooling at the Optimised stage assumes a single, owned content library already exists; teams that skip to a platform purchase while still at Ad Hoc on governance end up with an expensive tool full of the same duplicated content it was meant to fix. Recovery: reach Organised on content governance (one owner, one library, a basic template) before evaluating or purchasing a dedicated enablement platform.
 
-**Sources:**
+**Sources:** Revenue Enablement Society; Highspot; Pragmatic Institute
 - Revenue Enablement Society, ["Revenue Enablement Society"](https://www.resociety.global/) (formerly the Sales Enablement Society), homepage (accessed 2026)
 - Highspot, ["Sales Enablement Maturity Model"](https://www.highspot.com/sales-enablement/sales-enablement-maturity-model/) (accessed 2026)
 - Pragmatic Institute, ["What Is Sales Readiness?"](https://www.pragmaticinstitute.com/resources/articles/product/what-the-heck-is-sales-readiness-anyway/) (accessed 2026)
@@ -289,7 +289,7 @@
 - **Metrics content that restates a feature instead of a sourced number.** "Improves efficiency" answers no Economic Buyer's question; a rep handed that content still has to invent a number under pressure, which is the exact failure MEDDIC was adopted to prevent. Recovery: require a sourced, customer-derived figure before Metrics content ships, using the same evidence discipline as the Features-Advantages-Benefits Ladder.
 - **Treating the content build as a one-off launch rather than a maintained system.** A Competition brief written for the qualification rollout goes stale the moment a competitor changes their pitch or a new alternative enters deals, and reps notice within a quarter when their qualification content stops matching what they hear live. Recovery: fold the Metrics, Decision Criteria, and Competition content into the same quarterly refresh cadence as the Competitive Battlecard Framework, rather than treating it as a one-time deliverable for the rollout.
 
-**Sources:**
+**Sources:** Dick Dunkel; John McMahon; Jack Napoli
 - Dick Dunkel, John McMahon, and Jack Napoli, ["Who Created MEDDIC?"](https://meddicc.com/resources/who-created-meddic), MEDDICC (framework created 1996 inside PTC)
 - John McMahon, *The Qualified Sales Leader*, self-published (2021)
 
@@ -403,7 +403,7 @@
 - **Building a research report instead of a field tool.** A five-page card with market analysis and SWOT tables does not get read in the ninety seconds before a call, so reps default to improvising instead. Recovery: cut the card to one page of immediately usable material and move any deeper analysis into a linked appendix that exists for onboarding, not live deals.
 - **Publishing once and letting it go stale.** A competitor's pricing, features, and messaging move faster than most PMM teams update their cards, so a battlecard six months old can actively mislead a rep into repeating a claim the competitor has already invalidated. Recovery: assign one owner, put a refresh date on every card, and treat a competitor funding round, feature launch, or pricing change as an explicit trigger to update within two weeks, not the next scheduled quarterly review.
 
-**Sources:**
+**Sources:** Klue
 - No single named originator is documented for battlecards as a sales-enablement practice; the best-known practitioner guide is Klue, ["Sales Battlecards 101: Guide + Battlecard Templates"](https://klue.com/blog/competitive-battlecards-101) (accessed 2026)
 
 **See also:** Competitive Intelligence & Positioning Update Framework (Category 7; the ongoing monitoring that feeds new information into the battlecard); Bowman's Strategic Clock (Category 3; understand the price-value position the competitor actually occupies before writing the counter); Product Differentiation Strategy Framework (Category 3; source the differentiators the battlecard's counter-position leans on); Win/Loss Analysis Framework (Category 6; validate which claims and proof points actually moved contested deals); VARS Framework (the live-conversation technique for delivering this card's counter-position without sounding defensive).
@@ -523,7 +523,7 @@ Success metrics to track: the ratio of assets to buyer-journey stage (flagging a
 - **Building the map once and never refreshing it.** Content maps drift out of date as competitors change the objections buyers raise and as new segments or products open journeys the original map never accounted for. Recovery: put a quarterly content-map refresh on the standing PMM calendar, tied to the same cadence as competitive intelligence updates, so gaps are caught before sales notices them first.
 - **Producing content for the loudest internal request rather than the highest-impact gap.** Sales or a single stakeholder pushing hard for one asset can crowd out a bigger, quieter gap elsewhere in the journey. Recovery: rank every gap by the CRM-evidenced revenue and frequency data from step 6 before agreeing to any content brief, and be willing to say no to a loud request that scores lower than a quiet one.
 
-**Sources:**
+**Sources:** Stephanie Trovato
 - No single named originator is documented for buyer-journey content mapping as a content-marketing practice; the best-known practitioner guide is Stephanie Trovato, ["How I Use Content Mapping to Deliver the Right Message at the Right Time"](https://blog.hubspot.com/marketing/content-mapping-template-personalize-marketing), HubSpot (accessed 2026)
 
 **See also:** PMM Lifecycle Management Framework (Category 5; defines PMM's broader role across the same journey this map audits at the content level); Win/Loss Analysis Framework (Category 6; supplies the objection data that scores each cell in the map); Competitive Battlecard Framework (a Decision-stage asset this map will surface as missing if no battlecard exists for a segment); 10-Step PMM Process (Category 4; build the content this map identifies as part of the sales enablement step).
@@ -633,7 +633,7 @@ Success metrics to track: the ratio of assets to buyer-journey stage (flagging a
 - **Writing a hollow or grudging Acknowledge line.** An acknowledgement that is technically true but delivered sarcastically, or that undersells the competitor's real strength, reads as insincere and undermines the trust the step exists to build. Recovery: source the Acknowledge line from genuine competitor research (a real demo, real customer feedback), the same evidence discipline the Competitive Battlecard Framework already requires, not from a rep's own dismissive impression.
 - **Ending on Reframe without a concrete Specify step.** A reframe that stays abstract ("we think about this differently") leaves the buyer without anything memorable to carry into their own internal evaluation. Recovery: require every Specify step to end in something concrete, a demo moment, a number, or a named customer outcome, and review call recordings specifically for whether reps are closing with a claim or with evidence.
 
-**Sources:**
+**Sources:** Alex McDonnell
 - Alex McDonnell, ["How to Deliver Competitive Intelligence to Sales and Customer Success"](https://www.competitiveintelligencealliance.io/how-to-deliver-competitive-intelligence-sales-customer-success/), Competitive Intelligence Alliance, adapted from the CI: Masters certification programme (accessed 2026)
 
 **See also:** Competitive Battlecard Framework (the content source for every VARS step's acknowledgement, reframe, and proof points); CI Program Maturity Model (Category 3; a function at Impacting or above is what reliably keeps VARS content current enough to train against); Win/Loss Analysis Framework (Category 6; surfaces which competitor conversations are actually costing deals and need VARS training first); Command of the Message (Category 2; a complementary live-conversation discipline for quantifying value once a competitive question has been reframed).
