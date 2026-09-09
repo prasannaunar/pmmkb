@@ -46,6 +46,18 @@ yourself), no combination answers ("both A and C") or "all/none of the
 above". Draw scenarios and distractors from the entry's own "When to use
 it" and "Pitfalls" sections.
 
+Two rules are easy to miss and are what the 2026-09-09 standard tightened.
+First, an option states the action or claim and never argues for it: no
+"since...", "because...", "a named pitfall" clause, because that reasoning
+belongs in the feedback and a correct option that explains itself gives the
+answer away by length. Second, exactly one of the three distractors is a
+near miss: the right family of response, wrong in one nameable way (wrong
+sequence, scope, evidence, owner or cadence, adjacent method, or correct
+but incomplete), with feedback that names the discriminator. Keep all four
+options within roughly 20% of each other in length. Check with
+`npm run audit:quiz -- --file <path>` in `web/`; see QUIZ-SPEC.md's
+"Distractor quality" for the taxonomy and worked examples.
+
 Check whether the entry should also appear in its category's existing
 `## Category Quiz` (10 questions, at the top of the category file): if the
 new entry names a genuinely distinguishing use case not yet covered by an

@@ -1,7 +1,7 @@
 # Quiz Specification for PMMKB
 
-**Status:** Feature complete. All 66 entries and all 9 category quizzes are written and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle). Only remaining item: updating CLAUDE.md's quality gates and the `add-kb-entry` skill so future entries include a quiz by default (see "Build progress" below).
-**Last Updated:** 2026-09-06
+**Status:** Feature complete and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle) for all 66 entries and all 9 category quizzes. **The distractor standard was tightened on 2026-09-09** after the existing questions proved answerable by picking the longest option; see "Distractor quality" below for the current rules and [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md) for the batch programme bringing the 435 existing questions up to them.
+**Last Updated:** 2026-09-09
 
 This is the source-of-truth spec for the quiz feature described in PLAN.md's Phase 7. If a build session runs out of room partway through, resume from here rather than re-deriving the requirements; update the "Build progress" section at the bottom as work lands.
 
@@ -56,10 +56,49 @@ Example stem pattern: *"A B2B SaaS company has just lost three competitive deals
 
 ## Distractor quality
 
+**Revised 2026-09-09.** The original rules below were right but unenforced, and the 435 questions written against them are guessable: in 86% of them the correct answer is the longest option, and picking the longest one answers correctly more than three times as often as chance. The rules that follow make the standard specific enough to check, by hand and by script. Existing questions are being brought up to it batch by batch; see [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md).
+
 - Distractors should reflect real misconceptions or common mistakes professionals actually make, not absurd or obviously wrong options.
 - Where possible, draw distractors from the entry's "Pitfalls" section.
-- Every distractor should be a defensible-sounding action a less experienced PMM might genuinely choose.
-- Keep all four options similar in length, grammatical structure, and level of detail.
+- Every distractor should be a defensible-sounding action a less experienced PMM might genuinely choose, and should be defensible in a sentence before the feedback rebuts it.
+
+### Options state the claim only
+
+An option gives the action or the claim. It never argues for itself. No "since...", "because...", "a named pitfall", "as the framework says": that reasoning belongs in the feedback, where the reader meets it after committing to an answer. A correct option that explains why it is correct has answered the question for the reader, and is the single biggest reason the current set is guessable by length.
+
+- ❌ *"Re-run the STP process, since a falling win rate and lengthening cycle are named triggers suggesting positioning no longer matches how the market or competitors have moved."*
+- ✅ *"Re-run STP to test whether the target segment still matches who is buying."*
+
+### One near miss per question
+
+Every question carries exactly one distractor that is the right family of response, wrong in one specific and nameable way. The reader has to hold it against the correct answer and find the discriminator; that comparison is where the learning happens. The other two distractors stay as ordinary plausible-but-wrong options.
+
+Choose the near miss's type from the situation in the stem. Type 5 is the natural default for category quizzes, which test choosing between entries.
+
+| Type | The near miss is | Discriminator to name in feedback |
+| --- | --- | --- |
+| 1. Wrong sequence | The right work, done at the wrong point in the order | What has to be settled first, and what breaks if it is not |
+| 2. Wrong scope | The right method aimed at too broad or too narrow a slice | Why this is a segment problem, not an account problem (or the reverse) |
+| 3. Wrong evidence | The right conclusion drawn from internal opinion, a proxy metric, or too small a sample | What evidence would actually support the call |
+| 4. Wrong owner or cadence | The right work handed to the wrong function, or run on the wrong rhythm | Who owns the decision here and why the timing matters |
+| 5. Adjacent method | A neighbouring entry that answers a genuinely similar but different question | The question each method actually answers |
+| 6. Correct but incomplete | Part of the right response, stopping short of the part that matters | What it leaves unresolved |
+
+For type 5, take the adjacent method from the entry's own "See also" line: those pairings (Van Westendorp against Gabor-Granger, STP against ICP Development, Kano against MaxDiff) are already curated, and are exactly the confusions worth testing.
+
+The near miss's feedback must name the discriminator. Not "this is not the best answer" but the specific thing that separates it from the correct option: the step it skips, the evidence it lacks, the scope it gets wrong.
+
+### Length parity
+
+- All four options within ±20% of that question's median option length.
+- No option more than 25% longer than the longest of the other three.
+- Across a category file, the correct answer is the longest option in no more than 35% of questions. Chance is 25%; the band leaves room for questions where the correct answer is genuinely the fullest statement.
+
+Keep all four options similar in grammatical structure and level of detail, not just in length: four actions, or four diagnoses, not one of each.
+
+### Checking it
+
+`npm run audit:quiz` in `web/` reports these signals per question and per file, and `--list` shows every flagged question with its option lengths and flags. Run it on any file whose quiz you add to or edit.
 
 ---
 
@@ -89,7 +128,7 @@ Professional but not stiff. Match the knowledge base voice: clear, direct, groun
 
 - Definitions, dates, names of originators, or the number of steps in a process.
 - Negative phrasing ("Which of the following is NOT...").
-- Trick questions where two options are technically correct but one is "more correct." If a question needs that level of hair-splitting, it is testing the wrong thing.
+- Trick questions where two options are technically correct but one is "more correct." If a question needs that level of hair-splitting, it is testing the wrong thing. A near miss is not this: it is genuinely wrong, for a reason the feedback can name in a sentence.
 
 ---
 
