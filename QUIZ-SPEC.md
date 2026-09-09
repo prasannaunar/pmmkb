@@ -174,3 +174,13 @@ In the source markdown, the correct option is always written as **A** for every 
 
 - [x] **Wire quiz content into the web app — done (2026-09-06).** Verified with `next build` (all 84 static pages), a scripted parser check (420/420 questions valid, exactly one correct option and full feedback each), and an interactive Playwright pass (click reveals feedback, progress updates, summary and Retry appear once all answered, Retry clears state).
 - [x] **Update CLAUDE.md quality gates and `add-kb-entry` skill — done (2026-09-06).** New entries and category files now require a quiz section as part of the standard publishing checklist; see CLAUDE.md's "Quiz section (quiz standard)" and the `add-kb-entry` skill's updated checklist.
+
+---
+
+### Next: the distractor revision (opened 2026-09-09)
+
+The content build above is complete and stays complete; what follows is a quality pass over the same 435 questions, not more of them. The option sets are guessable (correct answer is the longest option 86% of the time) and the distractors are too light to make a reader think. The standard was tightened on 2026-09-09; the questions have not been rewritten yet.
+
+- [x] **Batch 0: rules and tooling (2026-09-09).** "Distractor quality" above rewritten; CLAUDE.md's quiz standard and quality gate updated; `add-kb-entry` skill updated; `web/scripts/audit-quiz.mjs` and `npm run audit:quiz` added.
+- [ ] **Batches 1 to 10: rewrite the option sets, file by file.** Tracked in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md), which holds the evidence, the near-miss taxonomy, a before/after worked example, the batch list, and the progress table. **Start there**, at batch 1 (`frameworks/05-lifecycle-workflow.md`, the pilot).
+- [ ] **Enforcement**, last: fold the audit thresholds into `web/scripts/verify-content.mjs` so `npm run test:content` fails on a regression. Deliberately deferred to the end of the programme so the build is not red throughout it.
