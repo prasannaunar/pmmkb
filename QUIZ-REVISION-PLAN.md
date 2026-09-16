@@ -145,8 +145,8 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 - [x] **Batch 5. `frameworks/07-strategy-planning.md`** (7 entries + category quiz, 45). *(2026-09-16.)*
 - [ ] **Batch 6. `frameworks/08-pricing-packaging.md`** (7 entries + category quiz, 45). Type 5 near misses are especially available here: the four pricing-research methods are routinely confused with each other.
 - [ ] **Batch 7. `frameworks/01-market-customer-understanding.md`** (8 entries + category quiz, 50). Question 1 of STP is already drafted in "The worked example" above.
-- [ ] **Batch 8a. `frameworks/02-positioning-messaging.md`**, first 6 entries + category quiz (40).
-- [ ] **Batch 8b. `frameworks/02-positioning-messaging.md`**, remaining 6 entries (30).
+- [x] **Batch 8a. `frameworks/02-positioning-messaging.md`**, first 6 entries + category quiz (40).
+- [x] **Batch 8b. `frameworks/02-positioning-messaging.md`**, remaining 6 entries (30). *(2026-09-16, via delegated agent plus manual finishing after the agent hit the account spend limit mid-file.)*
 - [ ] **Batch 9a. `frameworks/04-go-to-market-launch.md`**, first 6 entries (30).
 - [ ] **Batch 9b. `frameworks/04-go-to-market-launch.md`**, remaining 5 entries + category quiz (35).
 - [ ] **Batch 10. Lock it in.** Once every file is under the thresholds, promote the audit into the build: call `audit-quiz.mjs`'s checks from `web/scripts/verify-content.mjs` so `npm run test:content` fails on a regression, and note the enforcement in QUIZ-SPEC.md. Do this last; running it earlier just means a red build for the length of the programme.
@@ -171,7 +171,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | File | Questions | Revised | Correct-is-longest |
 | --- | --- | --- | --- |
 | `frameworks/01-market-customer-understanding.md` | 50 | 0 | 86% |
-| `frameworks/02-positioning-messaging.md` | 70 | 0 | 87% |
+| `frameworks/02-positioning-messaging.md` | 70 | 70 | 23% |
 | `frameworks/03-competitive-strategy.md` | 35 | 35 | 17% |
 | `frameworks/04-go-to-market-launch.md` | 65 | 0 | 91% |
 | `frameworks/05-lifecycle-workflow.md` | 25 | 25 | 32% |
@@ -181,7 +181,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | `frameworks/09-sales-enablement.md` | 35 | 35 | 34% |
 | `concepts/gtm-strategy-vs-product-marketing.md` | 5 | 0 | 100% |
 | `web/src/lib/guides.ts` (path quizzes) | 15 | 15 | 33% |
-| **Total** | **435** | **200** | **58%** |
+| **Total** | **435** | **270** | **48%** |
 
 Update this table at the end of each batch from the audit output.
 
@@ -196,3 +196,4 @@ Append one line per session that moves a batch. Keep it short: what was done, wh
 - **2026-09-16, batch 5 (via delegated agent, verified independently before commit).** Revised all 45 questions in `frameworks/07-strategy-planning.md` (7 entries plus the category quiz) to the standard. `npm run audit:quiz -- --file frameworks/07-strategy-planning.md` reports 16% correct-is-longest with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags (38/45 fully clean). `npm run test:content` and `npm run build` both pass. Batches 2, 3, 4, 6, 7, 8a/8b, and 9a/9b were dispatched in parallel and will be logged and committed as each lands.
 - **2026-09-16, batch 4 plus the completed halves of batches 2 and 3 (via delegated agents, verified independently before commit).** `frameworks/06-product-experience-adoption.md` (batch 4, all 45 questions) is fully revised: 29% correct-is-longest, zero required flags. `frameworks/03-competitive-strategy.md` (batch 2's markdown half) and `frameworks/09-sales-enablement.md` (batch 3's markdown half) are also fully revised, at 31% and 34% correct-is-longest with zero required flags; `concepts/gtm-strategy-vs-product-marketing.md` (the rest of batch 2) and `web/src/lib/guides.ts` (the rest of batch 3) were still in progress at commit time and are not yet ticked. `npm run test:content` and `npm run build` pass against the full working tree.
 - **2026-09-16, batches 2/3/4 wrap-up plus a mass agent failure.** The 8 remaining delegated agents (batches 2, 3, 4, 6, 7, 8a/8b, 9a/9b) all died mid-edit when the account hit its monthly spend limit; none reached its own verify-and-commit step. Before dying, the batch-4 and batch-2/3 agents had kept polishing `frameworks/06-product-experience-adoption.md` (down to 16% correct-is-longest, one harmless `spread` flag) and `frameworks/03-competitive-strategy.md` (down to 17%, two harmless `spread` flags) past what was committed above, and had finished `web/src/lib/guides.ts` (33%, fully clean), completing batch 3. Verified independently (`audit:quiz`, `test:content`, `tsc --noEmit`, `build`, all pass) and committed. Still outstanding from the failed agents, left as partial, uncommitted working-tree edits for the next session to finish by hand or via fresh agents once the spend limit resets: `concepts/gtm-strategy-vs-product-marketing.md` (batch 2's primer, untouched at 100%), `frameworks/01-market-customer-understanding.md` (batch 7, partway, 58%), `frameworks/02-positioning-messaging.md` (batches 8a/8b, partway, 24%), `frameworks/04-go-to-market-launch.md` (batches 9a/9b, partway, 49%), `frameworks/08-pricing-packaging.md` (batch 6, partway, 53%). Do not discard this partial work; it is a real head start, just unfinished and unverified.
+- **2026-09-16, batches 8a/8b finished by hand.** Since agent capacity was exhausted, finished `frameworks/02-positioning-messaging.md` manually: fixed the 14 remaining flagged questions (mostly `throwaway` options like "there is no risk" or "nothing went wrong", plus a few leftover self-justifying correct options) one at a time, each with a proper near miss or a rewritten, defensible-sounding distractor. Two rounds were needed because the audit script's `THROWAWAY` regex also catches phrasings like "abandon the" outside the documented "no consequence" examples; worth remembering for the remaining files. Final state: 23% correct-is-longest, zero required flags. `npm run test:content` and `npm run build` pass. Batch completely done.
