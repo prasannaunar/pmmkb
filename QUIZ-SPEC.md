@@ -56,7 +56,7 @@ Example stem pattern: *"A B2B SaaS company has just lost three competitive deals
 
 ## Distractor quality
 
-**Revised 2026-09-09.** The original rules below were right but unenforced, and the 435 questions written against them are guessable: in 86% of them the correct answer is the longest option, and picking the longest one answers correctly more than three times as often as chance. The rules that follow make the standard specific enough to check, by hand and by script. Existing questions are being brought up to it batch by batch; see [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md).
+**Revised 2026-09-09; enforced 2026-09-16.** The original rules below were right but unenforced, and the 435 questions written against them were guessable: in 86% of them the correct answer was the longest option, and picking the longest one answered correctly more than three times as often as chance. The rules that follow make the standard specific enough to check, by hand and by script. All 435 existing questions have now been brought up to it; see [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md) for the full record. The check is enforced by `npm run test:content` (via `web/scripts/quiz-audit-lib.mjs` and `web/scripts/verify-content.mjs`): a question flagged `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss`, or a file whose correct-is-longest rate exceeds 35%, fails the build. Run `npm --prefix web run audit:quiz -- --file <path>` on any new or edited question before committing.
 
 - Distractors should reflect real misconceptions or common mistakes professionals actually make, not absurd or obviously wrong options.
 - Where possible, draw distractors from the entry's "Pitfalls" section.
