@@ -9,9 +9,9 @@
 
 Everything below is either not started, partially done, or explicitly waiting on a future trigger. Nothing in this section duplicates the archived documents; where an archived plan had open items, they were copied forward here and the source noted.
 
-### Quiz revision (opened 2026-09-09)
+### Quiz revision ✅ Complete (2026-09-16)
 
-- [ ] **Rewrite the option sets on all 435 quiz questions** to the tightened distractor standard. The existing questions are answerable without knowing the material: in 86% of them the correct answer is the longest option, because it states the action and then argues for it while the distractors state only an action. Two thirds have no distractor close enough to the correct answer to be worth weighing. The rules are now in QUIZ-SPEC.md ("Distractor quality") and CLAUDE.md's quality gate; the batch programme, worked example, and progress table are in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md). Batch 0 (rules, `npm run audit:quiz` tooling, plan) is done; twelve batches remain. **Next session starts at batch 1**, the `frameworks/05-lifecycle-workflow.md` pilot (25 questions).
+All 435 quiz questions across all 11 sources have been rewritten to the tightened distractor standard: self-justifying correct options trimmed, one taxonomy-driven near miss added per question, and option lengths levelled. Overall correct-is-longest fell from 86% to 27%, with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags anywhere in the repository. The standard is now enforced by `npm run test:content` (`web/scripts/quiz-audit-lib.mjs` plus an assertion block in `web/scripts/verify-content.mjs`), so a regression or a new question that doesn't meet the bar fails the build. Full batch-by-batch record in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md); the standard itself is in QUIZ-SPEC.md's "Distractor quality" section.
 
 ### Content maintenance (from Phase 5, below)
 
