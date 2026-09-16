@@ -147,8 +147,8 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 - [ ] **Batch 7. `frameworks/01-market-customer-understanding.md`** (8 entries + category quiz, 50). Question 1 of STP is already drafted in "The worked example" above.
 - [x] **Batch 8a. `frameworks/02-positioning-messaging.md`**, first 6 entries + category quiz (40).
 - [x] **Batch 8b. `frameworks/02-positioning-messaging.md`**, remaining 6 entries (30). *(2026-09-16, via delegated agent plus manual finishing after the agent hit the account spend limit mid-file.)*
-- [ ] **Batch 9a. `frameworks/04-go-to-market-launch.md`**, first 6 entries (30).
-- [ ] **Batch 9b. `frameworks/04-go-to-market-launch.md`**, remaining 5 entries + category quiz (35).
+- [x] **Batch 9a. `frameworks/04-go-to-market-launch.md`**, first 6 entries (30).
+- [x] **Batch 9b. `frameworks/04-go-to-market-launch.md`**, remaining 5 entries + category quiz (35). *(2026-09-16, via delegated agent plus manual finishing after the agent hit the account spend limit mid-file.)*
 - [ ] **Batch 10. Lock it in.** Once every file is under the thresholds, promote the audit into the build: call `audit-quiz.mjs`'s checks from `web/scripts/verify-content.mjs` so `npm run test:content` fails on a regression, and note the enforcement in QUIZ-SPEC.md. Do this last; running it earlier just means a red build for the length of the programme.
 
 ### How to run a batch
@@ -173,7 +173,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | `frameworks/01-market-customer-understanding.md` | 50 | 0 | 86% |
 | `frameworks/02-positioning-messaging.md` | 70 | 70 | 23% |
 | `frameworks/03-competitive-strategy.md` | 35 | 35 | 17% |
-| `frameworks/04-go-to-market-launch.md` | 65 | 0 | 91% |
+| `frameworks/04-go-to-market-launch.md` | 65 | 65 | 32% |
 | `frameworks/05-lifecycle-workflow.md` | 25 | 25 | 32% |
 | `frameworks/06-product-experience-adoption.md` | 45 | 45 | 16% |
 | `frameworks/07-strategy-planning.md` | 45 | 45 | 16% |
@@ -181,7 +181,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | `frameworks/09-sales-enablement.md` | 35 | 35 | 34% |
 | `concepts/gtm-strategy-vs-product-marketing.md` | 5 | 5 | 20% |
 | `web/src/lib/guides.ts` (path quizzes) | 15 | 15 | 33% |
-| **Total** | **435** | **320** | **33%** |
+| **Total** | **435** | **385** | **30%** |
 
 Update this table at the end of each batch from the audit output.
 
@@ -199,3 +199,4 @@ Append one line per session that moves a batch. Keep it short: what was done, wh
 - **2026-09-16, batches 8a/8b finished by hand.** Since agent capacity was exhausted, finished `frameworks/02-positioning-messaging.md` manually: fixed the 14 remaining flagged questions (mostly `throwaway` options like "there is no risk" or "nothing went wrong", plus a few leftover self-justifying correct options) one at a time, each with a proper near miss or a rewritten, defensible-sounding distractor. Two rounds were needed because the audit script's `THROWAWAY` regex also catches phrasings like "abandon the" outside the documented "no consequence" examples; worth remembering for the remaining files. Final state: 23% correct-is-longest, zero required flags. `npm run test:content` and `npm run build` pass. Batch completely done.
 - **2026-09-16, batch 2 finished by hand.** Wrote all 5 questions in `concepts/gtm-strategy-vs-product-marketing.md` from scratch (the failed agent never touched it): trimmed each correct option's self-justifying clause, kept the file's existing decent near misses (a "correct but incomplete" option per question), and levelled lengths, needing one extra pass to bring correct-is-longest from 60% to 20% on this small 5-question file. `npm run test:content` and `npm run build` pass. Batch 2 completely done.
 - **2026-09-16, batch 6 finished by hand.** `frameworks/08-pricing-packaging.md` was at 53% correct-is-longest when its agent died, with one severely broken category-quiz question (a 4-tool sequencing question with a 260-character correct answer versus ~140-character distractors, `correctDominant`/`spread`/`noNearMiss`) plus 23 questions only marginally over length. Rewrote the broken question with a proper type-1 (wrong-sequence) near miss and trimmed 9 of the marginal questions' correct options by a few characters each to clear the tie-break, rather than rewriting all 23 from scratch. Final state: 33% correct-is-longest, zero required flags. `npm run test:content` and `npm run build` pass. Batch 6 completely done.
+- **2026-09-16, batches 9a/9b finished by hand.** `frameworks/04-go-to-market-launch.md` was at 49% correct-is-longest with 5 `rationaleOnly` and 5 `throwaway` flags when its agent died. Fixed all 10 by trimming self-justifying clauses and rewording options that tripped the `THROWAWAY` regex ("abandon the...", "ignore the...", "only fails if..."), confirming all four required flags hit zero, then trimmed 8 of the remaining marginal correct options by a few characters each to bring correct-is-longest from 45% to 32%. `npm run test:content` and `npm run build` pass. Batches 9a and 9b completely done. Only batch 7 (`frameworks/01-market-customer-understanding.md`, 58%) remains from the failed-agent set.
