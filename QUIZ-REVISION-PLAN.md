@@ -140,7 +140,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 - [x] **Batch 0. Rules and tooling.** QUIZ-SPEC.md updated with the revised distractor standard and the near-miss taxonomy; CLAUDE.md's quiz quality gate updated; `web/scripts/audit-quiz.mjs` and `npm run audit:quiz` added; this plan written. *(2026-09-09)*
 - [x] **Batch 1. Pilot: `frameworks/05-lifecycle-workflow.md`** (3 entries + category quiz, 25 questions). Smallest file, so the pattern gets settled cheaply. **Stop after this batch and re-read the result end to end.** If the standard needs adjusting, adjust QUIZ-SPEC.md and this plan before batch 2, not after batch 9b. *(2026-09-16, no standard changes needed.)*
 - [ ] **Batch 2. `frameworks/03-competitive-strategy.md`** (5 entries + category quiz, 35) **and `concepts/gtm-strategy-vs-product-marketing.md`** (1 primer, 5). 40 questions.
-- [ ] **Batch 3. `frameworks/09-sales-enablement.md`** (5 entries + category quiz, 35) **and the three path quizzes in `web/src/lib/guides.ts`** (15). 50 questions. The path quizzes are TypeScript tuples, not markdown, and their options are already shorter and closer in length; they mostly need a near miss added and one or two throwaways replaced.
+- [x] **Batch 3. `frameworks/09-sales-enablement.md`** (5 entries + category quiz, 35) **and the three path quizzes in `web/src/lib/guides.ts`** (15). 50 questions. The path quizzes are TypeScript tuples, not markdown, and their options are already shorter and closer in length; they mostly need a near miss added and one or two throwaways replaced. *(2026-09-16, via delegated agent.)*
 - [x] **Batch 4. `frameworks/06-product-experience-adoption.md`** (7 entries + category quiz, 45). *(2026-09-16, via delegated agent.)*
 - [x] **Batch 5. `frameworks/07-strategy-planning.md`** (7 entries + category quiz, 45). *(2026-09-16.)*
 - [ ] **Batch 6. `frameworks/08-pricing-packaging.md`** (7 entries + category quiz, 45). Type 5 near misses are especially available here: the four pricing-research methods are routinely confused with each other.
@@ -172,16 +172,16 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | --- | --- | --- | --- |
 | `frameworks/01-market-customer-understanding.md` | 50 | 0 | 86% |
 | `frameworks/02-positioning-messaging.md` | 70 | 0 | 87% |
-| `frameworks/03-competitive-strategy.md` | 35 | 35 | 31% |
+| `frameworks/03-competitive-strategy.md` | 35 | 35 | 17% |
 | `frameworks/04-go-to-market-launch.md` | 65 | 0 | 91% |
 | `frameworks/05-lifecycle-workflow.md` | 25 | 25 | 32% |
-| `frameworks/06-product-experience-adoption.md` | 45 | 45 | 29% |
+| `frameworks/06-product-experience-adoption.md` | 45 | 45 | 16% |
 | `frameworks/07-strategy-planning.md` | 45 | 45 | 16% |
 | `frameworks/08-pricing-packaging.md` | 45 | 0 | 87% |
 | `frameworks/09-sales-enablement.md` | 35 | 35 | 34% |
 | `concepts/gtm-strategy-vs-product-marketing.md` | 5 | 0 | 100% |
-| `web/src/lib/guides.ts` (path quizzes) | 15 | 0 | 87% |
-| **Total** | **435** | **185** | **62%** |
+| `web/src/lib/guides.ts` (path quizzes) | 15 | 15 | 33% |
+| **Total** | **435** | **200** | **58%** |
 
 Update this table at the end of each batch from the audit output.
 
@@ -195,3 +195,4 @@ Append one line per session that moves a batch. Keep it short: what was done, wh
 - **2026-09-16, batch 1.** Revised all 25 questions in `frameworks/05-lifecycle-workflow.md` (PMM Lifecycle Management Framework, Go-to-Market Motion Framework, Feature Adoption Framework, and the category quiz) to the standard: trimmed self-justifying clauses out of every correct option, added one taxonomy-driven near miss per question (mostly type 2 wrong scope and type 1 wrong sequence/timing, since this file's confusions are about which methodology fits a situation and when to act), and levelled option lengths. `npm run audit:quiz -- --file frameworks/05-lifecycle-workflow.md` now reports 32% correct-is-longest (down from 76%) with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags. `npm run test:content` and `npm run build` both pass. No standard changes needed; the taxonomy and worked example from batch 0 held up as written.
 - **2026-09-16, batch 5 (via delegated agent, verified independently before commit).** Revised all 45 questions in `frameworks/07-strategy-planning.md` (7 entries plus the category quiz) to the standard. `npm run audit:quiz -- --file frameworks/07-strategy-planning.md` reports 16% correct-is-longest with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags (38/45 fully clean). `npm run test:content` and `npm run build` both pass. Batches 2, 3, 4, 6, 7, 8a/8b, and 9a/9b were dispatched in parallel and will be logged and committed as each lands.
 - **2026-09-16, batch 4 plus the completed halves of batches 2 and 3 (via delegated agents, verified independently before commit).** `frameworks/06-product-experience-adoption.md` (batch 4, all 45 questions) is fully revised: 29% correct-is-longest, zero required flags. `frameworks/03-competitive-strategy.md` (batch 2's markdown half) and `frameworks/09-sales-enablement.md` (batch 3's markdown half) are also fully revised, at 31% and 34% correct-is-longest with zero required flags; `concepts/gtm-strategy-vs-product-marketing.md` (the rest of batch 2) and `web/src/lib/guides.ts` (the rest of batch 3) were still in progress at commit time and are not yet ticked. `npm run test:content` and `npm run build` pass against the full working tree.
+- **2026-09-16, batches 2/3/4 wrap-up plus a mass agent failure.** The 8 remaining delegated agents (batches 2, 3, 4, 6, 7, 8a/8b, 9a/9b) all died mid-edit when the account hit its monthly spend limit; none reached its own verify-and-commit step. Before dying, the batch-4 and batch-2/3 agents had kept polishing `frameworks/06-product-experience-adoption.md` (down to 16% correct-is-longest, one harmless `spread` flag) and `frameworks/03-competitive-strategy.md` (down to 17%, two harmless `spread` flags) past what was committed above, and had finished `web/src/lib/guides.ts` (33%, fully clean), completing batch 3. Verified independently (`audit:quiz`, `test:content`, `tsc --noEmit`, `build`, all pass) and committed. Still outstanding from the failed agents, left as partial, uncommitted working-tree edits for the next session to finish by hand or via fresh agents once the spend limit resets: `concepts/gtm-strategy-vs-product-marketing.md` (batch 2's primer, untouched at 100%), `frameworks/01-market-customer-understanding.md` (batch 7, partway, 58%), `frameworks/02-positioning-messaging.md` (batches 8a/8b, partway, 24%), `frameworks/04-go-to-market-launch.md` (batches 9a/9b, partway, 49%), `frameworks/08-pricing-packaging.md` (batch 6, partway, 53%). Do not discard this partial work; it is a real head start, just unfinished and unverified.
