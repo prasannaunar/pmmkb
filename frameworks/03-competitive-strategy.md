@@ -180,8 +180,8 @@
 1. A hardware company's flagship product has crept from a defensible hybrid position (good value, competitive price) to high price with low perceived value over three product cycles, purely through incremental feature additions and cost creep, with no single decision behind the shift. What is the most likely underlying failure?
    - **A.** No one owned a deliberate target position, so changes drifted unchecked across three cycles.
    - **B.** The clock should be re-plotted now to confirm exactly where the product currently sits.
-   - **C.** Sales never escalated discounting requests to leadership quickly enough during the quarter.
-   - **D.** The pricing team set list price too high compared with competitors from the outset.
+   - **C.** Sales never escalated discounting requests to leadership quickly enough during that quarter.
+   - **D.** The pricing team set the list price too high compared with competitors from the very outset.
 
    **Correct answer: A.** This is the classic drift pitfall: positions shift gradually when no one owns an intentional target and checks decisions against it. The fix is deciding on a position once, committing to it, and re-plotting on a fixed cadence to catch drift early.
 
@@ -642,7 +642,7 @@ It is also the right tool whenever a sales team reports that deals are increasin
    *Why not D:* This is the right instinct aimed at the wrong stage: buying a tool before the repository and process stage is solid enough to populate usefully is a named pitfall. Diagnose which dimension is actually weak first; a new platform just inherits the same fragmented content otherwise.
 
 2. A CI lead scores their function as Impacting overall because the team recently produced an excellent, well-researched battlecard for the company's top competitor. Four other competitors that come up regularly in deals have no current materials at all. What is wrong with this self-assessment?
-   - **A.** The function should be scored on typical coverage across the full competitive set, not its single strongest artefact.
+   - **A.** The function should be scored on typical coverage across the competitive set, not one strong artefact.
    - **B.** The distribution score should rise, since this one battlecard reached reps effectively.
    - **C.** The team should score itself as Transforming, since the one battlecard shows executive-level rigour and polish.
    - **D.** The scoring exercise cannot be trusted unless it is conducted by an outside consultant.
@@ -656,8 +656,8 @@ It is also the right tool whenever a sales team reports that deals are increasin
    *Why not D:* The model does not require external validation; the fix here is applying the model's own scoring guidance honestly against typical coverage, which the internal team is capable of doing itself.
 
 3. A company scores Impacting on repository and process, and Ad Hoc on cross-functional reach: CI findings never reach product or leadership planning. Leadership wants to invest in a dedicated competitive-intelligence platform next. What should the PMM recommend?
-   - **A.** Prioritise advancing cross-functional reach, the lowest-scoring dimension, rather than a tool investment.
-   - **B.** Proceed with the platform purchase, since a strong repository stage shows the team is ready.
+   - **A.** Prioritise advancing cross-functional reach, the lowest-scoring dimension, over a tool purchase.
+   - **B.** Proceed with the platform purchase, since a strong repository stage shows the team is ready for it.
    - **C.** Wait until all four dimensions reach Transforming before making any further investment.
    - **D.** Replace the CI function entirely, since a gap this large usually cannot be salvaged.
 
@@ -684,10 +684,10 @@ It is also the right tool whenever a sales team reports that deals are increasin
    *Why not D:* Strong distribution is a genuine achievement worth keeping; the fix is adding measurement on top of it, not abandoning a format that reps are already using effectively.
 
 5. A newly hired Head of Competitive Intelligence wants to justify budget for a larger team by presenting leadership with an unscored list of ten things the function needs. What would the model suggest as a stronger approach?
-   - **A.** Score the function's current stage and dimension gaps first, then present the target and its cost to close.
+   - **A.** Score the current stage and dimension gaps first, then present the target and its cost to close.
    - **B.** Present the wishlist as written; leadership tends to respond better to concrete tactical asks.
    - **C.** Skip the business case entirely and simply start hiring on the strength of obvious need.
-   - **D.** Ask each stakeholder to independently rank the ten items by personal preference first.
+   - **D.** Ask each individual stakeholder to independently rank the ten items by their own personal preference.
 
    **Correct answer: A.** The model explicitly notes that a scored stage and named dimension gaps make a stronger business case than an unscored tooling wishlist, the same pattern used by the Sales Enablement Maturity Model. A concrete "this is the stage, this is the gap, this is what closing it costs" argument is easier for leadership to act on than an open-ended list.
 

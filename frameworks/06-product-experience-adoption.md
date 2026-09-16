@@ -626,7 +626,7 @@ By Q2, SMB NPS rose from 15 to 31 following the Lite tier launch and the chat su
    *Why not D:* Reverse describes features that actively reduce satisfaction for some customers; nothing here indicates active dissatisfaction, only indifference for one segment and delight for another, a segmentation issue, not a Reverse classification.
 
 4. NPS verbatims and churn feedback have started citing a basic capability the team assumed was "solved" years ago and no longer thinks about. What does the Kano Model suggest is happening?
-   - **A.** The feature has likely drifted into Must-be territory and needs re-prioritising as a retention risk.
+   - **A.** The feature has likely drifted into Must-be territory and needs re-prioritising.
    - **B.** The feedback should be dismissed; a once-solved feature cannot regress in perception.
    - **C.** The feedback indicates a Reverse classification, so the feature should be removed.
    - **D.** This is unrelated to Kano and should be routed to support with no roadmap reconsideration.
@@ -696,9 +696,9 @@ By Q2, SMB NPS rose from 15 to 31 following the Lite tier launch and the chat su
 **Quiz:**
 
 1. A company has a genuinely high NPS score, and marketing points to this as evidence it already has a strong advocacy programme. What does the model suggest about this claim?
-   - **A.** A high NPS score is often mistaken for an advocacy programme; most such companies are still at Reactive.
+   - **A.** A high NPS score is often mistaken for a strong advocacy programme.
    - **B.** The claim is correct; a high NPS score is functionally equivalent to Embedded stage.
-   - **C.** NPS and advocacy maturity are entirely unrelated concepts.
+   - **C.** NPS and advocacy maturity are entirely unrelated concepts to compare.
    - **D.** A high NPS score means the company should skip straight to an Embedded-stage programme.
 
    **Correct answer: A.** The model explicitly names this exact confusion: a high NPS score is often mistaken for an advocacy programme, when in reality most such companies are still Reactive, chasing references just in time with no systematic tracking, segmentation, or lifecycle instrumentation in place.
@@ -710,7 +710,7 @@ By Q2, SMB NPS rose from 15 to 31 following the Lite tier launch and the chat su
    *Why not D:* This gets the connection right but the sequence wrong: skipping stages ignores that each one builds on systems, tracking, ask-menu design, fatigue management, that the earlier stages establish. The model is a ladder to climb deliberately, not a shortcut to take.
 
 2. An audit finds that four long-tenured customer accounts have absorbed 90% of all advocacy asks over two years, while a separate NPS analysis shows 62 other Promoters have never been approached. What stage does this pattern most likely indicate, and what is the fix?
-   - **A.** Reactive stage; cross-reference NPS Promoters against the audit and cap asks per account.
+   - **A.** Reactive stage; cross-reference NPS Promoters and cap asks per account.
    - **B.** Embedded stage; the programme is mature and needs more of the same four accounts.
    - **C.** Programmatic stage; add a bigger reward tier for the four heavily used accounts.
    - **D.** This pattern isn't diagnostic of any particular stage under this model.
@@ -831,8 +831,8 @@ Read the distribution across segments, not just any single customer's placement,
 
 2. A customer historically had high Frequency and high Monetary value, but Recency has dropped sharply, with no login in the last two months. Which RFM segment does this describe, and what should happen?
    - **A.** At-risk; this is the clearest, most urgent save-play candidate.
-   - **B.** Hibernating/Lost; the account should get a low-cost, automated win-back campaign.
-   - **C.** Champions; high historical Frequency and Monetary value always qualify, regardless of Recency.
+   - **B.** Hibernating/Lost; the account needs only a low-cost win-back campaign.
+   - **C.** Champions; high historical Frequency and Monetary value always qualify.
    - **D.** Loyal but low-value; route the account to an upsell or expansion nurture.
 
    **Correct answer: A.** This is precisely the At-risk definition: low Recency combined with historically high Frequency and Monetary value. It is named as the clearest, most urgent save-play candidate, since the account was engaged and valuable until recently, meaning something specific changed and a proactive outreach is warranted quickly.
@@ -874,7 +874,7 @@ Read the distribution across segments, not just any single customer's placement,
 5. A customer marketing team wants to know which segment should receive advocacy asks and which should receive a save-play, but is currently sending the same lifecycle email to every customer regardless of behaviour. What does the model recommend?
    - **A.** Assign a distinct action per RFM segment, matched to each one's behaviour.
    - **B.** Keep sending the same email to everyone; RFM applies only to churn prediction.
-   - **C.** Send advocacy asks to every segment equally.
+   - **C.** Send advocacy asks to every RFM segment equally, regardless of profile.
    - **D.** Route all customers, regardless of segment, into a single win-back campaign.
 
    **Correct answer: A.** The model explicitly assigns a distinct action per segment, Champions for advocacy and early access, At-risk for urgent Customer Success outreach within a defined window, Hibernating for low-cost automated win-back, precisely so different behavioural profiles get treatment matched to their actual situation.
@@ -940,7 +940,7 @@ Read the distribution across segments, not just any single customer's placement,
    *Why not D:* Sales expectation-setting is a separate onboarding concern; the specific problem described, two quarters of effort on a metric with no retention impact, points to activation-event validation, which this model directly addresses.
 
 2. A team reports one blended "time to value" number to leadership. Activation rate has been falling while, among those who do activate, speed to activation has actually improved. What is hidden by reporting a single blended figure?
-   - **A.** Two different problems: losing people early, even though the path is fast once they start.
+   - **A.** Two different problems: early drop-off despite a fast path once started.
    - **B.** Nothing; a single blended number always captures both dynamics accurately.
    - **C.** Activation rate and speed to activation are the same metric and can't diverge.
    - **D.** This is only a reporting-format issue, not one that changes the fix.
@@ -968,10 +968,10 @@ Read the distribution across segments, not just any single customer's placement,
    *Why not D:* Making the threshold stricter without testing against renewal data repeats the same unvalidated-guess problem; the fix is testing against actual outcomes, not adjusting the guess's difficulty.
 
 4. Customer interviews reveal a clear, specific early "aha" moment, but usage data shows most customers never develop the sustained usage pattern that predicts renewal. What gap does this describe?
-   - **A.** A gap between Time to First Value and Time to Core Value.
+   - **A.** A gap between Time to First Value and Time to Core Value that needs closing.
    - **B.** Evidence the interviews were flawed and should be disregarded.
    - **C.** A sign the activation event is wrong and needs replacing immediately.
-   - **D.** A pricing problem, since an early win with no continued use signals price is too high.
+   - **D.** A pricing problem; an early win with no continued use signals price is too high.
 
    **Correct answer: A.** This is exactly the named gap the model describes: an early aha moment reaching Time to First Value does not guarantee the product experience carries customers forward into the sustained, repeating pattern that Time to Core Value measures; the two need to be tracked and addressed separately.
 
