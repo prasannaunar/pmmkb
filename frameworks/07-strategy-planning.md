@@ -3,9 +3,9 @@
 ## Category Quiz
 
 1. Quarterly planning keeps producing a list of disconnected initiatives, and no one can explain the underlying strategic logic tying them together. Which tool should the team reach for first?
-   - **A.** Playing to Win (Strategic Choice Cascade)
-   - **B.** Quarterly PMM Planning Framework
-   - **C.** Pragmatic Institute Framework
+   - **A.** Playing to Win Cascade
+   - **B.** Quarterly PMM Planning
+   - **C.** Pragmatic Institute
    - **D.** MOVE GTM Diagnostic
 
    **Correct answer: A.** This is the cascade's named trigger: quarterly planning producing a disconnected initiative list signals the underlying strategy has never been made explicit. The cascade is the missing layer a quarterly plan should operationalise, not a competing planning ritual.
@@ -17,10 +17,10 @@
    *Why not D:* MOVE diagnoses which motion in the revenue engine is broken; it is not built to define a company's foundational strategic choices.
 
 2. A new CEO changes the company's top priority mid-quarter, and the PMM team needs to translate that shift into specific initiatives, OKRs, and resourcing for the remaining weeks. Which tool handles this?
-   - **A.** Quarterly PMM Planning Framework
-   - **B.** Playing to Win (Strategic Choice Cascade)
-   - **C.** Analyst Relations Tiering & Cadence Model
-   - **D.** Pragmatic Institute Framework
+   - **A.** Quarterly PMM Planning
+   - **B.** Playing to Win Cascade
+   - **C.** Analyst Relations Tiering
+   - **D.** Pragmatic Institute
 
    **Correct answer: A.** This is exactly the framework's named trigger: a business goal shift (new CEO, new priority) calls for re-translating the goal into supporting PMM work, updated OKRs, and reallocated resourcing, mid-cycle if needed.
 
@@ -31,9 +31,9 @@
    *Why not D:* The Pragmatic Institute Framework scores ongoing operational health in Enablement and Business boxes; it does not translate a shifting business goal into a quarter's specific initiatives.
 
 3. A competitor just raised a large funding round and has started an aggressive enterprise hiring spree. The team's tiering list still treats this competitor as a minor, lightly monitored threat. Which tool's guidance applies?
-   - **A.** Competitive Intelligence & Positioning Update Framework
-   - **B.** Analyst Relations Tiering & Cadence Model
-   - **C.** Playing to Win (Strategic Choice Cascade)
+   - **A.** Competitive Intel Update
+   - **B.** Analyst Relations Tiering
+   - **C.** Playing to Win Cascade
    - **D.** MOVE GTM Diagnostic
 
    **Correct answer: A.** This framework explicitly names funding rounds and hiring signals as evidence a competitor's tier should be reassessed, calling for re-tiering competitors at least every two quarters and treating a significant move as a trigger for off-cycle attention.
@@ -45,10 +45,10 @@
    *Why not D:* MOVE diagnoses internal revenue-engine health across four motions; it does not track or re-tier external competitive threats.
 
 4. A solo PMM is overwhelmed as the company scales into two new segments, and leadership is deciding between hiring a content marketer or a sales enablement specialist. Which tool guides this decision?
-   - **A.** PMM Team Scaling Framework
-   - **B.** Quarterly PMM Planning Framework
-   - **C.** Pragmatic Institute Framework
-   - **D.** Playing to Win (Strategic Choice Cascade)
+   - **A.** PMM Team Scaling
+   - **B.** Quarterly PMM Planning
+   - **C.** Pragmatic Institute
+   - **D.** Playing to Win Cascade
 
    **Correct answer: A.** This is exactly the framework's core use case: assessing the current state, defining the future state, and prioritising which role to hire first based on the most painful, business-impact-measured gap, typically favouring sales enablement for its direct revenue impact.
 
@@ -59,9 +59,9 @@
    *Why not D:* The cascade's "capabilities needed" step can inform hiring priorities at a strategic level, but the specific tactical decision of which role to hire next, and how to scope and onboard it, is this framework's dedicated purpose.
 
 5. A company is preparing for its first-ever inclusion in a major analyst report (Gartner, Forrester) and has no existing structure for engaging analysts. Which tool should it use?
-   - **A.** Analyst Relations Tiering & Cadence Model
-   - **B.** Competitive Intelligence & Positioning Update Framework
-   - **C.** Pragmatic Institute Framework
+   - **A.** Analyst Relations Tiering
+   - **B.** Competitive Intel Update
+   - **C.** Pragmatic Institute
    - **D.** MOVE GTM Diagnostic
 
    **Correct answer: A.** This is precisely the model's named use case: a company preparing for first inclusion in a major analyst report, with no existing tiering or cadence structure, needs to build its analyst universe, score and tier each analyst, and set a minimum briefing cadence per tier.
@@ -73,10 +73,10 @@
    *Why not D:* MOVE diagnoses internal revenue-engine motions; it does not address external analyst relationship building.
 
 6. Leadership asks whether a product line launched 18 months ago is still commercially healthy, and no one has checked revenue, margin, or pricing against the original business case since launch. Which tool answers this?
-   - **A.** Pragmatic Institute Framework
-   - **B.** Quarterly PMM Planning Framework
-   - **C.** Playing to Win (Strategic Choice Cascade)
-   - **D.** Analyst Relations Tiering & Cadence Model
+   - **A.** Pragmatic Institute
+   - **B.** Quarterly PMM Planning
+   - **C.** Playing to Win Cascade
+   - **D.** Analyst Relations Tiering
 
    **Correct answer: A.** This is exactly the Pragmatic Institute Framework's Business boxes: a standing revenue-and-margin-versus-business-case review and a calendar-triggered pricing health check, run independently of whether an active pricing project exists.
 
@@ -88,9 +88,9 @@
 
 7. Net revenue retention is underperforming, and product, sales, and marketing leaders each blame a different part of the business with no supporting data. Which tool provides a structured, evidence-ranked diagnosis?
    - **A.** MOVE GTM Diagnostic
-   - **B.** Playing to Win (Strategic Choice Cascade)
-   - **C.** Pragmatic Institute Framework
-   - **D.** PMM Team Scaling Framework
+   - **B.** Playing to Win Cascade
+   - **C.** Pragmatic Institute
+   - **D.** PMM Team Scaling
 
    **Correct answer: A.** MOVE is built for exactly this situation: scoring Make/Sell, Sell/Deliver, Deliver/Renew, and Renew/Expand with one revealing metric each to identify the single weakest motion, replacing debate by anecdote with an evidence-ranked diagnosis.
 
@@ -101,9 +101,9 @@
    *Why not D:* PMM Team Scaling addresses team structure and hiring; it does not diagnose which part of the revenue engine is causing an NRR shortfall.
 
 8. A quarterly deep dive surfaces a clear competitive positioning gap and a recommended messaging shift, but three weeks later sales reps are still pitching the old message, unaware anything changed. Which tool's specific guidance was skipped?
-   - **A.** Competitive Intelligence & Positioning Update Framework
-   - **B.** Quarterly PMM Planning Framework
-   - **C.** Analyst Relations Tiering & Cadence Model
+   - **A.** Competitive Intel Update
+   - **B.** Quarterly PMM Planning
+   - **C.** Analyst Relations Tiering
    - **D.** MOVE GTM Diagnostic
 
    **Correct answer: A.** This framework explicitly calls for briefing sales, product, and executives within a week of the deep dive, updating playbooks and battlecards, and confirming reps have actually read and understood the change, not just received an email about it.
@@ -115,10 +115,10 @@
    *Why not D:* MOVE diagnoses revenue-engine motion health; it is not the tool for ensuring a specific competitive-intelligence finding reaches and is understood by the sales team.
 
 9. A company has grown to three product lines and two customer segments over several years, but reporting lines and role scope have not been reassessed in over a year, and scope creep has crept into two existing roles. Which tool addresses this?
-   - **A.** PMM Team Scaling Framework
-   - **B.** Playing to Win (Strategic Choice Cascade)
+   - **A.** PMM Team Scaling
+   - **B.** Playing to Win Cascade
    - **C.** MOVE GTM Diagnostic
-   - **D.** Pragmatic Institute Framework
+   - **D.** Pragmatic Institute
 
    **Correct answer: A.** This framework explicitly calls for reviewing team structure quarterly, reassessing reporting lines and role scope, and considering whether a generalist role should split into specialists as the business scales, exactly the gap described.
 
@@ -130,9 +130,9 @@
 
 10. A company has strong win rates and stable renewal rates, but net revenue retention has plateaued well below the category's best-in-class range, and leadership disagrees on whether the cause is upstream in onboarding or squarely inside the expansion motion itself. Which tool's specific sequencing guidance resolves this kind of disagreement?
     - **A.** MOVE GTM Diagnostic
-    - **B.** Playing to Win (Strategic Choice Cascade)
-    - **C.** PMM Team Scaling Framework
-    - **D.** Competitive Intelligence & Positioning Update Framework
+    - **B.** Playing to Win Cascade
+    - **C.** PMM Team Scaling
+    - **D.** Competitive Intel Update
 
     **Correct answer: A.** MOVE's four-motion layer treats Make/Sell, Sell/Deliver, Deliver/Renew, and Renew/Expand as a pipeline where an upstream weakness caps downstream results; its explicit guidance to sequence fixes upstream-first resolves exactly this kind of "is it onboarding or is it expansion" disagreement with evidence rather than argument.
 
@@ -185,24 +185,24 @@
 **Quiz:**
 
 1. Quarterly planning keeps producing a list of unconnected initiatives, and leadership cannot articulate a single thread tying them together. What does this suggest, and what should happen?
-   - **A.** The underlying strategy has never actually been made explicit; run the Strategic Choice Cascade to define it before the next quarterly plan is built.
-   - **B.** The quarterly planning process itself is flawed and should be replaced with a longer annual planning cycle instead.
-   - **C.** More initiatives should be added to fill any remaining gaps in the list.
-   - **D.** The team should skip strategy entirely and let each initiative be justified independently on its own merits.
+   - **A.** Run the Strategic Choice Cascade to make the strategy explicit before planning.
+   - **B.** Write a winning aspiration and treat that alone as the quarter's whole strategy.
+   - **C.** Replace quarterly planning with a longer annual planning cycle instead.
+   - **D.** Add more initiatives to the list to close any remaining strategic gaps.
 
-   **Correct answer: A.** This is a named trigger for the cascade: a disconnected initiative list signals that the underlying strategy, not just the quarter's priorities, has never been made explicit. The cascade is the missing layer a quarterly plan should operationalise, not a competing planning ritual.
+   **Correct answer: A.** This is a named trigger for the cascade: a disconnected initiative list signals that the underlying strategy, not just the quarter's priorities, has never been made explicit. Running the full cascade is the missing layer a quarterly plan should operationalise, not a competing planning ritual.
 
-   *Why not B:* The problem described is a missing strategic foundation, not the planning cadence itself; a longer cycle would still produce disconnected initiatives without an explicit cascade behind it.
+   *Why not B:* An aspiration is only the first of five choices. Treating it alone as the strategy skips where to play, how to win, and the capabilities and systems that make the choice stick, so the initiative list stays just as disconnected.
 
-   *Why not C:* Adding more initiatives compounds the underlying problem, a lack of strategic thread, rather than fixing it; the fix is defining the cascade, not expanding the list further.
+   *Why not C:* A longer planning cycle changes the calendar, not the missing strategic layer; disconnected initiatives would still result without an explicit cascade behind them.
 
-   *Why not D:* Justifying each initiative independently is exactly the symptom described; the cascade exists so initiatives are judged against a shared, explicit strategy, not evaluated in isolation.
+   *Why not D:* Adding more initiatives compounds the underlying problem, a lack of strategic thread, rather than fixing it; the fix is defining the cascade, not expanding the list further.
 
 2. A team writes "great customer service" as its answer to "how will we win." What is wrong with this answer?
-   - **A.** It is an answer any competitor could equally claim, committing the organisation to nothing specific and defending nothing against a determined rival.
-   - **B.** It is too specific and needs to be broadened to appeal to a wider range of customers.
-   - **C.** Nothing is wrong; "how to win" answers are meant to be aspirational rather than concrete.
-   - **D.** The issue is only that it should have been placed under "winning aspiration" instead of "how to win."
+   - **A.** Any competitor could equally claim it; it commits to nothing specific.
+   - **B.** It is too specific, and should be broadened further to appeal to more customers.
+   - **C.** Nothing is wrong; how-to-win answers are meant to stay aspirational.
+   - **D.** It should be filed under winning aspiration rather than how to win.
 
    **Correct answer: A.** Choosing a "how to win" that any competitor could equally claim is a named pitfall: generic answers like "great customer service" sound like a choice but commit to nothing specific and defend nothing. The test is whether a named competitor could credibly claim the same thing; if so, the answer isn't specific or defensible enough.
 
@@ -210,27 +210,27 @@
 
    *Why not C:* "How to win" answers are explicitly meant to be specific and defensible mechanisms, not aspirational statements; that level of vagueness is exactly the named pitfall.
 
-   *Why not D:* Relocating the same vague phrase to a different cascade question does not fix its lack of specificity; the fix is naming a genuinely defensible mechanism, regardless of which question it answers.
+   *Why not D:* Relocating the same vague phrase to a different cascade question does not fix its lack of specificity; the fix is naming a genuinely defensible mechanism, regardless of which question it sits under.
 
 3. A team completes all five cascade choices, publishes them, but never changes any hiring criteria, compensation structure, or tracked metric. Within one quarter, behaviour has reverted to the old pattern. What pitfall does this describe?
-   - **A.** Skipping the management systems step; a cascade with no reinforcing metrics, hiring criteria, or incentives reliably decays back into whatever the old system already rewards.
-   - **B.** Choosing a "how to win" any competitor could equally claim; the fix is rewriting the how-to-win answer.
-   - **C.** Writing an aspiration and calling it a strategy; the fix is rewriting the winning aspiration to be more specific.
-   - **D.** This is unrelated to the cascade; it reflects a general organisational resistance to change that no framework can address.
+   - **A.** The management systems step was skipped, leaving nothing to reinforce it.
+   - **B.** The how-to-win choice itself was too generic for any competitor to fail to copy.
+   - **C.** The winning aspiration was never made specific enough to guide behaviour.
+   - **D.** This reflects a general resistance to change that no framework can fix.
 
    **Correct answer: A.** Skipping the management systems step because it feels like an HR problem rather than a strategy problem is a named pitfall: without a comp plan, hiring criteria, or tracked metric reinforcing the choices, behaviour reliably reverts within a single quarter, since nothing in day-to-day operation actually supports the new direction.
 
-   *Why not B:* The scenario describes all five choices being completed, not a flaw in the how-to-win answer specifically; the failure is the missing reinforcement step, not the content of an earlier choice.
+   *Why not B:* The scenario describes all five choices being completed and published; the failure is that the fifth choice, management systems, was never implemented, not that the how-to-win choice was poorly worded.
 
-   *Why not C:* Writing only an aspiration with no further choices is a different pitfall; here, all five choices exist, but the fifth, management systems, was never actually implemented in practice.
+   *Why not C:* Writing only an aspiration with no further choices is a different pitfall; here, all five choices exist, but the fifth, management systems, was never actually put into practice.
 
    *Why not D:* The cascade explicitly names this exact reversion pattern and prescribes a specific fix, concrete metrics, hiring criteria, and incentives; it is not an unaddressable cultural problem.
 
 4. A team defines its winning aspiration, playing field, and how-to-win choice, but has not checked whether each choice actually follows from, and delivers, the one above it. What step is missing?
-   - **A.** Testing the cascade for mutual reinforcement in both directions, checking whether each choice logically requires the one above and actually delivers it.
-   - **B.** Publishing the five choices as a briefing document, since publication alone verifies internal consistency.
-   - **C.** Stress-testing against a competitor's response, which should happen before checking internal consistency.
-   - **D.** Nothing is missing; three of five choices being defined is sufficient to treat the cascade as complete.
+   - **A.** Test the cascade for mutual reinforcement, checking it top-down and bottom-up.
+   - **B.** Publish the three choices as a briefing document for leadership to review.
+   - **C.** Stress-test the how-to-win choice against a competitor's likely response first.
+   - **D.** Nothing is missing; three of five choices is enough to call the cascade complete.
 
    **Correct answer: A.** The cascade explicitly requires testing for mutual reinforcement, walking it top-down and bottom-up to confirm each choice logically requires and actually delivers the one above it; a list of answers that do not reinforce each other is not yet a strategy.
 
@@ -241,16 +241,16 @@
    *Why not D:* All five questions need answering and cross-checking for mutual reinforcement before the cascade is considered complete; three defined choices with no consistency check is explicitly insufficient.
 
 5. Leadership keeps arguing about which channels to invest in and which messaging angle to use, but the arguments never resolve. A PMM suspects the real disagreement is upstream. What should they check?
-   - **A.** Whether there is an unstated difference in where to play or how to win beneath the surface-level tactical argument, since disagreements over channels or messaging often mask an unresolved earlier cascade choice.
-   - **B.** Whether the messaging team needs additional headcount to resolve the disagreement faster.
-   - **C.** Whether the disagreement should be settled by a vote among the leadership team, bypassing the cascade entirely.
-   - **D.** Whether the company should abandon channel and messaging decisions until the next fiscal year.
+   - **A.** Check for an unstated disagreement over where to play or how to win underneath.
+   - **B.** Bring the disagreement to a leadership vote to settle the channel choice for now.
+   - **C.** Add headcount to the messaging team so the disagreement resolves faster.
+   - **D.** Defer both channel and messaging decisions until the next fiscal year.
 
    **Correct answer: A.** This is a named trigger: leadership disagreement that keeps resurfacing as a tactical argument (channels, messaging) often masks an unstated difference in where to play or how to win. The fix is surfacing and resolving that upstream cascade choice explicitly, not continuing to argue at the tactical level.
 
-   *Why not B:* More headcount does not resolve an unstated strategic disagreement; the argument will keep resurfacing at the tactical level until the upstream cascade choice is made explicit.
+   *Why not B:* A vote settles this particular argument without surfacing the deeper cascade choice beneath it, so the same disagreement is likely to resurface in the next related tactical debate under a different guise.
 
-   *Why not C:* A vote settles the immediate argument without surfacing or resolving the underlying strategic disagreement, which will likely re-emerge in the next related tactical debate.
+   *Why not C:* More headcount does not resolve an unstated strategic disagreement; the argument will keep resurfacing at the tactical level until the upstream cascade choice is made explicit.
 
    *Why not D:* Deferring the decisions avoids the argument without addressing its root cause; the fix is diagnosing and resolving the upstream cascade choice, not postponing the whole area of work.
 
@@ -315,24 +315,24 @@ B2B SaaS company Q2 goals:
 **Quiz:**
 
 1. A PMM team spends a quarter on a brand refresh and a new website section, while revenue and retention metrics go untouched. Leadership asks why PMM's work doesn't seem connected to business priorities. What pitfall does this describe?
-   - **A.** Disconnected from business goals; the fix is mapping each initiative explicitly to a business goal and success metric before the quarter starts.
-   - **B.** No prioritisation; the fix is scoring every initiative on impact and confidence.
-   - **C.** No check-ins; the fix is adding weekly standups to track progress.
-   - **D.** This is not a pitfall, since brand and website work is inherently valuable regardless of its connection to business goals.
+   - **A.** Disconnected from business goals; map each initiative to a goal first.
+   - **B.** No prioritisation; score every initiative on impact and confidence instead.
+   - **C.** No check-ins; add weekly standups to track progress on each initiative.
+   - **D.** This is not a pitfall; brand and website work is inherently valuable regardless.
 
    **Correct answer: A.** Disconnected from business goals is a named pitfall: PMM spending a quarter on nice-to-have projects while ignoring revenue or retention KPIs. The recovery is asking leadership what the top business goal is, then mapping each initiative to that goal, its success metric, and an owner, before the quarter begins.
 
-   *Why not B:* Prioritisation scoring addresses ranking initiatives against each other; the issue here is that the initiatives chosen were never connected to a business goal in the first place, a different failure.
+   *Why not B:* Prioritisation scoring ranks initiatives that are already tied to a goal against each other; it does not address the deeper problem here, that the chosen initiatives were never connected to a business goal in the first place.
 
    *Why not C:* Weekly check-ins track progress on already-chosen initiatives; they do not address whether those initiatives were the right ones to choose in relation to business priorities.
 
    *Why not D:* The framework explicitly ties PMM's quarterly work to business goals like revenue and retention; treating brand work as automatically valuable regardless of that connection is exactly the pitfall described.
 
 2. A team tries to pursue every initiative on its list with equal priority, since each one seems worthwhile. By mid-quarter, nothing has shipped, and the team feels stretched across too many fronts. What does the framework recommend?
-   - **A.** Score each initiative on impact and confidence, rank by the product of the two, and treat anything below the cut line as an explicit "not doing this quarter" decision.
-   - **B.** Add more headcount immediately to cover every initiative on the list simultaneously.
-   - **C.** Continue pursuing all initiatives equally, since ruthless prioritisation risks missing an important opportunity.
-   - **D.** Remove the weekly check-in step, since it consumes time that could go toward executing more initiatives.
+   - **A.** Score initiatives by impact and confidence, and cut anything below the line.
+   - **B.** Add headcount immediately to cover every initiative on the list at once.
+   - **C.** Continue pursuing all initiatives equally, to avoid missing an opportunity.
+   - **D.** Remove the weekly check-in step entirely to free up time for executing more work.
 
    **Correct answer: A.** No prioritisation is a named pitfall: trying to do everything equally means nothing gets done well. The recovery is scoring impact and confidence on a simple scale, ranking by the product of the two, and explicitly communicating which initiatives are deprioritised and why.
 
@@ -340,47 +340,47 @@ B2B SaaS company Q2 goals:
 
    *Why not C:* The framework explicitly calls for ruthless prioritisation as the fix to this exact symptom; continuing to spread effort evenly is the named failure mode, not a safer alternative.
 
-   *Why not D:* Removing check-ins addresses a different pitfall (tracking) and does not solve the underlying prioritisation problem; it also removes a mechanism that helps catch stalled initiatives early.
+   *Why not D:* Removing check-ins addresses a different pitfall, tracking, not the prioritisation problem described here, and it also removes the mechanism that would help catch a stalled initiative early.
 
 3. A quarter ends, and the team realises three initiatives were completed with no one able to say which business goal they supported. What should have been in place to catch this earlier?
-   - **A.** A one-page tracker mapping each initiative to the business goal it supports, its success metric, and its owner, built before the quarter started.
-   - **B.** A larger initial budget, so more initiatives could be pursued without needing to track their connection to business goals.
-   - **C.** A rule limiting the team to exactly three initiatives per quarter, regardless of their business relevance.
-   - **D.** Nothing could have caught this in advance; it is only visible in retrospect at quarter's end.
+   - **A.** A one-page tracker mapping each initiative to a goal, metric, and owner.
+   - **B.** Weekly standups tracking progress against each initiative's own timeline.
+   - **C.** A rule limiting the team to exactly three initiatives per quarter.
+   - **D.** Nothing could have caught this in advance; it is only visible in hindsight.
 
    **Correct answer: A.** The framework's recovery for disconnected work is precisely this: a one-page tracker showing initiative, business goal, success metric, and owner, built before the quarter starts, which forces alignment and makes misaligned work visible and cuttable mid-quarter rather than only discovered in retrospect.
 
-   *Why not B:* A larger budget does not address whether initiatives are connected to business goals; it would let more disconnected work happen, not catch the disconnect earlier.
+   *Why not B:* Weekly standups catch a stalled or late initiative; they do not verify that an on-track initiative was actually tied to a business goal in the first place, which is the specific gap this scenario describes.
 
    *Why not C:* An arbitrary initiative count does not verify business-goal alignment; the fix is an explicit mapping exercise, not a fixed quota unrelated to actual business relevance.
 
    *Why not D:* The framework's tracker is specifically designed to surface this kind of misalignment before or during the quarter, not only after it ends; catching it in advance is exactly the tool's purpose.
 
 4. Six weeks into a quarter, one initiative is only 15% complete against its plan, but no one has flagged it or discussed adjusting its timeline. What does the framework recommend?
-   - **A.** Weekly standups should have surfaced this stall earlier; the recovery calls for escalating or adjusting the timeline once any initiative falls below 20% completion by week six.
-   - **B.** Nothing needs to happen; initiatives naturally vary in pace and this is not a signal requiring any action.
-   - **C.** The initiative should be cancelled immediately without any discussion, since it has clearly failed.
-   - **D.** The quarterly plan itself should be extended by an additional month to accommodate the delay.
+   - **A.** Weekly check-ins should have flagged the stall by week six, triggering escalation.
+   - **B.** Re-score the initiative's impact and confidence again before continuing it further.
+   - **C.** Cancel the initiative immediately without any further discussion.
+   - **D.** Extend the whole quarter by a month to accommodate the delay.
 
-   **Correct answer: A.** No check-ins is a named pitfall: without weekly standups tracking progress and blockers, a stalled initiative goes unnoticed until it's too late to correct course. The framework's explicit recovery names a concrete trigger, escalate or adjust the timeline if any initiative is below 20% complete by week six.
+   **Correct answer: A.** No check-ins is a named pitfall: without weekly standups tracking progress and blockers, a stalled initiative goes unnoticed until it's too late to correct course. The framework's explicit recovery names a concrete trigger: escalate or adjust the timeline once any initiative is below 20% complete by week six.
 
-   *Why not B:* The framework treats this level of lag by week six as a specific, named trigger for escalation or adjustment, not a normal variation to be left unaddressed.
+   *Why not B:* Re-scoring addresses whether an initiative should have been prioritised at all, a different pitfall; it does not address the actual failure here, that no standing check-in caught the stall as it happened.
 
    *Why not C:* Cancelling without discussion skips the framework's actual guidance, which is to escalate or adjust the timeline, a conversation and course-correction, not an automatic termination.
 
    *Why not D:* Extending the whole quarter is not the framework's prescribed fix; the guidance is to escalate or adjust that specific initiative's timeline through the standing weekly check-in process.
 
 5. A new CEO joins mid-quarter and shifts the company's top priority from market share growth to retention. The PMM team continues executing the original plan built around the old priority. What does the framework say should happen?
-   - **A.** Re-translate the new business goal into PMM goals and update the quarterly plan, since business goals shifting is an explicit trigger for revisiting the framework, not just an event to note for next quarter.
-   - **B.** Finish the current quarter's plan exactly as originally built, since a plan should never change once a quarter has begun.
-   - **C.** Wait until the next scheduled quarterly planning cycle before making any adjustments, regardless of how significant the shift is.
+   - **A.** Re-translate the new goal into PMM goals and update the plan now.
+   - **B.** Log the shift and apply it once the next quarterly planning cycle begins.
+   - **C.** Finish the current plan exactly as originally built, without any changes.
    - **D.** Escalate the leadership change to HR rather than adjusting the PMM plan.
 
    **Correct answer: A.** A shift in business goals, such as a new CEO changing strategic priorities, is explicitly named as a trigger for applying this framework, translating the new goal into supporting PMM work and updating OKRs, rather than continuing to execute a plan built around a priority that no longer holds.
 
-   *Why not B:* The framework explicitly treats a business-goal shift as a reason to revisit the plan mid-cycle; continuing unchanged risks the same "disconnected from business goals" pitfall the framework is built to prevent.
+   *Why not B:* This is the right kind of work at the wrong point in the cycle. Waiting for the next scheduled cycle lets the team spend the rest of the current quarter on now-outdated priorities, when the framework calls for reacting to the shift as soon as it happens.
 
-   *Why not C:* Waiting for the next scheduled cycle lets the team spend the rest of the current quarter on now-outdated priorities; the framework calls for reacting to the shift when it happens, not on a fixed calendar regardless of urgency.
+   *Why not C:* The framework explicitly treats a business-goal shift as a reason to revisit the plan mid-cycle; continuing unchanged risks the same "disconnected from business goals" pitfall the framework is built to prevent.
 
    *Why not D:* This is a planning and prioritisation matter for PMM to address directly, not an HR issue; the framework's guidance is to re-translate the new business goal into updated PMM goals.
 
@@ -454,72 +454,72 @@ Project management SaaS Quarterly Competitive Review (Q2):
 **Quiz:**
 
 1. A competitor cuts its list price by 15%. A team's first instinct is to immediately match the price cut across its own product line. What does the framework recommend checking first?
-   - **A.** Whether price is really the issue, or whether messaging, feature gaps, or inconsistent sales execution are masquerading as a pricing problem, since automatically matching price cuts is a named pitfall.
-   - **B.** Whether the competitor's move was announced through a press release or only through a quiet website update.
-   - **C.** Whether the sales team agrees with the price match before implementing it.
-   - **D.** Nothing further is needed; matching a competitor's price cut immediately is always the correct response.
+   - **A.** Check whether messaging, feature gaps, or execution are the real issue.
+   - **B.** Confirm with the sales team whether they support a price match before proceeding.
+   - **C.** Check whether the competitor announced this via press release or only a website update.
+   - **D.** Match the price cut immediately across the whole product line without further checks.
 
    **Correct answer: A.** Over-indexing on pricing is a named pitfall: competitors cut price all the time, and automatically cutting your own price in response skips the real diagnostic step. The recovery is pulling recent lost deals cited as "price" and re-reading the sales notes, since a genuine price objection is often actually a value communication failure.
 
-   *Why not B:* The announcement channel does not change whether the underlying issue is genuinely pricing or something else; the framework's fix is diagnosing the actual cause, not evaluating how publicly the move was made.
+   *Why not B:* Sales opinion is not the evidence the framework calls for; the actual diagnostic is re-reading recent lost-deal sales notes to see what customers said, not polling whether the sales team is comfortable matching the cut.
 
-   *Why not C:* Sales agreement on a price match does not substitute for checking whether price is the real driver of lost deals; the framework calls for re-reading actual loss reasons in sales notes first.
+   *Why not C:* The announcement channel does not change whether the underlying issue is genuinely pricing or something else; the framework's fix is diagnosing the actual cause, not evaluating how publicly the move was made.
 
    *Why not D:* This is precisely the named pitfall the framework warns against; automatically matching a price cut without diagnosing the real cause risks eroding margin over a problem that may actually be messaging or execution.
 
 2. A team runs monthly competitive scans diligently but has not conducted a structured quarterly deep dive in over a year, despite two competitors making significant moves during that time. What is the risk?
-   - **A.** Monthly scans alone miss the deeper win/loss pattern analysis, customer interviews, and positioning-gap identification that only the quarterly deep dive provides; competitive shifts may go unaddressed at the strategic level.
-   - **B.** There is no risk, since monthly scans alone are sufficient to catch every competitive shift that matters.
-   - **C.** The team should stop monthly scanning entirely and rely solely on an annual review instead.
-   - **D.** The risk is limited to missing new feature releases, not to positioning or messaging gaps.
+   - **A.** Deeper win/loss and positioning-gap analysis from the deep dive may go unaddressed.
+   - **B.** The risk is limited only to missing competitors' newest feature releases specifically.
+   - **C.** Monthly scans alone are enough to catch everything that matters here.
+   - **D.** The team should abandon monthly scanning and rely solely on an annual review.
 
    **Correct answer: A.** The quarterly deep dive is where win/loss data by competitor, customer interviews, and positioning-gap analysis actually happen; monthly scans are lightweight monitoring, not a substitute for that structured review, and skipping it for over a year risks a strategic drift the scans alone would not catch.
 
-   *Why not B:* Monthly scans are explicitly described as light monitoring; the framework treats the quarterly deep dive as the substantive review needed to translate raw signals into positioning and messaging action.
+   *Why not B:* This understates the actual exposure. The deep dive's value spans win/loss patterns and customer perception as well as positioning gaps; treating the risk as feature-tracking alone misses most of what a year of skipped deep dives actually loses.
 
-   *Why not C:* Monthly scans remain valuable for catching early, cheap-to-respond-to signals; the fix is resuming the quarterly deep dive, not abandoning the lighter monthly cadence.
+   *Why not C:* Monthly scans are explicitly described as light monitoring; the framework treats the quarterly deep dive as the substantive review needed to translate raw signals into positioning and messaging action.
 
-   *Why not D:* The deep dive's value spans win/loss patterns, customer perception, and positioning gaps broadly, not only feature-level competitive tracking; the risk is broader than missed feature releases alone.
+   *Why not D:* Monthly scans remain valuable for catching early, cheap-to-respond-to signals; the fix is resuming the quarterly deep dive, not abandoning the lighter monthly cadence.
 
 3. A competitor raises a large funding round and starts an aggressive enterprise sales hiring spree. The team's competitive tiering list still has this competitor filed as Tier 2, unchanged from two quarters ago. What does the framework suggest?
-   - **A.** Revisit the tiering, since a competitor's significant move (funding, hiring signals) is exactly the kind of event that can elevate a Tier 2 competitor to Tier 1 within months, and tiering should be reviewed every two quarters at minimum.
-   - **B.** Leave the tiering unchanged until the standard annual review, regardless of any interim competitive moves.
-   - **C.** Downgrade the competitor further to Tier 3, since aggressive hiring sprees typically signal instability rather than a growing threat.
-   - **D.** Tiering is fixed once assigned and is not meant to be revisited based on competitive developments.
+   - **A.** Revisit the tiering now; funding and hiring signals are named triggers to re-score.
+   - **B.** Note the signals, and re-tier at the next scheduled two-quarter review instead.
+   - **C.** Downgrade the competitor further, since an aggressive hiring spree signals instability.
+   - **D.** Tiering is fixed once assigned and is not meant to be revisited later.
 
    **Correct answer: A.** The framework explicitly names funding rounds and hiring signals (like an enterprise sales hiring burst) as evidence a competitor's threat level is changing, and calls for revisiting tiering every two quarters, since a Tier 2 competitor can become Tier 1 within months under exactly this kind of development.
 
-   *Why not B:* Waiting for the annual review ignores the framework's explicit two-quarter tiering revisit cadence and the specific triggers, funding and hiring signals, named as reasons to act sooner.
+   *Why not B:* This is the right response, on the wrong clock. The framework treats a significant move like this as a trigger to re-score off-cycle, not something to file away for the next scheduled review while the tier stays stale in the meantime.
 
    *Why not C:* An enterprise hiring spree following a funding round is treated as a classic signal of an upmarket push and growing threat, not instability; the framework reads this as reason to elevate tiering, not lower it.
 
    *Why not D:* Tiering is explicitly meant to be revisited on a recurring cadence and in response to significant competitive moves; treating it as fixed contradicts the framework's core cadence guidance.
 
 4. A quarterly deep dive uncovers a clear positioning gap and a recommended messaging shift. Three weeks later, sales reps are still using the old messaging, unaware anything changed. What went wrong?
-   - **A.** Findings were not communicated to sales within the recommended window; the framework calls for briefing sales and updating playbooks within a week of the deep dive, confirming reps have actually read and understood the changes.
-   - **B.** The quarterly deep dive itself was flawed and should be re-run from scratch.
-   - **C.** The messaging shift should have been tested with customers again before any communication to sales.
-   - **D.** This is expected; sales adoption of new messaging typically takes several months regardless of communication effort.
+   - **A.** Sales was not briefed within the framework's one-week window after the deep dive.
+   - **B.** The messaging shift should have been retested with customers before telling sales.
+   - **C.** The deep dive itself was flawed and should be re-run entirely from scratch.
+   - **D.** This is expected; sales adoption of new messaging typically takes several months.
 
    **Correct answer: A.** The framework calls for briefing sales, product, and executives within a week of the deep dive while intelligence is fresh, updating playbooks and battlecards, and confirming with a sample of the sales team that they have actually read and understood the changes, not just received an email; a three-week gap with no adoption indicates this step was skipped or done superficially.
 
-   *Why not B:* The deep dive itself produced a valid finding and recommendation; the failure described is in the communication and adoption step afterward, not in the analysis that produced the insight.
+   *Why not B:* Customer validation is real framework guidance, but it belongs earlier, before a new angle rolls out broadly; the gap described here is a missed internal sales briefing, a separate, later-stage step that customer retesting does not substitute for.
 
-   *Why not C:* The framework does call for validating a new positioning angle with customer conversations before rolling it out broadly, but the scenario describes a gap in internal communication to sales, a separate, later-stage failure.
+   *Why not C:* The deep dive itself produced a valid finding and recommendation; the failure described is in the communication and adoption step afterward, not in the analysis that produced the insight.
 
    *Why not D:* The framework sets an explicit one-week communication target specifically to prevent this kind of prolonged adoption gap; treating months-long delay as expected contradicts that stated cadence.
 
 5. A team discovers it missed an entire quarter of competitive monitoring due to a resourcing gap, and two competitors made significant moves during that window that sales has already started losing deals against. What should the team do?
-   - **A.** Run an emergency deep dive covering the full missed period, prioritise the moves with the clearest deal impact, and brief sales on a "catch-up" basis within one week rather than waiting for the next scheduled cycle.
-   - **B.** Wait for the next regularly scheduled quarterly deep dive, since an emergency review outside the normal cadence would disrupt the process's discipline.
-   - **C.** Only investigate the competitor with the larger funding round, ignoring the second competitor's moves entirely.
-   - **D.** Conduct the review silently and only share findings with sales if they explicitly ask about competitive activity.
+   - **A.** Run an emergency deep dive covering the gap, and brief sales within one week.
+   - **B.** Investigate only the competitor with the larger funding round, for now.
+   - **C.** Wait for the next regularly scheduled quarterly deep dive to review both moves.
+   - **D.** Review the gap quietly and only share findings if sales explicitly asks.
 
    **Correct answer: A.** The framework's own recovery for this exact situation is explicit: run an emergency deep dive covering the full gap period, prioritise the two or three moves with the clearest deal impact, and communicate a catch-up briefing to sales within one week, rather than waiting for the next scheduled cycle.
 
-   *Why not B:* Waiting for the next scheduled cycle extends the period sales continues losing deals without updated intelligence; the framework explicitly calls for an off-cycle emergency response to a missed monitoring gap like this.
+   *Why not B:* The framework calls for prioritising by clearest deal impact, which may include both competitors; ignoring the second one outright based on funding size alone skips evidence the deal data might actually support.
 
-   *Why not C:* The framework calls for prioritising the moves with clearest deal impact, which may include both competitors, not automatically ignoring one based on which raised more funding.
+   *Why not C:* Waiting for the next scheduled cycle extends the period sales continues losing deals without updated intelligence; the framework explicitly calls for an off-cycle emergency response to a missed monitoring gap like this.
 
    *Why not D:* Sharing findings only reactively, if sales happens to ask, contradicts the framework's explicit proactive one-week briefing requirement following any significant catch-up analysis.
 
@@ -584,10 +584,10 @@ B2B SaaS PMM scaling journey:
 **Quiz:**
 
 1. A solo PMM is drowning in work as the company scales into two new segments. Leadership asks whether the next hire should be a content marketer or a sales enablement specialist, and the honest answer is that sales is currently the least equipped to sell the product's positioning. What does the framework suggest?
-   - **A.** Prioritise the sales enablement hire first, since it is typically the highest and fastest ROI because it directly touches revenue, and the framework's priority order should follow the most painful, business-impact-measured gap.
-   - **B.** Prioritise the content hire first, since content supports every other initiative and should always come before enablement regardless of context.
-   - **C.** Hire both roles simultaneously immediately, since resourcing constraints should not affect prioritisation decisions.
-   - **D.** Delay any hiring decision until the following fiscal year, when the picture will be clearer.
+   - **A.** Prioritise the sales enablement hire; it touches revenue fastest.
+   - **B.** Prioritise the content hire first, since content always precedes enablement.
+   - **C.** Hire both roles simultaneously, regardless of current resourcing constraints.
+   - **D.** Delay any hiring decision until the following fiscal year begins.
 
    **Correct answer: A.** The framework's common priority order names sales enablement as typically the highest and fastest ROI hire, since it directly touches revenue; the guidance is to hire against the most painful, business-impact-measured gap, which in this scenario is clearly enablement, not to follow a rigid, context-free sequence.
 
@@ -598,10 +598,10 @@ B2B SaaS PMM scaling journey:
    *Why not D:* Delaying the decision leaves the team overstretched and the identified sales gap unaddressed; the framework calls for acting on a clearly identified, business-impact-measured gap rather than deferring it.
 
 2. A new PMM hire joins a scaling team and spends their first four months reverse-engineering how the team works, since nothing about positioning process, messaging templates, or escalation paths was documented before they started. What pitfall does this describe?
-   - **A.** Hiring before you have a playbook; the fix is documenting the core playbook, even a rough version, before the next hire starts.
-   - **B.** Wrong hire for your needs; the fix is replacing this hire with a different role entirely.
-   - **C.** Hiring without clarity on success; the fix is defining 30/60/90-day metrics after the hire has already started.
-   - **D.** This is an unavoidable cost of scaling and does not require any process change.
+   - **A.** Hiring before you have a playbook; document it before the next hire.
+   - **B.** Wrong hire for your needs; replace this hire with a completely different role.
+   - **C.** Hiring without clarity on success; define 30/60/90-day metrics now.
+   - **D.** This is an unavoidable cost of scaling that no process can fix.
 
    **Correct answer: A.** Hiring before you have a playbook is a named pitfall: a new hire with nothing documented spends months reverse-engineering process instead of producing results. The recovery is documenting the core playbook, positioning process, messaging templates, launch checklist, escalation paths, before the next hire starts, even a rough version.
 
@@ -612,10 +612,10 @@ B2B SaaS PMM scaling journey:
    *Why not D:* The framework treats this exact ramp-up delay as preventable and names a specific fix, documentation before the hire starts; it is not framed as an unavoidable cost of growth.
 
 3. A company hires a content marketer because the role "felt easier to define," even though the business's most acute gap is actually sales team adoption of messaging. Six months later, sales adoption has not improved. What pitfall does this describe?
-   - **A.** Wrong hire for your needs; the fix is revisiting the prioritisation step before every hire, not just the first one, and updating the plan if the business's most acute gap has shifted.
-   - **B.** Hiring before you have a playbook; the fix is documenting process for the content hire specifically.
-   - **C.** Hiring without clarity on success; the fix is setting content-specific metrics for the new hire.
-   - **D.** This reflects a normal, unavoidable trade-off in scaling decisions and does not require any process correction.
+   - **A.** Wrong hire for your needs; revisit prioritisation before every hire.
+   - **B.** Hiring before you have a playbook; document process for the content hire.
+   - **C.** Hiring without clarity on success; set content-specific success metrics.
+   - **D.** This is a normal, unavoidable trade-off in scaling decisions.
 
    **Correct answer: A.** Wrong hire for your needs is a named pitfall: choosing a role because it feels easier to define, rather than because it addresses the actual acute gap, wastes 6 to 12 months of ramp time. The recovery is revisiting the prioritisation step before every hire and updating the plan if the most acute gap has shifted since it was last set.
 
@@ -626,24 +626,24 @@ B2B SaaS PMM scaling journey:
    *Why not D:* The framework explicitly treats this as a correctable pitfall with a named recovery step, revisiting prioritisation before each hire; it is not framed as an unavoidable trade-off.
 
 4. A PMM joins a growing team, and six months in, neither they nor their manager can clearly state what success looks like in their role. What should the team have done differently, and what should happen now?
-   - **A.** Success metrics and role scope should have been written before the job posting went live; since six months have passed without them, that conversation should happen immediately rather than waiting for a future scheduled review.
-   - **B.** Nothing needs to change now; success metrics are only useful when defined before day one, so it is too late to introduce them at this point.
-   - **C.** The hire should be let go and replaced with someone better suited to operating without defined success criteria.
-   - **D.** Success metrics should be left undefined permanently, since PMM roles are inherently too varied to measure with fixed metrics.
+   - **A.** Hiring without clarity on success; define shared metrics immediately.
+   - **B.** Metrics should only be defined for the next hire, not applied retroactively.
+   - **C.** Replace the hire with someone better suited to the role.
+   - **D.** Leave metrics undefined permanently, since PMM roles are too varied.
 
    **Correct answer: A.** Hiring without clarity on success is a named pitfall: metrics and scope should be written before the job posting goes live and shared in the offer conversation. When ambiguity has already persisted for six months, the framework's explicit recovery is running that conversation immediately, since the longer ambiguity persists, the harder it becomes to course-correct fairly.
 
-   *Why not B:* The framework explicitly recommends acting immediately once a gap like this is discovered, rather than treating it as un-fixable simply because it wasn't done before day one.
+   *Why not B:* This treats the fix as something only future hires can benefit from. The framework explicitly recommends running the clarity conversation now for this hire too, rather than writing off six months of ambiguity as unfixable.
 
    *Why not C:* The pitfall is a management and process failure, not a reflection of the hire's suitability; the fix is defining clear expectations now, not replacing the person.
 
    *Why not D:* The framework provides concrete example metrics for specific roles (sales enablement, content) precisely because PMM roles can and should be measured; treating metrics as impossible to define contradicts this guidance.
 
 5. A PMM team has not reassessed its structure in over a year, even though the business has added a new product line and two team members' roles have quietly expanded well beyond their original scope. What does the framework recommend?
-   - **A.** Review team structure quarterly, since the team shape from a year ago may no longer fit, and reassess reporting lines, role scope, and whether a generalist role should split into specialists.
-   - **B.** Leave the structure unchanged, since restructuring should only happen when a team member explicitly requests a title or scope change.
-   - **C.** Restructure only when a role's scope creep becomes severe enough to cause a resignation.
-   - **D.** Team structure should be set once at the founding stage and remain fixed as the company scales, to preserve consistency.
+   - **A.** Review team structure quarterly; reassess reporting lines and role scope.
+   - **B.** Wait until a team member requests a title or scope change first.
+   - **C.** Restructure only once scope creep becomes severe enough to cause a resignation.
+   - **D.** Set structure once at founding and keep it fixed as the company scales.
 
    **Correct answer: A.** The framework explicitly calls for reviewing team structure quarterly, since the shape that fit 12 months ago may no longer match current needs, and specifically flags reassessing whether a generalist role should split into specialists as the business and role scope evolve.
 
@@ -695,24 +695,24 @@ B2B SaaS PMM scaling journey:
 **Quiz:**
 
 1. A company only contacts its key analysts once a year, right before a Magic Quadrant submission deadline, and this year's report gave it just a passing mention despite genuine product strength. What does the model suggest went wrong?
-   - **A.** Briefing only before a report deadline reads as transactional and rarely moves an established placement; the fix is committing to a minimum cadence regardless of report timing.
-   - **B.** The product itself must not be strong enough to earn better analyst coverage, regardless of the briefing cadence.
-   - **C.** The company should stop engaging with this analyst entirely and focus exclusively on customer-facing marketing instead.
-   - **D.** The briefing kit was likely too detailed and should be simplified for the next submission.
+   - **A.** This reads as transactional; commit to a minimum cadence regardless of timing.
+   - **B.** Prepare a much more thorough briefing earlier before next year's deadline.
+   - **C.** The product itself must not be strong enough to earn better coverage.
+   - **D.** Stop engaging with this analyst and focus solely on customer marketing.
 
    **Correct answer: A.** This is the named pitfall directly: a relationship built once a year, right before a deadline, reads as transactional to the analyst and rarely moves an already-established position. The fix is committing to the minimum cadence per tier regardless of report timing, building relationship equity throughout the year.
 
-   *Why not B:* The model's own example shows genuine product strength going unrecognised specifically because of a reactive, once-a-year cadence, not because the product itself lacked merit; the fix is relationship cadence, not product quality.
+   *Why not B:* This still concentrates the relationship-building into a single pre-deadline push, just earlier and more thorough. A better-prepared annual briefing is still an annual briefing; the model's fix is a standing cadence throughout the year, not a bigger once-a-year moment.
 
-   *Why not C:* Abandoning analyst engagement forfeits future opportunities to correct the record and build influence; the model's fix is engaging more consistently, not disengaging entirely.
+   *Why not C:* The model's own example shows genuine product strength going unrecognised specifically because of a reactive, once-a-year cadence, not because the product itself lacked merit; the fix is relationship cadence, not product quality.
 
-   *Why not D:* Kit complexity is not the named issue; the problem is the timing and frequency of engagement, not how much detail the briefing materials contain.
+   *Why not D:* Abandoning analyst engagement forfeits future opportunities to correct the record and build influence; the model's fix is engaging more consistently, not disengaging entirely.
 
 2. A team spends roughly equal calendar time briefing a Tier 3 boutique analyst and the lead Gartner analyst who covers its exact category. What pitfall does this describe?
-   - **A.** Treating every analyst the same regardless of tier, which dilutes the relationship equity that actually predicts a placement; time should roughly track the tiering weighting.
-   - **B.** No feedback loop back to product; the fix is logging analyst pushback in a shared repository.
-   - **C.** This is not a pitfall, since spending equal time across all analysts ensures fairness and avoids favouritism.
-   - **D.** The Tier 3 analyst should be immediately dropped from the analyst universe entirely.
+   - **A.** Treating every analyst equally dilutes the relationship equity that matters.
+   - **B.** No feedback loop back to product; log pushback in a shared repository.
+   - **C.** This is fine, since equal time across analysts avoids any favouritism.
+   - **D.** Drop the Tier 3 analyst from the universe entirely, effective immediately.
 
    **Correct answer: A.** Treating every analyst the same regardless of tier is a named pitfall: equal calendar time on a Tier 3 boutique analyst and the lead Gartner analyst for your category dilutes the relationship equity that actually predicts a placement. The recovery is auditing calendar time by tier and correcting if it does not roughly track the tiering weighting.
 
@@ -723,10 +723,10 @@ B2B SaaS PMM scaling journey:
    *Why not D:* Tier 3 analysts still warrant light, ongoing monitoring; the fix is correcting the time imbalance, not removing the analyst from the universe entirely.
 
 3. An analyst repeatedly flags the same product gap across three separate briefings over a year, but the notes live only in a PMM team member's private inbox. The same weakness appears again in the next published report. What went wrong?
-   - **A.** No feedback loop back to product; analyst pushback should be logged in the same shared theme repository the Voice of the Customer programme uses, so a recurring gap escalates rather than repeating silently.
-   - **B.** The briefing cadence itself was too infrequent to catch the recurring issue.
-   - **C.** The analyst should have been re-tiered to Tier 3 after the first briefing where the gap was raised.
-   - **D.** This is unavoidable, since analysts routinely repeat the same critiques regardless of internal action.
+   - **A.** No feedback loop back to product; route notes into the shared VoC repository.
+   - **B.** The briefing cadence itself was too infrequent to catch a recurring issue.
+   - **C.** Re-tier the analyst down to Tier 3 after the first flagged gap.
+   - **D.** This is unavoidable; analysts routinely repeat critiques regardless of action.
 
    **Correct answer: A.** No feedback loop back to product is a named pitfall: analysts often flag the same gap that sales and customers separately mention, but if briefing notes live only in a private inbox, the weakness resurfaces report after report with no one connecting the dots. The fix is routing analyst pushback into the same shared repository the VoC programme already uses.
 
@@ -737,10 +737,10 @@ B2B SaaS PMM scaling journey:
    *Why not D:* The model treats this pattern as preventable through a specific fix, a shared feedback repository connecting analyst notes to internal teams; it does not treat repeated critiques as an unavoidable inevitability.
 
 4. A previously Tier 2 analyst recently began covering the company's category as a primary beat, following a firm reorganisation. The company's tiering list still shows them as Tier 2, unchanged since the reorg. What does the model recommend?
-   - **A.** Re-tier quarterly, and treat an analyst changing beats or firms as an automatic trigger to re-score, since this analyst may now warrant Tier 1 treatment given the new primary-beat coverage.
-   - **B.** Leave the tiering unchanged until the analyst's firm publishes its next major report, regardless of the beat change.
-   - **C.** Downgrade the analyst to Tier 3, since a beat change typically signals reduced relevance to the company's specific category.
-   - **D.** Tiering changes are only triggered by new competitors entering the market, not by shifts in an existing analyst's coverage.
+   - **A.** Re-tier now; a beat change like this should trigger a re-score.
+   - **B.** Wait until the analyst's firm publishes its next major report.
+   - **C.** Downgrade to Tier 3, since a beat change signals reduced relevance.
+   - **D.** Tiering changes only follow new competitors entering the market.
 
    **Correct answer: A.** The model explicitly names an analyst changing beats or firms as an automatic trigger to re-score and, where warranted, re-tier; an analyst newly covering the category as a primary beat is exactly the kind of change that can move them from Tier 2 to Tier 1 within a quarter.
 
@@ -751,10 +751,10 @@ B2B SaaS PMM scaling journey:
    *Why not D:* The model names multiple triggers for re-tiering, including a new report cycle and an analyst changing beats or firms, not solely new competitor entry.
 
 5. A company is preparing for its first-ever inclusion in a major analyst report and currently has no established structure for engaging analysts at all. What should it do first, according to the model?
-   - **A.** Build the analyst universe by listing every relevant analyst across major and boutique firms, sourced from competitor citations and directories, then score and tier each one before setting a cadence.
-   - **B.** Immediately schedule a single comprehensive briefing with every analyst simultaneously to save time.
-   - **C.** Wait until after the first report is published before building any analyst relations structure, since a structure is only useful once initial results exist to react to.
-   - **D.** Focus exclusively on the largest analyst firm and ignore boutique or independent analysts entirely.
+   - **A.** Build the analyst universe, then score and tier each one before cadence.
+   - **B.** Schedule one comprehensive briefing with every analyst simultaneously.
+   - **C.** Wait until after the first report to build any structure at all.
+   - **D.** Focus only on the largest firm and ignore boutique analysts entirely.
 
    **Correct answer: A.** This is exactly the model's first step for a company in this position: build the analyst universe from competitor citations, conference lists, and firm directories, then score and tier each analyst by influence, coverage depth, and reciprocity, before setting the minimum cadence per tier.
 
@@ -809,24 +809,24 @@ A "yes" across every box in a group signals that group is mature; a "no" identif
 **Quiz:**
 
 1. A team discovers this framework's full 37-box grid and, energised by the discovery, starts rebuilding its market research, positioning, and launch processes from scratch using Pragmatic Institute's version of those boxes. What does this entry say about that plan?
-   - **A.** This duplicates the 10-Step PMM Process and PMM Lifecycle Management Framework already in the knowledge base under different names; this entry should be used strictly for the Enablement and Business boxes, routing other work back to those existing frameworks.
-   - **B.** This is the correct approach, since the full 37-box grid is more comprehensive than any single existing framework in the knowledge base.
-   - **C.** The market research and positioning boxes should be adopted, but the launch-sequencing boxes should still be excluded.
-   - **D.** Rebuilding is appropriate only if the team first gets sign-off from the Head of Product Marketing.
+   - **A.** This duplicates existing frameworks; scope stays to Enablement and Business.
+   - **B.** Adopt the market research and positioning boxes, but exclude launch sequencing.
+   - **C.** This is correct, since the full grid is more comprehensive than any framework.
+   - **D.** Rebuilding is fine as long as the Head of Product Marketing signs off on it.
 
    **Correct answer: A.** This is the named pitfall directly: rebuilding the whole 37-box framework instead of using the two narrowed groups duplicates concepts already covered by the 10-Step PMM Process and PMM Lifecycle Management Framework under different names. The recovery is using this entry strictly for Enablement and Business, routing everything else back to the existing frameworks.
 
-   *Why not B:* Comprehensiveness is not the deciding factor; the entry explicitly excludes the overlapping boxes because the knowledge base's own frameworks already cover that ground in more depth, per the rule against duplicate concepts under different names.
+   *Why not B:* This keeps most of the duplication and drops only one box-group. The entry's scope is deliberately narrowed to Enablement and Business only; adopting market research and positioning still re-imports ground the existing frameworks already own.
 
-   *Why not C:* Partial adoption of the excluded boxes still duplicates existing frameworks; the entry's scope is deliberately narrowed to Enablement and Business only, not just launch-sequencing specifically.
+   *Why not C:* Comprehensiveness is not the deciding factor; the entry explicitly excludes the overlapping boxes because the knowledge base's own frameworks already cover that ground in more depth, per the rule against duplicate concepts under different names.
 
    *Why not D:* Sign-off does not change the underlying duplication problem; the issue is which boxes this entry is meant to be used for at all, regardless of who approves the rebuild.
 
 2. A rep completed a certification quiz at onboarding eighteen months ago and has never been asked to recertify since, even though positioning and pricing have both changed twice in that time. What pitfall does this describe?
-   - **A.** Treating certification as a one-time event; the fix is expiring certifications after two quarters and requiring recertification on the same cadence as the competitive battlecard refresh.
-   - **B.** Running the Business boxes only when a pricing project is underway; the fix is scheduling a standing pricing health review.
-   - **C.** Rebuilding the whole 37-box framework instead of the two narrowed groups; the fix is scoping enablement work back to the existing 10-Step Process.
-   - **D.** This is not a pitfall, since certification, once earned, should remain valid indefinitely regardless of positioning changes.
+   - **A.** Treating certification as one-time; expire and recertify every two quarters.
+   - **B.** Running Business boxes only when a pricing project happens to be underway.
+   - **C.** Rebuilding the whole 37-box framework instead of the two narrowed groups.
+   - **D.** This is not a pitfall; certification should remain valid indefinitely.
 
    **Correct answer: A.** Treating certification as a one-time event is a named pitfall: a rep certified at onboarding is assumed competent indefinitely even as positioning and pricing move on. The recovery is expiring certifications after two quarters and requiring recertification on the same cadence as the battlecard refresh, so competence tracks the current message.
 
@@ -837,10 +837,10 @@ A "yes" across every box in a group signals that group is mature; a "no" identif
    *Why not D:* The framework explicitly treats certification as something that must expire and be renewed, precisely because positioning and pricing change over time; indefinite validity contradicts this guidance directly.
 
 3. A product's pricing has not been reviewed in eighteen months, and no one has initiated a review because there is currently no active pricing project underway. Two competitors have since cut prices in that window. What does the framework say about this pattern?
-   - **A.** Running the Business boxes only when a pricing project is already underway is a named pitfall; a standing, calendar-triggered pricing health review should run independently of whether an active project exists.
-   - **B.** This is acceptable, since a pricing review is only necessary once a competitor's price cut has been directly linked to lost deals.
-   - **C.** The fix is assigning pricing review ownership entirely to Finance, removing PMM from the process altogether.
-   - **D.** Nothing needs to change, since pricing reviews are inherently tied to active projects and cannot be run on a standing schedule.
+   - **A.** Running Business boxes only when a pricing project is underway.
+   - **B.** Waiting for a confirmed deal loss before treating pricing as worth reviewing.
+   - **C.** Assign the pricing review entirely to Finance, removing PMM from it.
+   - **D.** Nothing needs to change, since reviews require an active pricing project.
 
    **Correct answer: A.** This is the named pitfall exactly: without a standing review, a product can lose margin quietly for a year before anyone notices, since nothing prompts the check absent an active initiative. The fix is putting the pricing health review on the calendar as a standing meeting, independent of whether a pricing change happens to be under discussion.
 
@@ -851,30 +851,30 @@ A "yes" across every box in a group signals that group is mature; a "no" identif
    *Why not D:* The framework explicitly calls for a standing, calendar-triggered review independent of active projects; treating this as impossible directly contradicts its guidance.
 
 4. A company has sold through two new reseller partners over the past year, but both are using the exact same enablement material built for direct reps, with no adaptation for the different context a channel partner operates in. What does the framework recommend?
-   - **A.** Build a channel-specific onboarding path, shorter and more product-focused than the direct-rep curriculum, since the Enablement boxes read across a maturity axis that includes whether the curriculum extends to indirect channels.
-   - **B.** Discontinue the reseller programme entirely, since indirect channels cannot be effectively enabled under this framework.
-   - **C.** Have resellers attend the exact same direct-rep certification programme without any modification, since consistency across all sellers is the priority.
-   - **D.** Address this only if resellers explicitly complain about the material being unsuitable for their context.
+   - **A.** Build a channel-specific path, shorter than the direct-rep curriculum.
+   - **B.** Address this only once resellers explicitly complain about the material.
+   - **C.** Discontinue the reseller programme entirely, since it cannot be enabled well.
+   - **D.** Have resellers attend the identical direct-rep certification, unmodified.
 
    **Correct answer: A.** The Enablement boxes' maturity axis explicitly asks whether the curriculum extends to indirect channels rather than only direct reps; the framework calls for building a channel-specific onboarding path, shorter and more product-focused, matched to a reseller's different context and need.
 
-   *Why not B:* The framework treats channel enablement as a specific box to mature, not a reason to abandon the channel; the fix is building the missing channel-specific layer, not discontinuing the programme.
+   *Why not B:* Waiting for explicit complaints is reactive; the framework's scorecard approach calls for proactively assessing and building the channel-specific box, not waiting for a symptom to surface first before acting.
 
-   *Why not C:* Using identical direct-rep material for resellers is exactly the gap described; the framework calls for a distinct, more concise channel-specific path, not enforced uniformity.
+   *Why not C:* The framework treats channel enablement as a specific box to mature, not a reason to abandon the channel; the fix is building the missing channel-specific layer, not discontinuing the programme.
 
-   *Why not D:* Waiting for explicit complaints is reactive; the framework's scorecard approach calls for proactively assessing and building the channel-specific box, not waiting for a symptom to surface first.
+   *Why not D:* Using identical direct-rep material for resellers is exactly the gap described; the framework calls for a distinct, more concise channel-specific path, not enforced uniformity.
 
 5. A PMM scores every Enablement and Business box, finds several "No" results, and starts building fixes for all of them at once with equal urgency. What does the framework suggest about this approach?
-   - **A.** Prioritise the Nos and Partials by revenue risk, since an uncertified indirect channel actively selling with outdated messaging typically outranks a stale internal FAQ no rep actually opens.
-   - **B.** This is the correct approach, since every "No" box represents an equally urgent gap requiring simultaneous attention.
-   - **C.** Only Business boxes should ever be prioritised over Enablement boxes, regardless of the specific evidence in each case.
-   - **D.** The scorecard should be re-run monthly until every box scores "Yes" before any fixes are built.
+   - **A.** Prioritise the Nos and Partials by revenue risk, not equal urgency.
+   - **B.** Prioritise all Business boxes over all Enablement boxes as a fixed rule.
+   - **C.** Treat every "No" as equally urgent and build fixes in parallel.
+   - **D.** Re-run the scorecard monthly until every box scores "Yes" before building anything.
 
    **Correct answer: A.** The framework explicitly calls for prioritising gaps by revenue risk, not treating every "No" as equally urgent; a live, uncertified channel actively misselling typically poses far more immediate risk than a low-impact internal documentation gap.
 
-   *Why not B:* Treating every gap as equally urgent ignores the framework's explicit revenue-risk prioritisation guidance and risks diluting effort across low-impact fixes while a higher-risk gap goes unaddressed longer than necessary.
+   *Why not B:* This looks like prioritisation but substitutes a fixed rule about box-group for the framework's actual test. Prioritisation should follow the specific evidence and revenue risk in each case, not a rule that always favours one group over the other regardless of context.
 
-   *Why not C:* Prioritisation should follow the specific evidence and revenue risk in each case, not a fixed rule favouring one box-group over the other regardless of context.
+   *Why not C:* Treating every gap as equally urgent ignores the framework's explicit revenue-risk prioritisation guidance and risks diluting effort across low-impact fixes while a higher-risk gap goes unaddressed longer than necessary.
 
    *Why not D:* Re-scoring repeatedly before building any fixes delays action on gaps already identified; the framework calls for scoring once, then prioritising and building fixes by revenue risk.
 
@@ -921,71 +921,71 @@ A "yes" across every box in a group signals that group is mature; a "no" identif
 **Quiz:**
 
 1. A company scores strongly on three of the four MOVE motions but stalls on overall growth. Leadership wants to invest more heavily across all four motions equally to be safe. What does the model suggest instead?
-   - **A.** Pinpoint the single weakest motion from the evidence and focus there, since a company can score well on three motions and still stall on growth because the fourth is broken; a "healthy on average" score hides exactly this.
-   - **B.** Invest equally across all four motions, since balanced investment is always the safest strategy regardless of where the actual weakness lies.
-   - **C.** Focus exclusively on Make/Sell, since it is always the highest-leverage motion regardless of the specific evidence.
-   - **D.** Conclude that growth stalling despite three strong motions indicates a market saturation problem outside MOVE's scope.
+   - **A.** Pinpoint the single weakest motion from the evidence, not the average.
+   - **B.** Invest equally across all four motions instead of targeting just one.
+   - **C.** Fix whichever motion the team feels most confident it can improve quickly.
+   - **D.** Conclude the growth stall reflects market saturation outside MOVE's scope.
 
    **Correct answer: A.** MOVE's core diagnostic value is exactly this: identifying the single weakest motion, not averaging across all four, since a company can score strongly on three motions and still stall because the fourth is the binding constraint. Averaged, "healthy on average" scoring is explicitly named as hiding the real problem.
 
    *Why not B:* Equal investment across all four motions ignores the model's central point, that a weak link caps everything downstream; resourcing the motions that are already fine wastes effort that should go to the actual bottleneck.
 
-   *Why not C:* Make/Sell is not automatically the highest-leverage motion; the model calls for identifying the weakest motion from evidence, which could be any of the four depending on the specific company's data.
+   *Why not C:* This still picks one motion to focus on, the right instinct, but on the wrong basis. Team confidence is not the evidence MOVE calls for; the weakest motion has to come from the four metrics, not from which fix feels most approachable.
 
    *Why not D:* MOVE is specifically designed to distinguish a market-fit problem from an operational one within the four-motion framework; the scenario as described has not yet ruled out an operational cause and should be diagnosed with the model before assuming market saturation.
 
 2. A company scores itself as having achieved Platform-Market Fit, based on leadership's confidence that the product is ready to expand into adjacent use cases. Retention data and validated-problem research have not actually been checked. What risk does this create?
-   - **A.** The company may misdiagnose an ordinary Product-Market Fit gap as an expansion-motion problem, resourcing platform-expansion work that cannot succeed until the underlying gap is closed.
-   - **B.** There is no risk, since leadership conviction is an acceptable substitute for retention data when scoring the fit-stage layer.
-   - **C.** The risk applies only to the Renew/Expand motion score, not to any other part of the diagnostic.
-   - **D.** Scoring the fit stage aspirationally is standard practice and does not affect how the four-motion layer should be interpreted.
+   - **A.** This may misdiagnose a Product-Market Fit gap as an expansion problem.
+   - **B.** The risk applies only to how the Renew/Expand motion score is read.
+   - **C.** Leadership confidence is an acceptable substitute for checking the data.
+   - **D.** Aspirational fit-stage scoring is standard, accepted practice in the model.
 
    **Correct answer: A.** Scoring the fit-stage layer aspirationally instead of against evidence is a named pitfall: a team that rates itself Platform-Market Fit before the data supports it will misdiagnose an ordinary Product-Market Fit gap as an expansion problem, resourcing work that cannot succeed until the real, underlying gap closes.
 
-   *Why not B:* The model explicitly calls for grounding the fit-stage score in evidence, retention data, validated-problem research, expansion revenue, not internal conviction; leadership confidence alone is exactly the named pitfall.
+   *Why not B:* This understates how far the distortion reaches. The fit stage is the frame the rest of the diagnostic's findings get interpreted through, so an inflated score skews the reading of all four motions, not just Renew/Expand.
 
-   *Why not C:* An inflated fit-stage score distorts how all four motions' findings get interpreted, since the fit stage is described as "the frame the rest of the diagnostic's findings get interpreted through," not a risk isolated to one motion.
+   *Why not C:* The model explicitly calls for grounding the fit-stage score in evidence, retention data, validated-problem research, expansion revenue, not internal conviction; leadership confidence alone is exactly the named pitfall.
 
    *Why not D:* The model explicitly treats aspirational fit-stage scoring as a named pitfall to avoid, not a standard or acceptable practice.
 
 3. Diagnostic data shows Sell/Deliver is clearly the weakest motion, with poor onboarding completion and long time-to-value. A PMM team, more comfortable with messaging work, proposes investing instead in Renew/Expand campaigns, arguing it will still help overall growth. What does the model say about this plan?
-   - **A.** Fixing a downstream motion while an upstream one remains broken wastes the effort, since expansion revenue depends on customers who reached real value in the first place; fixes should sequence upstream-first.
-   - **B.** This is a reasonable plan, since working on any of the four motions contributes to overall company growth regardless of sequencing.
-   - **C.** Renew/Expand should always be prioritised first regardless of which motion scores weakest, since expansion revenue is the most direct growth lever.
-   - **D.** The plan is fine as long as the Renew/Expand campaign is well executed, since execution quality matters more than which motion is targeted.
+   - **A.** This wastes effort; sequence fixes upstream-first, starting with Sell/Deliver.
+   - **B.** Work on both motions at once, splitting the team's effort between them.
+   - **C.** Renew/Expand should always be the first priority regardless of the data.
+   - **D.** The plan is fine as long as the Renew/Expand campaign is executed well.
 
    **Correct answer: A.** This is the named pitfall directly: fixing a downstream motion (Renew/Expand) while an upstream one (Sell/Deliver) remains broken wastes the effort, since the downstream numbers stay capped by the upstream leak no matter how much attention the downstream motion receives. The model calls for sequencing fixes upstream-first.
 
-   *Why not B:* The model explicitly rejects this reasoning; a downstream fix cannot outrun an upstream leak, so investing in Renew/Expand while Sell/Deliver remains broken will not meaningfully help growth.
+   *Why not B:* This half-fixes the sequencing problem. Splitting effort still spends part of the team's capacity downstream before the upstream leak is closed, and the model calls for sequencing upstream-first, not dividing attention between both at once.
 
    *Why not C:* Renew/Expand is not universally the priority; the model calls for identifying and fixing the actual weakest motion first, and sequencing upstream motions ahead of downstream ones when more than one is weak.
 
    *Why not D:* Execution quality does not overcome the structural problem; even a flawlessly executed Renew/Expand campaign cannot succeed if customers never reached real value due to a broken Sell/Deliver motion feeding it.
 
 4. A company's net revenue retention is underperforming, and different functional leaders each blame a different part of the business, with no data brought to the discussion. What does MOVE recommend as the way to resolve this?
-   - **A.** Score the four motions using one revealing metric each, and identify the weakest motion from that evidence, rather than resolving the disagreement through internal debate or the most persuasive argument.
-   - **B.** Let the most senior leader in the room decide which motion is likely at fault, since executive judgement is the fastest way to resolve competing claims.
-   - **C.** Survey customers directly and use their answers as the sole basis for identifying which motion is broken, bypassing the four-motion metric framework entirely.
-   - **D.** Assume the problem is Renew/Expand by default, since underperforming net revenue retention is definitionally an expansion problem.
+   - **A.** Score the four motions with one metric each, and find the weakest one.
+   - **B.** Survey customers directly and use their answers as the sole evidence.
+   - **C.** Let the most senior leader in the room decide which motion is at fault.
+   - **D.** Assume the cause is Renew/Expand by default, since NRR is an expansion metric.
 
    **Correct answer: A.** This is exactly the situation MOVE is built for: growth or retention plateaus with functional leaders each blaming a different part of the business call for a structured, evidence-ranked diagnosis across the four motions, using one revealing metric per motion, rather than debate by anecdote.
 
-   *Why not B:* Deferring to seniority rather than evidence is exactly the "debate by anecdote" pattern MOVE is designed to replace with a structured, metric-based diagnosis.
+   *Why not B:* Customer surveys can be a genuinely useful input, but MOVE calls for the specific metrics per motion, win rate, time-to-value, renewal rate, expansion attach rate, to identify the weakest link, not a single data source used on its own.
 
-   *Why not C:* Customer surveys can be a useful input, but MOVE calls for the specific metrics per motion (win rate, time-to-value, renewal rate, expansion attach rate) to identify the weakest link, not a single data source used in isolation.
+   *Why not C:* Deferring to seniority rather than evidence is exactly the "debate by anecdote" pattern MOVE is designed to replace with a structured, metric-based diagnosis.
 
    *Why not D:* Underperforming NRR could originate upstream, in Sell/Deliver or Deliver/Renew, not only in Renew/Expand itself; the model explicitly warns that a downstream symptom can be caused by an upstream leak, so assuming the cause by default skips the actual diagnostic step.
 
 5. A company runs the MOVE diagnostic for the first time, identifies Deliver/Renew as its weakest motion, fixes the specific churn driver behind it, and then never re-runs the four-motion scoring again. What does the model recommend instead?
-   - **A.** Re-run the four-motion scoring on a fixed cadence, quarterly alongside Quarterly PMM Planning is typical, so a newly weakening motion is caught before it becomes the binding constraint, rather than waiting for growth to visibly stall again.
-   - **B.** A single diagnostic run is sufficient once the identified weak motion has been fixed, since the four-motion layer does not need to be reassessed afterward.
-   - **C.** Only the fit-stage layer needs re-assessment going forward; the four-motion layer is a one-time diagnostic exercise.
-   - **D.** Re-running the diagnostic should wait until the next major platform expansion is under consideration.
+   - **A.** Re-run the four-motion scoring on a fixed cadence, quarterly is typical.
+   - **B.** Re-assess only the fit-stage layer going forward, roughly annually.
+   - **C.** A single diagnostic run is sufficient once the identified motion is fixed.
+   - **D.** Wait to re-run the diagnostic until the next major platform expansion.
 
    **Correct answer: A.** The model explicitly calls for re-running the four-motion scoring on a fixed cadence, quarterly alongside Quarterly PMM Planning is typical, precisely so a weakening motion is caught early rather than only once growth has visibly stalled again; a fixed motion today does not guarantee another will not weaken next.
 
-   *Why not B:* The model treats the four-motion layer as a recurring, periodic health check, not a one-time diagnostic; a different motion can weaken over time even after the originally identified one is fixed.
+   *Why not B:* This swaps the two layers' cadences. The four-motion layer is what needs the frequent, quarterly recheck; the fit-stage layer is the one reassessed on the slower, roughly annual cycle, not the other way round.
 
-   *Why not C:* This reverses the model's actual cadence guidance: the four-motion layer is reassessed on the more frequent, quarterly cadence, while the fit-stage layer is reassessed on the longer, roughly annual cadence.
+   *Why not C:* The model treats the four-motion layer as a recurring, periodic health check, not a one-time diagnostic; a different motion can weaken over time even after the originally identified one is fixed.
 
    *Why not D:* Waiting for a major platform expansion applies to the fit-stage layer's reassessment cadence, not the four-motion layer, which should be re-run quarterly regardless of any platform-expansion decision.
