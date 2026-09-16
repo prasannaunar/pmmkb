@@ -1,9 +1,9 @@
 # Quiz Revision Plan
 
-> **Next session starts here.** Batch 0 is done; no question content has been rewritten yet. Begin at **Batch 1** in the [Work programme](#work-programme): `frameworks/05-lifecycle-workflow.md`, 25 questions, the deliberate pilot.
+> **Next session starts here.** Batch 1 (the pilot) is done. Begin at **Batch 2** in the [Work programme](#work-programme): `frameworks/03-competitive-strategy.md` and `concepts/gtm-strategy-vs-product-marketing.md`, 40 questions.
 
-**Status:** Batch 0 complete (2026-09-09). The standard, the tooling, and this plan exist; all 435 questions are still unrevised. Twelve batches remain (1 to 7, 8a, 8b, 9a, 9b, and 10).
-**Last Updated:** 2026-09-09
+**Status:** Batches 0 and 1 complete (2026-09-16). The standard, the tooling, and this plan exist; the pilot file is revised and clean. Eleven batches remain (2 to 7, 8a, 8b, 9a, 9b, and 10).
+**Last Updated:** 2026-09-16
 **Owner doc for:** rewriting all 435 existing quiz questions to the revised distractor standard.
 **Read with:** [QUIZ-SPEC.md](QUIZ-SPEC.md) (the standard itself) and CLAUDE.md's "Quiz section (quiz standard)".
 
@@ -138,7 +138,7 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 435 questions across 11 files. Batches are sized to fit comfortably in one session with room to verify; a batch is a unit of commit.
 
 - [x] **Batch 0. Rules and tooling.** QUIZ-SPEC.md updated with the revised distractor standard and the near-miss taxonomy; CLAUDE.md's quiz quality gate updated; `web/scripts/audit-quiz.mjs` and `npm run audit:quiz` added; this plan written. *(2026-09-09)*
-- [ ] **Batch 1. Pilot: `frameworks/05-lifecycle-workflow.md`** (3 entries + category quiz, 25 questions). Smallest file, so the pattern gets settled cheaply. **Stop after this batch and re-read the result end to end.** If the standard needs adjusting, adjust QUIZ-SPEC.md and this plan before batch 2, not after batch 9b.
+- [x] **Batch 1. Pilot: `frameworks/05-lifecycle-workflow.md`** (3 entries + category quiz, 25 questions). Smallest file, so the pattern gets settled cheaply. **Stop after this batch and re-read the result end to end.** If the standard needs adjusting, adjust QUIZ-SPEC.md and this plan before batch 2, not after batch 9b. *(2026-09-16, no standard changes needed.)*
 - [ ] **Batch 2. `frameworks/03-competitive-strategy.md`** (5 entries + category quiz, 35) **and `concepts/gtm-strategy-vs-product-marketing.md`** (1 primer, 5). 40 questions.
 - [ ] **Batch 3. `frameworks/09-sales-enablement.md`** (5 entries + category quiz, 35) **and the three path quizzes in `web/src/lib/guides.ts`** (15). 50 questions. The path quizzes are TypeScript tuples, not markdown, and their options are already shorter and closer in length; they mostly need a near miss added and one or two throwaways replaced.
 - [ ] **Batch 4. `frameworks/06-product-experience-adoption.md`** (7 entries + category quiz, 45).
@@ -174,14 +174,14 @@ Note what happened to the near miss's feedback: it went from a generic rebuttal 
 | `frameworks/02-positioning-messaging.md` | 70 | 0 | 87% |
 | `frameworks/03-competitive-strategy.md` | 35 | 0 | 83% |
 | `frameworks/04-go-to-market-launch.md` | 65 | 0 | 91% |
-| `frameworks/05-lifecycle-workflow.md` | 25 | 0 | 76% |
+| `frameworks/05-lifecycle-workflow.md` | 25 | 25 | 32% |
 | `frameworks/06-product-experience-adoption.md` | 45 | 0 | 80% |
 | `frameworks/07-strategy-planning.md` | 45 | 0 | 84% |
 | `frameworks/08-pricing-packaging.md` | 45 | 0 | 87% |
 | `frameworks/09-sales-enablement.md` | 35 | 0 | 89% |
 | `concepts/gtm-strategy-vs-product-marketing.md` | 5 | 0 | 100% |
 | `web/src/lib/guides.ts` (path quizzes) | 15 | 0 | 87% |
-| **Total** | **435** | **0** | **86%** |
+| **Total** | **435** | **25** | **83%** |
 
 Update this table at the end of each batch from the audit output.
 
@@ -192,3 +192,4 @@ Update this table at the end of each batch from the audit output.
 Append one line per session that moves a batch. Keep it short: what was done, what the audit said afterwards, and anything the next session needs to know.
 
 - **2026-09-09, batch 0.** Audited all 435 questions and confirmed the reported guessability: correct answer is the longest option in 86% of them, averaging 156 characters against 93 for distractors. Diagnosed the cause as the correct option carrying its own justification, and the secondary problem as distractors too light to be worth weighing. Wrote the revised standard into QUIZ-SPEC.md ("Distractor quality") and CLAUDE.md's quiz standard and quality gate, updated the `add-kb-entry` skill, added `web/scripts/audit-quiz.mjs` plus `npm run audit:quiz`, and wrote this plan. No question content changed. Audit deliberately not wired into `npm run test:content` yet; that is batch 10, so the build stays green while the content catches up.
+- **2026-09-16, batch 1.** Revised all 25 questions in `frameworks/05-lifecycle-workflow.md` (PMM Lifecycle Management Framework, Go-to-Market Motion Framework, Feature Adoption Framework, and the category quiz) to the standard: trimmed self-justifying clauses out of every correct option, added one taxonomy-driven near miss per question (mostly type 2 wrong scope and type 1 wrong sequence/timing, since this file's confusions are about which methodology fits a situation and when to act), and levelled option lengths. `npm run audit:quiz -- --file frameworks/05-lifecycle-workflow.md` now reports 32% correct-is-longest (down from 76%) with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags. `npm run test:content` and `npm run build` both pass. No standard changes needed; the taxonomy and worked example from batch 0 held up as written. Next session starts at batch 2.
