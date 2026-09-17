@@ -3,140 +3,140 @@
 ## Category Quiz
 
 1. Leadership questions why PMM needs resourcing beyond the moment of a product launch, viewing the function as "launches and messaging" only. Which tool directly addresses this?
-   - **A.** PMM Lifecycle Management Framework
-   - **B.** Go-to-Market Motion Framework
-   - **C.** Feature Adoption Framework
-   - **D.** None of these; this is a headcount question outside any of these tools' scope.
+   - **A.** PMM Lifecycle Management Framework, mapping PMM's role across all stages.
+   - **B.** Go-to-Market Motion Framework, used to coordinate a single launch.
+   - **C.** Feature Adoption Framework, used to drive usage of one feature.
+   - **D.** A headcount conversation with leadership, outside any of these tools.
 
    **Correct answer: A.** This is the Lifecycle Management Framework's named purpose: mapping PMM's defined contribution across all seven stages, awareness through advocacy, specifically to counter the "launches and messaging" shorthand and demonstrate the role's full breadth.
 
-   *Why not B:* The Go-to-Market Motion Framework coordinates a single launch or campaign across channels; it does not map PMM's ongoing contribution across the full customer lifecycle beyond that one event.
+   *Why not B:* This is the right category of tool, and it does demonstrate PMM's broader coordination skills, but it answers "how do we run one launch," not "what does PMM do across the whole customer lifecycle," which is what leadership is questioning here.
 
    *Why not C:* Feature Adoption addresses driving usage of a specific feature within the product; it is one instance of Adoption-stage work, not the company-wide lifecycle map leadership is questioning.
 
    *Why not D:* This is precisely the situation the Lifecycle Management Framework is designed to answer; it is squarely within this category's scope, not outside it.
 
 2. A company is about to release a major new module to its installed base and needs multiple teams, marketing, sales, partnerships, PR, to execute in a coordinated sequence around a single announcement date. Which tool should they use?
-   - **A.** Go-to-Market Motion Framework
-   - **B.** PMM Lifecycle Management Framework
-   - **C.** Feature Adoption Framework
-   - **D.** Neither; a launch of this kind should be handled informally by whichever team is most available.
+   - **A.** Go-to-Market Motion Framework, choreographing the cross-team launch.
+   - **B.** PMM Lifecycle Management Framework, mapping the ongoing customer journey.
+   - **C.** Feature Adoption Framework, driving usage after the module has shipped.
+   - **D.** No formal tool; whichever team has capacity handles the coordination.
 
    **Correct answer: A.** This is exactly what the Go-to-Market Motion Framework is built for: choreographing a launch across multiple channels and teams with a dependency map, channel owners, and synchronised timing, rather than ad hoc, piecemeal execution.
 
    *Why not B:* The Lifecycle Management Framework maps PMM's ongoing role across the full customer journey; it is not the tool for coordinating a single, time-bound, multi-channel launch event.
 
-   *Why not C:* Feature Adoption addresses driving usage after a feature has shipped; it does not itself coordinate the cross-team choreography of the launch event itself.
+   *Why not C:* This is the right general territory, a shipped capability needing a push, but it answers "how do we drive usage of what already shipped," not "how do we choreograph the announcement itself," which is the problem here.
 
    *Why not D:* The framework exists precisely because ad hoc coordination is a common cause of launch failure; an informal approach is what this methodology is built to replace.
 
 3. A powerful new capability has shipped, but usage data shows only 5% of the customer base has tried it after 30 days, and interviews reveal most customers don't even know it exists. Which tool addresses this directly?
-   - **A.** Feature Adoption Framework
-   - **B.** Go-to-Market Motion Framework
-   - **C.** PMM Lifecycle Management Framework
-   - **D.** None of these; low feature adoption is solely a product design issue outside PMM's remit.
+   - **A.** Feature Adoption Framework, targeting the specific capability.
+   - **B.** Go-to-Market Motion Framework, launching the capability company-wide again.
+   - **C.** PMM Lifecycle Management Framework, mapping stage-level ownership.
+   - **D.** No PMM tool; this is purely a product design issue.
 
    **Correct answer: A.** This is the Feature Adoption Framework's named trigger: low adoption despite a genuinely valuable feature, requiring segmentation, targeted messaging by user type, and measurement of activation and retention, treating the feature like its own internal go-to-market motion.
 
-   *Why not B:* The Go-to-Market Motion Framework coordinates a full company-wide launch across many channels; Feature Adoption is the more targeted, in-product tool for driving usage of one specific already-shipped capability.
+   *Why not B:* Re-running a full company-wide launch is the right instinct, generate a renewed push, aimed at too broad a scope: this is a targeted, in-product discoverability problem, not one that needs a fresh multi-channel motion.
 
    *Why not C:* The Lifecycle Management Framework maps PMM's role across broad stages; Feature Adoption is the specific, tactical methodology for this narrower discoverability and usage problem within the Adoption stage.
 
    *Why not D:* The framework explicitly treats this as squarely within PMM's remit, applying segmentation, messaging, and measurement discipline to a discoverability and adoption problem, not purely a product design issue.
 
 4. A team audits its content library and finds that Expansion, which drives over a third of new revenue, has far fewer assets than any other stage, while Awareness already has abundant content and strong organic traffic. Which tool surfaced this imbalance, and what should the team do?
-   - **A.** PMM Lifecycle Management Framework; reallocate resourcing from the over-served stage to the under-served, high-impact one.
-   - **B.** Go-to-Market Motion Framework; rebuild the dependency map to fix the imbalance.
-   - **C.** Feature Adoption Framework; run a new adoption campaign targeted at the Awareness stage.
-   - **D.** None of these tools would surface this kind of imbalance; it requires a separate content audit process.
+   - **A.** PMM Lifecycle Management Framework; reallocate the writer to Expansion.
+   - **B.** Go-to-Market Motion Framework; rebuild the dependency map.
+   - **C.** Feature Adoption Framework; run an adoption campaign for Awareness content.
+   - **D.** A dedicated content audit, run separately from any of these three frameworks.
 
    **Correct answer: A.** This is exactly the Lifecycle Management Framework's gap-identification step: auditing content assets by stage against revenue impact, and its own worked example shows precisely this pattern, reallocating a resource from an over-served stage to an under-served one driving significant revenue.
 
    *Why not B:* The Go-to-Market Motion Framework coordinates a single launch's cross-channel execution; it does not perform the cross-stage content audit that surfaced this particular imbalance.
 
-   *Why not C:* Feature Adoption campaigns target usage of a specific in-product feature; they are not the tool for auditing content investment balance across the seven lifecycle stages.
+   *Why not C:* This borrows the right instrument, a targeted campaign, for the wrong scope: Feature Adoption campaigns drive usage of an in-product feature, not investment across the seven lifecycle stages' content libraries.
 
    *Why not D:* This imbalance is precisely what the Lifecycle Management Framework's stage-by-stage audit step is designed to catch; it does not require a separate, unrelated process.
 
 5. A launch generated strong day-one media coverage and social buzz, but by week three, no new content has shipped and sales has stopped mentioning the feature. Which tool's guidance was most likely ignored?
-   - **A.** Go-to-Market Motion Framework
-   - **B.** PMM Lifecycle Management Framework
-   - **C.** Feature Adoption Framework
-   - **D.** None of these; a fade in momentum after week one is unavoidable regardless of process.
+   - **A.** Go-to-Market Motion Framework, its post-launch phase specifically.
+   - **B.** PMM Lifecycle Management Framework, its ongoing stage mapping.
+   - **C.** Feature Adoption Framework, its in-product messaging.
+   - **D.** Nothing; a fade in momentum after week one is unavoidable.
 
    **Correct answer: A.** This is the Go-to-Market Motion Framework's named "announcement without follow-through" pitfall: sustaining momentum for 4 to 12 weeks post-launch is where much of the real commercial impact happens, and the fix is staffing and budgeting that phase with a named owner before launch day, not letting it fade unattended.
 
-   *Why not B:* The Lifecycle Management Framework addresses PMM's ongoing role across broad customer stages; the specific failure here, losing momentum after a single launch event, is the Go-to-Market Motion Framework's named pitfall.
+   *Why not B:* The Lifecycle Management Framework does deal with ongoing engagement generally, but the specific failure here, momentum fading after a single launch event, is a named Go-to-Market Motion pitfall, not a stage-mapping gap.
 
    *Why not C:* Feature Adoption addresses in-product usage of a specific feature after it ships; this scenario describes a broader launch-momentum failure across content and sales engagement, which the Go-to-Market Motion Framework is built to prevent.
 
    *Why not D:* The framework treats this fade as a preventable, named pitfall with a specific recovery (a staffed and budgeted post-launch phase), not an inevitable outcome of time passing.
 
 6. A feature was built for one customer's escalated request, and six months later, usage data shows that customer remains the only user. What should the team do, and which tool guides that decision?
-   - **A.** Feature Adoption Framework; treat this as an explicit trigger to run the adoption cycle, not evidence the feature failed.
-   - **B.** PMM Lifecycle Management Framework; reassign the feature to the Advocacy stage exclusively.
-   - **C.** Go-to-Market Motion Framework; run a full multi-channel launch motion for the feature immediately.
-   - **D.** None of these; a single-user feature after six months should simply be removed without further analysis.
+   - **A.** Feature Adoption Framework; run the adoption cycle rather than assume it failed.
+   - **B.** PMM Lifecycle Management Framework; reassign it to the Advocacy stage.
+   - **C.** Go-to-Market Motion Framework; run a full multi-channel relaunch now.
+   - **D.** No tool; remove the feature without further analysis.
 
    **Correct answer: A.** The Feature Adoption Framework explicitly names this exact scenario, a feature built for one customer with no other adopters six months later, as a trigger to run its cycle: understand the barrier, segment potential users, and build a targeted campaign, rather than concluding the feature has failed.
 
    *Why not B:* This is a specific in-product adoption problem, not a question of which broad lifecycle stage the feature belongs to; the Feature Adoption Framework is the direct, applicable tool here.
 
-   *Why not C:* A full company-wide, multi-channel launch motion is a heavier response than this situation calls for; the Feature Adoption Framework's targeted, segmented approach is the better-fitted tool.
+   *Why not C:* Pushing for renewed attention is the right instinct aimed at too broad a scope: a full company-wide, multi-channel relaunch is a heavier response than a single underused feature calls for; the Feature Adoption Framework's targeted, segmented approach fits better.
 
    *Why not D:* The framework treats this as an adoption gap worth diagnosing first, since the underlying barrier (discoverability, complexity, unclear value to others) has not yet been investigated, rather than grounds for immediate removal.
 
 7. A team wants to decide whether to organise its PMM function by lifecycle stage, product line, or customer segment, and needs a foundation for that structural decision. Which tool provides it?
-   - **A.** PMM Lifecycle Management Framework
-   - **B.** Go-to-Market Motion Framework
-   - **C.** Feature Adoption Framework
-   - **D.** None of these; team structure decisions fall entirely outside this category's scope.
+   - **A.** PMM Lifecycle Management Framework, using its stage-by-stage map.
+   - **B.** Go-to-Market Motion Framework, using its channel-ownership model.
+   - **C.** Feature Adoption Framework, using its user-segmentation approach.
+   - **D.** None of these; team structure sits entirely outside this category.
 
    **Correct answer: A.** This is one of the Lifecycle Management Framework's named use cases directly: when restructuring a PMM team, the framework's stage-by-stage mapping of touchpoints and ownership is the foundation for deciding whether to organise around lifecycle stage, product line, or segment.
 
-   *Why not B:* The Go-to-Market Motion Framework organises a single launch's execution, not the ongoing structure of the PMM team itself; it does not address this kind of organisational design question.
+   *Why not B:* The Go-to-Market Motion Framework's channel-ownership model organises a single launch's execution, not the ongoing structure of the PMM team itself; it does not address this kind of organisational design question.
 
-   *Why not C:* Feature Adoption is a tactical methodology for driving usage of a specific feature; it has no bearing on how a PMM team should be structured overall.
+   *Why not C:* Feature Adoption's segmentation logic sounds relevant but is aimed at the wrong subject: it segments customers by adoption readiness, not a PMM team by stage, product, or segment.
 
    *Why not D:* This is explicitly named as one of the Lifecycle Management Framework's use cases; it sits squarely within this category, not outside it.
 
 8. A launch is scheduled around a hard external dependency: an analyst embargo and a partner's simultaneous announcement. The team has not discussed what happens if the partner's announcement slips. Which tool's guidance applies, and what is missing?
-   - **A.** Go-to-Market Motion Framework; a rollback plan deciding in advance what happens if the dependency slips.
-   - **B.** Feature Adoption Framework; a segmented adoption campaign for the affected feature.
-   - **C.** PMM Lifecycle Management Framework; a RACI exercise covering the partner relationship.
-   - **D.** None of these; external dependencies like analyst embargoes fall outside any PMM-owned process.
+   - **A.** Go-to-Market Motion Framework; a rollback plan agreed before launch day.
+   - **B.** Feature Adoption Framework; a segmented campaign for the affected feature.
+   - **C.** PMM Lifecycle Management Framework; a RACI covering the partner relationship.
+   - **D.** None of these; external dependencies sit outside any PMM-owned process.
 
    **Correct answer: A.** The Go-to-Market Motion Framework explicitly calls for a rollback plan when hard external dependencies (an analyst embargo, a partner announcement) are in play, deciding in advance what happens if a critical dependency slips so a pre-agreed fallback narrative exists rather than a scramble on launch day.
 
    *Why not B:* A feature adoption campaign addresses driving usage after launch; it does not address planning for a dependency slipping before or during the launch event itself.
 
-   *Why not C:* A RACI exercise clarifies ownership across lifecycle touchpoints generally; it does not provide the specific rollback contingency planning this scenario, a hard external dependency risk, calls for.
+   *Why not C:* A RACI exercise is a real Lifecycle Framework tool, but it clarifies ongoing ownership across touchpoints generally; it does not produce the specific launch-day rollback contingency this scenario is missing.
 
    *Why not D:* The Go-to-Market Motion Framework explicitly names hard external dependencies like analyst embargoes and partner announcements as within its scope, with the rollback plan as the specific tool for managing that risk.
 
 9. A team notices that customers are using a manual workaround instead of a built-in feature that already does the same job better. Which tool addresses this specific pattern?
-   - **A.** Feature Adoption Framework
-   - **B.** Go-to-Market Motion Framework
-   - **C.** PMM Lifecycle Management Framework
-   - **D.** None of these; workaround usage is solely a product design flaw with no messaging component.
+   - **A.** Feature Adoption Framework, diagnosing the discoverability barrier.
+   - **B.** Go-to-Market Motion Framework, launching the feature again in force.
+   - **C.** PMM Lifecycle Management Framework, mapping the relevant touchpoint.
+   - **D.** No tool; this is purely a product design flaw with no messaging role.
 
    **Correct answer: A.** This exact pattern, customers using a workaround instead of an existing built-in feature, is named directly as a trigger for the Feature Adoption Framework, which diagnoses the barrier (discoverability, complexity, or unclear value) and builds a targeted campaign to shift behaviour.
 
-   *Why not B:* The Go-to-Market Motion Framework coordinates a launch event; it is not built to diagnose and fix an existing, already-shipped feature's ongoing discoverability or adoption problem.
+   *Why not B:* Relaunching more broadly is the right family of response, get renewed attention, aimed at too broad a scope for a single existing feature's discoverability problem, which calls for a targeted campaign, not a fresh multi-channel motion.
 
    *Why not C:* The Lifecycle Management Framework maps broad stage-level ownership and touchpoints; Feature Adoption is the specific, tactical tool for this named workaround-versus-feature pattern.
 
    *Why not D:* The framework treats this as a messaging and adoption problem it is specifically designed to address, not purely a product design issue with no PMM role.
 
 10. A new self-serve trial flow and a new partner channel have both launched mid-year, introducing touchpoints that were not part of the original customer journey map built in January. What should the team do?
-    - **A.** Treat this as a trigger for an off-cycle refresh of the lifecycle map, per the PMM Lifecycle Management Framework, rather than waiting for the next scheduled quarterly review.
-    - **B.** Ignore the new touchpoints until the annual planning cycle, since the original map remains valid until then.
-    - **C.** Apply the Go-to-Market Motion Framework instead, since new touchpoints are best handled as a fresh launch motion.
-    - **D.** Run a Feature Adoption campaign for the new partner channel, since channels are treated identically to product features under that framework.
+    - **A.** Treat this as a trigger for an off-cycle refresh of the lifecycle map.
+    - **B.** Wait for the annual planning cycle, since the map stays valid until then.
+    - **C.** Run a Go-to-Market Motion for the new channel instead of updating the map.
+    - **D.** Run a Feature Adoption campaign for the new partner channel.
 
     **Correct answer: A.** The Lifecycle Management Framework explicitly names a new self-serve flow or a new partner channel as triggers for an off-cycle refresh of the lifecycle map, on top of the standing quarterly cadence, precisely so new touchpoints like these do not become blind spots.
 
-    *Why not B:* Waiting until an annual cycle leaves new touchpoints unmapped for months; the framework's guidance is to treat this kind of change as an explicit trigger for an immediate, off-cycle update, not to wait for a distant future review.
+    *Why not B:* This gets the framework's cadence right in spirit, the map is reviewed on a schedule, but wrong in timing: the framework treats a new flow or channel as an explicit trigger for an immediate, off-cycle update, not something to leave until the next distant review.
 
     *Why not C:* A Go-to-Market Motion is built for a single, time-bound launch event; updating the lifecycle map to reflect new, ongoing touchpoints is a distinct exercise the Lifecycle Management Framework is designed for.
 
@@ -200,70 +200,70 @@ Success metrics to track ongoing: organic traffic (Awareness), SQLs from content
 **Quiz:**
 
 1. Leadership tells a PMM team "your job is launches and messaging," and questions why PMM needs headcount for anything else. What does this framework suggest as the response?
-   - **A.** Map PMM's defined contribution across all seven lifecycle stages, from awareness through advocacy, to show the role's breadth beyond the moment of purchase.
-   - **B.** Agree with leadership and reduce PMM's scope to focus exclusively on launch messaging going forward.
-   - **C.** Argue the point verbally in the next leadership meeting without producing any supporting documentation.
-   - **D.** Ask sales to defend PMM's broader scope on the team's behalf.
+   - **A.** Map PMM's contribution across all seven stages, awareness through advocacy.
+   - **B.** Reduce PMM's scope to focus only on launch messaging going forward.
+   - **C.** Raise the point in the next leadership meeting, citing the team's general workload.
+   - **D.** Ask sales to make the case for PMM's expanded scope on the team's behalf.
 
    **Correct answer: A.** The framework exists specifically to counter the "launches and messaging" shorthand; mapping PMM's activities across all seven stages, awareness, consideration, purchase, onboarding, adoption, expansion, advocacy, demonstrates the full breadth of contribution beyond the purchase moment, which is exactly one of its named use cases.
 
    *Why not B:* Narrowing scope to match the misconception concedes the exact framing the entry argues against; the fix is demonstrating the existing breadth of work, not shrinking the role to fit it.
 
-   *Why not C:* An unsupported verbal argument does not provide the evidence, a mapped lifecycle with touchpoints, deliverables, and metrics per stage, that would actually change leadership's view.
+   *Why not C:* This is the right instinct, push back, resting on the wrong evidence: general impressions of workload are not the same as the mapped lifecycle with touchpoints, deliverables, and metrics per stage that would actually change leadership's view.
 
    *Why not D:* Delegating the defence to another function sidesteps PMM's own responsibility to document and communicate its contribution, which the framework's mapping exercise is designed to produce directly.
 
 2. An audit shows Expansion generates 35% of new revenue but has only two content assets, against a target of eight, while Awareness already has strong organic traffic and a large content library. What should the team do?
-   - **A.** Reallocate a content resource from Awareness to Expansion, since a stage generating significant revenue with disproportionately few assets is exactly the gap the framework calls for closing.
-   - **B.** Leave resourcing unchanged, since Awareness content should never be reduced regardless of other stages' performance.
-   - **C.** Add more content to Purchase instead, since that stage is typically the highest priority regardless of current data.
-   - **D.** Cut Expansion content entirely, since it already has some coverage and other stages need more attention.
+   - **A.** Reallocate a content writer from the well-served Awareness stage to Expansion.
+   - **B.** Leave resourcing as is, since a strong organic channel should keep its current investment.
+   - **C.** Add the writer to Purchase instead, since win rate is usually the top priority.
+   - **D.** Reduce Expansion's asset target to match its current output instead of growing it.
 
    **Correct answer: A.** This mirrors the framework's own worked example: a stage driving substantial revenue with a fraction of its target asset count is the over-focusing-on-Awareness pitfall in action, and the fix is shifting resourcing to the underserved, high-impact stage, confirmed with funnel data rather than assumption.
 
-   *Why not B:* The framework explicitly warns against assuming Awareness always deserves the most investment; the guidance is to confirm priority with actual funnel data, which here points toward Expansion instead.
+   *Why not B:* Leaving Awareness's investment untouched ignores that it's already well-served while a high-revenue stage sits under target; the framework's gap-closing step calls for moving resourcing, not preserving the status quo.
 
-   *Why not C:* Nothing in the scenario points to Purchase as underserved; the framework calls for prioritising based on each business's own data, not a fixed, universal stage ranking.
+   *Why not C:* This gets the framework's logic right, prioritise by impact, but aims it at the wrong stage: the framework warns against assuming any one stage is always the top priority and calls for confirming with the business's own data, which here points to Expansion.
 
-   *Why not D:* Expansion is already under its target, not over it; cutting it further would deepen the exact gap the audit just revealed, rather than closing it.
+   *Why not D:* Expansion is already under its target, not over it; shrinking the target further would deepen the exact gap the audit just revealed, rather than closing it.
 
 3. A customer complains that the sales pitch promised one thing, but the support team described the product very differently when they called for help. What pitfall does this describe, and what is the fix?
-   - **A.** Forgetting the internal handoff; the fix is a single source-of-truth messaging document that every team references, with sign-off required before major changes ship.
-   - **B.** Unclear ownership; the fix is assigning a completely new team to own all customer communication going forward.
-   - **C.** Over-focusing on Awareness; the fix is redirecting budget toward top-of-funnel content.
-   - **D.** This is not a lifecycle issue at all, since sales and support operate independently of the framework's scope.
+   - **A.** Forgetting the internal handoff between teams.
+   - **B.** Unclear ownership of who owns the touchpoint.
+   - **C.** Over-focusing PMM's resourcing on Awareness content.
+   - **D.** This sits entirely outside the framework's stated scope.
 
    **Correct answer: A.** This is the named "forgetting the internal handoff" pitfall: messaging flows from PMM to sales to support, and when that handoff is poor, the message gets diluted or distorted, so a customer hears a different story at each stage. The recovery is a single source of truth every team references, with sign-off required before major changes.
 
-   *Why not B:* Unclear ownership is a related but distinct pitfall, about no one being accountable for a touchpoint at all; here, both sales and support are clearly delivering messaging, just inconsistent versions of it.
+   *Why not B:* Unclear ownership is the closely related but distinct pitfall of no one being accountable for a touchpoint at all; here, both sales and support are clearly delivering messaging, just inconsistent versions of it, so the fix is a shared source of truth, not reassigning ownership.
 
    *Why not C:* This scenario describes a consistency gap between Purchase and Onboarding/Support messaging, not an imbalance in Awareness-stage investment; redirecting Awareness budget would not fix the inconsistency described.
 
    *Why not D:* The framework explicitly treats sales and support touchpoints as part of the customer lifecycle PMM should map and coordinate, including the handoffs between them; this is squarely within its scope.
 
 4. A team maps its lifecycle stages once at the start of the year and does not revisit the map, even after launching a new self-serve trial flow and a new partner channel mid-year. What does the framework recommend?
-   - **A.** Re-run the mapping exercise quarterly, and treat a new self-serve flow or partner channel as an explicit trigger for an off-cycle refresh, since these can introduce new touchpoints that become blind spots.
-   - **B.** Continue using the original map unchanged, since customer journeys are stable enough not to require revisiting once mapped correctly.
-   - **C.** Wait until the next full year to update the map, since quarterly updates would be excessive.
-   - **D.** Only update the map if a lifecycle stage's success metrics decline sharply.
+   - **A.** Re-run the mapping now; treat the new touchpoints as an off-cycle trigger.
+   - **B.** Keep using the original map unchanged until next year's planning cycle.
+   - **C.** Wait for the next scheduled quarterly review before updating anything.
+   - **D.** Update the map only once a stage's metrics decline sharply.
 
    **Correct answer: A.** The framework calls for revisiting the map quarterly as a standing practice, and explicitly names a new self-serve flow or partner channel as a trigger for an off-cycle refresh, precisely because new touchpoints like these can become blind spots if the map is not updated to catch them.
 
    *Why not B:* Customer journeys shift as the product and market mature; the framework explicitly rejects treating an initial map as fixed, especially once new touchpoints like a self-serve flow have been introduced.
 
-   *Why not C:* A full year without revisiting risks missing new touchpoints for many months; the framework's standing cadence is quarterly, not annual, precisely to catch this kind of change sooner.
+   *Why not C:* This gets the framework's cadence right, quarterly review is real, but wrong in timing here: a new flow or channel is named as a trigger for an immediate, off-cycle update, not something to sit on until the next scheduled review comes around.
 
    *Why not D:* Waiting for a metric decline is reactive; the framework treats a new flow or channel as a proactive trigger for review, not something to wait on until performance data shows a problem.
 
 5. A stage in the lifecycle map has only two documented touchpoints, compared to five or more in every other stage. What should this signal to the team?
-   - **A.** The stage is likely under-resourced; the framework suggests aiming for at least three touchpoints per stage, with fewer usually indicating a gap worth investigating.
-   - **B.** This is not necessarily a concern, since some stages naturally require fewer touchpoints than others regardless of context.
-   - **C.** The stage should be merged with an adjacent one, since having fewer touchpoints suggests it is not distinct enough to track separately.
-   - **D.** The team should immediately reduce touchpoints in other stages to match, for consistency across the map.
+   - **A.** Flag the stage as likely under-resourced and investigate further.
+   - **B.** Treat it as normal, since touchpoint count naturally varies by stage.
+   - **C.** Merge the under-touchpoint stage with an adjacent one in the map.
+   - **D.** Reduce touchpoints in every other stage until they all match.
 
    **Correct answer: A.** The framework specifically flags fewer than three touchpoints per stage as a signal of likely under-resourcing; this kind of gap is exactly what the mapping exercise in step 2 is designed to surface for further investigation.
 
-   *Why not B:* While touchpoint count can vary by context, the framework treats a stage falling well below the others as a named signal worth investigating, not something to dismiss without checking.
+   *Why not B:* It's true that touchpoint count can vary by context, but the framework treats a stage falling this far below the others, two against five or more, as a named signal worth investigating, not something to wave away as ordinary variation.
 
    *Why not C:* A low touchpoint count signals under-resourcing, not that the stage lacks a distinct identity; merging stages does not address the underlying resourcing gap the framework calls for closing.
 
@@ -325,72 +325,72 @@ Success metrics: launch-week traffic lift, email open rate, SQL volume in the we
 **Quiz:**
 
 1. A launch date is set, but marketing publishes a blog post announcing the feature before sales has been briefed or support has been given any documentation. What pitfall does this describe?
-   - **A.** Lack of coordination; the fix is requiring every channel owner to confirm readiness in a daily standup before their asset goes live.
-   - **B.** Announcement without follow-through; the fix is extending the post-launch content calendar to twelve weeks.
-   - **C.** Ignoring market feedback; the fix is building a week-two feedback checkpoint into the motion.
-   - **D.** This is not a coordination issue, since marketing publishing ahead of sales briefing is a normal and acceptable sequence.
+   - **A.** Lack of coordination; a channel moved before others were ready.
+   - **B.** Announcement without follow-through, well past launch week.
+   - **C.** Ignoring market feedback from sales and customers.
+   - **D.** A normal and expected sequence for any product launch.
 
    **Correct answer: A.** This is exactly the named "lack of coordination" pitfall: one channel moves without the others being ready, and momentum dies within days as sales and support are caught unprepared. The recovery is requiring every channel owner to confirm readiness before publishing, so nothing ships without the rest of the organisation being briefed.
 
-   *Why not B:* Announcement without follow-through describes momentum fading after a coordinated launch; this scenario describes a coordination failure before or during launch itself, not a post-launch sustainment problem.
+   *Why not B:* This is a real named pitfall, but the wrong one for the timing described: announcement without follow-through is about momentum fading weeks after a coordinated launch, not about channels moving out of sequence on launch day itself.
 
    *Why not C:* Ignoring market feedback is about failing to adjust messaging after customer or sales reactions come in; this scenario is about sequencing and readiness across channels before launch, a different failure mode entirely.
 
    *Why not D:* The framework explicitly calls for simultaneous, synchronised activity across channels; sales and support both need to be prepared before external messaging goes live, not sequenced after it.
 
 2. A launch event generates strong day-one buzz, but by week three, no new content has shipped, and sales has stopped mentioning the feature in calls. What does the framework say went wrong, and what should have been done differently?
-   - **A.** The post-launch phase was under-resourced; a named owner should have been assigned accountability for the full 12-week content calendar before launch day, not after momentum had already faded.
-   - **B.** Nothing went wrong; a launch's commercial impact is fully captured within the first 48 hours, so a decline in week three is expected and requires no action.
-   - **C.** The pre-launch phase should have run for a full 12 weeks instead of 4 to 8, which would have prevented the week-three drop-off.
-   - **D.** The dependency map should have been rebuilt from scratch once the drop-off was noticed.
+   - **A.** The post-launch phase was left unstaffed after launch week.
+   - **B.** Nothing went wrong; impact is fully captured in 48 hours.
+   - **C.** Pre-launch should have run a full 12 weeks instead of 4 to 8.
+   - **D.** The dependency map should be rebuilt from scratch.
 
    **Correct answer: A.** Announcement without follow-through is a named pitfall: sustaining momentum for 4 to 12 weeks post-launch is where much of the real commercial impact happens, and teams commonly under-resource this phase once launch-day excitement fades. The fix is staffing and budgeting post-launch with the same rigour as launch week, with a named owner assigned before launch day.
 
    *Why not B:* The framework explicitly measures commercial effects like sales cycle compression and ASP uplift over at least 90 days, since these take longer to appear than click-through metrics; a week-three fade is a real signal of under-resourcing, not an expected pattern to ignore.
 
-   *Why not C:* Extending pre-launch does not address the described problem, which is a lack of sustained post-launch content and sales engagement; the fix targets the post-launch phase specifically, not a longer run-up.
+   *Why not C:* This targets the right kind of fix, more runway, at the wrong phase: the described problem is a lack of sustained post-launch content and sales engagement, which a longer pre-launch period does not address.
 
    *Why not D:* The dependency map addresses sequencing of pre-launch and launch-week tasks; rebuilding it does not address a staffing and ownership gap in the post-launch phase.
 
 3. Two weeks after launch, customers are consistently confused about what the new feature actually does, and several reps report prospects pushing back on the initial positioning. The team continues repeating the original messaging unchanged. What does the framework recommend instead?
-   - **A.** Iterate quickly on the messaging using the week-two feedback checkpoint, since the framework explicitly says not to defend the original message if it isn't landing.
-   - **B.** Hold the messaging steady regardless of feedback, since changing it mid-motion would confuse the market further.
-   - **C.** Wait until the full 90-day measurement window closes before considering any messaging changes.
-   - **D.** Escalate the issue to legal before making any changes to sales-facing messaging.
+   - **A.** Use the week-two checkpoint to iterate on the messaging now.
+   - **B.** Hold the messaging steady until the market adjusts to it.
+   - **C.** Wait until the full 90-day measurement window closes.
+   - **D.** Escalate the confusion to legal before changing anything.
 
    **Correct answer: A.** Ignoring market feedback is a named pitfall: if customers are confused or push back on positioning, the framework calls for iterating fast rather than defending the original message. The recovery explicitly includes a week-two feedback checkpoint with the launch lead empowered to adjust messaging without a full re-approval cycle.
 
    *Why not B:* Holding an unclear or contested message steady is exactly the pitfall the framework warns against; confusion and pushback are treated as a signal to adjust, not evidence for staying the course.
 
-   *Why not C:* Waiting 90 days to address active confusion lets the problem compound throughout the post-launch phase; the framework builds in a week-two checkpoint specifically so adjustments happen early, not after the full measurement window.
+   *Why not C:* This is a real measurement milestone, just the wrong one for this decision: the 90-day window judges commercial impact, while the framework builds in an earlier week-two checkpoint specifically so messaging problems get fixed before they compound.
 
    *Why not D:* Nothing in the scenario suggests a legal or compliance issue; this is a messaging and market-feedback problem the launch lead is explicitly empowered to address directly.
 
 4. A team is planning a launch with a hard dependency on a third-party integration partner completing their side of the work. The team has not discussed what happens if the partner's work slips past the launch date. What does the framework recommend?
-   - **A.** Prepare a rollback plan in advance, deciding what happens if a critical dependency slips, so there is a pre-agreed fallback narrative rather than a scramble on launch day.
-   - **B.** Proceed without any contingency plan, since dependency delays are rare enough not to warrant advance planning.
-   - **C.** Delay the entire launch indefinitely until the partner confirms a guaranteed completion date.
-   - **D.** Remove the dependency map from the plan, since dependencies introduce unnecessary risk into the launch process.
+   - **A.** Prepare a rollback plan agreed before launch day.
+   - **B.** Proceed without a contingency plan for the dependency.
+   - **C.** Delay the launch indefinitely until the partner guarantees a date.
+   - **D.** Drop the dependency map, since it only adds risk.
 
    **Correct answer: A.** The framework explicitly calls for a rollback plan: deciding in advance what happens if a critical dependency like a partner's work slips, so a pre-agreed fallback narrative exists rather than a scramble on launch day itself.
 
    *Why not B:* The framework treats dependency slippage as common enough to require explicit advance planning; skipping this step leaves the team exposed exactly when a slip is most disruptive, on or near launch day.
 
-   *Why not C:* Indefinite delay pending a guarantee is not the framework's guidance; the point of a rollback plan is to proceed with a fallback ready, not to stall the whole launch on an external party's certainty.
+   *Why not C:* This takes the right concern, contingency for the dependency, too far: the framework's fix is a pre-agreed fallback that lets the launch proceed, not an indefinite hold on an external party's guarantee.
 
    *Why not D:* The dependency map is what surfaces this exact risk in the first place; removing it would eliminate the visibility needed to plan for dependency slippage at all.
 
 5. A team wants to know whether its launch actually worked, one week after launch day, using only click-through and traffic metrics. What does the framework suggest is missing from this assessment?
-   - **A.** Commercial metrics like sales cycle compression and average selling price uplift, which the framework says can take longer to appear and should be measured against baseline for at least 90 days.
-   - **B.** Nothing is missing; click-through and traffic metrics in the first week are sufficient to judge a launch's overall success.
-   - **C.** The team should have measured brand awareness surveys instead of any of the metrics currently being tracked.
-   - **D.** The assessment should be delayed until the following year's launch for a fair comparison.
+   - **A.** Commercial metrics measured against baseline for 90 days.
+   - **B.** Nothing; a one-week view is sufficient to judge success.
+   - **C.** Brand awareness surveys instead of the current metrics.
+   - **D.** Delaying the assessment until next year's comparable launch.
 
    **Correct answer: A.** The framework explicitly notes that some effects, sales cycle compression, ASP uplift, take longer to appear than click-through metrics, and recommends comparing against the pre-launch baseline for at least 90 days before judging a motion's full commercial impact.
 
    *Why not B:* Early engagement metrics are a useful signal but do not capture the commercial impact the framework treats as the fuller measure of success; a one-week view alone risks missing effects that take longer to materialise.
 
-   *Why not C:* Brand awareness surveys are not named as the framework's success metrics; the entry specifies engagement, SQL volume, win rate lift, and revenue attribution measured over the appropriate time window instead.
+   *Why not C:* This reaches for a real measurement category, just not the one that's missing: the framework's named gap is commercial metrics over a longer window, not a switch to brand awareness surveys.
 
    *Why not D:* There is no need to wait for a future launch; the fix is simply extending the measurement window for this launch to the recommended 90 days, not deferring assessment to an unrelated future event.
 
@@ -450,52 +450,52 @@ How to know it worked: activation rate crossing the pre-agreed target (in this c
 **Quiz:**
 
 1. A team ships a genuinely useful feature, publishes a release note, and assumes usage will grow naturally as customers discover it. Thirty days later, adoption sits at 5%. What does the framework say went wrong?
-   - **A.** The team assumed "if we build it, they will come"; customers rarely discover features on their own, however good the feature is, and an active adoption campaign with dedicated messaging is required.
-   - **B.** The feature itself must be flawed, since a 5% adoption rate after 30 days always indicates a product quality problem.
-   - **C.** The release note should have been longer and more technically detailed to fully explain the feature.
-   - **D.** The team should have waited a full year before assessing adoption, since features typically take that long to catch on.
+   - **A.** Assumed customers would discover it without a campaign.
+   - **B.** The feature itself must be flawed at a 5% rate.
+   - **C.** The release note should have been longer and more technical.
+   - **D.** Wait a full year before assessing adoption.
 
    **Correct answer: A.** This is the named "if we build it, they will come" pitfall: customers rarely discover features on their own no matter how good they are, and the fix is treating every meaningful release as its own go-to-market motion, with a segment plan, campaign, and success metric, not just a changelog entry.
 
-   *Why not B:* Low adoption after a passive release does not by itself indicate a flawed feature; the framework's own research step (interviewing non-adopters) is what actually diagnoses whether the barrier is discoverability, complexity, or unclear value.
+   *Why not B:* This jumps to a conclusion the framework says to check first: low adoption after a passive release does not by itself indicate a flawed feature, since the diagnostic step, interviewing non-adopters, is what actually reveals whether the barrier is discoverability, complexity, or unclear value.
 
    *Why not C:* A longer, more technical release note does not solve a discoverability problem; the framework calls for active, targeted campaign channels (in-app messaging, segmented email, enablement content), not a denser passive announcement.
 
    *Why not D:* The framework recommends setting an adoption target and measuring within a defined near-term window (for example 60 days), not waiting a full year before evaluating whether a launch succeeded.
 
 2. A team sends one generic email to its entire customer base announcing a new feature, without distinguishing between power users and casual users. Response rates are lower than expected for both groups. What pitfall does this illustrate?
-   - **A.** One-size-fits-all messaging; power users and beginners respond to different messages, and splitting the campaign into at least two segments typically doubles response rates.
-   - **B.** Launching without onboarding; the fix is adding a tutorial video regardless of segment.
-   - **C.** This is not a pitfall; a single unified message is always more efficient than segmented campaigns regardless of audience differences.
-   - **D.** The issue is that the email should have been bundled into the general company newsletter instead of sent separately.
+   - **A.** One-size-fits-all messaging sent to the whole base.
+   - **B.** Launching without any onboarding tutorial.
+   - **C.** Not a pitfall; a unified message is more efficient.
+   - **D.** The email should have gone in the general newsletter.
 
    **Correct answer: A.** This is the named "one-size-fits-all messaging" pitfall: a single generic message underperforms for both power users and beginners, who respond to different framing. The fix is splitting the campaign into at least two segments, which the framework notes typically doubles response rates for the modest extra effort.
 
-   *Why not B:* Launching without onboarding is about customers not understanding how to use a feature once they've noticed it; this scenario describes an undifferentiated messaging problem before that stage, not a missing walkthrough.
+   *Why not B:* This is a real named pitfall, but the wrong stage: launching without onboarding is about customers not understanding how to use a feature once they've noticed it, while this scenario is an undifferentiated-messaging problem before anyone gets that far.
 
    *Why not C:* The framework explicitly recommends segmenting messaging by user type; treating a single blended message as more efficient ignores the evidence that segmented campaigns perform meaningfully better.
 
    *Why not D:* The framework specifically warns against bundling feature announcements into a general newsletter, where they tend to get ignored; a standalone, targeted email is the recommended approach instead.
 
 3. A feature shows strong activation, 40% of users try it at least once, but only 8% are still using it after 90 days. What does this pattern most likely indicate?
-   - **A.** A usability problem, not an awareness problem; high activation with low retention points to something in the experience itself, not to customers failing to discover the feature.
-   - **B.** The adoption campaign's messaging was ineffective and should be the first thing revised.
-   - **C.** The feature should be immediately deprecated, since a 90-day retention rate below 10% always signals a feature with no genuine value.
-   - **D.** The activation number is unreliable and should be re-measured before drawing any conclusions.
+   - **A.** A usability problem, not an awareness problem.
+   - **B.** The campaign messaging was ineffective and needs revising.
+   - **C.** The feature should be deprecated at this retention rate.
+   - **D.** The activation number is unreliable and needs re-measuring.
 
    **Correct answer: A.** The framework is explicit: a feature with high activation but low retention usually signals a usability problem, not an awareness problem, since the messaging clearly succeeded in getting people to try it at least once; something in the experience itself is likely causing people to stop.
 
-   *Why not B:* Strong activation (40%) indicates the messaging worked well enough to drive first use; the gap between activation and retention points to the product experience, not the campaign that drove initial trial.
+   *Why not B:* This blames the wrong stage of the funnel: strong activation (40%) shows the messaging worked well enough to drive first use, so the gap that needs explaining sits in the product experience, not the campaign that drove initial trial.
 
    *Why not C:* A retention gap is a diagnostic signal to investigate the usability issue, not an automatic verdict that the feature has no value; the framework calls for iteration, not deprecation, as the first response.
 
    *Why not D:* Nothing in the scenario suggests a measurement error; the framework treats this activation-versus-retention split as a meaningful and interpretable signal in its own right.
 
 4. A feature was built specifically in response to one customer's escalated request. Usage data six months later shows that same customer is still the only one using it. What should the team do?
-   - **A.** Treat this as an explicit trigger to run the Feature Adoption cycle, since a single-customer-built feature with no other adopters is named as a case for running this methodology, not evidence the feature itself failed.
-   - **B.** Immediately remove the feature from the product, since a single-user feature after six months is proof it should never have been built.
-   - **C.** Conclude nothing further is needed, since the feature is at least serving the customer who originally requested it.
-   - **D.** Assign a marketing intern to send one email about the feature and consider the matter closed.
+   - **A.** Run the Feature Adoption cycle rather than assume it failed.
+   - **B.** Remove the feature, since a single-user feature has failed.
+   - **C.** Do nothing further, since the requesting customer is served.
+   - **D.** Send one unsegmented email and consider the matter closed.
 
    **Correct answer: A.** The methodology explicitly names this exact situation, a feature built for one customer's request with usage data showing only that customer uses it, as a trigger to run the adoption cycle: understand the barrier, segment potential users, and build a real campaign, not a sign the feature has already failed.
 
@@ -503,13 +503,13 @@ How to know it worked: activation rate crossing the pre-agreed target (in this c
 
    *Why not C:* Serving the original requester does not mean the investment is fully realised if the feature could benefit a broader segment; the framework calls for actively investigating whether that broader value exists.
 
-   *Why not D:* A single unsegmented email is exactly the "one-size-fits-all messaging" pitfall the framework warns against; the methodology calls for research and segmentation first, not a token, low-effort campaign.
+   *Why not D:* This is a real part of the toolkit taken half-way: an email is one channel the framework uses, but an unsegmented one skips the research and segmentation steps the cycle actually calls for before any message goes out.
 
 5. A team runs an adoption campaign, monitors results for one week, sees limited lift, and concludes the feature has no real adoption potential. What does the framework suggest they should have done first?
-   - **A.** Run at least two rounds of message testing and iteration before concluding the feature itself is the problem, since low early results may reflect messaging that hasn't yet been refined.
-   - **B.** Accept the one-week result as final, since campaign performance is fully determined within the first week of launch.
-   - **C.** Skip iteration entirely and move straight to interviewing the product manager about deprecating the feature.
-   - **D.** Rerun the exact same campaign unchanged for another week to confirm the result.
+   - **A.** Run at least two rounds of message testing before concluding.
+   - **B.** Accept the one-week result as final and move on.
+   - **C.** Skip iteration and discuss deprecating the feature instead.
+   - **D.** Rerun the identical campaign unchanged for another week.
 
    **Correct answer: A.** The framework calls for testing different messaging, simplifying the feature, or providing more training, running at least two rounds of message testing, before concluding the feature itself, rather than the messaging, is the underlying problem.
 
@@ -517,5 +517,5 @@ How to know it worked: activation rate crossing the pre-agreed target (in this c
 
    *Why not C:* Jumping to a deprecation conversation skips the iteration step entirely; the framework's guidance is to test and refine the campaign first, since the messaging itself may be the fixable variable.
 
-   *Why not D:* Repeating an unchanged campaign does not test a new hypothesis about what might work better; the framework calls for testing different messaging approaches, not repeating the same one.
+   *Why not D:* This repeats the same experiment rather than running a new one: rerunning an unchanged campaign does not test a new hypothesis about what might work better, which is the actual point of the iteration step.
 

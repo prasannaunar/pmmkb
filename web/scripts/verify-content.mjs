@@ -2,6 +2,7 @@ import fs from "node:fs";
 import ts from "typescript";
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
+import { auditQuestion, collectQuizSets, flagNames } from "./quiz-audit-lib.mjs";
 const load = createRequire(import.meta.url);
 load.extensions[".ts"] = (mod, file) =>
   mod._compile(
@@ -72,6 +73,30 @@ for (const guide of guides.learningPaths) {
     assert.ok(question.options.every((o) => o.feedback.length > 20));
   }
 }
+// Quiz distractor standard (QUIZ-SPEC.md, "Distractor quality"; enforced
+// from batch 10 of QUIZ-REVISION-PLAN.md, once every file cleared it).
+const requiredCleanFlags = flagNames.filter((f) => f !== "correctLongest" && f !== "spread");
+const byFile = new Map();
+for (const set of collectQuizSets(content, guides, quiz)) {
+  const stats = byFile.get(set.file) ?? { total: 0, correctLongest: 0 };
+  for (const q of set.questions) {
+    const result = auditQuestion(q);
+    stats.total++;
+    if (result.flags.correctLongest) stats.correctLongest++;
+    for (const f of requiredCleanFlags)
+      assert.ok(
+        !result.flags[f],
+        `Quiz question flagged ${f} in ${set.file} (${set.label}): "${result.stem.slice(0, 90)}"`,
+      );
+  }
+  byFile.set(set.file, stats);
+}
+for (const [file, stats] of byFile)
+  assert.ok(
+    stats.correctLongest / stats.total <= 0.35,
+    `${file}: correct-is-longest at ${Math.round((stats.correctLongest / stats.total) * 100)}%, over the 35% ceiling`,
+  );
+
 console.log(
   "PASS: 66 entries with source credits, 66 editorial summaries, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
 );

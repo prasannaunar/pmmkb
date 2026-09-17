@@ -3,24 +3,24 @@
 ## Category Quiz
 
 1. A company has never formally divided its market into segments; sales pursues whatever prospect responds, and messaging tries to speak to every type of buyer at once. Which should the PMM run first?
-   - **A.** Segmentation–Targeting–Positioning (STP) Framework
-   - **B.** ICP Development Methodology
-   - **C.** MAP Model (Measure, Analyze, Prioritize)
-   - **D.** Sean Ellis 40% Test (PMF Survey)
+   - **A.** Run the STP Framework to divide the market into segments.
+   - **B.** Run ICP Development Methodology to score individual accounts.
+   - **C.** Run the MAP Model to rank existing segments by performance.
+   - **D.** Run the Sean Ellis 40% Test to check product-market fit.
 
    **Correct answer: A.** STP is the foundational starting point: it divides the market into distinct segments, selects which to pursue, and defines positioning within them. Every other tool in this category, from ICP scoring to segment ranking, depends on segments STP has already defined.
 
    *Why not B:* ICP Development Methodology operationalises an already-chosen segment into a scored account model; without a segment chosen by STP first, there is nothing yet to operationalise.
 
-   *Why not C:* MAP Model ranks segments the company is already serving, using live performance data; a company with no segments defined yet has nothing to rank.
+   *Why not C:* This is STP's own named companion, run in the wrong order. MAP Model ranks segments the company is already serving, using live performance data; a company with no segments defined yet has nothing to rank until STP creates them.
 
    *Why not D:* The Sean Ellis test measures product-market fit for active users, a different question from how to divide an undifferentiated market into segments in the first place.
 
 2. Marketing counts every form fill as a qualified lead; sales rejects most of them as poor fit, and the two functions have no shared standard for what makes an account worth pursuing. Which should the PMM build?
-   - **A.** ICP Development Methodology
-   - **B.** Voice of the Customer (VoC) Programme
-   - **C.** Complete Product Experience Framework
-   - **D.** JTBD Switch Interview Method
+   - **A.** Build an ICP Development Methodology to score accounts on evidence.
+   - **B.** Run a Voice of the Customer programme to synthesise customer signal.
+   - **C.** Audit the Complete Product Experience Framework across touchpoints.
+   - **D.** Run JTBD Switch Interviews to trace individual purchase triggers.
 
    **Correct answer: A.** This is the named trigger for building an ICP: a scored, evidence-based model built from what actually predicted past wins gives both sales and marketing one shared standard for fit, replacing two competing informal definitions.
 
@@ -28,69 +28,69 @@
 
    *Why not C:* The Complete Product Experience Framework audits whether the customer experience matches the company's positioning claims; it has no bearing on how sales and marketing define lead quality.
 
-   *Why not D:* Switch interviews explain why individual customers chose to switch; they can inform an ICP's behavioural criteria, but they do not themselves produce the shared scoring standard sales and marketing need.
+   *Why not D:* This is the closest neighbour of the four, since switch-interview findings do sharpen an ICP's behavioural criteria. But interviews explain why one customer switched; they do not themselves produce the account-level scoring standard sales and marketing need across a whole pipeline.
 
 3. A product team wants an early, standardised signal on whether their product has found genuine fit with users before committing to a much larger growth-spend increase. Which tool gives them this?
-   - **A.** Sean Ellis 40% Test (PMF Survey)
-   - **B.** Product Development Stage Framework
-   - **C.** MAP Model (Measure, Analyze, Prioritize)
-   - **D.** Complete Product Experience Framework
+   - **A.** Run the Sean Ellis 40% Test for a standardised product-market-fit read.
+   - **B.** Follow the Product Development Stage Framework phase by phase.
+   - **C.** Run the MAP Model to rank segments by size and performance.
+   - **D.** Audit the Complete Product Experience Framework across touchpoints.
 
    **Correct answer: A.** The Sean Ellis test is purpose-built for exactly this decision: a single standardised question, benchmarked at roughly 40% "very disappointed," gives product leadership an external read on whether the product can support aggressive growth spend before that spend is committed.
 
-   *Why not B:* The Product Development Stage Framework guides PMM's activities across a product's development phases; it does not provide the standardised, benchmarked product-market-fit read the Sean Ellis test is specifically designed for.
+   *Why not B:* This names the framework that governs when PMM gets involved, but not the one that measures fit itself. The Product Development Stage Framework guides PMM's activities across a product's development phases; it does not provide the standardised, benchmarked product-market-fit read the Sean Ellis test is specifically designed for.
 
    *Why not C:* MAP Model ranks existing customer segments against each other for resourcing decisions; it does not measure whether the product itself has found fit with its users.
 
    *Why not D:* The Complete Product Experience Framework audits consistency between positioning claims and customer experience across seven touchpoints; it does not produce a product-market-fit benchmark.
 
 4. Sales reports that deals are closing, but no one on the marketing team can explain what specifically convinces a prospect to switch from their current spreadsheet-based process. Which method should the PMM use to find out?
-   - **A.** JTBD Switch Interview Method
-   - **B.** Sean Ellis 40% Test (PMF Survey)
-   - **C.** MAP Model (Measure, Analyze, Prioritize)
-   - **D.** ICP Development Methodology
+   - **A.** Run JTBD Switch Interviews to trace the pre-purchase trigger story.
+   - **B.** Run the Sean Ellis 40% Test to read aggregate product disappointment.
+   - **C.** Run the MAP Model to rank segments by size and performance.
+   - **D.** Build an ICP Development Methodology to score individual accounts.
 
    **Correct answer: A.** This is precisely what the switch interview method is built to uncover: walking backwards from the purchase moment to find the specific triggering event and the push, pull, anxiety, and habit forces at play, which a features comparison or a lead score cannot reveal.
 
-   *Why not B:* The Sean Ellis test measures aggregate disappointment among active users; it does not explain the specific sequence of events that triggered any individual customer's decision to switch.
+   *Why not B:* Both tools sit in the "is this genuinely working" space, but at different grains. The Sean Ellis test measures aggregate disappointment among active users; it does not explain the specific sequence of events that triggered any individual customer's decision to switch.
 
    *Why not C:* MAP Model ranks segments by size and performance; it says nothing about the specific story behind why any one customer chose to switch.
 
    *Why not D:* ICP Development Methodology scores which accounts are a good fit based on firmographic and behavioural data; it does not surface the narrative of what triggered a specific purchase decision.
 
 5. A company sells into three segments with very different average deal sizes. The segment with the highest average deal size has absorbed the last two roadmap cycles, but no one has checked whether its retention and margin actually justify that investment relative to the other two segments. Which tool answers this?
-   - **A.** MAP Model (Measure, Analyze, Prioritize)
-   - **B.** Segmentation–Targeting–Positioning (STP) Framework
-   - **C.** Voice of the Customer (VoC) Programme
-   - **D.** ICP Development Methodology
+   - **A.** Run the MAP Model to rank segments on size and performance.
+   - **B.** Run the STP Framework to choose which segments to pursue.
+   - **C.** Run a Voice of the Customer programme to synthesise signal.
+   - **D.** Build an ICP Development Methodology to score individual accounts.
 
    **Correct answer: A.** MAP Model exists specifically to rank already-served segments against each other on both size (Measure) and actual performance, retention, expansion, margin (Analyze), which is exactly the comparison needed to check whether the highest-deal-size segment's investment is actually earned.
 
-   *Why not B:* STP chooses which segments to pursue in the first place; it is not designed to re-rank segments the company already serves using live retention and margin data.
+   *Why not B:* This is the framework MAP Model builds on, applied at the wrong moment. STP chooses which segments to pursue in the first place; it is not designed to re-rank segments the company already serves using live retention and margin data.
 
    *Why not C:* VoC synthesises qualitative customer signal into themes; it can help explain why a segment's numbers look the way they do, but it does not itself rank segments against each other on size and performance.
 
    *Why not D:* ICP Development Methodology scores individual accounts within a segment; it does not compare whole segments against each other for a resourcing decision.
 
 6. A team wants to check whether their positioning claim of "enterprise-grade, white-glove service" actually holds up across the customer's full experience, not just in the sales pitch. Which framework is designed for this?
-   - **A.** Complete Product Experience Framework
-   - **B.** STP Framework
-   - **C.** MAP Model (Measure, Analyze, Prioritize)
-   - **D.** Product Development Stage Framework
+   - **A.** Audit the Complete Product Experience Framework across touchpoints.
+   - **B.** Run the STP Framework to define who the target segment is.
+   - **C.** Run the MAP Model to rank segment revenue and retention.
+   - **D.** Follow the Product Development Stage Framework phase by phase.
 
    **Correct answer: A.** The Complete Product Experience Framework audits all seven touchpoints, marketing, sales, product, technology, supporting systems, integrations, and support, specifically to catch the gap between a positioning claim and what customers actually experience day to day.
 
-   *Why not B:* STP defines who the target segment is and what the company should claim to stand for; it does not audit whether the operational reality across touchpoints matches that claim.
+   *Why not B:* This is the framework that sets the claim being tested here, not the one that tests it. STP defines who the target segment is and what the company should claim to stand for; it does not audit whether the operational reality across touchpoints matches that claim.
 
    *Why not C:* MAP Model evaluates segment-level revenue and retention performance; it does not audit whether a specific positioning claim holds up across the customer's lived experience.
 
    *Why not D:* The Product Development Stage Framework sequences PMM's activities across a product's development timeline; it is not a tool for auditing an existing claim against current customer experience.
 
 7. A PMM has just validated, through switch interviews, that customers are triggered to buy after a specific, recurring failure event with their old process. What should happen with this finding before it is used to justify a company-wide positioning change?
-   - **A.** Confirm the same trigger, force, or anxiety repeats across 8 to 12 interviews, since a single vivid story may be an outlier rather than a genuine, generalisable pattern.
-   - **B.** Immediately rewrite the company's top-line positioning statement, since a specific, vivid trigger story is inherently strong enough evidence on its own.
-   - **C.** Route the finding directly into a MAP Model analysis, since switch interview data is the primary input that model requires.
-   - **D.** Discard the finding unless it can be confirmed through a Sean Ellis 40% Test survey first.
+   - **A.** Confirm the pattern repeats across 8 to 12 interviews first.
+   - **B.** Rewrite the top-line positioning statement now, since the story is vivid.
+   - **C.** Route the finding straight into a MAP Model analysis for sizing.
+   - **D.** Discard the finding unless a Sean Ellis 40% Test confirms it first.
 
    **Correct answer: A.** The switch interview method explicitly warns against generalising from one or two interviews; a genuinely useful pattern requires confirming the same trigger, force, or anxiety recurs across a meaningful sample, 8 to 12 interviews, before it becomes the basis for a broader positioning change.
 
@@ -101,46 +101,46 @@
    *Why not D:* The Sean Ellis test measures a different construct, aggregate product disappointment, not whether a specific purchase-trigger pattern found in interviews is real; it is not the correct validation step for this kind of qualitative finding.
 
 8. A company has plenty of customer signal, support tickets, reviews, sales-call notes, but each department interprets it independently, and no shared view of customer sentiment exists across the business. Which is the right ongoing practice to establish?
-   - **A.** Voice of the Customer (VoC) Programme
-   - **B.** JTBD Switch Interview Method
-   - **C.** Sean Ellis 40% Test (PMF Survey)
-   - **D.** ICP Development Methodology
+   - **A.** Run a Voice of the Customer programme to synthesise the existing signal.
+   - **B.** Run JTBD Switch Interviews as a project-based batch for one segment.
+   - **C.** Run the Sean Ellis 40% Test to check standing product-market fit.
+   - **D.** Build an ICP Development Methodology to score individual accounts.
 
    **Correct answer: A.** This is the "signal but no system" trigger for a VoC programme: the raw material already exists across multiple sources, and what is missing is the shared taxonomy, synthesis, and routing that turns scattered departmental interpretations into one coherent, decision-ready view.
 
-   *Why not B:* Switch interviews are a project-based method run in batches when positioning is being built or refreshed for a specific segment; they are not the always-on, multi-source synthesis system the situation calls for.
+   *Why not B:* This is the method VoC would eventually synthesise, mistaken for the standing system itself. Switch interviews are project-based, run in batches when positioning is being built or refreshed for a specific segment; they are not the always-on, multi-source system the situation calls for.
 
    *Why not C:* The Sean Ellis test is a single-question survey measuring product-market fit; it does not synthesise the range of qualitative signal, tickets, reviews, call notes, described here.
 
    *Why not D:* ICP Development Methodology scores accounts for sales prioritisation; it does not address the need for a shared, ongoing system to synthesise customer signal across departments.
 
 9. Eighteen months after a product launch, leadership wants confirmation that the product is ready to support a significant increase in growth spend, since usage looks healthy but growth has not been compounding as expected. Which tool most directly answers "is the underlying product ready for this," as distinct from "which customers should we target"?
-   - **A.** Sean Ellis 40% Test (PMF Survey)
-   - **B.** MAP Model (Measure, Analyze, Prioritize)
-   - **C.** STP Framework
-   - **D.** Complete Product Experience Framework
+   - **A.** Run the Sean Ellis 40% Test to read the product-readiness question directly.
+   - **B.** Run the MAP Model to check whether existing segments deserve investment.
+   - **C.** Run the STP Framework to choose which market to pursue and position in.
+   - **D.** Audit the Complete Product Experience Framework across all touchpoints.
 
    **Correct answer: A.** The Sean Ellis test is specifically designed to answer the "is the product itself ready to scale" question with a standardised benchmark, distinguishing a genuine fit problem from a distribution problem before a large growth-spend commitment is made.
 
-   *Why not B:* MAP Model addresses which existing segments deserve continued investment, a targeting and resourcing question, not whether the underlying product itself has achieved fit with its users.
+   *Why not B:* This is the nearest neighbour, since both tools inform a growth-investment decision. MAP Model addresses which existing segments deserve continued investment, a targeting and resourcing question, not whether the underlying product itself has achieved fit with its users.
 
    *Why not C:* STP addresses which market to pursue and how to position within it; it is not designed to test whether the current product has achieved the kind of fit needed to support aggressive growth spend.
 
    *Why not D:* The Complete Product Experience Framework checks whether positioning claims match the customer experience across touchpoints; it does not measure product-market fit as a distinct, benchmarked construct.
 
 10. A company's win rate has been falling for two consecutive quarters. Before assuming positioning itself is broken, the PMM wants to check specifically whether reps are prospecting the right accounts in the first place. Which tool addresses that specific question, as distinct from a full STP re-run?
-    - **A.** ICP Development Methodology
-    - **B.** Complete Product Experience Framework
-    - **C.** Voice of the Customer (VoC) Programme
-    - **D.** Product Development Stage Framework
+    - **A.** Build an ICP Development Methodology to score which accounts to prospect.
+    - **B.** Re-run the full STP Framework to re-select the target segment itself.
+    - **C.** Audit the Complete Product Experience Framework across touchpoints.
+    - **D.** Run a Voice of the Customer programme to synthesise customer signal.
 
     **Correct answer: A.** ICP Development Methodology operates one level below STP's strategic segment choice: it scores which specific accounts within the chosen segment are the best fit, which is the right tool for checking whether reps are prospecting the right accounts, distinct from questioning the segment or positioning itself.
 
-    *Why not B:* The Complete Product Experience Framework checks whether the customer experience matches positioning claims across touchpoints; it does not address which specific accounts sales should be targeting.
+    *Why not B:* This is the sequence question turned into a distractor. Re-running STP re-opens the segment choice itself, which the stem explicitly rules out; the question is about account-level prospecting within an already-chosen segment, which is exactly ICP's scope, not STP's.
 
-    *Why not C:* A VoC programme synthesises customer signal into themes for decisions; it is not built to score individual accounts for prospecting fit.
+    *Why not C:* The Complete Product Experience Framework checks whether the customer experience matches positioning claims across touchpoints; it does not address which specific accounts sales should be targeting.
 
-    *Why not D:* The Product Development Stage Framework sequences PMM activity across a product's development phases; it has no bearing on which accounts an already-launched product's sales team should be prospecting.
+    *Why not D:* A VoC programme synthesises customer signal into themes for decisions; it is not built to score individual accounts for prospecting fit.
 
 ---
 
@@ -185,72 +185,72 @@
 **Quiz:**
 
 1. Win rates have been falling for two quarters and sales cycles are stretching out, even though the product itself has not changed. What should the PMM do first?
-   - **A.** Re-run the STP process, since a falling win rate and lengthening cycle are named triggers suggesting positioning no longer matches how the market or competitors have moved.
-   - **B.** Increase the sales team's discount authority so reps can close deals faster despite the longer cycle.
-   - **C.** Wait for the next annual planning cycle to review segmentation, since STP is meant to be revisited on a fixed yearly schedule.
-   - **D.** Launch a new advertising campaign to generate more top-of-funnel leads and offset the lower win rate.
+   - **A.** Re-run STP to test whether the target segment still matches who is buying.
+   - **B.** Rewrite the positioning statement for the segment the team already targets.
+   - **C.** Wait for annual planning, when segmentation is scheduled for review.
+   - **D.** Raise rep discount authority so the slower deals still close this quarter.
 
-   **Correct answer: A.** A falling win rate and lengthening sales cycle, with no product change to explain it, is exactly the signal STP names as a trigger: the market or a competitor has likely moved, and positioning built on the old segmentation no longer resonates.
+   **Correct answer: A.** A falling win rate and a lengthening cycle with no product change is exactly the trigger STP names: the market or a competitor has moved, and the segmentation the positioning was built on may no longer describe who is actually buying. Start by re-testing the segment, because every downstream message depends on getting that right.
 
-   *Why not B:* Discounting harder treats the symptom in individual deals without addressing why win rate is falling across the board; if positioning has genuinely drifted, the same pattern will keep recurring deal after deal.
+   *Why not B:* This is the right kind of work in the wrong order. Rewriting the statement assumes the segment is still correct, and a sharper statement aimed at the wrong buyer will not recover the win rate. Re-test segmentation and targeting first; the statement is what you rewrite once you know who it is for.
 
-   *Why not C:* STP should be revisited whenever the market, product, or competitive set shifts meaningfully, not only on a fixed annual cadence; waiting for the calendar to catch up lets the misalignment compound for months.
+   *Why not C:* STP should be revisited whenever the market, product, or competitive set shifts meaningfully, not only on a fixed annual cadence. Waiting for the calendar to catch up lets the misalignment compound for another two quarters.
 
-   *Why not D:* More top-of-funnel volume does not fix a positioning problem; it likely just feeds more prospects into the same lengthening, lower-win-rate process.
+   *Why not D:* Discounting treats the symptom deal by deal without addressing why the win rate is falling across the board. If positioning has drifted, the same pattern recurs at a lower price.
 
 2. A leadership team decides to pursue "mid-market and enterprise" simultaneously as primary targets, reasoning that covering both widens the addressable market. What is the most likely consequence?
-   - **A.** Messaging and sales effort will dilute across both segments, a named pitfall, since STP calls for choosing one primary segment to own convincingly before expanding.
-   - **B.** No consequence, since STP's targeting step is designed to support multiple simultaneous primary segments equally well.
-   - **C.** The main risk is that CAC will rise in the enterprise segment specifically, while mid-market is unaffected.
-   - **D.** This approach only fails if the two segments have very different price points.
+   - **A.** Messaging and sales effort will dilute across both segments, with neither convincingly won.
+   - **B.** Messaging will lose clarity, but splitting sales effort across two segments is not itself a concern.
+   - **C.** The main risk is that CAC rises in the enterprise segment alone, while mid-market stays unaffected.
+   - **D.** No real consequence, since targeting is designed to support several primary segments at once.
 
    **Correct answer: A.** Chasing too many segments at once is a named pitfall: messaging tries to speak to everyone and ends up resonating with no one, and sales effort spreads too thin to convincingly win either segment. The framework calls for choosing one or two primary segments and owning them before expanding.
 
-   *Why not B:* The targeting step specifically recommends narrowing to one or two segments precisely because pursuing several at once dilutes both messaging and sales focus; it is not designed to support many simultaneous equal priorities.
+   *Why not B:* This gets the messaging half right but misses the other half of the pitfall. Sales effort spread across two distinct segments is exactly as much a concern as diluted messaging; a rep pitching both cannot build the segment-specific expertise that wins either one convincingly.
 
    *Why not C:* The dilution risk applies to both segments together, in messaging clarity and sales focus, not to CAC in one segment alone; the pitfall is broader than a single metric in a single segment.
 
-   *Why not D:* Price point similarity or difference does not change the underlying dilution problem; trying to convincingly win two distinct segments at once spreads effort thin regardless of how their pricing compares.
+   *Why not D:* The targeting step specifically recommends narrowing to one or two segments precisely because pursuing several at once dilutes both messaging and sales focus; it is not designed to support many simultaneous equal priorities.
 
 3. A team's positioning statement reads: "We're an expense management tool." Win-loss interviews show prospects cannot articulate what makes this product different from three competitors offering the same category description. What is the core problem?
-   - **A.** The statement describes the category rather than a differentiated position; it needs to state what specifically makes the product unique to its target segment.
-   - **B.** The statement is too long and should be shortened to a single sentence.
-   - **C.** The team should abandon positioning work and focus entirely on lowering price to compete.
-   - **D.** The statement needs more technical detail about product features to help prospects compare options.
+   - **A.** The statement describes the category, not a differentiated position.
+   - **B.** The statement should name a narrower category, such as "AI-powered expense tool," instead.
+   - **C.** The team should drop positioning work entirely and compete on price instead.
+   - **D.** The statement needs more technical detail so prospects can compare features directly.
 
    **Correct answer: A.** "We're an expense management tool" is a category description, not a position; it says what kind of thing the product is without saying what makes it uniquely valuable to a specific segment. The fix is a differentiated claim, naming the specific segment and benefit that competitors sharing the same category label do not offer.
 
-   *Why not B:* Length is not the issue here; a short statement that still only describes the category would have exactly the same problem. The fix is content, not brevity.
+   *Why not B:* This is a step in the right direction but stops short. A narrower category label still only describes what kind of thing the product is; it does not yet say what makes it uniquely valuable to the target segment, which is the actual gap the interviews revealed.
 
    *Why not C:* Competing on price does not address the underlying issue, that prospects cannot tell competitors apart; a lower price without differentiation still leaves buyers unable to explain why they would choose this product specifically.
 
    *Why not D:* More technical feature detail does not solve a positioning problem; positioning is about a claim customers can repeat and believe, not a longer list of specifications for them to compare unaided.
 
 4. A PMM is asked to write a positioning statement for a new segment before any segmentation research has been done, on the reasoning that positioning can always be revised later once the segment work catches up. What is the flaw in this approach?
-   - **A.** Positioning built before segmentation reads as generic, because it is written to speak to everyone rather than to a specific group whose needs and language are actually known.
-   - **B.** There is no flaw, since positioning and segmentation can be developed in any order and later reconciled.
-   - **C.** The flaw is only that it wastes time, since positioning written early will always need to be rewritten regardless of segmentation quality.
-   - **D.** Positioning should always be written by sales leadership rather than PMM, regardless of when segmentation happens.
+   - **A.** Positioning written before segmentation is known reads as generic, aimed at everyone at once.
+   - **B.** There is no flaw; positioning and segmentation can be developed in any order and reconciled later.
+   - **C.** Segmentation should run alongside positioning work, rather than strictly before it begins.
+   - **D.** Positioning should always be written by sales leadership rather than PMM, regardless of timing.
 
    **Correct answer: A.** The framework enforces a sequence deliberately: positioning cannot be credible until the team knows who it is for, and that requires segmentation first. Skipping ahead produces positioning that tries to speak to everyone at once, which reads as generic no matter how well it is written.
 
    *Why not B:* The framework's core insight is that each step inherits the gaps of the one before it; writing positioning before segmentation is precisely the sequence violation that produces the generic-messaging problem described.
 
-   *Why not C:* The issue is not merely wasted effort from a later rewrite; it is that the positioning itself will be structurally generic in the meantime, actively working against the team's near-term messaging and sales conversations.
+   *Why not C:* Running the two in parallel is closer to the mark than writing positioning first, but it still risks drafting language before the segment is settled. Segmentation needs to land before positioning is finalised, not merely alongside it.
 
    *Why not D:* Ownership of who drafts the statement is a separate question from sequencing; the flaw described here is about skipping segmentation, not about which function holds the pen.
 
 5. A company ran STP once at product launch two years ago and has never revisited it, even as two new competitors have entered the market and win rates have quietly declined. What should the team do?
-   - **A.** Put a standing quarterly review on the calendar, owned by PMM, checking whether segment size, competitive intensity, and win rates still match the original analysis, and treat two consecutive quarters of declining win rate as a trigger to re-run the full process.
-   - **B.** Continue using the original STP output indefinitely, since a well-researched segmentation and positioning exercise does not need to be revisited once it is done correctly.
-   - **C.** Immediately abandon the current segments and start over with an entirely new segmentation from scratch, without first checking whether the original segments still hold.
-   - **D.** Ask sales to informally flag when positioning feels outdated, rather than establishing a structured review process.
+   - **A.** Put a standing quarterly review on the calendar, re-running STP after two weak quarters.
+   - **B.** Continue using the original STP output, since a well-researched exercise does not need revisiting.
+   - **C.** Run a fresh STP exercise, checking win rate and competitive shifts once the new segments are set.
+   - **D.** Ask sales to informally flag when positioning feels outdated, rather than setting a review process.
 
    **Correct answer: A.** Treating STP as a one-off exercise is a named pitfall: positioning quietly drifts as the market and product change. The fix is a standing, PMM-owned quarterly review checking the original analysis against current data, with two consecutive quarters of declining win rate as an explicit trigger to re-run the full process.
 
    *Why not B:* Even a well-researched original analysis goes stale as competitors enter and the market shifts; the framework explicitly calls for revisiting STP whenever meaningful change occurs, not treating one analysis as permanent.
 
-   *Why not C:* Starting over from scratch without first checking whether the original segments still hold skips useful diagnostic information; a structured quarterly review would reveal exactly which parts of the original analysis have drifted, avoiding unnecessary rework on parts that still hold.
+   *Why not C:* This jumps to a full re-segmentation before checking whether the original segments still hold at all. A quarterly review would show which parts of the original analysis have actually drifted, avoiding a rebuild of segments that may still be fine.
 
    *Why not D:* An informal, ad hoc flagging process from sales lacks the rigour and regularity of a standing quarterly review with defined trigger conditions, and relies on someone noticing drift rather than checking for it systematically.
 
@@ -297,65 +297,65 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. Sales tells prospects "we're easy to implement," but onboarding data shows the average customer takes 12 weeks to go live. Marketing wants to fix this by rewriting the sales pitch to remove the "easy to implement" claim. What does the framework suggest instead?
-   - **A.** Audit all seven touchpoints to find the true source of the gap, likely in Product or Supporting Systems, and fix the underlying onboarding experience before deciding whether the claim itself needs to change.
-   - **B.** Immediately remove the claim from all sales materials, since a claim contradicted by data should never appear in messaging.
-   - **C.** Ask support to communicate more proactively with customers during the 12-week onboarding period, without changing the onboarding process itself.
-   - **D.** Retrain the sales team to stop making implementation-time claims of any kind in future pitches.
+   - **A.** Audit all seven touchpoints to find where the real gap sits before deciding whether the claim itself needs to change.
+   - **B.** Remove the claim from all sales materials, since data now contradicts what the claim promises.
+   - **C.** Ask support to communicate more proactively during onboarding, without changing the process itself.
+   - **D.** Retrain sales to stop making any implementation-time claims of any kind in future pitches.
 
    **Correct answer: A.** Positioning is the sum of what customers experience across all seven touchpoints, not just what sales says; rewriting the pitch alone treats the symptom. The framework calls for auditing where the real gap sits, likely product design or the onboarding systems behind it, and fixing that operational reality before deciding what claim the product can now honestly support.
 
    *Why not B:* Simply deleting the claim abandons a potentially valuable positioning point without first checking whether the underlying onboarding process itself can be fixed to make the claim true; the framework treats a mismatch as a prompt to close the operational gap, not just retreat from the claim.
 
-   *Why not C:* Better communication during a slow onboarding does not address the underlying 12-week delay itself; customers experience the length of the process regardless of how well it is communicated to them.
+   *Why not C:* This addresses how the delay is communicated, not the delay itself. Customers still experience 12 weeks to go live regardless of how proactively support checks in; the framework calls for fixing the operational gap, not managing the customer's experience of it.
 
    *Why not D:* Blanket retraining to avoid all implementation claims does not diagnose whether this specific gap can be closed; it also risks discarding a genuinely differentiating claim if the operational fix turns out to be achievable.
 
 2. After a major repositioning launch, a PMM proposes running the Complete Product Experience audit once, six months later, to confirm the new claims are holding up. What does the framework suggest is missing from this plan?
-   - **A.** The audit should also run immediately following the repositioning, since a new claim is only as strong as the operational reality behind it, and should continue on a recurring quarterly cadence afterward, not as a single future check.
-   - **B.** Nothing is missing; a single audit six months after a repositioning is the standard recommended cadence.
-   - **C.** The audit should be replaced entirely by an NPS survey, since NPS is a faster way to detect the same gaps.
-   - **D.** The audit only needs to run again if churn rises noticeably in the interim.
+   - **A.** Run the audit immediately after the repositioning, then continue it on a recurring quarterly cadence.
+   - **B.** Run the audit six months after the repositioning, then repeat it every year after that on the same fixed schedule.
+   - **C.** Replace the audit with an NPS survey, since NPS reaches customers faster than a full audit.
+   - **D.** Only re-run the audit if churn rises noticeably in the interim, rather than on a fixed schedule.
 
    **Correct answer: A.** The framework specifically calls for running the audit immediately after any major repositioning, since a new claim is only as strong as what customers actually experience, and then continuing it as a recurring quarterly coherence check, not a single one-off follow-up months later.
 
-   *Why not B:* A single audit six months out misses the immediate post-repositioning check the framework calls for, and treats the audit as a one-time event rather than the recurring practice the framework describes.
+   *Why not B:* This keeps a fixed cadence but gets both parts wrong: it misses the immediate post-repositioning check the framework calls for, and a once-yearly rhythm afterward is far looser than the quarterly discipline the framework recommends.
 
    *Why not C:* NPS is a useful complementary signal, but it does not replace the seven-touchpoint audit's structured, evidence-based mapping across marketing, sales, product, technology, systems, integrations, and support.
 
    *Why not D:* Waiting for churn to rise before re-running the audit is reactive; the framework recommends it as a standing quarterly discipline precisely so gaps are caught before they show up as lost customers.
 
 3. A PMM reports a finding as "support feels slow" and moves straight to recommending a support headcount increase. What is wrong with this approach, according to the framework's guidance on ownership?
-   - **A.** The finding lacks the specificity the framework requires; it should be evidenced, such as "average first response time is 26 hours against a promise of same-day response," before moving to prioritisation.
-   - **B.** Nothing is wrong; general impressions from customers are the correct basis for this kind of audit finding.
-   - **C.** The finding should have come from the VP Sales rather than PMM, since support issues are outside PMM's scope entirely.
-   - **D.** The finding is fine, but the recommended fix should always be a pricing change rather than a staffing change.
+   - **A.** The finding lacks the specificity the framework requires; it should be evidenced before prioritisation.
+   - **B.** General impressions from customers are an acceptable basis for this kind of audit finding.
+   - **C.** Support issues sit outside PMM scope, so the finding should have come from VP Sales instead.
+   - **D.** The finding is fine, but the fix should always be pricing rather than a staffing change.
 
-   **Correct answer: A.** The framework is explicit that vague impressions produce vague fixes; "support feels slow" is not actionable on its own. A specific, evidenced finding, such as an actual response time measured against a specific promise, is what the framework requires before moving to prioritisation.
+   **Correct answer: A.** The framework is explicit that vague impressions produce vague fixes; "support feels slow" is not actionable on its own. A specific, evidenced finding, such as an actual response time measured against a specific promise, for example "26 hours against a promise of same-day response", is what the framework requires before moving to prioritisation.
 
    *Why not B:* General impressions are exactly what the framework warns against; it insists on direct evidence, a specific quote, a specific delay, or a specific data point, before a gap is considered ready to act on.
 
-   *Why not C:* PMM owns the audit and the prioritisation call across all seven touchpoints, including support; execution of a support fix sits with the Head of Customer Support, but identifying and evidencing the gap is squarely within PMM's role here.
+   *Why not C:* This gets the owner wrong in the wrong direction. PMM owns the audit and the prioritisation call across all seven touchpoints, including support; execution of a support fix sits with the Head of Customer Support, but identifying and evidencing the gap is squarely PMM's job.
 
    *Why not D:* The framework does not prescribe a specific type of fix in advance; the appropriate remedy depends on what the evidenced gap actually shows, which could be staffing, process, or something else entirely.
 
 4. A team identifies gaps in Marketing, Product, and Support all at once, but has limited resourcing to fix only one this quarter. How does the framework suggest prioritising?
-   - **A.** Use a simple impact-versus-effort view to decide which gap hurts most and is feasible to fix now, rather than fixing whatever is loudest in the room that week.
-   - **B.** Always fix the Marketing gap first, since it is the fastest and cheapest touchpoint to update.
-   - **C.** Fix all three simultaneously by allocating equal resourcing to each, regardless of relative impact or effort.
-   - **D.** Defer all three until next quarter and use this quarter to build a more detailed audit process instead.
+   - **A.** Weigh impact against effort to decide which gap hurts most and is feasible to fix now.
+   - **B.** Fix the Marketing gap first, since it is generally the fastest and cheapest touchpoint to update.
+   - **C.** Fix all three simultaneously, splitting resourcing equally regardless of relative impact.
+   - **D.** Defer all three until next quarter and spend this quarter refining the audit process instead.
 
    **Correct answer: A.** The framework explicitly calls for an impact-versus-effort prioritisation rather than defaulting to whichever gap is easiest, most visible, or most recently discussed; this keeps the fix sequence grounded in what will actually move customer experience the most.
 
-   *Why not B:* Defaulting to Marketing because it is fast and cheap ignores the framework's warning that fixing marketing without fixing operations does not solve the underlying experience gap; speed of the fix is not the same as impact.
+   *Why not B:* This substitutes speed for impact. Effort is only half of the framework's test; defaulting to Marketing because it is fast and cheap ignores whether it is actually the gap hurting customers most, and the framework specifically warns that fixing marketing without fixing operations does not close the underlying experience gap.
 
    *Why not C:* Spreading resourcing evenly across three gaps regardless of their relative impact or effort abandons the deliberate prioritisation the framework calls for, and risks under-resourcing the highest-impact fix.
 
    *Why not D:* Deferring action to build more process delays fixing gaps customers are already experiencing; the framework favours acting on a prioritised, evidenced gap over further audit refinement.
 
 5. A team ran the seven-touchpoint audit after a difficult quarter, fixed the worst gap they found, and stopped tracking the framework afterward, assuming the issue was resolved. Eight months later, a similar gap has quietly reopened elsewhere. What does the framework say went wrong?
-   - **A.** The audit was treated as a one-time fix rather than a recurring practice; a single owner should re-run a lightweight version every quarter, even when nothing seems obviously broken, and log findings so drift is visible early.
+   - **A.** Re-run a lightweight version of the audit every quarter, with a named owner, even when nothing seems broken.
    - **B.** Nothing went wrong; gaps reopening after eight months is unavoidable regardless of audit cadence.
-   - **C.** The team should have permanently fixed all seven touchpoints at once during the original audit to prevent any future drift.
+   - **C.** Fix every one of the seven touchpoints at once next time, so nothing is left to drift.
    - **D.** The mistake was fixing the worst gap first rather than the easiest one to fix.
 
    **Correct answer: A.** Auditing once and calling it done is a named pitfall: customer expectations and the product keep moving, so a closed gap can reopen within a couple of quarters. The fix is a named owner, usually PMM, re-running a lightweight audit every quarter and logging findings so drift surfaces before a customer has to point it out.
@@ -426,8 +426,8 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. A product team plans to bring PMM in only once the product is built and ready to launch, reasoning that marketing's job is to promote what engineering has already created. What does the framework suggest is the risk in this plan?
-   - **A.** By Phase 4, most of the expensive decisions are already locked in; PMM joining that late means the product may already be un-positionable, since the highest-value input happens early when direction can still change cheaply.
-   - **B.** There is no risk, since PMM's core value is always in crafting launch messaging, which naturally belongs at Phase 4 regardless of timing.
+   - **A.** By Phase 4, the expensive decisions are already locked in, so PMM joining that late risks an un-positionable product.
+   - **B.** No real risk, since crafting launch messaging is PMM's core value and naturally belongs at Phase 4.
    - **C.** The risk is only that the launch date might slip slightly, not that positioning quality suffers.
    - **D.** PMM should instead be brought in only during Phase 5, once real usage data exists to analyse.
 
@@ -440,9 +440,9 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* Phase 5 is for iterating and expanding positioning based on live data; waiting until then skips the problem-validation and messaging-development work Phases 1 through 3 are specifically designed to front-load.
 
 2. A team skips Phase 2 (Prototype & Validation) to save time, moving straight from initial ideation to building the full beta messaging package. Six months post-launch, trial-to-paid conversion is far below target and sales reports prospects don't see the value. What most likely went wrong?
-   - **A.** Skipping problem-solution fit validation means the team may have built for a market that does not exist, or at a price no one will pay, a risk Phase 2 exists specifically to catch before further investment.
-   - **B.** The messaging in Phase 3 must have been poorly written, since a strong beta messaging package should compensate for any gap in earlier validation.
-   - **C.** The launch simply needed a bigger marketing budget in Phase 4 to reach more prospects.
+   - **A.** Skipping problem-solution fit validation means the team may have built for a market or price that does not hold.
+   - **B.** The Phase 3 messaging must have been poorly written, since strong messaging should cover any earlier gap.
+   - **C.** The launch simply needed a bigger Phase 4 marketing budget to reach more prospects.
    - **D.** The sales team needs better objection-handling training to convince prospects of the value.
 
    **Correct answer: A.** Phase 2 exists to validate problem-solution fit with real prospects before committing to messaging and beta work; skipping it risks discovering only after launch that the underlying problem or price point was never validated, which no amount of downstream messaging polish can fix.
@@ -454,10 +454,10 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* If prospects genuinely do not see the value, better objection handling cannot substitute for a product and pricing that were never validated against real willingness to pay.
 
 3. A team is at the beginning of Phase 3 (Beta & Messaging) and needs to select beta customers. Twelve interested prospects have replied to the beta invitation, several of whom are easy to reach but do not clearly match the target segment. What should the team do?
-   - **A.** Recruit beta customers deliberately chosen to represent the primary target segment, rather than simply whoever was easiest to reach, since feedback from an unrepresentative group can misdirect messaging and positioning.
-   - **B.** Accept all twelve respondents into the beta, since a larger beta group always produces more reliable feedback regardless of fit.
-   - **C.** Postpone the beta phase entirely until a perfectly matched group of prospects can be found, however long that takes.
-   - **D.** Skip customer selection criteria and let engineering choose participants based on who can most easily test technical edge cases.
+   - **A.** Recruit beta customers who represent the primary target segment, not simply whoever was easiest to reach.
+   - **B.** Accept all twelve respondents into the beta, since a larger group always produces the most reliable feedback available.
+   - **C.** Postpone the beta phase entirely until a perfectly matched group of prospects can be found.
+   - **D.** Let engineering choose participants based on who can most easily test technical edge cases.
 
    **Correct answer: A.** The framework specifically calls for choosing beta customers who represent the primary target segment, not whoever is most convenient; feedback and language gathered from the wrong segment can send positioning in a direction that will not hold once the product reaches its actual target buyers.
 
@@ -468,10 +468,10 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* Selecting for technical edge-case testing serves engineering's needs, not the framework's Phase 3 goal of validating messaging and positioning with customers who reflect the actual target buyer.
 
 4. During Phase 4 (Launch), a team coordinates messaging across the website and sales materials but leaves the PR team to develop its own narrative independently, on a tight deadline. What does the framework suggest could go wrong?
-   - **A.** Different channels may end up telling different stories, since Phase 4 explicitly calls for simultaneous, coordinated messaging across website, sales, PR, and events so no channel contradicts another.
-   - **B.** Nothing significant, since PR narratives are typically read by a different audience than website and sales materials, so consistency between them does not matter much.
-   - **C.** The main risk is only that the PR narrative might be published slightly later than the website update.
-   - **D.** This is actually the framework's recommended approach, since giving each channel independence produces more authentic, channel-appropriate messaging.
+   - **A.** Different channels may end up telling different stories, since Phase 4 calls for coordinated, simultaneous messaging.
+   - **B.** Nothing significant, since PR usually reaches a different audience than the website and sales materials.
+   - **C.** The main risk is only that the PR narrative might publish slightly later than the website update.
+   - **D.** This is fine, since giving each channel independence produces more authentic, channel-appropriate messaging.
 
    **Correct answer: A.** Phase 4 explicitly calls for coordinated, simultaneous messaging so no channel tells a different story; letting PR develop its narrative in isolation risks exactly the kind of inconsistency that confuses prospects encountering multiple channels during the same launch window.
 
@@ -482,16 +482,16 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* The framework's explicit guidance is coordination across channels, not channel independence; treating divergence as a feature misreads what Phase 4 calls for.
 
 5. Two quarters after a successful launch, a company notices strong initial sales but wants to know whether it is ready to expand positioning to an adjacent segment. What does the framework suggest as the right basis for that decision?
-   - **A.** Expand to adjacent segments once the primary segment shows a repeatable, predictable sales motion, based on structured win/loss analysis rather than early enthusiasm alone.
-   - **B.** Expand immediately, since strong initial sales in the primary segment are themselves sufficient evidence that adjacent segments are also ready.
-   - **C.** Wait a fixed twelve months regardless of how the primary segment is performing, since Phase 5 always requires a full year before any expansion.
-   - **D.** Skip Phase 5 analysis and let the sales team decide informally which adjacent segment to pursue next based on individual rep interest.
+   - **A.** Expand once the primary segment shows a repeatable, predictable motion, confirmed by win/loss analysis.
+   - **B.** Expand immediately, since strong initial sales in the primary segment are themselves sufficient evidence.
+   - **C.** Run a fresh round of win/loss interviews in the primary segment before deciding on expansion timing.
+   - **D.** Skip Phase 5 analysis and let sales decide informally which adjacent segment to pursue next.
 
    **Correct answer: A.** Phase 5 calls for expanding to adjacent segments only once the primary segment's sales motion is repeatable and predictable, confirmed through structured win/loss analysis rather than anecdote or early momentum, which can be misleading this early in a launch.
 
    *Why not B:* Strong initial sales in the primary segment do not automatically confirm anything about a different, adjacent segment's needs or willingness to pay; the framework calls for confirming repeatability in the primary segment first, not assuming it transfers.
 
-   *Why not C:* The framework does not specify a fixed time period; it ties expansion readiness to evidence of a repeatable, predictable sales motion, which could occur earlier or later than any fixed twelve-month mark depending on the data.
+   *Why not C:* Win/loss interviews are the right kind of evidence, but a single fresh round taken in isolation does not establish repeatability; Phase 5 calls for a pattern confirmed across enough closed deals over time, not one round run to justify a decision already in mind.
 
    *Why not D:* Informal, rep-driven expansion decisions bypass the structured win/loss analysis Phase 5 calls for, risking an expansion decision based on individual enthusiasm rather than evidenced, repeatable performance.
 
@@ -541,9 +541,9 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. A company's support tickets, sales-call notes, and product reviews all pile up unread in separate systems, with no one synthesising them into a shared view. Leadership asks whether the company needs another customer survey. What should the PMM recommend instead?
-   - **A.** Stand up a Voice of the Customer programme that inventories the existing sources, tags them against a shared taxonomy, and routes synthesised themes to decision owners, rather than adding another disconnected data source.
-   - **B.** Launch the survey, since more raw data collected from customers is always the most useful next step regardless of what already exists.
-   - **C.** Assign each department to review its own channel independently and report back informally when something important comes up.
+   - **A.** Stand up a VoC programme inventorying existing sources, routed to decision owners.
+   - **B.** Launch the survey, since more raw data is always the most useful next step regardless of what already exists.
+   - **C.** Assign each department to review its own channel independently and report back informally.
    - **D.** Wait until churn becomes a visible problem before building any kind of structured listening system.
 
    **Correct answer: A.** The situation described, "signal but no system", is a named trigger for standing up a VoC programme: the raw material already exists across multiple sources, and what is missing is the taxonomy, repository, and routing that turns it into decisions. Adding another survey does not solve a synthesis problem.
@@ -552,13 +552,13 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* Departments reviewing their own channel independently reproduces exactly the siloed, anecdotal pattern VoC is designed to fix; without a shared taxonomy, each team keeps quoting its own version of "what the customer wants."
 
-   *Why not D:* Waiting for churn to become visible is reactive; the programme is specifically valuable for surfacing recurring drivers before they escalate into a churn crisis no single team can diagnose alone.
+   *Why not D:* This is the right instinct pointed at the wrong trigger. Waiting for churn to become visible is reactive; the programme is specifically valuable for surfacing recurring drivers before they escalate into a churn crisis no single team can diagnose alone.
 
 2. A company's largest customer account calls the Head of Product with a specific complaint, and the roadmap is reprioritised the same week to address it, ahead of several other issues that had shown up repeatedly in tagged support tickets. What pitfall does this illustrate?
-   - **A.** Loudest-voice and recency bias, where a single vivid recent account hijacks priorities over a pattern that appears more frequently and broadly across the customer base.
-   - **B.** This is not a pitfall; direct escalation from a large account is always the most reliable prioritisation signal a VoC programme can use.
-   - **C.** The problem is that the complaint reached the Head of Product rather than PMM, and any escalation should be redirected to PMM first.
-   - **D.** The main issue is that the roadmap was changed too quickly; the fix is simply to slow down the response time to any single complaint.
+   - **A.** Loudest-voice and recency bias, where one vivid account overrides a broader pattern.
+   - **B.** This is not a pitfall; direct escalation from a large account is the most reliable prioritisation signal.
+   - **C.** The problem is that the complaint reached the Head of Product rather than PMM directly.
+   - **D.** The main issue is that the roadmap changed too quickly; the fix is to slow down the response time.
 
    **Correct answer: A.** This is the loudest-voice and recency bias pitfall: a single large account or vivid recent call can hijack priorities while a pattern across hundreds of customers, sized by frequency and severity, gets missed. The fix is requiring that sizing evidence before a theme is escalated, not the strength of the anecdote alone.
 
@@ -566,10 +566,10 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* The issue is not which person received the complaint; it is that the decision bypassed the sizing and prioritisation discipline the programme is meant to enforce, regardless of who it reached first.
 
-   *Why not D:* Slowing down responsiveness does not address the underlying bias; the fix is requiring frequency- and severity-based evidence before a theme is escalated, not simply adding delay to every decision.
+   *Why not D:* This targets the wrong lever. The problem is not the speed of the response; it is the missing evidence. Slowing every decision down does not substitute for requiring frequency- and severity-based sizing before a theme is escalated.
 
 3. A company runs a Voice of the Customer programme for a year, publishing a detailed monthly theme report, but customer satisfaction scores keep declining and several long-time customers say they feel unheard. What is the most likely gap?
-   - **A.** No closed loop: customers are not being told what changed because of their feedback, which is what sustains trust and response rates over time.
+   - **A.** No closed loop: customers are never told what changed as a result of their feedback.
    - **B.** The monthly report is being published too frequently; a quarterly report would be more effective.
    - **C.** The programme needs to add more listening sources before it can be considered complete.
    - **D.** Customer satisfaction naturally declines over time regardless of how well a VoC programme is run.
@@ -583,10 +583,10 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* Declining satisfaction is not an inevitability; it is described here alongside a specific, correctable gap, the missing closed loop, that a mature VoC programme is designed to prevent.
 
 4. A newly hired customer-insights lead builds a beautiful dashboard tracking sentiment trends across five channels, but six months in, no roadmap or messaging decision has referenced it, and several teams have stopped checking it. What is the most likely explanation?
-   - **A.** The programme was not started from the decisions it needs to inform; listening without a decision to serve produces dashboards no one uses.
+   - **A.** The programme was not started from the decisions it needs to inform, so no one has a reason to use it.
    - **B.** The dashboard needs more visual polish to encourage teams to check it more often.
-   - **C.** Five channels is too many; the programme should be simplified to a single source before anyone will trust it.
-   - **D.** The insights team should have been given full authority to make roadmap decisions unilaterally, bypassing product and marketing entirely.
+   - **C.** Five channels is too many; the programme should be simplified to a single source first.
+   - **D.** The insights team should be given full authority to make roadmap decisions unilaterally.
 
    **Correct answer: A.** This is the "listening without deciding" pitfall: the programme was likely built by inventorying sources first without first listing the decisions it needed to inform, positioning, messaging, roadmap priority, retention plays, which is why nothing downstream has referenced it. A dashboard with no connected decision becomes theatre no one checks.
 
@@ -597,10 +597,10 @@ You will know the audit has done its job when the gaps you identify are specific
    *Why not D:* The methodology calls for PMM or an insights function to orchestrate and route synthesis to the right owners across product, marketing, and customer success, not to seize unilateral decision authority itself.
 
 5. A support team tags a customer complaint as "reporting is confusing," while a different reviewer on the sales team logs a similar complaint from a call as "the dashboard is hard to use." When synthesis happens at the end of the month, these are counted as two separate, unrelated themes. What is the underlying issue?
-   - **A.** No shared taxonomy: without one agreed theme codebook, the same underlying issue gets tagged differently depending on the source, which understates its true frequency and severity.
-   - **B.** The support and sales teams should stop tagging complaints altogether and rely solely on the interview-based theme quarterly deep-dive instead.
-   - **C.** This is not actually a problem, since separating complaints by source channel gives a more accurate picture of severity in each specific context.
-   - **D.** The company needs to hire more support staff to handle the volume of complaints being generated across channels.
+   - **A.** No shared taxonomy: the same underlying issue gets tagged differently across sources.
+   - **B.** Support and sales should stop tagging complaints and rely solely on the quarterly interview deep-dive.
+   - **C.** This is not a problem, since separating complaints by channel gives a more accurate severity picture.
+   - **D.** The company needs to hire more support staff to handle the volume of complaints across channels.
 
    **Correct answer: A.** Without a shared taxonomy, the same underlying theme gets tagged inconsistently depending on which source it came from, which is exactly the structural gap described here; the fix is agreeing one codebook so a complaint about the same problem is tagged the same regardless of whether it arrives via a ticket, a review, or a call.
 
@@ -652,10 +652,10 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. A PMM wants to understand why customers really switched to their product, and opens each interview by asking directly, "Why did you decide to buy?" Most answers come back as "good fit" or "the timing was right." What went wrong?
-   - **A.** Asking "why" directly tends to produce a rationalised, socially acceptable answer; the interview should instead start from the moment of purchase and walk backwards, event by event.
-   - **B.** Nothing went wrong; "good fit" and "timing was right" are exactly the kind of specific, actionable answers the method is designed to surface.
-   - **C.** The interviews should have been conducted over email instead of live conversation to get more considered answers.
-   - **D.** The sample size was too small to get more specific answers; more interviews using the same direct question would resolve this.
+   - **A.** Asking "why" directly tends to produce a rationalised answer; start at the purchase moment and walk backwards.
+   - **B.** Nothing went wrong; "good fit" and "timing was right" are exactly the specific answers the method wants.
+   - **C.** The interviews should have been conducted over email instead of live conversation.
+   - **D.** The sample size was too small; more interviews using the same direct question would resolve this.
 
    **Correct answer: A.** A direct "why" question invites a tidy, rationalised summary rather than the actual sequence of events. The method's core technique is starting at the purchase moment and moving backwards, asking what happened right before that, which surfaces the specific triggering event a direct question skips past.
 
@@ -663,13 +663,13 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* The interview format is not the core issue; the problem is the direct why-question itself, which produces the same rationalised answer regardless of whether it is asked in person or in writing.
 
-   *Why not D:* More interviews using the same flawed direct question would simply produce more generic answers; the fix is changing the interview technique, not increasing volume.
+   *Why not D:* This is the right family of fix, more interviews, aimed at the wrong problem. Volume does not correct a flawed question; running more interviews with the same direct "why" phrasing would simply produce more generic answers.
 
 2. A team wants fast insight and decides to interview its most loyal, longest-tenured customers, since they know the product best and have plenty to say about their experience. What is the risk in this recruiting choice?
-   - **A.** Memory of the specific triggering event fades over time, so long-tenured customers tend to reconstruct a tidier, more rational story than what actually happened; recent switchers should be recruited instead.
-   - **B.** There is no risk; long-tenured customers are always the ideal recruits for this method since they have the deepest product knowledge.
+   - **A.** Memory of the triggering event fades over time; recent switchers fit better.
+   - **B.** No real risk; long-tenured customers are the ideal recruits, since they know the product best.
    - **C.** The risk is only that long-tenured customers might be too busy to make time for an interview.
-   - **D.** Long-tenured customers should be avoided entirely and replaced with prospects who have not yet purchased.
+   - **D.** Long-tenured customers should be replaced entirely with prospects who have not yet purchased.
 
    **Correct answer: A.** The method specifically calls for recruiting recent buyers, those who switched in the last one to three months, because the specific triggering event fades from memory quickly. A two-year customer will describe a cleaner, more rationalised version of events rather than what actually happened at the time.
 
@@ -677,47 +677,47 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* Availability is a logistical concern, not the substantive risk described; the real issue is memory decay of the specific triggering event, regardless of how much time the customer can offer.
 
-   *Why not D:* The method is about people who have already switched, not prospects who have not yet purchased; excluding tenured customers is right, but replacing them with pre-purchase prospects misunderstands who the method interviews.
+   *Why not D:* This gets the exclusion right but the replacement wrong. Long-tenured customers should indeed be avoided, but the method interviews people who have already switched, not prospects who have not yet purchased at all.
 
 3. During a switch interview, a customer says the new product's real-time map view was appealing, but does not mention any concern about switching at all. The interviewer moves on without probing further. What force of the switch has likely been missed?
-   - **A.** Anxiety: what worried the customer about switching, since a sale only happens when push and pull outweigh anxiety and habit, and unaddressed anxiety is often what a positioning statement needs to name directly.
-   - **B.** Nothing has been missed; only push and pull need to be captured for the interview to be considered complete.
-   - **C.** The habit force is irrelevant once a customer has already switched, so it does not need to be probed.
-   - **D.** The interviewer should have asked about competitor pricing instead, since price is the primary force in every switch decision.
+   - **A.** Anxiety: what worried the customer about switching, which often needs naming directly in positioning.
+   - **B.** Nothing has been missed; only push and pull need to be captured for the interview to be complete.
+   - **C.** The habit force is irrelevant once a customer has already switched, so it need not be probed.
+   - **D.** The interviewer should have asked about competitor pricing, since price drives every switch.
 
    **Correct answer: A.** The method maps four forces: push, pull, anxiety, and habit. A sale only happens when push and pull outweigh anxiety and habit combined; skipping anxiety leaves out what specifically almost stopped the customer from switching, which is often sharper, more useful copy than the appeal alone.
 
    *Why not B:* All four forces matter; capturing only push and pull, what was wrong with the old way and what was attractive about the new, misses half of what actually determines whether a switch happens.
 
-   *Why not C:* Habit, what made staying with the old way comfortable, remains relevant even after a switch has occurred, since it explains what almost kept the customer from acting and often maps to objections other prospects still feel.
+   *Why not C:* This identifies the right force but dismisses it too soon. Habit, what made staying with the old way comfortable, remains relevant even after a switch, since it explains what almost kept the customer from acting and often maps to objections other prospects still feel.
 
    *Why not D:* Price is not automatically the primary force in every switch; the method is built around uncovering whichever forces actually applied in that specific customer's story, not assuming a fixed hierarchy in advance.
 
 4. After running three switch interviews, a PMM finds one customer described a vivid, specific trigger event and immediately proposes rewriting the company's entire top-line message around it. What should happen before that positioning change is made?
-   - **A.** Hold off until 8 to 12 interviews show the same trigger, force, or anxiety repeating, since a single vivid story may be an outlier rather than a genuine pattern.
-   - **B.** Proceed with the rewrite immediately, since one sufficiently vivid and specific story is enough evidence to act on.
+   - **A.** Hold off until 8 to 12 interviews show the same trigger repeating.
+   - **B.** Proceed with the rewrite immediately, since one sufficiently vivid story is enough to act on.
    - **C.** Run the interview a second time with the same customer to confirm the story is consistent.
-   - **D.** Skip further interviews and instead validate the finding using a broad customer satisfaction survey.
+   - **D.** Skip further interviews and validate the finding using a broad customer satisfaction survey instead.
 
    **Correct answer: A.** Generalising from one or two interviews is a named pitfall; a single memorable trigger story is tempting to build a positioning pivot on, but it may be an outlier. The method calls for synthesising across 8 to 12 interviews before treating a pattern as something to build a positioning hypothesis on.
 
    *Why not B:* One story, however vivid, is explicitly called out as insufficient evidence; the method's whole value comes from confirming a pattern repeats across a meaningful sample before acting on it.
 
-   *Why not C:* Re-interviewing the same customer does not test whether the trigger generalises to other customers; the method calls for a broader sample of different recent switchers, not repeated confirmation from one source.
+   *Why not C:* This confuses confirming consistency with confirming a pattern. Re-interviewing the same customer only checks whether they tell the story the same way twice; it says nothing about whether other switchers experienced the same trigger.
 
    *Why not D:* A satisfaction survey measures a different thing, general sentiment, not the specific sequence of pre-purchase events; it does not substitute for gathering more switch interviews to confirm the pattern.
 
 5. A company already runs a mature Voice of the Customer programme with a shared taxonomy. A PMM completes a batch of ten switch interviews for a new segment and keeps the findings in a standalone slide deck, separate from the VoC system. What does the entry suggest should happen instead?
-   - **A.** Feed the synthesised switch-interview findings into the VoC programme's shared taxonomy, so the trigger events and anxieties surfaced sit alongside NPS and Win/Loss themes rather than living in a separate, forgotten document.
-   - **B.** Keep the findings separate permanently, since switch interviews and VoC programmes serve entirely unrelated purposes that should never be combined.
-   - **C.** Replace the VoC programme's ongoing listening entirely with periodic batches of switch interviews instead, since switch interviews provide richer detail.
-   - **D.** Present the slide deck once to leadership and then archive it, since switch interview findings do not need to be revisited once shared.
+   - **A.** Feed the findings into the VoC taxonomy so they sit alongside NPS and Win/Loss themes.
+   - **B.** Keep the findings separate permanently, since the two methods serve entirely unrelated purposes.
+   - **C.** Replace the VoC programme's ongoing listening with periodic batches of switch interviews instead.
+   - **D.** Present the slide deck once to leadership, then archive it without further action.
 
    **Correct answer: A.** Where a VoC programme already exists, the method's findings are meant to feed into its shared taxonomy, alongside NPS and Win/Loss themes, rather than sit in an isolated document that gets forgotten once the initial presentation is over.
 
    *Why not B:* The entry explicitly treats switch interviews as a complementary source a VoC programme should synthesise, in the same way NPS and Win/Loss already are; they are not meant to operate in permanent isolation from each other.
 
-   *Why not C:* Switch interviews are project-based and triggered by a specific need, not an always-on listening system; they are meant to supplement, not replace, the continuous VoC programme's ongoing multi-source listening.
+   *Why not C:* This confuses which method is continuous. Switch interviews are project-based, run in batches when positioning needs building or refreshing; they are meant to feed the always-on VoC programme, not replace its continuous multi-source listening.
 
    *Why not D:* A standalone presentation that gets archived loses the ongoing value of the findings; feeding them into the shared taxonomy keeps them available alongside other themes for future decisions, not just a single moment in time.
 
@@ -762,10 +762,10 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. Sales and marketing disagree constantly about what counts as a "good" lead: marketing considers a form fill sufficient, while sales rejects most of them as poor fit. Which methodology should the PMM propose to resolve this?
-   - **A.** ICP Development Methodology, since a scored, evidence-based fit model gives both functions one shared standard rather than each using its own informal definition.
-   - **B.** Sean Ellis 40% Test, since a product-market fit survey will clarify whether the product itself is the source of the disagreement.
-   - **C.** MAP Model, since ranking segments against each other will resolve the lead-quality dispute between sales and marketing.
-   - **D.** JTBD Switch Interview Method, since understanding why customers switched will settle what makes a lead good.
+   - **A.** ICP Development Methodology, since a scored, evidence-based fit model gives both functions one shared standard.
+   - **B.** Sean Ellis 40% Test, since a product-market fit survey will clarify the source of the disagreement.
+   - **C.** MAP Model, since ranking segments against each other will resolve the lead-quality dispute.
+   - **D.** JTBD Switch Interview Method, since understanding why customers switched settles what makes a lead good.
 
    **Correct answer: A.** This is precisely the situation ICP Development Methodology is built for: when marketing and sales disagree on lead quality, a scored model built from evidence, firmographic, technographic, and behavioural signals that actually predicted past wins, gives both functions a single, defensible standard instead of two competing informal opinions.
 
@@ -773,59 +773,59 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* MAP Model ranks existing served segments against each other for resourcing decisions; it operates at the segment level, not at the level of scoring individual accounts or leads for sales qualification.
 
-   *Why not D:* Switch interviews explain the pre-purchase trigger story for individual customers; they are a valuable input to sharpen an ICP's behavioural criteria, but they do not themselves produce a shared scoring standard sales and marketing can apply consistently.
+   *Why not D:* Switch interviews are the closest neighbour here, and their findings genuinely sharpen an ICP's behavioural criteria. But they answer a different question, why one customer switched, not the account-level scoring standard sales and marketing need to apply consistently across a whole pipeline.
 
 2. A team builds an ICP scoring model based on what the leadership team believes a good customer looks like, including heavily weighting a large, memorable logo everyone in the office recognises. What is the likely flaw in this approach?
-   - **A.** The model was built from opinion instead of closed-deal evidence, which tends to encode existing biases like over-weighting a memorable account rather than what genuinely predicts a close.
-   - **B.** There is no flaw, since executive intuition about ideal customers is generally more reliable than data pulled from CRM records.
-   - **C.** The flaw is only that the model should have included more firmographic signals and fewer technographic ones.
+   - **A.** The model was built from opinion instead of closed-deal evidence, encoding existing biases into the weighting.
+   - **B.** There is no flaw, since executive intuition is generally more reliable than data pulled from CRM records.
+   - **C.** The flaw is only that the model included too many firmographic signals and too few technographic ones.
    - **D.** The team should have consulted a persona document instead of building an account-level scoring model.
 
    **Correct answer: A.** Building the ICP from opinion rather than at least 50 closed deals' worth of actual win and loss evidence is a named pitfall; it tends to bake in biases, like weighting a memorable large logo, rather than reflecting what genuinely predicted past wins and losses.
 
    *Why not B:* The methodology explicitly favours evidence pulled from closed-won and closed-lost deals over internal intuition, precisely because intuition tends to reflect memorable anecdotes rather than the attributes that actually correlate with a win.
 
-   *Why not C:* The core problem is the source of the weighting, opinion versus evidence, not simply which category of signal, firmographic or technographic, was included or excluded.
+   *Why not C:* This misdiagnoses the problem as a category mix rather than a source. The issue is not which signal category the model leans on; it is that the weighting came from opinion rather than being checked against actual closed-deal evidence at all.
 
    *Why not D:* A persona document describes an individual buyer, not the company-level fit signals an ICP model scores; consulting one would not fix a model built on opinion rather than deal evidence.
 
 3. A company builds a detailed ICP scoring model, presents it once in a quarterly business review as a slide deck, and then the CRM continues routing leads exactly as it did before, since no one updated the account records. What pitfall does this describe?
-   - **A.** Treating the ICP as a one-time document instead of a live, scored field that reps and marketing automation actually filter and route by.
-   - **B.** The presentation format was wrong; the model should have been shared as a spreadsheet instead of a slide deck.
-   - **C.** The model should have been presented to sales reps individually rather than in a single quarterly meeting.
-   - **D.** This is not actually a pitfall, since a well-built model retains its value even if it is never operationalised in the CRM.
+   - **A.** Treating the ICP as a static slide deck instead of a live, scored CRM field.
+   - **B.** The presentation format was wrong; the model should have been shared as a spreadsheet instead.
+   - **C.** The model should have been presented to sales reps individually rather than in one quarterly meeting.
+   - **D.** This is not a pitfall, since a well-built model retains its value even if never operationalised.
 
    **Correct answer: A.** A static ICP presented once and never operationalised is a named pitfall: the model only works once it lives as a scored field on every account record that reps and marketing automation actually use to filter and route, not as a reference deck someone has to remember to consult.
 
    *Why not B:* The format of the presentation, deck versus spreadsheet, is not the core issue; the issue is that the model was never pushed into the CRM as an operational, filterable field at all.
 
-   *Why not C:* Changing the audience or delivery format for the presentation does not solve the underlying problem, that the scoring model was never implemented as a live system reps and automation actually use.
+   *Why not C:* This changes how the model is communicated, not whether it is operationalised. Presenting to reps one at a time still leaves the CRM routing leads exactly as before, since no account record was ever updated with the score.
 
    *Why not D:* A model that never gets operationalised delivers none of its intended value; the methodology is explicit that the score must live as an actionable field, not simply exist as a well-reasoned document.
 
 4. A PMM builds an ICP model that scores "VP of Engineering" as a company-level attribute, alongside industry and headcount, when scoring which accounts to prioritise. What is the error here?
-   - **A.** Confusing ICP with buyer persona: an ICP describes the account, while a persona describes the individual buyer within it, and the two should be kept as separate, complementary artefacts.
-   - **B.** There is no error; job titles are a standard and appropriate firmographic signal in any ICP scoring model.
-   - **C.** The error is that "VP of Engineering" should have been weighted more heavily than industry or headcount, not that it was included at all.
-   - **D.** The model should have dropped industry and headcount entirely in favour of job-title-based scoring exclusively.
+   - **A.** Confusing ICP with buyer persona: an ICP describes the account, a persona the buyer.
+   - **B.** There is no error; job titles are a standard firmographic signal in any ICP scoring model.
+   - **C.** The error is the weighting given to the title, not that it was included as a scoring field at all.
+   - **D.** The model should have dropped industry and headcount in favour of job-title-based scoring instead.
 
    **Correct answer: A.** An ICP scores accounts (the company), while a persona describes the individual buyer within that account; folding a job title into account-level scoring conflates the two. The fix is to keep the ICP strictly at the account level and maintain personas as a separate artefact describing whom to target within a well-scored account.
 
    *Why not B:* Job titles belong to buyer personas, not account-level ICP scoring; mixing the two produces a model that does not work cleanly in a scoring system built on company-level fields.
 
-   *Why not C:* The problem is not the weighting of this signal; it is a category error, scoring an individual-level attribute within a model meant to evaluate companies, regardless of how heavily it is weighted.
+   *Why not C:* This treats a category error as a tuning problem. The issue is not how heavily the title is weighted; it is that an individual-level attribute has been scored inside a model meant to evaluate companies, at any weight.
 
    *Why not D:* Dropping firmographic signals in favour of job-title scoring does not fix the conflation; it compounds it, since the model would then be scoring accounts almost entirely on an individual-level attribute.
 
 5. A team validates its new ICP scoring model against the most recent quarter's closed deals and finds that Tier A accounts closed at only a slightly higher rate than Tier C accounts, nowhere near the gap the model predicted. What should happen next?
-   - **A.** Revisit the weighting used to build the tiers before rolling the model out, since the holdout validation shows the current weights do not actually correlate with real outcomes.
-   - **B.** Roll the model out to the CRM as planned, since some gap between Tier A and Tier C, however small, confirms the model is directionally correct.
+   - **A.** Revisit the weighting before rolling the model out, since the holdout shows it does not correlate with outcomes.
+   - **B.** Roll the model out as planned, since some gap between the tiers confirms it is directionally correct.
    - **C.** Discard the ICP methodology entirely and return to unscored, broad-based prospecting.
-   - **D.** Skip the holdout validation step in future refreshes, since it introduces unnecessary delay before rollout.
+   - **D.** Skip the holdout validation step in future refreshes, since it introduces unnecessary delay.
 
    **Correct answer: A.** The methodology explicitly calls for validating the model against a holdout set before rollout, and if the tiers do not correlate with real outcomes, the guidance is to revisit the weighting rather than proceed; a weak validation result is exactly the signal that the scoring needs correction first.
 
-   *Why not B:* A marginal difference between Tier A and Tier C undermines the model's usefulness for prioritisation; the whole point of scoring is to identify a meaningfully stronger signal, not a negligible one that would not actually change how reps prioritise outreach.
+   *Why not B:* This treats weak evidence as sufficient. A marginal difference between Tier A and Tier C is not the meaningful, decision-changing gap the model is meant to produce; it should trigger a re-weighting, not a rollout.
 
    *Why not C:* Discarding the methodology entirely throws away a fixable model along with the evidence-based approach itself; the correct response to a failed validation is to revisit and correct the weighting, not abandon scoring altogether.
 
@@ -872,38 +872,38 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. A product leader wants to run the Sean Ellis test, and to get results quickly, includes free-trial signups from the last week alongside long-time active users in the survey pool. What is the risk in this approach?
-   - **A.** Including lapsed trial users or one-time visitors drags the Very-disappointed percentage down for reasons unrelated to whether the product has found fit with people who actually use it.
-   - **B.** There is no risk; a broader sample, including free-trial signups, always produces a more statistically reliable result.
-   - **C.** The risk is only that the survey will take longer to reach 30 to 40 responses, not that the result itself will be distorted.
-   - **D.** Free-trial signups should be surveyed exclusively, since they represent the most valuable segment for a PMF read.
-   - 
+   - **A.** Including lapsed or one-time users drags the score down for reasons unrelated to real product-market fit.
+   - **B.** No real risk; a broader sample, including free-trial signups, always improves reliability.
+   - **C.** The risk is only that the survey takes longer to collect 30 to 40 responses per segment.
+   - **D.** Free-trial signups should be surveyed exclusively, since they are the most valuable segment for this read.
+
    **Correct answer: A.** The methodology is explicit that only active users should be surveyed, since one-time visitors or lapsed trial users have not genuinely engaged with the product and their answers drag the topline score down for reasons that have nothing to do with real product-market fit.
 
    *Why not B:* A broader but unrepresentative sample does not improve reliability; the methodology's guidance on sample size assumes the respondents are actually active users, not simply a larger pool of any kind of signup.
 
-   *Why not C:* The risk is a distorted result, not merely a longer collection time; mixing in inactive users changes what the score actually measures, regardless of how quickly responses come in.
+   *Why not C:* This names a real but minor cost and misses the bigger one. A slower rollout is a fair concern, but the substantive risk is that the score itself gets distorted, not just delayed, once inactive users are mixed in.
 
    *Why not D:* Free-trial signups who have not met the active-use threshold are precisely the group the methodology says to exclude, not prioritise, when trying to measure genuine fit.
 
 2. A company's aggregate Very-disappointed score comes back at 34%, below the 40% benchmark, and leadership immediately decides to pause growth spend across every segment. What does the methodology suggest checking before that decision is made?
-   - **A.** Cut the result by the segments STP already defined, since a blended score can sit below 40% while masking one segment well above the benchmark and another nowhere close.
-   - **B.** Nothing further is needed; a below-benchmark aggregate score is sufficient on its own to justify pausing growth spend everywhere.
-   - **C.** Re-run the exact same survey immediately with the same respondents to confirm the result before making any decision.
-   - **D.** Replace the Sean Ellis test with an NPS survey, since NPS is a more reliable indicator of readiness to scale growth spend.
-   - 
+   - **A.** Cut the result by the segments STP already defined before anyone acts on it.
+   - **B.** Nothing further is needed; a below-benchmark aggregate score justifies pausing growth spend everywhere.
+   - **C.** Re-run the exact same survey immediately with the same respondents to confirm the result.
+   - **D.** Replace the Sean Ellis test with an NPS survey, since NPS better indicates readiness to scale spend.
+
    **Correct answer: A.** Reading the aggregate score and stopping there is a named pitfall; a blended result below 40% can conceal a segment performing well above the benchmark and another far below it. Cutting the result by STP's segments before acting is the correction, since the segment-level finding is almost always more actionable than the topline number.
 
    *Why not B:* Acting on the aggregate alone risks pulling back growth spend on a segment that has genuinely found fit, simply because a different segment's weaker score dragged down the blended number.
 
    *Why not C:* Re-surveying the same respondents does not address the real gap, which is that the result has not yet been cut by segment; repeating the same aggregate measurement would not reveal the masked segment-level story.
 
-   *Why not D:* NPS measures a different thing, ongoing satisfaction and likelihood to recommend, not the specific product-market-fit benchmark the Sean Ellis test is designed to read; it does not substitute for segmenting this particular result.
+   *Why not D:* NPS is the entry's own named companion metric, but it measures a different thing, ongoing satisfaction and likelihood to recommend, not the specific product-market-fit benchmark the Sean Ellis test is designed to read. It does not substitute for segmenting this result.
 
 3. After a segmented Sean Ellis result shows one segment scoring well above 40%, a PMM reads the open-ended responses and, without consulting product leadership, tells engineering the roadmap should now prioritise two specific new features implied by the comments. What is the issue with this action?
-   - **A.** PMM is over-reaching into a roadmap decision that belongs to product; PMM's role stops at translating the segment's language into positioning and messaging, not directing the roadmap.
-   - **B.** There is no issue; PMM owns the entire go or no-go interpretation of the Sean Ellis test result, including roadmap direction.
-   - **C.** The issue is only that PMM should have waited for the next scheduled two-quarter survey cycle before saying anything to engineering.
-   - **D.** PMM should have brought the recommendation to sales leadership instead of engineering, since sales owns roadmap prioritisation in this methodology.
+   - **A.** PMM is over-reaching; its role stops at translating segments into messaging.
+   - **B.** There is no issue; PMM owns the entire go or no-go interpretation, including roadmap direction.
+   - **C.** The issue is only that PMM should have waited for the next scheduled survey cycle.
+   - **D.** PMM should have brought the recommendation to sales leadership instead of engineering.
 
    **Correct answer: A.** The entry is explicit that product management owns the survey's interpretation and any resulting roadmap decision; PMM's scope is limited to the segmented score, the qualitative language, and translating a Very-disappointed segment's feedback into positioning and messaging, not directing engineering priorities.
 
@@ -911,27 +911,27 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* Timing relative to the next survey cycle is not the issue; the issue is which function has the authority to interpret the result for roadmap purposes at all, regardless of when it happens.
 
-   *Why not D:* Sales does not own roadmap prioritisation in this methodology either; product owns the interpretation and resulting roadmap decision, with PMM's role staying limited to messaging.
+   *Why not D:* This correctly senses that PMM picked the wrong recipient, but names the wrong one back. Sales does not own roadmap prioritisation here either; product does, with PMM's role staying limited to messaging.
 
 4. A company has just launched a repositioning into a new segment and wants an early, low-cost signal on whether the underlying product itself will support the growth its GTM plan assumes. Which use case does this most directly match?
-   - **A.** Running the Sean Ellis test on the new segment shortly after launch, since an early PMF read catches a fit problem before a full messaging or GTM budget is committed.
-   - **B.** Waiting for the standing two-quarter survey cadence, since off-cycle runs are discouraged regardless of major events like a repositioning.
-   - **C.** Running a JTBD switch interview instead, since it is a faster way to get an equivalent product-market-fit signal.
-   - **D.** Skipping any survey and relying on early sales conversations to judge whether the new segment has found fit.
+   - **A.** Run the Sean Ellis test on the new segment before a full GTM budget commits.
+   - **B.** Wait for the standing two-quarter cadence, since off-cycle runs are discouraged after a repositioning.
+   - **C.** Run a JTBD switch interview instead, since it gives an equivalent product-market-fit signal faster.
+   - **D.** Skip any survey and rely on early sales conversations to judge whether the segment has found fit.
 
    **Correct answer: A.** This is one of the entry's named triggers: after a repositioning or new-segment launch, an early, low-cost PMF read specifically catches a fit problem before a much larger messaging or GTM budget gets committed to the new segment.
 
-   *Why not B:* The entry explicitly treats a major repositioning or new-segment launch as an automatic trigger for an off-cycle run, in addition to the standing two-quarter cadence, not a reason to wait for the next scheduled interval.
+   *Why not B:* This gets the tool right but the timing backwards. The entry explicitly treats a major repositioning as an automatic trigger for an off-cycle run, in addition to the standing cadence, not a reason to wait for the next scheduled interval.
 
    *Why not C:* A switch interview answers a different question, what specific event triggered a purchase, not the standardised, benchmarked read on aggregate disappointment the Sean Ellis test is built to provide.
 
    *Why not D:* Early sales conversations are anecdotal and not benchmarked; they do not provide the standardised, comparable signal the Sean Ellis test's fixed four-answer format and 40% threshold are specifically designed to give.
 
 5. A product has run the Sean Ellis test once, eighteen months ago, scoring comfortably above 40%. Leadership treats this as confirmation that the product's fit is secure indefinitely and has not repeated the survey since. What does the methodology say about this assumption?
-   - **A.** Product-market fit moves as the market, competitors, and the product change, so a score from eighteen months ago tells you little about today; the test should be re-run on a cadence.
-   - **B.** The assumption is correct; a single strong Sean Ellis result is a permanent indicator that does not need to be revisited once achieved.
-   - **C.** The score should be trusted indefinitely unless churn rises sharply, at which point a new survey becomes necessary.
-   - **D.** Re-running the test is only useful if the product has changed significantly; market or competitive shifts alone do not warrant a repeat survey.
+   - **A.** Fit moves as the market, competitors, and product change, so the test should be re-run on a cadence.
+   - **B.** The assumption is correct; a strong result is a permanent indicator that never needs revisiting.
+   - **C.** The score should be trusted until churn rises sharply, at which point a new survey becomes necessary.
+   - **D.** Re-running is only useful once the product changes; market or competitive shifts do not warrant a repeat.
 
    **Correct answer: A.** The methodology explicitly calls for re-running the test every two quarters rather than treating one reading as permanent, since fit is not static: the market, competitors, and the product itself all continue to shift, and an eighteen-month-old score reveals little about the current state.
 
@@ -939,7 +939,7 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* Waiting for churn to rise before re-testing is reactive; the standing two-quarter cadence exists specifically to catch fit erosion before it shows up as a lagging, harder-to-reverse metric like churn.
 
-   *Why not D:* The methodology names market and competitive shifts, not only product changes, as legitimate reasons fit can move; restricting re-testing to only product changes misses those other named triggers.
+   *Why not D:* This correctly names one real trigger, product change, but drops the other two the methodology names just as clearly: a shifting market and a shifting competitive set can erode fit even when the product itself has not moved.
 
 ---
 
@@ -982,23 +982,23 @@ You will know the audit has done its job when the gaps you identify are specific
 **Quiz:**
 
 1. A company's enterprise segment has the highest average deal size and has absorbed two consecutive roadmap cycles on that basis alone. Leadership wants to know whether that investment is actually justified. What should the PMM run to answer this?
-   - **A.** The MAP Model, since it cross-tabulates segment size against actual performance (retention, expansion, margin), which can reveal a segment is large but underperforming despite its impressive headline deal size.
-   - **B.** STP, since re-running segmentation from scratch is the correct way to check whether a segment still deserves continued roadmap investment.
-   - **C.** ICP Development Methodology, since scoring individual accounts within the enterprise segment will reveal whether the segment as a whole deserves investment.
-   - **D.** The Sean Ellis 40% Test, since a product-market fit survey will show whether the enterprise segment values the product enough to justify further investment.
+   - **A.** The MAP Model, since it cross-tabulates segment size against actual retention, expansion, and margin.
+   - **B.** STP, since re-running segmentation from scratch checks whether a segment still deserves investment.
+   - **C.** ICP Development Methodology, since scoring individual accounts reveals whether the segment deserves it.
+   - **D.** The Sean Ellis 40% Test, since a PMF survey shows whether the segment values the product enough.
 
    **Correct answer: A.** This is exactly the situation the MAP Model is built for: a segment that looks impressive on size (Measure) can be quietly underperforming on retention, expansion, or margin (Analyze), and ranking segments on size alone is the most common way resourcing decisions go wrong.
 
    *Why not B:* STP defines the segments in the first place; re-running it from scratch does not answer whether an already-defined segment's performance justifies its current resourcing, which is a ranking question, not a re-segmentation question.
 
-   *Why not C:* ICP Development Methodology scores individual accounts within a segment for sales prioritisation; it does not answer whether the segment as a whole deserves continued roadmap investment relative to other segments.
+   *Why not C:* This works at the wrong level. ICP Development Methodology scores individual accounts within a segment for sales prioritisation; it does not compare the segment as a whole against the company's other segments for a resourcing call.
 
    *Why not D:* The Sean Ellis test measures product-market fit for active users generally; it is not designed to compare relative segment performance on retention, expansion, and margin for a resourcing decision.
 
 2. A team runs the MAP Model and finds that a segment scores high on Measure (large revenue and customer count) but low on Analyze (poor retention, thin margin). What should they conclude?
-   - **A.** This is a warning sign, not a strength; the segment is a strong candidate for the "maintain" or "deprioritise" tier rather than automatically for further investment.
-   - **B.** The segment should automatically receive more investment, since a high Measure score is the primary indicator of a segment worth pursuing.
-   - **C.** The Analyze data must be inaccurate, since a large, high-revenue segment cannot realistically also show poor retention.
+   - **A.** This is a warning sign, not a strength; the segment is a candidate for maintain or deprioritise.
+   - **B.** The segment should automatically receive more investment, since Measure is the primary indicator.
+   - **C.** The Analyze data must be inaccurate, since a large, high-revenue segment cannot show poor retention.
    - **D.** The team should re-run Measure with a different time period until the Analyze figures improve.
 
    **Correct answer: A.** The model's entire value comes from forcing Measure and Analyze apart: a segment high on size but low on performance is exactly the pattern the framework warns is most often mistaken for a strategic priority on size alone, when it actually belongs in "maintain" or "deprioritise."
@@ -1007,13 +1007,13 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* Large, high-revenue segments can absolutely show poor retention or thin margin; the two measures are deliberately independent, which is why the model examines them separately rather than assuming one implies the other.
 
-   *Why not D:* Changing the measurement period to manufacture a better-looking Analyze result defeats the purpose of an honest, evidence-based ranking; the model calls for using the same segment definitions and time-appropriate data, not adjusting parameters until the answer looks favourable.
+   *Why not D:* This looks like more analysis but is really evidence-shopping. Re-running Measure on a different period to make Analyze look better defeats the purpose of an honest ranking; the model calls for using consistent, time-appropriate data, not adjusting parameters until the answer looks favourable.
 
 3. A PMM building a MAP Model analysis decides to create fresh, more finely grained segment definitions specifically for this exercise, rather than using the segments already defined by STP and tracked in the CRM. What problem does this create?
-   - **A.** The resulting numbers cannot be cross-checked against other functions' reporting, since MAP Model is meant to rank the segments already in use, not a newly invented segmentation.
-   - **B.** There is no problem, since MAP Model is specifically designed to generate its own independent segmentation as part of the Measure stage.
-   - **C.** The only issue is that this approach takes more time than necessary, not that it produces an invalid or non-comparable result.
-   - **D.** Fresh segment definitions are preferable whenever the original STP segments are more than one year old.
+   - **A.** The numbers cannot be cross-checked against other functions using existing segments.
+   - **B.** There is no problem, since MAP Model is designed to generate its own segmentation in the Measure stage.
+   - **C.** The only issue is that this approach takes more time than necessary, not that the result is invalid.
+   - **D.** Fresh segment definitions are preferable whenever the original STP segments are over a year old.
 
    **Correct answer: A.** Re-segmenting instead of using STP's existing, CRM-tracked segments is a named pitfall: it produces numbers no other function can cross-check against their own reporting. The model is meant to rank segments the business already reports against, not invent a new segmentation as part of the exercise.
 
@@ -1021,13 +1021,13 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* The problem goes beyond time cost; a freshly invented segmentation produces figures that cannot be compared against CRM data or other teams' reporting, undermining the credibility of the ranking itself.
 
-   *Why not D:* Segment age is not the trigger for re-segmenting within a MAP Model cycle; if the original segments genuinely need revisiting, that is a separate STP re-run, not something to fold into a MAP Model analysis.
+   *Why not D:* This picks a plausible-sounding trigger that the model does not actually use. Segment age is not what calls for re-segmenting; if the original segments genuinely need revisiting, that is a separate STP re-run, not something to fold into a MAP Model cycle.
 
 4. A segment is ranked "deprioritise" after a MAP Model analysis, and the team responsible for it is simply given a smaller budget next quarter with no explanation. Several months later, that team is confused and frustrated, having kept running campaigns aimed at a segment leadership had privately written off. What was missed?
-   - **A.** The deprioritisation decision should have been communicated explicitly, with the Measure and Analyze evidence, to the teams currently serving that segment, rather than left to be inferred from a quietly shrinking budget.
-   - **B.** The team should not have been told about the deprioritisation at all, since transparency about a deprioritised segment usually damages morale further.
-   - **C.** The MAP Model's ranking itself was likely wrong, since a properly ranked segment would never need to be deprioritised.
-   - **D.** The issue is simply that the budget cut was too large; a smaller, more gradual reduction would have avoided the confusion.
+   - **A.** The decision and its evidence should have been communicated to the team serving it.
+   - **B.** The team should not have been told, since transparency about deprioritisation usually damages morale.
+   - **C.** The ranking itself was likely wrong, since a properly ranked segment would never need deprioritising.
+   - **D.** The issue is simply that the budget cut was too large; a smaller reduction would have avoided confusion.
 
    **Correct answer: A.** Deprioritising a segment quietly, without telling the team that built its original business case, is a named pitfall: it erodes trust and produces confused effort. The model calls for communicating the decision explicitly, with the Measure and Analyze evidence, to anyone whose work touches that segment.
 
@@ -1035,18 +1035,18 @@ You will know the audit has done its job when the gaps you identify are specific
 
    *Why not C:* A ranking result of "deprioritise" is a legitimate, evidence-based outcome of the model; the failure here is not the ranking itself, but the lack of communication about the decision that followed from it.
 
-   *Why not D:* The size of the budget change is not the core issue; even a well-justified, appropriately sized reduction would create the same confusion and frustration if the reasoning behind it was never explained.
+   *Why not D:* This addresses severity but misses the real gap. Even a smaller, better-calibrated budget cut would cause the same confusion if the reasoning behind it, and the evidence supporting it, was never shared with the team.
 
 5. A company runs the MAP Model once when it first adopts the practice, ranks its three segments, and reallocates resourcing accordingly. Two years pass with no further review, even though one segment's retention has since declined sharply and another has grown well beyond its original size. What does the model's guidance suggest?
-   - **A.** Re-run the model on a fixed cadence, since segment performance shifts as the product, competitive set, and customer base change, and a stale ranking can misdirect resourcing for years.
-   - **B.** A single MAP Model ranking remains valid indefinitely once the initial resourcing decisions have been made and implemented.
-   - **C.** The model should only be re-run if a brand-new segment is added to the business, not because existing segments' performance has shifted.
-   - **D.** Re-running the model is unnecessary as long as the original Prioritize recommendations were sound at the time.
+   - **A.** Re-run the model on a fixed cadence as segment performance shifts over time.
+   - **B.** A single MAP Model ranking remains valid indefinitely once the initial decisions are implemented.
+   - **C.** The model should only be re-run if a brand-new segment is added to the business.
+   - **D.** Re-running is unnecessary as long as the original Prioritize recommendations were sound at the time.
 
    **Correct answer: A.** The model calls for re-running the full cycle on a fixed cadence, at least annually, precisely because segment performance shifts over time; treating one ranking as permanent risks resourcing decisions built on data that no longer reflects current retention, expansion, or margin realities.
 
    *Why not B:* Segment performance is not static; retention, expansion, and margin can move substantially within a couple of years, which is exactly why the model calls for regular re-runs rather than treating an early ranking as a lasting verdict.
 
-   *Why not C:* A sharp decline in an existing segment's retention is itself named as a trigger for an off-cycle Analyze refresh; the need to re-run is not limited to only when a new segment appears.
+   *Why not C:* This names one legitimate trigger but treats it as the only one. A sharp decline in an existing segment's retention is itself named as a trigger for an off-cycle Analyze refresh, alongside the standing cadence, not just the arrival of a new segment.
 
    *Why not D:* Even a sound original recommendation can become outdated as underlying segment performance changes; the model's value depends on being re-run against current data, not on the soundness of a prior decision made under different conditions.
