@@ -24,7 +24,7 @@ All 435 quiz questions across all 11 sources have been rewritten to the tightene
 Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting). The full implementation record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06 after its re-scan found nothing depending on it; the summary above is what remains. Workstream 6 was scoped but not built. Ship now (domain-independent):
 
 - [ ] Per-page metadata: entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags without absolute URLs; `og:type=article` for entries.
-- [ ] `robots.txt` via `app/robots.ts` (no sitemap reference yet; that waits on the domain move below).
+- [x] `robots.txt` via `app/robots.ts` (2026-09-25): allows all user agents on all paths; no sitemap reference yet, as planned, since that waits on the domain move below.
 - [ ] Semantic HTML pass: one `h1` per page, `<article>`, `<nav aria-label>`, a skip link, landmark roles.
 - [ ] Structured data (JSON-LD) content and structure: `WebSite` + `SearchAction` on the homepage, `BreadcrumbList` on category/entry pages, `Article` per entry with `citation` populated from the Sources block, `CollectionPage` for category/type pages. Build the structure now; the `url`/`@id` fields still need the domain (see below).
 - [ ] GEO/AEO answer-shaping: a concise definition sentence at the top of each entry page (surfacing the existing first sentence of "What it is"); visible authorship/provenance line ("Summarised from [originator]; see Sources").
