@@ -16,6 +16,8 @@ npm run build
 
 The build exports the site to `out/`; serve that directory with a static server for a production preview. Vercel continues to use the repository's existing deployment configuration.
 
+The export writes each route as `<route>.html` (for example `framework/pmm-team-scaling-framework.html`). The root `vercel.json` sets `cleanUrls: true` so Vercel serves those files at extensionless URLs such as `/framework/pmm-team-scaling-framework`. Without it every route except `/` returns a 404 on Vercel. Unknown URLs render `src/app/not-found.tsx`, which uses the site layout and theme; Next's built-in 404 forces a black background in dark mode, which made the page unreadable.
+
 ## Content and discovery
 
 - `frameworks/` and `concepts/` remain the source of truth for the 66 entries, their 330 entry quiz questions, and the nine 10-question category quizzes. The Concepts collection has its entry quiz but no category quiz in the source.
