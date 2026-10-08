@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-09-09 (added the required credits line to the Sources block; tightened the quiz distractor standard; see "Sources block (citation standard)" and "Quiz section (quiz standard)")
+**Last Updated:** 2026-10-08 (recorded the live custom domain, www.pmmkb.com; see "Live site")
 
 ---
 
@@ -13,6 +13,14 @@ This repository contains a structured, practically-oriented knowledge base of pr
 **Target Users:** Product marketing managers, PMMs scaling from solo to team roles, and cross-functional stakeholders seeking PMM guidance.
 
 For how PMMs, team leads, and new joiners use this repository day-to-day, see README.md. This file covers content standards and editing rules only.
+
+### Live site
+
+- **Production URL: https://www.pmmkb.com/** (custom domain live since 2026-10-08). The apex `pmmkb.com` redirects to `www`, so `www` is canonical. The old `pmmkb.vercel.app` address is not the public URL; never cite or link it.
+- The site is the Next.js app in `web/`, deployed on Vercel from `main` (root `vercel.json`). Every merge to `main` that changes entry markdown changes the live site, so the Quality Gates below are publication gates, not just repository hygiene.
+- The canonical origin is defined once as `SITE_URL` in `web/src/lib/site.ts`. Use it for any absolute URL (metadata, sitemap, JSON-LD, `llms.txt`); never hard-code the domain.
+- **Open SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"). The domain move unblocked its domain-dependent items, so it is next in line to be picked up; read that section before touching metadata.
+- The owner's personal site, https://www.prasannaunar.com/ (repo `prasannaunar/website`), features this knowledge base on its `/projects/` page. If headline figures change (entry count, category count, quiz count), that page and its `llms.txt` need the same update.
 
 ---
 

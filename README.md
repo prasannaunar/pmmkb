@@ -2,6 +2,8 @@
 
 A structured, practical reference of 66 product marketing frameworks and methodologies; organised by workflow stage, indexed by situation. Built for product marketing professionals who need to apply proven methods to real challenges: positioning, go-to-market strategy, competitive intelligence, pricing, and customer advocacy.
 
+**Live site:** [www.pmmkb.com](https://www.pmmkb.com/), the web app built from this repository (`web/`).
+
 Licensed under [CC BY 4.0](LICENSE). Contributions welcome.
 
 ---
