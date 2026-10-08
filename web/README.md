@@ -14,7 +14,7 @@ npm run test:content
 npm run build
 ```
 
-The build exports the site to `out/`; serve that directory with a static server for a production preview. Vercel continues to use the repository's existing deployment configuration.
+The build exports the site to `out/`; serve that directory with a static server for a production preview. Vercel continues to use the repository's existing deployment configuration. Production is live at **https://www.pmmkb.com/** (the apex `pmmkb.com` redirects to `www`). The canonical origin is defined once as `SITE_URL` in `src/lib/site.ts` (overridable with `NEXT_PUBLIC_SITE_URL`); use it for any absolute URL rather than hard-coding the domain.
 
 The export writes each route as `<route>.html` (for example `framework/pmm-team-scaling-framework.html`). The root `vercel.json` sets `cleanUrls: true` so Vercel serves those files at extensionless URLs such as `/framework/pmm-team-scaling-framework`. Without it every route except `/` returns a 404 on Vercel. Unknown URLs render `src/app/not-found.tsx`, which uses the site layout and theme; Next's built-in 404 forces a black background in dark mode, which made the page unreadable.
 
