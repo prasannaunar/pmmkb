@@ -3,6 +3,7 @@ import { Merriweather, Poppins } from "next/font/google";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { BackToTop } from "@/components/back-to-top";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -20,6 +21,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "PMM Knowledge Base",
     template: "%s | PMM Knowledge Base",
