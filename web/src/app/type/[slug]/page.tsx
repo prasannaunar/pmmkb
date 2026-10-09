@@ -3,10 +3,12 @@ import { notFound } from "next/navigation";
 import {
   getAllCategories,
   getAllTypeSlugs,
+  getEntriesByType,
   getTypeBySlug,
 } from "@/lib/content";
 import { cleanTitle, guidanceFor } from "@/lib/editorial";
 import { pluralType } from "@/lib/plural";
+import { pageMetadata, TYPE_DEFINITIONS } from "@/lib/seo";
 export function generateStaticParams() {
   return getAllTypeSlugs().map((slug) => ({ slug }));
 }
@@ -17,7 +19,13 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const type = getTypeBySlug(slug);
-  return { title: type ? pluralType(type, 2) : "Not found" };
+  if (!type) return { title: "Not found" };
+  const count = getEntriesByType(type).length;
+  return pageMetadata({
+    title: pluralType(type, 2),
+    description: `${count} product marketing ${pluralType(type, count).toLowerCase()}: ${TYPE_DEFINITIONS[type]}. Browse them by topic, each with a worked example and a quiz.`,
+    path: `/type/${slug}`,
+  });
 }
 export default async function TypePage({
   params,

@@ -5,6 +5,7 @@ type: Methodology
 order: 10
 use_when: "A small team needs a focused approach to customer understanding, positioning and execution."
 produces: "A lightweight product marketing plan."
+description: "A lean approach for early-stage teams built on three pillars: understand the customer's problem, articulate your unique value, and execute a focused plan."
 ---
 
 # 3-Step Product Marketing Strategy Framework

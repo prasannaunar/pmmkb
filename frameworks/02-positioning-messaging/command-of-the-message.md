@@ -5,6 +5,7 @@ type: Methodology
 order: 70
 use_when: "Reps need to connect capabilities and differentiation to the value at stake in a live deal."
 produces: "A buyer-centred value conversation."
+description: "Force Management's value-selling discipline: tie the buyer's required capabilities to your differentiators and the quantified business value in a live deal."
 ---
 
 # Command of the Message

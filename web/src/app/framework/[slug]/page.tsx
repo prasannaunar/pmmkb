@@ -9,6 +9,7 @@ import {
 } from "@/lib/entry-sections";
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { cleanTitle, guidanceFor, plainText } from "@/lib/editorial";
+import { pageMetadata } from "@/lib/seo";
 import { learningPaths, resolveSteps } from "@/lib/guides";
 import { EntrySources } from "@/components/entry-sources";
 import { QuizSection } from "@/components/quiz-section";
@@ -25,10 +26,13 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const e = getEntryBySlug(slug);
-  return {
-    title: e?.title || "Not found",
-    description: e ? guidanceFor(e).useWhen : undefined,
-  };
+  if (!e) return { title: "Not found" };
+  return pageMetadata({
+    title: e.title,
+    description: e.description,
+    path: `/framework/${e.slug}`,
+    type: "article",
+  });
 }
 export default async function FrameworkPage({
   params,

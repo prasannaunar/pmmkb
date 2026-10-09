@@ -46,6 +46,23 @@ for (const category of categories) {
     );
   }
 }
+// Meta descriptions: one complete sentence each, unique, sized for search results.
+const descriptions = new Map();
+for (const entry of entries) {
+  assert.ok(
+    entry.description.length >= 50 && entry.description.length <= 160,
+    `description must be 50 to 160 characters (${entry.description.length}): ${entry.filePath}`,
+  );
+  assert.ok(
+    /[.!?]$/.test(entry.description),
+    `description must end with a full stop: ${entry.filePath}`,
+  );
+  assert.ok(
+    !descriptions.has(entry.description),
+    `Duplicate description: ${entry.filePath} and ${descriptions.get(entry.description)}`,
+  );
+  descriptions.set(entry.description, entry.filePath);
+}
 for (const entry of entries) {
   assert.ok(entry.useWhen && entry.produces, `Missing use_when/produces: ${entry.title}`);
   assert.ok(

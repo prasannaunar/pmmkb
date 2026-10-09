@@ -1,7 +1,18 @@
 import Link from "next/link";
-import { getAllCategories } from "@/lib/content";
+import { getAllCategories, getSiteStats } from "@/lib/content";
 import { getDiscoveryIndex } from "@/lib/discovery";
 import { Search } from "@/components/search";
+import { pageMetadata } from "@/lib/seo";
+
+export function generateMetadata() {
+  const { totalEntries } = getSiteStats();
+  return pageMetadata({
+    title: "PMM Knowledge Base: practical product marketing frameworks",
+    absoluteTitle: true,
+    description: `A practical product marketing field guide: ${totalEntries} frameworks, methodologies and models, each with a worked example, pitfalls and a quiz.`,
+    path: "/",
+  });
+}
 export default function HomePage() {
   const categories = getAllCategories();
   const challenges = [

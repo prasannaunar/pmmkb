@@ -5,6 +5,7 @@ type: Methodology
 order: 40
 use_when: "You need checkpoints from market validation through launch, growth and optimisation."
 produces: "A phased go-to-market plan with decision gates."
+description: "A five-phase roadmap (Foundation, Launch, Scale, Optimise, Expand) with timelines, owners, deliverables and success criteria for each go-to-market stage."
 ---
 
 # Complete GTM Workflow Stages

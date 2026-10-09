@@ -5,6 +5,7 @@ type: Framework
 order: 40
 use_when: "You need to connect what your product offers to a specific customer's jobs, pains and gains."
 produces: "A map of customer needs and the value your product delivers."
+description: "Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit."
 ---
 
 # Value Proposition Canvas

@@ -5,6 +5,7 @@ type: Framework
 order: 10
 use_when: "You need a concise positioning statement that aligns your team before writing copy."
 produces: "One paragraph defining your customer, value and differentiation."
+description: "Geoffrey Moore's positioning template from Crossing the Chasm (1991): target customer, need, category, benefit, main alternative and key differentiation."
 ---
 
 # Geoffrey Moore's Positioning Statement Framework

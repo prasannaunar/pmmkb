@@ -5,6 +5,7 @@ type: Framework
 order: 30
 use_when: "You need to know what PMM should contribute at each stage of product development."
 produces: "PMM activities aligned with the product's development stage."
+description: "Defines what product marketing contributes at each stage of product development, from ideation to maturity, so market insight shapes the product before launch."
 ---
 
 # Product Development Stage Framework

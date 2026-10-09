@@ -5,6 +5,7 @@ type: Framework
 order: 40
 use_when: "You need to distinguish expected features from performance drivers and potential delighters."
 produces: "A classification of features by their effect on satisfaction."
+description: "Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect."
 ---
 
 # Kano Model

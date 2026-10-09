@@ -5,6 +5,7 @@ type: Framework
 order: 80
 use_when: "You need to turn a raw product feature into a benefit a buyer understands."
 produces: "A feature-to-outcome explanation."
+description: "Turn a raw product feature into buyer-ready language in three steps: the feature, the advantage it enables, and the benefit the buyer experiences."
 ---
 
 # Features-Advantages-Benefits (FAB) Ladder

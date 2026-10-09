@@ -5,6 +5,7 @@ type: Framework
 order: 50
 use_when: "Your team needs a shared message hierarchy for campaigns, sales and product communications."
 produces: "A core message, supporting pillars and proof points."
+description: "A messaging house turns a positioning statement into a core message, three or four value pillars and proof points that a whole team can write from."
 ---
 
 # Message Architecture (Messaging House)

@@ -5,6 +5,7 @@ type: Framework
 order: 10
 use_when: "You need to assess your competitive position through the relationship between price and perceived value."
 produces: "A clearer price-value strategy."
+description: "Cliff Bowman and David Faulkner's model maps eight competitive strategies by price and perceived value, showing where you sit and where to move."
 ---
 
 # Bowman's Strategic Clock

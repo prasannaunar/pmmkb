@@ -5,6 +5,7 @@ type: Model
 order: 100
 use_when: "You need to match launch effort and coordination to the significance of the release."
 produces: "A launch tier and a proportionate resourcing decision."
+description: "Sort every launch into Tier 1, 2 or 3 so the process, lead time and headcount you apply match its real scope instead of a default."
 ---
 
 # Launch Tier Framework (Tier 1/2/3)

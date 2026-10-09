@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { learningPaths } from "@/lib/guides";
-export const metadata = {
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({
   title: "Learning paths",
   description:
     "Build product marketing judgement through guided reading and scenario quizzes.",
-};
+  path: "/learn",
+});
 export default function LearnPage() {
   return (
     <div className="page-shell">

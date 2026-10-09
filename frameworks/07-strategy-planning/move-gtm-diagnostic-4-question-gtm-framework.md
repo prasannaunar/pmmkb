@@ -5,6 +5,7 @@ type: Model
 order: 70
 use_when: "You need to diagnose the market, operating model and expansion choices behind your GTM plan."
 produces: "A structured diagnosis of go-to-market priorities."
+description: "Sangram Vajre and Bryan Brown's four-question go-to-market health diagnostic from MOVE (2021), for finding where your GTM motion is stuck."
 ---
 
 # MOVE GTM Diagnostic (4-Question GTM Framework)

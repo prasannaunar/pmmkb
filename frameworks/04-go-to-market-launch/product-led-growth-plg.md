@@ -5,6 +5,7 @@ type: Methodology
 order: 70
 use_when: "Your product must help users experience value, qualify themselves and find a path to expansion."
 produces: "An activation and conversion approach for a product-led motion."
+description: "A go-to-market practice where the product itself acquires, converts and expands customers through a free trial or tier, popularised by Wes Bush (2019)."
 ---
 
 # Product-Led Growth (PLG)
