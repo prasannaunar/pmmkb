@@ -5,6 +5,7 @@ type: Framework
 order: 90
 use_when: "You need a customer-centred narrative for a homepage, campaign or presentation."
 produces: "A story that casts the customer as the hero and the brand as guide."
+description: "Donald Miller's seven-part narrative template casts the customer as the hero and your brand as the guide. Use it for homepages, campaigns and pitches."
 ---
 
 # StoryBrand SB7 Framework

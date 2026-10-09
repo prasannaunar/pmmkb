@@ -5,6 +5,7 @@ type: Model
 order: 60
 use_when: "You need to choose an acquisition motion that fits buyer complexity and contract value."
 produces: "A reasoned choice of go-to-market motion."
+description: "A taxonomy of five ways a B2B SaaS company acquires and expands customers: self-serve, product-led, inside sales, field sales and partner channel."
 ---
 
 # GTM Motion Model

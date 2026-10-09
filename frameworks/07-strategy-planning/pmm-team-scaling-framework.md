@@ -5,6 +5,7 @@ type: Framework
 order: 40
 use_when: "You need to decide how PMM responsibilities and specialisms should evolve as the business grows."
 produces: "A team structure matched to the next stage of work."
+description: "How to grow the PMM function from a solo practitioner to a specialised team, with clear roles, scope and success metrics at each stage."
 ---
 
 # PMM Team Scaling Framework

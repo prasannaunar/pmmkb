@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { Search } from "@/components/search";
 import { getDiscoveryIndex } from "@/lib/discovery";
-export const metadata = {
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({
   title: "Search",
   description:
     "Search frameworks, situations and learning paths in the product marketing knowledge base.",
-};
+  path: "/search",
+});
 export default function SearchPage() {
   return (
     <div className="page-shell reading-page">

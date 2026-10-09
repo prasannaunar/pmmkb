@@ -5,6 +5,7 @@ type: Framework
 order: 20
 use_when: "You need to connect competitive alternatives, differentiated attributes and customer value."
 produces: "A canvas explaining why your product wins with its best-fit customers."
+description: "April Dunford's five-component canvas links your competitive set, unique attributes and best-fit segment to a compelling reason to buy."
 ---
 
 # April Dunford's 5-Component Positioning Canvas

@@ -5,6 +5,7 @@ type: Framework
 order: 30
 use_when: "You need to see how buyers perceive competing products on meaningful attributes."
 produces: "A competitor map based on buyer-relevant axes."
+description: "Plot your product and its rivals on two attributes buyers care about to see the market's real structure and find space competitors have left open."
 ---
 
 # Perceptual Map (2x2)

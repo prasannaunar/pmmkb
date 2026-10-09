@@ -5,6 +5,7 @@ type: Methodology
 order: 10
 use_when: "Your PMM work stops at launch and needs to support the full customer lifecycle."
 produces: "A lifecycle view of responsibilities and interventions."
+description: "Define product marketing's role across all seven customer lifecycle stages, from awareness to advocacy, rather than only launches and messaging."
 ---
 
 # PMM Lifecycle Management Framework

@@ -5,6 +5,7 @@ type: Methodology
 order: 100
 use_when: "You need buyer evidence that a headline or draft message is clear, relevant and differentiated."
 produces: "A tested message and a record of buyer feedback."
+description: "Test headlines, hero sections and ads with verified target buyers before they ship, scoring each on clarity, relevance and differentiation."
 ---
 
 # Message Testing (Message-Market Fit)

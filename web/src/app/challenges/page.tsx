@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { challenges } from "@/lib/guides";
-export const metadata = {
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({
   title: "Solve a challenge",
   description:
-    "Find product marketing methods for the situation in front of you.",
-};
+    "Find product marketing methods for the situation in front of you, from generic messaging to losing deals to a competitor.",
+  path: "/challenges",
+});
 export default function ChallengesPage() {
   return (
     <div className="page-shell">

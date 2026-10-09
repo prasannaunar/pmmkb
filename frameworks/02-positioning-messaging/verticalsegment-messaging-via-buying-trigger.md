@@ -5,6 +5,7 @@ type: Framework
 order: 110
 use_when: "You need to adapt an established core message to different segments without rebuilding positioning."
 produces: "Segment messages tied to specific buying triggers."
+description: "Diane Wiredu's method for adapting a locked core message to each segment or vertical, using the buying trigger that makes that segment ready to act now."
 ---
 
 # Vertical/Segment Messaging via Buying Trigger

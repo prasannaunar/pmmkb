@@ -5,6 +5,7 @@ type: Methodology
 order: 30
 use_when: "Your competitive knowledge and positioning need a regular review and update cadence."
 produces: "A repeatable intelligence-to-positioning feedback loop."
+description: "An ongoing competitive intelligence process of monthly scans, quarterly deep dives and annual refreshes that keeps positioning and messaging current."
 ---
 
 # Competitive Intelligence & Positioning Update Framework

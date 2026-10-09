@@ -5,6 +5,7 @@ type: Methodology
 order: 50
 use_when: "You need to connect growth-stage SaaS targets to the capabilities required to reach them."
 produces: "A growth trajectory and the inputs it requires."
+description: "Neeraj Agrawal's B2B SaaS growth benchmark: triple, triple, double, double, double annual revenue, used to pace and plan go-to-market investment."
 ---
 
 # T2D3 Framework (B2B SaaS)

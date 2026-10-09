@@ -5,6 +5,7 @@ type: Methodology
 order: 30
 use_when: "A larger PMM team needs consistency across products, regions and concurrent initiatives."
 produces: "A repeatable process for product marketing execution."
+description: "A detailed 10-step operational workflow for larger PMM teams, covering positioning, messaging, enablement and measurement, with checkpoints for feedback."
 ---
 
 # 10-Step PMM Process

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { challenges, resolveSteps } from "@/lib/guides";
+import { pageMetadata } from "@/lib/seo";
 export function generateStaticParams() {
   return challenges.map((g) => ({ slug: g.slug }));
 }
@@ -11,7 +12,12 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const g = challenges.find((g) => g.slug === slug);
-  return { title: g?.title || "Not found", description: g?.description };
+  if (!g) return { title: "Not found" };
+  return pageMetadata({
+    title: g.title,
+    description: g.description,
+    path: `/challenges/${g.slug}`,
+  });
 }
 export default async function ChallengePage({
   params,

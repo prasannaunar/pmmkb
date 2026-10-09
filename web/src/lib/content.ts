@@ -42,6 +42,8 @@ export interface Entry {
   useWhen: string;
   /** One-line statement of what applying the entry produces. */
   produces: string;
+  /** Meta description for search and social previews: one complete sentence of 50 to 160 characters. */
+  description: string;
   /** Repo-relative path of the entry's markdown file. */
   filePath: string;
   /** The entry body: no frontmatter, no title heading, no quiz. */
@@ -159,6 +161,7 @@ function loadEntry(
     order: requireNumber(data, "order", filePath),
     useWhen: requireString(data, "use_when", filePath),
     produces: requireString(data, "produces", filePath),
+    description: requireString(data, "description", filePath),
     filePath,
     rawMarkdown: content.slice(heading[0].length).trim(),
     quizMarkdown: readQuiz(
