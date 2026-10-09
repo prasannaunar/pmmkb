@@ -18,7 +18,7 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Submit the sitemap** `https://www.pmmkb.com/sitemap.xml` in Search Console once verified, then run URL Inspection on the homepage and one entry page and click "Request indexing".
 - [ ] **Verify in Bing Webmaster Tools.** Importing the property from Search Console is quickest. Otherwise use the meta tag method and set the token as `NEXT_PUBLIC_BING_SITE_VERIFICATION` in Vercel. Submit the same sitemap.
 - [ ] **Check a share preview** after deploy: paste https://www.pmmkb.com/ and one entry URL into LinkedIn's Post Inspector (or a Slack message). Expect the blue-topped "PMM Knowledge Base" card and the entry's own description. LinkedIn caches previews, so use the inspector's refresh.
-- [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna Unar").
+- [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna").
 - [ ] **Decide whether to go ahead with SEO PR 2** (structured data, `llms.txt`, definition sentence on entry pages). Nothing blocks it.
 
 ### Quiz revision ✅ Complete (2026-09-16)
@@ -58,7 +58,7 @@ Workstreams 1-5 of that plan are complete (attribution, branding, structural cha
 - [x] Descriptions on category and type pages, and a homepage description with the live entry count.
 - [x] `app/sitemap.ts` (96 URLs: everything except `/search`) and a `Sitemap:` line in `app/robots.ts`.
 - [x] `pmmkb.vercel.app` redirect, as a host-matched permanent redirect in the root `vercel.json` (needs the post-deploy check under Owner actions).
-- [x] "Made by [Prasanna Unar](https://www.prasannaunar.com/)" link in the site footer, `rel="author"`. The name and URL live in `AUTHOR` in `web/src/lib/site.ts` for reuse in PR 2's structured data. There is no About page; the footer is the about-style area.
+- [x] "Made by [Prasanna](https://www.prasannaunar.com/)" link in the site footer, `rel="author"`. The name and URL live in `AUTHOR` in `web/src/lib/site.ts` for reuse in PR 2's structured data. There is no About page; the footer is the about-style area.
 - [x] Search Console and Bing verification tokens render from `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` and `NEXT_PUBLIC_BING_SITE_VERIFICATION` when set, so verification needs no code change.
 - [x] `npm run test:seo` (`web/scripts/verify-seo.mjs`, run after a build): on all 97 built pages checks one `h1`, a unique title and description, the canonical, `og:*` and `twitter:*` tags, `lang`, the author link; checks the sitemap lists exactly the indexable pages; checks `robots.txt` references it.
 - [x] Semantic HTML pass: verified rather than changed. All 97 pages have exactly one `h1`. An earlier note that the sidebar's `h1` caused duplicates was wrong: `sidebar.tsx`, `sticky-header.tsx` and `mobile-top-bar.tsx` are not imported anywhere, so they are dead code and never render.

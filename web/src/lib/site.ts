@@ -9,7 +9,7 @@ export const SITE_NAME = "PMM Knowledge Base";
 // The person behind the site. Linked from the footer so readers, search
 // engines and answer engines can connect this site to its maker's own site.
 export const AUTHOR = {
-  name: "Prasanna Unar",
+  name: "Prasanna",
   url: "https://www.prasannaunar.com/",
 };
 
