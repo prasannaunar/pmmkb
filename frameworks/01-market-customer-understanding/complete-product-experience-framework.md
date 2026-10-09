@@ -5,6 +5,7 @@ type: Framework
 order: 20
 use_when: "Your customer experience is not living up to your marketing promise."
 produces: "A view of gaps across the complete customer experience."
+description: "A seven-touchpoint model for checking that your positioning holds across marketing, sales, product, integrations and support, not just in messaging."
 ---
 
 # Complete Product Experience Framework

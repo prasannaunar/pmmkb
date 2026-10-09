@@ -5,6 +5,7 @@ type: Framework
 order: 30
 use_when: "Reps need concise, credible guidance for a specific competitive conversation."
 produces: "A practical battlecard grounded in buyer and competitor evidence."
+description: "A one-page field tool giving sales the competitor's likely pitch, your counter-position, objection responses, landmines and proof points in ninety seconds."
 ---
 
 # Competitive Battlecard Framework

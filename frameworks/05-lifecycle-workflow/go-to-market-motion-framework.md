@@ -5,6 +5,7 @@ type: Methodology
 order: 20
 use_when: "You need to coordinate messaging, sales, content and customer communications during execution."
 produces: "A coordinated set of go-to-market activities."
+description: "Run a launch as a choreographed sequence across messaging, content, partnerships, events and enablement, with clear dependencies and named owners."
 ---
 
 # Go-to-Market Motion Framework

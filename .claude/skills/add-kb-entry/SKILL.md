@@ -14,8 +14,10 @@ through the list in order every time an entry is added, moved, or retagged.
 Create `<slug>.md` in the right category folder, `frameworks/0N-*/` (or
 `concepts/` if it's a primer). The slug is the page address, so choose it once
 and never change it. The file opens with YAML frontmatter (`title`, `slug`,
-`type`, `order`, `use_when`, `produces`) and then `# <title>`; see
-"Repository Structure" in [CLAUDE.md](../../../CLAUDE.md) for each field. Set
+`type`, `order`, `use_when`, `produces`, `description`) and then `# <title>`; see
+"Entry file format" in [CLAUDE.md](../../../CLAUDE.md) for each field. The
+`description` is the meta description search engines and link previews show:
+write one sentence of 50 to 160 characters, unique across entries. Set
 `order` to slot the entry into the category's workflow sequence (existing
 entries step by 10, so there is usually a gap). Follow CLAUDE.md's Writing
 Standards and Content Types sections: declare `type` in the frontmatter, use
@@ -38,7 +40,8 @@ or organisation, semicolon-separated, in bullet order, names only
 web app renders it under the entry title, so the rules are exact; see
 "Sources block (citation standard)" in
 [CLAUDE.md](../../../CLAUDE.md). Run `npm run test:content` in `web/` to
-check the entry passes.
+check the entry passes; after a build, `npm run test:seo` checks the page
+itself and the sitemap.
 
 ## 2. Write the entry's Quiz section
 

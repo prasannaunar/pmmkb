@@ -5,6 +5,7 @@ type: Framework
 order: 10
 use_when: "You need to make explicit choices about where to play and how to win."
 produces: "A connected set of strategic choices and required capabilities."
+description: "A.G. Lafley and Roger Martin's five-question cascade of mutually reinforcing strategic choices, from winning aspiration through to management systems."
 ---
 
 # Playing to Win (Strategic Choice Cascade)

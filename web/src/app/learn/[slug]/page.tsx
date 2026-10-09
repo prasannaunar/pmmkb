@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { learningPaths, resolveSteps, pathQuiz } from "@/lib/guides";
 import { QuizSection } from "@/components/quiz-section";
+import { pageMetadata } from "@/lib/seo";
 export function generateStaticParams() {
   return learningPaths.map((g) => ({ slug: g.slug }));
 }
@@ -12,7 +13,12 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const g = learningPaths.find((g) => g.slug === slug);
-  return { title: g?.title || "Not found", description: g?.description };
+  if (!g) return { title: "Not found" };
+  return pageMetadata({
+    title: g.title,
+    description: g.description,
+    path: `/learn/${g.slug}`,
+  });
 }
 export default async function LearningPathPage({
   params,

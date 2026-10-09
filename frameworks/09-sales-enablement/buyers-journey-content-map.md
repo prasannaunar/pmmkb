@@ -5,6 +5,7 @@ type: Framework
 order: 40
 use_when: "You need to connect sales and marketing content to the questions buyers face at each stage."
 produces: "A map of content needs across the buying journey."
+description: "A grid that plots content against awareness, consideration, decision and post-sale stages, so you can see where content is strong, thin or missing."
 ---
 
 # Buyer's Journey Content Map

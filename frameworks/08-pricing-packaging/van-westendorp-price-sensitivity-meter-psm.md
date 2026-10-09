@@ -5,6 +5,7 @@ type: Framework
 order: 20
 use_when: "You need to explore the price range buyers perceive as acceptable."
 produces: "A survey-based view of price perception."
+description: "Peter van Westendorp's four-question survey finds the range of prices customers will accept, without asking them to name a single 'right' price."
 ---
 
 # Van Westendorp Price Sensitivity Meter (PSM)

@@ -5,6 +5,7 @@ type: Framework
 order: 30
 use_when: "You need to decide what to charge for and how that unit relates to customer value."
 produces: "A candidate value metric and willingness-to-pay hypotheses."
+description: "A four-step method for setting a defensible price by tying it to the unit of value customers receive, such as API calls, transactions or storage used."
 ---
 
 # Value Metric / Willingness-to-Pay Framework

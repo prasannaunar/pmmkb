@@ -5,6 +5,7 @@ type: Methodology
 order: 70
 use_when: "You need to assess how strongly a customer segment depends on your product."
 produces: "A segment-level signal of product-market fit."
+description: "A one-question survey from Sean Ellis that gives an early, standardised read on product-market fit, scored against a 40% 'very disappointed' benchmark."
 ---
 
 # Sean Ellis 40% Test (PMF Survey)
