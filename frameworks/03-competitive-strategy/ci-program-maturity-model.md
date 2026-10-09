@@ -5,6 +5,7 @@ type: Model
 order: 50
 use_when: "You need to diagnose how reliably your competitive intelligence programme supports decisions."
 produces: "A maturity assessment and priorities for improving the programme."
+description: "A staged model for diagnosing how mature your competitive intelligence function is and what to improve next, drawing on Klue's published maturity model."
 ---
 
 # CI Program Maturity Model

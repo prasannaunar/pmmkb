@@ -5,6 +5,7 @@ type: Framework
 order: 10
 use_when: "You need to diagnose onboarding friction and decide what to improve first."
 produces: "An onboarding maturity assessment and improvement priorities."
+description: "A model for product marketing's role in getting customers activated after purchase, spanning customer education, enablement and feedback loops."
 ---
 
 # Customer Onboarding Maturity Framework

@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-09 (modular content layout: one file per entry plus a sibling quiz file; see "Repository Structure")
+**Last Updated:** 2026-10-09 (entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
@@ -19,8 +19,9 @@ For how PMMs, team leads, and new joiners use this repository day-to-day, see RE
 - **Production URL: https://www.pmmkb.com/** (custom domain live since 2026-10-08). The apex `pmmkb.com` redirects to `www`, so `www` is canonical. The old `pmmkb.vercel.app` address is not the public URL; never cite or link it.
 - The site is the Next.js app in `web/`, deployed on Vercel from `main` (root `vercel.json`). Every merge to `main` that changes entry markdown changes the live site, so the Quality Gates below are publication gates, not just repository hygiene.
 - The canonical origin is defined once as `SITE_URL` in `web/src/lib/site.ts`. Use it for any absolute URL (metadata, sitemap, JSON-LD, `llms.txt`); never hard-code the domain.
-- **Open SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"). The domain move unblocked its domain-dependent items, so it is next in line to be picked up; read that section before touching metadata.
-- The owner's personal site, https://www.prasannaunar.com/ (repo `prasannaunar/website`), features this knowledge base on its `/projects/` page. If headline figures change (entry count, category count, quiz count), that page and its `llms.txt` need the same update.
+- **SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"), along with the list of actions only the owner can take ("Owner actions"). PR 1 (canonicals, Open Graph and Twitter tags, sitemap, descriptions) is built; structured data and `llms.txt` are next. Read that section before touching metadata.
+- **Page metadata goes through `pageMetadata()` in `web/src/lib/seo.ts`**, which sets the title, description, canonical, Open Graph and Twitter tags together. Do not set `openGraph` or `twitter` by hand on a page: a page's object replaces the layout's rather than merging. After a build, `npm run test:seo` in `web/` checks every page.
+- The owner's personal site, https://www.prasannaunar.com/ (repo `prasannaunar/website`), features this knowledge base on its `/projects/` page, and this site links back to it from the footer ("Made by"; the name and URL are `AUTHOR` in `web/src/lib/site.ts`). If headline figures change (entry count, category count, quiz count), that page and its `llms.txt` need the same update.
 
 ---
 
@@ -245,6 +246,7 @@ type: Framework
 order: 40
 use_when: "You need to connect what your product offers to a specific customer's jobs, pains and gains."
 produces: "A map of customer needs and the value your product delivers."
+description: "Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit."
 ---
 
 # Value Proposition Canvas
@@ -260,6 +262,7 @@ produces: "A map of customer needs and the value your product delivers."
 | `order` | Position in the category's workflow sequence. Existing entries step by 10, so you can insert between two without renumbering. Must be unique within the category. |
 | `use_when` | One sentence naming the situation that calls for the entry. Shown in listings, search results and the page description. |
 | `produces` | One short phrase naming what applying the entry gives you. Shown on category pages. |
+| `description` | The meta description search engines and link previews show. One complete sentence, 50 to 160 characters, ending in a full stop, unique across entries. Say what the entry is and who or what it comes from. Hand-written, not the first sentence of "What it is", which is usually too long. |
 
 The Sources credits line stays on the `**Sources:**` label in the body (see "Sources block (citation standard)"), not in the frontmatter, so there is one place to edit it.
 

@@ -5,6 +5,7 @@ type: Model
 order: 60
 use_when: "You need a common map of market-facing responsibilities across product and marketing."
 produces: "A shared view of activities, ownership and gaps."
+description: "Pragmatic Institute's market-driven operating model: a grid of about 37 activities in seven categories, from understanding the market to supporting a product."
 ---
 
 # Pragmatic Institute Framework

@@ -5,6 +5,7 @@ type: Model
 order: 70
 use_when: "New customers take too long to experience the value they signed up for."
 produces: "Defined value milestones and a way to measure time to reach them."
+description: "Break 'time to value' into distinct, measurable sub-metrics so you track the specific moment customers first get value, not one vague number."
 ---
 
 # Time to Value Framework

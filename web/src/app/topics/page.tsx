@@ -2,10 +2,13 @@ import Link from "next/link";
 import { getAllCategories, TYPE_SLUGS } from "@/lib/content";
 import { cleanTitle } from "@/lib/editorial";
 import { pluralType } from "@/lib/plural";
-export const metadata = {
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata({
   title: "Explore topics",
-  description: "Browse the complete product marketing library by topic.",
-};
+  description:
+    "Browse the complete product marketing library by topic: positioning, messaging, competitive strategy, launch, pricing, sales enablement and more.",
+  path: "/topics",
+});
 export default function TopicsPage() {
   const categories = getAllCategories();
   return (

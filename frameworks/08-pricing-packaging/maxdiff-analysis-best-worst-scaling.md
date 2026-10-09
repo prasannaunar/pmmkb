@@ -5,6 +5,7 @@ type: Methodology
 order: 70
 use_when: "You need to rank attributes without every item being rated important."
 produces: "A relative priority ranking from best-worst choices."
+description: "A survey method from Jordan Louviere that ranks features or messages by repeatedly asking which item is most important and which is least."
 ---
 
 # MaxDiff Analysis (Best-Worst Scaling)

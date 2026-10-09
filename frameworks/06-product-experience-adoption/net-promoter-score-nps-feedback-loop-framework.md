@@ -5,6 +5,7 @@ type: Framework
 order: 30
 use_when: "You need a repeatable way to connect customer sentiment to follow-up action."
 produces: "A closed feedback loop with owners and actions."
+description: "Use NPS, CSAT and interviews to find promoters and detractors, learn why they score as they do, and close the loop in product, support, messaging or pricing."
 ---
 
 # Net Promoter Score (NPS) & Feedback Loop Framework

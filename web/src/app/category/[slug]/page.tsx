@@ -5,6 +5,7 @@ import { cleanTitle, guidanceFor } from "@/lib/editorial";
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { CategoryEntries } from "@/components/category-entries";
 import { QuizSection } from "@/components/quiz-section";
+import { pageMetadata } from "@/lib/seo";
 export function generateStaticParams() {
   return getAllCategories().map((c) => ({ slug: c.slug }));
 }
@@ -15,10 +16,12 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const c = getCategoryBySlug(slug);
-  return {
-    title: c ? cleanTitle(c.title) : "Not found",
-    description: c ? c.intro : undefined,
-  };
+  if (!c) return { title: "Not found" };
+  return pageMetadata({
+    title: cleanTitle(c.title),
+    description: `${c.intro} ${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} with steps, worked examples, pitfalls and quizzes.`,
+    path: `/category/${c.slug}`,
+  });
 }
 const picks: Record<number, [string, string][]> = {
   1: [

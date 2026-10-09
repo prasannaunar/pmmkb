@@ -5,6 +5,7 @@ type: Model
 order: 60
 use_when: "You need to segment customers by their recent behaviour and commercial value."
 produces: "Behavioural segments for differentiated engagement."
+description: "Segment customers by Recency, Frequency and Monetary value to find your best customers and those at risk of leaving, using data you already hold."
 ---
 
 # RFM Model (Recency, Frequency, Monetary Value)

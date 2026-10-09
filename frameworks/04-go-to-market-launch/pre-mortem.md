@@ -5,6 +5,7 @@ type: Framework
 order: 110
 use_when: "You want to uncover likely failure points before committing to a launch plan."
 produces: "A ranked list of risks, mitigations and owners."
+description: "Gary Klein's pre-mortem: imagine the launch has already failed, then work backwards to list the specific reasons while there is still time to act."
 ---
 
 # Pre-mortem

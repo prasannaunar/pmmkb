@@ -5,6 +5,7 @@ type: Framework
 order: 50
 use_when: "A rep needs to respond constructively to a competitive objection."
 produces: "An objection response that acknowledges the buyer and explains specific value."
+description: "A four-step technique, Validate, Acknowledge, Reframe, Specify, for answering a customer's live question about a competitor without getting defensive."
 ---
 
 # VARS Framework (Validate, Acknowledge, Reframe, Specify)

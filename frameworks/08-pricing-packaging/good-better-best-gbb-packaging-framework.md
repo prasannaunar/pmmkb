@@ -5,6 +5,7 @@ type: Framework
 order: 10
 use_when: "You need to create distinct packages that serve different customer needs and willingness to pay."
 produces: "A coherent set of differentiated packages."
+description: "Group features into three value-ascending tiers, Good, Better and Best, so each buyer persona self-selects the package that fits their needs and budget."
 ---
 
 # Good-Better-Best (GBB) Packaging Framework

@@ -5,6 +5,7 @@ type: Methodology
 order: 20
 use_when: "You need buyer evidence of why deals are won or lost."
 produces: "A pattern of buying decisions that can inform positioning and enablement."
+description: "Interview the decision-makers behind won and lost deals to learn why customers choose you or a competitor, then feed the findings into positioning and product."
 ---
 
 # Win/Loss Analysis Framework

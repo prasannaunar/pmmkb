@@ -5,6 +5,7 @@ type: Model
 order: 10
 use_when: "You need to diagnose enablement gaps before producing more sales collateral."
 produces: "A maturity assessment and focused enablement priorities."
+description: "A four-stage model, starting at Ad Hoc, that diagnoses how mature your sales enablement function is and what to build next."
 ---
 
 # Sales Enablement Maturity Model

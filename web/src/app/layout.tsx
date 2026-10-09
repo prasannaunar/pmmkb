@@ -3,7 +3,7 @@ import { Merriweather, Poppins } from "next/font/google";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { BackToTop } from "@/components/back-to-top";
-import { SITE_URL } from "@/lib/site";
+import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -20,14 +20,23 @@ const poppins = Poppins({
   display: "swap",
 });
 
+// Search Console and Bing Webmaster Tools ownership tokens. Set the matching
+// environment variable in Vercel; nothing is rendered while one is unset.
+const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "PMM Knowledge Base",
-    template: "%s | PMM Knowledge Base",
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
     "A structured, practically-oriented knowledge base of product marketing frameworks and methodologies.",
+  verification: {
+    google: googleVerification,
+    other: bingVerification ? { "msvalidate.01": bingVerification } : undefined,
+  },
 };
 
 export default function RootLayout({
@@ -37,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${merriweather.variable} ${poppins.variable} h-full`}
     >
       <body>
@@ -64,6 +73,12 @@ export default function RootLayout({
             <p>
               CC BY 4.0 ·{" "}
               <Link href="/topics">Explore the complete library</Link>
+            </p>
+            <p>
+              Made by{" "}
+              <a href={AUTHOR.url} rel="author">
+                {AUTHOR.name}
+              </a>
             </p>
           </div>
         </footer>

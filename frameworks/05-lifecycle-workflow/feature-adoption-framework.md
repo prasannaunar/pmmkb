@@ -5,6 +5,7 @@ type: Methodology
 order: 30
 use_when: "Customers have access to a feature but are not discovering or using it."
 produces: "An adoption plan tied to customer behaviour."
+description: "A systematic way to drive adoption of new or underused features by treating each one like a launch, with segmentation, messaging and measurement."
 ---
 
 # Feature Adoption Framework
