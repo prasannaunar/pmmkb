@@ -3,7 +3,7 @@ name: icp-definition
 description: "Use when the question is who to sell to: leads are poor fit, sales chases everything, marketing and sales disagree about the target, a new segment is being considered, resourcing has to be split between segments, or someone asks for an ICP, ideal customer profile, target segment, buyer persona, account tiering, or lead scoring criteria. Runs segmentation and targeting, then builds a weighted, CRM-scored fit model from closed-won and closed-lost evidence, and ranks existing segments against each other when resourcing is contested."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/01-market-customer-understanding.md"
+  kb-source: "frameworks/01-market-customer-understanding/"
   frameworks: "Segmentation-Targeting-Positioning (STP); ICP Development Methodology; MAP Model (Measure, Analyze, Prioritize); JTBD Switch Interview Method"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,7 +18,7 @@ targeting choose a strategic segment; an ICP ranks specific accounts inside it.
 Answer them in that order, and do not run the second as a second segmentation.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/01-market-customer-understanding.md`.
+`frameworks/01-market-customer-understanding/`.
 
 ## Step 0: Which question is being asked?
 
@@ -104,6 +104,6 @@ definition, the explicit out-of-scope list, and the refresh date.
 
 Derived from the STP Framework, ICP Development Methodology, MAP Model, and
 JTBD Switch Interview Method entries in
-`frameworks/01-market-customer-understanding.md`, which carry the full
+`frameworks/01-market-customer-understanding/`, which carry the full
 citations. Skill format follows the Agent Skills open specification. See
 [ATTRIBUTION.md](../ATTRIBUTION.md).

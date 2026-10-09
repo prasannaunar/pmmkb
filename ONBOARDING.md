@@ -16,10 +16,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Positioning
 
 **Read in this order:**
-1. [STP Framework](frameworks/01-market-customer-understanding.md) (Category 1); the foundation everything else in positioning inherits from
-2. [April Dunford's 5-Component Positioning Canvas](frameworks/02-positioning-messaging.md) and [Dunford's 10-Step Positioning Process](frameworks/02-positioning-messaging.md) (Category 2)
-3. [Message Architecture (Messaging House)](frameworks/02-positioning-messaging.md) and the [FAB Ladder](frameworks/02-positioning-messaging.md)
-4. [Message Testing](frameworks/02-positioning-messaging.md); how to validate messaging before it ships
+1. [STP Framework](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md) (Category 1); the foundation everything else in positioning inherits from
+2. [April Dunford's 5-Component Positioning Canvas](frameworks/02-positioning-messaging/april-dunfords-5-component-positioning-canvas.md) and [Dunford's 10-Step Positioning Process](frameworks/02-positioning-messaging/dunfords-10-step-positioning-process.md) (Category 2)
+3. [Message Architecture (Messaging House)](frameworks/02-positioning-messaging/message-architecture-messaging-house.md) and the [FAB Ladder](frameworks/02-positioning-messaging/features-advantages-benefits-fab-ladder.md)
+4. [Message Testing](frameworks/02-positioning-messaging/message-testing-message-market-fit.md); how to validate messaging before it ships
 
 **Your first task should be:** find the most recent positioning statement for your product or segment, and check it against Dunford's 10-Step Process. Note any step that was skipped; that's often where later confusion started.
 
@@ -30,10 +30,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Sales Enablement
 
 **Read in this order:**
-1. [Sales Enablement Maturity Model](frameworks/09-sales-enablement.md) (Category 9); diagnose where the function stands before building anything new
-2. [Competitive Battlecard Framework](frameworks/09-sales-enablement.md) and [Buyer's Journey Content Map](frameworks/09-sales-enablement.md)
-3. [MEDDIC/MEDDPICC](frameworks/09-sales-enablement.md) and [Command of the Message](frameworks/02-positioning-messaging.md); the two frameworks that shape what content sales actually needs
-4. [10-Step PMM Process](frameworks/04-go-to-market-launch.md) (Category 4); where sales enablement sits in the wider launch sequence
+1. [Sales Enablement Maturity Model](frameworks/09-sales-enablement/sales-enablement-maturity-model.md) (Category 9); diagnose where the function stands before building anything new
+2. [Competitive Battlecard Framework](frameworks/09-sales-enablement/competitive-battlecard-framework.md) and [Buyer's Journey Content Map](frameworks/09-sales-enablement/buyers-journey-content-map.md)
+3. [MEDDIC/MEDDPICC](frameworks/09-sales-enablement/meddic-meddpicc.md) and [Command of the Message](frameworks/02-positioning-messaging/command-of-the-message.md); the two frameworks that shape what content sales actually needs
+4. [10-Step PMM Process](frameworks/04-go-to-market-launch/10-step-pmm-process.md) (Category 4); where sales enablement sits in the wider launch sequence
 
 **Your first task should be:** run the [Sales Enablement Audit Checklist](templates/sales-enablement-audit.md) against your current product or segment. It will surface gaps faster than reading every framework in full first.
 
@@ -44,10 +44,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Competitive Intelligence
 
 **Read in this order:**
-1. [Competitive Intelligence & Positioning Update Framework](frameworks/07-strategy-planning.md) (Category 7); the ongoing monitoring process
-2. [Bowman's Strategic Clock](frameworks/03-competitive-strategy.md) and [Perceptual Map (2x2)](frameworks/03-competitive-strategy.md) (Category 3)
-3. [Competitive Battlecard Framework](frameworks/09-sales-enablement.md); the field artefact your monitoring feeds
-4. [Category Design](frameworks/03-competitive-strategy.md); read this one last, it's the exception case for when competing on the existing map stops working
+1. [Competitive Intelligence & Positioning Update Framework](frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) (Category 7); the ongoing monitoring process
+2. [Bowman's Strategic Clock](frameworks/03-competitive-strategy/bowmans-strategic-clock.md) and [Perceptual Map (2x2)](frameworks/03-competitive-strategy/perceptual-map-2x2.md) (Category 3)
+3. [Competitive Battlecard Framework](frameworks/09-sales-enablement/competitive-battlecard-framework.md); the field artefact your monitoring feeds
+4. [Category Design](frameworks/03-competitive-strategy/category-design.md); read this one last, it's the exception case for when competing on the existing map stops working
 
 **Your first task should be:** set up the [Competitive Intelligence Tracker](templates/competitive-intelligence-tracker.md) for your top 3-5 competitors and run one monthly scan before touching any battlecard.
 
@@ -58,10 +58,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Customer Advocacy
 
 **Read in this order:**
-1. [Forrester Customer Advocacy Model](frameworks/06-product-experience-adoption.md) (Category 6); the maturity model for the whole practice
-2. [Net Promoter Score (NPS) & Feedback Loop Framework](frameworks/06-product-experience-adoption.md); where advocates are usually first identified
-3. [Win/Loss Analysis Framework](frameworks/06-product-experience-adoption.md); a second source of advocate candidates and proof points
-4. [Voice of the Customer (VoC) Programme](frameworks/01-market-customer-understanding.md) (Category 1); the continuous-listening system advocacy work should plug into, not duplicate
+1. [Forrester Customer Advocacy Model](frameworks/06-product-experience-adoption/forrester-customer-advocacy-model.md) (Category 6); the maturity model for the whole practice
+2. [Net Promoter Score (NPS) & Feedback Loop Framework](frameworks/06-product-experience-adoption/net-promoter-score-nps-feedback-loop-framework.md); where advocates are usually first identified
+3. [Win/Loss Analysis Framework](frameworks/06-product-experience-adoption/winloss-analysis-framework.md); a second source of advocate candidates and proof points
+4. [Voice of the Customer (VoC) Programme](frameworks/01-market-customer-understanding/voice-of-the-customer-voc-programme.md) (Category 1); the continuous-listening system advocacy work should plug into, not duplicate
 
 **Your first task should be:** score your current advocacy practice against the Forrester model's four stages (Reactive, Identified, Programmatic, Embedded) and identify which stage you're actually operating at, not which stage you'd like to claim.
 
@@ -72,10 +72,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Pricing & Packaging
 
 **Read in this order:**
-1. [Good-Better-Best (GBB) Packaging Framework](frameworks/08-pricing-packaging.md) (Category 8); the structural default most pricing work sits inside
-2. [Value Metric / Willingness-to-Pay Framework](frameworks/08-pricing-packaging.md); choosing what to charge for
-3. [Van Westendorp Price Sensitivity Meter](frameworks/08-pricing-packaging.md) and [Gabor-Granger Method](frameworks/08-pricing-packaging.md); the two fast pricing-research methods
-4. [Conjoint Analysis](frameworks/08-pricing-packaging.md) and [Usage-Based (Consumption) Pricing Model](frameworks/08-pricing-packaging.md); read these once the basics are running, they're the more resource-intensive or structurally different options
+1. [Good-Better-Best (GBB) Packaging Framework](frameworks/08-pricing-packaging/good-better-best-gbb-packaging-framework.md) (Category 8); the structural default most pricing work sits inside
+2. [Value Metric / Willingness-to-Pay Framework](frameworks/08-pricing-packaging/value-metric-willingness-to-pay-framework.md); choosing what to charge for
+3. [Van Westendorp Price Sensitivity Meter](frameworks/08-pricing-packaging/van-westendorp-price-sensitivity-meter-psm.md) and [Gabor-Granger Method](frameworks/08-pricing-packaging/gabor-granger-method.md); the two fast pricing-research methods
+4. [Conjoint Analysis](frameworks/08-pricing-packaging/conjoint-analysis.md) and [Usage-Based (Consumption) Pricing Model](frameworks/08-pricing-packaging/usage-based-consumption-pricing-model.md); read these once the basics are running, they're the more resource-intensive or structurally different options
 
 **Your first task should be:** map your current pricing page against GBB's tier-fencing logic and note any feature placed in a tier without a clear reason tied to persona or value.
 
@@ -86,10 +86,10 @@ A guide for a new PMM team member joining a team that uses this knowledge base. 
 ## Start Here If You're Assigned to Go-to-Market & Launch
 
 **Read in this order:**
-1. [GTM Motion Model](frameworks/04-go-to-market-launch.md) (Category 4); confirms which motion (self-serve, PLG, inside sales, field sales, partner-channel) your product actually runs on
-2. [Launch Tier Framework](frameworks/04-go-to-market-launch.md); decides how much process a given launch needs
-3. [10-Step PMM Process](frameworks/04-go-to-market-launch.md) or [Complete GTM Workflow Stages](frameworks/04-go-to-market-launch.md); the end-to-end sequence
-4. [Bullseye Framework](frameworks/04-go-to-market-launch.md); channel selection once the motion is confirmed
+1. [GTM Motion Model](frameworks/04-go-to-market-launch/gtm-motion-model.md) (Category 4); confirms which motion (self-serve, PLG, inside sales, field sales, partner-channel) your product actually runs on
+2. [Launch Tier Framework](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md); decides how much process a given launch needs
+3. [10-Step PMM Process](frameworks/04-go-to-market-launch/10-step-pmm-process.md) or [Complete GTM Workflow Stages](frameworks/04-go-to-market-launch/complete-gtm-workflow-stages.md); the end-to-end sequence
+4. [Bullseye Framework](frameworks/04-go-to-market-launch/bullseye-framework-traction-channel-selection.md); channel selection once the motion is confirmed
 
 **Your first task should be:** find the last major launch and classify it against the Launch Tier Framework; check whether the process actually used matched the tier it should have been.
 

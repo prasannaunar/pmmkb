@@ -38,13 +38,11 @@ export default async function FrameworkPage({
   const { slug } = await params;
   const entry = getEntryBySlug(slug);
   if (!entry) notFound();
-  const { body, sourcesMarkdown, sourceCredits, seeAlsoText, quizMarkdown } =
+  const { body, sourcesMarkdown, sourceCredits, seeAlsoText } =
     extractSpecialSections(entry.rawMarkdown);
-  const html = await markdownToHtml(
-    body.replace(/^\*\*Type:\*\*[^\n]*\n?/m, ""),
-  );
-  const questions = quizMarkdown
-    ? parseQuizMarkdown(quizMarkdown, entry.slug)
+  const html = await markdownToHtml(body);
+  const questions = entry.quizMarkdown
+    ? parseQuizMarkdown(entry.quizMarkdown, entry.slug)
     : [];
   const related = seeAlsoText ? parseSeeAlso(seeAlsoText, getAllEntries()) : [];
   const guidance = guidanceFor(entry);

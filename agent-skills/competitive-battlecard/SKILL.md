@@ -3,7 +3,7 @@ name: competitive-battlecard
 description: "Use when sales needs to win against a named competitor: reps improvise when a rival comes up, win rate against one competitor is falling, a competitor has repositioned or cut prices, a new rival is appearing in deals, or someone asks for a battlecard, competitive one-pager, objection handling, or a competitor teardown. Builds a one-page, evidence-backed card (their pitch, counter-position, landmines, verbatim objection responses, proof) and trains the live delivery technique that goes with it. Not for company-level competitive strategy or category positioning."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/09-sales-enablement.md; frameworks/07-strategy-planning.md; frameworks/03-competitive-strategy.md"
+  kb-source: "frameworks/09-sales-enablement/; frameworks/07-strategy-planning/; frameworks/03-competitive-strategy/"
   frameworks: "Competitive Battlecard Framework; VARS (Validate, Acknowledge, Reframe, Specify); Competitive Intelligence & Positioning Update Framework; CI Program Maturity Model"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,8 +18,8 @@ It is not a research document. Everything that is not immediately usable in a
 live conversation belongs in a linked appendix.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/09-sales-enablement.md` (Competitive Battlecard Framework, VARS)
-and `frameworks/07-strategy-planning.md` (Competitive Intelligence & Positioning
+`frameworks/09-sales-enablement/` (Competitive Battlecard Framework, VARS)
+and `frameworks/07-strategy-planning/` (Competitive Intelligence & Positioning
 Update Framework).
 
 ## Procedure
@@ -91,12 +91,12 @@ forced, and the refresh schedule with a named owner.
 and proof the counter-positions draw from), `positioning-development` (the
 differentiation the card operationalises). For diagnosing the maturity of the
 competitive intelligence function as a whole rather than building one card, see
-the CI Program Maturity Model in `frameworks/03-competitive-strategy.md`.
+the CI Program Maturity Model in `frameworks/03-competitive-strategy/`.
 
 ## Attribution
 
 Derived from the Competitive Battlecard Framework and VARS Framework entries in
-`frameworks/09-sales-enablement.md`, which carry the full citations (VARS is
+`frameworks/09-sales-enablement/`, which carry the full citations (VARS is
 attributed there to Alex McDonnell via the Competitive Intelligence Alliance).
 Skill format follows the Agent Skills open specification. See
 [ATTRIBUTION.md](../ATTRIBUTION.md).

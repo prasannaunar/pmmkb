@@ -69,7 +69,7 @@ scans.
 Symlinking keeps the skills in step with this repository. Copying does not, so
 re-copy after pulling changes.
 
-**The skills reference knowledge base files by path** (`frameworks/02-positioning-messaging.md`
+**The skills reference knowledge base files by path** (`frameworks/02-positioning-messaging/`
 and similar), relative to the repository root. Install them alongside a
 checkout of this repository, or the agent will follow the procedure without
 being able to open the underlying entry.

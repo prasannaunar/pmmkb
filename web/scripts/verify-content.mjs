@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import path from "node:path";
 import ts from "typescript";
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
@@ -16,7 +17,6 @@ load.extensions[".ts"] = (mod, file) =>
     file,
   );
 const content = load("../src/lib/content.ts");
-const editorial = load("../src/lib/editorial.ts");
 const guides = load("../src/lib/guides.ts");
 const quiz = load("../src/lib/quiz.ts");
 const sections = load("../src/lib/entry-sections.ts");
@@ -25,10 +25,32 @@ const entries = content.getAllEntries();
 assert.equal(entries.length, 66);
 assert.equal(categories.length, 10);
 assert.equal(new Set(entries.map((e) => e.slug)).size, 66);
+// Layout: the loader already throws on a missing or malformed field, a slug
+// that differs from its file name, or a body that does not open with the
+// title. These checks cover what it cannot see from one file at a time.
+const repoRoot = path.join(import.meta.dirname, "..", "..");
+for (const category of categories) {
+  const orders = category.entries.map((e) => e.order);
+  assert.equal(
+    new Set(orders).size,
+    orders.length,
+    `Duplicate order values in ${category.slug}`,
+  );
+  const dir = category.entries[0].filePath.replace(/\/[^/]+$/, "");
+  const entrySlugs = new Set(category.entries.map((e) => e.slug));
+  for (const file of fs.readdirSync(path.join(repoRoot, dir))) {
+    if (!file.endsWith(".quiz.md") || file === "_category.quiz.md") continue;
+    assert.ok(
+      entrySlugs.has(file.replace(/\.quiz\.md$/, "")),
+      `Quiz file with no entry: ${dir}/${file}`,
+    );
+  }
+}
 for (const entry of entries) {
+  assert.ok(entry.useWhen && entry.produces, `Missing use_when/produces: ${entry.title}`);
   assert.ok(
-    editorial.entryGuidance[entry.title],
-    `Missing editorial summary: ${entry.title}`,
+    entry.quizMarkdown,
+    `Missing quiz file: ${entry.filePath.replace(/\.md$/, ".quiz.md")}`,
   );
   const { sourcesMarkdown, sourceCredits } = sections.extractSpecialSections(
     entry.rawMarkdown,
@@ -43,17 +65,13 @@ for (const entry of entries) {
       !/[[\]()*]|\bhttp/.test(name) && name.length <= 40,
       `Credit should be a bare name: ${entry.title} -> ${name}`,
     );
-  const q = quiz.parseQuizMarkdown(
-    quiz.extractEntryQuiz(entry.rawMarkdown).quizMarkdown,
-    entry.slug,
-  );
+  const q = quiz.parseQuizMarkdown(entry.quizMarkdown, entry.slug);
   assert.equal(q.length, 5, entry.title);
   for (const question of q) {
     assert.equal(question.options.length, 4);
     assert.equal(question.options.filter((o) => o.correct).length, 1);
   }
 }
-assert.equal(Object.keys(editorial.entryGuidance).length, 66);
 assert.equal(categories.filter((c) => c.quizMarkdown).length, 9);
 for (const c of categories.filter((c) => c.quizMarkdown))
   assert.equal(
@@ -78,7 +96,7 @@ for (const guide of guides.learningPaths) {
 const requiredCleanFlags = flagNames.filter((f) => f !== "correctLongest" && f !== "spread");
 const byFile = new Map();
 for (const set of collectQuizSets(content, guides, quiz)) {
-  const stats = byFile.get(set.file) ?? { total: 0, correctLongest: 0 };
+  const stats = byFile.get(set.group) ?? { total: 0, correctLongest: 0 };
   for (const q of set.questions) {
     const result = auditQuestion(q);
     stats.total++;
@@ -89,7 +107,7 @@ for (const set of collectQuizSets(content, guides, quiz)) {
         `Quiz question flagged ${f} in ${set.file} (${set.label}): "${result.stem.slice(0, 90)}"`,
       );
   }
-  byFile.set(set.file, stats);
+  byFile.set(set.group, stats);
 }
 for (const [file, stats] of byFile)
   assert.ok(
@@ -98,5 +116,5 @@ for (const [file, stats] of byFile)
   );
 
 console.log(
-  "PASS: 66 entries with source credits, 66 editorial summaries, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
+  "PASS: 66 entries with valid frontmatter, source credits and quiz files, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
 );

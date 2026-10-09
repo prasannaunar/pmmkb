@@ -1,6 +1,6 @@
 # Quick Reference: Sales Enablement
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement.md](../frameworks/09-sales-enablement.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/09-sales-enablement/](../frameworks/09-sales-enablement/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

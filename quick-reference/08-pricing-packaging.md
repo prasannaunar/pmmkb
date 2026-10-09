@@ -1,6 +1,6 @@
 # Quick Reference: Pricing & Packaging
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/08-pricing-packaging.md](../frameworks/08-pricing-packaging.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/08-pricing-packaging/](../frameworks/08-pricing-packaging/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

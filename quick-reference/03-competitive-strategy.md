@@ -1,6 +1,6 @@
 # Quick Reference: Competitive Strategy
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/03-competitive-strategy.md](../frameworks/03-competitive-strategy.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/03-competitive-strategy/](../frameworks/03-competitive-strategy/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

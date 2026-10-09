@@ -1,6 +1,6 @@
 # 10-Step PMM Process: Case Study
 
-> **Framework source:** [10-Step PMM Process](../frameworks/04-go-to-market-launch.md) | **Category:** 4: Go-to-Market & Launch
+> **Framework source:** [10-Step PMM Process](../frameworks/04-go-to-market-launch/10-step-pmm-process.md) | **Category:** 4: Go-to-Market & Launch
 
 ---
 
