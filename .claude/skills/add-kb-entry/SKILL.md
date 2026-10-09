@@ -1,6 +1,6 @@
 ---
 name: add-kb-entry
-description: Use when adding a new framework, methodology, model, or primer to the PMM knowledge base, or retagging an existing entry's Type or category. Walks through every doc that must stay in sync (category file, INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, and any candidate queue), so nothing is left stale.
+description: Use when adding a new framework, methodology, model, or primer to the PMM knowledge base, or retagging an existing entry's Type or category. Walks through every doc that must stay in sync (entry and quiz files, INDEX.md, README.md, FRAMEWORK-MAP.md, BY-SITUATION.md, and any candidate queue), so nothing is left stale.
 ---
 
 # Adding or retagging a knowledge base entry
@@ -11,10 +11,16 @@ through the list in order every time an entry is added, moved, or retagged.
 
 ## 1. Write or edit the entry itself
 
-Put it in the right `frameworks/0N-*.md` category file (or `concepts/` if it's
-a primer). Follow CLAUDE.md's Writing Standards and Content Types sections:
-declare `**Type:**` under the H2 title, use that type's section order, hit
-the word-count target, British English, no em dashes.
+Create `<slug>.md` in the right category folder, `frameworks/0N-*/` (or
+`concepts/` if it's a primer). The slug is the page address, so choose it once
+and never change it. The file opens with YAML frontmatter (`title`, `slug`,
+`type`, `order`, `use_when`, `produces`) and then `# <title>`; see
+"Repository Structure" in [CLAUDE.md](../../../CLAUDE.md) for each field. Set
+`order` to slot the entry into the category's workflow sequence (existing
+entries step by 10, so there is usually a gap). Follow CLAUDE.md's Writing
+Standards and Content Types sections: declare `type` in the frontmatter, use
+that type's section order, hit the word-count target, British English, no em
+dashes.
 
 Cite every real-world fact as you write it, don't leave it for a later pass:
 a framework's origin (who created it, what book/article, what year) needs a
@@ -36,8 +42,8 @@ check the entry passes.
 
 ## 2. Write the entry's Quiz section
 
-Every entry needs a `**Quiz:**` section as its last section (after
-`**See also:**`): 5 questions, following
+Every entry needs a sibling quiz file, `<slug>.quiz.md`, opening with
+`# Quiz: <title>` and then 5 questions, following
 [QUIZ-SPEC.md](../../../QUIZ-SPEC.md) exactly — four options per question,
 one correct, at least 3 of 5 scenario-based, explanatory feedback on every
 option (correct and incorrect), the correct option always written as **A**
@@ -55,11 +61,11 @@ near miss: the right family of response, wrong in one nameable way (wrong
 sequence, scope, evidence, owner or cadence, adjacent method, or correct
 but incomplete), with feedback that names the discriminator. Keep all four
 options within roughly 20% of each other in length. Check with
-`npm run audit:quiz -- --file <path>` in `web/`; see QUIZ-SPEC.md's
+`npm run audit:quiz -- --file <category folder>` in `web/`; see QUIZ-SPEC.md's
 "Distractor quality" for the taxonomy and worked examples.
 
 Check whether the entry should also appear in its category's existing
-`## Category Quiz` (10 questions, at the top of the category file): if the
+category quiz (10 questions, in `_category.quiz.md` in the category folder): if the
 new entry names a genuinely distinguishing use case not yet covered by an
 existing category-quiz question, consider adding or swapping in a question
 for it. This isn't mandatory for every new entry, since a category quiz

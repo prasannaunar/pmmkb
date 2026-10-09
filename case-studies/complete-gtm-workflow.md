@@ -1,6 +1,6 @@
 # Complete GTM Workflow Stages: Case Study
 
-> **Framework source:** [Complete GTM Workflow Stages](../frameworks/04-go-to-market-launch.md) | **Category:** 4: Go-to-Market & Launch
+> **Framework source:** [Complete GTM Workflow Stages](../frameworks/04-go-to-market-launch/complete-gtm-workflow-stages.md) | **Category:** 4: Go-to-Market & Launch
 
 ---
 

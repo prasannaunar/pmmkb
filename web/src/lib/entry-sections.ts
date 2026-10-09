@@ -1,5 +1,4 @@
 import type { Entry } from "./content";
-import { extractEntryQuiz } from "./quiz";
 
 export interface ExtractedSections {
   body: string;
@@ -10,7 +9,6 @@ export interface ExtractedSections {
    * entry title reads the same length and shape on every entry. */
   sourceCredits: string[];
   seeAlsoText: string | null;
-  quizMarkdown: string | null;
 }
 
 /**
@@ -20,8 +18,7 @@ export interface ExtractedSections {
  * the remaining body for the generic section pipeline.
  */
 export function extractSpecialSections(markdown: string): ExtractedSections {
-  const { body: withoutQuiz, quizMarkdown } = extractEntryQuiz(markdown);
-  const lines = withoutQuiz.split("\n");
+  const lines = markdown.split("\n");
   const toRemove = new Set<number>();
 
   const sourcesIdx = lines.findIndex((l) => /^\*\*Sources:\*\*/.test(l.trim()));
@@ -52,7 +49,7 @@ export function extractSpecialSections(markdown: string): ExtractedSections {
   }
 
   const body = lines.filter((_, i) => !toRemove.has(i)).join("\n");
-  return { body, sourcesMarkdown, sourceCredits, seeAlsoText, quizMarkdown };
+  return { body, sourcesMarkdown, sourceCredits, seeAlsoText };
 }
 
 function normalize(s: string): string {

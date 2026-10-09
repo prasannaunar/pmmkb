@@ -54,26 +54,30 @@ export function auditQuestion(q) {
   };
 }
 
+function categoryDir(category) {
+  return category.entries[0].filePath.replace(/\/[^/]+$/, "");
+}
+
 /** Collects every quiz question set (entry quizzes, category quizzes, and
- * guides.ts path quizzes) with the file each belongs to, for auditing. */
+ * guides.ts path quizzes). `file` is the quiz file it came from; `group` is the
+ * category folder it rolls up into, the unit the 35% correct-is-longest
+ * ceiling applies to. */
 export function collectQuizSets(content, guides, quizLib) {
   const sets = [];
   for (const entry of content.getAllEntries()) {
-    const md = quizLib.extractEntryQuiz(entry.rawMarkdown).quizMarkdown;
     sets.push({
-      file:
-        entry.categorySlug === "concepts-primers"
-          ? "concepts/gtm-strategy-vs-product-marketing.md"
-          : `frameworks/${entry.categorySlug}.md`,
+      file: entry.filePath.replace(/\.md$/, ".quiz.md"),
+      group: entry.filePath.replace(/\/[^/]+$/, ""),
       label: entry.title,
-      questions: quizLib.parseQuizMarkdown(md ?? "", entry.slug),
+      questions: quizLib.parseQuizMarkdown(entry.quizMarkdown ?? "", entry.slug),
     });
   }
   for (const category of content
     .getAllCategories()
     .filter((c) => c.quizMarkdown)) {
     sets.push({
-      file: `frameworks/${category.slug}.md`,
+      file: `${categoryDir(category)}/_category.quiz.md`,
+      group: categoryDir(category),
       label: `${category.title} (category quiz)`,
       questions: quizLib.parseQuizMarkdown(category.quizMarkdown, category.slug),
     });
@@ -81,6 +85,7 @@ export function collectQuizSets(content, guides, quizLib) {
   for (const guide of guides.learningPaths) {
     sets.push({
       file: "web/src/lib/guides.ts",
+      group: "web/src/lib/guides.ts",
       label: `${guide.title} (path quiz)`,
       questions: guides.pathQuiz(guide).questions,
     });

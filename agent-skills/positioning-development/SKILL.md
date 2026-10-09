@@ -3,7 +3,7 @@ name: positioning-development
 description: "Use when developing, refreshing, or stress-testing product positioning: nobody can explain what the product is, two teams pitch it differently, a competitor has repositioned, the product is entering a new segment or category, or someone asks for a positioning statement, positioning canvas, or category decision. Runs the evidence-first positioning process (best-fit customers, true competitive alternatives, unique attributes, value, segment, category) and produces a validated positioning canvas plus a positioning statement. Use it before any messaging, website copy, or launch narrative work."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/02-positioning-messaging.md; frameworks/01-market-customer-understanding.md"
+  kb-source: "frameworks/02-positioning-messaging/; frameworks/01-market-customer-understanding/"
   frameworks: "April Dunford 10-Step Positioning Process and 5-Component Canvas; Geoffrey Moore positioning statement; Jobs-to-be-Done; JTBD Switch Interview"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,7 +18,7 @@ canvas the company argues over and settles, then compresses into a statement.
 Anyone who starts by drafting the sentence has skipped the work.
 
 Paths below are relative to the knowledge base root. The full entries are in
-`frameworks/02-positioning-messaging.md` (April Dunford's 5-Component
+`frameworks/02-positioning-messaging/` (April Dunford's 5-Component
 Positioning Canvas, Dunford's 10-Step Positioning Process, Geoffrey Moore's
 Positioning Statement Framework, Jobs-to-be-Done Positioning Framework).
 
@@ -55,7 +55,7 @@ inconsistent, stop and use the `messaging-architecture` skill instead.
    established category the buyer already understands, and a narrower or
    adjacent one. Creating a new category is a multi-year commitment; if that is
    genuinely on the table, read Category Design in
-   `frameworks/03-competitive-strategy.md` before choosing it.
+   `frameworks/03-competitive-strategy/` before choosing it.
 7. **Add a trend only if a real one exists.** A genuine regulation change, cost
    pressure, or behaviour shift adds urgency. A manufactured trend destroys
    credibility. Skipping this step is a valid outcome.
@@ -120,6 +120,6 @@ what was cut and why), and the named open questions. Hand off to
 ## Attribution
 
 Derived from the Dunford, Moore, and Jobs-to-be-Done entries in
-`frameworks/02-positioning-messaging.md`, which carry the full citations. Skill
+`frameworks/02-positioning-messaging/`, which carry the full citations. Skill
 format follows the Agent Skills open specification. See
 [ATTRIBUTION.md](../ATTRIBUTION.md).

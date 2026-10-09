@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-08 (pmmkb.com custom domain live; SEO/GEO deferral lifted)
+**Last Updated:** 2026-10-09 (content modularised into one file per entry plus sibling quiz files; SEO/GEO audit and plan recorded)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -19,30 +19,53 @@ All 435 quiz questions across all 11 sources have been rewritten to the tightene
 - [ ] **Monthly team feedback session.** Tooling exists in FEEDBACK-LOG.md; no session has been logged yet.
 - [ ] **Annual update calendar distribution.** The calendar is documented in FEEDBACK-LOG.md; it has not been distributed to the team.
 
+### Content modularisation ✅ Complete (2026-10-09)
+
+Each category was a single large markdown file holding every entry and every quiz (quizzes were about half the text), with the entry summaries and category introductions kept in `web/src/lib/editorial.ts` and matched by exact title. Now each category is a folder: `_category.md` and `_category.quiz.md`, then one `<slug>.md` (YAML frontmatter plus prose) and one `<slug>.quiz.md` per entry. The primers collection, `concepts/`, has the same shape. Page addresses come from the stored `slug`, so a title can change without moving a URL. The web app discovers folders and files at build time and fails the build, naming the file, on malformed frontmatter. Format and field rules are in CLAUDE.md ("Entry file format").
+
+Verified as a no-op for readers: the 66 entries, 10 categories, all quizzes, summaries and the search index were compared before and after, and the full static export (524 files) was diffed against a build of the previous layout. The only difference is the search index no longer carrying the `Type: X.` prefix on each entry's text, now that the type lives in frontmatter.
+
+Follow-ups, none started:
+
+- [ ] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift.
+- [ ] Use `filePath` to add an "Edit on GitHub" link to entry pages.
+
 ### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
 
-Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting). The full implementation record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06 after its re-scan found nothing depending on it; the summary above is what remains. Workstream 6 was scoped but not built, and is **next in line to be picked up**. The custom domain went live on 2026-10-08 (https://www.pmmkb.com/), so the domain-dependent items below are no longer blocked and the whole workstream can ship in one pass. Domain-independent items:
+Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting); the record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06. Workstream 6 is **next in line**, now unblocked by the custom domain (https://www.pmmkb.com/, live 2026-10-08). The canonical origin lives in one place, `SITE_URL` in `web/src/lib/site.ts`; read every absolute URL from it, never hard-code the domain.
 
-- [ ] Per-page metadata: entry descriptions drawn from the first sentence of "What it is" (unique, ~155 chars) instead of the current generic template; Open Graph and Twitter card tags without absolute URLs; `og:type=article` for entries.
-- [x] `robots.txt` via `app/robots.ts` (2026-09-25): allows all user agents on all paths; no sitemap reference yet, as planned, since that waits on the domain move below.
-- [ ] Semantic HTML pass: one `h1` per page, `<article>`, `<nav aria-label>`, a skip link, landmark roles.
-- [ ] Structured data (JSON-LD) content and structure: `WebSite` + `SearchAction` on the homepage, `BreadcrumbList` on category/entry pages, `Article` per entry with `citation` populated from the Sources block, `CollectionPage` for category/type pages. Build the structure now; the `url`/`@id` fields still need the domain (see below).
-- [ ] GEO/AEO answer-shaping: a concise definition sentence at the top of each entry page (surfacing the existing first sentence of "What it is"); visible authorship/provenance line ("Summarised from [originator]; see Sources").
+**Sequencing.** The content modularisation (below) has shipped, so entries now have stable `slug`s and per-entry frontmatter. PR 1 can start straight away. The entry `description` (first sentence of "What it is", ~155 characters) was deliberately not added to the frontmatter in the modularisation, because it needs editorial trimming per entry and nothing reads it until PR 1; add it as a `description` frontmatter field in PR 1 and make the metadata read it.
 
-**Unblocked by the domain move (2026-10-08).** The canonical origin is `https://www.pmmkb.com` (the apex `pmmkb.com` 308-redirects to it). It lives in one place, `SITE_URL` in `web/src/lib/site.ts`, which reads `NEXT_PUBLIC_SITE_URL` and falls back to the production origin; read every absolute URL from it, never hard-code the domain.
+**Audit of the live site (2026-10-09).**
 
-- [x] `metadataBase` set from `SITE_URL` in `web/src/app/layout.tsx` (2026-10-08).
-- [ ] Canonical URLs (`alternates.canonical`) and `og:url` on every page.
-- [ ] `sitemap.xml` via `app/sitemap.ts` covering home, topics, categories, types, entries, challenges and learning paths; add its URL to `app/robots.ts`.
-- [ ] JSON-LD `url`/`@id` fields built from `SITE_URL`.
-- [ ] `llms.txt` (site summary plus links to every category and entry) and `llms-full.txt` (full entry text) generated at build time from the source markdown.
-- [ ] **`pmmkb.vercel.app` still serves the site with HTTP 200** rather than redirecting, so it is a duplicate of www.pmmkb.com. Redirect it to `https://www.pmmkb.com` in the Vercel project's Domains settings (owner action), or at minimum rely on the canonical tags above.
-- [ ] Register www.pmmkb.com in Google Search Console and Bing Webmaster Tools and submit the sitemap (owner action; needs a DNS or HTML verification record). Previously out of scope; brought in now the domain is permanent.
-- [ ] GEO cross-linking: the owner's site, https://www.prasannaunar.com/, now features this knowledge base on its `/projects/` page; add a reciprocal "Built by" or "About" link here so answer engines connect the two.
+- Done: `robots.txt` via `app/robots.ts` (2026-09-25, allows all, no sitemap reference yet); `metadataBase` from `SITE_URL` (2026-10-08); apex `pmmkb.com` 308-redirects to `www`; entry pages already carry unique meta descriptions (from the entry's "use when" guidance) and one `h1`; skip link, `<main>`, labelled navs, breadcrumbs and `<article>` are in place.
+- Missing: `sitemap.xml` and `llms.txt` (both 404); canonical tags on every page; Open Graph and Twitter tags; any JSON-LD; type pages have no description; the sidebar renders the site name as an `h1` (`web/src/components/sidebar.tsx`), so pages that show it carry two.
+- Duplicates: every page is reachable at `pmmkb.vercel.app` (HTTP 200, no redirect) and with or without a trailing slash; canonicals are the fix.
+
+**PR 1: metadata foundation**
+
+- [ ] Shared metadata helper setting `alternates.canonical`, `og:url`, Open Graph and Twitter card tags on every page from `SITE_URL`; `og:type=article` on entries.
+- [ ] Entry descriptions from the first sentence of "What it is", trimmed to ~155 characters, replacing the current "use when" text.
+- [ ] Descriptions on type pages.
+- [ ] `app/sitemap.ts` covering home, topics, categories, types, entries, challenges and learning paths; reference it from `app/robots.ts`.
+- [ ] Demote the sidebar `h1`; close out the semantic HTML pass (landmarks, `<nav aria-label>`, one `h1` per page).
+
+**PR 2: structured data and answer-engine shaping**
+
+- [ ] JSON-LD: `WebSite` + `SearchAction` on the homepage; `BreadcrumbList` on category and entry pages; `Article` per entry with `citation` from the Sources block and authors from the credits line; `CollectionPage` on category and type pages. All `url`/`@id` fields from `SITE_URL`.
+- [ ] `llms.txt` (site summary plus links to every category and entry) and `llms-full.txt` (full entry text), generated at build time from the source markdown.
+- [ ] A visible definition sentence at the top of each entry page and a provenance line ("Summarised from [originators]; see Sources").
+- [ ] A reciprocal "Built by" link to https://www.prasannaunar.com/ so answer engines connect the two sites.
+- [ ] A `test:content` assertion that every entry yields a unique, non-empty description of 50-160 characters.
+
+**Owner actions**
+
+- [ ] Redirect `pmmkb.vercel.app` to `https://www.pmmkb.com` in the Vercel project's Domains settings.
+- [ ] Verify www.pmmkb.com in Google Search Console and Bing Webmaster Tools and submit the sitemap once PR 1 is live.
 
 **Explicitly out of scope:** URL restructuring (`/framework/[slug]` for all types), analytics, and any paid tooling.
 
-**Acceptance (now):** semantic HTML pass complete; `robots.txt` deployed; unique meta descriptions on all 66 entries. **Acceptance (domain-dependent, now unblocked):** Lighthouse SEO score 100 on entry/category/home pages; valid JSON-LD; `sitemap.xml` and `llms.txt` deployed with `https://www.pmmkb.com` URLs; canonicals set; `pmmkb.vercel.app` redirects to the custom domain.
+**Acceptance:** Lighthouse SEO score 100 on home, category and entry pages; JSON-LD passes Google's Rich Results Test; `sitemap.xml` and `llms.txt` live with `https://www.pmmkb.com` URLs; canonicals on every page; `pmmkb.vercel.app` redirects to the custom domain.
 
 ### Web app: open questions (from Phase 6, below)
 

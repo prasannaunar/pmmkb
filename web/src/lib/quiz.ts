@@ -1,7 +1,7 @@
 /**
- * Parses the `**Quiz:**` sections authored in the knowledge base's markdown
- * (see QUIZ-SPEC.md) into structured questions the QuizSection component can
- * render interactively.
+ * Parses the quiz files authored in the knowledge base (`<slug>.quiz.md` per
+ * entry and `_category.quiz.md` per category; see QUIZ-SPEC.md) into structured
+ * questions the QuizSection component can render interactively.
  *
  * Source convention: a numbered list where each item is
  *   N. <stem>
@@ -74,8 +74,7 @@ const CORRECT_LINE = /\*\*Correct answer:\s*([A-D])\.\*\*\s*([\s\S]*?)(?=\n\s*\*
 const WHY_NOT_LINE = /\*Why not ([A-D]):\*\s*([\s\S]*?)(?=\n\s*\*Why not [A-D]:|\n*$)/g;
 
 /**
- * Parses a raw quiz markdown block (the text following a `**Quiz:**` label
- * or inside a `## Category Quiz` section) into structured questions.
+ * Parses the markdown of a quiz file into structured questions.
  * `seedKey` should be a stable identifier (e.g. the entry or category slug)
  * so the deterministic per-question shuffle differs across pages.
  */
@@ -134,38 +133,4 @@ export function parseQuizMarkdown(markdown: string, seedKey: string): QuizQuesti
       };
     })
     .filter((q) => q.stem && q.options.length === 4);
-}
-
-/** Pulls a `**Quiz:**` section (always the final section of an entry) out of
- * an entry's markdown, leaving the remaining body for the section pipeline. */
-export function extractEntryQuiz(markdown: string): {
-  body: string;
-  quizMarkdown: string | null;
-} {
-  const lines = markdown.split("\n");
-  const quizIdx = lines.findIndex((l) => l.trim() === "**Quiz:**");
-  if (quizIdx === -1) return { body: markdown, quizMarkdown: null };
-
-  const body = lines.slice(0, quizIdx).join("\n").trimEnd();
-  const quizMarkdown = lines.slice(quizIdx + 1).join("\n").trim();
-  return { body, quizMarkdown: quizMarkdown || null };
-}
-
-/** Pulls a leading `## Category Quiz` section out of a category file's raw
- * content, before the file is split into entries, so it is never mistaken
- * for an entry itself. */
-export function extractCategoryQuiz(fileContent: string): {
-  content: string;
-  quizMarkdown: string | null;
-} {
-  const lines = fileContent.split("\n");
-  const headingIdx = lines.findIndex((l) => l.trim() === "## Category Quiz");
-  if (headingIdx === -1) return { content: fileContent, quizMarkdown: null };
-
-  let endIdx = lines.findIndex((l, i) => i > headingIdx && l.trim() === "---");
-  if (endIdx === -1) endIdx = lines.length;
-
-  const quizMarkdown = lines.slice(headingIdx + 1, endIdx).join("\n").trim();
-  const content = [...lines.slice(0, headingIdx), ...lines.slice(endIdx + 1)].join("\n");
-  return { content, quizMarkdown: quizMarkdown || null };
 }
