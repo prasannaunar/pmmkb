@@ -16,7 +16,7 @@
      one from the add-kb-entry skill's checklist, or write "Unknown" against
      any you couldn't verify rather than leaving it blank. -->
 
-- [ ] Category file (`frameworks/0N-*.md` or `concepts/`)
+- [ ] Entry file and its `.quiz.md` (`frameworks/0N-*/<slug>.md` or `concepts/`), or `_category.md` / `_category.quiz.md` for a category change
 - [ ] `INDEX.md`
 - [ ] `README.md` (counts/summary table)
 - [ ] `FRAMEWORK-MAP.md`

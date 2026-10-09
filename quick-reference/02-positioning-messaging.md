@@ -1,6 +1,6 @@
 # Quick Reference: Positioning & Messaging
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/02-positioning-messaging.md](../frameworks/02-positioning-messaging.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/02-positioning-messaging/](../frameworks/02-positioning-messaging/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # Quick Reference: Go-to-Market & Launch
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch.md](../frameworks/04-go-to-market-launch.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/04-go-to-market-launch/](../frameworks/04-go-to-market-launch/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

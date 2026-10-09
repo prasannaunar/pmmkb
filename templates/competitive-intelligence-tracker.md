@@ -1,6 +1,6 @@
 # Competitive Intelligence Tracker
 
-A working companion to the [Competitive Intelligence & Positioning Update Framework](../frameworks/07-strategy-planning.md) (Category 7). This was listed in [PLAN.md](../PLAN.md) Phase 2.4 alongside the other three operational templates; it lives here because the audit checklist and quarterly template above both reference it directly.
+A working companion to the [Competitive Intelligence & Positioning Update Framework](../frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) (Category 7). This was listed in [PLAN.md](../PLAN.md) Phase 2.4 alongside the other three operational templates; it lives here because the audit checklist and quarterly template above both reference it directly.
 
 ---
 
@@ -25,13 +25,13 @@ For the top 1-2 competitors by deal frequency, once a quarter:
 - **Positioning shift since last quarter:**
 - **Pricing/packaging shift since last quarter:**
 - **New named customers or case studies:**
-- **Win/loss pattern against this competitor this quarter:** (pull from [Win/Loss Analysis](../frameworks/06-product-experience-adoption.md))
-- **Battlecard update required?** Y/N; if Y, link the updated [Battlecard](../frameworks/09-sales-enablement.md)
+- **Win/loss pattern against this competitor this quarter:** (pull from [Win/Loss Analysis](../frameworks/06-product-experience-adoption/winloss-analysis-framework.md))
+- **Battlecard update required?** Y/N; if Y, link the updated [Battlecard](../frameworks/09-sales-enablement/competitive-battlecard-framework.md)
 
 ## Competitive Matrix Update Schedule
 
 - **Monthly:** scan checklist above, all tracked competitors
-- **Quarterly:** deep-dive template above, top 1-2 competitors; refresh the [Perceptual Map](../frameworks/03-competitive-strategy.md) or [Bowman's Strategic Clock](../frameworks/03-competitive-strategy.md) position if it has moved
+- **Quarterly:** deep-dive template above, top 1-2 competitors; refresh the [Perceptual Map](../frameworks/03-competitive-strategy/perceptual-map-2x2.md) or [Bowman's Strategic Clock](../frameworks/03-competitive-strategy/bowmans-strategic-clock.md) position if it has moved
 - **Ad hoc:** any escalation trigger below, regardless of schedule
 
 ## When to Escalate

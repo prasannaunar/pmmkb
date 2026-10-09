@@ -1,6 +1,6 @@
 # Quarterly PMM Planning Template
 
-A working template for [Quarterly PMM Planning Framework](../frameworks/07-strategy-planning.md) (Category 7). Copy this file, fill in each section for the upcoming quarter, and review it against actuals at quarter close.
+A working template for [Quarterly PMM Planning Framework](../frameworks/07-strategy-planning/quarterly-pmm-planning-framework.md) (Category 7). Copy this file, fill in each section for the upcoming quarter, and review it against actuals at quarter close.
 
 ---
 

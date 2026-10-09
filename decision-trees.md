@@ -103,7 +103,7 @@ What's the question?
 │      First open: Net Promoter Score (NPS) & Feedback Loop Framework, to find who your promoters already are
 │
 └─ "We need a plan for next quarter, not a one-off fix"
-    └─ Open the Quarterly PMM Planning Framework (`frameworks/07-strategy-planning.md`) directly and use
+    └─ Open the Quarterly PMM Planning Framework (`frameworks/07-strategy-planning/`) directly and use
        [templates/quarterly-planning-template.md](templates/quarterly-planning-template.md) to link each goal
        to the frameworks above that apply to it
 ```

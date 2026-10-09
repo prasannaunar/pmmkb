@@ -1,7 +1,7 @@
 # Quiz Specification for PMMKB
 
 **Status:** Feature complete and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle) for all 66 entries and all 9 category quizzes. **The distractor standard was tightened on 2026-09-09** after the existing questions proved answerable by picking the longest option; see "Distractor quality" below for the current rules and [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md) for the batch programme bringing the 435 existing questions up to them.
-**Last Updated:** 2026-09-09
+**Last Updated:** 2026-10-09 (quizzes moved to sibling files; see decisions 1 and 2)
 
 This is the source-of-truth spec for the quiz feature described in PLAN.md's Phase 7. If a build session runs out of room partway through, resume from here rather than re-deriving the requirements; update the "Build progress" section at the bottom as work lands.
 
@@ -92,7 +92,7 @@ The near miss's feedback must name the discriminator. Not "this is not the best 
 
 - All four options within ±20% of that question's median option length.
 - No option more than 25% longer than the longest of the other three.
-- Across a category file, the correct answer is the longest option in no more than 35% of questions. Chance is 25%; the band leaves room for questions where the correct answer is genuinely the fullest statement.
+- Across a category folder, the correct answer is the longest option in no more than 35% of questions. Chance is 25%; the band leaves room for questions where the correct answer is genuinely the fullest statement.
 
 Keep all four options similar in grammatical structure and level of detail, not just in length: four actions, or four diagnoses, not one of each.
 
@@ -148,8 +148,10 @@ In the source markdown, the correct option is always written as **A** for every 
 
 ## Implementation decisions (settled 2026-09-06)
 
-1. **Where quizzes live in the source of truth.** Settled: a new `**Quiz:**` bold-label section inside each entry's existing markdown, placed as the last section (after `**See also:**`), matching the existing bold-label convention (`**What it is:**`, `**Sources:**`, etc.) rather than an H3 heading. Each question is a numbered list item containing the stem, four lettered options (`- **A.** ...` through `- **D.**`), a `**Correct answer: X.**` paragraph with reinforcing feedback, then three `*Why not X:*` paragraphs, one per incorrect option, in letter order. The web app's parser (`web/src/lib/content.ts`) will need extending to recognise and extract this block separately from prose when quiz rendering is built; that extension has not been done yet (content-only phase, see below).
-2. **Category quiz placement.** Settled: a `## Category Quiz` H2 section at the very top of each category markdown file (`frameworks/0X-*.md`), before the first entry's H2, separated by the same `---` rule used between entries. Uses the same numbered-list question format as entry quizzes.
+> The build-progress log further down predates the 2026-10-09 file split. Its category paths now point at the category folders; wording about a single category file or a `**Quiz:**` section describes the layout as it was then.
+
+1. **Where quizzes live in the source of truth.** Settled: a new `**Quiz:**` bold-label section inside each entry's existing markdown, placed as the last section (after `**See also:**`), matching the existing bold-label convention (`**What it is:**`, `**Sources:**`, etc.) rather than an H3 heading. Each question is a numbered list item containing the stem, four lettered options (`- **A.** ...` through `- **D.**`), a `**Correct answer: X.**` paragraph with reinforcing feedback, then three `*Why not X:*` paragraphs, one per incorrect option, in letter order. The web app's parser (`web/src/lib/content.ts`) will need extending to recognise and extract this block separately from prose when quiz rendering is built; that extension has not been done yet (content-only phase, see below). **Superseded 2026-10-09:** each entry's quiz now lives in its own sibling file, `<slug>.quiz.md`, beginning `# Quiz: <title>` and then the same numbered questions; there is no `**Quiz:**` label any more. The question format below is unchanged.
+2. **Category quiz placement.** Settled: a `## Category Quiz` H2 section at the very top of each category markdown file (`frameworks/0X-*.md`), before the first entry's H2, separated by the same `---` rule used between entries. Uses the same numbered-list question format as entry quizzes. **Superseded 2026-10-09:** the category quiz is `_category.quiz.md` in the category folder, beginning `# Category Quiz: <title>`; the same format applies.
 3. **Web app interactivity.** Done (2026-09-06). See `web/src/lib/quiz.ts` (parser + deterministic per-question option shuffle), `web/src/components/quiz-section.tsx` (client component: click-to-reveal feedback, progress indicator, Retry), and the wiring into `web/src/lib/content.ts`, `web/src/lib/entry-sections.ts`, `web/src/app/framework/[slug]/page.tsx`, and `web/src/app/category/[slug]/page.tsx`.
 4. **Which entries first.** Sequencing by category. Category 3 (Competitive Strategy) built first as the pilot, chosen because it has all three non-primer types (Framework, Methodology, Model) in one category.
 5. **Quality gate integration.** Still open; not yet added to CLAUDE.md's publishing checklist or the `add-kb-entry` skill. Revisit once the format has been used across more than one category and any format issues have surfaced.
@@ -159,15 +161,15 @@ In the source markdown, the correct option is always written as **A** for every 
 ## Build progress
 
 - [x] Decide open implementation questions above (source-of-truth format, category quiz file location; web app interactivity deferred).
-- [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries have a 5-question `**Quiz:**` section; 10-question `## Category Quiz` at the top of `frameworks/03-competitive-strategy.md`. 35 questions total.
-- [x] **Category 1: Market & Customer Understanding — done (2026-09-06).** All 8 entries (STP, Complete Product Experience, Product Development Stage, Voice of the Customer, JTBD Switch Interview, ICP Development, Sean Ellis 40% Test, MAP Model) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/01-market-customer-understanding.md`. 50 questions total.
-- [x] **Category 2: Positioning & Messaging — done (2026-09-06).** All 12 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/02-positioning-messaging.md`. 70 questions total.
-- [x] **Category 4: Go-to-Market & Launch — done (2026-09-06).** All 11 entries (3-Step, 7-Step, 10-Step PMM frameworks, Complete GTM Workflow Stages, T2D3, GTM Motion Model, Product-Led Growth, ABX/TEAM, Bullseye, Launch Tier Framework, Pre-mortem) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/04-go-to-market-launch.md`. 65 questions total — the largest category.
-- [x] **Category 5: Lifecycle & Workflow — done (2026-09-06).** All 3 entries (PMM Lifecycle Management, Go-to-Market Motion, Feature Adoption) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/05-lifecycle-workflow.md`. 25 questions total.
-- [x] **Category 6: Product Experience & Adoption — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/06-product-experience-adoption.md`. 45 questions total.
-- [x] **Category 7: Strategy & Planning — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/07-strategy-planning.md`. 45 questions total.
-- [x] **Category 8: Pricing & Packaging — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/08-pricing-packaging.md`. 45 questions total.
-- [x] **Category 9: Sales Enablement — done (2026-09-06).** All 5 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/09-sales-enablement.md`. 35 questions total.
+- [x] **Category 3: Competitive Strategy — done (2026-09-06).** All 5 entries have a 5-question `**Quiz:**` section; 10-question `## Category Quiz` at the top of `frameworks/03-competitive-strategy/`. 35 questions total.
+- [x] **Category 1: Market & Customer Understanding — done (2026-09-06).** All 8 entries (STP, Complete Product Experience, Product Development Stage, Voice of the Customer, JTBD Switch Interview, ICP Development, Sean Ellis 40% Test, MAP Model) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/01-market-customer-understanding/`. 50 questions total.
+- [x] **Category 2: Positioning & Messaging — done (2026-09-06).** All 12 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/02-positioning-messaging/`. 70 questions total.
+- [x] **Category 4: Go-to-Market & Launch — done (2026-09-06).** All 11 entries (3-Step, 7-Step, 10-Step PMM frameworks, Complete GTM Workflow Stages, T2D3, GTM Motion Model, Product-Led Growth, ABX/TEAM, Bullseye, Launch Tier Framework, Pre-mortem) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/04-go-to-market-launch/`. 65 questions total — the largest category.
+- [x] **Category 5: Lifecycle & Workflow — done (2026-09-06).** All 3 entries (PMM Lifecycle Management, Go-to-Market Motion, Feature Adoption) have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/05-lifecycle-workflow/`. 25 questions total.
+- [x] **Category 6: Product Experience & Adoption — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/06-product-experience-adoption/`. 45 questions total.
+- [x] **Category 7: Strategy & Planning — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/07-strategy-planning/`. 45 questions total.
+- [x] **Category 8: Pricing & Packaging — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/08-pricing-packaging/`. 45 questions total.
+- [x] **Category 9: Sales Enablement — done (2026-09-06).** All 5 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/09-sales-enablement/`. 35 questions total.
 - [x] **`concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — done (2026-09-06).** 5-question quiz added; no category quiz, per the decision above (concepts is not one of the 9 workflow categories).
 
 **Content build total: 66 entries × 5 questions (330) + 9 category quizzes × 10 questions (90) = 420 questions, all written and structurally validated (correct-answer count, option count, no combination answers, whitespace-clean).**
@@ -182,5 +184,5 @@ In the source markdown, the correct option is always written as **A** for every 
 The content build above is complete and stays complete; what follows is a quality pass over the same 435 questions, not more of them. The option sets are guessable (correct answer is the longest option 86% of the time) and the distractors are too light to make a reader think. The standard was tightened on 2026-09-09; the questions have not been rewritten yet.
 
 - [x] **Batch 0: rules and tooling (2026-09-09).** "Distractor quality" above rewritten; CLAUDE.md's quiz standard and quality gate updated; `add-kb-entry` skill updated; `web/scripts/audit-quiz.mjs` and `npm run audit:quiz` added.
-- [ ] **Batches 1 to 10: rewrite the option sets, file by file.** Tracked in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md), which holds the evidence, the near-miss taxonomy, a before/after worked example, the batch list, and the progress table. **Start there**, at batch 1 (`frameworks/05-lifecycle-workflow.md`, the pilot).
+- [ ] **Batches 1 to 10: rewrite the option sets, file by file.** Tracked in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md), which holds the evidence, the near-miss taxonomy, a before/after worked example, the batch list, and the progress table. **Start there**, at batch 1 (`frameworks/05-lifecycle-workflow/`, the pilot).
 - [ ] **Enforcement**, last: fold the audit thresholds into `web/scripts/verify-content.mjs` so `npm run test:content` fails on a regression. Deliberately deferred to the end of the programme so the build is not red throughout it.

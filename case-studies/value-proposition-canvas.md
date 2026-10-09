@@ -1,6 +1,6 @@
 # Value Proposition Canvas: Case Study
 
-> **Framework source:** [Value Proposition Canvas](../frameworks/02-positioning-messaging.md) | **Category:** 2: Positioning & Messaging
+> **Framework source:** [Value Proposition Canvas](../frameworks/02-positioning-messaging/value-proposition-canvas.md) | **Category:** 2: Positioning & Messaging
 
 ---
 

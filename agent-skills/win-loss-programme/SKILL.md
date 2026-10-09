@@ -3,7 +3,7 @@ name: win-loss-programme
 description: "Use when the reason deals are won or lost is unclear: win rate is falling with no clear cause, sales and product disagree about why deals slip, a big deal was lost and nobody knows why, churn is rising, or someone asks for win/loss analysis, closed-lost reasons, buyer interviews, or deal post-mortems. Designs and runs the interview programme, codes the transcripts into patterns, and routes findings into positioning, messaging, pricing, roadmap, and enablement with named owners. Use it before building battlecards or rewriting messaging on the strength of anecdote."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/06-product-experience-adoption.md; frameworks/01-market-customer-understanding.md; case-studies/win-loss-analysis.md"
+  kb-source: "frameworks/06-product-experience-adoption/; frameworks/01-market-customer-understanding/; case-studies/win-loss-analysis.md"
   frameworks: "Win/Loss Analysis Framework; JTBD Switch Interview Method; Voice of the Customer Programme"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,7 +18,7 @@ output is a small set of patterns with owners attached, not a transcript
 archive.
 
 Paths below are relative to the knowledge base root. The full entry is in
-`frameworks/06-product-experience-adoption.md`; an extended walkthrough is in
+`frameworks/06-product-experience-adoption/`; an extended walkthrough is in
 `case-studies/win-loss-analysis.md`.
 
 ## Procedure
@@ -100,7 +100,7 @@ price theme survives the value-communication probe).
 ## Attribution
 
 Derived from the Win/Loss Analysis Framework in
-`frameworks/06-product-experience-adoption.md` and the JTBD Switch Interview
-Method in `frameworks/01-market-customer-understanding.md`, which carry the
+`frameworks/06-product-experience-adoption/` and the JTBD Switch Interview
+Method in `frameworks/01-market-customer-understanding/`, which carry the
 full citations. Skill format follows the Agent Skills open specification. See
 [ATTRIBUTION.md](../ATTRIBUTION.md).

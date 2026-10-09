@@ -13,21 +13,21 @@ A working template that ties a campaign back to the positioning, competitive, an
 
 ## 2. Segment & Positioning
 
-- **Target segment:** (from [STP Framework](../frameworks/01-market-customer-understanding.md) or [ICP Development Methodology](../frameworks/01-market-customer-understanding.md))
-- **Positioning statement in use:** (link to or paste from [Message Architecture](../frameworks/02-positioning-messaging.md))
+- **Target segment:** (from [STP Framework](../frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md) or [ICP Development Methodology](../frameworks/01-market-customer-understanding/icp-development-methodology.md))
+- **Positioning statement in use:** (link to or paste from [Message Architecture](../frameworks/02-positioning-messaging/message-architecture-messaging-house.md))
 - **Core message and value pillars:**
 
 ## 3. Competitive Context Checklist
 
-Pull from [Competitive Intelligence & Positioning Update Framework](../frameworks/07-strategy-planning.md) before writing copy.
+Pull from [Competitive Intelligence & Positioning Update Framework](../frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) before writing copy.
 
 - [ ] Reviewed the latest monthly competitive scan
 - [ ] Checked whether any named competitor has moved on pricing, features, or messaging in the last 90 days
-- [ ] Relevant [Battlecard](../frameworks/09-sales-enablement.md) is current for any competitor this campaign will name or imply
+- [ ] Relevant [Battlecard](../frameworks/09-sales-enablement/competitive-battlecard-framework.md) is current for any competitor this campaign will name or imply
 
 ## 4. Win/Loss Insights Needed Before Briefing
 
-- [ ] Pulled the last 90 days of [Win/Loss Analysis](../frameworks/06-product-experience-adoption.md) findings for this segment
+- [ ] Pulled the last 90 days of [Win/Loss Analysis](../frameworks/06-product-experience-adoption/winloss-analysis-framework.md) findings for this segment
 - [ ] Checked whether recent losses cite a message, feature, or price gap this campaign should address
 - [ ] Flagged any insight that changes the brief below
 
@@ -41,8 +41,8 @@ Pull from [Competitive Intelligence & Positioning Update Framework](../framework
 ## 6. Assets & Channels
 
 - **Assets needed:**
-- **Channels:** (see [Bullseye Framework](../frameworks/04-go-to-market-launch.md) if channel choice is still open)
-- **Launch tier:** (see [Launch Tier Framework](../frameworks/04-go-to-market-launch.md); confirms how much process this campaign needs)
+- **Channels:** (see [Bullseye Framework](../frameworks/04-go-to-market-launch/bullseye-framework-traction-channel-selection.md) if channel choice is still open)
+- **Launch tier:** (see [Launch Tier Framework](../frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md); confirms how much process this campaign needs)
 
 ## 7. Success Metrics
 

@@ -8,11 +8,11 @@ Every fictional company is labelled as such on first mention. Metrics are specif
 
 | Case Study | Framework | Category | File |
 |---|---|---|---|
-| Claravue repositions for data engineering teams | [STP Framework](../frameworks/01-market-customer-understanding.md) | 1: Market & Customer Understanding | [stp-framework.md](stp-framework.md) |
-| Procurewise discovers its real value proposition | [Value Proposition Canvas](../frameworks/02-positioning-messaging.md) | 2: Positioning & Messaging | [value-proposition-canvas.md](value-proposition-canvas.md) |
-| Stackguard turns loss patterns into a competitive weapon | [Win/Loss Analysis](../frameworks/06-product-experience-adoption.md) | 6: Product Experience & Adoption | [win-loss-analysis.md](win-loss-analysis.md) |
-| Relaytics scales PMM from one generalist to a structured team | [10-Step PMM Process](../frameworks/04-go-to-market-launch.md) | 4: Go-to-Market & Launch | [ten-step-pmm-process.md](ten-step-pmm-process.md) |
-| Freightline builds a GTM motion from Foundation through Scale | [Complete GTM Workflow Stages](../frameworks/04-go-to-market-launch.md) | 4: Go-to-Market & Launch | [complete-gtm-workflow.md](complete-gtm-workflow.md) |
+| Claravue repositions for data engineering teams | [STP Framework](../frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md) | 1: Market & Customer Understanding | [stp-framework.md](stp-framework.md) |
+| Procurewise discovers its real value proposition | [Value Proposition Canvas](../frameworks/02-positioning-messaging/value-proposition-canvas.md) | 2: Positioning & Messaging | [value-proposition-canvas.md](value-proposition-canvas.md) |
+| Stackguard turns loss patterns into a competitive weapon | [Win/Loss Analysis](../frameworks/06-product-experience-adoption/winloss-analysis-framework.md) | 6: Product Experience & Adoption | [win-loss-analysis.md](win-loss-analysis.md) |
+| Relaytics scales PMM from one generalist to a structured team | [10-Step PMM Process](../frameworks/04-go-to-market-launch/10-step-pmm-process.md) | 4: Go-to-Market & Launch | [ten-step-pmm-process.md](ten-step-pmm-process.md) |
+| Freightline builds a GTM motion from Foundation through Scale | [Complete GTM Workflow Stages](../frameworks/04-go-to-market-launch/complete-gtm-workflow-stages.md) | 4: Go-to-Market & Launch | [complete-gtm-workflow.md](complete-gtm-workflow.md) |
 
 ---
 

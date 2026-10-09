@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-08 (recorded the live custom domain, www.pmmkb.com; see "Live site")
+**Last Updated:** 2026-10-09 (modular content layout: one file per entry plus a sibling quiz file; see "Repository Structure")
 
 ---
 
@@ -37,7 +37,7 @@ For how PMMs, team leads, and new joiners use this repository day-to-day, see RE
 
 Each framework entry must include (in order):
 
-1. **Framework Title** (H2 heading)
+1. **Framework Title** (the file's `# ` heading; see "Entry file format")
 2. **What it is** (paragraph explaining the framework, no jargon)
 3. **When to use it** (bullet list of specific triggers and contexts)
 4. **How to apply it** (numbered steps, detailed enough to follow; structure may vary by framework type)
@@ -46,7 +46,7 @@ Each framework entry must include (in order):
 
 ### Content Types
 
-The knowledge base began as a collection of frameworks. As it grows it also holds methodologies, models, and primers. Every entry declares one **Type** on a `**Type:**` line directly under its H2 title. The four types are:
+The knowledge base began as a collection of frameworks. As it grows it also holds methodologies, models, and primers. Every entry declares one **Type** as the `type` field in its frontmatter (see "Entry file format"). The four types are:
 
 - **Framework:** a structured model or template you apply to a specific decision or artefact, with a clear input and output. Examples: STP, Value Proposition Canvas, Good-Better-Best.
 - **Methodology:** a repeatable practice or process you run over time (continuously or as a project), often with cadence, roles, and iteration. Examples: Win/Loss Analysis, Voice of the Customer, conjoint analysis.
@@ -60,7 +60,7 @@ Each type uses its own section order:
 - **Model:** What it is → When to use it → **Ownership** → **How to read it** → How to apply it → Example → Pitfalls → Sources → See also → **Quiz**.
 - **Primer:** What it is → Why it matters → **Key distinctions** → **Where PMM fits** → Sources → See also → **Quiz**. No "How to apply it" and no Example/Pitfalls required.
 
-Every entry's `**Quiz:**` section, 5 questions, sits last, after `**See also:**`; see "Quiz section (quiz standard)" below and [QUIZ-SPEC.md](QUIZ-SPEC.md) for the full format and content rules. A category file (`frameworks/0N-*.md`) additionally carries a `## Category Quiz` section (10 questions) at the very top of the file, before its first entry.
+Every entry's quiz, 5 questions, lives in its own sibling file, `<slug>.quiz.md`; see "Quiz section (quiz standard)" below and [QUIZ-SPEC.md](QUIZ-SPEC.md) for the full format and content rules. A category folder (`frameworks/0N-*/`) additionally carries `_category.quiz.md` (10 questions).
 
 **Ownership** (Framework and Model types; Methodology covers the same ground inside "Cadence & ownership") is one short paragraph naming who typically owns the decision/output versus who typically executes it, and noting that this shifts with company stage: a solo or founding PMM commonly owns outright what a specialised team hands off to Sales, RevOps, or a CEO once the company scales. This is not a hedge; it is a factual note on how ownership redistributes as headcount grows, matching the pattern already used in Methodology entries' "Cadence & ownership" sections (see T2D3 Framework or MEDDIC/MEDDPICC for the target voice).
 
@@ -79,7 +79,7 @@ Frameworks, methodologies, and models keep the 1000–1500 word target. Primers 
 - **Examples must be specific.** Either name a real company (with real outcomes) or describe a detailed, plausible scenario (not a generic case study)
 - **Pitfalls must be actionable.** Explain the mistake, why it matters, and how to recover or prevent it
 - **Cross-references must link frameworks.** When one framework builds on another, note it: "See also: [Framework Name]"
-- **Word count per framework: 1000–1500 words.** Avoid exceeding 3000 words per category file
+- **Word count per framework: 1000–1500 words.** Avoid exceeding 3000 words per category folder, not counting quiz files
 
 ### Sources block (citation standard)
 
@@ -102,14 +102,14 @@ Every entry must carry a **`**Sources:**` block**, immediately before `**See als
 
 ### Quiz section (quiz standard)
 
-Every entry must carry a **`**Quiz:**` block** as its last section, and every category file (`frameworks/0N-*.md`) carries a **`## Category Quiz`** section as the first thing in the file. Full rules, rationale, and worked examples live in [QUIZ-SPEC.md](QUIZ-SPEC.md); this is the summary to check against when writing or reviewing one.
+Every entry must carry a **quiz file** (`<slug>.quiz.md`, beside the entry), and every category folder (`frameworks/0N-*/`) carries a **`_category.quiz.md`** category quiz. Full rules, rationale, and worked examples live in [QUIZ-SPEC.md](QUIZ-SPEC.md); this is the summary to check against when writing or reviewing one.
 
 - **Counts:** 5 questions per entry; 10 questions per category quiz.
 - **Purpose:** reinforce and test whether the reader can apply the entry, not recall its structure. Target Bloom's levels 3–4 (Apply, Analyse); never pure recall ("what are the five steps of X").
 - **Format:** four options per question, one clearly correct, three plausible distractors of similar length and detail. Never "all/none of the above" or a combination answer ("both A and C").
 - **Options state the claim, never argue for it.** No "since...", "because...", "a named pitfall" clause inside an option; that reasoning goes in the feedback. A correct option that explains itself is both a giveaway and the reason it runs longer than its distractors.
 - **One near miss per question:** exactly one distractor that is the right family of response, wrong in one nameable way (wrong sequence, scope, evidence, owner or cadence, adjacent method, or correct but incomplete), whose feedback names the discriminator. The other two stay ordinary plausible-but-wrong options.
-- **Length parity:** all four options within ±20% of that question's median option length, and no option more than 25% longer than the longest of the others. Across a category file, the correct answer should be the longest option in no more than 35% of questions. Check with `npm run audit:quiz` in `web/`.
+- **Length parity:** all four options within ±20% of that question's median option length, and no option more than 25% longer than the longest of the others. Across a category folder, the correct answer should be the longest option in no more than 35% of questions. Check with `npm run audit:quiz` in `web/`.
 - **Scenario majority:** at least 3 of 5 questions per entry, and at least 7 of 10 per category quiz, present a realistic PMM situation and ask what to do, what went wrong, or which tool fits. Draw these from the entry's own "When to use it" and "Pitfalls" sections; category-quiz questions should mostly ask the reader to pick the right entry from that category for a given situation.
 - **Feedback:** every option, correct and incorrect, gets 2–3 sentences of explanation tying back to the entry's core principle. Never just "incorrect."
 - **Answer key convention:** the correct option is always written as **A** in the source markdown (an authoring convenience, not a real ranking). The web app shuffles display order per question at render time; never manually reorder options to vary which letter is correct, and never assume a reader of the raw markdown sees it in final order.
@@ -180,18 +180,22 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 │   ├── ten-step-pmm-process.md
 │   └── complete-gtm-workflow.md
 │
-├── frameworks/                  # Framework, methodology, and model files by workflow category
-│   ├── 01-market-customer-understanding.md
-│   ├── 02-positioning-messaging.md
-│   ├── 03-competitive-strategy.md
-│   ├── 04-go-to-market-launch.md
-│   ├── 05-lifecycle-workflow.md
-│   ├── 06-product-experience-adoption.md
-│   ├── 07-strategy-planning.md
-│   ├── 08-pricing-packaging.md
-│   └── 09-sales-enablement.md
+├── frameworks/                  # One folder per workflow category; one file per entry
+│   ├── 01-market-customer-understanding/
+│   │   ├── _category.md         # Category title, number, slug, intro (frontmatter)
+│   │   ├── _category.quiz.md    # Category quiz (10 questions)
+│   │   ├── <slug>.md            # One entry: frontmatter + prose
+│   │   └── <slug>.quiz.md       # That entry's quiz (5 questions)
+│   ├── 02-positioning-messaging/
+│   ├── 03-competitive-strategy/
+│   ├── 04-go-to-market-launch/
+│   ├── 05-lifecycle-workflow/
+│   ├── 06-product-experience-adoption/
+│   ├── 07-strategy-planning/
+│   ├── 08-pricing-packaging/
+│   └── 09-sales-enablement/     # (every folder has the same shape)
 │
-├── concepts/                    # Primers; explainers that are not something you "apply"
+├── concepts/                    # Primers; same shape as a category folder (_category.md, <slug>.md, <slug>.quiz.md)
 │   └── gtm-strategy-vs-product-marketing.md
 │
 ├── quick-reference/              # One-page condensed cards per entry, mirroring frameworks/ by category
@@ -228,6 +232,40 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ```
 
 There is no `archived/` folder at present. A temporary one held closed candidate-build queues and a superseded quality review between 2026-09-05 and 2026-09-06, pending a re-scan; that re-scan found no remaining references anywhere in the repo, and the folder was deleted. No framework, methodology, model, or primer has ever been retired under the "Archive, don't delete" principle above; if one ever is, that principle still governs where it goes, starting a fresh `archived/` folder rather than assuming an old one persists. See PLAN.md for the roadmap.
+
+### Entry file format
+
+Each entry is one markdown file, `<slug>.md`, inside its category folder. It opens with YAML frontmatter, then the entry's title as a `# ` heading, then the prose from "What it is" to "See also". The quiz is not in this file; it sits beside it in `<slug>.quiz.md`.
+
+```
+---
+title: "Value Proposition Canvas"
+slug: "value-proposition-canvas"
+type: Framework
+order: 40
+use_when: "You need to connect what your product offers to a specific customer's jobs, pains and gains."
+produces: "A map of customer needs and the value your product delivers."
+---
+
+# Value Proposition Canvas
+
+**What it is:** ...
+```
+
+| Field | Rule |
+|---|---|
+| `title` | The entry's name. Must match the `# ` heading exactly. Free to change. |
+| `slug` | The permanent page address (`/framework/<slug>`) and the file name without `.md`. Choose it once and never change it after publishing; a changed slug breaks inbound links and search ranking. |
+| `type` | Framework, Methodology, Model or Primer. Replaces the old `**Type:**` body line. |
+| `order` | Position in the category's workflow sequence. Existing entries step by 10, so you can insert between two without renumbering. Must be unique within the category. |
+| `use_when` | One sentence naming the situation that calls for the entry. Shown in listings, search results and the page description. |
+| `produces` | One short phrase naming what applying the entry gives you. Shown on category pages. |
+
+The Sources credits line stays on the `**Sources:**` label in the body (see "Sources block (citation standard)"), not in the frontmatter, so there is one place to edit it.
+
+`_category.md` carries `title` (without a "Category N:" prefix), `slug` (the folder name, except `concepts/`, whose slug is `concepts-primers`), `number` and `intro` (the one-line category description). Both quiz files open with a `# ` heading for readers on GitHub and then the numbered questions.
+
+The web app finds every category folder and entry file at build time, so adding or changing a file needs no code change, and each merge to `main` publishes it. `npm run test:content` in `web/` fails, naming the file, when frontmatter is missing or malformed, a slug differs from its file name, an `order` repeats, a quiz file has no entry, or an entry has no quiz.
 
 ### The `agent-skills/` area
 
@@ -270,7 +308,7 @@ separate from everything above:
 - [ ] Metrics and numbers are specific, not vague
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
 - [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
-- [ ] **Quiz section present and spec-compliant.** A `**Quiz:**` section (the entry's last section, 5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
+- [ ] **Quiz file present and spec-compliant.** A sibling `<slug>.quiz.md` (5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
 - [ ] **Quiz options are not guessable.** No option argues for itself, exactly one distractor is a near miss whose feedback names the discriminator, and the four options are within ±20% of their median length. Run `npm run audit:quiz` in `web/` on the file: no `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags on the questions you touched.
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating
 - [ ] **Sources block carries a credits line** on the `**Sources:**` label, naming every credited person or organisation, semicolon-separated, names only (see "Sources block (citation standard)"). Run `npm run test:content` in `web/` to check it.

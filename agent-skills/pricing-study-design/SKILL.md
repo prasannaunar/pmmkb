@@ -3,7 +3,7 @@ name: pricing-study-design
 description: "Use when a price or packaging decision needs evidence: setting a price for a new product or tier, deciding whether to raise prices, choosing what to charge for (seats, usage, outcomes), deciding which features belong in which tier, or settling an internal argument between sales and finance about price. Also use when someone asks for a pricing survey, willingness to pay research, Van Westendorp, Gabor-Granger, conjoint, MaxDiff, or good-better-best packaging. Picks the right study for the decision rather than defaulting to one method, designs it, and turns the result into a packaging recommendation."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/08-pricing-packaging.md"
+  kb-source: "frameworks/08-pricing-packaging/"
   frameworks: "Value Metric / Willingness-to-Pay; Van Westendorp Price Sensitivity Meter; Gabor-Granger Method; Conjoint Analysis; MaxDiff Analysis; Good-Better-Best Packaging; Usage-Based Pricing Model"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -19,7 +19,7 @@ different study. Reaching for a familiar method before naming the decision is
 how teams end up with a well-run study that answers the wrong question.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/08-pricing-packaging.md`.
+`frameworks/08-pricing-packaging/`.
 
 ## Step 1: Name the decision, then pick the method
 
@@ -108,7 +108,7 @@ is rarely a Tier 3 launch).
 
 ## Attribution
 
-Derived from the pricing entries in `frameworks/08-pricing-packaging.md`, which
+Derived from the pricing entries in `frameworks/08-pricing-packaging/`, which
 carry the full citations (including Van Westendorp, Gabor and Granger, and
 Louviere and Woodworth for best-worst scaling). Skill format follows the Agent
 Skills open specification. See [ATTRIBUTION.md](../ATTRIBUTION.md).

@@ -1,6 +1,6 @@
 # Quick Reference: Strategy & Planning
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/07-strategy-planning.md](../frameworks/07-strategy-planning.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/07-strategy-planning/](../frameworks/07-strategy-planning/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

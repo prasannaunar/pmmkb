@@ -22,7 +22,7 @@ Name the framework and the specific data gap blocking it, plus who owns closing 
 
 Name the deliverable, the framework behind it, and the due date.
 
-> Example: "Updated Battlecard for Competitor Y due Friday, feeding this week's [Competitive Intelligence](../frameworks/07-strategy-planning.md) scan."
+> Example: "Updated Battlecard for Competitor Y due Friday, feeding this week's [Competitive Intelligence](../frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) scan."
 
 ---
 

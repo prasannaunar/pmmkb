@@ -20,10 +20,10 @@ The export writes each route as `<route>.html` (for example `framework/pmm-team-
 
 ## Content and discovery
 
-- `frameworks/` and `concepts/` remain the source of truth for the 66 entries, their 330 entry quiz questions, and the nine 10-question category quizzes. The Concepts collection has its entry quiz but no category quiz in the source.
+- `frameworks/` and `concepts/` remain the source of truth for the 66 entries, their 330 entry quiz questions, and the nine 10-question category quizzes. Each category is a folder; each entry is a `<slug>.md` with YAML frontmatter plus a sibling `<slug>.quiz.md`, and `_category.md` / `_category.quiz.md` hold the category's own details and quiz. The Concepts collection has its entry quizzes but no category quiz. `src/lib/content.ts` discovers the folders at build time, so adding or editing a file needs no code change, and it fails the build with the file name when frontmatter is missing or malformed.
 - `/topics` exposes every category. Each category offers curated starting points above its complete, initially unfiltered entry list.
 - `/challenges` offers nine situation guides; `/learn` offers three learning paths with five additional scenario questions each.
-- `src/lib/editorial.ts` contains summaries and topic introductions. Update the title-keyed summary when an entry is renamed or added.
+- Each entry's summary lines (`use_when`, `produces`) and each category's introduction (`intro`) live in the frontmatter of the file they describe, so a rename or addition touches one file. `src/lib/editorial.ts` holds only text helpers.
 - `src/lib/guides.ts` defines challenge sequences, learning paths and their scenario quizzes. References resolve against exact entry titles and fail validation when they drift.
 - `/search` and homepage search cover titles, summaries, article bodies, challenges and learning paths. Entry quiz answers are excluded from the search index.
 - Existing entry, category and type URLs remain stable. `?path=` retains learning-path context between entries without requiring an account or saving progress.
@@ -32,4 +32,4 @@ Article pages retain the full source content while adding section links, an over
 
 ## Regression checks
 
-`npm run test:content` checks entry/category counts, editorial coverage, unique entry URLs, all quiz counts and answer structures, and every guide reference. When intentionally expanding the library, update the expected counts together with the relevant source and editorial data.
+`npm run test:content` checks entry/category counts, frontmatter and quiz-file coverage, unique entry URLs and orders, orphaned quiz files, all quiz counts and answer structures, and every guide reference. When intentionally expanding the library, update the expected counts together with the relevant source and editorial data.

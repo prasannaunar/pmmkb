@@ -1,6 +1,6 @@
 # Win/Loss Analysis: Case Study
 
-> **Framework source:** [Win/Loss Analysis Framework](../frameworks/06-product-experience-adoption.md) | **Category:** 6: Product Experience & Adoption
+> **Framework source:** [Win/Loss Analysis Framework](../frameworks/06-product-experience-adoption/winloss-analysis-framework.md) | **Category:** 6: Product Experience & Adoption
 
 ---
 

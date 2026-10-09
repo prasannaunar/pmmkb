@@ -1,6 +1,6 @@
 # Quick Reference: Lifecycle & Workflow
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow.md](../frameworks/05-lifecycle-workflow.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/05-lifecycle-workflow/](../frameworks/05-lifecycle-workflow/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 
