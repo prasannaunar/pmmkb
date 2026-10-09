@@ -3,7 +3,7 @@ name: quarterly-pmm-planning
 description: "Use when planning a product marketing quarter or defending its scope: too many requests and not enough people, no agreed priorities, leadership asking what PMM will deliver, a quarter starting, a mid-quarter reprioritisation, or someone asking for a PMM roadmap, OKRs, capacity plan, or a case for headcount. Translates business goals into PMM deliverables, sizes them against real capacity, stack-ranks by impact times confidence, and produces an explicit not-doing list. Also covers diagnosing which part of the revenue engine to aim the quarter at."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/07-strategy-planning.md; templates/quarterly-planning-template.md; measurement-guide.md"
+  kb-source: "frameworks/07-strategy-planning/; templates/quarterly-planning-template.md; measurement-guide.md"
   frameworks: "Quarterly PMM Planning Framework; Playing to Win (Strategic Choice Cascade); MOVE GTM Diagnostic; PMM Team Scaling Framework"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,7 +18,7 @@ back to a business goal, or it is a list of commitments that exceeds the
 people-weeks available. The plan has to survive both tests.
 
 Paths below are relative to the knowledge base root. The full entry is in
-`frameworks/07-strategy-planning.md`; a working template is in
+`frameworks/07-strategy-planning/`; a working template is in
 `templates/quarterly-planning-template.md`.
 
 ## Procedure
@@ -109,6 +109,6 @@ standing quarterly commitment that has to be budgeted, not squeezed in).
 
 Derived from the Quarterly PMM Planning Framework, Playing to Win, MOVE GTM
 Diagnostic, and PMM Team Scaling Framework entries in
-`frameworks/07-strategy-planning.md`, which carry the full citations. Skill
+`frameworks/07-strategy-planning/`, which carry the full citations. Skill
 format follows the Agent Skills open specification. See
 [ATTRIBUTION.md](../ATTRIBUTION.md).

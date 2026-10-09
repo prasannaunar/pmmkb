@@ -151,15 +151,15 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 8 entries (`frameworks/01-market-customer-understanding.md`)
-✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging.md`)
-✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy.md`)
-✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch.md`)
-✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow.md`)
-✅ **Category 6 (Product Experience & Adoption):** 7 entries (`frameworks/06-product-experience-adoption.md`)
-✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning.md`)
-✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging.md`)
-✅ **Category 9 (Sales Enablement):** 5 entries (`frameworks/09-sales-enablement.md`)
+✅ **Category 1 (Market & Customer Understanding):** 8 entries (`frameworks/01-market-customer-understanding/`)
+✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging/`)
+✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy/`)
+✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch/`)
+✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow/`)
+✅ **Category 6 (Product Experience & Adoption):** 7 entries (`frameworks/06-product-experience-adoption/`)
+✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning/`)
+✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging/`)
+✅ **Category 9 (Sales Enablement):** 5 entries (`frameworks/09-sales-enablement/`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
 
 ## Next Steps

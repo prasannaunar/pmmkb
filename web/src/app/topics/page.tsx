@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllCategories, TYPE_SLUGS } from "@/lib/content";
-import { categoryIntros, cleanTitle } from "@/lib/editorial";
+import { cleanTitle } from "@/lib/editorial";
 import { pluralType } from "@/lib/plural";
 export const metadata = {
   title: "Explore topics",
@@ -23,7 +23,7 @@ export default function TopicsPage() {
           <Link href={`/category/${c.slug}`} key={c.slug}>
             <div>
               <h2>{cleanTitle(c.title)}</h2>
-              <p>{categoryIntros[c.number]}</p>
+              <p>{c.intro}</p>
             </div>
             <span className="metadata">
               {c.entries.length} {c.entries.length === 1 ? "entry" : "entries"}{" "}

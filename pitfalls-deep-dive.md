@@ -165,10 +165,10 @@ Use this alongside the original entries, not instead of them.
 
 Each section builds on pitfalls documented in the per-entry sections of:
 
-- **STP Framework:** `frameworks/01-market-customer-understanding.md`
-- **Geoffrey Moore's Positioning Statement Framework and April Dunford's 5-Component Positioning Canvas:** `frameworks/02-positioning-messaging.md`
-- **Message Testing (Message-Market Fit):** `frameworks/02-positioning-messaging.md`
-- **Complete GTM Workflow Stages and 10-Step PMM Process:** `frameworks/04-go-to-market-launch.md`
-- **Pre-mortem:** `frameworks/04-go-to-market-launch.md`
-- **Bowman's Strategic Clock and Product Differentiation Strategy Framework:** `frameworks/03-competitive-strategy.md`
-- **CI Program Maturity Model:** `frameworks/03-competitive-strategy.md`
+- **STP Framework:** `frameworks/01-market-customer-understanding/`
+- **Geoffrey Moore's Positioning Statement Framework and April Dunford's 5-Component Positioning Canvas:** `frameworks/02-positioning-messaging/`
+- **Message Testing (Message-Market Fit):** `frameworks/02-positioning-messaging/`
+- **Complete GTM Workflow Stages and 10-Step PMM Process:** `frameworks/04-go-to-market-launch/`
+- **Pre-mortem:** `frameworks/04-go-to-market-launch/`
+- **Bowman's Strategic Clock and Product Differentiation Strategy Framework:** `frameworks/03-competitive-strategy/`
+- **CI Program Maturity Model:** `frameworks/03-competitive-strategy/`

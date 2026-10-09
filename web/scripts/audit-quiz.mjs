@@ -7,7 +7,8 @@
  *
  * Usage: npm run audit:quiz            (summary + per-file counts)
  *        npm run audit:quiz -- --list  (also lists every flagged question)
- *        npm run audit:quiz -- --file frameworks/03-competitive-strategy.md
+ *        npm run audit:quiz -- --file frameworks/03-competitive-strategy
+ *        (--file takes a category folder, or a single quiz file)
  */
 import fs from "node:fs";
 import ts from "typescript";
@@ -34,7 +35,7 @@ const quizLib = load("../src/lib/quiz.ts");
 const args = process.argv.slice(2);
 const listAll = args.includes("--list");
 const fileFilter = args.includes("--file")
-  ? args[args.indexOf("--file") + 1]
+  ? args[args.indexOf("--file") + 1].replace(/\/$/, "")
   : null;
 
 const sets = collectQuizSets(content, guides, quizLib);
@@ -45,8 +46,9 @@ const totals = Object.fromEntries(flagNames.map((f) => [f, 0]));
 let clean = 0;
 
 for (const set of sets) {
-  if (fileFilter && set.file !== fileFilter) continue;
-  const stats = byFile.get(set.file) ?? {
+  if (fileFilter && set.group !== fileFilter && set.file !== fileFilter)
+    continue;
+  const stats = byFile.get(set.group) ?? {
     total: 0,
     clean: 0,
     ...Object.fromEntries(flagNames.map((f) => [f, 0])),
@@ -72,7 +74,7 @@ for (const set of sets) {
       );
     }
   }
-  byFile.set(set.file, stats);
+  byFile.set(set.group, stats);
 }
 
 const pct = (n) => `${((n / total) * 100).toFixed(0)}%`;

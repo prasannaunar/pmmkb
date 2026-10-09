@@ -8,31 +8,31 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 ## Market Sizing & Segmentation
 
-**TAM (Total Addressable Market):** The total revenue opportunity if every possible buyer of a product or service bought it, with no competition or constraints. Used to size a market before deciding whether to enter it. See [STP Framework](frameworks/01-market-customer-understanding.md).
+**TAM (Total Addressable Market):** The total revenue opportunity if every possible buyer of a product or service bought it, with no competition or constraints. Used to size a market before deciding whether to enter it. See [STP Framework](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md).
 
 **SAM (Serviceable Addressable Market):** The slice of TAM a company could realistically reach given its current product, geography, and go-to-market model. Narrower than TAM; still ignores competitive share.
 
 **SOM (Serviceable Obtainable Market):** The slice of SAM a company can realistically capture in a given period, accounting for competition, sales capacity, and brand awareness. The most conservative and most actionable of the three sizing figures.
 
-**Segmentation:** Splitting a market into distinct groups of buyers who share needs, behaviours, or characteristics, so each group can be targeted and positioned to differently. The first step of [STP](frameworks/01-market-customer-understanding.md).
+**Segmentation:** Splitting a market into distinct groups of buyers who share needs, behaviours, or characteristics, so each group can be targeted and positioned to differently. The first step of [STP](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md).
 
 **Targeting:** Choosing which segment(s) from a segmentation exercise to prioritise, based on size, growth, competitive intensity, and fit. The second step of STP.
 
-**Positioning:** Defining how a product should be perceived by a chosen segment relative to alternatives; the third step of STP and the subject of every entry in [Category 2](frameworks/02-positioning-messaging.md).
+**Positioning:** Defining how a product should be perceived by a chosen segment relative to alternatives; the third step of STP and the subject of every entry in [Category 2](frameworks/02-positioning-messaging/).
 
-**ICP (Ideal Customer Profile):** A scored, evidence-based description of the accounts most likely to buy, succeed with, and expand a product, built from firmographic, technographic, and behavioural signals. See [ICP Development Methodology](frameworks/01-market-customer-understanding.md).
+**ICP (Ideal Customer Profile):** A scored, evidence-based description of the accounts most likely to buy, succeed with, and expand a product, built from firmographic, technographic, and behavioural signals. See [ICP Development Methodology](frameworks/01-market-customer-understanding/icp-development-methodology.md).
 
 **Firmographic data:** Company-level attributes used in segmentation and ICP scoring, such as industry, headcount, revenue, and geography (the company equivalent of demographic data for individuals).
 
 **Technographic data:** Data on which technologies, platforms, and tools a company already uses, used to predict fit or integration needs. A common ICP-scoring input alongside firmographic data.
 
-**JTBD (Jobs-to-be-Done):** The theory that customers "hire" a product to make progress on a specific job, rather than buying it for its features. See the [JTBD Positioning Framework](frameworks/02-positioning-messaging.md) and the [JTBD Switch Interview Method](frameworks/01-market-customer-understanding.md) that surfaces the job.
+**JTBD (Jobs-to-be-Done):** The theory that customers "hire" a product to make progress on a specific job, rather than buying it for its features. See the [JTBD Positioning Framework](frameworks/02-positioning-messaging/jobs-to-be-done-positioning-framework.md) and the [JTBD Switch Interview Method](frameworks/01-market-customer-understanding/jtbd-switch-interview-method.md) that surfaces the job.
 
-**MAP Model (Measure-Analyse-Prioritise):** A three-stage methodology for segment prioritisation: Measure segment volume and revenue, Analyse segment performance (retention, expansion, margin, sales cycle length), then Prioritise by cross-tabulating segment scores on a grid. Developed by Tamara Grominsky at PMM Camp. See [MAP Model](frameworks/01-market-customer-understanding.md).
+**MAP Model (Measure-Analyse-Prioritise):** A three-stage methodology for segment prioritisation: Measure segment volume and revenue, Analyse segment performance (retention, expansion, margin, sales cycle length), then Prioritise by cross-tabulating segment scores on a grid. Developed by Tamara Grominsky at PMM Camp. See [MAP Model](frameworks/01-market-customer-understanding/map-model-measure-analyze-prioritize.md).
 
-**PMF (Product-Market Fit):** The point at which a product satisfies strong enough market demand that growth spend compounds rather than being wasted. Benchmarked by the [Sean Ellis 40% Test](frameworks/01-market-customer-understanding.md).
+**PMF (Product-Market Fit):** The point at which a product satisfies strong enough market demand that growth spend compounds rather than being wasted. Benchmarked by the [Sean Ellis 40% Test](frameworks/01-market-customer-understanding/sean-ellis-40-test-pmf-survey.md).
 
-**Buyer persona:** A semi-fictional profile of an individual decision-maker (role, goals, objections, buying behaviour), distinct from the company-level [ICP](frameworks/01-market-customer-understanding.md). Assumed throughout the ICP Development Methodology and Win/Loss Analysis but not separately defined until now.
+**Buyer persona:** A semi-fictional profile of an individual decision-maker (role, goals, objections, buying behaviour), distinct from the company-level [ICP](frameworks/01-market-customer-understanding/icp-development-methodology.md). Assumed throughout the ICP Development Methodology and Win/Loss Analysis but not separately defined until now.
 
 **Buying centre:** The group of roles involved in a B2B purchase decision (initiator, user, influencer, decision maker, approver, buyer, gatekeeper), rarely a single person. Useful context for building a buyer persona set or scoping a Win/Loss interview list.
 
@@ -46,33 +46,33 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **STP (Segmentation-Targeting-Positioning):** See Market Sizing & Segmentation above; the foundational framework this knowledge base treats as a prerequisite for most later work.
 
-**Value proposition:** A clear statement of the value a product delivers to a specific customer segment, why that value matters, and why the product delivers it better than alternatives. See the [Value Proposition Canvas](frameworks/02-positioning-messaging.md).
+**Value proposition:** A clear statement of the value a product delivers to a specific customer segment, why that value matters, and why the product delivers it better than alternatives. See the [Value Proposition Canvas](frameworks/02-positioning-messaging/value-proposition-canvas.md).
 
-**Message architecture (Messaging House):** A hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each. See [Message Architecture](frameworks/02-positioning-messaging.md).
+**Message architecture (Messaging House):** A hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each. See [Message Architecture](frameworks/02-positioning-messaging/message-architecture-messaging-house.md).
 
-**FAB (Features-Advantages-Benefits):** A three-step translation technique (feature to advantage to benefit) that turns a raw product feature into language a buyer would repeat back. See the [FAB Ladder](frameworks/02-positioning-messaging.md).
+**FAB (Features-Advantages-Benefits):** A three-step translation technique (feature to advantage to benefit) that turns a raw product feature into language a buyer would repeat back. See the [FAB Ladder](frameworks/02-positioning-messaging/features-advantages-benefits-fab-ladder.md).
 
-**SB7:** The seven-part StoryBrand narrative framework (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide. See [StoryBrand SB7 Framework](frameworks/02-positioning-messaging.md).
+**SB7:** The seven-part StoryBrand narrative framework (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide. See [StoryBrand SB7 Framework](frameworks/02-positioning-messaging/storybrand-sb7-framework.md).
 
-**Message-market fit:** Whether draft messaging lands as clear, relevant, and differentiated with a verified target-buyer panel, tested before the messaging ships. See [Message Testing](frameworks/02-positioning-messaging.md).
+**Message-market fit:** Whether draft messaging lands as clear, relevant, and differentiated with a verified target-buyer panel, tested before the messaging ships. See [Message Testing](frameworks/02-positioning-messaging/message-testing-message-market-fit.md).
 
-**Category design:** The discipline of defining a new market category, rather than competing for share inside an existing one, when a company's differentiation is capped by how the market currently frames the problem. See [Category Design](frameworks/03-competitive-strategy.md).
+**Category design:** The discipline of defining a new market category, rather than competing for share inside an existing one, when a company's differentiation is capped by how the market currently frames the problem. See [Category Design](frameworks/03-competitive-strategy/category-design.md).
 
 ---
 
 ## Competitive Strategy & Analyst Relations
 
-**SWOT analysis:** A four-quadrant scan (Strengths, Weaknesses, Opportunities, Threats) used to assess a competitive position or strategic option. Generic enough that it isn't a standalone KB entry, but referenced as a comparison tool inside the [Competitive Battlecard Framework](frameworks/09-sales-enablement.md).
+**SWOT analysis:** A four-quadrant scan (Strengths, Weaknesses, Opportunities, Threats) used to assess a competitive position or strategic option. Generic enough that it isn't a standalone KB entry, but referenced as a comparison tool inside the [Competitive Battlecard Framework](frameworks/09-sales-enablement/competitive-battlecard-framework.md).
 
 **PESTLE analysis:** A six-factor scan (Political, Economic, Social, Technological, Legal, Environmental) used to check a market or narrative for external forces a purely competitor-focused view would miss.
 
-**Magic Quadrant (Gartner):** A 2x2 report plotting vendors as Leaders, Challengers, Visionaries, or Niche Players on ability to execute versus completeness of vision. PMM does not produce these; the [Analyst Relations Tiering & Cadence Model](frameworks/07-strategy-planning.md) covers PMM's actual job of building relationship equity with the analysts who write them.
+**Magic Quadrant (Gartner):** A 2x2 report plotting vendors as Leaders, Challengers, Visionaries, or Niche Players on ability to execute versus completeness of vision. PMM does not produce these; the [Analyst Relations Tiering & Cadence Model](frameworks/07-strategy-planning/analyst-relations-tiering-cadence-model.md) covers PMM's actual job of building relationship equity with the analysts who write them.
 
-**CI Program Maturity Model:** A five-stage maturity model (Ad Hoc, Reactive, Active, Managed, Transforming) for assessing competitive intelligence programme readiness across four dimensions: repository and process, distribution to sales, cross-functional reach, and measurement. Based on Klue/SCIP research. See [CI Program Maturity Model](frameworks/03-competitive-strategy.md).
+**CI Program Maturity Model:** A five-stage maturity model (Ad Hoc, Reactive, Active, Managed, Transforming) for assessing competitive intelligence programme readiness across four dimensions: repository and process, distribution to sales, cross-functional reach, and measurement. Based on Klue/SCIP research. See [CI Program Maturity Model](frameworks/03-competitive-strategy/ci-program-maturity-model.md).
 
 **Forrester Wave:** Forrester's equivalent vendor-comparison report to Gartner's Magic Quadrant, plotting vendors as Challengers, Contenders, Strong Performers, or Leaders. Same PMM relationship, same caveat as the Magic Quadrant above.
 
-**Gartner Hype Cycle:** A technology-maturity curve (Innovation Trigger → Peak of Inflated Expectations → Trough of Disillusionment → Slope of Enlightenment → Plateau of Productivity) used to gauge how a market frames a technology's maturity, useful context when timing a category-creation push. See [Category Design](frameworks/03-competitive-strategy.md).
+**Gartner Hype Cycle:** A technology-maturity curve (Innovation Trigger → Peak of Inflated Expectations → Trough of Disillusionment → Slope of Enlightenment → Plateau of Productivity) used to gauge how a market frames a technology's maturity, useful context when timing a category-creation push. See [Category Design](frameworks/03-competitive-strategy/category-design.md).
 
 ---
 
@@ -80,7 +80,7 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push.
 
-**GROW model (Goal, Reality, Options, Will):** A four-step sales-coaching conversation structure. Sales-manager owned, not a PMM framework; relevant context for [Sales Enablement](frameworks/09-sales-enablement.md) work that feeds a coaching programme rather than replaces it.
+**GROW model (Goal, Reality, Options, Will):** A four-step sales-coaching conversation structure. Sales-manager owned, not a PMM framework; relevant context for [Sales Enablement](frameworks/09-sales-enablement/) work that feeds a coaching programme rather than replaces it.
 
 ---
 
@@ -88,9 +88,9 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **GTM (Go-to-Market):** The company-wide plan for bringing a product to a market: who it's for, how it's positioned, which channels sell it, and how success is measured. See the [GTM Strategy vs Product Marketing primer](concepts/gtm-strategy-vs-product-marketing.md) for how GTM strategy differs from the PMM function.
 
-**GTM motion:** The primary mechanism a company uses to acquire and expand customers (self-serve, PLG, inside sales, field sales, or partner-channel). See the [GTM Motion Model](frameworks/04-go-to-market-launch.md).
+**GTM motion:** The primary mechanism a company uses to acquire and expand customers (self-serve, PLG, inside sales, field sales, or partner-channel). See the [GTM Motion Model](frameworks/04-go-to-market-launch/gtm-motion-model.md).
 
-**PLG (Product-Led Growth):** A go-to-market motion where the product itself, not a sales conversation, drives acquisition, activation, and expansion, typically through a free trial or freemium tier. See [Product-Led Growth](frameworks/04-go-to-market-launch.md).
+**PLG (Product-Led Growth):** A go-to-market motion where the product itself, not a sales conversation, drives acquisition, activation, and expansion, typically through a free trial or freemium tier. See [Product-Led Growth](frameworks/04-go-to-market-launch/product-led-growth-plg.md).
 
 **PQL (Product-Qualified Lead):** A user whose in-product behaviour (usage depth, seat count, feature adoption) signals they are ready for a sales conversation or an upgrade prompt. The PLG equivalent of an MQL.
 
@@ -98,15 +98,15 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **SQL (Sales-Qualified Lead):** A lead that sales has accepted and is actively working, usually after a qualification call confirms budget, authority, need, and timeline.
 
-**Launch tier:** A classification (Tier 1, 2, or 3) of how much process, cross-functional coordination, and lead time a launch needs, scored by revenue impact, dependency, visibility, and customer-facing change. See the [Launch Tier Framework](frameworks/04-go-to-market-launch.md).
+**Launch tier:** A classification (Tier 1, 2, or 3) of how much process, cross-functional coordination, and lead time a launch needs, scored by revenue impact, dependency, visibility, and customer-facing change. See the [Launch Tier Framework](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md).
 
-**T2D3:** A B2B SaaS growth trajectory shorthand for Triple, Triple, Double, Double, Double revenue over five years. See [T2D3 Framework](frameworks/04-go-to-market-launch.md).
+**T2D3:** A B2B SaaS growth trajectory shorthand for Triple, Triple, Double, Double, Double revenue over five years. See [T2D3 Framework](frameworks/04-go-to-market-launch/t2d3-framework-b2b-saas.md).
 
 ---
 
 ## Metrics & Financial Terms
 
-**NPS (Net Promoter Score):** A single-question customer loyalty metric ("How likely are you to recommend this to a friend or colleague?", 0-10), scored as %Promoters (9-10) minus %Detractors (0-6). See [NPS & Feedback Loop Framework](frameworks/06-product-experience-adoption.md).
+**NPS (Net Promoter Score):** A single-question customer loyalty metric ("How likely are you to recommend this to a friend or colleague?", 0-10), scored as %Promoters (9-10) minus %Detractors (0-6). See [NPS & Feedback Loop Framework](frameworks/06-product-experience-adoption/net-promoter-score-nps-feedback-loop-framework.md).
 
 **CSAT (Customer Satisfaction Score):** A short survey measuring satisfaction with a specific interaction or transaction, distinct from NPS's broader loyalty measure.
 
@@ -134,33 +134,33 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **Churn rate:** Customers lost in a period divided by customers at the start of the period. A signal, alongside NPS, that positioning or product experience may need revisiting.
 
-**RFM Model (Recency, Frequency, Monetary):** A behavioural segmentation model that scores each customer on three dimensions (how recently they engaged, how often, and how much they spend), each on a 1-5 scale, to classify customers into actionable segments such as Champions, At-risk, and Hibernating. See [RFM Model](frameworks/06-product-experience-adoption.md).
+**RFM Model (Recency, Frequency, Monetary):** A behavioural segmentation model that scores each customer on three dimensions (how recently they engaged, how often, and how much they spend), each on a 1-5 scale, to classify customers into actionable segments such as Champions, At-risk, and Hibernating. See [RFM Model](frameworks/06-product-experience-adoption/rfm-model-recency-frequency-monetary-value.md).
 
-**Time to Value (TTV):** The elapsed time between a customer's first interaction with a product and the moment they realise its core value. The Time to Value Framework breaks this into Time to First Value (TTFV), Time to Core Value, and maps activation rate against time to value to identify onboarding bottlenecks. See [Time to Value Framework](frameworks/06-product-experience-adoption.md).
+**Time to Value (TTV):** The elapsed time between a customer's first interaction with a product and the moment they realise its core value. The Time to Value Framework breaks this into Time to First Value (TTFV), Time to Core Value, and maps activation rate against time to value to identify onboarding bottlenecks. See [Time to Value Framework](frameworks/06-product-experience-adoption/time-to-value-framework.md).
 
 **Customer Retention Cost (CRC):** Retention spend divided by active customers; typically benchmarked at three to six times cheaper than the equivalent CAC to acquire a replacement customer, the usual justification for retention/advocacy investment.
 
-**Sales velocity:** (Number of opportunities × average deal size × win rate) ÷ sales cycle length. A single throughput metric combining pipeline volume, deal size, win rate, and speed; used in [Sales Enablement](frameworks/09-sales-enablement.md) reviews to see which lever moves revenue fastest.
+**Sales velocity:** (Number of opportunities × average deal size × win rate) ÷ sales cycle length. A single throughput metric combining pipeline volume, deal size, win rate, and speed; used in [Sales Enablement](frameworks/09-sales-enablement/) reviews to see which lever moves revenue fastest.
 
-**Retention vs. loyalty:** Retention is repeat business, the measurable cause; loyalty is the emotional or advocacy outcome that produces it. Conflating the two risks optimising only for the metric (discount-driven repeat purchases) while losing the outcome it's meant to signal. Relevant to the [NPS & Feedback Loop Framework](frameworks/06-product-experience-adoption.md) and the Forrester Customer Advocacy Model.
+**Retention vs. loyalty:** Retention is repeat business, the measurable cause; loyalty is the emotional or advocacy outcome that produces it. Conflating the two risks optimising only for the metric (discount-driven repeat purchases) while losing the outcome it's meant to signal. Relevant to the [NPS & Feedback Loop Framework](frameworks/06-product-experience-adoption/net-promoter-score-nps-feedback-loop-framework.md) and the Forrester Customer Advocacy Model.
 
 ---
 
 ## Pricing & Packaging
 
-**GBB (Good-Better-Best):** A packaging structure that fences features and value into three ascending tiers to guide buyer self-selection and expansion revenue. See [GBB Packaging Framework](frameworks/08-pricing-packaging.md).
+**GBB (Good-Better-Best):** A packaging structure that fences features and value into three ascending tiers to guide buyer self-selection and expansion revenue. See [GBB Packaging Framework](frameworks/08-pricing-packaging/good-better-best-gbb-packaging-framework.md).
 
-**Value metric:** The unit a product is priced against (seats, usage volume, API calls, and so on), chosen so price scales with the value a customer receives. See [Value Metric / Willingness-to-Pay Framework](frameworks/08-pricing-packaging.md).
+**Value metric:** The unit a product is priced against (seats, usage volume, API calls, and so on), chosen so price scales with the value a customer receives. See [Value Metric / Willingness-to-Pay Framework](frameworks/08-pricing-packaging/value-metric-willingness-to-pay-framework.md).
 
 **WTP (Willingness-to-Pay):** The price a customer segment is willing to pay for a product, surveyed and plotted against the value received to set price points.
 
-**PSM (Price Sensitivity Meter):** A four-question survey method (Van Westendorp) that maps an acceptable price corridor without asking respondents to name a single price. See [Van Westendorp PSM](frameworks/08-pricing-packaging.md).
+**PSM (Price Sensitivity Meter):** A four-question survey method (Van Westendorp) that maps an acceptable price corridor without asking respondents to name a single price. See [Van Westendorp PSM](frameworks/08-pricing-packaging/van-westendorp-price-sensitivity-meter-psm.md).
 
-**Conjoint analysis:** A trade-off-based choice survey that infers how much a persona values each individual feature, used to decide which features justify a tier upgrade. See [Conjoint Analysis](frameworks/08-pricing-packaging.md).
+**Conjoint analysis:** A trade-off-based choice survey that infers how much a persona values each individual feature, used to decide which features justify a tier upgrade. See [Conjoint Analysis](frameworks/08-pricing-packaging/conjoint-analysis.md).
 
-**MaxDiff analysis (best-worst scaling):** A forced-ranking survey methodology, developed by Jordan Louviere, that asks respondents to pick the most and least important item from repeated subsets of a feature or benefit list, producing a ratio-scaled priority ranking free of the scale-use biases that afflict Likert surveys. Typically run before a conjoint study to narrow the feature list. See [MaxDiff Analysis](frameworks/08-pricing-packaging.md).
+**MaxDiff analysis (best-worst scaling):** A forced-ranking survey methodology, developed by Jordan Louviere, that asks respondents to pick the most and least important item from repeated subsets of a feature or benefit list, producing a ratio-scaled priority ranking free of the scale-use biases that afflict Likert surveys. Typically run before a conjoint study to narrow the feature list. See [MaxDiff Analysis](frameworks/08-pricing-packaging/maxdiff-analysis-best-worst-scaling.md).
 
-**Price elasticity of demand:** Percentage change in quantity demanded divided by percentage change in price. High elasticity means small price moves swing demand sharply; low elasticity means price can move with limited demand impact. Context for reading the results of the [Van Westendorp PSM](frameworks/08-pricing-packaging.md) or [Gabor-Granger Method](frameworks/08-pricing-packaging.md).
+**Price elasticity of demand:** Percentage change in quantity demanded divided by percentage change in price. High elasticity means small price moves swing demand sharply; low elasticity means price can move with limited demand impact. Context for reading the results of the [Van Westendorp PSM](frameworks/08-pricing-packaging/van-westendorp-price-sensitivity-meter-psm.md) or [Gabor-Granger Method](frameworks/08-pricing-packaging/gabor-granger-method.md).
 
 ### Pricing strategy types
 
@@ -170,24 +170,24 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 - **Cost-plus pricing:** Price set as cost plus a fixed margin, the simplest and least value-based approach.
 - **Penetration pricing:** A deliberately low launch price to capture market share quickly, raised later once share is established.
 - **Price skimming:** A deliberately high launch price that is lowered over time, capturing early-adopter willingness to pay before opening to the broader market.
-- **Freemium pricing:** A free tier plus paid tiers, aiming to convert a subset of free users; the pricing counterpart to the [Product-Led Growth](frameworks/04-go-to-market-launch.md) motion.
+- **Freemium pricing:** A free tier plus paid tiers, aiming to convert a subset of free users; the pricing counterpart to the [Product-Led Growth](frameworks/04-go-to-market-launch/product-led-growth-plg.md) motion.
 - **Dynamic pricing:** Price adjusted in real time based on demand, location, time, or competitor moves.
 
 ---
 
 ## Sales Enablement
 
-**MEDDIC / MEDDPICC:** A sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition). PMM typically supports the Metrics, Decision Criteria, and Competition components. See [MEDDIC/MEDDPICC](frameworks/09-sales-enablement.md).
+**MEDDIC / MEDDPICC:** A sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition). PMM typically supports the Metrics, Decision Criteria, and Competition components. See [MEDDIC/MEDDPICC](frameworks/09-sales-enablement/meddic-meddpicc.md).
 
-**Battlecard:** A one-page field tool giving sales a competitor's pitch, the counter-position, objection responses, landmines, and proof points for a live deal. See [Competitive Battlecard Framework](frameworks/09-sales-enablement.md).
+**Battlecard:** A one-page field tool giving sales a competitor's pitch, the counter-position, objection responses, landmines, and proof points for a live deal. See [Competitive Battlecard Framework](frameworks/09-sales-enablement/competitive-battlecard-framework.md).
 
-**Command of the Message:** A Force Management value-selling discipline that adapts core messaging into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value. See [Command of the Message](frameworks/02-positioning-messaging.md).
+**Command of the Message:** A Force Management value-selling discipline that adapts core messaging into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value. See [Command of the Message](frameworks/02-positioning-messaging/command-of-the-message.md).
 
 **Champion:** An internal advocate at a prospect or customer account who actively sells on a vendor's behalf inside their own organisation; the "C" in MEDDIC/MEDDPICC.
 
 **Economic buyer:** The person at a prospect account with the authority and budget to approve a purchase, as distinct from an end user or a champion.
 
-**VARS Framework (Validate-Acknowledge-Reframe-Specify):** A four-step objection-handling framework by Alex McDonnell (CI Alliance) for responding to competitive objections in live sales conversations: Validate the concern, Acknowledge the competitor's strength, Reframe the evaluation criteria, and Specify a differentiator with proof. See [VARS Framework](frameworks/09-sales-enablement.md).
+**VARS Framework (Validate-Acknowledge-Reframe-Specify):** A four-step objection-handling framework by Alex McDonnell (CI Alliance) for responding to competitive objections in live sales conversations: Validate the concern, Acknowledge the competitor's strength, Reframe the evaluation criteria, and Specify a differentiator with proof. See [VARS Framework](frameworks/09-sales-enablement/vars-framework-validate-acknowledge-reframe-specify.md).
 
 ---
 
@@ -195,7 +195,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 
 | Acronym | Meaning | See |
 |---|---|---|
-| ABM | Account-Based Marketing | [ICP Development Methodology](frameworks/01-market-customer-understanding.md) |
+| ABM | Account-Based Marketing | [ICP Development Methodology](frameworks/01-market-customer-understanding/icp-development-methodology.md) |
 | ACV | Annual Contract Value | Metrics & Financial Terms above |
 | ARR | Annual Recurring Revenue | Metrics & Financial Terms above |
 | B2B | Business-to-Business | throughout |

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import { unified } from "unified";
@@ -14,12 +15,18 @@ import type {
   Element as HastElement,
   ElementContent as HastElementContent,
 } from "hast";
-import { extractCategoryQuiz, extractEntryQuiz } from "./quiz";
-import { guidanceFor, plainText, cleanTitle } from "./editorial";
+import { plainText, cleanTitle } from "./editorial";
 
 const REPO_ROOT = path.join(/*turbopackIgnore: true*/ process.cwd(), "..");
 
 export type EntryType = "Framework" | "Methodology" | "Model" | "Primer";
+
+const ENTRY_TYPES: readonly EntryType[] = [
+  "Framework",
+  "Methodology",
+  "Model",
+  "Primer",
+];
 
 export interface Entry {
   title: string;
@@ -28,168 +35,180 @@ export interface Entry {
   categorySlug: string;
   categoryTitle: string;
   categoryNumber: number;
+  /** Position within the category; only the relative order matters, so
+   * authors can leave gaps (10, 20, 30) and insert without renumbering. */
+  order: number;
+  /** One-sentence trigger shown in listings, search and the page description. */
+  useWhen: string;
+  /** One-line statement of what applying the entry produces. */
+  produces: string;
+  /** Repo-relative path of the entry's markdown file. */
+  filePath: string;
+  /** The entry body: no frontmatter, no title heading, no quiz. */
   rawMarkdown: string;
+  /** Contents of the sibling `<slug>.quiz.md`, or null if there is none. */
+  quizMarkdown: string | null;
 }
 
 export interface Category {
   slug: string;
   title: string;
   number: number;
+  intro: string;
   entries: Entry[];
   quizMarkdown: string | null;
 }
 
-const CATEGORY_FILES = [
-  "frameworks/01-market-customer-understanding.md",
-  "frameworks/02-positioning-messaging.md",
-  "frameworks/03-competitive-strategy.md",
-  "frameworks/04-go-to-market-launch.md",
-  "frameworks/05-lifecycle-workflow.md",
-  "frameworks/06-product-experience-adoption.md",
-  "frameworks/07-strategy-planning.md",
-  "frameworks/08-pricing-packaging.md",
-  "frameworks/09-sales-enablement.md",
-];
+// Content layout (see CLAUDE.md, "Repository Structure"): each category is a
+// directory holding `_category.md`, an optional `_category.quiz.md`, and one
+// `<slug>.md` plus `<slug>.quiz.md` per entry. Categories live under
+// `frameworks/<NN-slug>/`; the primers collection is `concepts/` itself.
+const FRAMEWORKS_DIR = "frameworks";
+const CONCEPTS_DIR = "concepts";
+const CATEGORY_FILE = "_category.md";
+const CATEGORY_QUIZ_FILE = "_category.quiz.md";
 
-const CONCEPT_FILES = ["concepts/gtm-strategy-vs-product-marketing.md"];
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+function fail(file: string, message: string): never {
+  throw new Error(`${file}: ${message}`);
 }
 
-function extractCategoryInfo(filePath: string): {
-  number: number;
-  slug: string;
-} {
-  const basename = path.basename(filePath, ".md");
-  const match = basename.match(/^(\d+)-(.+)$/);
-  if (match) {
-    return { number: parseInt(match[1], 10), slug: basename };
-  }
-  return { number: 0, slug: basename };
+function requireString(
+  data: Record<string, unknown>,
+  key: string,
+  file: string,
+): string {
+  const value = data[key];
+  if (typeof value !== "string" || !value.trim())
+    fail(file, `frontmatter needs a non-empty "${key}"`);
+  return value.trim();
 }
 
-function extractType(markdown: string): EntryType {
-  const match = markdown.match(/\*\*Type:\*\*\s*(Framework|Methodology|Model|Primer)/i);
-  if (match) {
-    const raw = match[1];
-    return (raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase().replace(/\.$/, "")) as EntryType;
-  }
-  return "Framework";
+function requireNumber(
+  data: Record<string, unknown>,
+  key: string,
+  file: string,
+): number {
+  const value = data[key];
+  if (typeof value !== "number" || !Number.isFinite(value))
+    fail(file, `frontmatter needs a numeric "${key}"`);
+  return value;
 }
 
-function splitEntries(
-  fileContent: string,
-  categorySlug: string,
-  categoryTitle: string,
-  categoryNumber: number
-): Entry[] {
-  const lines = fileContent.split("\n");
-  const entries: Entry[] = [];
-  let currentTitle = "";
-  let currentLines: string[] = [];
-  let inEntry = false;
+function readIfPresent(absolutePath: string): string | null {
+  return fs.existsSync(absolutePath)
+    ? fs.readFileSync(absolutePath, "utf-8")
+    : null;
+}
 
-  for (const line of lines) {
-    const h2Match = line.match(/^## (.+)$/);
-    if (h2Match) {
-      if (inEntry && currentTitle) {
-        const rawMarkdown = currentLines.join("\n").trim();
-        entries.push({
-          title: currentTitle,
-          slug: slugify(currentTitle),
-          type: extractType(rawMarkdown),
-          categorySlug,
-          categoryTitle,
-          categoryNumber,
-          rawMarkdown,
-        });
-      }
-      currentTitle = h2Match[1].trim();
-      currentLines = [];
-      inEntry = true;
-    } else if (inEntry) {
-      if (line.trim() === "---") {
-        const rawMarkdown = currentLines.join("\n").trim();
-        entries.push({
-          title: currentTitle,
-          slug: slugify(currentTitle),
-          type: extractType(rawMarkdown),
-          categorySlug,
-          categoryTitle,
-          categoryNumber,
-          rawMarkdown,
-        });
-        currentTitle = "";
-        currentLines = [];
-        inEntry = false;
-      } else {
-        currentLines.push(line);
-      }
+/** Quiz files open with a `# ...` heading for GitHub readers; the parser only
+ * needs the numbered questions beneath it. */
+function readQuiz(absolutePath: string): string | null {
+  const raw = readIfPresent(absolutePath);
+  if (raw === null) return null;
+  const body = raw.replace(/^\s*# [^\n]*\n/, "").trim();
+  return body || null;
+}
+
+function categoryDirectories(): string[] {
+  const dirs: string[] = [];
+  for (const root of [FRAMEWORKS_DIR, CONCEPTS_DIR]) {
+    const absoluteRoot = path.join(REPO_ROOT, root);
+    if (fs.existsSync(path.join(absoluteRoot, CATEGORY_FILE))) {
+      dirs.push(root);
+      continue;
+    }
+    for (const child of fs.readdirSync(absoluteRoot, { withFileTypes: true })) {
+      if (
+        child.isDirectory() &&
+        fs.existsSync(path.join(absoluteRoot, child.name, CATEGORY_FILE))
+      )
+        dirs.push(`${root}/${child.name}`);
     }
   }
-
-  if (inEntry && currentTitle) {
-    const rawMarkdown = currentLines.join("\n").trim();
-    entries.push({
-      title: currentTitle,
-      slug: slugify(currentTitle),
-      type: extractType(rawMarkdown),
-      categorySlug,
-      categoryTitle,
-      categoryNumber,
-      rawMarkdown,
-    });
-  }
-
-  return entries;
+  return dirs;
 }
 
-function extractCategoryTitle(content: string): string {
-  const match = content.match(/^# (.+)$/m);
-  return match ? match[1].trim() : "Untitled";
+function loadEntry(
+  dir: string,
+  fileName: string,
+  category: Pick<Category, "slug" | "title" | "number">,
+): Entry {
+  const filePath = `${dir}/${fileName}`;
+  const { data, content } = matter(
+    fs.readFileSync(path.join(REPO_ROOT, filePath), "utf-8"),
+  );
+  const title = requireString(data, "title", filePath);
+  const slug = requireString(data, "slug", filePath);
+  if (`${slug}.md` !== fileName)
+    fail(filePath, `slug "${slug}" must match the file name`);
+  const type = requireString(data, "type", filePath) as EntryType;
+  if (!ENTRY_TYPES.includes(type))
+    fail(filePath, `type must be one of ${ENTRY_TYPES.join(", ")}`);
+
+  const heading = content.match(/^\s*# ([^\n]+)\n?/);
+  if (!heading || heading[1].trim() !== title)
+    fail(filePath, `body must open with "# ${title}"`);
+
+  return {
+    title,
+    slug,
+    type,
+    categorySlug: category.slug,
+    categoryTitle: category.title,
+    categoryNumber: category.number,
+    order: requireNumber(data, "order", filePath),
+    useWhen: requireString(data, "use_when", filePath),
+    produces: requireString(data, "produces", filePath),
+    filePath,
+    rawMarkdown: content.slice(heading[0].length).trim(),
+    quizMarkdown: readQuiz(
+      path.join(REPO_ROOT, dir, fileName.replace(/\.md$/, ".quiz.md")),
+    ),
+  };
 }
+
+function loadCategory(dir: string): Category {
+  const categoryPath = `${dir}/${CATEGORY_FILE}`;
+  const { data } = matter(
+    fs.readFileSync(path.join(REPO_ROOT, categoryPath), "utf-8"),
+  );
+  const category = {
+    slug: requireString(data, "slug", categoryPath),
+    title: requireString(data, "title", categoryPath),
+    number: requireNumber(data, "number", categoryPath),
+  };
+  const fileNames = fs
+    .readdirSync(path.join(REPO_ROOT, dir))
+    .filter(
+      (name) =>
+        name.endsWith(".md") &&
+        !name.endsWith(".quiz.md") &&
+        name !== CATEGORY_FILE,
+    );
+  const entries = fileNames
+    .map((name) => loadEntry(dir, name, category))
+    .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+
+  return {
+    ...category,
+    intro: requireString(data, "intro", categoryPath),
+    entries,
+    quizMarkdown: readQuiz(path.join(REPO_ROOT, dir, CATEGORY_QUIZ_FILE)),
+  };
+}
+
+let categoryCache: Category[] | null = null;
 
 export function getAllCategories(): Category[] {
-  const categories: Category[] = [];
-
-  for (const file of CATEGORY_FILES) {
-    const filePath = path.join(REPO_ROOT, file);
-    const rawContent = fs.readFileSync(filePath, "utf-8");
-    const { number, slug } = extractCategoryInfo(file);
-    const title = extractCategoryTitle(rawContent);
-    const { content, quizMarkdown } = extractCategoryQuiz(rawContent);
-
-    const entries = splitEntries(content, slug, title, number);
-    categories.push({ slug, title, number, entries, quizMarkdown });
-  }
-
-  for (const file of CONCEPT_FILES) {
-    const filePath = path.join(REPO_ROOT, file);
-    const content = fs.readFileSync(filePath, "utf-8");
-    const entries = splitEntries(content, "concepts-primers", "Concepts", 10);
-    if (entries.length > 0) {
-      const existing = categories.find((c) => c.slug === "concepts-primers");
-      if (existing) {
-        existing.entries.push(...entries);
-      } else {
-        categories.push({
-          slug: "concepts-primers",
-          title: "Concepts",
-          number: 10,
-          entries,
-          quizMarkdown: null,
-        });
-      }
-    }
-  }
-
-  return categories.sort((a, b) => a.number - b.number);
+  // Build-time only: in `next dev` the files are re-read on every call so an
+  // edit shows up on refresh.
+  if (categoryCache && process.env.NODE_ENV === "production")
+    return categoryCache;
+  const categories = categoryDirectories()
+    .map(loadCategory)
+    .sort((a, b) => a.number - b.number);
+  categoryCache = categories;
+  return categories;
 }
 
 export function getAllEntries(): Entry[] {
@@ -335,15 +354,14 @@ export interface SearchEntry {
 
 export function getSearchIndex(): SearchEntry[] {
   return getAllEntries().map((entry) => {
-    const snippet = guidanceFor(entry).useWhen;
     return {
       title: entry.title,
       slug: entry.slug,
       type: entry.type,
       categoryTitle: cleanTitle(entry.categoryTitle),
       categorySlug: entry.categorySlug,
-      snippet,
-      content: plainText(extractEntryQuiz(entry.rawMarkdown).body),
+      snippet: entry.useWhen,
+      content: plainText(entry.rawMarkdown),
     };
   });
 }

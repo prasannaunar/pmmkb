@@ -3,7 +3,7 @@ name: launch-planning
 description: "Use when a product, feature, tier, or rebrand is going to market and the plan is not settled: how much process this launch warrants, what the timeline and dependencies are, who owns which channel, what could go wrong, and how success is measured. Triggers include launch plan, launch brief, GTM plan, launch checklist, release comms, launch tiering, and go/no-go. Sizes the launch first (Tier 1/2/3), then builds the motion, runs a pre-mortem, and sets the measurement baseline. Use it even when the request is just for a launch announcement or timeline."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/04-go-to-market-launch.md; frameworks/05-lifecycle-workflow.md; measurement-guide.md"
+  kb-source: "frameworks/04-go-to-market-launch/; frameworks/05-lifecycle-workflow/; measurement-guide.md"
   frameworks: "Launch Tier Framework (Tier 1/2/3); Go-to-Market Motion Framework; Pre-mortem; 10-Step PMM Process; GTM Motion Model"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,8 +18,8 @@ process to a routine UI update and to a new product line is the single most
 common launch failure, and it fails in both directions at once.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/04-go-to-market-launch.md` (Launch Tier Framework, Pre-mortem) and
-`frameworks/05-lifecycle-workflow.md` (Go-to-Market Motion Framework).
+`frameworks/04-go-to-market-launch/` (Launch Tier Framework, Pre-mortem) and
+`frameworks/05-lifecycle-workflow/` (Go-to-Market Motion Framework).
 
 ## Step 1: Tier the launch
 
@@ -130,7 +130,7 @@ dates, and the metric baseline with the 90-day read scheduled.
 ## Attribution
 
 Derived from the Launch Tier Framework and Pre-mortem entries in
-`frameworks/04-go-to-market-launch.md` and the Go-to-Market Motion Framework in
-`frameworks/05-lifecycle-workflow.md`, which carry the full citations (the
+`frameworks/04-go-to-market-launch/` and the Go-to-Market Motion Framework in
+`frameworks/05-lifecycle-workflow/`, which carry the full citations (the
 pre-mortem technique is attributed there to Gary Klein). Skill format follows
 the Agent Skills open specification. See [ATTRIBUTION.md](../ATTRIBUTION.md).

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getCategoryBySlug } from "@/lib/content";
-import { cleanTitle, categoryIntros, guidanceFor } from "@/lib/editorial";
+import { cleanTitle, guidanceFor } from "@/lib/editorial";
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { CategoryEntries } from "@/components/category-entries";
 import { QuizSection } from "@/components/quiz-section";
@@ -17,7 +17,7 @@ export async function generateMetadata({
   const c = getCategoryBySlug(slug);
   return {
     title: c ? cleanTitle(c.title) : "Not found",
-    description: c ? categoryIntros[c.number] : undefined,
+    description: c ? c.intro : undefined,
   };
 }
 const picks: Record<number, [string, string][]> = {
@@ -132,7 +132,7 @@ export default async function CategoryPage({
             : ""}
         </p>
         <h1>{label}</h1>
-        <p className="lede">{categoryIntros[category.number]}</p>
+        <p className="lede">{category.intro}</p>
         <div className="inline-links">
           <a href="#all-entries">
             Browse all {category.entries.length} entries ↓

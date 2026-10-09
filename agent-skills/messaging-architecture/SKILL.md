@@ -3,7 +3,7 @@ name: messaging-architecture
 description: "Use when positioning is settled but the words are not: the website, sales deck, and launch email say different things, a new writer needs a brief, sales cannot restate the pitch, a segment or vertical needs its own version of the message, or someone asks for messaging, a messaging house, value pillars, proof points, or a message matrix. Builds a core message, three or four evidenced value pillars, proof points, and a persona-level message matrix, then tests it with real buyers before it ships. Do not use it to fix a positioning problem."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
-  kb-source: "frameworks/02-positioning-messaging.md"
+  kb-source: "frameworks/02-positioning-messaging/"
   frameworks: "Message Architecture (Messaging House); Features-Advantages-Benefits Ladder; Message Testing (message-market fit); Vertical/Segment Messaging via Buying Trigger; StoryBrand SB7"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
@@ -18,7 +18,7 @@ core message, three or four value pillars, and proof beneath each. It encodes
 positioning; it does not decide it.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/02-positioning-messaging.md`.
+`frameworks/02-positioning-messaging/`.
 
 ## Entry condition
 
@@ -113,6 +113,6 @@ for new candidate claims).
 ## Attribution
 
 Derived from the Message Architecture, FAB Ladder, Message Testing, and
-segment-messaging entries in `frameworks/02-positioning-messaging.md`, which
+segment-messaging entries in `frameworks/02-positioning-messaging/`, which
 carry the full citations. Skill format follows the Agent Skills open
 specification. See [ATTRIBUTION.md](../ATTRIBUTION.md).

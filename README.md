@@ -11,7 +11,7 @@ Licensed under [CC BY 4.0](LICENSE). Contributions welcome.
 ## Quick Start
 
 1. **Find your situation** in [BY-SITUATION.md](BY-SITUATION.md) or use the [decision trees](decision-trees.md) if you are not sure which situation fits
-2. **Read the entry** from the [INDEX](INDEX.md) or directly from the category file in `/frameworks/`
+2. **Read the entry** from the [INDEX](INDEX.md) or directly from the entry file in its category folder under `/frameworks/`
 3. **Apply the steps** from the "How to apply it" section with your own data and context
 4. **Measure the outcome** using the success metrics included in each entry
 5. **Grab the quick-reference card** from [quick-reference/](quick-reference/) when you need a one-page refresher
@@ -28,15 +28,15 @@ Each entry declares a **Type** (Framework, Methodology, Model, or Primer) and fo
 
 | # | Category | Entries | File |
 |---|----------|---------|------|
-| 1 | Market & Customer Understanding | 8 | `frameworks/01-market-customer-understanding.md` |
-| 2 | Positioning & Messaging | 12 | `frameworks/02-positioning-messaging.md` |
-| 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy.md` |
-| 4 | Go-to-Market & Launch | 11 | `frameworks/04-go-to-market-launch.md` |
-| 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow.md` |
-| 6 | Product Experience & Adoption | 7 | `frameworks/06-product-experience-adoption.md` |
-| 7 | Strategy & Planning | 7 | `frameworks/07-strategy-planning.md` |
-| 8 | Pricing & Packaging | 7 | `frameworks/08-pricing-packaging.md` |
-| 9 | Sales Enablement | 5 | `frameworks/09-sales-enablement.md` |
+| 1 | Market & Customer Understanding | 8 | `frameworks/01-market-customer-understanding/` |
+| 2 | Positioning & Messaging | 12 | `frameworks/02-positioning-messaging/` |
+| 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy/` |
+| 4 | Go-to-Market & Launch | 11 | `frameworks/04-go-to-market-launch/` |
+| 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow/` |
+| 6 | Product Experience & Adoption | 7 | `frameworks/06-product-experience-adoption/` |
+| 7 | Strategy & Planning | 7 | `frameworks/07-strategy-planning/` |
+| 8 | Pricing & Packaging | 7 | `frameworks/08-pricing-packaging/` |
+| 9 | Sales Enablement | 5 | `frameworks/09-sales-enablement/` |
 | — | Concepts (primers) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 
 See [INDEX.md](INDEX.md) for the full taxonomy with type and description for every entry.

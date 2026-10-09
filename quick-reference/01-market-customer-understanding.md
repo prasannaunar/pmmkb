@@ -1,6 +1,6 @@
 # Quick Reference: Market & Customer Understanding
 
-Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/01-market-customer-understanding.md](../frameworks/01-market-customer-understanding.md). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
+Condensed one-page summaries. For full detail, pitfalls, and worked examples, see [frameworks/01-market-customer-understanding/](../frameworks/01-market-customer-understanding/). Each card names its primary source; full citations, additional sources, and hedged attributions are documented in that file.
 
 ## Contents
 

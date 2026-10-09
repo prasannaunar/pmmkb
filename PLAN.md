@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-09 (SEO/GEO audit of the live site and two-PR plan recorded)
+**Last Updated:** 2026-10-09 (content modularised into one file per entry plus sibling quiz files; SEO/GEO audit and plan recorded)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -19,11 +19,22 @@ All 435 quiz questions across all 11 sources have been rewritten to the tightene
 - [ ] **Monthly team feedback session.** Tooling exists in FEEDBACK-LOG.md; no session has been logged yet.
 - [ ] **Annual update calendar distribution.** The calendar is documented in FEEDBACK-LOG.md; it has not been distributed to the team.
 
+### Content modularisation ✅ Complete (2026-10-09)
+
+Each category was a single large markdown file holding every entry and every quiz (quizzes were about half the text), with the entry summaries and category introductions kept in `web/src/lib/editorial.ts` and matched by exact title. Now each category is a folder: `_category.md` and `_category.quiz.md`, then one `<slug>.md` (YAML frontmatter plus prose) and one `<slug>.quiz.md` per entry. The primers collection, `concepts/`, has the same shape. Page addresses come from the stored `slug`, so a title can change without moving a URL. The web app discovers folders and files at build time and fails the build, naming the file, on malformed frontmatter. Format and field rules are in CLAUDE.md ("Entry file format").
+
+Verified as a no-op for readers: the 66 entries, 10 categories, all quizzes, summaries and the search index were compared before and after, and the full static export (524 files) was diffed against a build of the previous layout. The only difference is the search index no longer carrying the `Type: X.` prefix on each entry's text, now that the type lives in frontmatter.
+
+Follow-ups, none started:
+
+- [ ] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift.
+- [ ] Use `filePath` to add an "Edit on GitHub" link to entry pages.
+
 ### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
 
 Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting); the record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06. Workstream 6 is **next in line**, now unblocked by the custom domain (https://www.pmmkb.com/, live 2026-10-08). The canonical origin lives in one place, `SITE_URL` in `web/src/lib/site.ts`; read every absolute URL from it, never hard-code the domain.
 
-**Sequencing (proposed 2026-10-09):** if the content modularisation below is approved, it ships first, because per-entry frontmatter supplies the stable slugs and descriptions this workstream depends on. Otherwise PR 1 can start straight away.
+**Sequencing.** The content modularisation (below) has shipped, so entries now have stable `slug`s and per-entry frontmatter. PR 1 can start straight away. The entry `description` (first sentence of "What it is", ~155 characters) was deliberately not added to the frontmatter in the modularisation, because it needs editorial trimming per entry and nothing reads it until PR 1; add it as a `description` frontmatter field in PR 1 and make the metadata read it.
 
 **Audit of the live site (2026-10-09).**
 

@@ -1,6 +1,6 @@
 # STP Framework: Case Study
 
-> **Framework source:** [Segmentation-Targeting-Positioning (STP) Framework](../frameworks/01-market-customer-understanding.md) | **Category:** 1: Market & Customer Understanding
+> **Framework source:** [Segmentation-Targeting-Positioning (STP) Framework](../frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md) | **Category:** 1: Market & Customer Understanding
 
 ---
 
