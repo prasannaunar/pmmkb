@@ -11,7 +11,7 @@
   --color-ink: #2b2b2b;
   --color-subtle: #b5b5b5;
 
-  --color-type-framework: #457eaa;
+  --color-type-framework: #3a6f99;
   --color-type-methodology: #8a6a4f;
   --color-type-model: #4f8a6a;
   --color-type-primer: #b5762f;
@@ -26,7 +26,7 @@
   --text-tertiary: var(--color-subtle);
   --border: #e3e1db;
   --border-hover: var(--color-subtle);
-  --accent: #457eaa;
+  --accent: #3a6f99;
   --accent-light: rgba(86, 158, 208, 0.08);
   --brand-alt: var(--color-brand-alt);
   --success: #4f8a6a;
@@ -36,6 +36,8 @@
   --quiz-accent: var(--color-brand-alt);
   --quiz-accent-light: rgba(208, 136, 86, 0.08);
   --quiz-bg: rgba(208, 136, 86, 0.03);
+  /* Text on the orange quiz accent: dark in both themes. */
+  --on-brand-alt: #1c1c1c;
 }
 
 * {
@@ -351,7 +353,7 @@ body {
 }
 
 .quiz-option-muted {
-  opacity: 0.55;
+  opacity: 0.8;
 }
 
 .quiz-feedback {
@@ -434,6 +436,67 @@ body {
 :root {
   --text-tertiary: #686862;
 }
+
+/* Dark mode. The two blocks must stay identical: the first follows the
+   visitor's system setting when no theme is set (also the no-JavaScript case),
+   the second applies once the head script or the toggle sets data-theme. */
+:root {
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-heading: #f2f1ed;
+    --color-ink: #d3d1ca;
+    --color-subtle: #6d6b65;
+    --color-type-framework: #86b8e0;
+    --color-type-methodology: #d3aa87;
+    --color-type-model: #7fc79f;
+    --color-type-primer: #e3a95f;
+    --bg: #141413;
+    --bg-card: #1b1b1a;
+    --bg-sidebar: #141413;
+    --text-primary: #f2f1ed;
+    --text-secondary: #d3d1ca;
+    --text-tertiary: #a6a49d;
+    --border: #353430;
+    --border-hover: #6d6b65;
+    --accent: #86b8e0;
+    --accent-light: rgba(134, 184, 224, 0.12);
+    --success: #77c79b;
+    --success-light: rgba(119, 199, 155, 0.12);
+    --danger: #ef8d83;
+    --danger-light: rgba(239, 141, 131, 0.12);
+    --quiz-accent-light: rgba(208, 136, 86, 0.14);
+    --quiz-bg: rgba(208, 136, 86, 0.07);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --color-heading: #f2f1ed;
+  --color-ink: #d3d1ca;
+  --color-subtle: #6d6b65;
+  --color-type-framework: #86b8e0;
+  --color-type-methodology: #d3aa87;
+  --color-type-model: #7fc79f;
+  --color-type-primer: #e3a95f;
+  --bg: #141413;
+  --bg-card: #1b1b1a;
+  --bg-sidebar: #141413;
+  --text-primary: #f2f1ed;
+  --text-secondary: #d3d1ca;
+  --text-tertiary: #a6a49d;
+  --border: #353430;
+  --border-hover: #6d6b65;
+  --accent: #86b8e0;
+  --accent-light: rgba(134, 184, 224, 0.12);
+  --success: #77c79b;
+  --success-light: rgba(119, 199, 155, 0.12);
+  --danger: #ef8d83;
+  --danger-light: rgba(239, 141, 131, 0.12);
+  --quiz-accent-light: rgba(208, 136, 86, 0.14);
+  --quiz-bg: rgba(208, 136, 86, 0.07);
+  color-scheme: dark;
+}
 html {
   scroll-padding-top: 7rem;
 }
@@ -513,6 +576,25 @@ summary {
 }
 .mobile-nav {
   display: none;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid var(--border);
+}
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--border-hover);
 }
 .page-shell {
   max-width: 1200px;
@@ -1277,14 +1359,14 @@ h3 {
 }
 .quiz-start-button,
 .quiz-next {
-  color: var(--text-primary);
+  color: var(--on-brand-alt);
 }
 .quiz-progress-label {
   color: var(--text-secondary);
 }
 .quiz-header h2::before {
   font-size: 0.75rem;
-  color: var(--text-primary);
+  color: var(--on-brand-alt);
 }
 .quiz-option {
   font-size: 0.9rem;

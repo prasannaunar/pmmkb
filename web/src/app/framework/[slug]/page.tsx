@@ -14,6 +14,7 @@ import { learningPaths, resolveSteps } from "@/lib/guides";
 import { EntrySources } from "@/components/entry-sources";
 import { QuizSection } from "@/components/quiz-section";
 import { ArticleContents } from "@/components/article-contents";
+import { decodeEntities } from "@/lib/html";
 import { FrameworkVisual } from "@/components/framework-visual";
 import { PathContext } from "@/components/path-context";
 export function generateStaticParams() {
@@ -54,7 +55,7 @@ export default async function FrameworkPage({
     html.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g),
   ).map((m) => ({
     id: m[1],
-    label: m[2].replace(/<[^>]+>/g, "").replace(/&amp;/g, "&"),
+    label: decodeEntities(m[2].replace(/<[^>]+>/g, "")),
   }));
   const contents = [
     { id: "at-a-glance", label: "At a glance" },
