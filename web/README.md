@@ -17,6 +17,8 @@ npm run test:seo   # after the build; checks the exported pages
 
 The build exports the site to `out/`; serve that directory with a static server for a production preview. Vercel continues to use the repository's existing deployment configuration. Production is live at **https://www.pmmkb.com/** (the apex `pmmkb.com` redirects to `www`). The canonical origin is defined once as `SITE_URL` in `src/lib/site.ts` (overridable with `NEXT_PUBLIC_SITE_URL`); use it for any absolute URL rather than hard-coding the domain.
 
+Light and dark themes are driven by the colour tokens in `src/app/globals.css`. A short script in the root layout sets `data-theme` on `<html>` before first paint (saved choice first, then the system setting), and the header's theme toggle changes and saves it. Without JavaScript the CSS follows the system setting. Use the tokens rather than literal colours so new components work in both themes.
+
 The export writes each route as `<route>.html` (for example `framework/pmm-team-scaling-framework.html`). The root `vercel.json` sets `cleanUrls: true` so Vercel serves those files at extensionless URLs such as `/framework/pmm-team-scaling-framework`. Without it every route except `/` returns a 404 on Vercel. Unknown URLs render `src/app/not-found.tsx`, which uses the site layout and theme; Next's built-in 404 forces a black background in dark mode, which made the page unreadable.
 
 ## Content and discovery

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
+import { ThemeToggle } from "./theme-toggle";
 const links = [
   ["/topics", "Explore topics"],
   ["/challenges", "Solve a challenge"],
@@ -54,21 +55,24 @@ export function SiteHeader() {
       <nav className="desktop-nav" aria-label="Main navigation">
         {navigation}
       </nav>
-      <details
-        className="mobile-nav"
-        ref={menu}
-        onKeyDown={(e) => {
-          if (e.key === "Escape" && menu.current) {
-            menu.current.open = false;
-            menu.current.querySelector("summary")?.focus();
-          }
-        }}
-      >
-        <summary>
-          Menu <span aria-hidden="true">+</span>
-        </summary>
-        <nav aria-label="Mobile navigation">{navigation}</nav>
-      </details>
+      <div className="header-actions">
+        <ThemeToggle />
+        <details
+          className="mobile-nav"
+          ref={menu}
+          onKeyDown={(e) => {
+            if (e.key === "Escape" && menu.current) {
+              menu.current.open = false;
+              menu.current.querySelector("summary")?.focus();
+            }
+          }}
+        >
+          <summary>
+            Menu <span aria-hidden="true">+</span>
+          </summary>
+          <nav aria-label="Mobile navigation">{navigation}</nav>
+        </details>
+      </div>
     </header>
   );
 }
