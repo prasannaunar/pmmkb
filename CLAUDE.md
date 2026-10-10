@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-09 (entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
+**Last Updated:** 2026-10-10 (dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
@@ -21,6 +21,7 @@ For how PMMs, team leads, and new joiners use this repository day-to-day, see RE
 - The canonical origin is defined once as `SITE_URL` in `web/src/lib/site.ts`. Use it for any absolute URL (metadata, sitemap, JSON-LD, `llms.txt`); never hard-code the domain.
 - **SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"), along with the list of actions only the owner can take ("Owner actions"). PR 1 (canonicals, Open Graph and Twitter tags, sitemap, descriptions) is built; structured data and `llms.txt` are next. Read that section before touching metadata.
 - **Page metadata goes through `pageMetadata()` in `web/src/lib/seo.ts`**, which sets the title, description, canonical, Open Graph and Twitter tags together. Do not set `openGraph` or `twitter` by hand on a page: a page's object replaces the layout's rather than merging. After a build, `npm run test:seo` in `web/` checks every page.
+- **Dark mode:** the site has a light and a dark theme. The palette tokens live in `web/src/app/globals.css`: `:root` holds light, and the dark overrides sit in two identical blocks (a `prefers-color-scheme` fallback for visitors with no saved choice or no JavaScript, and `:root[data-theme="dark"]`). Change both together. Always use the tokens (`var(--bg)`, `--text-primary`, `--accent` and so on), never a literal colour, so a new component works in both themes; `--on-brand-alt` is the fixed dark ink for text on the orange quiz accent. The theme is chosen before first paint by `THEME_INIT_SCRIPT` (`web/src/lib/theme.ts`, inlined in the root layout), and `ThemeToggle` (`web/src/components/theme-toggle.tsx`, in the site header) switches it and saves the choice to localStorage. Check any colour change in both themes: text must meet WCAG AA against its real background.
 - The owner's personal site, https://www.prasannaunar.com/ (repo `prasannaunar/website`), features this knowledge base on its `/projects/` page, and this site links back to it from the footer ("Made by"; the name and URL are `AUTHOR` in `web/src/lib/site.ts`). If headline figures change (entry count, category count, quiz count), that page and its `llms.txt` need the same update.
 
 ---

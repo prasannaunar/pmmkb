@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-09 (SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Last Updated:** 2026-10-10 (dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -41,6 +41,14 @@ Follow-ups, none started:
 
 - [ ] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift.
 - [ ] Use `filePath` to add an "Edit on GitHub" link to entry pages.
+
+### Dark mode ✅ Complete (2026-10-10)
+
+The site now has a light and a dark theme with a toggle in the header (next to the Menu control on mobile). The saved choice wins, otherwise the system setting applies, and it is set before first paint so there is no flash. Palette and rules are in CLAUDE.md ("Live site") and `web/README.md`.
+
+Verified: an automated contrast audit of 84 pages (entries, categories, learning paths, topic types, 404) in dark mode at 390px and 1280px found no text below WCAG AA and no horizontal scroll; the quiz (start, answered, summary), search results, category filters and the open mobile menu were audited in dark mode too. `npm run lint`, `test:content` and `test:seo` pass. Two supporting changes: text on the orange quiz buttons and badge now uses a fixed dark ink (`--on-brand-alt`) so it stays readable when `--text-primary` turns light, and answered-but-unselected quiz options are dimmed less in both themes (opacity 0.8, was 0.55) so they stay readable.
+
+Known, not changed: in light mode the brand blue (`#457eaa`) on the cream background is 4.28:1, just under AA for small text (eyebrows, text links, active nav). Darkening it would change the brand colour, so it needs an owner decision.
 
 ### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
 
