@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Merriweather, Poppins } from "next/font/google";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { BackToTop } from "@/components/back-to-top";
 import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
+import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -39,6 +40,13 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fdfdfb" },
+    { media: "(prefers-color-scheme: dark)", color: "#141413" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -48,7 +56,14 @@ export default function RootLayout({
     <html
       lang="en-GB"
       className={`${merriweather.variable} ${poppins.variable} h-full`}
+      suppressHydrationWarning
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+        <noscript>
+          <style>{".theme-toggle{display:none}"}</style>
+        </noscript>
+      </head>
       <body>
         <a className="skip-link" href="#main-content">
           Skip to content
