@@ -11,7 +11,7 @@
   --color-ink: #2b2b2b;
   --color-subtle: #b5b5b5;
 
-  --color-type-framework: #457eaa;
+  --color-type-framework: #3a6f99;
   --color-type-methodology: #8a6a4f;
   --color-type-model: #4f8a6a;
   --color-type-primer: #b5762f;
@@ -26,7 +26,7 @@
   --text-tertiary: var(--color-subtle);
   --border: #e3e1db;
   --border-hover: var(--color-subtle);
-  --accent: #457eaa;
+  --accent: #3a6f99;
   --accent-light: rgba(86, 158, 208, 0.08);
   --brand-alt: var(--color-brand-alt);
   --success: #4f8a6a;

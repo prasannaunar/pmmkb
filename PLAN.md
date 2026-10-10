@@ -48,7 +48,7 @@ The site now has a light and a dark theme with a toggle in the header (next to t
 
 Verified: an automated contrast audit of 84 pages (entries, categories, learning paths, topic types, 404) in dark mode at 390px and 1280px found no text below WCAG AA and no horizontal scroll; the quiz (start, answered, summary), search results, category filters and the open mobile menu were audited in dark mode too. `npm run lint`, `test:content` and `test:seo` pass. Two supporting changes: text on the orange quiz buttons and badge now uses a fixed dark ink (`--on-brand-alt`) so it stays readable when `--text-primary` turns light, and answered-but-unselected quiz options are dimmed less in both themes (opacity 0.8, was 0.55) so they stay readable.
 
-Known, not changed: in light mode the brand blue (`#457eaa`) on the cream background is 4.28:1, just under AA for small text (eyebrows, text links, active nav). Darkening it would change the brand colour, so it needs an owner decision.
+Light mode text blue: the accent and the Framework type colour were `#457eaa`, 4.28:1 on cream and 3.97:1 on the blue-tinted panels, under AA for small text (eyebrows, text links, active nav). Both are now `#3a6f99` (at least 4.6:1 on every surface they sit on). The decorative brand blue `#569ed0` (rules and the wordmark divider) is unchanged. Also fixed: the entry page's "On this page" list showed `&#x26;` for "&" ("Cadence &#x26; ownership") because only `&amp;` was decoded; headings now go through `decodeEntities()` in `web/src/lib/html.ts`.
 
 ### Web app: SEO / GEO / AEO (carried forward from the retired IMPROVEMENTS-PLAN-2026-09.md, Workstream 6)
 
