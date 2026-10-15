@@ -101,6 +101,11 @@ const picks: Record<number, [string, string][]> = {
     ["Match content to buyer questions", "Buyer's Journey Content Map"],
   ],
   10: [["Understand where PMM fits", "GTM Strategy vs Product Marketing"]],
+  11: [
+    ["Recommend where to invest across a portfolio", "BCG Growth-Share Matrix"],
+    ["Frame a growth direction for leadership", "Ansoff Matrix"],
+    ["Judge whether a market is worth entering", "Porter's Five Forces"],
+  ],
 };
 export default async function CategoryPage({
   params,
