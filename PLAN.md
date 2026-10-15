@@ -66,7 +66,7 @@ Verified as a no-op for readers: the 66 entries, 10 categories, all quizzes, sum
 
 Follow-ups, none started:
 
-- [ ] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift.
+- [x] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift. ✅ Done 2026-10-15: `npm run generate:index` in `web/` rebuilds each table from frontmatter (title linked to the entry file, type, and the `description` sentence, which replaces the old hand-written Description column), and `test:content` fails on a stale table, a wrong total or category count, or a quick-reference card that is missing, out of order, or has the wrong title or type. The check found and fixed three drifts: Category Design and CI Program Maturity Model cards in the wrong order, the MOVE GTM Diagnostic card under a shortened title, and the Kano Model card typed as a Model (the entry is a Framework).
 - [ ] Use `filePath` to add an "Edit on GitHub" link to entry pages.
 
 ### Dark mode ✅ Complete (2026-10-10)
