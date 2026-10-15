@@ -47,6 +47,8 @@ Article pages retain the full source content while adding section links, an over
 
 ## Regression checks
 
-`npm run test:content` checks entry/category counts, frontmatter and quiz-file coverage, unique entry URLs and orders, orphaned quiz files, all quiz counts and answer structures, and every guide reference. When intentionally expanding the library, update the expected counts together with the relevant source and editorial data.
+`npm run generate:index` rebuilds the entry tables in the root INDEX.md from the entries' frontmatter, between its `BEGIN/END generated table` markers.
+
+`npm run test:content` checks entry/category counts, that INDEX.md's tables are up to date and its hand-written totals correct, that each `quick-reference/` file has one card per entry in order with the right title and type, frontmatter and quiz-file coverage, unique entry URLs and orders, orphaned quiz files, all quiz counts and answer structures, and every guide reference. When intentionally expanding the library, update the expected counts together with the relevant source and editorial data.
 
 `npm run test:seo` (run after `npm run build`) checks the exported site: one `h1`, a unique title and description, the canonical and social tags, the footer link, valid JSON-LD of the right types with every URL on `SITE_URL`, an `llms.txt` and `llms-full.txt` that cover every entry, a sitemap that lists exactly the indexable pages, and a `robots.txt` that references it.

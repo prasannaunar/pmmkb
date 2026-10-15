@@ -77,10 +77,22 @@ existing category-quiz question, consider adding or swapping in a question
 for it. This isn't mandatory for every new entry, since a category quiz
 tests judgement across entries rather than covering each one individually.
 
-## 3. INDEX.md
+## 3. INDEX.md and quick-reference/
 
-Add a row to the entry's category table: Entry, Type, one-line Description.
-Update the "Last Updated" line at the top with a short note on what changed.
+The category tables in INDEX.md are generated from the entries' frontmatter
+(title, type, order, `description`): run `npm run generate:index` in `web/`
+rather than editing a table by hand. Then update by hand the "Structure
+Notes" total and type breakdown, the "Completion Status" count for the
+category, and the "Last Updated" line at the top with a short note on what
+changed.
+
+Add a card for the entry to the category's file in `quick-reference/`, in the
+same position as its `order`, with the entry's exact title as the `## `
+heading, a matching `**Type:**` line, and a line in the file's Contents list.
+
+`npm run test:content` fails if a table is stale, a count is wrong, or a
+quick-reference card is missing, out of order, or carries the wrong title or
+type.
 
 ## 4. README.md
 

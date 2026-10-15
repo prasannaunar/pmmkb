@@ -10,7 +10,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [PMM Team Scaling Framework](#pmm-team-scaling-framework)
 - [Analyst Relations Tiering & Cadence Model](#analyst-relations-tiering--cadence-model)
 - [Pragmatic Institute Framework](#pragmatic-institute-framework)
-- [MOVE GTM Diagnostic](#move-gtm-diagnostic)
+- [MOVE GTM Diagnostic (4-Question GTM Framework)](#move-gtm-diagnostic-4-question-gtm-framework)
 
 ---
 
@@ -213,7 +213,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 
 ---
 
-## MOVE GTM Diagnostic
+## MOVE GTM Diagnostic (4-Question GTM Framework)
 
 **Type:** Model
 

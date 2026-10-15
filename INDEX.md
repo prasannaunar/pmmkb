@@ -1,124 +1,140 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-10-15 (added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
+**Last Updated:** 2026-10-15 (entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
 
 ---
 
 ## Category 1: Market & Customer Understanding
 
+<!-- BEGIN generated table: 01-market-customer-understanding. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Segmentation–Targeting–Positioning (STP) Framework | Framework | Strategic approach defining target segments, positioning within those segments, and translating into pricing and messaging strategies |
-| TAM/SAM/SOM Market Sizing | Methodology | Bottom-up estimate of the total addressable, serviceable addressable and serviceable obtainable market, built from customer counts and price and cross-checked against top-down figures, to size segments, goals and investment cases |
-| Complete Product Experience Framework | Framework | Seven-touchpoint framework ensuring positioning is reinforced across marketing, sales, technology, support, and other customer touchpoints |
-| Product Development Stage Framework | Framework | Process for conducting market research, developing roadmaps, and establishing positioning during product development |
-| Concept Testing | Methodology | Survey-based test of a product, feature or offer concept with screened target buyers before it is built or launched, using monadic or sequential monadic designs and benchmarked top-two-box scores for appeal and purchase intent |
-| Voice of the Customer (VoC) Programme | Methodology | Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
-| JTBD Switch Interview Method | Methodology | Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
-| ICP Development Methodology | Methodology | Operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals into a weighted, CRM-scored fit model; the layer beneath STP's Targeting step that ranks specific accounts rather than choosing a strategic segment |
-| Sean Ellis 40% Test (PMF Survey) | Methodology | Single-question survey ("How would you feel if you could no longer use this product?") that benchmarks product-market fit against a 40% "Very disappointed" threshold; product-owned, with PMM's role scoped to segment-level survey design and translating results into positioning |
-| MAP Model (Measure, Analyze, Prioritize) | Methodology | Three-stage method (Tamara Grominsky) that ranks existing customer segments against each other by measured size and performance, so resourcing decisions rest on evidence rather than on whichever segment looks biggest or was pitched loudest |
+| [Segmentation–Targeting–Positioning (STP) Framework](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md) | Framework | Divide the market into segments, choose the ones worth pursuing, then define how your product is perceived within them. The base for all later GTM decisions. |
+| [TAM/SAM/SOM Market Sizing](frameworks/01-market-customer-understanding/tam-sam-som-market-sizing.md) | Methodology | Size a market in three layers, total addressable, serviceable addressable and serviceable obtainable, building bottom-up from customer counts and price. |
+| [Complete Product Experience Framework](frameworks/01-market-customer-understanding/complete-product-experience-framework.md) | Framework | A seven-touchpoint model for checking that your positioning holds across marketing, sales, product, integrations and support, not just in messaging. |
+| [Product Development Stage Framework](frameworks/01-market-customer-understanding/product-development-stage-framework.md) | Framework | Defines what product marketing contributes at each stage of product development, from ideation to maturity, so market insight shapes the product before launch. |
+| [Concept Testing](frameworks/01-market-customer-understanding/concept-testing.md) | Methodology | Test a product or offer concept with target buyers before you build or launch, using monadic or sequential monadic surveys scored against benchmarks. |
+| [Voice of the Customer (VoC) Programme](frameworks/01-market-customer-understanding/voice-of-the-customer-voc-programme.md) | Methodology | A continuous listening programme that gathers customer signal from surveys, support, sales calls and churn, then routes it into positioning and roadmap. |
+| [JTBD Switch Interview Method](frameworks/01-market-customer-understanding/jtbd-switch-interview-method.md) | Methodology | A 45 to 60 minute interview technique from Bob Moesta and Chris Spiek that reconstructs why a customer switched from an old solution to a new one. |
+| [ICP Development Methodology](frameworks/01-market-customer-understanding/icp-development-methodology.md) | Methodology | Build a scored, evidence-based Ideal Customer Profile from firmographic, technographic and behavioural data, so sales knows which accounts to pursue. |
+| [Sean Ellis 40% Test (PMF Survey)](frameworks/01-market-customer-understanding/sean-ellis-40-test-pmf-survey.md) | Methodology | A one-question survey from Sean Ellis that gives an early, standardised read on product-market fit, scored against a 40% 'very disappointed' benchmark. |
+| [MAP Model (Measure, Analyze, Prioritize)](frameworks/01-market-customer-understanding/map-model-measure-analyze-prioritize.md) | Methodology | Tamara Grominsky's three-stage method for deciding which of your existing customer segments deserve further investment, starting from data you already hold. |
+<!-- END generated table: 01-market-customer-understanding -->
 
 ---
 
 ## Category 2: Positioning & Messaging
 
+<!-- BEGIN generated table: 02-positioning-messaging. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Geoffrey Moore's Positioning Statement Framework | Framework | Structured template for creating clear positioning statements aligned with target customers, problems, solutions, and competitive differentiation |
-| April Dunford's 5-Component Positioning Canvas | Framework | Framework emphasising customer context through competitive alternatives, features, value, target market, and market category |
-| Jobs-to-be-Done Positioning Framework | Framework | Positions products around the "job" customers are trying to accomplish, focusing on functional, emotional, and social dimensions |
-| Value Proposition Canvas | Framework | Tool for identifying what customers value and translating insights into relative market position and pricing choices |
-| Message Architecture (Messaging House) | Framework | Hierarchy that turns a positioning statement into usable copy: a core message, three to four value pillars, and proof points beneath each, as the single source of truth all go-to-market assets write from |
-| Dunford's 10-Step Positioning Process | Methodology | The step-by-step research and validation process (best-fit customers → competitive alternatives → unique attributes → value → segment → category → pitch → alignment) that produces the 5-Component Positioning Canvas |
-| Command of the Message | Methodology | Value-selling discipline (Force Management) that adapts the messaging house's core message and pillars into a live sales conversation built around required capabilities, named-competitor differentiators, and quantified business value |
-| Features-Advantages-Benefits (FAB) Ladder | Framework | Three-step translation technique (feature → advantage → benefit) that turns a single raw feature into a proof point or copy line a buyer would repeat back, applied one level below the messaging house's pillars |
-| StoryBrand SB7 Framework | Framework | Seven-part narrative template (Character, Problem, Guide, Plan, Call to Action, Failure, Success) that casts the customer as the hero and the brand as the guide, for homepages, video scripts, and founder narratives |
-| Message Testing (Message-Market Fit) | Methodology | Repeatable practice for testing draft messaging against a verified target-buyer panel for clarity, relevance, and differentiation before it ships, popularised by Wynter as "message-market fit" |
-| Vertical/Segment Messaging via Buying Trigger | Framework | Adapts an already-locked core message across segments without rebuilding it: routes each segment's specific buying-trigger event to the one existing Message Architecture pillar that answers it, producing a segment-to-pillar routing map |
-| Andy Raskin's Strategic Narrative Framework | Framework | Company or category-level narrative arc (name a market change, cast winners and losers, reveal a promised land, name the obstacles, offer proven "magic gifts") for pitch decks, keynotes, and category-launch narratives, leading with a market shift rather than the product |
+| [Geoffrey Moore's Positioning Statement Framework](frameworks/02-positioning-messaging/geoffrey-moores-positioning-statement-framework.md) | Framework | Geoffrey Moore's positioning template from Crossing the Chasm (1991): target customer, need, category, benefit, main alternative and key differentiation. |
+| [April Dunford's 5-Component Positioning Canvas](frameworks/02-positioning-messaging/april-dunfords-5-component-positioning-canvas.md) | Framework | April Dunford's five-component canvas links your competitive set, unique attributes and best-fit segment to a compelling reason to buy. |
+| [Jobs-to-be-Done Positioning Framework](frameworks/02-positioning-messaging/jobs-to-be-done-positioning-framework.md) | Framework | Position around the job customers hire your product to do, the context that triggers it and the alternatives they weigh (Ulwick, Christensen, Moesta). |
+| [Value Proposition Canvas](frameworks/02-positioning-messaging/value-proposition-canvas.md) | Framework | Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit. |
+| [Message Architecture (Messaging House)](frameworks/02-positioning-messaging/message-architecture-messaging-house.md) | Framework | A messaging house turns a positioning statement into a core message, three or four value pillars and proof points that a whole team can write from. |
+| [Dunford's 10-Step Positioning Process](frameworks/02-positioning-messaging/dunfords-10-step-positioning-process.md) | Methodology | The step-by-step process from April Dunford's Obviously Awesome (2019) for reaching positioning, from finding who loves your product to validating the result. |
+| [Command of the Message](frameworks/02-positioning-messaging/command-of-the-message.md) | Methodology | Force Management's value-selling discipline: tie the buyer's required capabilities to your differentiators and the quantified business value in a live deal. |
+| [Features-Advantages-Benefits (FAB) Ladder](frameworks/02-positioning-messaging/features-advantages-benefits-fab-ladder.md) | Framework | Turn a raw product feature into buyer-ready language in three steps: the feature, the advantage it enables, and the benefit the buyer experiences. |
+| [StoryBrand SB7 Framework](frameworks/02-positioning-messaging/storybrand-sb7-framework.md) | Framework | Donald Miller's seven-part narrative template casts the customer as the hero and your brand as the guide. Use it for homepages, campaigns and pitches. |
+| [Message Testing (Message-Market Fit)](frameworks/02-positioning-messaging/message-testing-message-market-fit.md) | Methodology | Test headlines, hero sections and ads with verified target buyers before they ship, scoring each on clarity, relevance and differentiation. |
+| [Vertical/Segment Messaging via Buying Trigger](frameworks/02-positioning-messaging/verticalsegment-messaging-via-buying-trigger.md) | Framework | Diane Wiredu's method for adapting a locked core message to each segment or vertical, using the buying trigger that makes that segment ready to act now. |
+| [Andy Raskin's Strategic Narrative Framework](frameworks/02-positioning-messaging/andy-raskins-strategic-narrative-framework.md) | Framework | Andy Raskin's five-move method for building a narrative that leads with a market shift rather than the product, for sales decks, keynotes and company stories. |
+<!-- END generated table: 02-positioning-messaging -->
 
 ---
 
 ## Category 3: Competitive Strategy
 
+<!-- BEGIN generated table: 03-competitive-strategy. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Bowman's Strategic Clock | Framework | Competitive positioning framework using price and perceived value to map eight strategic positions from cost leadership to premium differentiation |
-| Product Differentiation Strategy Framework | Framework | Structured process for identifying differentiators, mapping competitive positions, and articulating market positioning |
-| Perceptual Map (2x2) | Framework | Visual grid that plots competitors on two buyer-chosen attributes (not fixed to price and value like Bowman's Clock) to reveal genuinely open, ownable market space |
-| Category Design | Methodology | Play Bigger's discipline for defining a "Legendary Problem" and a Point of View that reframes a crowded, commoditised market into a new category the company originates, then developing proof and dominating the category over years, rather than competing for share inside an existing one |
-| CI Program Maturity Model | Model | Five-stage model (Ad Hoc, Adopting, Impacting, Influencing, Transforming; Klue & SCIP) diagnosing how mature a competitive intelligence function is, the structural sibling of the Sales Enablement Maturity Model applied to the CI discipline |
+| [Bowman's Strategic Clock](frameworks/03-competitive-strategy/bowmans-strategic-clock.md) | Framework | Cliff Bowman and David Faulkner's model maps eight competitive strategies by price and perceived value, showing where you sit and where to move. |
+| [Product Differentiation Strategy Framework](frameworks/03-competitive-strategy/product-differentiation-strategy-framework.md) | Framework | Identify what makes your product uniquely valuable to buyers, then build it into how you design, position and sell instead of competing mainly on price. |
+| [Perceptual Map (2x2)](frameworks/03-competitive-strategy/perceptual-map-2x2.md) | Framework | Plot your product and its rivals on two attributes buyers care about to see the market's real structure and find space competitors have left open. |
+| [Category Design](frameworks/03-competitive-strategy/category-design.md) | Methodology | Define, develop and dominate a new market category instead of competing for share inside an existing one, following Play Bigger (2016). |
+| [CI Program Maturity Model](frameworks/03-competitive-strategy/ci-program-maturity-model.md) | Model | A staged model for diagnosing how mature your competitive intelligence function is and what to improve next, drawing on Klue's published maturity model. |
+<!-- END generated table: 03-competitive-strategy -->
 
 ---
 
 ## Category 4: Go-to-Market & Launch
 
+<!-- BEGIN generated table: 04-go-to-market-launch. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| 3-Step Product Marketing Strategy Framework | Methodology | Simplified approach: Research → Positioning & Messaging → Go-to-Market |
-| 7-Step Product Marketing Framework | Methodology | Comprehensive process: Market research → Target personas → Competitive positioning → Messaging → Packaging → GTM → Cross-functional workflows |
-| 10-Step PMM Process | Methodology | Detailed process: Market understanding → Positioning → Messaging hierarchy → Packaging → Pricing → GTM strategy → Sales enablement → Launch → Metrics → Expansion |
-| Complete GTM Workflow Stages | Methodology | Sequential workflow: Audience definition → Positioning → Channel planning → Enablement → Launch execution → Feedback & iteration |
-| T2D3 Framework (B2B SaaS) | Methodology | Go-to-market methodology for B2B SaaS scaling: Triple, Triple, Double, Double, Double revenue growth trajectory |
-| GTM Motion Model | Model | Taxonomy of the five ways a company acquires and expands customers (self-serve, PLG, inside sales, field sales, partner-channel), plotted by deal size and buyer complexity, used to select the motion a launch or GTM plan is built for before sequencing it |
-| Product-Led Growth (PLG) | Methodology | The ongoing practice of running the PLG motion identified by the GTM Motion Model: defining an activation moment, instrumenting product-qualified lead signals, and building in-product upgrade paths that convert self-serve users without a sales conversation |
-| Account-Based Everything (ABX) / TEAM Framework | Methodology | The ongoing practice of running the field-sales motion identified by the GTM Motion Model, PLG's structural mirror for committee-driven deals: Target (tier a named account universe), Engage (role-specific content for the whole buying committee), Activate (route sales on multi-signal intent), Measure (account-level outcomes, not lead volume) |
-| Bullseye Framework (Traction Channel Selection) | Framework | Structured method for picking a single acquisition channel: brainstorm across 19 possible channels, cheaply test three or four in a middle ring, then concentrate budget on the one channel with the strongest early signal |
-| Launch Tier Framework (Tier 1/2/3) | Model | Classifies launches into Tier 1 (major, cross-functional), Tier 2 (significant, single-team), or Tier 3 (minor, routine) by scoring revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, so process and lead time match a launch's actual scope |
-| Pre-mortem | Framework | Pre-launch failure-mode exercise (Gary Klein): imagine the launch has already failed, generate concrete failure reasons via individual silent brainstorm, rank by severity and likelihood, assign owners and mitigations, and produce a go/no-go recommendation |
+| [3-Step Product Marketing Strategy Framework](frameworks/04-go-to-market-launch/3-step-product-marketing-strategy-framework.md) | Methodology | A lean approach for early-stage teams built on three pillars: understand the customer's problem, articulate your unique value, and execute a focused plan. |
+| [7-Step Product Marketing Framework](frameworks/04-go-to-market-launch/7-step-product-marketing-framework.md) | Methodology | A funnel-based seven-step framework that sequences product marketing work from market research to customer advocacy, between the 3-step and 10-step approaches. |
+| [10-Step PMM Process](frameworks/04-go-to-market-launch/10-step-pmm-process.md) | Methodology | A detailed 10-step operational workflow for larger PMM teams, covering positioning, messaging, enablement and measurement, with checkpoints for feedback. |
+| [Complete GTM Workflow Stages](frameworks/04-go-to-market-launch/complete-gtm-workflow-stages.md) | Methodology | A five-phase roadmap (Foundation, Launch, Scale, Optimise, Expand) with timelines, owners, deliverables and success criteria for each go-to-market stage. |
+| [T2D3 Framework (B2B SaaS)](frameworks/04-go-to-market-launch/t2d3-framework-b2b-saas.md) | Methodology | Neeraj Agrawal's B2B SaaS growth benchmark: triple, triple, double, double, double annual revenue, used to pace and plan go-to-market investment. |
+| [GTM Motion Model](frameworks/04-go-to-market-launch/gtm-motion-model.md) | Model | A taxonomy of five ways a B2B SaaS company acquires and expands customers: self-serve, product-led, inside sales, field sales and partner channel. |
+| [Product-Led Growth (PLG)](frameworks/04-go-to-market-launch/product-led-growth-plg.md) | Methodology | A go-to-market practice where the product itself acquires, converts and expands customers through a free trial or tier, popularised by Wes Bush (2019). |
+| [Account-Based Everything (ABX) / TEAM Framework](frameworks/04-go-to-market-launch/account-based-everything-abx-team-framework.md) | Methodology | The TEAM framework from ABM is B2B (2019) by Sangram Vajre and Eric Spett: a go-to-market method for complex B2B sales to a small set of named accounts. |
+| [Bullseye Framework (Traction Channel Selection)](frameworks/04-go-to-market-launch/bullseye-framework-traction-channel-selection.md) | Framework | Gabriel Weinberg and Justin Mares' Traction method for finding the one marketing or distribution channel most likely to drive your growth. |
+| [Launch Tier Framework (Tier 1/2/3)](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md) | Model | Sort every launch into Tier 1, 2 or 3 so the process, lead time and headcount you apply match its real scope instead of a default. |
+| [Pre-mortem](frameworks/04-go-to-market-launch/pre-mortem.md) | Framework | Gary Klein's pre-mortem: imagine the launch has already failed, then work backwards to list the specific reasons while there is still time to act. |
+<!-- END generated table: 04-go-to-market-launch -->
 
 ---
 
 ## Category 5: Lifecycle & Workflow
 
+<!-- BEGIN generated table: 05-lifecycle-workflow. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| PMM Lifecycle Management Framework | Methodology | Defines product marketing role across customer lifecycle stages (Awareness → Consideration → Purchase → Onboarding → Adoption → Expansion → Advocacy) with specific activities and metrics for each stage |
-| Go-to-Market Motion Framework | Methodology | Structured approach to executing product launches and campaigns across messaging, content, partnerships, events, sales enablement, and customer communication |
-| Feature Adoption Framework | Methodology | Systematic approach to driving customer adoption of new or underutilised features through in-app messaging, email campaigns, enablement content, and segmented strategies |
+| [PMM Lifecycle Management Framework](frameworks/05-lifecycle-workflow/pmm-lifecycle-management-framework.md) | Methodology | Define product marketing's role across all seven customer lifecycle stages, from awareness to advocacy, rather than only launches and messaging. |
+| [Go-to-Market Motion Framework](frameworks/05-lifecycle-workflow/go-to-market-motion-framework.md) | Methodology | Run a launch as a choreographed sequence across messaging, content, partnerships, events and enablement, with clear dependencies and named owners. |
+| [Feature Adoption Framework](frameworks/05-lifecycle-workflow/feature-adoption-framework.md) | Methodology | A systematic way to drive adoption of new or underused features by treating each one like a launch, with segmentation, messaging and measurement. |
+<!-- END generated table: 05-lifecycle-workflow -->
 
 ---
 
 ## Category 6: Product Experience & Adoption
 
+<!-- BEGIN generated table: 06-product-experience-adoption. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Customer Onboarding Maturity Framework | Framework | Defines product marketing's role in customer onboarding from self-service to fully-supported, measuring time-to-first-value and identifying activation blockers |
-| Win/Loss Analysis Framework | Methodology | Systematic process for analysing why customers buy (wins) and choose competitors (losses) through structured interviews, informing positioning and sales strategy |
-| Net Promoter Score (NPS) & Feedback Loop Framework | Framework | Uses customer feedback and NPS data to identify advocates, diagnose sentiment drivers, and inform retention and messaging strategies |
-| Kano Model | Framework | Classifies features by their effect on satisfaction (must-be, performance, delighter, indifferent, reverse) so roadmap priority and launch messaging match what each feature actually does to customer sentiment |
-| Forrester Customer Advocacy Model | Model | Four-stage model (Reactive, Identified, Programmatic, Embedded) scored across advocate identification, ask-menu breadth, fatigue management, and lifecycle instrumentation, used to build a proactive advocacy practice instead of chasing the same few customers for every reference |
-| RFM Model (Recency, Frequency, Monetary Value) | Model | Behavioural customer segmentation (Champions, At-risk, New/Promising, Hibernating, Loyal-but-low-value) that catches value and engagement shifts a sentiment metric like NPS alone would miss, used to target save-plays and advocacy asks |
-| Time to Value Framework | Model | Breaks "time to value" into Time to First Value, Time to Core Value, and the aha-moment-versus-activation-event distinction, giving the Customer Onboarding Maturity Framework's milestone metric an evidenced, validated definition instead of a loosely used phrase |
+| [Customer Onboarding Maturity Framework](frameworks/06-product-experience-adoption/customer-onboarding-maturity-framework.md) | Framework | A model for product marketing's role in getting customers activated after purchase, spanning customer education, enablement and feedback loops. |
+| [Win/Loss Analysis Framework](frameworks/06-product-experience-adoption/winloss-analysis-framework.md) | Methodology | Interview the decision-makers behind won and lost deals to learn why customers choose you or a competitor, then feed the findings into positioning and product. |
+| [Net Promoter Score (NPS) & Feedback Loop Framework](frameworks/06-product-experience-adoption/net-promoter-score-nps-feedback-loop-framework.md) | Framework | Use NPS, CSAT and interviews to find promoters and detractors, learn why they score as they do, and close the loop in product, support, messaging or pricing. |
+| [Kano Model](frameworks/06-product-experience-adoption/kano-model.md) | Framework | Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect. |
+| [Forrester Customer Advocacy Model](frameworks/06-product-experience-adoption/forrester-customer-advocacy-model.md) | Model | A four-stage ladder for building a proactive customer advocacy practice, adapted from Forrester's maturity research, instead of ad hoc case study requests. |
+| [RFM Model (Recency, Frequency, Monetary Value)](frameworks/06-product-experience-adoption/rfm-model-recency-frequency-monetary-value.md) | Model | Segment customers by Recency, Frequency and Monetary value to find your best customers and those at risk of leaving, using data you already hold. |
+| [Time to Value Framework](frameworks/06-product-experience-adoption/time-to-value-framework.md) | Model | Break 'time to value' into distinct, measurable sub-metrics so you track the specific moment customers first get value, not one vague number. |
+<!-- END generated table: 06-product-experience-adoption -->
 
 ---
 
 ## Category 7: Strategy & Planning
 
+<!-- BEGIN generated table: 07-strategy-planning. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Playing to Win (Strategic Choice Cascade) | Framework | Five-question cascade (winning aspiration, where to play, how to win, capabilities needed, management systems), Lafley & Martin, that forces explicit, mutually reinforcing strategic choices above the operational level of quarterly planning |
-| Quarterly PMM Planning Framework | Framework | Structured approach to defining PMM work for a quarter by translating business goals into PMM deliverables, allocating resources, prioritising by impact, and creating accountability |
-| Competitive Intelligence & Positioning Update Framework | Methodology | Systematic process for monitoring competitors (monthly scans, quarterly deep dives) and updating positioning and messaging in response to competitive moves |
-| PMM Team Scaling Framework | Framework | Model for growing the PMM function from solo practitioner to specialised team as business scales, prioritising hires by business impact and defining role scope |
-| Analyst Relations Tiering & Cadence Model | Methodology | Segments industry analysts into Tier 1/2/3 by influence over buyer shortlists and runs a minimum quarterly-to-annual briefing cadence per tier, to build relationship equity ahead of Magic Quadrant/Wave cycles instead of scrambling once a year |
-| Pragmatic Institute Framework | Model | 37-box operating model narrowed here to its two non-duplicative box-groups, Enablement (certification and channel roll-out) and Business (post-launch revenue, margin, and pricing health checks), explicitly excluding the market and launch boxes the 10-Step PMM Process and PMM Lifecycle Management Framework already cover |
-| MOVE GTM Diagnostic (4-Question GTM Framework) | Model | Four-question GTM health diagnostic (Vajre & Brown): locates the company in a fit stage (Problem/Product/Platform-Market Fit), then scores four sequential revenue-engine motions (Make/Sell, Sell/Deliver, Deliver/Renew, Renew/Expand) to find which handoff is the binding constraint on growth |
+| [Playing to Win (Strategic Choice Cascade)](frameworks/07-strategy-planning/playing-to-win-strategic-choice-cascade.md) | Framework | A.G. Lafley and Roger Martin's five-question cascade of mutually reinforcing strategic choices, from winning aspiration through to management systems. |
+| [Quarterly PMM Planning Framework](frameworks/07-strategy-planning/quarterly-pmm-planning-framework.md) | Framework | Turn business goals into a quarter of PMM work: set goals, allocate resources, prioritise by business impact and assign accountability. |
+| [Competitive Intelligence & Positioning Update Framework](frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) | Methodology | An ongoing competitive intelligence process of monthly scans, quarterly deep dives and annual refreshes that keeps positioning and messaging current. |
+| [PMM Team Scaling Framework](frameworks/07-strategy-planning/pmm-team-scaling-framework.md) | Framework | How to grow the PMM function from a solo practitioner to a specialised team, with clear roles, scope and success metrics at each stage. |
+| [Analyst Relations Tiering & Cadence Model](frameworks/07-strategy-planning/analyst-relations-tiering-cadence-model.md) | Methodology | Tier the industry analysts who cover your category by influence, then run a minimum briefing cadence for each tier ahead of Magic Quadrant and Wave cycles. |
+| [Pragmatic Institute Framework](frameworks/07-strategy-planning/pragmatic-institute-framework.md) | Model | Pragmatic Institute's market-driven operating model: a grid of about 37 activities in seven categories, from understanding the market to supporting a product. |
+| [MOVE GTM Diagnostic (4-Question GTM Framework)](frameworks/07-strategy-planning/move-gtm-diagnostic-4-question-gtm-framework.md) | Model | Sangram Vajre and Bryan Brown's four-question go-to-market health diagnostic from MOVE (2021), for finding where your GTM motion is stuck. |
+<!-- END generated table: 07-strategy-planning -->
 
 ---
 
 ## Category 8: Pricing & Packaging
 
+<!-- BEGIN generated table: 08-pricing-packaging. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Good-Better-Best (GBB) Packaging Framework | Framework | Structures pricing into three value-ascending tiers, fenced by feature and persona, to guide buyer self-selection and expansion revenue |
-| Van Westendorp Price Sensitivity Meter (PSM) | Framework | Four-question survey method that maps an acceptable price corridor and an indifference price point for a product concept, without asking respondents to name a single price |
-| Value Metric / Willingness-to-Pay Framework | Framework | Four-step method to choose a value metric and set prices by surveying persona-level willingness to pay and plotting it against value received |
-| Conjoint Analysis | Methodology | Trade-off-based choice survey that infers, feature by feature, how much each persona is willing to pay for it, used to decide which features justify moving a customer up a tier |
-| Gabor-Granger Method | Methodology | Direct pricing study that tests purchase intent at ascending price points to find the single revenue-maximising price, rather than an acceptable range |
-| Usage-Based (Consumption) Pricing Model | Model | Classifies pricing structures along a flat-fee-to-consumption spectrum by revenue predictability versus usage-value correlation, and guides the choice of a value-scaling usage unit and a hybrid base-fee-plus-overage structure |
-| MaxDiff Analysis (Best-Worst Scaling) | Methodology | Cheap, forced best-worst ranking of a long feature or benefit list, without price attached; the standard pre-study to narrow a candidate list before committing to a full Conjoint Analysis study |
+| [Good-Better-Best (GBB) Packaging Framework](frameworks/08-pricing-packaging/good-better-best-gbb-packaging-framework.md) | Framework | Group features into three value-ascending tiers, Good, Better and Best, so each buyer persona self-selects the package that fits their needs and budget. |
+| [Van Westendorp Price Sensitivity Meter (PSM)](frameworks/08-pricing-packaging/van-westendorp-price-sensitivity-meter-psm.md) | Framework | Peter van Westendorp's four-question survey finds the range of prices customers will accept, without asking them to name a single 'right' price. |
+| [Value Metric / Willingness-to-Pay Framework](frameworks/08-pricing-packaging/value-metric-willingness-to-pay-framework.md) | Framework | A four-step method for setting a defensible price by tying it to the unit of value customers receive, such as API calls, transactions or storage used. |
+| [Conjoint Analysis](frameworks/08-pricing-packaging/conjoint-analysis.md) | Methodology | A trade-off survey method that infers how much buyers value each feature and price level by asking them to choose between realistic product bundles. |
+| [Gabor-Granger Method](frameworks/08-pricing-packaging/gabor-granger-method.md) | Methodology | A direct pricing research method that finds the revenue-maximising price by asking whether respondents would buy at a series of ascending price points. |
+| [Usage-Based (Consumption) Pricing Model](frameworks/08-pricing-packaging/usage-based-consumption-pricing-model.md) | Model | A pricing model spectrum from flat fee through per-seat to fully usage-based, classified by what the customer pays for and how closely it tracks usage. |
+| [MaxDiff Analysis (Best-Worst Scaling)](frameworks/08-pricing-packaging/maxdiff-analysis-best-worst-scaling.md) | Methodology | A survey method from Jordan Louviere that ranks features or messages by repeatedly asking which item is most important and which is least. |
+<!-- END generated table: 08-pricing-packaging -->
 
 ---
 
@@ -126,13 +142,15 @@
 
 New as of 2026-07-28, once the Sales Enablement Maturity Model completed a two-or-more-entry theme (per CLAUDE.md's guidance against thin category files). MEDDIC/MEDDPICC, built 2026-07-29 as the next-ranked FRAMEWORK-BACKLOG.md candidate, joined it here since PMM's supporting role (content mapped to the checklist's letters) is itself a sales-enablement activity. Consolidated 2026-07-30: the Competitive Battlecard Framework (previously Category 3) and the Buyer's Journey Content Map (previously Category 5), the two other entries most closely associated with this discipline, now live here alongside the two above; every cross-reference to either entry elsewhere in the knowledge base was updated to Category 9.
 
+<!-- BEGIN generated table: 09-sales-enablement. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| Sales Enablement Maturity Model | Model | Four-stage model (Ad Hoc, Organised, Optimised, Transformative) scored across content governance, training, tooling, and cross-functional integration, used to diagnose where an enablement function stands and which dimension to invest in next |
-| MEDDIC / MEDDPICC | Methodology | Sales-owned deal-qualification checklist (Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion, Competition); PMM's supporting role is building and maintaining the Metrics, Decision Criteria, and Competition content reps use to answer the checklist in a live deal |
-| Competitive Battlecard Framework | Framework | One-page field tool giving sales the competitor's pitch, your counter-position, objection responses, landmines, and proof points for a live deal |
-| Buyer's Journey Content Map | Framework | Grid that plots enablement and marketing content against the awareness, consideration, decision, and post-sale stages, so PMM can spot and prioritise content gaps by revenue impact rather than the loudest internal request |
-| VARS Framework (Validate, Acknowledge, Reframe, Specify) | Framework | Four-step live-conversation technique (Alex McDonnell, Competitive Intelligence Alliance) for handling a buyer's direct competitor question without sounding defensive, the delivery technique that puts the Competitive Battlecard Framework's content to work in the room |
+| [Sales Enablement Maturity Model](frameworks/09-sales-enablement/sales-enablement-maturity-model.md) | Model | A four-stage model, starting at Ad Hoc, that diagnoses how mature your sales enablement function is and what to build next. |
+| [MEDDIC / MEDDPICC](frameworks/09-sales-enablement/meddic-meddpicc.md) | Methodology | MEDDIC and MEDDPICC give sales a structured checklist for qualifying a single enterprise B2B deal. Created at PTC in 1996 and now widely used. |
+| [Competitive Battlecard Framework](frameworks/09-sales-enablement/competitive-battlecard-framework.md) | Framework | A one-page field tool giving sales the competitor's likely pitch, your counter-position, objection responses, landmines and proof points in ninety seconds. |
+| [Buyer's Journey Content Map](frameworks/09-sales-enablement/buyers-journey-content-map.md) | Framework | A grid that plots content against awareness, consideration, decision and post-sale stages, so you can see where content is strong, thin or missing. |
+| [VARS Framework (Validate, Acknowledge, Reframe, Specify)](frameworks/09-sales-enablement/vars-framework-validate-acknowledge-reframe-specify.md) | Framework | A four-step technique, Validate, Acknowledge, Reframe, Specify, for answering a customer's live question about a competitor without getting defensive. |
+<!-- END generated table: 09-sales-enablement -->
 
 ---
 
@@ -140,9 +158,11 @@ New as of 2026-07-28, once the Sales Enablement Maturity Model completed a two-o
 
 Not tied to a workflow category because a primer is not something you "apply"; see CLAUDE.md's Content Types section.
 
+<!-- BEGIN generated table: concepts-primers. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| GTM Strategy vs Product Marketing | Primer | Distinguishes the company-wide, cross-functional GTM strategy from the product marketing function that contributes to and often orchestrates it; includes an owns/contributes-to/supports ownership map |
+| [GTM Strategy vs Product Marketing](concepts/gtm-strategy-vs-product-marketing.md) | Primer | GTM strategy is the company-wide plan for winning customers; product marketing is one function that drives parts of it. Learn where the two differ. |
+<!-- END generated table: concepts-primers -->
 
 ---
 
@@ -150,13 +170,15 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 
 Added 2026-10-15. Tools from business strategy and behavioural science that PMMs use to inform decisions other functions own. They fail the core "who runs this" inclusion test, so they live in `adjacent/`, carry a "PMM's role" section instead of "Ownership", and are not counted in the core total. See CLAUDE.md, "The `adjacent/` area". SWOT analysis was reviewed and deliberately not added; see SOURCES-EXPLORED.md.
 
+<!-- BEGIN generated table: adjacent. Edit the entries' frontmatter, then run `npm run generate:index` in web/. -->
 | Entry | Type | Description |
 |-------|------|-------------|
-| BCG Growth-Share Matrix | Model | Bruce Henderson's 1970 portfolio grid placing each product by market growth and relative share as a star, cash cow, question mark or dog, to decide where to invest, hold or exit |
-| Ansoff Matrix | Model | H. Igor Ansoff's 1957 product-market grid sorting growth options into market penetration, market development, product development and diversification, with risk rising away from the known |
-| Porter's Five Forces | Model | Michael Porter's model for judging a market's profit potential through rivalry, new entrants, substitutes, buyer power and supplier power |
-| Business Model Canvas | Framework | Alexander Osterwalder and Yves Pigneur's nine-block, one-page map of how a business creates, delivers and captures value |
-| Cialdini's Principles of Persuasion | Model | Robert Cialdini's seven principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity), used as a lens for auditing messaging, proof and buying journeys |
+| [BCG Growth-Share Matrix](adjacent/bcg-growth-share-matrix.md) | Model | Bruce Henderson's 1970 BCG matrix sorts a product portfolio by market growth and relative share into stars, cash cows, question marks and dogs. |
+| [Ansoff Matrix](adjacent/ansoff-matrix.md) | Model | H. Igor Ansoff's 1957 product-market grid sorts growth options into penetration, market development, product development and diversification. |
+| [Porter's Five Forces](adjacent/porters-five-forces.md) | Model | Michael Porter's model rates a market's profitability through five forces: rivalry, new entrants, substitutes, buyer power and supplier power. |
+| [Business Model Canvas](adjacent/business-model-canvas.md) | Framework | Alexander Osterwalder and Yves Pigneur's nine-block canvas maps how a business creates, delivers and captures value on a single page. |
+| [Cialdini's Principles of Persuasion](adjacent/cialdinis-principles-of-persuasion.md) | Model | Robert Cialdini's seven principles of influence, from reciprocity to unity, used as a lens for reviewing messaging, proof and the buying journey. |
+<!-- END generated table: adjacent -->
 
 ## Structure Notes
 

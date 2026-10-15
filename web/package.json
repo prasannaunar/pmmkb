@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test:content": "node scripts/verify-content.mjs",
+    "generate:index": "node scripts/generate-index.mjs",
     "test:seo": "node scripts/verify-seo.mjs",
     "audit:quiz": "node scripts/audit-quiz.mjs"
   },

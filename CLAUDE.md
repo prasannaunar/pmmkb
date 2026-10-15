@@ -158,7 +158,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ```
 /pmmkb/
 ├── README.md                    # Overview, navigation, quick start
-├── INDEX.md                     # Full taxonomy of all frameworks
+├── INDEX.md                     # Full taxonomy of all frameworks (tables generated from frontmatter: `npm run generate:index` in web/)
 ├── BY-SITUATION.md              # Situation-to-framework mapper
 ├── PLAN.md                      # Roadmap for polish and integration
 ├── SOURCES-EXPLORED.md          # Every external source reviewed for candidate entries, with the verdict on each
