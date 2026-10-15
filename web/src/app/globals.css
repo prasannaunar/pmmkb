@@ -20,7 +20,6 @@
 :root {
   --bg: #fdfdfb;
   --bg-card: #faf9f6;
-  --bg-sidebar: #fdfdfb;
   --text-primary: var(--color-heading);
   --text-secondary: var(--color-ink);
   --text-tertiary: var(--color-subtle);
@@ -454,7 +453,6 @@ body {
     --color-type-primer: #e3a95f;
     --bg: #141413;
     --bg-card: #1b1b1a;
-    --bg-sidebar: #141413;
     --text-primary: #f2f1ed;
     --text-secondary: #d3d1ca;
     --text-tertiary: #a6a49d;
@@ -481,7 +479,6 @@ body {
   --color-type-primer: #e3a95f;
   --bg: #141413;
   --bg-card: #1b1b1a;
-  --bg-sidebar: #141413;
   --text-primary: #f2f1ed;
   --text-secondary: #d3d1ca;
   --text-tertiary: #a6a49d;
