@@ -6,6 +6,7 @@ order: 20
 use_when: "You need to coordinate messaging, sales, content and customer communications during execution."
 produces: "A coordinated set of go-to-market activities."
 description: "Run a launch as a choreographed sequence across messaging, content, partnerships, events and enablement, with clear dependencies and named owners."
+definition: "The Go-to-Market Motion Framework is a structured approach to running a launch or major campaign across channels and teams as one coordinated sequence with dependencies and owners."
 ---
 
 # Go-to-Market Motion Framework

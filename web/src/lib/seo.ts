@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import type { Category, EntryType } from "./content";
+import { pluralType } from "./plural";
 import { SITE_NAME } from "./site";
 
 // Shared by every page so canonical, Open Graph and Twitter tags cannot drift
@@ -61,3 +63,13 @@ export const TYPE_DEFINITIONS = {
   Model: "maps that help you classify a situation",
   Primer: "explainers that build understanding",
 } as const;
+
+/** Meta description for a category page, shared with its structured data. */
+export function categoryDescription(c: Category): string {
+  return `${c.intro} ${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} with steps, worked examples, pitfalls and quizzes.`;
+}
+
+/** Meta description for a type page, shared with its structured data. */
+export function typeDescription(type: EntryType, count: number): string {
+  return `${count} product marketing ${pluralType(type, count).toLowerCase()}: ${TYPE_DEFINITIONS[type]}. Browse them by topic, each with a worked example and a quiz.`;
+}

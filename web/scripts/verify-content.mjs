@@ -69,6 +69,27 @@ for (const entry of entries) {
   );
   descriptions.set(entry.description, entry.filePath);
 }
+// Definitions: one "X is Y" sentence each, unique, short enough to lead the page.
+const definitions = new Map();
+for (const entry of entries) {
+  const { definition, filePath } = entry;
+  assert.ok(
+    definition.length >= 60 && definition.length <= 220,
+    `definition must be 60 to 220 characters (${definition.length}): ${filePath}`,
+  );
+  assert.ok(/\.$/.test(definition), `definition must end with a full stop: ${filePath}`);
+  assert.ok(
+    !/[a-z0-9)][.!?] [A-Z]/.test(definition.slice(0, -1)),
+    `definition must be one sentence: ${filePath}`,
+  );
+  assert.ok(/ (is|are) /.test(definition), `definition should say what the entry is ("X is ..."): ${filePath}`);
+  assert.ok(!/—|--/.test(definition), `definition must not use em dashes: ${filePath}`);
+  assert.ok(
+    !definitions.has(definition),
+    `Duplicate definition: ${filePath} and ${definitions.get(definition)}`,
+  );
+  definitions.set(definition, filePath);
+}
 for (const entry of entries) {
   assert.ok(entry.useWhen && entry.produces, `Missing use_when/produces: ${entry.title}`);
   assert.ok(

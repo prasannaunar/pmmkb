@@ -26,7 +26,7 @@ The export writes each route as `<route>.html` (for example `framework/pmm-team-
 - `frameworks/`, `concepts/` and `adjacent/` remain the source of truth for the 68 core entries and 5 adjacent entries, their 365 entry quiz questions, and the ten 10-question category quizzes (nine workflow categories plus Adjacent Disciplines). Each category is a folder; each entry is a `<slug>.md` with YAML frontmatter plus a sibling `<slug>.quiz.md`, and `_category.md` / `_category.quiz.md` hold the category's own details and quiz. The Concepts collection has its entry quizzes but no category quiz. Adjacent entries use a "PMM's role" section in place of "Ownership", and `getSiteStats()` leaves them out of the headline counts. `src/lib/content.ts` discovers the folders at build time, so adding or editing a file needs no code change, and it fails the build with the file name when frontmatter is missing or malformed.
 - `/topics` exposes every category. Each category offers curated starting points above its complete, initially unfiltered entry list.
 - `/challenges` offers nine situation guides; `/learn` offers three learning paths with five additional scenario questions each.
-- Each entry's summary lines (`use_when`, `produces`) and meta `description` and each category's introduction (`intro`) live in the frontmatter of the file they describe, so a rename or addition touches one file. `src/lib/editorial.ts` holds only text helpers.
+- Each entry's summary lines (`use_when`, `produces`), meta `description`, `definition` sentence (the lede on its page) and each category's introduction (`intro`) live in the frontmatter of the file they describe, so a rename or addition touches one file. `src/lib/editorial.ts` holds only text helpers.
 - `src/lib/guides.ts` defines challenge sequences, learning paths and their scenario quizzes. References resolve against exact entry titles and fail validation when they drift.
 - `/search` and homepage search cover titles, summaries, article bodies, challenges and learning paths. Entry quiz answers are excluded from the search index.
 - Existing entry, category and type URLs remain stable. `?path=` retains learning-path context between entries without requiring an account or saving progress.
@@ -36,6 +36,9 @@ Article pages retain the full source content while adding section links, an over
 ## SEO and sharing
 
 - Every page builds its metadata with `pageMetadata()` in `src/lib/seo.ts`: title, description, canonical URL, Open Graph and Twitter tags. Canonicals and image URLs resolve against `SITE_URL`. Entry pages use their frontmatter `description` and `og:type=article`.
+- Structured data: `src/lib/structured-data.ts` builds schema.org JSON-LD, rendered by `<JsonLd>` (`src/components/json-ld.tsx`): `WebSite` on the homepage, `CollectionPage` with an `ItemList` and a `BreadcrumbList` on category and type pages, and `Article` with a `BreadcrumbList` on entry pages. An entry's `Article` takes its `citation` list from the Sources links and its `creditText` from the credits line; the site's maker (`AUTHOR`) is the author, because the originators did not write the summary.
+- `src/app/llms.txt/route.ts` and `src/app/llms-full.txt/route.ts` build [llms.txt](https://llmstxt.org/) files from the same markdown as the pages (`src/lib/llms.ts`): a linked list of every entry with its definition, and the full text of every entry.
+- Entry pages open with the frontmatter `definition` and a "Summarised from [credits]" line linking to the Sources.
 - `src/app/sitemap.ts` lists every indexable page (everything except `/search`); `src/app/robots.ts` points to it.
 - `public/og-default.png` is the 1200 by 630 share image used by every page. It was rendered from a small HTML card in the site's own fonts; to change it, re-render at the same size and replace the file.
 - The footer links to the maker's site (`AUTHOR` in `src/lib/site.ts`).
@@ -46,4 +49,4 @@ Article pages retain the full source content while adding section links, an over
 
 `npm run test:content` checks entry/category counts, frontmatter and quiz-file coverage, unique entry URLs and orders, orphaned quiz files, all quiz counts and answer structures, and every guide reference. When intentionally expanding the library, update the expected counts together with the relevant source and editorial data.
 
-`npm run test:seo` (run after `npm run build`) checks the exported site: one `h1`, a unique title and description, the canonical and social tags, the footer link, a sitemap that lists exactly the indexable pages, and a `robots.txt` that references it.
+`npm run test:seo` (run after `npm run build`) checks the exported site: one `h1`, a unique title and description, the canonical and social tags, the footer link, valid JSON-LD of the right types with every URL on `SITE_URL`, an `llms.txt` and `llms-full.txt` that cover every entry, a sitemap that lists exactly the indexable pages, and a `robots.txt` that references it.

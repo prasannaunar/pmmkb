@@ -6,6 +6,7 @@ order: 40
 use_when: "An existing market category limits how buyers understand the problem you solve."
 produces: "A point of view on a different category and the work needed to establish it."
 description: "Define, develop and dominate a new market category instead of competing for share inside an existing one, following Play Bigger (2016)."
+definition: "Category Design is a discipline from the book Play Bigger (2016) for defining, developing and dominating a new market category rather than competing for share in an existing one."
 ---
 
 # Category Design

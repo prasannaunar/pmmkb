@@ -6,6 +6,7 @@ order: 60
 use_when: "You are considering charging by consumption and need to assess the fit and implications."
 produces: "An evaluation of a consumption-based pricing approach."
 description: "A pricing model spectrum from flat fee through per-seat to fully usage-based, classified by what the customer pays for and how closely it tracks usage."
+definition: "The Usage-Based (Consumption) Pricing Model is a way of classifying pricing structures on a spectrum from flat fee through per-seat to paying per unit consumed."
 ---
 
 # Usage-Based (Consumption) Pricing Model

@@ -6,6 +6,7 @@ order: 50
 use_when: "You are reviewing messaging, proof or a buying journey and want to check which levers of influence it uses and which it misses."
 produces: "An audit of where messaging and proof apply, or miss, each principle of influence."
 description: "Robert Cialdini's seven principles of influence, from reciprocity to unity, used as a lens for reviewing messaging, proof and the buying journey."
+definition: "Cialdini's Principles of Persuasion are seven principles, set out by psychologist Robert Cialdini, that describe why people say yes to a request."
 ---
 
 # Cialdini's Principles of Persuasion

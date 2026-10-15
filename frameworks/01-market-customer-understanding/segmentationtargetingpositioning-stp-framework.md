@@ -6,6 +6,7 @@ order: 10
 use_when: "You need to choose a customer segment before deciding how to position your product."
 produces: "A chosen segment and a clear basis for positioning."
 description: "Divide the market into segments, choose the ones worth pursuing, then define how your product is perceived within them. The base for all later GTM decisions."
+definition: "The Segmentation–Targeting–Positioning (STP) Framework is a three-step method that divides a market into segments, selects the most attractive ones and defines how your product is perceived there."
 ---
 
 # Segmentation–Targeting–Positioning (STP) Framework

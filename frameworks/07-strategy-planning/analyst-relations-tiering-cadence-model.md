@@ -6,6 +6,7 @@ order: 50
 use_when: "You need to prioritise analyst relationships and establish an appropriate contact cadence."
 produces: "A tiered analyst engagement plan."
 description: "Tier the industry analysts who cover your category by influence, then run a minimum briefing cadence for each tier ahead of Magic Quadrant and Wave cycles."
+definition: "The Analyst Relations Tiering & Cadence Model is a practice for ranking industry analysts into three tiers by their influence on buyer shortlists and briefing each tier on a set cadence."
 ---
 
 # Analyst Relations Tiering & Cadence Model

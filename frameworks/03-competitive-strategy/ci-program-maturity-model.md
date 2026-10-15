@@ -6,6 +6,7 @@ order: 50
 use_when: "You need to diagnose how reliably your competitive intelligence programme supports decisions."
 produces: "A maturity assessment and priorities for improving the programme."
 description: "A staged model for diagnosing how mature your competitive intelligence function is and what to improve next, drawing on Klue's published maturity model."
+definition: "The CI Program Maturity Model is a staged model for diagnosing how mature a company's competitive intelligence function is and what to improve next."
 ---
 
 # CI Program Maturity Model

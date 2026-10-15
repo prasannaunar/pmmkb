@@ -5,7 +5,9 @@ import { cleanTitle, guidanceFor } from "@/lib/editorial";
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { CategoryEntries } from "@/components/category-entries";
 import { QuizSection } from "@/components/quiz-section";
-import { pageMetadata } from "@/lib/seo";
+import { categoryDescription, pageMetadata } from "@/lib/seo";
+import { categoryJsonLd } from "@/lib/structured-data";
+import { JsonLd } from "@/components/json-ld";
 export function generateStaticParams() {
   return getAllCategories().map((c) => ({ slug: c.slug }));
 }
@@ -19,7 +21,7 @@ export async function generateMetadata({
   if (!c) return { title: "Not found" };
   return pageMetadata({
     title: cleanTitle(c.title),
-    description: `${c.intro} ${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} with steps, worked examples, pitfalls and quizzes.`,
+    description: categoryDescription(c),
     path: `/category/${c.slug}`,
   });
 }
@@ -127,6 +129,7 @@ export default async function CategoryPage({
   );
   return (
     <div className="page-shell">
+      <JsonLd data={categoryJsonLd(category, categoryDescription(category))} />
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/topics">Explore topics</Link>
         <span>/</span>

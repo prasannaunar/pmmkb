@@ -3,7 +3,9 @@
  * ("Web app: SEO / GEO / AEO") promises: one h1, a unique title and meta
  * description, a canonical URL on the www origin, Open Graph and Twitter tags,
  * a sitemap listing exactly the indexable pages, and a robots.txt that points
- * at it. Reads the static export, so run it after the build.
+ * at it, schema.org JSON-LD on the home, category, type and entry pages, and
+ * an llms.txt and llms-full.txt that cover every entry. Reads the static
+ * export, so run it after the build.
  *
  * Usage: npm run build && npm run test:seo
  */
@@ -101,6 +103,108 @@ for (const [route, html] of pages) {
   descriptions.set(description, route);
 }
 
+// Structured data (PLAN.md, "PR 2"). Every URL on this site must come from
+// SITE_URL; the only outside URLs allowed are the maker's site, the licence
+// and the cited works.
+const LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/";
+const EXPECTED_TYPES = [
+  [/^\/$/, ["WebSite"]],
+  [/^\/(category|type)\//, ["CollectionPage", "BreadcrumbList"]],
+  [/^\/framework\//, ["Article", "BreadcrumbList"]],
+];
+function checkUrls(node, at, key = "") {
+  if (Array.isArray(node)) return node.forEach((n) => checkUrls(n, at, key));
+  if (node && typeof node === "object") {
+    for (const [k, v] of Object.entries(node))
+      if (k !== "citation") checkUrls(v, at, k);
+    return;
+  }
+  if (["url", "@id", "item", "mainEntityOfPage", "image"].includes(key))
+    assert.ok(
+      node.startsWith(`${SITE_URL}/`) || node === AUTHOR_URL || node === LICENSE_URL,
+      `${at}: JSON-LD ${key} should be on ${SITE_URL}, got ${node}`,
+    );
+}
+let jsonLdPages = 0;
+for (const [route, html] of pages) {
+  const at = `page ${route}`;
+  const canonical = route === "/" ? `${SITE_URL}/` : `${SITE_URL}${route}`;
+  const blocks = [
+    ...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g),
+  ].map((m) => {
+    try {
+      return JSON.parse(m[1]);
+    } catch {
+      assert.fail(`${at}: JSON-LD is not valid JSON`);
+    }
+  });
+  const expected = EXPECTED_TYPES.find(([pattern]) => pattern.test(route))?.[1];
+  if (!expected) {
+    assert.equal(blocks.length, 0, `${at}: unexpected JSON-LD`);
+    continue;
+  }
+  assert.equal(blocks.length, 1, `${at}: expected one JSON-LD block`);
+  jsonLdPages++;
+  const [block] = blocks;
+  assert.equal(block["@context"], "https://schema.org", `${at}: @context`);
+  const nodes = block["@graph"];
+  assert.ok(Array.isArray(nodes), `${at}: JSON-LD should be an @graph`);
+  const byType = Object.fromEntries(nodes.map((n) => [n["@type"], n]));
+  for (const type of expected) assert.ok(byType[type], `${at}: missing ${type}`);
+  checkUrls(block, at);
+
+  const crumbs = byType.BreadcrumbList?.itemListElement;
+  if (crumbs) {
+    crumbs.forEach((c, i) => {
+      assert.equal(c.position, i + 1, `${at}: breadcrumb positions`);
+      assert.ok(c.name && c.item, `${at}: breadcrumb needs name and item`);
+    });
+    assert.equal(crumbs.at(-1).item, canonical, `${at}: last breadcrumb is the page`);
+  }
+  const main = byType.WebSite ?? byType.CollectionPage ?? byType.Article;
+  assert.equal(main.url, canonical, `${at}: JSON-LD url should be the canonical`);
+  if (byType.CollectionPage) {
+    const list = byType.CollectionPage.mainEntity;
+    assert.ok(list.itemListElement.length > 0, `${at}: empty ItemList`);
+    assert.equal(list.numberOfItems, list.itemListElement.length, `${at}: numberOfItems`);
+    for (const item of list.itemListElement)
+      assert.ok(
+        pages.has(item.url.slice(SITE_URL.length)),
+        `${at}: ItemList links to a missing page ${item.url}`,
+      );
+  }
+  if (byType.Article) {
+    const article = byType.Article;
+    const decode = (t) =>
+      t.replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+    assert.equal(article.description, decode(meta(html, "name", "description")), `${at}: Article description`);
+    assert.ok(article.headline && article.abstract, `${at}: Article needs headline and abstract`);
+    assert.equal(article.author?.url, AUTHOR_URL, `${at}: Article author`);
+    assert.ok(article.creditText, `${at}: Article creditText from the Sources credits`);
+    assert.ok(article.citation.length > 0, `${at}: Article needs at least one citation`);
+    for (const c of article.citation)
+      assert.ok(c.name && /^https?:\/\//.test(c.url), `${at}: citation needs a name and URL`);
+  }
+}
+
+// llms.txt lists every entry; llms-full.txt carries every entry's text.
+const llms = fs.readFileSync(path.join(OUT, "llms.txt"), "utf8");
+const llmsFull = fs.readFileSync(path.join(OUT, "llms-full.txt"), "utf8");
+assert.match(llms, /^# PMM Knowledge Base\n\n> /, "llms.txt should open with the title and a > summary");
+assert.match(llmsFull, /^# PMM Knowledge Base: full text\n/, "llms-full.txt title");
+const entryRoutes = [...pages.keys()].filter((r) => r.startsWith("/framework/"));
+for (const route of entryRoutes) {
+  assert.ok(llms.includes(`](${SITE_URL}${route}): `), `llms.txt is missing ${route}`);
+  assert.ok(llmsFull.includes(`- URL: ${SITE_URL}${route}\n`), `llms-full.txt is missing ${route}`);
+}
+for (const [, url] of llms.matchAll(/\]\((https?:[^)]+)\)/g)) {
+  const route = url.slice(SITE_URL.length);
+  assert.ok(
+    url.startsWith(SITE_URL) && (pages.has(route) || route === "/llms-full.txt"),
+    `llms.txt links to ${url}, which is not a page on this site`,
+  );
+}
+
 const sitemap = fs.readFileSync(path.join(OUT, "sitemap.xml"), "utf8");
 const listed = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
 const expected = [...pages.keys()]
@@ -121,5 +225,5 @@ assert.ok(
 assert.ok(fs.existsSync(path.join(OUT, "og-default.png")), "og-default.png missing from the export");
 
 console.log(
-  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; sitemap lists ${listed.length} URLs; robots.txt points at it.`,
+  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; JSON-LD valid on ${jsonLdPages} pages; llms.txt and llms-full.txt cover all ${entryRoutes.length} entries; sitemap lists ${listed.length} URLs; robots.txt points at it.`,
 );

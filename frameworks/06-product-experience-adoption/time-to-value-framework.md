@@ -6,6 +6,7 @@ order: 70
 use_when: "New customers take too long to experience the value they signed up for."
 produces: "Defined value milestones and a way to measure time to reach them."
 description: "Break 'time to value' into distinct, measurable sub-metrics so you track the specific moment customers first get value, not one vague number."
+definition: "The Time to Value Framework is a model that splits the phrase \"time to value\" into distinct, measurable sub-metrics, so a team knows exactly which point in the customer journey it is timing."
 ---
 
 # Time to Value Framework

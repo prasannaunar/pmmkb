@@ -6,6 +6,7 @@ order: 30
 use_when: "You need to see how buyers perceive competing products on meaningful attributes."
 produces: "A competitor map based on buyer-relevant axes."
 description: "Plot your product and its rivals on two attributes buyers care about to see the market's real structure and find space competitors have left open."
+definition: "A Perceptual Map is a two-by-two grid that plots your product and its rivals on the two attributes that matter most to buyers, so the market's structure is visible at a glance."
 ---
 
 # Perceptual Map (2x2)

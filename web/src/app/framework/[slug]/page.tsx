@@ -10,6 +10,8 @@ import {
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { cleanTitle, guidanceFor, plainText } from "@/lib/editorial";
 import { pageMetadata } from "@/lib/seo";
+import { entryJsonLd } from "@/lib/structured-data";
+import { JsonLd } from "@/components/json-ld";
 import { learningPaths, resolveSteps } from "@/lib/guides";
 import { EntrySources } from "@/components/entry-sources";
 import { QuizSection } from "@/components/quiz-section";
@@ -107,6 +109,7 @@ export default async function FrameworkPage({
     "at-a-glance";
   return (
     <div className="page-shell article-shell">
+      <JsonLd data={entryJsonLd(entry, sourceCredits, sourcesMarkdown)} />
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/topics">Explore topics</Link>
         <span>/</span>
@@ -127,10 +130,10 @@ export default async function FrameworkPage({
               min read
             </p>
             <h1>{entry.title}</h1>
-            <p className="lede">{guidance.output}</p>
+            <p className="lede">{entry.definition}</p>
             {sourcesMarkdown && sourceCredits.length > 0 && (
               <a className="attribution-link" href="#sources">
-                {formatCredits(sourceCredits)}{" "}
+                Summarised from {formatCredits(sourceCredits)}{" "}
                 <span className="view-sources">· View sources ↓</span>
               </a>
             )}

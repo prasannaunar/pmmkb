@@ -6,6 +6,7 @@ order: 30
 use_when: "Your positioning describes product features but misses the progress customers want to make."
 produces: "A position grounded in the customer's desired progress."
 description: "Position around the job customers hire your product to do, the context that triggers it and the alternatives they weigh (Ulwick, Christensen, Moesta)."
+definition: "The Jobs-to-be-Done Positioning Framework is a positioning approach built on the idea that customers hire products to get a job done, so it positions around the job, its context and the alternatives."
 ---
 
 # Jobs-to-be-Done Positioning Framework

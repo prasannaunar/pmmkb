@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-15 (the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
+**Last Updated:** 2026-10-15 (SEO PR 2: entry `definition` field, JSON-LD and `llms.txt`; the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
@@ -19,7 +19,7 @@ For how PMMs, team leads, and new joiners use this repository day-to-day, see RE
 - **Production URL: https://www.pmmkb.com/** (custom domain live since 2026-10-08). The apex `pmmkb.com` redirects to `www`, so `www` is canonical. The old `pmmkb.vercel.app` address is not the public URL; never cite or link it.
 - The site is the Next.js app in `web/`, deployed on Vercel from `main` (root `vercel.json`). Every merge to `main` that changes entry markdown changes the live site, so the Quality Gates below are publication gates, not just repository hygiene.
 - The canonical origin is defined once as `SITE_URL` in `web/src/lib/site.ts`. Use it for any absolute URL (metadata, sitemap, JSON-LD, `llms.txt`); never hard-code the domain.
-- **SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"), along with the list of actions only the owner can take ("Owner actions"). PR 1 (canonicals, Open Graph and Twitter tags, sitemap, descriptions) is built; structured data and `llms.txt` are next. Read that section before touching metadata.
+- **SEO/GEO work is tracked in PLAN.md** ("Web app: SEO / GEO / AEO"), along with the list of actions only the owner can take ("Owner actions"). PR 1 (canonicals, Open Graph and Twitter tags, sitemap, descriptions) and PR 2 (JSON-LD structured data via `web/src/lib/structured-data.ts`, `llms.txt` and `llms-full.txt` via `web/src/lib/llms.ts`, and the definition lede on entry pages) are built. Read that section before touching metadata.
 - **Page metadata goes through `pageMetadata()` in `web/src/lib/seo.ts`**, which sets the title, description, canonical, Open Graph and Twitter tags together. Do not set `openGraph` or `twitter` by hand on a page: a page's object replaces the layout's rather than merging. After a build, `npm run test:seo` in `web/` checks every page.
 - **Dark mode:** the site has a light and a dark theme. The palette tokens live in `web/src/app/globals.css`: `:root` holds light, and the dark overrides sit in two identical blocks (a `prefers-color-scheme` fallback for visitors with no saved choice or no JavaScript, and `:root[data-theme="dark"]`). Change both together. Always use the tokens (`var(--bg)`, `--text-primary`, `--accent` and so on), never a literal colour, so a new component works in both themes; `--on-brand-alt` is the fixed dark ink for text on the orange quiz accent. The theme is chosen before first paint by `THEME_INIT_SCRIPT` (`web/src/lib/theme.ts`, inlined in the root layout), and `ThemeToggle` (`web/src/components/theme-toggle.tsx`, in the site header) switches it and saves the choice to localStorage. The text blue `--accent` is `#3a6f99` in light mode and `#86b8e0` in dark; the brand blue `#569ed0` (`--color-brand`) is for decorative rules only, never text. Check any colour change in both themes: text must meet WCAG AA against its real background.
 - The owner's personal site, https://www.prasannaunar.com/ (repo `prasannaunar/website`), features this knowledge base on its `/projects/` page, and this site links back to it from the footer ("Made by"; the name and URL are `AUTHOR` in `web/src/lib/site.ts`). If headline figures change (entry count, category count, quiz count), that page and its `llms.txt` need the same update.
@@ -257,6 +257,7 @@ order: 40
 use_when: "You need to connect what your product offers to a specific customer's jobs, pains and gains."
 produces: "A map of customer needs and the value your product delivers."
 description: "Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit."
+definition: "The Value Proposition Canvas is a framework co-created by Alexander Osterwalder that maps what a product offers against one customer segment's jobs, pains and gains."
 ---
 
 # Value Proposition Canvas
@@ -273,6 +274,7 @@ description: "Map your product's value against one customer segment's jobs, pain
 | `use_when` | One sentence naming the situation that calls for the entry. Shown in listings, search results and the page description. |
 | `produces` | One short phrase naming what applying the entry gives you. Shown on category pages. |
 | `description` | The meta description search engines and link previews show. One complete sentence, 50 to 160 characters, ending in a full stop, unique across entries. Say what the entry is and who or what it comes from. Hand-written, not the first sentence of "What it is", which is usually too long. |
+| `definition` | The entry's definition, shown as the lede at the top of the entry page, in `llms.txt` and in the page's structured data. One "X is Y" sentence, 60 to 220 characters, ending in a full stop, unique across entries, with no em dashes. State only what the entry body already says and cites. |
 
 The Sources credits line stays on the `**Sources:**` label in the body (see "Sources block (citation standard)"), not in the frontmatter, so there is one place to edit it.
 

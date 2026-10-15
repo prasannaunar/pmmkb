@@ -6,6 +6,7 @@ order: 10
 use_when: "You need to make explicit choices about where to play and how to win."
 produces: "A connected set of strategic choices and required capabilities."
 description: "A.G. Lafley and Roger Martin's five-question cascade of mutually reinforcing strategic choices, from winning aspiration through to management systems."
+definition: "Playing to Win is a cascade of five linked strategic choices, from A.G. Lafley and Roger L. Martin's 2013 book, running from winning aspiration and where to play to how to win."
 ---
 
 # Playing to Win (Strategic Choice Cascade)

@@ -6,6 +6,7 @@ order: 60
 use_when: "You need to segment customers by their recent behaviour and commercial value."
 produces: "Behavioural segments for differentiated engagement."
 description: "Segment customers by Recency, Frequency and Monetary value to find your best customers and those at risk of leaving, using data you already hold."
+definition: "The RFM Model is a customer-segmentation model that scores customers on how recently they bought, how often they buy and how much revenue they represent."
 ---
 
 # RFM Model (Recency, Frequency, Monetary Value)

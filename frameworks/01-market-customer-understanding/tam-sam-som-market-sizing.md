@@ -6,6 +6,7 @@ order: 15
 use_when: "You need a defensible estimate of how big a market or segment is before choosing targets, setting goals or making an investment case."
 produces: "A bottom-up market size for the total, serviceable and obtainable market, with sources and assumptions."
 description: "Size a market in three layers, total addressable, serviceable addressable and serviceable obtainable, building bottom-up from customer counts and price."
+definition: "TAM/SAM/SOM Market Sizing is a way of estimating a market in three nested layers: the total addressable market, the part you can serve, and the share you can realistically win."
 ---
 
 # TAM/SAM/SOM Market Sizing
