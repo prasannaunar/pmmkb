@@ -1,6 +1,6 @@
 # Agent Skills for Product Marketing
 
-**Last Updated:** 2026-08-30
+**Last Updated:** 2026-10-15 (the skills stay repo-only: by the owner's decision they are not shown on www.pmmkb.com)
 
 Nine product marketing skills packaged in the open [Agent Skills](https://agentskills.io)
 format, so an AI agent can run this knowledge base's methods rather than

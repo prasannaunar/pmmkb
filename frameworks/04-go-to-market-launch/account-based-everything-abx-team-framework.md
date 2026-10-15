@@ -6,6 +6,7 @@ order: 80
 use_when: "Complex enterprise deals require coordinated work across a named set of target accounts."
 produces: "An account-based engagement and measurement plan."
 description: "The TEAM framework from ABM is B2B (2019) by Sangram Vajre and Eric Spett: a go-to-market method for complex B2B sales to a small set of named accounts."
+definition: "Account-Based Everything (ABX), structured by the TEAM framework from Sangram Vajre and Eric Spett, is a go-to-market method for complex B2B sales to a small set of named accounts."
 ---
 
 # Account-Based Everything (ABX) / TEAM Framework

@@ -6,6 +6,7 @@ order: 70
 use_when: "You need to rank attributes without every item being rated important."
 produces: "A relative priority ranking from best-worst choices."
 description: "A survey method from Jordan Louviere that ranks features or messages by repeatedly asking which item is most important and which is least."
+definition: "MaxDiff Analysis is a trade-off survey method that ranks how much respondents value a list of items by repeatedly asking which item in a small set matters most and which least."
 ---
 
 # MaxDiff Analysis (Best-Worst Scaling)

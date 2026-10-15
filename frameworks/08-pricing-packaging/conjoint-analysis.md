@@ -6,6 +6,7 @@ order: 40
 use_when: "You need to understand how buyers trade off features, packages and price."
 produces: "Evidence of preferences across product and price combinations."
 description: "A trade-off survey method that infers how much buyers value each feature and price level by asking them to choose between realistic product bundles."
+definition: "Conjoint Analysis is a trade-off survey method that infers how much buyers value each feature and price level from the product bundles they choose."
 ---
 
 # Conjoint Analysis

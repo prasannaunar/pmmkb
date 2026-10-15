@@ -115,7 +115,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 
 ## Kano Model
 
-**Type:** Model
+**Type:** Framework
 
 **Core concept:** Developed by Noriaki Kano in 1984, this model classifies product features by how they affect satisfaction, not by build effort. Features fall into five categories: Must-be (basic expectations that disappoint if missing), Performance (satisfaction rises the more you deliver), Delighters (unexpected features that create disproportionate satisfaction), Indifferent (customers do not care), and Reverse (some customers dislike them). Categories drift over time as competitors catch up, so a delighter today can become a must-be tomorrow.
 

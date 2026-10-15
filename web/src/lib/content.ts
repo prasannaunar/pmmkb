@@ -44,6 +44,9 @@ export interface Entry {
   produces: string;
   /** Meta description for search and social previews: one complete sentence of 50 to 160 characters. */
   description: string;
+  /** One-sentence "X is Y" definition shown at the top of the entry page and
+   * in llms.txt, so readers and answer engines get the definition first. */
+  definition: string;
   /** Repo-relative path of the entry's markdown file. */
   filePath: string;
   /** The entry body: no frontmatter, no title heading, no quiz. */
@@ -168,6 +171,7 @@ function loadEntry(
     useWhen: requireString(data, "use_when", filePath),
     produces: requireString(data, "produces", filePath),
     description: requireString(data, "description", filePath),
+    definition: requireString(data, "definition", filePath),
     filePath,
     rawMarkdown: content.slice(heading[0].length).trim(),
     quizMarkdown: readQuiz(

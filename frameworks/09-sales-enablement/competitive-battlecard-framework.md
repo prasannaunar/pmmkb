@@ -6,6 +6,7 @@ order: 30
 use_when: "Reps need concise, credible guidance for a specific competitive conversation."
 produces: "A practical battlecard grounded in buyer and competitor evidence."
 description: "A one-page field tool giving sales the competitor's likely pitch, your counter-position, objection responses, landmines and proof points in ninety seconds."
+definition: "A competitive battlecard is a one-page field tool that gives a sales rep the competitor's likely pitch, your counter-position, objection responses and proof points during a live deal."
 ---
 
 # Competitive Battlecard Framework

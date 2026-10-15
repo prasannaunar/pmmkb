@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-10 (dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Last Updated:** 2026-10-15 (SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -13,14 +13,37 @@ Everything below is either not started, partially done, or explicitly waiting on
 
 Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off as you go; Claude will keep the list current.
 
-- [ ] **After SEO PR 1 deploys, check the `pmmkb.vercel.app` redirect.** It is configured in the root `vercel.json` (host-matched, permanent). Run `curl -sI https://pmmkb.vercel.app/framework/pre-mortem` and expect `308` with `location: https://www.pmmkb.com/framework/pre-mortem`. If it still returns 200, add the redirect in the Vercel project's Domains settings instead (pmmkb.vercel.app, redirect to www.pmmkb.com) and tell Claude so the `vercel.json` rule can be removed.
+- [x] **After SEO PR 1 deploys, check the `pmmkb.vercel.app` redirect.** Confirmed by the owner on 2026-10-15: `pmmkb.vercel.app` redirects to www.pmmkb.com, so the host-matched rule in the root `vercel.json` stays as it is.
 - [ ] **Verify www.pmmkb.com in Google Search Console.** Either add a Domain property with the DNS TXT record Google gives you (no code change), or add a URL-prefix property, choose the "HTML tag" method, and set the token (the `content` value only) as `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` in the Vercel project's environment variables, then redeploy. The site already renders the tag when the variable is set.
 - [ ] **Submit the sitemap** `https://www.pmmkb.com/sitemap.xml` in Search Console once verified, then run URL Inspection on the homepage and one entry page and click "Request indexing".
 - [ ] **Verify in Bing Webmaster Tools.** Importing the property from Search Console is quickest. Otherwise use the meta tag method and set the token as `NEXT_PUBLIC_BING_SITE_VERIFICATION` in Vercel. Submit the same sitemap.
 - [ ] **Check a share preview** after deploy: paste https://www.pmmkb.com/ and one entry URL into LinkedIn's Post Inspector (or a Slack message). Expect the blue-topped "PMM Knowledge Base" card and the entry's own description. LinkedIn caches previews, so use the inspector's refresh.
 - [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna").
 - [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
-- [ ] **Decide whether to go ahead with SEO PR 2** (structured data, `llms.txt`, definition sentence on entry pages). Nothing blocks it.
+- [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
+- [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
+- [ ] **Review the 73 new `definition` sentences** (frontmatter of every entry, shown as the lede on each entry page). Claude wrote them on 2026-10-15 from facts each entry already states; they are new published copy, so worth one read before or soon after merge.
+- [ ] **Decide the Kano Model's type.** The entry (`frameworks/06-product-experience-adoption/kano-model.md`) and INDEX.md say Framework, but CLAUDE.md's "Content Types" names the Kano Model as an example of a Model. The quick-reference card was corrected to Framework to match the entry. If it should be a Model, retag it with the `add-kb-entry` skill (its section order changes to include "How to read it") and Claude will update CLAUDE.md or the entry to match.
+
+### Decisions log (2026-10-15 session)
+
+Work done this session, all on branch `claude/loving-gauss-n71kau`:
+
+- [x] Deleted the unused `sidebar.tsx`, `sticky-header.tsx`, `mobile-top-bar.tsx` and `sidebar-context.tsx`, and the `--bg-sidebar` colour token.
+- [x] SEO PR 2 built: JSON-LD, `llms.txt` and `llms-full.txt`, and a definition lede on entry pages (see "PR 2" below).
+- [x] INDEX.md tables generated from frontmatter, and quick-reference cards checked against the entries (see "Content modularisation" follow-ups).
+- [x] "Edit on GitHub" link on every entry page.
+
+Owner decisions:
+
+- `pmmkb.vercel.app` redirect confirmed working; no change needed.
+- Analytics will be Google Analytics, set up in a new session (see "Web app: open questions").
+- No contributor workflow for now.
+- `agent-skills/` stay out of the web app.
+- Content maintenance (quarterly reviews, feedback sessions, calendar) to be set up later.
+- prasannaunar.com changes will be handled separately (see Owner actions).
+
+Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review, Kano type), GA setup, and the deferred content maintenance.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
@@ -53,6 +76,8 @@ All 435 quiz questions across all 11 sources have been rewritten to the tightene
 
 ### Content maintenance (from Phase 5, below)
 
+**Deferred by the owner (2026-10-15):** to be set up later. None of the three items below should start until the owner asks.
+
 - [ ] **Quarterly review cycle** (one framework per week, ~7 weeks/quarter). Tooling exists in [FEEDBACK-LOG.md](FEEDBACK-LOG.md); the cycle has never run.
 - [ ] **Monthly team feedback session.** Tooling exists in FEEDBACK-LOG.md; no session has been logged yet.
 - [ ] **Annual update calendar distribution.** The calendar is documented in FEEDBACK-LOG.md; it has not been distributed to the team.
@@ -63,10 +88,10 @@ Each category was a single large markdown file holding every entry and every qui
 
 Verified as a no-op for readers: the 66 entries, 10 categories, all quizzes, summaries and the search index were compared before and after, and the full static export (524 files) was diffed against a build of the previous layout. The only difference is the search index no longer carrying the `Type: X.` prefix on each entry's text, now that the type lives in frontmatter.
 
-Follow-ups, none started:
+Follow-ups, both done 2026-10-15:
 
-- [ ] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift.
-- [ ] Use `filePath` to add an "Edit on GitHub" link to entry pages.
+- [x] Generate the INDEX.md tables and check `quick-reference/` cards against entry frontmatter, so those hand-kept copies cannot drift. ✅ Done 2026-10-15: `npm run generate:index` in `web/` rebuilds each table from frontmatter (title linked to the entry file, type, and the `description` sentence, which replaces the old hand-written Description column), and `test:content` fails on a stale table, a wrong total or category count, or a quick-reference card that is missing, out of order, or has the wrong title or type. The check found and fixed three drifts: Category Design and CI Program Maturity Model cards in the wrong order, the MOVE GTM Diagnostic card under a shortened title, and the Kano Model card typed as a Model (the entry is a Framework).
+- [x] Use `filePath` to add an "Edit on GitHub" link to entry pages. ✅ Done 2026-10-15: the link sits in the entry page's closing line and opens GitHub's editor on `main` (`REPO` and `editOnGitHubUrl()` in `web/src/lib/site.ts`); `test:seo` checks every entry page has one pointing at a file that exists.
 
 ### Dark mode ✅ Complete (2026-10-10)
 
@@ -80,7 +105,7 @@ Light mode text blue: the accent and the Framework type colour were `#457eaa`, 4
 
 Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting); the record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06. Workstream 6 is **next in line**, now unblocked by the custom domain (https://www.pmmkb.com/, live 2026-10-08). The canonical origin lives in one place, `SITE_URL` in `web/src/lib/site.ts`; read every absolute URL from it, never hard-code the domain.
 
-**Sequencing.** The content modularisation (below) has shipped, so entries have stable `slug`s and per-entry frontmatter. PR 1 is built (2026-10-09); PR 2 is next.
+**Sequencing.** The content modularisation (below) has shipped, so entries have stable `slug`s and per-entry frontmatter. PR 1 is built (2026-10-09); PR 2 is built (2026-10-15).
 
 **Audit of the live site before PR 1 (2026-10-09).** Done already: `robots.txt` (2026-09-25), `metadataBase`, apex redirect to `www`, unique descriptions on entry pages, one `h1`, skip link, landmarks, labelled navs, breadcrumbs, `<article>`. Missing: `sitemap.xml` and `llms.txt` (both 404), canonical tags, Open Graph and Twitter tags, any JSON-LD, type-page descriptions. Every page was also reachable at `pmmkb.vercel.app` (HTTP 200) and with or without a trailing slash.
 
@@ -101,14 +126,16 @@ Measured on the static export served locally (Lighthouse, SEO category): 100 on 
 
 Small notes: the homepage canonical is written without a trailing slash (`https://www.pmmkb.com`), which is the same URL as the sitemap's `https://www.pmmkb.com/`. Trailing-slash duplicates (`/x/` as well as `/x`) are handled by canonicals rather than a redirect.
 
-Follow-up: delete the three unused layout components listed above (not done, to keep this PR to SEO).
+Follow-up: delete the three unused layout components listed above. ✅ Done 2026-10-15, along with `sidebar-context.tsx` (used only by them) and the `--bg-sidebar` colour token.
 
-**PR 2: structured data and answer-engine shaping** (not started)
+**PR 2: structured data and answer-engine shaping ✅ Built (2026-10-15)**
 
-- [ ] JSON-LD: `WebSite` on the homepage (a `SearchAction` is optional; Google retired the sitelinks search box in 2024, so it is probably not worth adding); `BreadcrumbList` on category and entry pages; `Article` per entry with `citation` from the Sources block, authors from the credits line and the site's maker from `AUTHOR`; `CollectionPage` on category and type pages. All `url`/`@id` fields from `SITE_URL`.
-- [ ] `llms.txt` (site summary plus links to every category and entry) and `llms-full.txt` (full entry text), generated at build time from the source markdown, and added to `test:seo`.
-- [ ] A visible definition sentence at the top of each entry page and a provenance line ("Summarised from [originators]; see Sources").
-- [ ] Extend `test:seo` to validate the JSON-LD.
+- [x] JSON-LD (`web/src/lib/structured-data.ts`, rendered by `<JsonLd>`): `WebSite` on the homepage (no `SearchAction`); `CollectionPage` with an `ItemList` and a `BreadcrumbList` on category and type pages; `Article` with a `BreadcrumbList` on entry pages. All `url`/`@id` fields from `SITE_URL`. One deliberate change from the plan: the credited originators are not listed as the `Article`'s authors, because they did not write the summary. The site's maker (`AUTHOR`) is the author and publisher; the originators go in `creditText` (from the credits line) and their works in `citation` (from the Sources links).
+- [x] `llms.txt` (site summary, a section per category listing every entry with its definition, and challenges and learning paths under "Optional") and `llms-full.txt` (the full text of every entry, about 700 KB), generated at build time from the source markdown by route handlers (`web/src/lib/llms.ts`).
+- [x] A visible definition sentence at the top of each entry page, from a new hand-written `definition` frontmatter field on all 73 entries (60 to 220 characters, one "X is Y" sentence, checked by `test:content`). It replaces the lede that repeated the "What you will work towards" line. The existing credits line now reads "Summarised from [originators] · View sources".
+- [x] `test:seo` now checks the JSON-LD on 89 pages (valid JSON, the expected types, every URL on `SITE_URL`, breadcrumbs ending at the page, `ItemList` links that resolve, an `Article` with citations and credits) and that `llms.txt` and `llms-full.txt` cover every entry.
+
+Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, not required). The build has no reliable date source; Vercel builds use a shallow git clone.
 
 **Explicitly out of scope:** URL restructuring (`/framework/[slug]` for all types), analytics, and any paid tooling.
 
@@ -117,9 +144,9 @@ Follow-up: delete the three unused layout components listed above (not done, to 
 ### Web app: open questions (from Phase 6, below)
 
 - [x] Custom domain: live at https://www.pmmkb.com/ since 2026-10-08 (apex redirects to www). This unblocked the domain-dependent SEO items above.
-- [ ] Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first).
-- [ ] Contributor workflow (contributing guide and CI checks, if others will submit entries).
-- [ ] Whether to surface `agent-skills/` in the web app or keep them repo-only.
+- [ ] **Analytics: Google Analytics (GA4).** Decided 2026-10-15; to be set up in a new session. Points to settle then: the GA4 measurement ID belongs in a Vercel environment variable (in the pattern of `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`), so nothing loads while it is unset and preview builds do not report; GA sets cookies, so UK and EU visitors need a consent banner (or GA's consent mode) before it loads; and the script must not break the static export or the theme script that runs before first paint. Check `npm run test:seo` and both themes afterwards.
+- [x] **Contributor workflow: not now.** Decided 2026-10-15. Revisit only if other people start submitting entries; `test:content` and `test:seo` already exist as the checks a CI workflow would run.
+- [x] **`agent-skills/` stay repo-only.** Decided 2026-10-15: do not surface them in the web app.
 
 ---
 
@@ -334,7 +361,7 @@ Output: Recommended framework or framework sequence
 **Ongoing Maintenance:** tracked as the canonical checklist in "Open work" at the top of this file; kept here too as part of the Phase 4 success-criteria record. Tick both copies together.
 - [ ] Quarterly review cycle scheduled (one framework per week); tooling to log it exists (`FEEDBACK-LOG.md`), cycle has not yet run
 - [ ] Feedback loop established (monthly team feedback); tooling to log it exists (`FEEDBACK-LOG.md`), first session has not yet run
-- [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open
+- [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open. *(All three items deferred by the owner on 2026-10-15; see "Content maintenance" under Open work.)*
 
 ---
 

@@ -6,6 +6,7 @@ order: 40
 use_when: "Leadership is designing, explaining or changing how the business creates, delivers and captures value, and PMM needs to see where its work fits."
 produces: "A one-page map of the business model with PMM's assumptions made testable."
 description: "Alexander Osterwalder and Yves Pigneur's nine-block canvas maps how a business creates, delivers and captures value on a single page."
+definition: "The Business Model Canvas is a one-page template from Alexander Osterwalder and Yves Pigneur that describes how a business makes money in nine blocks."
 ---
 
 # Business Model Canvas

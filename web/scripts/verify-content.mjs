@@ -1,21 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
-import ts from "typescript";
 import assert from "node:assert/strict";
-import { createRequire } from "node:module";
+import { load } from "./load-ts.mjs";
 import { auditQuestion, collectQuizSets, flagNames } from "./quiz-audit-lib.mjs";
-const load = createRequire(import.meta.url);
-load.extensions[".ts"] = (mod, file) =>
-  mod._compile(
-    ts.transpileModule(fs.readFileSync(file, "utf8"), {
-      compilerOptions: {
-        module: ts.ModuleKind.CommonJS,
-        target: ts.ScriptTarget.ES2022,
-        esModuleInterop: true,
-      },
-    }).outputText,
-    file,
-  );
+import { checkIndexCounts, checkQuickReference, renderIndex } from "./index-lib.mjs";
 const content = load("../src/lib/content.ts");
 const guides = load("../src/lib/guides.ts");
 const quiz = load("../src/lib/quiz.ts");
@@ -68,6 +56,27 @@ for (const entry of entries) {
     `Duplicate description: ${entry.filePath} and ${descriptions.get(entry.description)}`,
   );
   descriptions.set(entry.description, entry.filePath);
+}
+// Definitions: one "X is Y" sentence each, unique, short enough to lead the page.
+const definitions = new Map();
+for (const entry of entries) {
+  const { definition, filePath } = entry;
+  assert.ok(
+    definition.length >= 60 && definition.length <= 220,
+    `definition must be 60 to 220 characters (${definition.length}): ${filePath}`,
+  );
+  assert.ok(/\.$/.test(definition), `definition must end with a full stop: ${filePath}`);
+  assert.ok(
+    !/[a-z0-9)][.!?] [A-Z]/.test(definition.slice(0, -1)),
+    `definition must be one sentence: ${filePath}`,
+  );
+  assert.ok(/ (is|are) /.test(definition), `definition should say what the entry is ("X is ..."): ${filePath}`);
+  assert.ok(!/—|--/.test(definition), `definition must not use em dashes: ${filePath}`);
+  assert.ok(
+    !definitions.has(definition),
+    `Duplicate definition: ${filePath} and ${definitions.get(definition)}`,
+  );
+  definitions.set(definition, filePath);
 }
 for (const entry of entries) {
   assert.ok(entry.useWhen && entry.produces, `Missing use_when/produces: ${entry.title}`);
@@ -138,6 +147,18 @@ for (const [file, stats] of byFile)
     `${file}: correct-is-longest at ${Math.round((stats.correctLongest / stats.total) * 100)}%, over the 35% ceiling`,
   );
 
+// INDEX.md's tables are generated from frontmatter; its counts and the
+// quick-reference cards are hand-written, so check them against the entries.
+const indexPath = path.join(repoRoot, "INDEX.md");
+const indexText = fs.readFileSync(indexPath, "utf8");
+assert.equal(
+  indexText,
+  renderIndex(indexText, categories),
+  "INDEX.md is out of date with the entries' frontmatter: run `npm run generate:index` in web/",
+);
+checkIndexCounts(indexText, categories);
+checkQuickReference(repoRoot, categories);
+
 console.log(
-  "PASS: 68 core and 5 adjacent entries with valid frontmatter, source credits and quiz files, 365 entry questions, 100 category questions, 15 path questions, and all 12 guide sequences.",
+  "PASS: 68 core and 5 adjacent entries with valid frontmatter, source credits and quiz files, 365 entry questions, 100 category questions, 15 path questions, and all 12 guide sequences; INDEX.md and quick-reference/ match the entries.",
 );

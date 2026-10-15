@@ -6,6 +6,7 @@ order: 40
 use_when: "You need to decide how PMM responsibilities and specialisms should evolve as the business grows."
 produces: "A team structure matched to the next stage of work."
 description: "How to grow the PMM function from a solo practitioner to a specialised team, with clear roles, scope and success metrics at each stage."
+definition: "The PMM Team Scaling Framework is a model for growing the product marketing function from a solo practitioner to a specialised team with clear roles, scope and success metrics."
 ---
 
 # PMM Team Scaling Framework

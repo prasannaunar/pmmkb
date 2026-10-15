@@ -6,6 +6,7 @@ order: 20
 use_when: "Your growing team needs more structure across research, messaging and go-to-market work."
 produces: "A coordinated workflow with clearer handoffs."
 description: "A funnel-based seven-step framework that sequences product marketing work from market research to customer advocacy, between the 3-step and 10-step approaches."
+definition: "The 7-Step Product Marketing Framework is a funnel-based approach that sequences seven product marketing activities from market research through to customer advocacy."
 ---
 
 # 7-Step Product Marketing Framework
