@@ -3,6 +3,8 @@ import { getAllCategories, getSiteStats } from "@/lib/content";
 import { getDiscoveryIndex } from "@/lib/discovery";
 import { Search } from "@/components/search";
 import { pageMetadata } from "@/lib/seo";
+import { websiteJsonLd } from "@/lib/structured-data";
+import { JsonLd } from "@/components/json-ld";
 
 export function generateMetadata() {
   const { totalEntries } = getSiteStats();
@@ -50,6 +52,7 @@ export default function HomePage() {
   ];
   return (
     <div className="page-shell">
+      <JsonLd data={websiteJsonLd()} />
       <section className="home-intro">
         <div>
           <p className="eyebrow">The product marketing field guide</p>

@@ -6,6 +6,7 @@ order: 20
 use_when: "Your team needs to translate business goals into a realistic quarter of PMM work."
 produces: "A prioritised quarterly plan with measures and owners."
 description: "Turn business goals into a quarter of PMM work: set goals, allocate resources, prioritise by business impact and assign accountability."
+definition: "The Quarterly PMM Planning Framework is a structured approach to setting a quarter's product marketing goals, allocating resources, prioritising by business impact and assigning accountability."
 ---
 
 # Quarterly PMM Planning Framework

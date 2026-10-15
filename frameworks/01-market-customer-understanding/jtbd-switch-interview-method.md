@@ -6,6 +6,7 @@ order: 50
 use_when: "You need to understand what caused a customer to leave an old solution and choose a new one."
 produces: "Evidence of the forces and triggers behind a purchase."
 description: "A 45 to 60 minute interview technique from Bob Moesta and Chris Spiek that reconstructs why a customer switched from an old solution to a new one."
+definition: "The JTBD Switch Interview Method is an interview technique, developed by Bob Moesta and Chris Spiek, that uncovers the job behind a purchase by reconstructing the customer's switch timeline."
 ---
 
 # JTBD Switch Interview Method

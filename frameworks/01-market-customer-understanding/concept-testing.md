@@ -6,6 +6,7 @@ order: 35
 use_when: "You need evidence that target customers want a product, feature or offer before it is built, priced or launched."
 produces: "A scored read of customer appeal, clarity and purchase intent for one or more concepts."
 description: "Test a product or offer concept with target buyers before you build or launch, using monadic or sequential monadic surveys scored against benchmarks."
+definition: "Concept Testing is a research method that shows target customers a short description of a product or offer that does not yet exist and measures how they react to it."
 ---
 
 # Concept Testing

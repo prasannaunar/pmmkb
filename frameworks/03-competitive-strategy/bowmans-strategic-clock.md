@@ -6,6 +6,7 @@ order: 10
 use_when: "You need to assess your competitive position through the relationship between price and perceived value."
 produces: "A clearer price-value strategy."
 description: "Cliff Bowman and David Faulkner's model maps eight competitive strategies by price and perceived value, showing where you sit and where to move."
+definition: "Bowman's Strategic Clock is a model, developed by Cliff Bowman and David Faulkner, that maps eight competitive strategies by the price customers pay and the value they perceive."
 ---
 
 # Bowman's Strategic Clock

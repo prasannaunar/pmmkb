@@ -6,6 +6,7 @@ order: 20
 use_when: "Your team needs to understand qualification gaps in complex opportunities."
 produces: "A clearer view of a deal's evidence, stakeholders and buying process."
 description: "MEDDIC and MEDDPICC give sales a structured checklist for qualifying a single enterprise B2B deal. Created at PTC in 1996 and now widely used."
+definition: "MEDDIC is a deal-qualification checklist, created at PTC in 1996, for judging a single sales opportunity; MEDDPICC extends it with Paper Process and Competition."
 ---
 
 # MEDDIC / MEDDPICC
