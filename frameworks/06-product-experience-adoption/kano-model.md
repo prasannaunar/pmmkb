@@ -6,6 +6,7 @@ order: 40
 use_when: "You need to distinguish expected features from performance drivers and potential delighters."
 produces: "A classification of features by their effect on satisfaction."
 description: "Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect."
+definition: "The Kano Model is a framework, published by Noriaki Kano and colleagues in 1984, that classifies product features by how they affect customer satisfaction."
 ---
 
 # Kano Model

@@ -14,10 +14,13 @@ through the list in order every time an entry is added, moved, or retagged.
 Create `<slug>.md` in the right category folder, `frameworks/0N-*/` (or
 `concepts/` if it's a primer). The slug is the page address, so choose it once
 and never change it. The file opens with YAML frontmatter (`title`, `slug`,
-`type`, `order`, `use_when`, `produces`, `description`) and then `# <title>`; see
+`type`, `order`, `use_when`, `produces`, `description`, `definition`) and then `# <title>`; see
 "Entry file format" in [CLAUDE.md](../../../CLAUDE.md) for each field. The
 `description` is the meta description search engines and link previews show:
-write one sentence of 50 to 160 characters, unique across entries. Set
+write one sentence of 50 to 160 characters, unique across entries. The
+`definition` is the "X is Y" sentence shown at the top of the entry page and in
+`llms.txt`: one sentence of 60 to 220 characters, stating only what the entry
+itself says. Set
 `order` to slot the entry into the category's workflow sequence (existing
 entries step by 10, so there is usually a gap). Follow CLAUDE.md's Writing
 Standards and Content Types sections: declare `type` in the frontmatter, use

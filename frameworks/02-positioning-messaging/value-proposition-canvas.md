@@ -6,6 +6,7 @@ order: 40
 use_when: "You need to connect what your product offers to a specific customer's jobs, pains and gains."
 produces: "A map of customer needs and the value your product delivers."
 description: "Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit."
+definition: "The Value Proposition Canvas is a framework co-created by Alexander Osterwalder that maps what a product offers against one customer segment's jobs, pains and gains."
 ---
 
 # Value Proposition Canvas

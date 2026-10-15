@@ -8,7 +8,9 @@ import {
 } from "@/lib/content";
 import { cleanTitle, guidanceFor } from "@/lib/editorial";
 import { pluralType } from "@/lib/plural";
-import { pageMetadata, TYPE_DEFINITIONS } from "@/lib/seo";
+import { pageMetadata, typeDescription } from "@/lib/seo";
+import { typeJsonLd } from "@/lib/structured-data";
+import { JsonLd } from "@/components/json-ld";
 export function generateStaticParams() {
   return getAllTypeSlugs().map((slug) => ({ slug }));
 }
@@ -23,7 +25,7 @@ export async function generateMetadata({
   const count = getEntriesByType(type).length;
   return pageMetadata({
     title: pluralType(type, 2),
-    description: `${count} product marketing ${pluralType(type, count).toLowerCase()}: ${TYPE_DEFINITIONS[type]}. Browse them by topic, each with a worked example and a quiz.`,
+    description: typeDescription(type, count),
     path: `/type/${slug}`,
   });
 }
@@ -41,6 +43,14 @@ export default async function TypePage({
   const count = categories.reduce((n, c) => n + c.entries.length, 0);
   return (
     <div className="page-shell">
+      <JsonLd
+        data={typeJsonLd(
+          pluralType(type, 2),
+          typeDescription(type, count),
+          `/type/${slug}`,
+          categories.flatMap((c) => c.entries),
+        )}
+      />
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/topics">Explore topics</Link>
         <span>/</span>

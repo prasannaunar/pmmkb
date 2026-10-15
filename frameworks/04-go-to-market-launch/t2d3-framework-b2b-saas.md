@@ -6,6 +6,7 @@ order: 50
 use_when: "You need to connect growth-stage SaaS targets to the capabilities required to reach them."
 produces: "A growth trajectory and the inputs it requires."
 description: "Neeraj Agrawal's B2B SaaS growth benchmark: triple, triple, double, double, double annual revenue, used to pace and plan go-to-market investment."
+definition: "T2D3 is a go-to-market methodology for scaling B2B SaaS, introduced by Neeraj Agrawal in 2015, that sets out tripling revenue twice and then doubling it three times over five years."
 ---
 
 # T2D3 Framework (B2B SaaS)

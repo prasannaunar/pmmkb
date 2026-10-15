@@ -6,6 +6,7 @@ order: 70
 use_when: "Reps need to connect capabilities and differentiation to the value at stake in a live deal."
 produces: "A buyer-centred value conversation."
 description: "Force Management's value-selling discipline: tie the buyer's required capabilities to your differentiators and the quantified business value in a live deal."
+definition: "Command of the Message is a value-selling discipline, developed by Force Management, that builds a rep's deal conversation around required capabilities, differentiators and quantified business value."
 ---
 
 # Command of the Message

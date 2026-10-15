@@ -6,6 +6,7 @@ order: 40
 use_when: "Customer feedback is scattered and you need a repeatable way to turn it into decisions."
 produces: "A structured customer listening and action programme."
 description: "A continuous listening programme that gathers customer signal from surveys, support, sales calls and churn, then routes it into positioning and roadmap."
+definition: "A Voice of the Customer (VoC) Programme is a continuous listening system that gathers customer signal from every source, synthesises it and routes it into positioning, roadmap and messaging decisions."
 ---
 
 # Voice of the Customer (VoC) Programme

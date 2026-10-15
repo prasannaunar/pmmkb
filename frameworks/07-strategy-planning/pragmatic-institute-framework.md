@@ -6,6 +6,7 @@ order: 60
 use_when: "You need a common map of market-facing responsibilities across product and marketing."
 produces: "A shared view of activities, ownership and gaps."
 description: "Pragmatic Institute's market-driven operating model: a grid of about 37 activities in seven categories, from understanding the market to supporting a product."
+definition: "The Pragmatic Institute Framework is a market-driven operating model that organises product work into a grid of activities running from market understanding through launch and support."
 ---
 
 # Pragmatic Institute Framework

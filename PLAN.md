@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-10 (dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Last Updated:** 2026-10-15 (SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -20,7 +20,8 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Check a share preview** after deploy: paste https://www.pmmkb.com/ and one entry URL into LinkedIn's Post Inspector (or a Slack message). Expect the blue-topped "PMM Knowledge Base" card and the entry's own description. LinkedIn caches previews, so use the inspector's refresh.
 - [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna").
 - [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
-- [ ] **Decide whether to go ahead with SEO PR 2** (structured data, `llms.txt`, definition sentence on entry pages). Nothing blocks it.
+- [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
+- [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
@@ -80,7 +81,7 @@ Light mode text blue: the accent and the Framework type colour were `#457eaa`, 4
 
 Workstreams 1-5 of that plan are complete (attribution, branding, structural changes, navigation behaviour, content formatting); the record lived in `archived/IMPROVEMENTS-PLAN-2026-09.md`, deleted 2026-09-06. Workstream 6 is **next in line**, now unblocked by the custom domain (https://www.pmmkb.com/, live 2026-10-08). The canonical origin lives in one place, `SITE_URL` in `web/src/lib/site.ts`; read every absolute URL from it, never hard-code the domain.
 
-**Sequencing.** The content modularisation (below) has shipped, so entries have stable `slug`s and per-entry frontmatter. PR 1 is built (2026-10-09); PR 2 is next.
+**Sequencing.** The content modularisation (below) has shipped, so entries have stable `slug`s and per-entry frontmatter. PR 1 is built (2026-10-09); PR 2 is built (2026-10-15).
 
 **Audit of the live site before PR 1 (2026-10-09).** Done already: `robots.txt` (2026-09-25), `metadataBase`, apex redirect to `www`, unique descriptions on entry pages, one `h1`, skip link, landmarks, labelled navs, breadcrumbs, `<article>`. Missing: `sitemap.xml` and `llms.txt` (both 404), canonical tags, Open Graph and Twitter tags, any JSON-LD, type-page descriptions. Every page was also reachable at `pmmkb.vercel.app` (HTTP 200) and with or without a trailing slash.
 
@@ -101,14 +102,16 @@ Measured on the static export served locally (Lighthouse, SEO category): 100 on 
 
 Small notes: the homepage canonical is written without a trailing slash (`https://www.pmmkb.com`), which is the same URL as the sitemap's `https://www.pmmkb.com/`. Trailing-slash duplicates (`/x/` as well as `/x`) are handled by canonicals rather than a redirect.
 
-Follow-up: delete the three unused layout components listed above (not done, to keep this PR to SEO).
+Follow-up: delete the three unused layout components listed above. ✅ Done 2026-10-15, along with `sidebar-context.tsx` (used only by them) and the `--bg-sidebar` colour token.
 
-**PR 2: structured data and answer-engine shaping** (not started)
+**PR 2: structured data and answer-engine shaping ✅ Built (2026-10-15)**
 
-- [ ] JSON-LD: `WebSite` on the homepage (a `SearchAction` is optional; Google retired the sitelinks search box in 2024, so it is probably not worth adding); `BreadcrumbList` on category and entry pages; `Article` per entry with `citation` from the Sources block, authors from the credits line and the site's maker from `AUTHOR`; `CollectionPage` on category and type pages. All `url`/`@id` fields from `SITE_URL`.
-- [ ] `llms.txt` (site summary plus links to every category and entry) and `llms-full.txt` (full entry text), generated at build time from the source markdown, and added to `test:seo`.
-- [ ] A visible definition sentence at the top of each entry page and a provenance line ("Summarised from [originators]; see Sources").
-- [ ] Extend `test:seo` to validate the JSON-LD.
+- [x] JSON-LD (`web/src/lib/structured-data.ts`, rendered by `<JsonLd>`): `WebSite` on the homepage (no `SearchAction`); `CollectionPage` with an `ItemList` and a `BreadcrumbList` on category and type pages; `Article` with a `BreadcrumbList` on entry pages. All `url`/`@id` fields from `SITE_URL`. One deliberate change from the plan: the credited originators are not listed as the `Article`'s authors, because they did not write the summary. The site's maker (`AUTHOR`) is the author and publisher; the originators go in `creditText` (from the credits line) and their works in `citation` (from the Sources links).
+- [x] `llms.txt` (site summary, a section per category listing every entry with its definition, and challenges and learning paths under "Optional") and `llms-full.txt` (the full text of every entry, about 700 KB), generated at build time from the source markdown by route handlers (`web/src/lib/llms.ts`).
+- [x] A visible definition sentence at the top of each entry page, from a new hand-written `definition` frontmatter field on all 73 entries (60 to 220 characters, one "X is Y" sentence, checked by `test:content`). It replaces the lede that repeated the "What you will work towards" line. The existing credits line now reads "Summarised from [originators] · View sources".
+- [x] `test:seo` now checks the JSON-LD on 89 pages (valid JSON, the expected types, every URL on `SITE_URL`, breadcrumbs ending at the page, `ItemList` links that resolve, an `Article` with citations and credits) and that `llms.txt` and `llms-full.txt` cover every entry.
+
+Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, not required). The build has no reliable date source; Vercel builds use a shallow git clone.
 
 **Explicitly out of scope:** URL restructuring (`/framework/[slug]` for all types), analytics, and any paid tooling.
 
