@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-15 (SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Last Updated:** 2026-10-15 (SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -13,7 +13,7 @@ Everything below is either not started, partially done, or explicitly waiting on
 
 Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off as you go; Claude will keep the list current.
 
-- [ ] **After SEO PR 1 deploys, check the `pmmkb.vercel.app` redirect.** It is configured in the root `vercel.json` (host-matched, permanent). Run `curl -sI https://pmmkb.vercel.app/framework/pre-mortem` and expect `308` with `location: https://www.pmmkb.com/framework/pre-mortem`. If it still returns 200, add the redirect in the Vercel project's Domains settings instead (pmmkb.vercel.app, redirect to www.pmmkb.com) and tell Claude so the `vercel.json` rule can be removed.
+- [x] **After SEO PR 1 deploys, check the `pmmkb.vercel.app` redirect.** Confirmed by the owner on 2026-10-15: `pmmkb.vercel.app` redirects to www.pmmkb.com, so the host-matched rule in the root `vercel.json` stays as it is.
 - [ ] **Verify www.pmmkb.com in Google Search Console.** Either add a Domain property with the DNS TXT record Google gives you (no code change), or add a URL-prefix property, choose the "HTML tag" method, and set the token (the `content` value only) as `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` in the Vercel project's environment variables, then redeploy. The site already renders the tag when the variable is set.
 - [ ] **Submit the sitemap** `https://www.pmmkb.com/sitemap.xml` in Search Console once verified, then run URL Inspection on the homepage and one entry page and click "Request indexing".
 - [ ] **Verify in Bing Webmaster Tools.** Importing the property from Search Console is quickest. Otherwise use the meta tag method and set the token as `NEXT_PUBLIC_BING_SITE_VERIFICATION` in Vercel. Submit the same sitemap.
@@ -22,6 +22,28 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
 - [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
 - [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
+- [ ] **Review the 73 new `definition` sentences** (frontmatter of every entry, shown as the lede on each entry page). Claude wrote them on 2026-10-15 from facts each entry already states; they are new published copy, so worth one read before or soon after merge.
+- [ ] **Decide the Kano Model's type.** The entry (`frameworks/06-product-experience-adoption/kano-model.md`) and INDEX.md say Framework, but CLAUDE.md's "Content Types" names the Kano Model as an example of a Model. The quick-reference card was corrected to Framework to match the entry. If it should be a Model, retag it with the `add-kb-entry` skill (its section order changes to include "How to read it") and Claude will update CLAUDE.md or the entry to match.
+
+### Decisions log (2026-10-15 session)
+
+Work done this session, all on branch `claude/loving-gauss-n71kau`:
+
+- [x] Deleted the unused `sidebar.tsx`, `sticky-header.tsx`, `mobile-top-bar.tsx` and `sidebar-context.tsx`, and the `--bg-sidebar` colour token.
+- [x] SEO PR 2 built: JSON-LD, `llms.txt` and `llms-full.txt`, and a definition lede on entry pages (see "PR 2" below).
+- [x] INDEX.md tables generated from frontmatter, and quick-reference cards checked against the entries (see "Content modularisation" follow-ups).
+- [x] "Edit on GitHub" link on every entry page.
+
+Owner decisions:
+
+- `pmmkb.vercel.app` redirect confirmed working; no change needed.
+- Analytics will be Google Analytics, set up in a new session (see "Web app: open questions").
+- No contributor workflow for now.
+- `agent-skills/` stay out of the web app.
+- Content maintenance (quarterly reviews, feedback sessions, calendar) to be set up later.
+- prasannaunar.com changes will be handled separately (see Owner actions).
+
+Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review, Kano type), GA setup, and the deferred content maintenance.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
@@ -53,6 +75,8 @@ A review of four external lists for candidate entries, run against CLAUDE.md's c
 All 435 quiz questions across all 11 sources have been rewritten to the tightened distractor standard: self-justifying correct options trimmed, one taxonomy-driven near miss added per question, and option lengths levelled. Overall correct-is-longest fell from 86% to 27%, with zero `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags anywhere in the repository. The standard is now enforced by `npm run test:content` (`web/scripts/quiz-audit-lib.mjs` plus an assertion block in `web/scripts/verify-content.mjs`), so a regression or a new question that doesn't meet the bar fails the build. Full batch-by-batch record in [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md); the standard itself is in QUIZ-SPEC.md's "Distractor quality" section.
 
 ### Content maintenance (from Phase 5, below)
+
+**Deferred by the owner (2026-10-15):** to be set up later. None of the three items below should start until the owner asks.
 
 - [ ] **Quarterly review cycle** (one framework per week, ~7 weeks/quarter). Tooling exists in [FEEDBACK-LOG.md](FEEDBACK-LOG.md); the cycle has never run.
 - [ ] **Monthly team feedback session.** Tooling exists in FEEDBACK-LOG.md; no session has been logged yet.
@@ -120,9 +144,9 @@ Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, n
 ### Web app: open questions (from Phase 6, below)
 
 - [x] Custom domain: live at https://www.pmmkb.com/ since 2026-10-08 (apex redirects to www). This unblocked the domain-dependent SEO items above.
-- [ ] Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first).
-- [ ] Contributor workflow (contributing guide and CI checks, if others will submit entries).
-- [ ] Whether to surface `agent-skills/` in the web app or keep them repo-only.
+- [ ] **Analytics: Google Analytics (GA4).** Decided 2026-10-15; to be set up in a new session. Points to settle then: the GA4 measurement ID belongs in a Vercel environment variable (in the pattern of `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`), so nothing loads while it is unset and preview builds do not report; GA sets cookies, so UK and EU visitors need a consent banner (or GA's consent mode) before it loads; and the script must not break the static export or the theme script that runs before first paint. Check `npm run test:seo` and both themes afterwards.
+- [x] **Contributor workflow: not now.** Decided 2026-10-15. Revisit only if other people start submitting entries; `test:content` and `test:seo` already exist as the checks a CI workflow would run.
+- [x] **`agent-skills/` stay repo-only.** Decided 2026-10-15: do not surface them in the web app.
 
 ---
 
@@ -337,7 +361,7 @@ Output: Recommended framework or framework sequence
 **Ongoing Maintenance:** tracked as the canonical checklist in "Open work" at the top of this file; kept here too as part of the Phase 4 success-criteria record. Tick both copies together.
 - [ ] Quarterly review cycle scheduled (one framework per week); tooling to log it exists (`FEEDBACK-LOG.md`), cycle has not yet run
 - [ ] Feedback loop established (monthly team feedback); tooling to log it exists (`FEEDBACK-LOG.md`), first session has not yet run
-- [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open
+- [ ] Annual update calendar distributed; the calendar itself is documented in `FEEDBACK-LOG.md`, distribution to the team is still open. *(All three items deferred by the owner on 2026-10-15; see "Content maintenance" under Open work.)*
 
 ---
 
