@@ -10,6 +10,7 @@ import {
 import { parseQuizMarkdown } from "@/lib/quiz";
 import { cleanTitle, guidanceFor, plainText } from "@/lib/editorial";
 import { pageMetadata } from "@/lib/seo";
+import { editOnGitHubUrl } from "@/lib/site";
 import { entryJsonLd } from "@/lib/structured-data";
 import { JsonLd } from "@/components/json-ld";
 import { learningPaths, resolveSteps } from "@/lib/guides";
@@ -260,7 +261,15 @@ export default async function FrameworkPage({
               {entry.categoryNumber !== 10
                 ? "Try the category quiz"
                 : "Explore the topic"}
-            </Link>
+            </Link>{" "}
+            ·{" "}
+            <a
+              href={editOnGitHubUrl(entry.filePath)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Edit on GitHub
+            </a>
           </p>
         </div>
       </div>
