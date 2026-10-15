@@ -5,8 +5,10 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 ## Contents
 
 - [Segmentation–Targeting–Positioning (STP) Framework](#segmentationtargetingpositioning-stp-framework)
+- [TAM/SAM/SOM Market Sizing](#tamsamsom-market-sizing)
 - [Complete Product Experience Framework](#complete-product-experience-framework)
 - [Product Development Stage Framework](#product-development-stage-framework)
+- [Concept Testing](#concept-testing)
 - [Voice of the Customer (VoC) Programme](#voice-of-the-customer-voc-programme)
 - [JTBD Switch Interview Method](#jtbd-switch-interview-method)
 - [ICP Development Methodology](#icp-development-methodology)
@@ -45,6 +47,39 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Segment-level NPS
 
 **Source:** [Wendell R. Smith](https://journals.sagepub.com/doi/abs/10.1177/002224295602100102)
+
+---
+
+## TAM/SAM/SOM Market Sizing
+
+**Type:** Methodology
+
+**Core concept:** Estimate a market in three nested layers: total addressable market (TAM, every possible customer for this kind of solution), serviceable addressable market (SAM, the part your product can serve today) and serviceable obtainable market (SOM, the share you can realistically win in about three years). Build the numbers bottom-up from customer counts multiplied by price, and use top-down analyst figures only as a cross-check. TAM tells leadership whether the opportunity is worth pursuing, SAM tells PMM which segments to target, and SOM sets a realistic revenue goal.
+
+**When to use it:**
+- Comparing candidate segments in STP targeting
+- Building an investment case for a new product, vertical or region
+- Setting annual or three-year revenue goals for a product line
+- A board deck quotes a top-down figure nobody can defend
+- Comparing growth options in a BCG or Ansoff review
+
+**Key steps:**
+1. Define the customer, the problem and what counts as a sale in one sentence.
+2. Build TAM bottom-up: count organisations with the problem, multiply by annual contract value.
+3. Cross-check against an analyst figure; investigate any gap above about two times.
+4. Narrow to SAM with named, sourced filters (geography, size, integrations, channels).
+5. Estimate SOM from win rate, sales capacity, reach and competition.
+6. Present low, central and high cases with the assumptions that move the number most.
+7. Feed SAM into targeting, SOM into goals, TAM into investment cases; refresh annually.
+
+**Apply it:** Build a three-row table: Layer | Customer count | Price | Value | Source and key assumption. Add a low, central and high column for SOM.
+
+**Success metrics:**
+- Gap between bottom-up and top-down TAM (e.g. within two times)
+- Actual revenue against SOM-based target after three years (e.g. €1.7m against €2m)
+- Share of planning targets traceable to a sized market (e.g. 100% of product-line goals)
+
+**Source:** [Steve Blank & Bob Dorf](https://www.wiley.com/en-us/The+Startup+Owner%27s+Manual%3A+The+Step+By+Step+Guide+for+Building+a+Great+Company-p-9781119690689) (no single originator)
 
 ---
 
@@ -107,6 +142,39 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Monthly logo churn and time-to-first-value
 
 **Source:** [Stage-Gate International](https://www.stage-gate.com/about/our-story-2/)
+
+---
+
+## Concept Testing
+
+**Type:** Methodology
+
+**Core concept:** Show screened target buyers a one-page description of a product, feature or offer before it is built or launched, and measure appeal, relevance, uniqueness, believability and purchase intent. Monadic tests (one concept per respondent) give the cleanest scores; sequential monadic tests (several concepts per respondent, in random order) suit early screening on a budget. It differs from message testing: concept testing asks whether customers want the offer, message testing asks which words describe it best.
+
+**When to use it:**
+- Before committing build budget to a new product or major feature
+- Choosing between two or three product or packaging ideas for one segment
+- Entering a new segment with the existing product
+- Testing a new bundle, tier or pricing model before it goes live
+- A product team is split on which direction to pursue
+
+**Key steps:**
+1. Write the decision and the threshold that would change it.
+2. Write each concept on one page, to the same template and length.
+3. Choose monadic or sequential monadic, and randomise order.
+4. Screen respondents on segment, role and buying involvement (100 to 150 per concept for monadic).
+5. Ask appeal, relevance, uniqueness, believability and purchase intent, plus one open objection question.
+6. Report top-two-box scores by segment and read the recurring objections.
+7. Compare with a benchmark, then hand scores, objections and a recommendation to product.
+
+**Apply it:** Sketch a results table: Concept | Sample | Top-two-box appeal | Top-two-box purchase intent | Benchmark | Top objection.
+
+**Success metrics:**
+- Top-two-box purchase intent against benchmark (e.g. 41% against a 30% threshold)
+- Adoption of the launched concept against target (e.g. 18% against 12% in the first quarter)
+- Share of major build decisions preceded by a concept test (e.g. 3 of 4 this year)
+
+**Source:** [SurveyMonkey](https://www.surveymonkey.com/learn/market-research/concept-testing-methods/) (no single originator)
 
 ---
 

@@ -15,6 +15,7 @@ export function generateMetadata() {
 }
 export default function HomePage() {
   const categories = getAllCategories();
+  const { totalEntries, categoryCount, adjacentEntries } = getSiteStats();
   const challenges = [
     [
       "messaging",
@@ -161,8 +162,8 @@ export default function HomePage() {
             <h2>The complete library</h2>
           </div>
           <span className="metadata">
-            {categories.reduce((n, c) => n + c.entries.length, 0)} entries ·{" "}
-            {categories.length} topics
+            {totalEntries} entries · {categoryCount} topics
+            {adjacentEntries > 0 && ` · ${adjacentEntries} adjacent`}
           </span>
         </div>
         <div className="topic-index">

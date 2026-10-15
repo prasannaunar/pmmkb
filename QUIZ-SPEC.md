@@ -1,6 +1,6 @@
 # Quiz Specification for PMMKB
 
-**Status:** Feature complete and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle) for all 66 entries and all 9 category quizzes. **The distractor standard was tightened on 2026-09-09** after the existing questions proved answerable by picking the longest option; see "Distractor quality" below for the current rules and [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md) for the batch programme bringing the 435 existing questions up to them.
+**Status:** Feature complete and live in the web app (rendering, click-to-reveal feedback, progress indicator, Retry, deterministic answer-order shuffle) for all 68 core entries, the 5 adjacent entries, and all 10 category quizzes (the 9 workflow categories plus Adjacent Disciplines, added 2026-10-15). **The distractor standard was tightened on 2026-09-09** after the existing questions proved answerable by picking the longest option; see "Distractor quality" below for the current rules and [QUIZ-REVISION-PLAN.md](QUIZ-REVISION-PLAN.md) for the batch programme bringing the 435 existing questions up to them.
 **Last Updated:** 2026-10-09 (quizzes moved to sibling files; see decisions 1 and 2)
 
 This is the source-of-truth spec for the quiz feature described in PLAN.md's Phase 7. If a build session runs out of room partway through, resume from here rather than re-deriving the requirements; update the "Build progress" section at the bottom as work lands.
@@ -171,8 +171,10 @@ In the source markdown, the correct option is always written as **A** for every 
 - [x] **Category 8: Pricing & Packaging — done (2026-09-06).** All 7 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/08-pricing-packaging/`. 45 questions total.
 - [x] **Category 9: Sales Enablement — done (2026-09-06).** All 5 entries have a 5-question quiz; 10-question Category Quiz at the top of `frameworks/09-sales-enablement/`. 35 questions total.
 - [x] **`concepts/gtm-strategy-vs-product-marketing.md` (the one Primer) — done (2026-09-06).** 5-question quiz added; no category quiz, per the decision above (concepts is not one of the 9 workflow categories).
+- [x] **Category 1 additions: done (2026-10-15).** TAM/SAM/SOM Market Sizing and Concept Testing each have a 5-question quiz written to the 2026-09-09 distractor standard; Category 1 now has 10 entries.
+- [x] **`adjacent/` (Adjacent Disciplines): done (2026-10-15).** All 5 entries have a 5-question quiz, plus a 10-question category quiz in `adjacent/_category.quiz.md`, since the area holds five entries a reader must choose between. 35 questions total.
 
-**Content build total: 66 entries × 5 questions (330) + 9 category quizzes × 10 questions (90) = 420 questions, all written and structurally validated (correct-answer count, option count, no combination answers, whitespace-clean).**
+**Content build total (2026-09-06): 66 entries × 5 questions (330) + 9 category quizzes × 10 questions (90) = 420 questions, now 465 after the 2026-10-15 additions (73 entries × 5 = 365, plus 10 category quizzes × 10 = 100), all written and structurally validated (correct-answer count, option count, no combination answers, whitespace-clean).**
 
 - [x] **Wire quiz content into the web app — done (2026-09-06).** Verified with `next build` (all 84 static pages), a scripted parser check (420/420 questions valid, exactly one correct option and full feedback each), and an interactive Playwright pass (click reveals feedback, progress updates, summary and Retry appear once all answered, Retry clears state).
 - [x] **Update CLAUDE.md quality gates and `add-kb-entry` skill — done (2026-09-06).** New entries and category files now require a quiz section as part of the standard publishing checklist; see CLAUDE.md's "Quiz section (quiz standard)" and the `add-kb-entry` skill's updated checklist.

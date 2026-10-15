@@ -13,8 +13,10 @@ Every entry's quick-reference card already lists **success metrics** (what to me
 | Entry | Baseline (capture before applying) | Reporting cadence | Reported to |
 |---|---|---|---|
 | STP Framework | Current win rate, sales cycle length, and CAC payback, unsegmented | Quarterly review; ad hoc when a competitor or product change reshapes the market | Quarterly PMM Planning review |
+| TAM/SAM/SOM Market Sizing | Current planning targets and the market figure they rest on (often a top-down analyst number), plus the gap between bottom-up and top-down TAM | Annually in planning; off-cycle when pricing, target segments or geography change | Leadership and finance (investment cases, revenue goals) |
 | Complete Product Experience Framework | Current NPS, churn rate, and support SLA adherence | Quarterly coherence check, or immediately after any repositioning | Cross-functional stakeholders (product, sales, support) |
 | Product Development Stage Framework | Trial/paid and ARR targets agreed at project kickoff | Reviewed at each phase gate (ideation, prototype, beta, launch, maturity) | Product and launch stakeholders |
+| Concept Testing | Share of recent build decisions made without customer evidence, and the purchase intent benchmark from any previous test | Per concept test; benchmarks reviewed when each new test completes | Product (owns the build decision) and launch stakeholders |
 | Voice of the Customer (VoC) Programme | Current churn rate, NPS, and share of feedback tied to no actioned theme (typically near 0% pre-launch) | Weekly triage internally; synthesis reported quarterly | Cross-functional decision owners (product, positioning) |
 | JTBD Switch Interview Method | Current demo-to-trial conversion rate and the generic reasons (e.g. "better fit") sales currently gives for wins | Run per positioning project, not continuously | Positioning project owner |
 | ICP Development Methodology | Blended close rate and blended sales cycle length, unscored | Build once; refresh when win rate or deal size drifts from the model's assumptions (roughly annually) | Sales operations and sales leadership |
@@ -117,6 +119,18 @@ Every entry's quick-reference card already lists **success metrics** (what to me
 | Competitive Battlecard Framework | Current competitive win rate and sales cycle length in contested deals against the named competitor | Card usage tracked continuously; refreshed on a fixed cadence and after material competitor changes | Sales enablement |
 | Buyer's Journey Content Map | Current asset-to-stage ratio and sales adoption rate of existing content | Quarterly audit, or whenever a new segment or motion launches | Content / enablement planning |
 | VARS Framework | Current VARS adherence rate in call recordings (often unmeasured before training) and win rate in competitor-contested deals | Tracked per deal via call recording analysis; reviewed quarterly | Sales leadership / enablement |
+
+## Adjacent Disciplines
+
+These entries inform decisions other functions own, so the baseline is the decision's current evidence base, and the report goes to the decision owner.
+
+| Entry | Baseline (capture before applying) | Reporting cadence | Reported to |
+|---|---|---|---|
+| BCG Growth-Share Matrix | Current split of budget and PMM launch capacity by product, before the review | Annually in planning; re-plot when a product changes quadrant | CEO, CFO or strategy team |
+| Ansoff Matrix | Current growth options on the table, each with its evidence and sizing (often none) | Annually, or when core growth stalls | CEO and leadership team |
+| Porter's Five Forces | Current gross margin, win rate and discount rate in the market under review | Before a market entry decision; refresh every one to two years | Founders, CEO or strategy team |
+| Business Model Canvas | Count of customer-side assumptions marked "assumed" versus "proven" | When pricing, channels or target segments change | Leadership team |
+| Cialdini's Principles of Persuasion | Conversion rate of the audited asset (page, trial or deck) before changes | Per audit, with an A/B or message test after each change | Demand generation and the asset owner |
 
 ## Concepts (Primers)
 

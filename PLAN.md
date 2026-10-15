@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
 **Last Updated:** 2026-10-10 (dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
-**Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all 66 entries and all 9 category quizzes are written and live in the web app. The knowledge base has 66 entries across 9 categories plus a concepts area, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
+**Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
 
@@ -19,7 +19,33 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Verify in Bing Webmaster Tools.** Importing the property from Search Console is quickest. Otherwise use the meta tag method and set the token as `NEXT_PUBLIC_BING_SITE_VERIFICATION` in Vercel. Submit the same sitemap.
 - [ ] **Check a share preview** after deploy: paste https://www.pmmkb.com/ and one entry URL into LinkedIn's Post Inspector (or a Slack message). Expect the blue-topped "PMM Knowledge Base" card and the entry's own description. LinkedIn caches previews, so use the inspector's refresh.
 - [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna").
+- [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
 - [ ] **Decide whether to go ahead with SEO PR 2** (structured data, `llms.txt`, definition sentence on entry pages). Nothing blocks it.
+
+### Candidate review: external template and resource lists ✅ Built (2026-10-15)
+
+A review of four external lists for candidate entries, run against CLAUDE.md's curation bar ("proven, replicable") and the PMM vs GTM inclusion test. Every source reviewed, with the verdict on each item, is in [SOURCES-EXPLORED.md](SOURCES-EXPLORED.md); this section logs the candidates and their outcome. Built candidates stay listed here, per the add-kb-entry skill.
+
+**Built as core entries (Category 1, counted in the 68):**
+
+- [x] **TAM/SAM/SOM Market Sizing** (Methodology). Three entries told readers to size a market (STP, the 10-Step PMM Process, the Product Development Stage Framework) but none explained how. PMMs commonly run it; passes the inclusion test.
+- [x] **Concept Testing** (Methodology). Assessed as a clear-cut core entry rather than adjacent: PMMs commonly run the study (the inclusion test says operating a study is enough), it is a long-established research method, and it is distinct from Message Testing (it tests whether customers want the offer, not which words describe it). Product keeps the build decision, which the entry's "Cadence & ownership" says.
+
+**Built in the new `adjacent/` area (Adjacent Disciplines, counted separately):**
+
+- [x] **BCG Growth-Share Matrix** (Model) and **Ansoff Matrix** (Model): portfolio and growth-direction tools; leadership owns the decision, PMM supplies market and customer evidence.
+- [x] **Porter's Five Forces** (Model) and **Business Model Canvas** (Framework): the two further business-strategy candidates recommended in the review.
+- [x] **Cialdini's Principles of Persuasion** (Model). Assessed as not clear-cut for the core: it is a lens from behavioural science rather than a method a PMM runs, and copywriting, demand generation, growth and sales all apply it. Added to `adjacent/` per the owner's instruction for non-clear-cut candidates.
+- [x] **The area itself:** `adjacent/` folder (slug `adjacent`, number 11) with a 10-question category quiz, web app support (loader, "PMM's role" section label, headline counts that exclude it, sidebar and category picks), its own rules in CLAUDE.md ("The `adjacent/` area"), and a quick-reference file.
+
+**Reviewed and not added:**
+
+- **SWOT analysis:** noted in `adjacent/_category.md`, the Porter's Five Forces entry and SOURCES-EXPLORED.md, but not a standalone entry: disputed origin, and widely criticised for producing lists rather than decisions.
+- **Paweł Huryn's Product Frameworks Compendium:** paywalled after its first section; the visible nine are product-management prioritisation tools. Left as is, per the owner's decision; no subscription workaround attempted.
+- **Single-practitioner frameworks** (Yi Lin Pei's PMM Research Tactics Matrix, Matthew Reeves' Differentiator Scorecard): fail the "proven, replicable" bar.
+- **Content, social and demand generation templates** (most of the Reddit list): execution templates owned by other functions; fail both tests.
+
+**Open follow-ups:** none. Pick up any fresh candidate review in a new session and add its sources to SOURCES-EXPLORED.md.
 
 ### Quiz revision ✅ Complete (2026-09-16)
 
