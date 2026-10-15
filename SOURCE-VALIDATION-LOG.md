@@ -145,3 +145,19 @@ All five template files (`campaign-brief-template.md`, `competitive-intelligence
 - The CI Program Maturity Model's body text attributes Klue's maturity model to a joint effort with SCIP; this could not be independently re-verified from Klue's current live page, so the new Sources bullet cites Klue alone. The body text is unchanged pending a closer look.
 - A small number of sources (John McMahon's *The Qualified Sales Leader*; Louviere & Woodworth's original 1983 MaxDiff working paper) have no defensible canonical URL (self-published listing, or unpublished and never posted online); these are cited by name without a link, consistent with the standard's "never a scraped summary site, never an affiliate link" rule taking priority over forcing a link to exist.
 - `agent-skills/ATTRIBUTION.md` was updated to point to the Sources block rather than the retired Further reading line; no skill's underlying originator attribution changed as a result of this pass, so no skill content needed rewriting.
+
+---
+
+## Addendum: 2026-10-15 additions
+
+Seven entries were added with their Sources blocks written at the time of writing, per the add-kb-entry checklist. Every URL was checked on 2026-10-15. Notes on the judgement calls:
+
+| Entry | Source decisions |
+|---|---|
+| TAM/SAM/SOM Market Sizing (Category 1) | No single originator. Cites Steve Blank and Bob Dorf's *The Startup Owner's Manual* as a best-documented version, and says so; Bill Gurley's 2014 *Above the Crowd* post backs the "anchoring to today's spend" pitfall. The worked example's German practice count is labelled illustrative, since it describes a real country inside a fictional scenario. |
+| Concept Testing (Category 1) | No single originator. Cites SurveyMonkey's methods guide for monadic and sequential monadic designs, and Attest's template library, which surfaced the candidate. Purchase-intent overstatement is stated as a widely held research view without a figure. |
+| BCG Growth-Share Matrix (adjacent) | Henderson's 1970 essay and BCG's history page (which credits Alan Zakon with the first sketch). bcg.com returns 403 to scripted checks, but both pages and the 2014 "Classics Revisited" article were confirmed through a browser fetch. The 10% growth cut-off is hedged as "commonly used", since it does not appear in the essay. |
+| Ansoff Matrix (adjacent) | HBR does not openly host the 1957 article, so the link is the EconBiz catalogue record (volume, issue and pages), with Open Library for the 1965 book. |
+| Porter's Five Forces (adjacent) | Porter's 1979 and 2008 HBR articles (both resolve) and the 1980 book on Open Library. The "software and soft drinks" example is attributed to the 2008 article. |
+| Business Model Canvas (adjacent) | Wiley's page for *Business Model Generation* and Strategyzer's official canvas page. |
+| Cialdini's Principles of Persuasion (adjacent) | Open Library for *Influence* (HarperCollins returns 403 to scripted checks) and the summary page from Cialdini's own company, Influence at Work. The consumer protection point in the first pitfall is phrased as "can breach", not as a claim about any one regulator. |

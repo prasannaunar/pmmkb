@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base
 
-A structured, practical reference of 66 product marketing frameworks and methodologies; organised by workflow stage, indexed by situation. Built for product marketing professionals who need to apply proven methods to real challenges: positioning, go-to-market strategy, competitive intelligence, pricing, and customer advocacy.
+A structured, practical reference of 68 product marketing frameworks and methodologies, plus 5 adjacent business-strategy and behavioural-science tools; organised by workflow stage, indexed by situation. Built for product marketing professionals who need to apply proven methods to real challenges: positioning, go-to-market strategy, competitive intelligence, pricing, and customer advocacy.
 
 **Live site:** [www.pmmkb.com](https://www.pmmkb.com/), the web app built from this repository (`web/`).
 
@@ -22,13 +22,13 @@ Not sure where to start? Skim the [framework selector](framework-selector.md) fo
 
 ## What's Inside
 
-### 66 Entries Across 9 Categories
+### 68 Entries Across 9 Categories, Plus Adjacent Disciplines
 
 Each entry declares a **Type** (Framework, Methodology, Model, or Primer) and follows a structured template. See [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|---------|------|
-| 1 | Market & Customer Understanding | 8 | `frameworks/01-market-customer-understanding/` |
+| 1 | Market & Customer Understanding | 10 | `frameworks/01-market-customer-understanding/` |
 | 2 | Positioning & Messaging | 12 | `frameworks/02-positioning-messaging/` |
 | 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy/` |
 | 4 | Go-to-Market & Launch | 11 | `frameworks/04-go-to-market-launch/` |
@@ -38,6 +38,9 @@ Each entry declares a **Type** (Framework, Methodology, Model, or Primer) and fo
 | 8 | Pricing & Packaging | 7 | `frameworks/08-pricing-packaging/` |
 | 9 | Sales Enablement | 5 | `frameworks/09-sales-enablement/` |
 | — | Concepts (primers) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
+|   | Adjacent Disciplines | 5 | `adjacent/` |
+
+**Adjacent Disciplines** holds tools PMMs use to inform decisions other functions own: the BCG Growth-Share Matrix, the Ansoff Matrix, Porter's Five Forces, the Business Model Canvas and Cialdini's Principles of Persuasion. Each carries a "PMM's role" section instead of "Ownership", and they are counted separately from the 68 core entries.
 
 See [INDEX.md](INDEX.md) for the full taxonomy with type and description for every entry.
 
@@ -104,6 +107,7 @@ Every entry is designed to be **read standalone**, but entries often build on on
 | [case-studies/](case-studies/) | Extended walkthroughs: STP, Value Proposition Canvas, Win/Loss, 10-Step PMM, GTM |
 | [ONBOARDING.md](ONBOARDING.md) | Role-based onboarding playbook for new PMM team members |
 | [agent-skills/](agent-skills/) | Nine PMM methods packaged as [Agent Skills](https://agentskills.io) for AI agents |
+| [SOURCES-EXPLORED.md](SOURCES-EXPLORED.md) | Every external source reviewed for candidate entries, with the verdict on each |
 | [PLAN.md](PLAN.md) | Roadmap for polish and integration |
 | [CLAUDE.md](CLAUDE.md) | Writing standards and content principles |
 
@@ -155,4 +159,4 @@ This knowledge base consolidates product marketing frameworks used across real p
 
 It is not a textbook. It is a reference guide you return to repeatedly as you face real problems. Every entry is here because it works; every example is here because it shows real execution.
 
-**Total:** 66 entries (29 frameworks, 26 methodologies, 10 models, 1 primer) across 9 categories.
+**Total:** 68 entries (29 frameworks, 28 methodologies, 10 models, 1 primer) across 9 categories, plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`.

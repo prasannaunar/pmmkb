@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research: CI Program Maturity Model into Category 3, VARS Framework into Category 9, Time to Value Framework into Category 6, following the first three built earlier the same day (MAP Model, RFM Model, MaxDiff Analysis). The PM/PMM Collaboration Maturity Model was researched and rejected, uncited anywhere beyond the course deck. Total 63 → 66 entries.)
+**Last Updated:** 2026-10-15 (added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
 
 ---
 
@@ -9,8 +9,10 @@
 | Entry | Type | Description |
 |-------|------|-------------|
 | Segmentation–Targeting–Positioning (STP) Framework | Framework | Strategic approach defining target segments, positioning within those segments, and translating into pricing and messaging strategies |
+| TAM/SAM/SOM Market Sizing | Methodology | Bottom-up estimate of the total addressable, serviceable addressable and serviceable obtainable market, built from customer counts and price and cross-checked against top-down figures, to size segments, goals and investment cases |
 | Complete Product Experience Framework | Framework | Seven-touchpoint framework ensuring positioning is reinforced across marketing, sales, technology, support, and other customer touchpoints |
 | Product Development Stage Framework | Framework | Process for conducting market research, developing roadmaps, and establishing positioning during product development |
+| Concept Testing | Methodology | Survey-based test of a product, feature or offer concept with screened target buyers before it is built or launched, using monadic or sequential monadic designs and benchmarked top-two-box scores for appeal and purchase intent |
 | Voice of the Customer (VoC) Programme | Methodology | Continuous listening system that gathers customer signal across surveys, interviews, reviews, tickets, sales calls, and churn, then synthesises and routes it into positioning, roadmap, and messaging decisions |
 | JTBD Switch Interview Method | Methodology | Structured interview technique that reconstructs the timeline of a customer's switch from an old solution to find the specific triggering event and the four forces (push, pull, anxiety, habit) behind a purchase; the research method behind the Jobs-to-be-Done Positioning Framework |
 | ICP Development Methodology | Methodology | Operational build of an Ideal Customer Profile from firmographic, technographic, and behavioural signals into a weighted, CRM-scored fit model; the layer beneath STP's Targeting step that ranks specific accounts rather than choosing a strategic segment |
@@ -142,16 +144,30 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 |-------|------|-------------|
 | GTM Strategy vs Product Marketing | Primer | Distinguishes the company-wide, cross-functional GTM strategy from the product marketing function that contributes to and often orchestrates it; includes an owns/contributes-to/supports ownership map |
 
+---
+
+## Adjacent Disciplines
+
+Added 2026-10-15. Tools from business strategy and behavioural science that PMMs use to inform decisions other functions own. They fail the core "who runs this" inclusion test, so they live in `adjacent/`, carry a "PMM's role" section instead of "Ownership", and are not counted in the core total. See CLAUDE.md, "The `adjacent/` area". SWOT analysis was reviewed and deliberately not added; see SOURCES-EXPLORED.md.
+
+| Entry | Type | Description |
+|-------|------|-------------|
+| BCG Growth-Share Matrix | Model | Bruce Henderson's 1970 portfolio grid placing each product by market growth and relative share as a star, cash cow, question mark or dog, to decide where to invest, hold or exit |
+| Ansoff Matrix | Model | H. Igor Ansoff's 1957 product-market grid sorting growth options into market penetration, market development, product development and diversification, with risk rising away from the known |
+| Porter's Five Forces | Model | Michael Porter's model for judging a market's profit potential through rivalry, new entrants, substitutes, buyer power and supplier power |
+| Business Model Canvas | Framework | Alexander Osterwalder and Yves Pigneur's nine-block, one-page map of how a business creates, delivers and captures value |
+| Cialdini's Principles of Persuasion | Model | Robert Cialdini's seven principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity), used as a lens for auditing messaging, proof and buying journeys |
+
 ## Structure Notes
 
-- **Total entries:** 66 (29 frameworks, 26 methodologies, 10 models, 1 primer, recounted directly from this file's Type columns after the 2026-08-14 build of six of the eight NEW-SOURCES-GAP-ANALYSIS.md candidates: MAP Model (Methodology, Category 1), RFM Model (Model, Category 6), MaxDiff Analysis (Methodology, Category 8), CI Program Maturity Model (Model, Category 3), VARS Framework (Framework, Category 9), and Time to Value Framework (Model, Category 6). Every entry carries a Type, including the 10 pre-existing entries retagged Methodology per ENRICHMENT-PLAN.md B2: 10-Step PMM Process, 7-Step PMM Framework, 3-Step PMM Strategy, PMM Lifecycle Management, Go-to-Market Motion Framework, Complete GTM Workflow Stages, Win/Loss Analysis, Competitive Intelligence & Positioning Update, Feature Adoption, and T2D3, each restructured to the Methodology section template)
-- **Categories:** 9 workflow categories plus a `concepts/` area for primers (Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
+- **Total entries:** 68 core (29 frameworks, 28 methodologies, 10 models, 1 primer), recounted from this file's Type columns after the 2026-10-15 addition of TAM/SAM/SOM Market Sizing and Concept Testing (both Methodology, Category 1); plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 66, after the 2026-08-14 NEW-SOURCES-GAP-ANALYSIS.md builds.
+- **Categories:** 9 workflow categories plus a `concepts/` area for primers and an `adjacent/` area for adjacent disciplines (`adjacent/` added 2026-10-15; Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 8 entries (`frameworks/01-market-customer-understanding/`)
+✅ **Category 1 (Market & Customer Understanding):** 10 entries (`frameworks/01-market-customer-understanding/`)
 ✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging/`)
 ✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy/`)
 ✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch/`)
@@ -161,6 +177,7 @@ Not tied to a workflow category because a primer is not something you "apply"; s
 ✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging/`)
 ✅ **Category 9 (Sales Enablement):** 5 entries (`frameworks/09-sales-enablement/`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)
+✅ **Adjacent Disciplines:** 5 entries (`adjacent/`), counted separately from the core total
 
 ## Next Steps
 

@@ -22,9 +22,15 @@ const quiz = load("../src/lib/quiz.ts");
 const sections = load("../src/lib/entry-sections.ts");
 const categories = content.getAllCategories();
 const entries = content.getAllEntries();
-assert.equal(entries.length, 66);
-assert.equal(categories.length, 10);
-assert.equal(new Set(entries.map((e) => e.slug)).size, 66);
+// 68 core entries in 10 categories, plus the adjacent-disciplines collection
+// (see CLAUDE.md, "The `adjacent/` area"), which the headline counts exclude.
+const stats = content.getSiteStats();
+assert.equal(stats.totalEntries, 68);
+assert.equal(stats.categoryCount, 10);
+assert.equal(stats.adjacentEntries, 5);
+assert.equal(entries.length, 73);
+assert.equal(categories.length, 11);
+assert.equal(new Set(entries.map((e) => e.slug)).size, 73);
 // Layout: the loader already throws on a missing or malformed field, a slug
 // that differs from its file name, or a body that does not open with the
 // title. These checks cover what it cannot see from one file at a time.
@@ -89,7 +95,7 @@ for (const entry of entries) {
     assert.equal(question.options.filter((o) => o.correct).length, 1);
   }
 }
-assert.equal(categories.filter((c) => c.quizMarkdown).length, 9);
+assert.equal(categories.filter((c) => c.quizMarkdown).length, 10);
 for (const c of categories.filter((c) => c.quizMarkdown))
   assert.equal(
     quiz.parseQuizMarkdown(c.quizMarkdown, c.slug).length,
@@ -133,5 +139,5 @@ for (const [file, stats] of byFile)
   );
 
 console.log(
-  "PASS: 66 entries with valid frontmatter, source credits and quiz files, 330 entry questions, 90 category questions, 15 path questions, and all 12 guide sequences.",
+  "PASS: 68 core and 5 adjacent entries with valid frontmatter, source credits and quiz files, 365 entry questions, 100 category questions, 15 path questions, and all 12 guide sequences.",
 );

@@ -59,14 +59,20 @@ export interface Category {
   intro: string;
   entries: Entry[];
   quizMarkdown: string | null;
+  /** True for the `adjacent/` collection: tools from neighbouring disciplines
+   * (business strategy, behavioural science) that PMM uses to inform decisions
+   * another function owns. Kept out of the headline counts. */
+  adjacent: boolean;
 }
 
 // Content layout (see CLAUDE.md, "Repository Structure"): each category is a
 // directory holding `_category.md`, an optional `_category.quiz.md`, and one
 // `<slug>.md` plus `<slug>.quiz.md` per entry. Categories live under
-// `frameworks/<NN-slug>/`; the primers collection is `concepts/` itself.
+// `frameworks/<NN-slug>/`; the primers collection is `concepts/` itself, and
+// the adjacent-disciplines collection is `adjacent/`.
 const FRAMEWORKS_DIR = "frameworks";
 const CONCEPTS_DIR = "concepts";
+const ADJACENT_DIR = "adjacent";
 const CATEGORY_FILE = "_category.md";
 const CATEGORY_QUIZ_FILE = "_category.quiz.md";
 
@@ -113,7 +119,7 @@ function readQuiz(absolutePath: string): string | null {
 
 function categoryDirectories(): string[] {
   const dirs: string[] = [];
-  for (const root of [FRAMEWORKS_DIR, CONCEPTS_DIR]) {
+  for (const root of [FRAMEWORKS_DIR, CONCEPTS_DIR, ADJACENT_DIR]) {
     const absoluteRoot = path.join(REPO_ROOT, root);
     if (fs.existsSync(path.join(absoluteRoot, CATEGORY_FILE))) {
       dirs.push(root);
@@ -197,6 +203,7 @@ function loadCategory(dir: string): Category {
     intro: requireString(data, "intro", categoryPath),
     entries,
     quizMarkdown: readQuiz(path.join(REPO_ROOT, dir, CATEGORY_QUIZ_FILE)),
+    adjacent: dir === ADJACENT_DIR,
   };
 }
 
@@ -249,11 +256,21 @@ export function getEntriesByType(type: EntryType): Entry[] {
   return getAllEntries().filter((e) => e.type === type);
 }
 
-export function getSiteStats(): { totalEntries: number; categoryCount: number } {
-  const categories = getAllCategories();
+/** Headline counts cover the PMM-run library only; adjacent entries are
+ * counted separately (see CLAUDE.md, "The `adjacent/` area"). */
+export function getSiteStats(): {
+  totalEntries: number;
+  categoryCount: number;
+  adjacentEntries: number;
+} {
+  const all = getAllCategories();
+  const core = all.filter((c) => !c.adjacent);
   return {
-    totalEntries: categories.reduce((sum, c) => sum + c.entries.length, 0),
-    categoryCount: categories.length,
+    totalEntries: core.reduce((sum, c) => sum + c.entries.length, 0),
+    categoryCount: core.length,
+    adjacentEntries: all
+      .filter((c) => c.adjacent)
+      .reduce((sum, c) => sum + c.entries.length, 0),
   };
 }
 
@@ -261,6 +278,7 @@ const SECTION_LABELS = [
   "What it is",
   "When to use it",
   "Ownership",
+  "PMM's role",
   "How to apply it",
   "How to run it",
   "Cadence & ownership",
