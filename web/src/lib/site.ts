@@ -13,6 +13,17 @@ export const AUTHOR = {
   url: "https://www.prasannaunar.com/",
 };
 
+// The public repository the content lives in, and the branch Vercel deploys.
+export const REPO = {
+  url: "https://github.com/prasannaunar/pmmkb",
+  branch: "main",
+};
+
+/** GitHub's editor for a repo-relative file, such as an entry's `filePath`. */
+export function editOnGitHubUrl(filePath: string): string {
+  return `${REPO.url}/edit/${REPO.branch}/${filePath}`;
+}
+
 /** Absolute URL for a site path such as "/framework/pre-mortem". */
 export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path}`;

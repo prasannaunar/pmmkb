@@ -187,6 +187,15 @@ for (const [route, html] of pages) {
   }
 }
 
+// Every entry page links to its source file in GitHub's editor.
+const REPO_ROOT = path.join(import.meta.dirname, "..", "..");
+for (const [route, html] of pages) {
+  if (!route.startsWith("/framework/")) continue;
+  const file = html.match(/href="https:\/\/github\.com\/prasannaunar\/pmmkb\/edit\/main\/([^"]+)"/)?.[1];
+  assert.ok(file, `page ${route}: missing "Edit on GitHub" link`);
+  assert.ok(fs.existsSync(path.join(REPO_ROOT, file)), `page ${route}: "Edit on GitHub" points at missing file ${file}`);
+}
+
 // llms.txt lists every entry; llms-full.txt carries every entry's text.
 const llms = fs.readFileSync(path.join(OUT, "llms.txt"), "utf8");
 const llmsFull = fs.readFileSync(path.join(OUT, "llms-full.txt"), "utf8");
@@ -225,5 +234,5 @@ assert.ok(
 assert.ok(fs.existsSync(path.join(OUT, "og-default.png")), "og-default.png missing from the export");
 
 console.log(
-  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; JSON-LD valid on ${jsonLdPages} pages; llms.txt and llms-full.txt cover all ${entryRoutes.length} entries; sitemap lists ${listed.length} URLs; robots.txt points at it.`,
+  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; JSON-LD valid on ${jsonLdPages} pages; llms.txt, llms-full.txt and "Edit on GitHub" links cover all ${entryRoutes.length} entries; sitemap lists ${listed.length} URLs; robots.txt points at it.`,
 );
