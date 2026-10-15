@@ -21,6 +21,7 @@ const CATEGORIES: NavCategory[] = [
   { slug: "08-pricing-packaging", shortTitle: "Pricing & Packaging", number: 8 },
   { slug: "09-sales-enablement", shortTitle: "Sales Enablement", number: 9 },
   { slug: "concepts-primers", shortTitle: "Concepts", number: 10 },
+  { slug: "adjacent", shortTitle: "Adjacent Disciplines", number: 11 },
 ];
 
 interface SidebarProps {

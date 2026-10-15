@@ -8,11 +8,15 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 ## Market Sizing & Segmentation
 
-**TAM (Total Addressable Market):** The total revenue opportunity if every possible buyer of a product or service bought it, with no competition or constraints. Used to size a market before deciding whether to enter it. See [STP Framework](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md).
+**TAM (Total Addressable Market):** The total revenue opportunity if every possible buyer of a product or service bought it, with no competition or constraints. Used to size a market before deciding whether to enter it. See [TAM/SAM/SOM Market Sizing](frameworks/01-market-customer-understanding/tam-sam-som-market-sizing.md) and [STP Framework](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md).
 
 **SAM (Serviceable Addressable Market):** The slice of TAM a company could realistically reach given its current product, geography, and go-to-market model. Narrower than TAM; still ignores competitive share.
 
 **SOM (Serviceable Obtainable Market):** The slice of SAM a company can realistically capture in a given period, accounting for competition, sales capacity, and brand awareness. The most conservative and most actionable of the three sizing figures.
+
+**Concept testing:** Showing screened target buyers a one-page description of a product, feature or offer before it is built or launched, and scoring appeal and purchase intent. Monadic tests show each respondent one concept; sequential monadic tests show several in random order. See [Concept Testing](frameworks/01-market-customer-understanding/concept-testing.md).
+
+**Top-two-box score:** The share of survey respondents who choose the top two points on a scale, such as "definitely" or "probably would buy". The standard way to report concept test and satisfaction results.
 
 **Segmentation:** Splitting a market into distinct groups of buyers who share needs, behaviours, or characteristics, so each group can be targeted and positioned to differently. The first step of [STP](frameworks/01-market-customer-understanding/segmentationtargetingpositioning-stp-framework.md).
 

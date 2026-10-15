@@ -1,12 +1,12 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-10 (dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
+**Last Updated:** 2026-10-15 (the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
 ## Project Overview
 
-This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 66 entries (29 frameworks, 26 methodologies, 10 models, 1 primer) across 9 categories, plus a `concepts/` area for primers, each with clear applications, real-world examples, and common pitfalls.
+This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 68 entries (29 frameworks, 28 methodologies, 10 models, 1 primer) across 9 categories, plus a `concepts/` area for primers and an `adjacent/` area holding 5 adjacent-discipline entries counted separately (see "The `adjacent/` area"), each with clear applications, real-world examples, and common pitfalls.
 
 **Primary Use Case:** A reference guide for product marketing professionals to apply proven frameworks to day-to-day challenges; positioning, go-to-market strategy, competitive intelligence, and customer advocacy.
 
@@ -66,7 +66,7 @@ Every entry's quiz, 5 questions, lives in its own sibling file, `<slug>.quiz.md`
 
 **Ownership** (Framework and Model types; Methodology covers the same ground inside "Cadence & ownership") is one short paragraph naming who typically owns the decision/output versus who typically executes it, and noting that this shifts with company stage: a solo or founding PMM commonly owns outright what a specialised team hands off to Sales, RevOps, or a CEO once the company scales. This is not a hedge; it is a factual note on how ownership redistributes as headcount grows, matching the pattern already used in Methodology entries' "Cadence & ownership" sections (see T2D3 Framework or MEDDIC/MEDDPICC for the target voice).
 
-Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable. This vocabulary was rolled out via a 2026-07 build queue (ENRICHMENT-PLAN.md), since closed and, after its 2026-09 re-scan found nothing depending on it, deleted; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
+Frameworks, methodologies, and models keep the 1000–1500 word target. Primers may run shorter (500–1000 words). Methodologies, models, and primers live in the same eight workflow categories as frameworks, tagged by type; only primers may sit in a separate `concepts/` area, because they are not applyable, and only entries that fail the inclusion test but pass the adjacent test may sit in `adjacent/` (see "The `adjacent/` area"). This vocabulary was rolled out via a 2026-07 build queue (ENRICHMENT-PLAN.md), since closed and, after its 2026-09 re-scan found nothing depending on it, deleted; any new candidate additions should be logged in [PLAN.md](PLAN.md) instead.
 
 ### Language Guidelines
 
@@ -133,7 +133,7 @@ Every entry must carry a **quiz file** (`<slug>.quiz.md`, beside the entry), and
 This is a product marketing knowledge base, not a go-to-market knowledge base. GTM is the company's strategic plan for selling (typically CEO/CRO-owned, spanning sales, marketing, and customer success); product marketing is one function that drives specific parts of that plan and contributes to the rest. The two overlap heavily, so scope decisions use a deliberately narrow test rather than "is this GTM-adjacent":
 
 - **Inclusion test:** a candidate becomes a full entry if a PMM could plausibly be the one running it and producing its output, at some stage of company maturity, even if another function signs off on the result. Operating a study or process is enough; final approval authority is not required.
-- **Exclusion test:** if PMM's role is input-only into something another function owns end-to-end by default (sales comp design, paid media mix modelling, CS health-score/renewal playbooks), it does not get a full entry. It may still get a short "PMM's role in X" note inside the owning function's framework, or a mention in a primer, but not a standalone 6-section (or equivalent) treatment.
+- **Exclusion test:** if PMM's role is input-only into something another function owns end-to-end by default (sales comp design, paid media mix modelling, CS health-score/renewal playbooks), it does not get a full entry. It may still get a short "PMM's role in X" note inside the owning function's framework, or a mention in a primer, but not a standalone 6-section (or equivalent) treatment. The one exception is a proven, widely used tool from a neighbouring discipline that PMMs regularly use to inform a leadership decision (portfolio, growth direction, market attractiveness, business model) or as a lens on their own work (persuasion research): that may become an entry in `adjacent/`, under the rules in "The `adjacent/` area".
 - **Ownership varies by stage, and that is a feature, not an exception.** A framework can pass the inclusion test even where a specialised team usually owns it at scale, provided a solo or founding PMM plausibly owns it outright at an earlier stage. Document that variance in the entry's Ownership field (Framework, Model) or Cadence & ownership section (Methodology) rather than excluding the entry or pretending ownership is fixed.
 - **Category 4's name ("Go-to-Market & Launch") is intentionally broad**, because launches and GTM motion selection are where PMM's contribution is heaviest; entries there still have to clear the inclusion test above like anywhere else, they are not exempt because the category is GTM-flavoured.
 - **When assessing a new candidate**, ask "who runs this," not "does this relate to selling the product." Almost everything in commercial software relates to selling the product; the KB's boundary is who does the work, not which department's OKRs the work ladders up to.
@@ -161,6 +161,7 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── INDEX.md                     # Full taxonomy of all frameworks
 ├── BY-SITUATION.md              # Situation-to-framework mapper
 ├── PLAN.md                      # Roadmap for polish and integration
+├── SOURCES-EXPLORED.md          # Every external source reviewed for candidate entries, with the verdict on each
 ├── QUIZ-SPEC.md                 # Quiz feature spec: format, content rules, build progress
 ├── QUIZ-REVISION-PLAN.md        # Batch programme rewriting quiz options to the 2026-09-09 distractor standard
 ├── CLAUDE.md                    # This file; working principles
@@ -200,6 +201,13 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 ├── concepts/                    # Primers; same shape as a category folder (_category.md, <slug>.md, <slug>.quiz.md)
 │   └── gtm-strategy-vs-product-marketing.md
 │
+├── adjacent/                    # Adjacent disciplines (business strategy, behavioural science); same shape as a category folder, with a category quiz
+│   ├── bcg-growth-share-matrix.md
+│   ├── ansoff-matrix.md
+│   ├── porters-five-forces.md
+│   ├── business-model-canvas.md
+│   └── cialdinis-principles-of-persuasion.md
+│
 ├── quick-reference/              # One-page condensed cards per entry, mirroring frameworks/ by category
 │   ├── 01-market-customer-understanding.md
 │   ├── 02-positioning-messaging.md
@@ -210,7 +218,8 @@ This is a product marketing knowledge base, not a go-to-market knowledge base. G
 │   ├── 07-strategy-planning.md
 │   ├── 08-pricing-packaging.md
 │   ├── 09-sales-enablement.md
-│   └── concepts-primers.md
+│   ├── concepts-primers.md
+│   └── adjacent-disciplines.md
 │
 ├── templates/                   # Working templates for quarterly planning, campaigns, and enablement
 │   ├── quarterly-planning-template.md
@@ -271,6 +280,17 @@ The Sources credits line stays on the `**Sources:**` label in the body (see "Sou
 
 The web app finds every category folder and entry file at build time, so adding or changing a file needs no code change, and each merge to `main` publishes it. `npm run test:content` in `web/` fails, naming the file, when frontmatter is missing or malformed, a slug differs from its file name, an `order` repeats, a quiz file has no entry, or an entry has no quiz.
 
+### The `adjacent/` area
+
+`adjacent/` holds tools from neighbouring disciplines that PMMs use but do not run as product marketing methods: today, business strategy (BCG Growth-Share Matrix, Ansoff Matrix, Porter's Five Forces, Business Model Canvas) and behavioural science (Cialdini's Principles of Persuasion). It exists so the knowledge base can explain these tools from a PMM's point of view without loosening the core inclusion test.
+
+- **Adjacent inclusion test.** A candidate belongs here when it fails the core "who runs this" test but (a) is proven and widely used, with a citable originator or a best-documented version, and (b) PMMs regularly supply evidence to it, apply its result, or use it as a lens on their own work. If a PMM could plausibly run it and produce its output, it is a core entry instead; if PMM has no recurring role in it at all, it stays out.
+- **Same standards, one section swapped.** Entries follow their type's section order and every Writing Standard, Sources and quiz rule above, except that **"PMM's role"** replaces **"Ownership"**: one paragraph naming who owns the decision, what PMM contributes, how PMM applies the result, and how that shifts with company stage. Methodologies, if one is ever added, cover the same ground inside "Cadence & ownership".
+- **Counted separately.** Adjacent entries are not part of the headline entry count (README, INDEX, the site header and homepage, prasannaunar.com). INDEX.md lists them in their own section; `getSiteStats()` in `web/src/lib/content.ts` leaves them out of `totalEntries` and reports them as `adjacentEntries`.
+- **Category file and quiz.** `adjacent/_category.md` uses slug `adjacent` and number 11. Unlike `concepts/`, it carries a 10-question `_category.quiz.md`, because readers choose between its entries.
+- **Rejected candidates stay rejected in writing.** A tool reviewed and not added (SWOT, for example) is recorded with its reason in SOURCES-EXPLORED.md rather than silently dropped.
+- **Cross-references run both ways.** Core entries may point to an adjacent entry in "See also" (marked "Adjacent Disciplines"), and adjacent entries should point back to the core entries that feed them.
+
 ### The `agent-skills/` area
 
 `agent-skills/` holds this knowledge base's methods packaged for AI agents, in
@@ -311,7 +331,7 @@ separate from everything above:
 - [ ] Word count is 1000–1500 words per framework (500–1000 for primers)
 - [ ] Metrics and numbers are specific, not vague
 - [ ] **Type declared** (Framework / Methodology / Model / Primer) and the entry follows that type's section template (see "Content Types")
-- [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles").
+- [ ] **Ownership stated** (Framework/Model: dedicated Ownership section; Methodology: inside Cadence & ownership) naming who typically owns the decision versus who executes, and how that shifts with company stage. Also passes the "PMM vs GTM Scope" inclusion test before being added at all (see "Content Principles"). Adjacent entries instead carry a "PMM's role" section and pass the adjacent inclusion test (see "The `adjacent/` area").
 - [ ] **Quiz file present and spec-compliant.** A sibling `<slug>.quiz.md` (5 questions) follows [QUIZ-SPEC.md](QUIZ-SPEC.md) exactly: four options per question, one clearly correct, at least 3 of 5 scenario-based (drawn from the entry's own "When to use it" and "Pitfalls"), brief explanatory feedback on every option including the correct one, no "all/none of the above" or combination answers ("both A and C"). The correct option is always written as **A** in the source markdown; the web app shuffles display order at render time, so never reorder options yourself to "balance" which letter is correct.
 - [ ] **Quiz options are not guessable.** No option argues for itself, exactly one distractor is a near miss whose feedback names the discriminator, and the four options are within ±20% of their median length. Run `npm run audit:quiz` in `web/` on the file: no `correctDominant`, `rationaleOnly`, `throwaway`, or `noNearMiss` flags on the questions you touched.
 - [ ] **Cross-doc consistency checklist run** when an entry is added or retagged; use the `add-kb-entry` skill, which lists every file that needs updating

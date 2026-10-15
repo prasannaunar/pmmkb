@@ -1,6 +1,6 @@
 # Framework Dependency Map
 
-This document shows how the 66 entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
+This document shows how the 68 core entries relate to each other and the typical workflow sequence for applying them. The one primer (GTM Strategy vs Product Marketing, in `concepts/`) is a scope explainer rather than an applied step, so it sits outside the dependency matrix below; see its own "See also" section for how it relates to the frameworks here.
 
 ---
 
@@ -36,7 +36,9 @@ These frameworks establish the baseline for all downstream work:
 | Framework | Prerequisites | Feeds Into | Purpose |
 |-----------|---------------|-----------|---------|
 | **STP Framework** | None | All positioning frameworks | Identify and validate target market |
+| **TAM/SAM/SOM Market Sizing** | STP (candidate segments) + ICP (customer definition for a bottom-up count) + a price input from Value Metric / WTP (Category 8) | STP's Targeting step (SAM per segment), Quarterly PMM Planning (SOM-based goals), investment cases; Adjacent Disciplines' BCG and Ansoff reviews | Size each market bottom-up in three layers and cross-check against top-down figures |
 | **Product Dev Stage** | None | Complete GTM Workflow | Align PMM work with product timeline |
+| **Concept Testing** | ICP (sample definition) + a decision and threshold agreed with product | Product's build decision (product-owned); Message Testing and launch messaging (the winning concept's customer language) | Score customer appeal and purchase intent for one or more concepts before build or launch |
 | **ICP Development Methodology** | STP (Targeting step) | Sales prospecting, lead scoring, ABM target lists | Operationalise the chosen segment into a weighted, CRM-scored account fit model |
 | **Sean Ellis 40% Test** | STP (segment to cut the survey by) | Product's growth-investment decision (product-owned); the segment's positioning and messaging (PMM's supporting role) | Benchmark product-market fit per segment against a 40% "Very disappointed" threshold before scaling growth spend |
 | **MAP Model** | STP (segment definitions) + live revenue/retention data per segment | Quarterly PMM Planning, PMM Team Scaling (which segment's remit a new hire is scoped around) | Measure segment size, Analyze segment performance, Prioritize which segments deserve further investment, ranking segments already sold into rather than choosing one in the abstract |
@@ -147,6 +149,17 @@ Consolidated 2026-07-30 to hold all four entries most closely associated with th
 | **Competitive Battlecard Framework** | Competitive Intelligence (Category 7) + Product Differentiation + Bowman's Clock (Category 3) | Live sales deals, Win/Loss Analysis (Category 6) | One-page field tool for contested deals; consolidated here 2026-07-30 from Category 3 |
 | **Buyer's Journey Content Map** | PMM Lifecycle (Category 5) + Win/Loss (Category 6) | Sales enablement, Competitive Battlecard Framework | Audit content against buyer stages and prioritise gaps by revenue impact; consolidated here 2026-07-30 from Category 5 |
 | **VARS Framework** | Competitive Battlecard Framework (source of the acknowledgement, reframe, and proof points) | Live competitive sales conversations, rep training and role-play | Four-step live-conversation technique (Validate, Acknowledge, Reframe, Specify) for handling a buyer's direct competitor question without sounding defensive |
+
+### Adjacent Disciplines (Inform Decisions Others Own)
+Added 2026-10-15. These sit outside the workflow sequence above: PMM supplies evidence to, and applies the result of, decisions that leadership or another function owns. See CLAUDE.md, "The `adjacent/` area".
+
+| Framework | Prerequisites | Feeds Into | Purpose |
+|-----------|---------------|-----------|---------|
+| **BCG Growth-Share Matrix** | TAM/SAM/SOM Market Sizing (market growth) + CI Program Maturity Model / Win/Loss (relative share) | Leadership's portfolio decision; Launch Tier Framework and PMM capacity allocation | Map a portfolio by market growth and relative share to decide where to invest, hold or exit |
+| **Ansoff Matrix** | TAM/SAM/SOM Market Sizing (each target market) + Concept Testing (a cheap test per option) | Leadership's growth-direction choice; STP and segment messaging for a market development move | Sort growth options by product and market novelty, with risk made explicit |
+| **Porter's Five Forces** | Win/Loss (substitutes, buyer power) + Competitive Intelligence (rivals, entrants) | Enter/stay decisions (leadership-owned); Bowman's Strategic Clock and pricing headroom | Judge a market's profit potential through five forces |
+| **Business Model Canvas** | STP + ICP (segments) + positioning (value propositions) | Leadership's business model decisions; Value Proposition Canvas (Category 2) for the customer-side zoom-in | Map how the business creates, delivers and captures value on one page |
+| **Cialdini's Principles of Persuasion** | Win/Loss (the buyer's main hesitation) + Forrester Customer Advocacy Model (proof assets) | Message Testing, Message Architecture proof points | Audit messaging, proof and buying journeys against seven levers of influence |
 
 ---
 
@@ -275,6 +288,8 @@ Consolidated 2026-07-30 to hold all four entries most closely associated with th
 ---
 
 ## Version History
+
+**2026-10-15 (external source review)**: **TAM/SAM/SOM Market Sizing** joins the Foundation Frameworks table (prerequisite: STP's candidate segments and ICP's customer definition; feeds STP's Targeting step and SOM-based goals), and **Concept Testing** joins it (prerequisite: ICP for the sample and a decision agreed with product; feeds product's build decision and Message Testing). A new **Adjacent Disciplines** table holds the BCG Growth-Share Matrix, Ansoff Matrix, Porter's Five Forces, Business Model Canvas and Cialdini's Principles of Persuasion, outside the core workflow sequence. No named scenario's sequence changed, though Scenario 2 (Repositioning for New Segment) can now size the new segment with TAM/SAM/SOM before targeting.
 
 **2026-08-14 (final three NEW-SOURCES-GAP-ANALYSIS.md builds, closing the queue)**: **CI Program Maturity Model** joins the Competitive Frameworks table (prerequisite: none, an honest self-assessment plus consumer interviews; feeds the Competitive Intelligence & Positioning Update Framework, the Competitive Battlecard Framework and VARS Framework, and CI headcount/tooling business cases) and is added to BY-SITUATION.md's Competing Against Established Players situation as optional step 0b. Re-sourced during the build from the uncited PMA course deck to Klue's Competitive Enablement Maturity Model (2021, developed with SCIP), a five-stage version (Ad Hoc, Adopting, Impacting, Influencing, Transforming) rather than the deck's unverified four-stage split. **Time to Value Framework** joins the Activation & Adoption Frameworks table (prerequisite: customer interviews for the qualitative "aha moment" plus usage/retention data; feeds the Customer Onboarding Maturity Framework's milestone design and Product-Led Growth's activation-moment instrumentation) and is added to BY-SITUATION.md's Reducing Customer Churn situation as an optional aside on step 4. Re-sourced from the PMA deck's unverified TTBV/TTEV/ITTV/LTTV acronym split to the converged, independently documented Time to First Value / Time to Core Value distinction (Lincoln Murphy, Sixteen Ventures). **VARS Framework** joins the Sales Enablement table (prerequisite: the Competitive Battlecard Framework, as the source of its acknowledgement, reframe, and proof-point content; feeds live competitive sales conversations and rep training) and is added to BY-SITUATION.md's Enabling the Sales Team for a New Segment situation as an optional aside on the battlecard step. Sourced to Alex McDonnell, presented via the Competitive Intelligence Alliance's CI: Masters certification programme, independent of the uncited PMA deck. The PM/PMM Collaboration Maturity Model (candidate 7) was researched and rejected: no independent source exists beyond the course deck. This closes NEW-SOURCES-GAP-ANALYSIS.md in full: 6 of 8 candidates built, 2 rejected. Entry count updated 63 → 66.
 

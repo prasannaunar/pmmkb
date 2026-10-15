@@ -19,7 +19,7 @@ Everything in `frameworks/`, `concepts/`, `quick-reference/`, and `templates/`
 is written for people. This directory is written for agents, and follows a
 different specification (`SKILL.md` files with YAML frontmatter, a `name` and
 `description` that control when the skill activates, and bundled assets). It is
-not part of the 66-entry count, it is not indexed in `INDEX.md`, and adding a
+not part of the 68-entry count, it is not indexed in `INDEX.md`, and adding a
 skill does not follow the `add-kb-entry` checklist. It has its own conventions,
 set out below.
 

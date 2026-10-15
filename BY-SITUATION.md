@@ -30,6 +30,10 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Classify the launch feature set by its effect on satisfaction (must-be, performance, delighter) so the positioning statement in step 4 headlines a genuine delighter rather than a feature customers already assume is there
    - *Do this alongside step 3:* Survey 30 to 50 target-segment respondents before the positioning statement is finalised
 
+3b. **Concept Testing** (`Category 1`); *optional, before build or pricing is locked*
+   - *Why:* Get screened target buyers to score the product concept for appeal and purchase intent before the build budget or launch plan is committed, rather than relying on internal conviction
+   - *Do this alongside step 3:* Agree the decision and the threshold with product first, and write every concept to the same template
+
 4. **Geoffrey Moore's Positioning Statement Framework** (`Category 2`)
    - *Why:* Create a clear, tested positioning statement to guide all launch messaging
    - *Do this fourth:* Build consensus across product, sales, and marketing teams
@@ -103,6 +107,10 @@ Map your current challenge to the frameworks that will help you solve it.
 1. **Product Development Stage Framework** (`Category 1`)
    - *Why:* Conduct discovery to validate that the market actually has the problem you're solving
    - *Do this first:* Interview 15–20 prospects in the new segment before investing heavily
+
+1a. **TAM/SAM/SOM Market Sizing** (`Category 1`)
+   - *Why:* Size the new market bottom-up before committing to it, so the revenue target rests on reachable customers and realistic share rather than a top-down analyst figure
+   - *Do this alongside step 1:* Build SAM for each candidate segment so step 2 compares segments on evidence; for the decision to enter at all, see also the Ansoff Matrix and Porter's Five Forces in Adjacent Disciplines
 
 2. **Segmentation–Targeting–Positioning Framework** (`Category 1`)
    - *Why:* Segment the new market and choose your initial target within it
