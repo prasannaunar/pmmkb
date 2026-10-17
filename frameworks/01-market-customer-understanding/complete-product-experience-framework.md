@@ -5,13 +5,13 @@ type: Framework
 order: 20
 use_when: "Your customer experience is not living up to your marketing promise."
 produces: "A view of gaps across the complete customer experience."
-description: "A seven-touchpoint model for checking that your positioning holds across marketing, sales, product, integrations and support, not just in messaging."
-definition: "The Complete Product Experience Framework is a seven-touchpoint model that checks your positioning is reinforced consistently across every customer interaction, from marketing to support."
+description: "A seven-touchpoint framework for checking that your positioning holds across marketing, sales, product, integrations and support, not just in messaging."
+definition: "The Complete Product Experience Framework is a seven-touchpoint framework that checks your positioning is reinforced consistently across every customer interaction, from marketing to support."
 ---
 
 # Complete Product Experience Framework
 
-**What it is:** A seven-touchpoint model that ensures your positioning is reinforced consistently across every customer interaction: Marketing, Sales, Product/Features, Technology, Supporting Systems, Third-party Integrations, and Support. The framework recognises that positioning isn't just messaging; it's the sum of how customers experience your company at every stage. A claim repeated confidently in every marketing asset still fails the moment a customer meets a product, sales process, or support queue that contradicts it. The value of the framework is diagnostic: it gives you seven specific places to look when you sense that "what we say" and "what customers feel" have drifted apart, rather than leaving that instinct vague and undiagnosed.
+**What it is:** A seven-touchpoint framework that ensures your positioning is reinforced consistently across every customer interaction: Marketing, Sales, Product/Features, Technology, Supporting Systems, Third-party Integrations, and Support. The framework recognises that positioning isn't just messaging; it's the sum of how customers experience your company at every stage. A claim repeated confidently in every marketing asset still fails the moment a customer meets a product, sales process, or support queue that contradicts it. The value of the framework is diagnostic: it gives you seven specific places to look when you sense that "what we say" and "what customers feel" have drifted apart, rather than leaving that instinct vague and undiagnosed.
 
 **When to use it:** Use this when you notice misalignment between what you claim and what customers experience. Common triggers: sales says "we're easy to implement" but onboarding takes 12 weeks; marketing says "enterprise-grade" but support is slow; product roadmap ignores customer pain points raised in win/loss interviews; or NPS verbatims repeatedly contradict the messaging on your homepage. Apply it quarterly as a coherence check, and immediately after any major repositioning, since a new claim is only as strong as the operational reality behind it. It is also worth running as a first diagnostic step whenever churn rises without an obvious single cause; because the framework spans all seven touchpoints, it often surfaces the specific point of friction that a single-department review would miss.
 

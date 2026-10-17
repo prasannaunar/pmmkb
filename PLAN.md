@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-15 (SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Last Updated:** 2026-10-17 (definition review complete and Kano Model retagged as a Model; no new entries pending; 2026-10-15: SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
 **Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
@@ -22,8 +22,21 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
 - [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
 - [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
-- [ ] **Review the 73 new `definition` sentences** (frontmatter of every entry, shown as the lede on each entry page). Claude wrote them on 2026-10-15 from facts each entry already states; they are new published copy, so worth one read before or soon after merge.
-- [ ] **Decide the Kano Model's type.** The entry (`frameworks/06-product-experience-adoption/kano-model.md`) and INDEX.md say Framework, but CLAUDE.md's "Content Types" names the Kano Model as an example of a Model. The quick-reference card was corrected to Framework to match the entry. If it should be a Model, retag it with the `add-kb-entry` skill (its section order changes to include "How to read it") and Claude will update CLAUDE.md or the entry to match.
+- [x] **Review the 73 `definition` sentences.** Reviewed and verified on 2026-10-17 against each entry's "What it is" and Sources, at the owner's request. All 73 meet the length, uniqueness, "X is Y" and no-em-dash rules. Eight were corrected. Six used a type word that contradicted the entry's `type` (Bowman's Strategic Clock, Complete Product Experience, Product Development Stage, PMM Team Scaling, PMM Lifecycle Management, Customer Onboarding Maturity). Playing to Win now names all five choices rather than stopping at the third. The GTM primer now says product marketing contributes to and frequently orchestrates the GTM plan, as its body does. Four entry bodies that opened "A model" against a different type were aligned to match, and a co-author's name in the Kano Model was corrected (Nobuhiko Seraku).
+- [x] **Decide the Kano Model's type.** Decided by the owner on 2026-10-17: it is a Model, matching CLAUDE.md's "Content Types". Retagged with the `add-kb-entry` skill: `type: Model`, a new "How to read it" section (the five categories moved there from "What it is"), the definition, quick-reference card and INDEX.md updated, and the totals recounted to 28 frameworks and 11 models.
+
+### Decisions log (2026-10-17 session)
+
+Work done this session, on branch `claude/clever-noether-7dc8af`:
+
+- [x] All 73 `definition` sentences reviewed and verified; eight corrected (see Owner actions).
+- [x] Kano Model retagged from Framework to Model, at the owner's decision (see Owner actions).
+
+Owner decisions:
+
+- The Kano Model is a Model.
+- No new entries are pending. The 2026-10-15 candidate review is closed and no candidate queue is open; a new round starts only when the owner names a gap or a source to review (CLAUDE.md, "Add new frameworks only if a gap is identified by the team").
+- Everything else in Open work stays pending: the Owner actions, GA setup and the deferred content maintenance.
 
 ### Decisions log (2026-10-15 session)
 
@@ -43,7 +56,7 @@ Owner decisions:
 - Content maintenance (quarterly reviews, feedback sessions, calendar) to be set up later.
 - prasannaunar.com changes will be handled separately (see Owner actions).
 
-Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review, Kano type), GA setup, and the deferred content maintenance.
+Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test), GA setup, and the deferred content maintenance.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
@@ -109,7 +122,7 @@ Workstreams 1-5 of that plan are complete (attribution, branding, structural cha
 
 **Audit of the live site before PR 1 (2026-10-09).** Done already: `robots.txt` (2026-09-25), `metadataBase`, apex redirect to `www`, unique descriptions on entry pages, one `h1`, skip link, landmarks, labelled navs, breadcrumbs, `<article>`. Missing: `sitemap.xml` and `llms.txt` (both 404), canonical tags, Open Graph and Twitter tags, any JSON-LD, type-page descriptions. Every page was also reachable at `pmmkb.vercel.app` (HTTP 200) and with or without a trailing slash.
 
-**PR 1: metadata foundation ✅ Built (2026-10-09), awaiting merge**
+**PR 1: metadata foundation ✅ Built (2026-10-09), merged**
 
 - [x] `web/src/lib/seo.ts` helper used by every page: `alternates.canonical`, `og:url`, Open Graph and Twitter card tags from `SITE_URL`; `og:type=article` on entries; `en_GB` locale. `<html lang="en-GB">`.
 - [x] A default 1200 by 630 share image, `web/public/og-default.png`, in the site's own fonts and palette. Per-entry images are not generated.
@@ -445,9 +458,9 @@ Layered on top of the stable web app. No user accounts, no gating, no personalis
 Also tracked in "Open work" at the top of this file.
 
 - Custom domain: done, https://www.pmmkb.com/ (2026-10-08)
-- Analytics (Vercel Analytics for zero-config, or Plausible for privacy-first)
-- Contributor workflow (contributing guide and CI checks, if others will submit entries)
-- Whether to surface `agent-skills/` in the web app or keep them repo-only
+- Analytics: decided 2026-10-15, Google Analytics (GA4); setup pending
+- Contributor workflow: decided 2026-10-15, not now
+- `agent-skills/`: decided 2026-10-15, repo-only
 
 ---
 
