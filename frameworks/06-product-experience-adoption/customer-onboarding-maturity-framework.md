@@ -11,7 +11,7 @@ definition: "The Customer Onboarding Maturity Framework is a framework for produ
 
 # Customer Onboarding Maturity Framework
 
-**What it is:** A model that defines product marketing's role in ensuring customers successfully activate and adopt a product after purchase. It spans customer education (how people learn to use the product), enablement (whether sales and support have the tools to help customers), and feedback loops (customer success signalling product marketing about adoption blockers). Onboarding maturity ranges from self-service, where customers figure it out alone, to fully supported, with dedicated onboarding teams, training, and consulting. The framework treats onboarding as a product marketing responsibility, not purely a support or customer success function, because the messaging a customer receives in their first 30 days shapes whether they ever reach full value.
+**What it is:** A framework that defines product marketing's role in ensuring customers successfully activate and adopt a product after purchase. It spans customer education (how people learn to use the product), enablement (whether sales and support have the tools to help customers), and feedback loops (customer success signalling product marketing about adoption blockers). Onboarding maturity ranges from self-service, where customers figure it out alone, to fully supported, with dedicated onboarding teams, training, and consulting. The framework treats onboarding as a product marketing responsibility, not purely a support or customer success function, because the messaging a customer receives in their first 30 days shapes whether they ever reach full value.
 
 **When to use it:**
 - To design or improve the onboarding experience for new customers

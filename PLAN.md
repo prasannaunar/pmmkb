@@ -22,7 +22,7 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
 - [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
 - [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
-- [ ] **Review the 73 new `definition` sentences** (frontmatter of every entry, shown as the lede on each entry page). Claude wrote them on 2026-10-15 from facts each entry already states; they are new published copy, so worth one read before or soon after merge.
+- [x] **Review the 73 `definition` sentences.** Reviewed and verified on 2026-10-17 against each entry's "What it is" and Sources, at the owner's request. All 73 meet the length, uniqueness, "X is Y" and no-em-dash rules. Eight were corrected. Six used a type word that contradicted the entry's `type` (Bowman's Strategic Clock, Complete Product Experience, Product Development Stage, PMM Team Scaling, PMM Lifecycle Management, Customer Onboarding Maturity). Playing to Win now names all five choices rather than stopping at the third. The GTM primer now says product marketing contributes to and frequently orchestrates the GTM plan, as its body does. Four entry bodies that opened "A model" against a different type were aligned to match, and a co-author's name in the Kano Model was corrected (Nobuhiko Seraku).
 - [x] **Decide the Kano Model's type.** Decided by the owner on 2026-10-17: it is a Model, matching CLAUDE.md's "Content Types". Retagged with the `add-kb-entry` skill: `type: Model`, a new "How to read it" section (the five categories moved there from "What it is"), the definition, quick-reference card and INDEX.md updated, and the totals recounted to 28 frameworks and 11 models.
 
 ### Decisions log (2026-10-15 session)
@@ -43,7 +43,7 @@ Owner decisions:
 - Content maintenance (quarterly reviews, feedback sessions, calendar) to be set up later.
 - prasannaunar.com changes will be handled separately (see Owner actions).
 
-Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review), GA setup, and the deferred content maintenance.
+Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test), GA setup, and the deferred content maintenance.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
