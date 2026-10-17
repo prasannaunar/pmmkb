@@ -159,4 +159,4 @@ This knowledge base consolidates product marketing frameworks used across real p
 
 It is not a textbook. It is a reference guide you return to repeatedly as you face real problems. Every entry is here because it works; every example is here because it shows real execution.
 
-**Total:** 68 entries (29 frameworks, 28 methodologies, 10 models, 1 primer) across 9 categories, plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`.
+**Total:** 68 entries (28 frameworks, 28 methodologies, 11 models, 1 primer) across 9 categories, plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`.
