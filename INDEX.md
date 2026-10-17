@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-10-15 (entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
+**Last Updated:** 2026-10-17 (Kano Model retagged from Framework to Model, so the core totals are now 28 frameworks and 11 models; 2026-10-15: entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
 
 ---
 
@@ -98,7 +98,7 @@
 | [Customer Onboarding Maturity Framework](frameworks/06-product-experience-adoption/customer-onboarding-maturity-framework.md) | Framework | A model for product marketing's role in getting customers activated after purchase, spanning customer education, enablement and feedback loops. |
 | [Win/Loss Analysis Framework](frameworks/06-product-experience-adoption/winloss-analysis-framework.md) | Methodology | Interview the decision-makers behind won and lost deals to learn why customers choose you or a competitor, then feed the findings into positioning and product. |
 | [Net Promoter Score (NPS) & Feedback Loop Framework](frameworks/06-product-experience-adoption/net-promoter-score-nps-feedback-loop-framework.md) | Framework | Use NPS, CSAT and interviews to find promoters and detractors, learn why they score as they do, and close the loop in product, support, messaging or pricing. |
-| [Kano Model](frameworks/06-product-experience-adoption/kano-model.md) | Framework | Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect. |
+| [Kano Model](frameworks/06-product-experience-adoption/kano-model.md) | Model | Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect. |
 | [Forrester Customer Advocacy Model](frameworks/06-product-experience-adoption/forrester-customer-advocacy-model.md) | Model | A four-stage ladder for building a proactive customer advocacy practice, adapted from Forrester's maturity research, instead of ad hoc case study requests. |
 | [RFM Model (Recency, Frequency, Monetary Value)](frameworks/06-product-experience-adoption/rfm-model-recency-frequency-monetary-value.md) | Model | Segment customers by Recency, Frequency and Monetary value to find your best customers and those at risk of leaving, using data you already hold. |
 | [Time to Value Framework](frameworks/06-product-experience-adoption/time-to-value-framework.md) | Model | Break 'time to value' into distinct, measurable sub-metrics so you track the specific moment customers first get value, not one vague number. |
@@ -182,7 +182,7 @@ Added 2026-10-15. Tools from business strategy and behavioural science that PMMs
 
 ## Structure Notes
 
-- **Total entries:** 68 core (29 frameworks, 28 methodologies, 10 models, 1 primer), recounted from this file's Type columns after the 2026-10-15 addition of TAM/SAM/SOM Market Sizing and Concept Testing (both Methodology, Category 1); plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 66, after the 2026-08-14 NEW-SOURCES-GAP-ANALYSIS.md builds.
+- **Total entries:** 68 core (28 frameworks, 28 methodologies, 11 models, 1 primer), recounted from this file's Type columns after the 2026-10-17 retag of the Kano Model from Framework to Model; plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 66, after the 2026-08-14 NEW-SOURCES-GAP-ANALYSIS.md builds.
 - **Categories:** 9 workflow categories plus a `concepts/` area for primers and an `adjacent/` area for adjacent disciplines (`adjacent/` added 2026-10-15; Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)

@@ -1,17 +1,17 @@
 ---
 title: "Kano Model"
 slug: "kano-model"
-type: Framework
+type: Model
 order: 40
 use_when: "You need to distinguish expected features from performance drivers and potential delighters."
 produces: "A classification of features by their effect on satisfaction."
 description: "Noriaki Kano's model sorts product features into five categories by their effect on satisfaction, so you can tell what delights customers from what they expect."
-definition: "The Kano Model is a framework, published by Noriaki Kano and colleagues in 1984, that classifies product features by how they affect customer satisfaction."
+definition: "The Kano Model is a model, published by Noriaki Kano and colleagues in 1984, that classifies product features by how they affect customer satisfaction."
 ---
 
 # Kano Model
 
-**What it is:** A model, developed by Noriaki Kano together with Nobuhiku Seraku, Fumio Takahashi, and Shinichi Tsuji, and published as "Attractive Quality and Must-Be Quality," *Journal of the Japanese Society for Quality Control*, 14(2) (1984), pp. 39–48, that classifies product features by how they affect customer satisfaction, rather than by how much effort they take to build. It sorts features into five categories: **Must-be** (basic expectations that cause dissatisfaction if missing but generate no delight if present, such as a login that works), **Performance** (features where more is simply better and satisfaction rises linearly with how well they are delivered, such as sync speed), **Delighters** (unexpected features that create disproportionate satisfaction precisely because customers did not expect them, such as a support agent solving a problem before the customer noticed it), **Indifferent** (features customers do not care about either way), and **Reverse** (features that actively reduce satisfaction for some customers, such as added complexity a simplicity-focused segment does not want). The insight that makes Kano useful for PMM is that these categories are not fixed: a delighter today (fast sync) becomes a must-be tomorrow, once competitors match it. Kano gives PMM a shared vocabulary with product for a question roadmap debates usually argue past each other on: not "is this feature good?" but "which of these five effects does it have on satisfaction, and does our launch messaging match that effect?"
+**What it is:** A model, developed by Noriaki Kano together with Nobuhiku Seraku, Fumio Takahashi, and Shinichi Tsuji, and published as "Attractive Quality and Must-Be Quality," *Journal of the Japanese Society for Quality Control*, 14(2) (1984), pp. 39–48, that classifies product features by how they affect customer satisfaction, rather than by how much effort they take to build. It sorts features into five categories, described under "How to read it" below. The insight that makes Kano useful for PMM is that these categories are not fixed: a delighter today (fast sync) becomes a must-be tomorrow, once competitors match it. Kano gives PMM a shared vocabulary with product for a question roadmap debates usually argue past each other on: not "is this feature good?" but "which of these five effects does it have on satisfaction, and does our launch messaging match that effect?"
 
 **When to use it:**
 - **Launch messaging is leading with the wrong feature.** A team about to headline a launch with a must-be feature (something customers assume is already there) will underwhelm; Kano flags that the headline should be the delighter instead.
@@ -21,6 +21,14 @@ definition: "The Kano Model is a framework, published by Noriaki Kano and collea
 - **Competitive parity is eroding a delighter's impact.** If competitors have shipped an equivalent to a feature that used to differentiate you, Kano gives PMM the language to flag it as reclassified, and route messaging and roadmap attention accordingly.
 
 **Ownership:** At a scaled company with a specialised PMM team, the Head of Product Marketing owns running the survey, the segmentation, and translating the classification into launch messaging, while final decision rights on which features actually get built or resourced sit with the VP Product or Head of Product, since Kano output is an input to roadmap prioritisation, not a roadmap in itself. The two functions should agree the feature list together before the survey goes out, so the classification answers a question product actually needs answered. At a solo or founding-PMM stage, the founding PMM typically runs the survey and shares the results directly with the founder or whoever holds the product decision, since there is no separate product organisation to hand it to.
+
+**How to read it:** Read each category as a different shape of relationship between how well a feature is delivered and how satisfied customers are.
+- **Must-be:** basic expectations that cause dissatisfaction if missing but generate no delight if present, such as a login that works. Doing them better only removes complaints.
+- **Performance:** more is simply better; satisfaction rises linearly with how well the feature is delivered, such as sync speed.
+- **Delighters:** unexpected features that create disproportionate satisfaction precisely because customers did not expect them, such as a support agent solving a problem before the customer noticed it. Their absence is not felt as a loss.
+- **Indifferent:** features customers do not care about either way.
+- **Reverse:** features that actively reduce satisfaction for some customers, such as added complexity a simplicity-focused segment does not want.
+A classification is a reading of one segment at one point in time, not a permanent property of the feature.
 
 **How to apply it:**
 1. **List the candidate features.** Gather the roadmap items, recent releases, or a mix of both that need classifying, typically 10 to 20 at a time so a survey stays a manageable length for respondents.

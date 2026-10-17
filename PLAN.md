@@ -23,7 +23,7 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
 - [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
 - [ ] **Review the 73 new `definition` sentences** (frontmatter of every entry, shown as the lede on each entry page). Claude wrote them on 2026-10-15 from facts each entry already states; they are new published copy, so worth one read before or soon after merge.
-- [ ] **Decide the Kano Model's type.** The entry (`frameworks/06-product-experience-adoption/kano-model.md`) and INDEX.md say Framework, but CLAUDE.md's "Content Types" names the Kano Model as an example of a Model. The quick-reference card was corrected to Framework to match the entry. If it should be a Model, retag it with the `add-kb-entry` skill (its section order changes to include "How to read it") and Claude will update CLAUDE.md or the entry to match.
+- [x] **Decide the Kano Model's type.** Decided by the owner on 2026-10-17: it is a Model, matching CLAUDE.md's "Content Types". Retagged with the `add-kb-entry` skill: `type: Model`, a new "How to read it" section (the five categories moved there from "What it is"), the definition, quick-reference card and INDEX.md updated, and the totals recounted to 28 frameworks and 11 models.
 
 ### Decisions log (2026-10-15 session)
 
@@ -43,7 +43,7 @@ Owner decisions:
 - Content maintenance (quarterly reviews, feedback sessions, calendar) to be set up later.
 - prasannaunar.com changes will be handled separately (see Owner actions).
 
-Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review, Kano type), GA setup, and the deferred content maintenance.
+Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test, definition review), GA setup, and the deferred content maintenance.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 
