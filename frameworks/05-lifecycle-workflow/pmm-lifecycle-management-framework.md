@@ -6,12 +6,12 @@ order: 10
 use_when: "Your PMM work stops at launch and needs to support the full customer lifecycle."
 produces: "A lifecycle view of responsibilities and interventions."
 description: "Define product marketing's role across all seven customer lifecycle stages, from awareness to advocacy, rather than only launches and messaging."
-definition: "The PMM Lifecycle Management Framework is a model of product marketing's role at each stage of the customer lifecycle, from awareness and consideration through adoption, expansion and advocacy."
+definition: "The PMM Lifecycle Management Framework is a methodology for defining product marketing's role at each stage of the customer lifecycle, from awareness and consideration through adoption, expansion and advocacy."
 ---
 
 # PMM Lifecycle Management Framework
 
-**What it is:** A model that defines the product marketing role across the entire customer lifecycle: awareness (before the customer knows you exist), consideration (evaluating options), purchase (deciding to buy), onboarding (getting started), adoption (using the product fully), expansion (upselling and cross-selling), and advocacy (turning customers into promoters). PMM activities shift at each stage: awareness demands thought leadership and SEO, while expansion demands case studies and ROI calculators. The framework exists because PMM work is commonly summarised, especially by stakeholders outside the function, as "launches and messaging," a shorthand this entry treats as understating the role. In reality, PMM should have a defined contribution at every stage a customer passes through, not just the moment of purchase.
+**What it is:** A methodology that defines the product marketing role across the entire customer lifecycle: awareness (before the customer knows you exist), consideration (evaluating options), purchase (deciding to buy), onboarding (getting started), adoption (using the product fully), expansion (upselling and cross-selling), and advocacy (turning customers into promoters). PMM activities shift at each stage: awareness demands thought leadership and SEO, while expansion demands case studies and ROI calculators. The framework exists because PMM work is commonly summarised, especially by stakeholders outside the function, as "launches and messaging," a shorthand this entry treats as understating the role. In reality, PMM should have a defined contribution at every stage a customer passes through, not just the moment of purchase.
 
 **When to use it:**
 - To scope PMM responsibilities and prioritise work across the customer journey
