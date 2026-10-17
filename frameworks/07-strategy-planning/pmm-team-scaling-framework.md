@@ -11,7 +11,7 @@ definition: "The PMM Team Scaling Framework is a framework for growing the produ
 
 # PMM Team Scaling Framework
 
-**What it is:** A model for growing the PMM function as the business scales, from a solo practitioner (one person doing everything) to a specialised team (product marketers by segment or product line, plus supporting roles for content, sales enablement, and competitive intelligence). The framework prevents the common trap of adding headcount without clarity on role, scope, or success metrics.
+**What it is:** A framework for growing the PMM function as the business scales, from a solo practitioner (one person doing everything) to a specialised team (product marketers by segment or product line, plus supporting roles for content, sales enablement, and competitive intelligence). The framework prevents the common trap of adding headcount without clarity on role, scope, or success metrics.
 
 **When to use it:**
 - When you're a team of 1 and struggling to keep up
