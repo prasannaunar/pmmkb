@@ -6,7 +6,7 @@ order: 10
 use_when: "You need to diagnose onboarding friction and decide what to improve first."
 produces: "An onboarding maturity assessment and improvement priorities."
 description: "A model for product marketing's role in getting customers activated after purchase, spanning customer education, enablement and feedback loops."
-definition: "The Customer Onboarding Maturity Framework is a model of product marketing's role in helping customers activate and adopt a product after purchase, from self-service to fully supported onboarding."
+definition: "The Customer Onboarding Maturity Framework is a framework for product marketing's role in helping customers activate and adopt a product after purchase, from self-service to fully supported onboarding."
 ---
 
 # Customer Onboarding Maturity Framework
