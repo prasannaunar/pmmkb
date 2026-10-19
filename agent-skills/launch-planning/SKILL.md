@@ -1,14 +1,14 @@
 ---
 name: launch-planning
-description: "Use when a product, feature, tier, or rebrand is going to market and the plan is not settled: how much process this launch warrants, what the timeline and dependencies are, who owns which channel, what could go wrong, and how success is measured. Triggers include launch plan, launch brief, GTM plan, launch checklist, release comms, launch tiering, and go/no-go. Sizes the launch first (Tier 1/2/3), then builds the motion, runs a pre-mortem, and sets the measurement baseline. Use it even when the request is just for a launch announcement or timeline."
+description: "Use when a product, feature, tier, or rebrand is going to market and the plan is not settled: how much process this launch warrants, what the timeline and dependencies are, who owns which channel, what could go wrong, and how success is measured. Triggers include launch plan, launch brief, GTM plan, launch checklist, release comms, launch tiering, and go/no-go. Sizes the launch first (Tier 1/2/3), tests the riskiest buyer, message, price and channel assumptions, then builds the motion, runs a pre-mortem, and sets the measurement baseline. Use it even when the request is just for a launch announcement or timeline."
 metadata:
   author: "PMM Knowledge Base maintainers (github.com/prasannaunar/pmmkb)"
   kb-source: "frameworks/04-go-to-market-launch/; frameworks/05-lifecycle-workflow/; measurement-guide.md"
-  frameworks: "Launch Tier Framework (Tier 1/2/3); Go-to-Market Motion Framework; Pre-mortem; 10-Step PMM Process; GTM Motion Model"
+  frameworks: "Launch Tier Framework (Tier 1/2/3); Assumptions Mapping; Go-to-Market Motion Framework; Pre-mortem; 10-Step PMM Process; GTM Motion Model"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
-  version: "1.0"
-  last-updated: "2026-08-30"
+  version: "1.1"
+  last-updated: "2026-10-19"
 ---
 
 # Launch planning
@@ -18,7 +18,8 @@ process to a routine UI update and to a new product line is the single most
 common launch failure, and it fails in both directions at once.
 
 Paths below are relative to the knowledge base root. Full entries are in
-`frameworks/04-go-to-market-launch/` (Launch Tier Framework, Pre-mortem) and
+`frameworks/04-go-to-market-launch/` (Launch Tier Framework, Assumptions Mapping,
+Pre-mortem) and
 `frameworks/05-lifecycle-workflow/` (Go-to-Market Motion Framework).
 
 ## Step 1: Tier the launch
@@ -47,6 +48,29 @@ The dominant score sets the tier:
 Communicate the tier to stakeholders at the same meeting the launch enters the
 calendar, so nobody discovers the level of support two weeks out. Gate tier
 assignment through one owner. Re-score if scope changes materially.
+
+## Step 1b: Map and test the riskiest assumptions (Tier 1 and Tier 2 on a new segment, price, channel or packaging)
+
+When the plan rests on beliefs nobody has tested, run Assumptions Mapping
+before the motion is built. Full entry:
+`frameworks/04-go-to-market-launch/assumptions-mapping.md`.
+
+1. Frame the bet in one sentence, then run a 60 to 90 minute session with
+   product, sales and finance. Everyone writes assumptions silently first, one
+   per note. Add the go-to-market ones others miss: who signs, which pain the
+   message leads with, the price point and price metric, and which channel
+   produces pipeline.
+2. Rewrite each as "We believe that..." and plot it on importance (does the
+   plan fail if this is wrong?) against evidence (what have we observed, not
+   heard?). Opinions, including senior ones, count as no evidence.
+3. Take the three to five top-right assumptions. For each, write a Test Card
+   before the test runs: hypothesis, test, metric and a success criterion.
+4. Prefer behaviour to opinion: a pre-sale outweighs a click, and a click
+   outweighs an interview answer. Follow a passing weak test with a stronger
+   one before committing launch budget.
+5. Record each result on a Learning Card (observation, insight, decision:
+   persevere, change or stop), then re-plot. Feed the decisions into the
+   narrative and pricing in Step 2.
 
 ## Step 2: Build the motion (Tier 1 and Tier 2)
 
@@ -110,13 +134,20 @@ compression and average selling price uplift take a quarter or more. See
 - **Teams undersell scope to dodge process, and oversell it to get visibility.**
   Both distort the calendar, which is why one owner gates tier assignment
   against the criteria rather than against the argument.
+- **Testing the easy assumption is not testing the plan.** A landing page is
+  quick, so it gets run while price or buyer, the assumptions that would sink
+  the launch, go untested. Only write Test Cards for top-right assumptions.
+- **An assumptions map and a pre-mortem are not interchangeable.** The map
+  ranks existing beliefs by evidence and tests them before the plan is built;
+  the pre-mortem imagines the finished plan has failed. Run the map first.
 - **A rescoped launch keeps its original tier unless someone re-scores it.**
   Adding a pricing change to a routine feature update changes the tier.
 
 ## Output
 
 Deliver the completed launch brief (`assets/launch-brief.md`): tier and the
-scores behind it, narrative, phase plan with dates, channel owners, dependency
+scores behind it, the riskiest assumptions with their tests and decisions,
+narrative, phase plan with dates, channel owners, dependency
 map, sync cadence, rollback plan, pre-mortem risk register with owners and
 dates, and the metric baseline with the 90-day read scheduled.
 
@@ -129,8 +160,10 @@ dates, and the metric baseline with the 90-day read scheduled.
 
 ## Attribution
 
-Derived from the Launch Tier Framework and Pre-mortem entries in
+Derived from the Launch Tier Framework, Assumptions Mapping and Pre-mortem
+entries in
 `frameworks/04-go-to-market-launch/` and the Go-to-Market Motion Framework in
 `frameworks/05-lifecycle-workflow/`, which carry the full citations (the
-pre-mortem technique is attributed there to Gary Klein). Skill format follows
+pre-mortem technique is attributed there to Gary Klein, and Assumptions
+Mapping to David J. Bland). Skill format follows
 the Agent Skills open specification. See [ATTRIBUTION.md](../ATTRIBUTION.md).

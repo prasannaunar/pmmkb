@@ -7,6 +7,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Bowman's Strategic Clock](#bowmans-strategic-clock)
 - [Product Differentiation Strategy Framework](#product-differentiation-strategy-framework)
 - [Perceptual Map (2x2)](#perceptual-map-2x2)
+- [Strategy Canvas and ERRC Grid](#strategy-canvas-and-errc-grid)
 - [Category Design](#category-design)
 - [CI Program Maturity Model](#ci-program-maturity-model)
 
@@ -113,6 +114,39 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Consistency of axis and source choice across each re-plot, so movement is genuinely comparable
 
 **Source:** [Al Ries & Jack Trout](https://www.alries.com/positioning)
+
+---
+
+## Strategy Canvas and ERRC Grid
+
+**Type:** Framework
+
+**Core concept:** W. Chan Kim and Renée Mauborgne's strategy canvas charts your offer and its rivals across the 8 to 12 factors a market competes on, with each offer's scores joined into a value curve. Parallel curves expose a converged market where everyone sells the same thing. The Four Actions Framework then asks which factors to eliminate, reduce, raise and create, and the ERRC grid records the answers so the redesigned curve can be drawn back onto the canvas. A Perceptual Map holds two axes and Bowman's Clock fixes price and perceived value; the canvas holds the whole factor profile.
+
+**When to use it:**
+- Win/loss shows buyers treating you and two or three rivals as interchangeable, with deals settled on discount
+- The roadmap keeps adding features to match rivals and nobody can say what buyers would accept less of
+- Designing an entry offer for a segment incumbents overserve or ignore
+- Leadership asks for a repositioning and needs one picture of where the offer converges
+- A packaging or new-tier decision needs to know which factors to strip out
+
+**Key steps:**
+1. Fix one segment, one buying situation and 3 to 5 rivals or strategic groups.
+2. Build the 8 to 12 factor list from coded buyer evidence, in buyers' language; mark habit factors.
+3. Score every curve, yours included, from 1 to 5 on the same evidence.
+4. Read the canvas for convergence, over-delivery and unaddressed factors.
+5. Run the four actions and fill the ERRC grid, with at least one entry in every box.
+6. Draw the new curve and test the trade with 6 to 10 target buyers.
+7. Take the grid to the decision owner, then feed it into positioning and packaging; re-plot every two quarters.
+
+**Apply it:** Draw a line chart with the factors along the bottom and a 1 to 5 scale up the side, one curve per rival; beside it, a four-box grid headed Eliminate, Reduce, Raise and Create, each entry linked to the buyer evidence behind it.
+
+**Success metrics:**
+- Win rate in the target segment (Quillbridge, a fictional company: 24% to 35% in two quarters)
+- Average discount depth (23% to 12% in the example)
+- Share of lost deals citing a reduced or eliminated factor (2 of 29 in the example)
+
+**Source:** [W. Chan Kim & Renée Mauborgne](https://hbr.org/2002/06/charting-your-companys-future)
 
 ---
 

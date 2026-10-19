@@ -14,6 +14,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Account-Based Everything (ABX) / TEAM Framework](#account-based-everything-abx--team-framework)
 - [Bullseye Framework (Traction Channel Selection)](#bullseye-framework-traction-channel-selection)
 - [Launch Tier Framework (Tier 1/2/3)](#launch-tier-framework-tier-123)
+- [Assumptions Mapping](#assumptions-mapping)
 - [Pre-mortem](#pre-mortem)
 
 ---
@@ -348,6 +349,41 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Quarterly retrospective flags on mis-scored launches, tracked over time
 
 **Source:** [Use Product Launch Tiers to Allocate Launch Resources](https://www.pragmaticinstitute.com/resources/articles/product/prioritize-product-launch-resources-with-launch-tiers/)
+
+---
+
+## Assumptions Mapping
+
+**Type:** Methodology
+
+**Core concept:** David J. Bland's team exercise for finding the beliefs a plan depends on and testing the riskiest first. Write each answer to "what has to be true?" as a "We believe that..." statement, tag it as desirability, viability or feasibility, and plot it on a grid of importance against evidence. The important, unproven assumptions in the top-right corner get a Test Card (hypothesis, test, metric, success criterion) and, once run, a Learning Card (observation, insight, decision). For a PMM it applies most directly to the go-to-market layer: buyer, message, price and channel. A Pre-mortem imagines failure to surface risks; Assumptions Mapping ranks existing beliefs by evidence and designs a test for each risky one.
+
+**When to use it:**
+- Entering a new segment, geography or buyer role where the existing playbook may not carry over
+- Planning a Tier 1 or Tier 2 launch around a new pricing model, channel or packaging on internal conviction alone
+- A Business Model Canvas or launch brief still has customer-side blocks marked "assumed"
+- The team runs experiments but cannot say why these ones
+- Leadership asks for a go or no-go recommendation on an expansion bet
+
+**Key steps:**
+1. Frame the bet in one sentence.
+2. Run a 60 to 90 minute session; everyone writes assumptions silently first, and PMM adds buyer, message, price and channel assumptions.
+3. Rewrite each as a testable "We believe that..." statement.
+4. Plot each on importance against evidence; opinions count as no evidence.
+5. Pick the three to five top-right assumptions.
+6. Design each test on a Test Card, with a success criterion set in advance.
+7. Prefer behaviour over opinion: follow a passing weak test with a stronger one, such as a pre-sale.
+8. Record each result and its decision (persevere, change or stop) on a Learning Card.
+9. Re-plot the map every two to four weeks until the top-right corner is empty.
+
+**Apply it:** Draw a 2x2 with importance up the side and evidence along the bottom, place one sticky note per assumption, then list the top-right notes in a table: Assumption | Test | Metric | Success criterion | Result | Decision.
+
+**Success metrics:**
+- Share of top-right assumptions tested before launch budget is committed (Rotaline, a fictional company: 4 of 5)
+- Test results against their pre-set criteria (e.g. 5.3% waitlist sign-ups against a 4% threshold)
+- Launch result against target once the risky assumptions are resolved (38 customers against a target of 30 in the first quarter)
+
+**Source:** [David J. Bland](https://www.precoil.com/assumptions-mapping)
 
 ---
 

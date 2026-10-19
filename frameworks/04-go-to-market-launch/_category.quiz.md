@@ -126,16 +126,16 @@
 
    *Why not D:* ABX/TEAM is a full go-to-market methodology for committee-driven field sales; it does not address channel-testing discipline for a company running multiple broad channels.
 
-10. A company running the 7-Step Product Marketing Framework is three weeks post-launch, and leadership wants a standing, recurring mechanism, already built into the framework, to review win/loss patterns and feed findings back into messaging before the next quarter begins. Which step already provides this?
-    - **A.** Step 6, its weekly sales-marketing sync iterating on win/loss data.
-    - **B.** T2D3 Framework, an annual revenue-multiple checkpoint, not a messaging review.
-    - **C.** Pre-mortem, a pre-launch exercise framed around an already-failed launch.
-    - **D.** Bullseye Framework, re-testing distribution channels after launch.
+10. A company plans to enter the UK dental market in two quarters. The launch brief assumes practice managers are the buyer, a compliance message will land and clinics will pay £6 per staff member, the restaurant price, but none of this has been checked with customers. Which entry should the PMM run first?
+    - **A.** Assumptions Mapping, to rank the beliefs by evidence and test the riskiest.
+    - **B.** Pre-mortem, to imagine the entry has failed and list the specific causes.
+    - **C.** Launch Tier Framework, to set the entry's process, lead time and owners.
+    - **D.** Bullseye Framework, to choose which traction channel to test for clinics.
 
-    **Correct answer: A.** The 7-Step framework already builds this in: Step 6 establishes a weekly sync on pipeline health, lead quality, and messaging effectiveness, iterating on positioning from win and loss data gathered during that sync.
+    **Correct answer: A.** The brief rests on named, untested beliefs and there is time to test them, which is what Assumptions Mapping is for. It ranks each belief by importance and evidence and turns the riskiest into designed tests with pre-set criteria.
 
-    *Why not B:* T2D3 does have a standing checkpoint, but at the wrong cadence and scope: it tracks annual revenue multiples and operational milestones, not a specific, near-term messaging and win/loss review.
+    *Why not B:* This is the near miss: a pre-mortem also surfaces launch risk early, but by imagining failure rather than grading existing beliefs by evidence. It produces mitigations, not experiments that prove or disprove the buyer, message and price beliefs.
 
-    *Why not C:* A pre-mortem is a pre-launch risk exercise run before a launch ships, using an already-failed premise; it is not the recurring, post-launch review mechanism this scenario calls for.
+    *Why not C:* Tiering sets how much process the entry gets, not whether its beliefs are true. It is a useful companion step, but the untested assumptions would stay untested.
 
-    *Why not D:* Bullseye addresses channel selection specifically; a general post-launch win/loss and messaging review is not scoped to channel re-testing alone.
+    *Why not D:* Bullseye chooses among traction channels once demand is understood. The brief's riskiest beliefs are about buyer, message and price, which a channel test does not address.
