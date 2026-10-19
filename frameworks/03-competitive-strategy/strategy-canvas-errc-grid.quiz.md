@@ -62,7 +62,7 @@
    - **C.** Raised three more factors straight after launch, to stay ahead of any rival before it could respond.
    - **D.** Kept the onboarding change confidential until the rival's next release cycle had already finished.
 
-   **Correct answer: A.** A redesigned value curve is a differentiated offer, not proof that competition has gone away, and rivals can copy a raise or reduction within a few release cycles. The originators' evidence also rests largely on retrospective cases of successful moves, so planning for imitation and re-plotting on a fixed cadence is the safer stance.
+   **Correct answer: A.** A redesigned value curve is a differentiated offer, not proof that competition has gone away, and rivals can copy a raise or reduction within a few release cycles. A commonly raised criticism is that the originators' evidence rests largely on retrospective cases of successful moves, so planning for imitation and re-plotting on a fixed cadence is the safer stance.
 
    *Why not B:* Category Design is the neighbouring entry for naming a new market, but a category label does not stop a rival copying a factor. It answers a framing question; the failure here was over-claiming durability and not tracking rivals' curves.
 
