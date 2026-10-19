@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-10-17 (Kano Model retagged from Framework to Model, so the core totals are now 28 frameworks and 11 models; 2026-10-15: entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
+**Last Updated:** 2026-10-19 (added Outcome-Driven Innovation (ODI) to Category 1, Strategy Canvas and ERRC Grid to Category 3 and Assumptions Mapping to Category 4, from the Product Compass template review, so the core total is now 71; see PLAN.md, "Candidate review: Product Compass template list"; 2026-10-17: Kano Model retagged from Framework to Model, so the core totals are now 28 frameworks and 11 models; 2026-10-15: entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
 
 ---
 
@@ -16,6 +16,7 @@
 | [Concept Testing](frameworks/01-market-customer-understanding/concept-testing.md) | Methodology | Test a product or offer concept with target buyers before you build or launch, using monadic or sequential monadic surveys scored against benchmarks. |
 | [Voice of the Customer (VoC) Programme](frameworks/01-market-customer-understanding/voice-of-the-customer-voc-programme.md) | Methodology | A continuous listening programme that gathers customer signal from surveys, support, sales calls and churn, then routes it into positioning and roadmap. |
 | [JTBD Switch Interview Method](frameworks/01-market-customer-understanding/jtbd-switch-interview-method.md) | Methodology | A 45 to 60 minute interview technique from Bob Moesta and Chris Spiek that reconstructs why a customer switched from an old solution to a new one. |
+| [Outcome-Driven Innovation (ODI)](frameworks/01-market-customer-understanding/outcome-driven-innovation-odi.md) | Methodology | Tony Ulwick's method for scoring which customer outcomes are underserved or overserved, then segmenting buyers by their unmet needs. |
 | [ICP Development Methodology](frameworks/01-market-customer-understanding/icp-development-methodology.md) | Methodology | Build a scored, evidence-based Ideal Customer Profile from firmographic, technographic and behavioural data, so sales knows which accounts to pursue. |
 | [Sean Ellis 40% Test (PMF Survey)](frameworks/01-market-customer-understanding/sean-ellis-40-test-pmf-survey.md) | Methodology | A one-question survey from Sean Ellis that gives an early, standardised read on product-market fit, scored against a 40% 'very disappointed' benchmark. |
 | [MAP Model (Measure, Analyze, Prioritize)](frameworks/01-market-customer-understanding/map-model-measure-analyze-prioritize.md) | Methodology | Tamara Grominsky's three-stage method for deciding which of your existing customer segments deserve further investment, starting from data you already hold. |
@@ -52,6 +53,7 @@
 | [Bowman's Strategic Clock](frameworks/03-competitive-strategy/bowmans-strategic-clock.md) | Framework | Cliff Bowman and David Faulkner's model maps eight competitive strategies by price and perceived value, showing where you sit and where to move. |
 | [Product Differentiation Strategy Framework](frameworks/03-competitive-strategy/product-differentiation-strategy-framework.md) | Framework | Identify what makes your product uniquely valuable to buyers, then build it into how you design, position and sell instead of competing mainly on price. |
 | [Perceptual Map (2x2)](frameworks/03-competitive-strategy/perceptual-map-2x2.md) | Framework | Plot your product and its rivals on two attributes buyers care about to see the market's real structure and find space competitors have left open. |
+| [Strategy Canvas and ERRC Grid](frameworks/03-competitive-strategy/strategy-canvas-errc-grid.md) | Framework | Chart your offer against rivals on every factor buyers weigh with Kim and Mauborgne's strategy canvas, then redesign it with the ERRC grid. |
 | [Category Design](frameworks/03-competitive-strategy/category-design.md) | Methodology | Define, develop and dominate a new market category instead of competing for share inside an existing one, following Play Bigger (2016). |
 | [CI Program Maturity Model](frameworks/03-competitive-strategy/ci-program-maturity-model.md) | Model | A staged model for diagnosing how mature your competitive intelligence function is and what to improve next, drawing on Klue's published maturity model. |
 <!-- END generated table: 03-competitive-strategy -->
@@ -73,6 +75,7 @@
 | [Account-Based Everything (ABX) / TEAM Framework](frameworks/04-go-to-market-launch/account-based-everything-abx-team-framework.md) | Methodology | The TEAM framework from ABM is B2B (2019) by Sangram Vajre and Eric Spett: a go-to-market method for complex B2B sales to a small set of named accounts. |
 | [Bullseye Framework (Traction Channel Selection)](frameworks/04-go-to-market-launch/bullseye-framework-traction-channel-selection.md) | Framework | Gabriel Weinberg and Justin Mares' Traction method for finding the one marketing or distribution channel most likely to drive your growth. |
 | [Launch Tier Framework (Tier 1/2/3)](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md) | Model | Sort every launch into Tier 1, 2 or 3 so the process, lead time and headcount you apply match its real scope instead of a default. |
+| [Assumptions Mapping](frameworks/04-go-to-market-launch/assumptions-mapping.md) | Methodology | David J. Bland's Assumptions Mapping: rank a launch's beliefs by importance and evidence, then test the riskiest ones first with cheap experiments. |
 | [Pre-mortem](frameworks/04-go-to-market-launch/pre-mortem.md) | Framework | Gary Klein's pre-mortem: imagine the launch has already failed, then work backwards to list the specific reasons while there is still time to act. |
 <!-- END generated table: 04-go-to-market-launch -->
 
@@ -182,17 +185,17 @@ Added 2026-10-15. Tools from business strategy and behavioural science that PMMs
 
 ## Structure Notes
 
-- **Total entries:** 68 core (28 frameworks, 28 methodologies, 11 models, 1 primer), recounted from this file's Type columns after the 2026-10-17 retag of the Kano Model from Framework to Model; plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 66, after the 2026-08-14 NEW-SOURCES-GAP-ANALYSIS.md builds.
+- **Total entries:** 71 core (29 frameworks, 30 methodologies, 11 models, 1 primer), recounted from this file's Type columns after the 2026-10-19 additions of Outcome-Driven Innovation (ODI), Strategy Canvas and ERRC Grid, and Assumptions Mapping; plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 68 (28 frameworks, 28 methodologies, 11 models, 1 primer), after the 2026-10-17 retag of the Kano Model from Framework to Model.
 - **Categories:** 9 workflow categories plus a `concepts/` area for primers and an `adjacent/` area for adjacent disciplines (`adjacent/` added 2026-10-15; Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
 
 ## Completion Status
 
-✅ **Category 1 (Market & Customer Understanding):** 10 entries (`frameworks/01-market-customer-understanding/`)
+✅ **Category 1 (Market & Customer Understanding):** 11 entries (`frameworks/01-market-customer-understanding/`)
 ✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging/`)
-✅ **Category 3 (Competitive Strategy):** 5 entries (`frameworks/03-competitive-strategy/`)
-✅ **Category 4 (Go-to-Market & Launch):** 11 entries (`frameworks/04-go-to-market-launch/`)
+✅ **Category 3 (Competitive Strategy):** 6 entries (`frameworks/03-competitive-strategy/`)
+✅ **Category 4 (Go-to-Market & Launch):** 12 entries (`frameworks/04-go-to-market-launch/`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow/`)
 ✅ **Category 6 (Product Experience & Adoption):** 7 entries (`frameworks/06-product-experience-adoption/`)
 ✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning/`)

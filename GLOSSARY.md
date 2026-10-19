@@ -32,6 +32,10 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **JTBD (Jobs-to-be-Done):** The theory that customers "hire" a product to make progress on a specific job, rather than buying it for its features. See the [JTBD Positioning Framework](frameworks/02-positioning-messaging/jobs-to-be-done-positioning-framework.md) and the [JTBD Switch Interview Method](frameworks/01-market-customer-understanding/jtbd-switch-interview-method.md) that surfaces the job.
 
+**Desired outcome statement:** A measure a customer uses to judge how well a step of their job is done, written in four parts: a direction (minimise or increase), a metric, an object and a clarifier, such as "Minimise the time it takes to find the approved version of a clause during a negotiation". It never names a feature. See [Outcome-Driven Innovation (ODI)](frameworks/01-market-customer-understanding/outcome-driven-innovation-odi.md).
+
+**Opportunity score:** Tony Ulwick's measure of how underserved a desired outcome is: importance + max(importance minus satisfaction, 0), each rated on a 0 to 10 scale, giving a score from 0 to 20. An outcome whose satisfaction is higher than its importance is overserved. See [Outcome-Driven Innovation (ODI)](frameworks/01-market-customer-understanding/outcome-driven-innovation-odi.md).
+
 **MAP Model (Measure-Analyse-Prioritise):** A three-stage methodology for segment prioritisation: Measure segment volume and revenue, Analyse segment performance (retention, expansion, margin, sales cycle length), then Prioritise by cross-tabulating segment scores on a grid. Developed by Tamara Grominsky at PMM Camp. See [MAP Model](frameworks/01-market-customer-understanding/map-model-measure-analyze-prioritize.md).
 
 **PMF (Product-Market Fit):** The point at which a product satisfies strong enough market demand that growth spend compounds rather than being wasted. Benchmarked by the [Sean Ellis 40% Test](frameworks/01-market-customer-understanding/sean-ellis-40-test-pmf-survey.md).
@@ -78,6 +82,10 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **Gartner Hype Cycle:** A technology-maturity curve (Innovation Trigger → Peak of Inflated Expectations → Trough of Disillusionment → Slope of Enlightenment → Plateau of Productivity) used to gauge how a market frames a technology's maturity, useful context when timing a category-creation push. See [Category Design](frameworks/03-competitive-strategy/category-design.md).
 
+**Strategy canvas (value curve):** W. Chan Kim and Renée Mauborgne's chart of the factors a market competes on, with each rival's level on every factor joined into a line, its value curve. Parallel curves show a market where everyone sells the same thing. See [Strategy Canvas and ERRC Grid](frameworks/03-competitive-strategy/strategy-canvas-errc-grid.md).
+
+**ERRC grid (Eliminate-Reduce-Raise-Create):** A four-box grid recording which factors an offer will eliminate, reduce well below the industry standard, raise well above it, and create, so a redesigned value curve can be drawn back onto the strategy canvas. See [Strategy Canvas and ERRC Grid](frameworks/03-competitive-strategy/strategy-canvas-errc-grid.md).
+
 ---
 
 ## Cross-Functional & Stakeholder Management
@@ -103,6 +111,8 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 **SQL (Sales-Qualified Lead):** A lead that sales has accepted and is actively working, usually after a qualification call confirms budget, authority, need, and timeline.
 
 **Launch tier:** A classification (Tier 1, 2, or 3) of how much process, cross-functional coordination, and lead time a launch needs, scored by revenue impact, dependency, visibility, and customer-facing change. See the [Launch Tier Framework](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md).
+
+**Assumptions map:** David J. Bland's 2x2 that plots a plan's assumptions by importance and by evidence, so the important, unproven ones in the top-right corner are tested first. Each test is designed on a Strategyzer Test Card (hypothesis, test, metric, success criterion) and its result recorded on a Learning Card (observation, insight, decision). See [Assumptions Mapping](frameworks/04-go-to-market-launch/assumptions-mapping.md).
 
 **T2D3:** A B2B SaaS growth trajectory shorthand for Triple, Triple, Double, Double, Double revenue over five years. See [T2D3 Framework](frameworks/04-go-to-market-launch/t2d3-framework-b2b-saas.md).
 
@@ -209,6 +219,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | CRC | Customer Retention Cost | Metrics & Financial Terms above |
 | CRM | Customer Relationship Management (system) | throughout |
 | CSAT | Customer Satisfaction Score | Metrics & Financial Terms above |
+| ERRC | Eliminate, Reduce, Raise, Create (strategy canvas) | Competitive Strategy & Analyst Relations above |
 | GTM | Go-to-Market | Go-to-Market & Launch above |
 | ICE | Impact, Confidence, Ease (prioritisation) | Market Sizing & Segmentation above |
 | ICP | Ideal Customer Profile | Market Sizing & Segmentation above |
@@ -221,6 +232,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | MRR | Monthly Recurring Revenue | Metrics & Financial Terms above |
 | NPS | Net Promoter Score | Metrics & Financial Terms above |
 | NRR | Net Revenue Retention | Metrics & Financial Terms above |
+| ODI | Outcome-Driven Innovation | Market Sizing & Segmentation above |
 | PESTLE | Political, Economic, Social, Technological, Legal, Environmental | Competitive Strategy & Analyst Relations above |
 | PLG | Product-Led Growth | Go-to-Market & Launch above |
 | PMF | Product-Market Fit | Market Sizing & Segmentation above |

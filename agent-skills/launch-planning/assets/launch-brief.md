@@ -19,6 +19,18 @@
 
 ---
 
+## 1a. Riskiest assumptions (Tier 1 and Tier 2 on a new segment, price, channel or packaging)
+
+**Bet:** [one sentence] | **Mapping session:** [date, participants]
+
+| We believe that... | Type (desirability / viability / feasibility) | Test | Metric | Success criterion | Result | Decision (persevere / change / stop) |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+**Untested top-right assumptions at go/no-go:** [list, and why each is acceptable]
+
+---
+
 ## 2. Narrative
 
 > [The core story, drawn from the messaging house.]

@@ -120,6 +120,14 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Turn the chosen segment into a scored account model, using whatever closed-deal and firmographic data exists for the new market, so sales has a defensible list to prospect rather than the whole segment at once
    - *Do this alongside step 3:* Treat the first model as provisional; refresh it once enough closed deals exist in the new segment to validate the scoring weights
 
+2b. **Outcome-Driven Innovation (ODI)** (`Category 1`); *optional, if the candidate segments look alike on firmographics*
+   - *Why:* Rate the segment's desired outcomes on importance and satisfaction and cluster buyers by which are underserved, so the target is chosen on unmet needs and the first positioning leads with outcomes rivals leave poorly satisfied
+   - *Do this alongside step 2:* Size the survey for at least 100 respondents per segment you expect to find, and read scores per segment, not as one average
+
+2c. **Assumptions Mapping** (`Category 4`); *optional, recommended before the entry plan locks*
+   - *Why:* An entry plan rests on beliefs about the new segment's buyer, message, price and channel that the existing playbook has not proven there; map them by importance and evidence and test the important, unproven ones before launch budget is committed
+   - *Do this as soon as the bet is named:* Write a Test Card with a success criterion for each top-right assumption, and record every result and decision on a Learning Card
+
 3. **GTM Motion Model** (`Category 4`)
    - *Why:* A new segment or geography can support a different acquisition motion from your core business; check ACV and buyer complexity for the new segment rather than assuming your existing motion carries over
    - *Do this third:* Confirm whether self-serve, PLG, inside sales, field sales, or a partner is the right fit before positioning work goes further
@@ -201,6 +209,10 @@ Map your current challenge to the frameworks that will help you solve it.
 2a. **Perceptual Map** (`Category 3`); *optional*
    - *Why:* Price and perceived value are not the only two attributes buyers weigh against an incumbent; plot a second map on whatever pair of attributes win/loss interviews say actually drives the choice, to check for white space Bowman's Clock cannot see
    - *Do this alongside step 2:* Source both axes from unprompted buyer language, not an internal guess at what should differentiate you
+
+2b. **Strategy Canvas and ERRC Grid** (`Category 3`); *optional, if buyers describe you and the incumbents as interchangeable*
+   - *Why:* Chart every rival's value curve across the 8 to 12 factors buyers weigh to show where the offer converges with the incumbents, then use the ERRC grid to decide which factors to eliminate, reduce, raise and create rather than matching their feature list
+   - *Do this alongside step 2:* Build the factor list and scores from coded win/loss and Voice of the Customer evidence, and fill every one of the four boxes before step 3 commits to a difference
 
 3. **Product Differentiation Strategy Framework** (`Category 3`)
    - *Why:* Articulate what makes you uniquely valuable given the competitive landscape

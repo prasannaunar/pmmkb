@@ -6,8 +6,8 @@ metadata:
   kb-source: "decision-trees.md; framework-selector.md; BY-SITUATION.md; FRAMEWORK-MAP.md"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
-  version: "1.0"
-  last-updated: "2026-08-30"
+  version: "1.1"
+  last-updated: "2026-10-19"
 ---
 
 # PMM framework router
@@ -56,9 +56,12 @@ directory).
 | Nobody can explain what the product is; conflicting internal pitches; new segment or category | `positioning-development` | Dunford canvas and 10-step, Moore statement, JTBD (`frameworks/02-positioning-messaging/`) |
 | Positioning is settled but copy is inconsistent across web, deck, and email | `messaging-architecture` | Message Architecture, FAB Ladder, Message Testing (`frameworks/02-positioning-messaging/`) |
 | A launch is coming; scope, timeline, or resourcing is unclear | `launch-planning` | Launch Tier Framework, Complete GTM Workflow, Pre-mortem (`frameworks/04-go-to-market-launch/`) |
+| A launch or new-segment plan rests on untested beliefs about buyer, message, price or channel | `launch-planning` (Step 1b) | Assumptions Mapping (`frameworks/04-go-to-market-launch/`) |
 | Pricing or packaging decision; a new tier; a price rise | `pricing-study-design` | Van Westendorp, Gabor-Granger, Conjoint, MaxDiff, GBB (`frameworks/08-pricing-packaging/`) |
 | Who should we sell to; leads are poor fit; sales chasing everything | `icp-definition` | STP, ICP Development Methodology, MAP Model (`frameworks/01-market-customer-understanding/`) |
 | Too much work, unclear priorities, a quarter to plan | `quarterly-pmm-planning` | Quarterly PMM Planning, Playing to Win, MOVE (`frameworks/07-strategy-planning/`) |
+| Buyers see us and rivals as interchangeable; deals settle on discount; the roadmap only adds features to match | No skill; open Strategy Canvas and ERRC Grid, after Win/Loss evidence exists | `frameworks/03-competitive-strategy/` |
+| Segments look alike on firmographics; need to know which outcomes are underserved and for whom | No skill; open Outcome-Driven Innovation (ODI), then `icp-definition` for targeting | `frameworks/01-market-customer-understanding/` |
 | Adoption of a shipped feature is flat | No skill; open Feature Adoption Framework | `frameworks/05-lifecycle-workflow/` |
 | Which acquisition channel to fund | No skill; open Bullseye Framework, after GTM Motion Model | `frameworks/04-go-to-market-launch/` |
 | Analyst pressure ahead of a Wave or Magic Quadrant | No skill; open Analyst Relations Tiering & Cadence Model | `frameworks/07-strategy-planning/` |

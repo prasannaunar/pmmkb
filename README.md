@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base
 
-A structured, practical reference of 68 product marketing frameworks and methodologies, plus 5 adjacent business-strategy and behavioural-science tools; organised by workflow stage, indexed by situation. Built for product marketing professionals who need to apply proven methods to real challenges: positioning, go-to-market strategy, competitive intelligence, pricing, and customer advocacy.
+A structured, practical reference of 71 product marketing frameworks and methodologies, plus 5 adjacent business-strategy and behavioural-science tools; organised by workflow stage, indexed by situation. Built for product marketing professionals who need to apply proven methods to real challenges: positioning, go-to-market strategy, competitive intelligence, pricing, and customer advocacy.
 
 **Live site:** [www.pmmkb.com](https://www.pmmkb.com/), the web app built from this repository (`web/`).
 
@@ -22,16 +22,16 @@ Not sure where to start? Skim the [framework selector](framework-selector.md) fo
 
 ## What's Inside
 
-### 68 Entries Across 9 Categories, Plus Adjacent Disciplines
+### 71 Entries Across 9 Categories, Plus Adjacent Disciplines
 
 Each entry declares a **Type** (Framework, Methodology, Model, or Primer) and follows a structured template. See [CLAUDE.md](CLAUDE.md) for what each type means.
 
 | # | Category | Entries | File |
 |---|----------|---------|------|
-| 1 | Market & Customer Understanding | 10 | `frameworks/01-market-customer-understanding/` |
+| 1 | Market & Customer Understanding | 11 | `frameworks/01-market-customer-understanding/` |
 | 2 | Positioning & Messaging | 12 | `frameworks/02-positioning-messaging/` |
-| 3 | Competitive Strategy | 5 | `frameworks/03-competitive-strategy/` |
-| 4 | Go-to-Market & Launch | 11 | `frameworks/04-go-to-market-launch/` |
+| 3 | Competitive Strategy | 6 | `frameworks/03-competitive-strategy/` |
+| 4 | Go-to-Market & Launch | 12 | `frameworks/04-go-to-market-launch/` |
 | 5 | Lifecycle & Workflow | 3 | `frameworks/05-lifecycle-workflow/` |
 | 6 | Product Experience & Adoption | 7 | `frameworks/06-product-experience-adoption/` |
 | 7 | Strategy & Planning | 7 | `frameworks/07-strategy-planning/` |
@@ -40,7 +40,7 @@ Each entry declares a **Type** (Framework, Methodology, Model, or Primer) and fo
 | — | Concepts (primers) | 1 | `concepts/gtm-strategy-vs-product-marketing.md` |
 |   | Adjacent Disciplines | 5 | `adjacent/` |
 
-**Adjacent Disciplines** holds tools PMMs use to inform decisions other functions own: the BCG Growth-Share Matrix, the Ansoff Matrix, Porter's Five Forces, the Business Model Canvas and Cialdini's Principles of Persuasion. Each carries a "PMM's role" section instead of "Ownership", and they are counted separately from the 68 core entries.
+**Adjacent Disciplines** holds tools PMMs use to inform decisions other functions own: the BCG Growth-Share Matrix, the Ansoff Matrix, Porter's Five Forces, the Business Model Canvas and Cialdini's Principles of Persuasion. Each carries a "PMM's role" section instead of "Ownership", and they are counted separately from the 71 core entries.
 
 See [INDEX.md](INDEX.md) for the full taxonomy with type and description for every entry.
 
@@ -159,4 +159,4 @@ This knowledge base consolidates product marketing frameworks used across real p
 
 It is not a textbook. It is a reference guide you return to repeatedly as you face real problems. Every entry is here because it works; every example is here because it shows real execution.
 
-**Total:** 68 entries (28 frameworks, 28 methodologies, 11 models, 1 primer) across 9 categories, plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`.
+**Total:** 71 entries (29 frameworks, 30 methodologies, 11 models, 1 primer) across 9 categories, plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`.

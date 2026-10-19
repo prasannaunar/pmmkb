@@ -112,19 +112,19 @@
 
    *Why not D:* ICP Development Methodology scores accounts for sales prioritisation; it does not address the need for a shared, ongoing system to synthesise customer signal across departments.
 
-9. Eighteen months after a product launch, leadership wants confirmation that the product is ready to support a significant increase in growth spend, since usage looks healthy but growth has not been compounding as expected. Which tool most directly answers "is the underlying product ready for this," as distinct from "which customers should we target"?
-   - **A.** Run the Sean Ellis 40% Test to read the product-readiness question directly.
-   - **B.** Run the MAP Model to check whether existing segments deserve investment.
-   - **C.** Run the STP Framework to choose which market to pursue and position in.
-   - **D.** Audit the Complete Product Experience Framework across all touchpoints.
+9. A company's three firmographic segments look alike in every survey so far. Leadership wants to know which buyers have important needs that current tools satisfy poorly, and whether those buyers form a distinct group worth targeting. Which method should the PMM run?
+   - **A.** Outcome-Driven Innovation, rating outcomes on importance and satisfaction.
+   - **B.** JTBD Switch Interviews with recent buyers, to find their trigger events.
+   - **C.** MAP Model, ranking the three existing segments on size and performance.
+   - **D.** Sean Ellis 40% Test, asking how disappointed users would be without it.
 
-   **Correct answer: A.** The Sean Ellis test is specifically designed to answer the "is the product itself ready to scale" question with a standardised benchmark, distinguishing a genuine fit problem from a distribution problem before a large growth-spend commitment is made.
+   **Correct answer: A.** ODI measures the gap between how important each outcome is and how well it is satisfied, then clusters buyers by which outcomes are underserved. That answers both halves of the question: which needs are unmet, and which group shares them.
 
-   *Why not B:* This is the nearest neighbour, since both tools inform a growth-investment decision. MAP Model addresses which existing segments deserve continued investment, a targeting and resourcing question, not whether the underlying product itself has achieved fit with its users.
+   *Why not B:* This is the near miss: switch interviews uncover the job and its triggers, but they are qualitative and cover 8 to 12 buyers. They cannot quantify which outcomes are underserved or show that those buyers form a segment.
 
-   *Why not C:* STP addresses which market to pursue and how to position within it; it is not designed to test whether the current product has achieved the kind of fit needed to support aggressive growth spend.
+   *Why not C:* MAP Model ranks segments you already serve on size and performance. It works within the existing firmographic segments, which is exactly the view that has failed to separate buyers here.
 
-   *Why not D:* The Complete Product Experience Framework checks whether positioning claims match the customer experience across touchpoints; it does not measure product-market fit as a distinct, benchmarked construct.
+   *Why not D:* The Sean Ellis test asks whether the product has reached fit with its users. It says nothing about which needs are unmet or which buyers share them.
 
 10. A company's win rate has been falling for two consecutive quarters. Before assuming positioning itself is broken, the PMM wants to check specifically whether reps are prospecting the right accounts in the first place. Which tool addresses that specific question, as distinct from a full STP re-run?
     - **A.** Build an ICP Development Methodology to score which accounts to prospect.
