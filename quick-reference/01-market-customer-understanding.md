@@ -11,6 +11,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Concept Testing](#concept-testing)
 - [Voice of the Customer (VoC) Programme](#voice-of-the-customer-voc-programme)
 - [JTBD Switch Interview Method](#jtbd-switch-interview-method)
+- [Outcome-Driven Innovation (ODI)](#outcome-driven-innovation-odi)
 - [ICP Development Methodology](#icp-development-methodology)
 - [Sean Ellis 40% Test (PMF Survey)](#sean-ellis-40-test-pmf-survey)
 - [MAP Model (Measure, Analyze, Prioritize)](#map-model-measure-analyze-prioritize)
@@ -242,6 +243,40 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Consistency of the trigger story surfaced in later sales discovery calls
 
 **Source:** [The Mattress Interview](https://therewiredgroup.com/case-studies/the-mattress-interview/)
+
+---
+
+## Outcome-Driven Innovation (ODI)
+
+**Type:** Methodology
+
+**Core concept:** Tony Ulwick's quantitative method for finding which parts of a customer's job are badly served. Break the job into steps, write the measures customers judge success by as desired outcome statements, then survey a large sample on the importance of each outcome and their satisfaction with current solutions. The opportunity score (importance plus the unmet gap) ranks underserved and overserved outcomes, and a cluster analysis finds segments that share the same unmet needs. The JTBD Switch Interview finds the job qualitatively; ODI measures its outcomes and says for whom they are unmet.
+
+**When to use it:**
+- Choosing a target segment when firmographic segments all look alike
+- Positioning keeps leading with features competitors match
+- Entering a crowded market where an underserved segment is the only credible way in
+- Planning a low-cost or simplified offer for an overserved segment
+- Product and PMM disagree about priorities and need a quantified customer read
+
+**Key steps:**
+1. Name the job executor and write the core job as a verb plus an object, free of any solution.
+2. Build a job map of the job's steps from 15 to 30 executor interviews.
+3. Write desired outcome statements (direction, metric, object, clarifier); remove any that name a feature.
+4. Survey a large sample on importance and satisfaction, with at least 100 respondents per expected segment.
+5. Score each outcome: opportunity = importance + max(importance minus satisfaction, 0).
+6. Read the scores: above 10 worth pursuing, above 12 strong; satisfaction above importance means overserved.
+7. Cluster respondents on opportunity scores to find outcome-based segments, then profile them.
+8. Turn the result into a target segment, lead messages and, for overserved segments, a simpler offer.
+
+**Apply it:** Sketch an outcome table: Outcome statement | Importance | Satisfaction | Opportunity score | Segment(s) where underserved | Message and proof point it feeds.
+
+**Success metrics:**
+- Number of outcomes scoring above 12 in the target segment (e.g. 14 in the example)
+- Win rate in the chosen outcome-based segment (Clausewise, a fictional company: up to 31% over two quarters, from 21% overall)
+- Customers added by an offer built for an overserved segment (e.g. 140 in six months)
+
+**Source:** [Tony Ulwick](https://hbr.org/2002/01/turn-customer-input-into-innovation)
 
 ---
 

@@ -1,7 +1,7 @@
 # Product Marketing Knowledge Base: Polish & Daily Use Plan
 
-**Last Updated:** 2026-10-17 (definition review complete and Kano Model retagged as a Model; no new entries pending; 2026-10-15: SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
-**Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 68 core entries across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
+**Last Updated:** 2026-10-19 (Product Compass template list reviewed: Outcome-Driven Innovation (ODI), Strategy Canvas and ERRC Grid, and Assumptions Mapping built, taking the core total to 71; see "Candidate review: Product Compass template list"; 2026-10-17: definition review complete and Kano Model retagged as a Model; 2026-10-15: SEO PR 2 built: JSON-LD, `llms.txt`, definition lede; unused layout components deleted; INDEX.md tables generated and quick-reference cards checked; "Edit on GitHub" links; owner decisions on analytics, contributors, agent skills and content maintenance logged under "Decisions log"; 2026-10-10: dark mode and header theme toggle added; 2026-10-09: SEO/GEO PR 1 built: canonicals, social tags, sitemap, descriptions, "Made by" link; owner actions listed at the top of Open work)
+**Status:** All content-creation phases (1 through 4) are now complete, and the quiz feature (Phase 7) is also complete: all entries and category quizzes are written and live in the web app. The knowledge base has 71 core entries (29 frameworks, 30 methodologies, 11 models, 1 primer) across 9 categories plus a concepts area, and (since 2026-10-15) 5 adjacent entries in `adjacent/` counted separately, with full quick-reference cards, a glossary, templates, case studies, a pitfalls deep-dive, a framework selector, decision trees, and a measurement guide. This is now **the single file tracking every open plan and pending action across the repository.** Anything not listed in "Open work" below is either done or not yet decided. Historical candidate-build queues and a superseded quality review were moved to a temporary `archived/` folder on 2026-09-05; its 2026-09-06 re-scan found no remaining references anywhere in the repo, so the folder and its six files were deleted outright rather than kept indefinitely. Their content is not repeated here except where a genuinely open item was carried forward.
 
 ---
 
@@ -19,11 +19,26 @@ Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off 
 - [ ] **Verify in Bing Webmaster Tools.** Importing the property from Search Console is quickest. Otherwise use the meta tag method and set the token as `NEXT_PUBLIC_BING_SITE_VERIFICATION` in Vercel. Submit the same sitemap.
 - [ ] **Check a share preview** after deploy: paste https://www.pmmkb.com/ and one entry URL into LinkedIn's Post Inspector (or a Slack message). Expect the blue-topped "PMM Knowledge Base" card and the entry's own description. LinkedIn caches previews, so use the inspector's refresh.
 - [ ] **Check the reciprocal link on prasannaunar.com.** The `/projects/` page should link to `https://www.pmmkb.com/` (not the old vercel.app address). This site now links back from the footer ("Made by Prasanna").
-- [ ] **Update prasannaunar.com's headline figures** after the 2026-10-15 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 68 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 465 quiz questions if a quiz count is shown.
+- [ ] **Update prasannaunar.com's headline figures** after the 2026-10-19 additions merge: the `/projects/` page and its `llms.txt` (repo `prasannaunar/website`) should say 71 entries across 9 categories (plus 5 adjacent entries, if the page lists them), and 480 quiz questions if a quiz count is shown (380 entry questions across all 76 entry quizzes plus 100 category questions; previously 68 and 465).
 - [x] **Decide whether to go ahead with SEO PR 2.** Approved 2026-10-15; built (see below).
 - [ ] **After SEO PR 2 deploys, run Google's [Rich Results Test](https://search.google.com/test/rich-results)** on https://www.pmmkb.com/framework/pre-mortem and one category page. Expect "Breadcrumbs" and "Article" detected with no errors. The build checks the JSON-LD's shape, but the validator could not be reached from Claude's environment. Then open https://www.pmmkb.com/llms.txt and confirm it lists the entries.
 - [x] **Review the 73 `definition` sentences.** Reviewed and verified on 2026-10-17 against each entry's "What it is" and Sources, at the owner's request. All 73 meet the length, uniqueness, "X is Y" and no-em-dash rules. Eight were corrected. Six used a type word that contradicted the entry's `type` (Bowman's Strategic Clock, Complete Product Experience, Product Development Stage, PMM Team Scaling, PMM Lifecycle Management, Customer Onboarding Maturity). Playing to Win now names all five choices rather than stopping at the third. The GTM primer now says product marketing contributes to and frequently orchestrates the GTM plan, as its body does. Four entry bodies that opened "A model" against a different type were aligned to match, and a co-author's name in the Kano Model was corrected (Nobuhiko Seraku).
 - [x] **Decide the Kano Model's type.** Decided by the owner on 2026-10-17: it is a Model, matching CLAUDE.md's "Content Types". Retagged with the `add-kb-entry` skill: `type: Model`, a new "How to read it" section (the five categories moved there from "What it is"), the definition, quick-reference card and INDEX.md updated, and the totals recounted to 28 frameworks and 11 models.
+
+### Decisions log (2026-10-19 session)
+
+Work done this session, on branch `claude/confident-brown-iarqt8`:
+
+- [x] Reviewed Paweł Huryn's "30+ Free Product Management Templates" list at the owner's request; every item and its verdict is in SOURCES-EXPLORED.md ("2026-10-19 review").
+- [x] Built three core entries with their quizzes: Outcome-Driven Innovation (ODI) (Category 1), Strategy Canvas and ERRC Grid (Category 3) and Assumptions Mapping (Category 4). Core total 68 → 71 (29 frameworks, 30 methodologies, 11 models, 1 primer); entry quiz questions 365 → 380.
+- [x] Reciprocal "See also" links added in 15 existing entries, and one question swapped in each of the Category 1, 3 and 4 category quizzes to cover the new entries.
+- [x] Cross-document sync: INDEX.md, quick-reference cards, README.md, CLAUDE.md counts, FRAMEWORK-MAP.md, BY-SITUATION.md, measurement-guide.md, GLOSSARY.md, framework-selector.md, the `launch-planning` and `pmm-framework-router` agent skills, and `web/scripts/verify-content.mjs`.
+- [x] Corrected the (R)ICE verdict in SOURCES-EXPLORED.md: its originator (Sean McBride, Intercom) was confirmed in the 2026-08-13 review, so the reason is ownership (a product backlog tool), not sourcing.
+
+Owner decisions:
+
+- Sources that cannot be accessed (the Figma kit page, premium Notion templates) are left out rather than worked around.
+- Assumptions Mapping is a core Category 4 entry, not adjacent.
 
 ### Decisions log (2026-10-17 session)
 
@@ -35,7 +50,7 @@ Work done this session, on branch `claude/clever-noether-7dc8af`:
 Owner decisions:
 
 - The Kano Model is a Model.
-- No new entries are pending. The 2026-10-15 candidate review is closed and no candidate queue is open; a new round starts only when the owner names a gap or a source to review (CLAUDE.md, "Add new frameworks only if a gap is identified by the team").
+- No new entries were pending at the end of this session. The 2026-10-15 candidate review is closed; a new round starts only when the owner names a gap or a source to review (CLAUDE.md, "Add new frameworks only if a gap is identified by the team"). The owner named one on 2026-10-19 (see "Candidate review: Product Compass template list").
 - Everything else in Open work stays pending: the Owner actions, GA setup and the deferred content maintenance.
 
 ### Decisions log (2026-10-15 session)
@@ -57,6 +72,28 @@ Owner decisions:
 - prasannaunar.com changes will be handled separately (see Owner actions).
 
 Still pending: every unticked Owner action above (Search Console, sitemap submission, Bing, share preview, prasannaunar.com link and figures, Rich Results Test), GA setup, and the deferred content maintenance.
+
+### Candidate review: Product Compass template list ✅ Built (2026-10-19)
+
+A review of Paweł Huryn's ["30+ Free Product Management Templates"](https://www.productcompass.pm/p/free-product-management-templates) (The Product Compass, updated August 2026), run against CLAUDE.md's curation bar and the PMM vs GTM inclusion test. Every item and its verdict is in [SOURCES-EXPLORED.md](SOURCES-EXPLORED.md) ("2026-10-19 review"); this section logs the candidates and their outcome.
+
+**Built as core entries (counted in the 71):**
+
+- [x] **Outcome-Driven Innovation (ODI)** (Methodology, Category 1). Prompted by the list's JTBD Opportunity Score sheet, but written from Tony Ulwick's own published method rather than Huryn's spreadsheet. PMM or customer insights commonly runs the study and owns the outcome-based segmentation and the positioning that follows; product or strategy owns the roadmap decisions it informs. Dan Olsen's Importance vs Satisfaction scoring is described inside it as the lightweight variant.
+- [x] **Strategy Canvas and ERRC Grid** (Framework, Category 3). Prompted by the Value Curve item; sourced to W. Chan Kim and Renée Mauborgne. PMM builds the canvas and drafts the grid; the CEO or product leadership decides to reshape the offer at scale.
+- [x] **Assumptions Mapping** (Methodology, Category 4). Prompted by the Hypothesis Prioritization Canvas, Test Card and Learning Card items; David J. Bland's *Testing Business Ideas* is the best-documented version. Placed as a core entry, not in `adjacent/`, because a PMM can run the whole process for a launch or segment entry and produce the map, the Test Cards and the Learning Cards (see its "Cadence & ownership"); it passes the core "who runs this" test.
+
+**Reviewed and not added (in brief):** customer interview, persona and journey map templates (covered); Dan Olsen's Opportunity Score (product-owned; now the lightweight variant inside ODI); Huryn's own JTBD sheet, Product Strategy Canvas, Startup Canvas, Value Proposition Template and Assumption Prioritization Canvas (single practitioner's variants); Lean Canvas (covered by the Business Model Canvas); PESTEL (no traceable originator for the PESTEL form, same weakness as SWOT); SWOT (rejection stands); ICE, RICE and the other prioritisation grids, the Design Sprint, Opportunity Solution Tree, Lean UX Canvas, User Story Map, Now-Next-Later Roadmap, Business Model Portfolio and Matt Mochary's curriculum (owned by product, design, growth or leadership); the Figma kit and premium Notion templates (not accessible or paid).
+
+**Open follow-ups:**
+
+- [ ] A one-line Lean Canvas note in the Business Model Canvas entry (Ash Maurya, 2010), if wanted.
+- [ ] A short power-interest grid (Mendelow, 1981) fold-in note, in Quarterly PMM Planning step 6 or the Launch Tier Framework's stakeholder steps, if wanted.
+- [ ] Working Backwards PR/FAQ and the Marketing Mix (4Ps/7Ps): possible future candidates, to be assessed only if the team names a gap.
+- [x] Check three unverified details. Done in the pre-publication check (2026-10-19): "focus, divergence and a compelling tagline" verified against Kim and Mauborgne's own site (source added); the 2005 and 2015 editions verified, and the 2026 enhanced 20th anniversary edition added; "feature stub" corrected, because the book names a feature stub but does not call it a fake door.
+
+**Pre-publication check (2026-10-19):** the three new pages were built and compared with existing entries. Each has the same page properties: one h1, the definition lede, the credits line, the quiz, "Choose where to go next" links (all of which resolve), the "Edit on GitHub" link, canonical, Open Graph and Twitter tags, and Article and BreadcrumbList JSON-LD. Each also appears on its category page and type page, in search, the sitemap, `llms.txt` and `llms-full.txt`, and the homepage reads 71. A fact-check of the three entries verified all 20 source URLs and every quiz answer, and made five small corrections: the Assumptions Mapping lineage (Gothelf, Seiden and Constable) and its adaptability risk type (from Bland's 2020 excerpt), ODI's 2002 article described as bringing the method to a wide audience rather than first setting it out, both findings of the Burke, van Stel and Thurik study, and a hedge in one Strategy Canvas quiz explanation.
+- [ ] None of the three new entries is in a curated challenge or learning path (`web/src/lib/guides.ts`); like most entries, they are reached through their category, search and See also links. Assumptions Mapping is the natural candidate if the "We're launching a product" challenge is revisited.
 
 ### Candidate review: external template and resource lists ✅ Built (2026-10-15)
 

@@ -2,7 +2,7 @@
 
 Every entry's quick-reference card already lists **success metrics** (what to measure after applying it). This guide adds the two things the cards don't cover: a **baseline** to capture *before* you apply an entry, so the success metric has something to be measured against, and a **reporting cadence and owner**, so the metric actually gets reported somewhere rather than sitting in a spreadsheet nobody revisits.
 
-**How to use this:** find your entry below, note the baseline metric before you start, apply the entry, then track the linked quick-reference card's success metrics on the stated cadence. The closing section proposes a single roll-up dashboard for the handful of metrics that recur across most entries, so you are not building 55 separate trackers.
+**How to use this:** find your entry below, note the baseline metric before you start, apply the entry, then track the linked quick-reference card's success metrics on the stated cadence. The closing section proposes a single roll-up dashboard for the handful of metrics that recur across most entries, so you are not building 76 separate trackers.
 
 **What this is not:** a replacement for each entry's own "Success metrics" list (see `quick-reference/`), a case-study archive (see PLAN.md's Phase 3.1, still open), or the maintenance calendar (see FEEDBACK-LOG.md's Annual Update Schedule, which this guide's cadence column feeds into).
 
@@ -19,6 +19,7 @@ Every entry's quick-reference card already lists **success metrics** (what to me
 | Concept Testing | Share of recent build decisions made without customer evidence, and the purchase intent benchmark from any previous test | Per concept test; benchmarks reviewed when each new test completes | Product (owns the build decision) and launch stakeholders |
 | Voice of the Customer (VoC) Programme | Current churn rate, NPS, and share of feedback tied to no actioned theme (typically near 0% pre-launch) | Weekly triage internally; synthesis reported quarterly | Cross-functional decision owners (product, positioning) |
 | JTBD Switch Interview Method | Current demo-to-trial conversion rate and the generic reasons (e.g. "better fit") sales currently gives for wins | Run per positioning project, not continuously | Positioning project owner |
+| Outcome-Driven Innovation (ODI) | Current win rate in the segment you plan to target, and the outcomes (not features) your positioning currently leads with | One major study every one to three years per market; refreshed after a new entrant, a pricing model change or a move into a new segment | Product or strategy (owns the roadmap decisions it informs) and the positioning owner |
 | ICP Development Methodology | Blended close rate and blended sales cycle length, unscored | Build once; refresh when win rate or deal size drifts from the model's assumptions (roughly annually) | Sales operations and sales leadership |
 | Sean Ellis 40% Test (PMF Survey) | Current usage/activation numbers and growth-spend efficiency (e.g. CAC trend) before committing further spend | Every two quarters, or off-cycle after a repositioning or major release | Product leadership (owns the go/no-go call) |
 | MAP Model (Measure-Analyse-Prioritise) | Segment-level retention rate, expansion revenue, gross margin, and sales cycle length, unsegmented or estimated from blended figures | Quarterly; re-run when a new product line or pricing change reshapes segment economics | PMM planning review / revenue leadership |
@@ -47,6 +48,7 @@ Every entry's quick-reference card already lists **success metrics** (what to me
 | Bowman's Strategic Clock | Win rate in head-to-head deals, satisfaction score on the attribute in question, average selling price | Re-plot every two quarters | Quarterly portfolio review |
 | Product Differentiation Strategy Framework | Win rate in the target segment, net revenue retention, and current market share | Measured quarterly; defensibility re-tested against a 12-month copy horizon | Leadership / quarterly review |
 | Perceptual Map (2x2) | Mid-market win rate against named incumbents and average sales cycle length | Refresh every two quarters | Competitive strategy review |
+| Strategy Canvas and ERRC Grid | Win rate in the target segment, average discount depth, and share of deals that go to a final discount round | Re-plot every two quarters with the same evidence sources | Decision owner for the offer (CEO, product leadership or strategy) and the competitive strategy review |
 | Category Design | Share of qualified pipeline using the category term unprompted (typically 0% before the programme starts) | Multi-year programme; proof tracked quarterly | Executive sponsor |
 | CI Program Maturity Model | Current score on all four dimensions (repository/process, distribution to sales, cross-functional reach, measurement) using the five-stage scale (Ad Hoc through Transforming) | Re-scored quarterly; full maturity audit annually | CI owner / PMM leadership |
 
@@ -63,6 +65,7 @@ Every entry's quick-reference card already lists **success metrics** (what to me
 | Product-Led Growth (PLG) | Current trial-to-paid conversion and time-to-first-value before the funnel is redesigned | Funnel measured in stages continuously; each PQL signal re-validated quarterly | Growth / product team |
 | Bullseye Framework (Traction Channel Selection) | Current blended CAC and cost per qualified lead by channel | Time-boxed tests per cycle; brainstorm re-run once the inner-ring channel plateaus | Growth marketing lead |
 | Launch Tier Framework (Tier 1/2/3) | Current sales enablement completion rate and actual lead time used per launch, pre-tiering | Scored per launch; short retrospective each quarter | Launch calendar owner / cross-functional leads |
+| Assumptions Mapping | Number of the plan's important assumptions with observed evidence (often none before the first session), and the share of current experiments that test a top-right assumption | Re-plot every two to four weeks, or after each Learning Card decision, until the top-right corner is empty | Launch executive sponsor or product lead (owns the go or no-go decision) |
 | Pre-mortem | Number of risks currently surfaced (often zero before the exercise) and post-launch incidents traced to foreseeable causes in the last three launches | Run once per Tier 1 or high-stakes launch, before the launch date | Launch owner / cross-functional leads |
 | Account-Based Everything (ABX) / TEAM Framework | Current buying-committee roles engaged per target account, pipeline per target account, and win rate by tier | Monthly pipeline review per account tier; full programme reviewed quarterly | ABM / demand-gen leadership |
 
@@ -142,7 +145,7 @@ These entries inform decisions other functions own, so the baseline is the decis
 
 ## Building a One-Page PMM Measurement Dashboard
 
-Most of the 55 baseline/success-metric pairs above roll up into a small set of recurring metrics. Rather than tracking 55 separate charts, build one dashboard around these, refreshed on the cadence shown, and drill into the category tables above only when a number moves:
+Most of the 76 baseline/success-metric pairs above roll up into a small set of recurring metrics. Rather than tracking 76 separate charts, build one dashboard around these, refreshed on the cadence shown, and drill into the category tables above only when a number moves:
 
 | Roll-up metric | Fed by | Cadence | Healthy direction |
 |---|---|---|---|

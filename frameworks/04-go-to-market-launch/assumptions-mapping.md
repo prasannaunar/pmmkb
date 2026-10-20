@@ -1,0 +1,56 @@
+---
+title: "Assumptions Mapping"
+slug: "assumptions-mapping"
+type: Methodology
+order: 105
+use_when: "A launch or new-segment plan rests on beliefs about buyers, messaging, pricing or channels that nobody has tested yet."
+produces: "A ranked map of launch assumptions, with a test and a recorded decision for each risky one."
+description: "David J. Bland's Assumptions Mapping: rank a launch's beliefs by importance and evidence, then test the riskiest ones first with cheap experiments."
+definition: "Assumptions Mapping is a team exercise from David J. Bland that plots an idea's assumptions by importance and evidence, so the team tests the important, unproven ones first."
+---
+
+# Assumptions Mapping
+
+**What it is:** A team exercise for finding the beliefs a plan depends on and deciding which to test first. David J. Bland, founder of the consultancy Precoil, developed it and set it out in *Testing Business Ideas* (Wiley, 2019), co-written with Alexander Osterwalder. The team asks "what has to be true for this idea to work?" and writes each answer as a testable statement starting "We believe that...". Each is tagged by type of risk: **desirability** (does the market want it?), **viability** (can it make enough money?) and **feasibility** (can we deliver it?); Bland's 2020 Strategyzer excerpt of the book adds **adaptability** (can it survive a changing market?). Each statement is then placed on a 2x2 grid with **importance** on one axis (would the plan fail if this were wrong?) and **evidence** on the other (do we have observed proof, or only opinion?). The important assumptions with the least evidence, in the top-right corner, are tested first. Bland learned the 2x2 from Jeff Gothelf and Josh Seiden, the authors of *Lean UX*, and from Giff Constable, then added design thinking's risk types to it; Gothelf's own Hypothesis Prioritization Canvas is a related variant that plots hypotheses by risk and perceived value instead.
+
+For a PMM, the method applies most directly to the go-to-market layer of a plan: who the buyer is, which message lands, what price they will pay and which channel reaches them. Each test is designed on a Strategyzer **Test Card** (hypothesis, test, metric, success criteria) and recorded on a **Learning Card** (observation, insight, decision). It does not replace Concept Testing or Message Testing; it decides which experiments to run, and in what order. It also differs from a Pre-mortem: a pre-mortem imagines the plan has already failed to surface risks, while Assumptions Mapping ranks existing beliefs by how much evidence supports them and designs a test for each risky one.
+
+**When to use it:**
+- **Entering a new segment, geography or buyer role**, where the existing playbook's buyer, message and price may not carry over.
+- **A Tier 1 or Tier 2 launch is being planned** around a new pricing model, channel or packaging, and the plan cites internal conviction rather than customer evidence.
+- **A Business Model Canvas or launch brief has been drafted** and its customer-side blocks are still marked "assumed".
+- **The team is already running experiments but cannot say why these ones**, such as a landing page test chosen because it was easy rather than because it addressed the biggest risk.
+- **Leadership asks for a go or no-go recommendation** on an expansion bet and PMM needs to show what is proven, what is not, and what it would take to find out.
+
+**How to run it:**
+1. **Frame the bet in one sentence.** For example: "Launch our scheduling product to UK dental clinics in Q3."
+2. **List the assumptions with the people closest to each risk.** Run a 60 to 90 minute session with product, sales, finance and engineering. Have each person write assumptions silently first, one per sticky note, colour-coded by type. PMM should add the go-to-market assumptions the others tend to miss: who signs the contract, which pain the message should lead with, the price point and price metric, and which channel produces pipeline.
+3. **Rewrite each as a testable statement.** Replace "clinics need this" with "We believe that practice managers, not owners, choose scheduling software."
+4. **Plot every statement on the importance and evidence grid.** Ask of each one, "If this is wrong, does the plan fail?" and "What have we observed, not just heard, that supports it?" Opinions, including senior ones, count as no evidence.
+5. **Pick the top-right assumptions, usually three to five.** These are important and unproven; test them before spending launch budget.
+6. **Design each test on a Test Card before it runs.** State the hypothesis, the test, the metric and the success criterion, for example "at least 4% of landing page visitors join the waitlist". Choose the cheapest test that gives enough evidence: interviews, a landing page smoke test, a feature stub (the book's name for a button inside the product for a feature not yet built, which practitioners often call a fake door), a concierge service run by hand, or a pre-sale.
+7. **Prefer what people do over what they say.** *Testing Business Ideas* grades evidence by strength: a signed pre-sale outweighs a click, and a click outweighs an interview answer. Where a weak test passes, follow it with a stronger one before committing budget.
+8. **Record each result on a Learning Card.** Write what you observed, what you now believe, and the decision: persevere, change the plan or stop.
+9. **Re-plot the map.** Move tested assumptions to the evidence side and add any new ones the tests raised, then pick the next top-right set.
+
+**Cadence & ownership:** Bland describes Assumptions Mapping as a team exercise, and in practice whoever leads the bet facilitates it: a product manager or innovation team for a new product, a founder at a start-up. For a launch or segment entry, PMM commonly owns the go-to-market assumptions and runs the map outright, because PMM holds the segment, messaging, pricing and channel evidence and runs most of the cheap experiments that test them. The go or no-go decision stays with the launch's executive sponsor or the product lead. At a solo or founding-PMM stage, the PMM often maps the whole bet, desirability through viability, with the founder in a single session; at a scaled company with a product discovery practice, product owns the desirability and feasibility map and PMM contributes the go-to-market layer to it. Run the first session as soon as the bet is named, before launch planning locks; then re-plot every two to four weeks, or after each Learning Card decision, until the top-right corner is empty or the bet is stopped.
+
+**Example:** Rotaline, a fictional B2B SaaS company selling staff scheduling to UK restaurants, planned to enter the dental clinic market. A 90-minute session with product, sales and finance produced 28 assumptions. Five landed top right, including: practice managers are the buyer; a "stay compliant with rota rules" message beats "save scheduling time"; clinics will pay £6 per staff member per month, the restaurant price; and dental software marketplaces will drive sign-ups.
+
+The PMM wrote a Test Card for each. Twelve interviews confirmed the buyer: practice managers chose the software in 9 of 12 clinics. A two-week landing page test, with £2,000 of LinkedIn ads split across two headlines, set a criterion of 4% waitlist sign-ups; the compliance headline converted at 5.3% and the time-saving headline at 2.1%. The pricing pre-sale failed: only 2 of 15 practice managers signed a letter of intent at £6 per staff member, against a criterion of 5. The Learning Card recorded the insight from the calls: clinics budget per site, not per head. The PMM re-ran the pre-sale at £149 per site per month, and 7 of 14 signed. The re-plotted map left only the marketplace channel unproven, which the team chose to test after launch. Rotaline launched to clinics as a Tier 2 launch with the compliance message and per-site pricing, and signed 38 clinics in the first quarter against a target of 30.
+
+**Pitfalls:**
+- **Testing the easy assumptions instead of the risky ones.** Teams run a landing page because it is quick, while the assumption that would sink the plan, often price or buyer, goes untested; Bland names this pattern directly. Recovery: only design Test Cards for top-right assumptions, and ask "which assumption does this test move?" before approving any experiment.
+- **Running tests with no success criteria set in advance.** Without a threshold, the team rationalises whatever came back. Recovery: fill in the Test Card's metric and threshold before the test runs, and record the result against that threshold on the Learning Card.
+- **Treating one smoke test as proof.** A landing page click shows interest, not willingness to pay, so a launch budget built on one smoke test rests on weak evidence. Recovery: follow a passing weak test with a stronger one, such as a pre-sale or letter of intent, before committing the spend.
+- **Never revisiting the map.** A kick-off map goes stale as tests finish and the market moves. Recovery: re-plot after every Learning Card decision and at each launch checkpoint, and retire assumptions that now have evidence.
+
+**Sources:** David J. Bland; Alexander Osterwalder; Nabila Amarsy; Jeff Gothelf
+- David J. Bland, ["Assumptions Mapping"](https://www.precoil.com/assumptions-mapping), Precoil, the method's official page, with its history and the free worksheet (version 3.0, current in 2026).
+- David J. Bland & Alexander Osterwalder, [*Testing Business Ideas*](https://www.strategyzer.com/library/testing-business-ideas-book) (Wiley, 2019), the book that sets out the method and its library of 43 experiment types graded by cost, time and strength of evidence.
+- David J. Bland, ["How Assumptions Mapping Can Focus Your Teams on Running Experiments That Matter"](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter), Strategyzer (2020), an excerpt from the book covering the four risk types and the importance and evidence axes.
+- Alexander Osterwalder, ["Validate Your Ideas with the Test Card"](https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card), Strategyzer (2015).
+- Nabila Amarsy, ["Capture (Customer) Insights and Actions with the Learning Card"](https://www.strategyzer.com/library/capture-customer-insights-and-actions-with-the-learning-card), Strategyzer (2015).
+- Jeff Gothelf, ["The Hypothesis Prioritization Canvas"](https://jeffgothelf.com/blog/the-hypothesis-prioritization-canvas/) (2019), a related variant that plots hypotheses by risk and perceived value rather than importance and evidence.
+
+**See also:** Pre-mortem (imagines the launch has already failed to surface risks; Assumptions Mapping ranks the plan's beliefs by evidence and designs a test for each); Launch Tier Framework (Tier 1/2/3) (the tier decides how much testing a launch warrants before go or no-go); Concept Testing (Category 1; one experiment for a desirability assumption about the offer itself); Message Testing (Message-Market Fit) (Category 2; one experiment for a messaging assumption); Business Model Canvas (Adjacent Disciplines; its "assumed" blocks are a natural input list for the map).

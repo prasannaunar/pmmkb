@@ -70,19 +70,19 @@
 
    *Why not D:* The CI Program Maturity Model diagnoses the competitive intelligence function's own maturity; it has no direct bearing on a customer's changing perception of value during a renewal conversation.
 
-6. A team needs to determine whether their current price is defensible against what customers perceive their product to be worth, using a fixed, repeatable diagnostic they can re-run every two quarters. Which tool is purpose-built for this, rather than one that would require choosing new axes each time?
-   - **A.** Bowman's Strategic Clock
+6. Win/loss interviews show buyers calling a company and three rivals interchangeable across almost every factor they weigh, and the roadmap keeps adding catch-up features. The PMM needs to decide which factors to stop competing on, cut back, push further and add for the first time. Which tool fits?
+   - **A.** Strategy Canvas with ERRC
    - **B.** Perceptual Map (2x2)
-   - **C.** Differentiation Strategy
-   - **D.** A Category Design bet
+   - **C.** Bowman's Strategic Clock
+   - **D.** A Category Design programme
 
-   **Correct answer: A.** Bowman's Strategic Clock always uses the same two axes, price and perceived value, which is exactly what makes it repeatable and directly comparable across re-plotting cycles; the Perceptual Map, by contrast, is deliberately axis-agnostic and its dimensions are chosen fresh each time.
+   **Correct answer: A.** Curves converging across many factors is exactly what the strategy canvas exposes, and the ERRC grid turns that diagnosis into a redesign by eliminating, reducing, raising and creating factors. It is the only tool in this category that decides what to subtract as well as what to add.
 
-   *Why not B:* The Perceptual Map's strength is flexibility: choosing whichever two buyer-relevant attributes matter most for a given question. That flexibility makes it less suited to a fixed, repeatable price-versus-value tracking exercise than the clock's stable axes.
+   *Why not B:* A Perceptual Map is the closest neighbour, but it compares rivals on just two buyer-chosen axes. When the convergence spans eight to twelve factors and the question is which to cut, two axes cannot show the full profile or produce the redesign.
 
-   *Why not C:* Differentiation Strategy identifies and embeds a competitive advantage; it does not test price-to-value defensibility directly or provide a repeatable two-axis diagnostic.
+   *Why not C:* Bowman's Strategic Clock tests whether a price-to-value position is defensible on its two fixed axes. It cannot break perceived value into the individual factors that need eliminating or raising.
 
-   *Why not D:* A Category Design bet operates at the level of market framing, not a repeatable price-value tracking exercise; it is a multi-year strategic bet, not a quarterly diagnostic.
+   *Why not D:* A Category Design programme is a multi-year bet on naming a new market. The problem here is a converged offer inside the existing one, which a factor redesign addresses directly and at far lower cost.
 
 7. A team has just validated a white-space finding with a Perceptual Map: buyers place them in an unoccupied quadrant they genuinely want. What should happen next?
    - **A.** Move to Differentiation Strategy to embed the validated attributes operationally.
