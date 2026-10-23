@@ -1,0 +1,95 @@
+name: Name and identity check
+
+# Enforces the name rule (see CLAUDE.md): the surname never appears anywhere
+# in this repository, and commits never carry a personal email address.
+#
+# Fails when any of the following holds:
+#   - a tracked file, a new commit message, the branch name, or the pull
+#     request title or body contains the surname as a word of its own
+#     (joined handles such as the domain and email are allowed);
+#   - a new commit's author or committer uses an address other than a GitHub
+#     noreply address or the fixed Claude and GitHub addresses;
+#   - a new commit's author or committer name has anything after "Prasanna"
+#     ("Prasanna Prasanna" is the one permitted two-word form).
+#
+# The surname is matched by its SHA-256 hash, so this file never contains it.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  name-and-identity:
+    name: Verify no surname and no personal email
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check files, commits and pull request text
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, os, re, subprocess, sys
+
+          BANNED = {"621ee4ac34200e5941837cb276700ff733daec24b89e31a0417027a7a9c18e87"}
+          ALLOWED_EMAIL = re.compile(
+              r"(@users\.noreply\.github\.com|^noreply@github\.com|^noreply@anthropic\.com)$", re.I)
+          SURNAME_IN_NAME = re.compile(r"^prasanna\s+(?!prasanna\s*$)\S", re.I)
+
+          def has_banned(text):
+              return any(hashlib.sha256(w.lower().encode()).hexdigest() in BANNED
+                         for w in re.findall(r"[A-Za-z]+", text))
+
+          def git(*args):
+              return subprocess.run(["git", *args], capture_output=True, check=True).stdout
+
+          problems = []
+
+          for path in git("ls-files", "-z").decode().split("\0"):
+              if not path or not os.path.isfile(path):
+                  continue
+              with open(path, "rb") as fh:
+                  text = fh.read().decode("utf-8", errors="ignore")
+              if has_banned(path) or has_banned(text):
+                  problems.append(f"{path}: contains the surname")
+
+          for label in ("BRANCH", "PR_TITLE", "PR_BODY"):
+              if has_banned(os.environ.get(label, "")):
+                  problems.append(f"{label.lower()}: contains the surname")
+
+          base, head = os.environ.get("BASE", ""), os.environ["HEAD"]
+          known = base and subprocess.run(["git", "cat-file", "-e", base],
+                                          capture_output=True).returncode == 0
+          rev_range = [f"{base}..{head}"] if known else ["-1", head]
+          log = git("log", "--format=%h%x00%an%x00%ae%x00%cn%x00%ce%x00%B%x01", *rev_range)
+          for entry in log.decode().split("\x01"):
+              fields = entry.strip("\n").split("\x00")
+              if len(fields) < 6:
+                  continue
+              sha, an, ae, cn, ce, message = fields
+              for email in (ae, ce):
+                  if not ALLOWED_EMAIL.search(email):
+                      problems.append(f"{sha}: uses a non-noreply email address")
+              for name in (an, cn):
+                  if SURNAME_IN_NAME.search(name) or has_banned(name):
+                      problems.append(f"{sha}: has a surname in its author or committer name")
+              if has_banned(message):
+                  problems.append(f"{sha}: commit message contains the surname")
+
+          if problems:
+              for p in problems:
+                  print(f"::error::{p}")
+              print("The name is 'Prasanna' only, and commits must use the GitHub noreply address.")
+              sys.exit(1)
+          print("OK: no surname in files, commits, branch or pull request text; noreply addresses only.")
+          PY

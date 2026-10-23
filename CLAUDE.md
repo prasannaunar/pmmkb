@@ -26,6 +26,15 @@ For how PMMs, team leads, and new joiners use this repository day-to-day, see RE
 
 ---
 
+## Name and identity rule
+
+- **The owner's name is `Prasanna`, with no surname.** If a form genuinely requires a last name, use `Prasanna Prasanna`.
+- **The surname never appears anywhere in this repository:** not in files, commit messages, commit author or committer names, branch names, or pull request and issue titles, bodies and comments. No placeholder stands in for it in prose either; describe the rule in words ("no surname") instead. Joined handles in URLs (`prasannaunar.com`, `github.com/prasannaunar`) are the only permitted strings that contain it.
+- **Commits use the GitHub noreply address** (`265899163+prasannaunar@users.noreply.github.com`), never a personal email address. GitHub's "Keep my email addresses private" and "Block command line pushes that expose my email" settings stay on.
+- **Enforced in CI:** `.github/workflows/name_identity_check.yml` fails any pull request or push to `main` that breaks either rule. It matches the surname by its hash, so the check itself never contains the word.
+
+---
+
 ## Writing Standards
 
 ### Language & Tone
