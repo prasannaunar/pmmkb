@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/topics",
     "/challenges",
     "/learn",
+    "/privacy",
     ...getAllCategories().map((c) => `/category/${c.slug}`),
     ...getAllTypeSlugs().map((slug) => `/type/${slug}`),
     ...getAllEntries().map((e) => `/framework/${e.slug}`),

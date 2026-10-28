@@ -28,3 +28,8 @@ export function editOnGitHubUrl(filePath: string): string {
 export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path}`;
 }
+
+// Google Tag Manager container ID. Set NEXT_PUBLIC_GTM_ID in Vercel (Production
+// only); it is inlined at build time, so while it is unset no banner or tag
+// renders and preview builds send no data. See components/analytics.tsx.
+export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
