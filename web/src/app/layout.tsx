@@ -3,6 +3,7 @@ import { Merriweather, Poppins } from "next/font/google";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { BackToTop } from "@/components/back-to-top";
+import { ConsentBanner, CookieSettingsButton } from "@/components/analytics";
 import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import "./globals.css";
@@ -95,9 +96,14 @@ export default function RootLayout({
                 {AUTHOR.name}
               </a>
             </p>
+            <p className="footer-legal">
+              <Link href="/privacy">Privacy</Link>
+              <CookieSettingsButton className="footer-link-button" />
+            </p>
           </div>
         </footer>
         <BackToTop />
+        <ConsentBanner />
       </body>
     </html>
   );
