@@ -9,6 +9,8 @@
 
 Everything below is either not started, partially done, or explicitly waiting on a future trigger. Nothing in this section duplicates the archived documents; where an archived plan had open items, they were copied forward here and the source noted.
 
+**Resume point (2026-10-28):** the consent-gated Google Tag Manager change (see "Turn on Google Analytics" below and "Web app: open questions") was raised as a pull request, alongside the same change in `prasannaunar/website`. The owner will confirm in the next session whether the tags fire. Start there: ask what they saw, check https://www.pmmkb.com/ for the banner and for no `googletagmanager.com` request before Accept, and help debug GTM Preview or GA4 Realtime if needed (usual causes: no redeploy after adding the variable, wrong environment, unpublished container, or Preview run without clicking Accept).
+
 ### Owner actions (things only you can do)
 
 Everything here needs your access to Vercel, Google, Bing or DNS. Tick them off as you go; Claude will keep the list current.
