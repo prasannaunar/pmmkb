@@ -38,7 +38,9 @@ export default function PrivacyPage() {
           If you choose Accept on the cookie banner, the site loads Google Tag
           Manager, which runs Google Analytics. It shows which entries are
           read, roughly where visitors come from, and which device types they
-          use. Nothing from Google loads until you accept, and nothing loads at
+          use. It also records how the site is used: which links are clicked,
+          what is typed into search, quiz answers and scores (whether each
+          answer was right, not who gave it), and theme changes. Nothing from Google loads until you accept, and nothing loads at
           all if you reject.
         </p>
         <p>

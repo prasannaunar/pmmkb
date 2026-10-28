@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { QuizQuestion } from "@/lib/quiz";
+import { track, type QuizType } from "@/lib/analytics";
 
 interface QuizSectionProps {
   title: string;
@@ -10,6 +11,8 @@ interface QuizSectionProps {
   questions: QuizQuestion[];
   reviewLinks?: { href: string; label: string }[];
   nextLink?: { href: string; label: string };
+  /** Identifies the quiz in analytics events. */
+  analytics: { type: QuizType; id: string };
 }
 
 type Stage = "start" | "question" | "end";
@@ -20,6 +23,7 @@ export function QuizSection({
   questions,
   reviewLinks,
   nextLink,
+  analytics,
 }: QuizSectionProps) {
   const [stage, setStage] = useState<Stage>("start");
   const [current, setCurrent] = useState(0);
@@ -39,7 +43,16 @@ export function QuizSection({
     0,
   );
 
+  const quiz = { quiz_type: analytics.type, quiz_id: analytics.id };
+
   function choose(questionIndex: number, optionIndex: number) {
+    if (selected[questionIndex] !== null) return;
+    track({
+      event: "quiz_answer",
+      ...quiz,
+      question_number: questionIndex + 1,
+      answer_correct: questions[questionIndex].options[optionIndex].correct,
+    });
     setSelected((prev) => {
       if (prev[questionIndex] !== null) return prev;
       const next = [...prev];
@@ -49,6 +62,7 @@ export function QuizSection({
   }
 
   function start() {
+    track({ event: "quiz_start", ...quiz });
     setCurrent(0);
     setStage("question");
   }
@@ -57,6 +71,12 @@ export function QuizSection({
     if (current + 1 < questions.length) {
       setCurrent((c) => c + 1);
     } else {
+      track({
+        event: "quiz_complete",
+        ...quiz,
+        quiz_score: correctCount,
+        quiz_total: questions.length,
+      });
       setStage("end");
     }
   }
