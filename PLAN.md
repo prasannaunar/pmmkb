@@ -9,7 +9,7 @@
 
 Everything below is either not started, partially done, or explicitly waiting on a future trigger. Nothing in this section duplicates the archived documents; where an archived plan had open items, they were copied forward here and the source noted.
 
-**Resume point (2026-10-28):** Google Analytics is confirmed recording page views on both sites (the pmmkb container ID was corrected to `GTM-PLSPM9T6`; GA4 property `G-XLW52C9PN2`). Site events (quiz, search, theme, link clicks) were then added with a GTM import file and setup guide in `web/gtm/`, alongside the same work in `prasannaunar/website`. Next: the owner imports the container, registers the GA4 custom definitions (owner action below), and then verifies the site in Search Console. Start by asking whether the import worked and the events show in GA4 Realtime.
+**Resume point (2026-10-28):** Google Analytics is confirmed recording page views on both sites (the pmmkb container ID was corrected to `GTM-PLSPM9T6`; GA4 property `G-XLW52C9PN2`). Site events (quiz, search, theme, link clicks) were then added with a GTM import file and setup guide in `web/gtm/`, alongside the same work in `prasannaunar/website`, and both changes were merged to `main` the same day. Next, in this order: the owner imports the GTM container and registers the GA4 custom definitions (owner action below), then verifies www.pmmkb.com in Google Search Console, submits the sitemap and imports the property into Bing (the first three owner actions). Start by asking whether the import worked, the events show in GA4 Realtime, and Search Console verified; if they chose the HTML tag method, the token goes in `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`, not in code.
 
 ### Owner actions (things only you can do)
 
