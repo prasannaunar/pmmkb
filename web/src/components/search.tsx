@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useMemo, useId } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
+import { track } from "@/lib/analytics";
 export interface SearchItem {
   title: string;
   slug: string;
@@ -50,6 +51,18 @@ export function Search({
     [query, fuse, expanded],
   );
   const show = open && query.trim().length >= 2;
+  // Report a search once the visitor stops typing, so each keystroke is not
+  // an event. Searches with no results show where the content has gaps.
+  const lastTracked = useRef("");
+  useEffect(() => {
+    const term = query.trim().toLowerCase();
+    if (term.length < 2 || term === lastTracked.current) return;
+    const timer = setTimeout(() => {
+      lastTracked.current = term;
+      track({ event: "search", search_term: term, search_results: results.length });
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, [query, results.length]);
   useEffect(() => {
     function shortcut(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {

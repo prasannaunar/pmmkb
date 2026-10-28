@@ -84,6 +84,7 @@ export default async function LearningPathPage({
           title="Put the path into practice"
           description="Five scenarios about choosing and connecting the methods you have explored."
           questions={quiz.questions}
+          analytics={{ type: "learning_path", id: slug }}
           reviewLinks={quiz.reviews}
           nextLink={{ href: "/learn", label: "Explore another learning path" }}
         />

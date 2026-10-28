@@ -2,6 +2,7 @@
 
 import { useLayoutEffect, useSyncExternalStore } from "react";
 import { THEME_KEY } from "@/lib/theme";
+import { track } from "@/lib/analytics";
 
 type Theme = "light" | "dark";
 
@@ -59,6 +60,7 @@ export function ThemeToggle() {
     } catch {
       // Storage is unavailable: the choice lasts for this page view only.
     }
+    track({ event: "theme_change", theme: next });
   }
 
   const dark = theme === "dark";

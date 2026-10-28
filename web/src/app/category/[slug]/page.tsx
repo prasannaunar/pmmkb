@@ -194,6 +194,7 @@ export default async function CategoryPage({
             title={`${label}: put it into practice`}
             description="Ten scenarios to help you choose the right method and recognise when to use it."
             questions={questions}
+            analytics={{ type: "category", id: category.slug }}
             reviewLinks={questions.map((question) => {
               const answer =
                 question.options

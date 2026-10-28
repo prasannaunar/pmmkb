@@ -3,25 +3,13 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { GTM_ID } from "@/lib/site";
+import { CONSENT_KEY, readConsent, type ConsentChoice } from "@/lib/analytics";
 
 // Google Tag Manager, loaded only after the visitor accepts analytics cookies.
 // GA4 itself is a Google tag inside the GTM container, never a second snippet.
 
-/** localStorage key holding the visitor's choice ("granted" or "denied"). */
-const CONSENT_KEY = "analytics-consent";
 /** Fired by a "Cookie settings" button to reopen the banner. */
 const OPEN_EVENT = "pmmkb:cookie-settings";
-
-type Choice = "granted" | "denied";
-
-function readChoice(): Choice | null {
-  try {
-    const saved = localStorage.getItem(CONSENT_KEY);
-    return saved === "granted" || saved === "denied" ? saved : null;
-  } catch {
-    return null;
-  }
-}
 
 let loaded = false;
 function loadTagManager(id: string) {
@@ -65,7 +53,7 @@ export function ConsentBanner() {
 
   useEffect(() => {
     if (!GTM_ID) return;
-    const choice = readChoice();
+    const choice = readConsent();
     if (choice === "granted") loadTagManager(GTM_ID);
     // Deferred so the banner appears after hydration, not during it.
     else if (choice === null) queueMicrotask(() => setOpen(true));
@@ -79,8 +67,8 @@ export function ConsentBanner() {
 
   if (!GTM_ID || !open) return null;
 
-  function choose(value: Choice) {
-    const previous = readChoice();
+  function choose(value: ConsentChoice) {
+    const previous = readConsent();
     try {
       localStorage.setItem(CONSENT_KEY, value);
     } catch {

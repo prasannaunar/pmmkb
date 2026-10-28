@@ -224,6 +224,7 @@ export default async function FrameworkPage({
                 title="Check your understanding"
                 description={`Practise applying ${entry.title} in five short scenarios.`}
                 questions={questions}
+                analytics={{ type: "entry", id: slug }}
                 reviewLinks={questions.map(() => ({
                   href: `#${reviewId}`,
                   label: "Revisit the method",
