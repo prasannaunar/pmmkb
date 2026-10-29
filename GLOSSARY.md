@@ -90,7 +90,7 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 ## Cross-Functional & Stakeholder Management
 
-**Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push.
+**Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push. See [Quarterly PMM Planning Framework](frameworks/07-strategy-planning/quarterly-pmm-planning-framework.md) (step 6).
 
 **GROW model (Goal, Reality, Options, Will):** A four-step sales-coaching conversation structure. Sales-manager owned, not a PMM framework; relevant context for [Sales Enablement](frameworks/09-sales-enablement/) work that feeds a coaching programme rather than replaces it.
 
@@ -106,11 +106,15 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 **PQL (Product-Qualified Lead):** A user whose in-product behaviour (usage depth, seat count, feature adoption) signals they are ready for a sales conversation or an upgrade prompt. The PLG equivalent of an MQL.
 
+**PR/FAQ (press release and frequently asked questions):** Amazon's Working Backwards document: a one-page press release announcing the finished product to one named customer segment, plus an external FAQ a customer would ask and an internal FAQ on cost, feasibility and risk, written before any build work starts so leadership can decide to build, reshape or stop. See [Working Backwards (PR/FAQ)](frameworks/04-go-to-market-launch/working-backwards-pr-faq.md).
+
 **MQL (Marketing-Qualified Lead):** A lead that marketing has judged ready to hand to sales, typically based on engagement signals like content downloads or webinar attendance.
 
 **SQL (Sales-Qualified Lead):** A lead that sales has accepted and is actively working, usually after a qualification call confirms budget, authority, need, and timeline.
 
 **Launch tier:** A classification (Tier 1, 2, or 3) of how much process, cross-functional coordination, and lead time a launch needs, scored by revenue impact, dependency, visibility, and customer-facing change. See the [Launch Tier Framework](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md).
+
+**Marketing mix (4Ps and 7Ps):** The set of levers a company controls for one offer and segment: E. Jerome McCarthy's product, price, place and promotion, extended by Booms and Bitner with people, process and physical evidence for services and most SaaS. See [Marketing Mix (4Ps and 7Ps)](frameworks/07-strategy-planning/marketing-mix-4ps-7ps.md).
 
 **Assumptions map:** David J. Bland's 2x2 that plots a plan's assumptions by importance and by evidence, so the important, unproven ones in the top-right corner are tested first. Each test is designed on a Strategyzer Test Card (hypothesis, test, metric, success criterion) and its result recorded on a Learning Card (observation, insight, decision). See [Assumptions Mapping](frameworks/04-go-to-market-launch/assumptions-mapping.md).
 
@@ -209,6 +213,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 
 | Acronym | Meaning | See |
 |---|---|---|
+| 4Ps / 7Ps | Product, Price, Place, Promotion (plus People, Process, Physical evidence) | Go-to-Market & Launch above |
 | ABM | Account-Based Marketing | [ICP Development Methodology](frameworks/01-market-customer-understanding/icp-development-methodology.md) |
 | ACV | Annual Contract Value | Metrics & Financial Terms above |
 | ARR | Annual Recurring Revenue | Metrics & Financial Terms above |
@@ -237,6 +242,7 @@ Named pricing strategies distinct from the KB's pricing-*research* methodologies
 | PLG | Product-Led Growth | Go-to-Market & Launch above |
 | PMF | Product-Market Fit | Market Sizing & Segmentation above |
 | PQL | Product-Qualified Lead | Go-to-Market & Launch above |
+| PR/FAQ | Press release and frequently asked questions (Working Backwards) | Go-to-Market & Launch above |
 | RFM | Recency, Frequency, Monetary (customer segmentation) | Metrics & Financial Terms above |
 | RICE | Reach, Impact, Confidence, Effort (prioritisation) | Market Sizing & Segmentation above |
 | SaaS | Software-as-a-Service | throughout |

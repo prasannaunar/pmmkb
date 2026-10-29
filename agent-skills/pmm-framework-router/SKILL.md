@@ -6,8 +6,8 @@ metadata:
   kb-source: "decision-trees.md; framework-selector.md; BY-SITUATION.md; FRAMEWORK-MAP.md"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
-  version: "1.1"
-  last-updated: "2026-10-19"
+  version: "1.2"
+  last-updated: "2026-10-29"
 ---
 
 # PMM framework router
@@ -63,6 +63,8 @@ directory).
 | Buyers see us and rivals as interchangeable; deals settle on discount; the roadmap only adds features to match | No skill; open Strategy Canvas and ERRC Grid, after Win/Loss evidence exists | `frameworks/03-competitive-strategy/` |
 | Segments look alike on firmographics; need to know which outcomes are underserved and for whom | No skill; open Outcome-Driven Innovation (ODI), then `icp-definition` for targeting | `frameworks/01-market-customer-understanding/` |
 | Adoption of a shipped feature is flat | No skill; open Feature Adoption Framework | `frameworks/05-lifecycle-workflow/` |
+| A new product or capability is proposed, nothing is built yet, and teams describe it differently | No skill; open Working Backwards (PR/FAQ), then `launch-planning` once it is approved | `frameworks/04-go-to-market-launch/` |
+| Results lag on a new product, tier or segment and no single lever explains why; demos win but deals stall in security review or onboarding | No skill; open Marketing Mix (4Ps and 7Ps), then the entry behind the weakest P | `frameworks/07-strategy-planning/` |
 | Which acquisition channel to fund | No skill; open Bullseye Framework, after GTM Motion Model | `frameworks/04-go-to-market-launch/` |
 | Analyst pressure ahead of a Wave or Magic Quadrant | No skill; open Analyst Relations Tiering & Cadence Model | `frameworks/07-strategy-planning/` |
 | Which function actually owns this work | No skill; open the GTM vs product marketing primer | `concepts/gtm-strategy-vs-product-marketing.md` |

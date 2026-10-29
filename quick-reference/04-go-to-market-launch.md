@@ -13,6 +13,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - [Product-Led Growth (PLG)](#product-led-growth-plg)
 - [Account-Based Everything (ABX) / TEAM Framework](#account-based-everything-abx--team-framework)
 - [Bullseye Framework (Traction Channel Selection)](#bullseye-framework-traction-channel-selection)
+- [Working Backwards (PR/FAQ)](#working-backwards-prfaq)
 - [Launch Tier Framework (Tier 1/2/3)](#launch-tier-framework-tier-123)
 - [Assumptions Mapping](#assumptions-mapping)
 - [Pre-mortem](#pre-mortem)
@@ -315,6 +316,40 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Blended CAC improvement versus the previous multi-channel spread
 
 **Source:** [Gabriel Weinberg & Justin Mares](https://www.penguinrandomhouse.com/books/319121/traction-by-gabriel-weinberg-and-justin-mares/)
+
+---
+
+## Working Backwards (PR/FAQ)
+
+**Type:** Framework
+
+**Core concept:** Write the launch press release and FAQ before building, then work backwards from them to decide whether and what to build. The press release names one customer, their problem and why the product beats today's alternative; the external FAQ answers what a customer would ask, and the internal FAQ tests cost, feasibility and objections. Described by Werner Vogels in 2006 and set out in full by Colin Bryar and Bill Carr in *Working Backwards* (2021). If the press release cannot be made compelling, the idea is not ready to build.
+
+**When to use it:**
+- A new product or major capability is proposed and no build work has started
+- The roadmap item is described in features, not customer problems
+- Product, engineering and PMM describe the same initiative differently
+- Launches keep failing at the messaging stage because the story is invented after the build
+- Leadership needs several candidate bets in one comparable format
+
+**Key steps:**
+1. Name one customer segment before writing anything.
+2. Write the problem paragraph first, in the customer's words, from interviews, win/loss transcripts or tickets.
+3. Draft the full press release in hours: heading, subheading, summary with launch date, problem, solution, quotes, getting started.
+4. Write the external FAQ as the customer would ask it (price, switching effort, limits, comparison).
+5. Hand the internal FAQ to product and engineering (cost, timeline, risk, dependencies, legal exposure).
+6. Review in a small group, with 15 to 20 minutes of silent reading first.
+7. Revise until the decision-maker can say build, reshape or stop.
+8. Carry the approved press release into positioning, the messaging house and objection handling.
+
+**Apply it:** Produce an approved, reshaped or rejected PR/FAQ; the press release seeds positioning and the messaging house, and the external FAQ seeds sales objection handling.
+
+**Success metrics:**
+- Share of PR/FAQs reaching a clear build, reshape or stop decision within one quarter
+- Match between launch messaging and the approved press release (Tallyroute, a fictional company: launch messaging in one week rather than four)
+- Post-launch adoption against the press release's claim (31% of customers within 90 days against a 20% target in the example)
+
+**Source:** [Colin Bryar and Bill Carr](https://workingbackwards.com/concepts/working-backwards-pr-faq-process/)
 
 ---
 

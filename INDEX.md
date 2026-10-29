@@ -1,6 +1,6 @@
 # Product Marketing Knowledge Base: Index
 
-**Last Updated:** 2026-10-19 (added Outcome-Driven Innovation (ODI) to Category 1, Strategy Canvas and ERRC Grid to Category 3 and Assumptions Mapping to Category 4, from the Product Compass template review, so the core total is now 71; see PLAN.md, "Candidate review: Product Compass template list"; 2026-10-17: Kano Model retagged from Framework to Model, so the core totals are now 28 frameworks and 11 models; 2026-10-15: entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
+**Last Updated:** 2026-10-29 (added Working Backwards (PR/FAQ) to Category 4 and Marketing Mix (4Ps and 7Ps) to Category 7, built as core entries at the owner's request after the Product Compass template review, so the core total is now 73; see PLAN.md, "Decisions log (2026-10-29 session)"; 2026-10-19: added Outcome-Driven Innovation (ODI) to Category 1, Strategy Canvas and ERRC Grid to Category 3 and Assumptions Mapping to Category 4, from the Product Compass template review, so the core total is now 71; see PLAN.md, "Candidate review: Product Compass template list"; 2026-10-17: Kano Model retagged from Framework to Model, so the core totals are now 28 frameworks and 11 models; 2026-10-15: entry tables now generated from frontmatter by `npm run generate:index` in `web/`, with each Description taken from the entry's meta description; earlier the same day: added TAM/SAM/SOM Market Sizing and Concept Testing to Category 1, and opened the Adjacent Disciplines area (`adjacent/`) with five entries counted separately from the core total; see PLAN.md, "Candidate review: external template and resource lists"). Previous: 2026-08-14 (built all remaining NEW-SOURCES-GAP-ANALYSIS.md candidates that passed research).
 
 ---
 
@@ -74,6 +74,7 @@
 | [Product-Led Growth (PLG)](frameworks/04-go-to-market-launch/product-led-growth-plg.md) | Methodology | A go-to-market practice where the product itself acquires, converts and expands customers through a free trial or tier, popularised by Wes Bush (2019). |
 | [Account-Based Everything (ABX) / TEAM Framework](frameworks/04-go-to-market-launch/account-based-everything-abx-team-framework.md) | Methodology | The TEAM framework from ABM is B2B (2019) by Sangram Vajre and Eric Spett: a go-to-market method for complex B2B sales to a small set of named accounts. |
 | [Bullseye Framework (Traction Channel Selection)](frameworks/04-go-to-market-launch/bullseye-framework-traction-channel-selection.md) | Framework | Gabriel Weinberg and Justin Mares' Traction method for finding the one marketing or distribution channel most likely to drive your growth. |
+| [Working Backwards (PR/FAQ)](frameworks/04-go-to-market-launch/working-backwards-pr-faq.md) | Framework | Amazon's Working Backwards method: write the launch press release and FAQ before building, so the customer story is fixed first. |
 | [Launch Tier Framework (Tier 1/2/3)](frameworks/04-go-to-market-launch/launch-tier-framework-tier-123.md) | Model | Sort every launch into Tier 1, 2 or 3 so the process, lead time and headcount you apply match its real scope instead of a default. |
 | [Assumptions Mapping](frameworks/04-go-to-market-launch/assumptions-mapping.md) | Methodology | David J. Bland's Assumptions Mapping: rank a launch's beliefs by importance and evidence, then test the riskiest ones first with cheap experiments. |
 | [Pre-mortem](frameworks/04-go-to-market-launch/pre-mortem.md) | Framework | Gary Klein's pre-mortem: imagine the launch has already failed, then work backwards to list the specific reasons while there is still time to act. |
@@ -115,6 +116,7 @@
 | Entry | Type | Description |
 |-------|------|-------------|
 | [Playing to Win (Strategic Choice Cascade)](frameworks/07-strategy-planning/playing-to-win-strategic-choice-cascade.md) | Framework | A.G. Lafley and Roger Martin's five-question cascade of mutually reinforcing strategic choices, from winning aspiration through to management systems. |
+| [Marketing Mix (4Ps and 7Ps)](frameworks/07-strategy-planning/marketing-mix-4ps-7ps.md) | Model | The 4Ps and 7Ps marketing mix from McCarthy, Borden, and Booms and Bitner: a map of the levers a PMM sets for one product and segment. |
 | [Quarterly PMM Planning Framework](frameworks/07-strategy-planning/quarterly-pmm-planning-framework.md) | Framework | Turn business goals into a quarter of PMM work: set goals, allocate resources, prioritise by business impact and assign accountability. |
 | [Competitive Intelligence & Positioning Update Framework](frameworks/07-strategy-planning/competitive-intelligence-positioning-update-framework.md) | Methodology | An ongoing competitive intelligence process of monthly scans, quarterly deep dives and annual refreshes that keeps positioning and messaging current. |
 | [PMM Team Scaling Framework](frameworks/07-strategy-planning/pmm-team-scaling-framework.md) | Framework | How to grow the PMM function from a solo practitioner to a specialised team, with clear roles, scope and success metrics at each stage. |
@@ -185,7 +187,7 @@ Added 2026-10-15. Tools from business strategy and behavioural science that PMMs
 
 ## Structure Notes
 
-- **Total entries:** 71 core (29 frameworks, 30 methodologies, 11 models, 1 primer), recounted from this file's Type columns after the 2026-10-19 additions of Outcome-Driven Innovation (ODI), Strategy Canvas and ERRC Grid, and Assumptions Mapping; plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 68 (28 frameworks, 28 methodologies, 11 models, 1 primer), after the 2026-10-17 retag of the Kano Model from Framework to Model.
+- **Total entries:** 73 core (30 frameworks, 30 methodologies, 12 models, 1 primer), recounted from this file's Type columns after the 2026-10-29 additions of Working Backwards (PR/FAQ) and Marketing Mix (4Ps and 7Ps); plus 5 adjacent entries (1 framework, 4 models) in `adjacent/`, counted separately. Previous total: 71 (29 frameworks, 30 methodologies, 11 models, 1 primer), after the 2026-10-19 additions of Outcome-Driven Innovation (ODI), Strategy Canvas and ERRC Grid, and Assumptions Mapping.
 - **Categories:** 9 workflow categories plus a `concepts/` area for primers and an `adjacent/` area for adjacent disciplines (`adjacent/` added 2026-10-15; Category 8 added 2026-07-12; `concepts/` added 2026-07-22; Category 9 added 2026-07-28; FRAMEWORK-BACKLOG.md and EXTERNAL-REPO-GAP-ANALYSIS.md queues fully built; NEW-SOURCES-GAP-ANALYSIS.md queue is now closed: 6 of 8 candidates built, 2 rejected (Competitive Advantage Moat Test and the PM/PMM Collaboration Maturity Model))
 - **Entries per Category:** 1–12
 - **Cross-listed entries:** 0 (each entry in one category; corrected 2026-07-19: Product Differentiation Strategy Framework was previously listed in both Category 2 and Category 3, it lives only in Category 3)
@@ -195,10 +197,10 @@ Added 2026-10-15. Tools from business strategy and behavioural science that PMMs
 ✅ **Category 1 (Market & Customer Understanding):** 11 entries (`frameworks/01-market-customer-understanding/`)
 ✅ **Category 2 (Positioning & Messaging):** 12 entries (`frameworks/02-positioning-messaging/`)
 ✅ **Category 3 (Competitive Strategy):** 6 entries (`frameworks/03-competitive-strategy/`)
-✅ **Category 4 (Go-to-Market & Launch):** 12 entries (`frameworks/04-go-to-market-launch/`)
+✅ **Category 4 (Go-to-Market & Launch):** 13 entries (`frameworks/04-go-to-market-launch/`)
 ✅ **Category 5 (Lifecycle & Workflow):** 3 entries (`frameworks/05-lifecycle-workflow/`)
 ✅ **Category 6 (Product Experience & Adoption):** 7 entries (`frameworks/06-product-experience-adoption/`)
-✅ **Category 7 (Strategy & Planning):** 7 entries (`frameworks/07-strategy-planning/`)
+✅ **Category 7 (Strategy & Planning):** 8 entries (`frameworks/07-strategy-planning/`)
 ✅ **Category 8 (Pricing & Packaging):** 7 entries (`frameworks/08-pricing-packaging/`)
 ✅ **Category 9 (Sales Enablement):** 5 entries (`frameworks/09-sales-enablement/`)
 ✅ **Concepts (Primers):** 1 entry (`concepts/gtm-strategy-vs-product-marketing.md`)

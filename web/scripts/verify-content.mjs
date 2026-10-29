@@ -10,15 +10,15 @@ const quiz = load("../src/lib/quiz.ts");
 const sections = load("../src/lib/entry-sections.ts");
 const categories = content.getAllCategories();
 const entries = content.getAllEntries();
-// 71 core entries in 10 categories, plus the adjacent-disciplines collection
+// 73 core entries in 10 categories, plus the adjacent-disciplines collection
 // (see CLAUDE.md, "The `adjacent/` area"), which the headline counts exclude.
 const stats = content.getSiteStats();
-assert.equal(stats.totalEntries, 71);
+assert.equal(stats.totalEntries, 73);
 assert.equal(stats.categoryCount, 10);
 assert.equal(stats.adjacentEntries, 5);
-assert.equal(entries.length, 76);
+assert.equal(entries.length, 78);
 assert.equal(categories.length, 11);
-assert.equal(new Set(entries.map((e) => e.slug)).size, 76);
+assert.equal(new Set(entries.map((e) => e.slug)).size, 78);
 // Layout: the loader already throws on a missing or malformed field, a slug
 // that differs from its file name, or a body that does not open with the
 // title. These checks cover what it cannot see from one file at a time.
@@ -160,5 +160,5 @@ checkIndexCounts(indexText, categories);
 checkQuickReference(repoRoot, categories);
 
 console.log(
-  "PASS: 71 core and 5 adjacent entries with valid frontmatter, source credits and quiz files, 380 entry questions, 100 category questions, 15 path questions, and all 12 guide sequences; INDEX.md and quick-reference/ match the entries.",
+  "PASS: 73 core and 5 adjacent entries with valid frontmatter, source credits and quiz files, 390 entry questions, 100 category questions, 15 path questions, and all 12 guide sequences; INDEX.md and quick-reference/ match the entries.",
 );

@@ -10,6 +10,10 @@ Map your current challenge to the frameworks that will help you solve it.
 
 **Apply These Frameworks (In Order):**
 
+Pre-build. **Working Backwards (PR/FAQ)** (`Category 4`); *optional, only while no build work has started*
+   - *Why:* Write the launch press release and FAQ before the product is built, so the build, reshape or stop decision is made on one customer-facing narrative and the launch story is fixed while the product can still change to match it
+   - *Do this before step 0:* Ground the problem paragraph in interview notes, win/loss transcripts or support tickets; the approved press release then seeds step 4's positioning and the external FAQ seeds sales objection handling
+
 0. **Launch Tier Framework** (`Category 4`)
    - *Why:* Classify this launch as Tier 1, 2, or 3 before committing a lead time, headcount, or process depth to the rest of this sequence, so a routine update does not absorb the same cross-functional effort as a major launch, or vice versa
    - *Do this before step 1:* Score revenue impact, cross-functional dependency, external visibility, and customer-facing change magnitude, and attach the matching resourcing template
@@ -70,7 +74,11 @@ Map your current challenge to the frameworks that will help you solve it.
    - *Why:* Build the market-shift narrative arc (change → winners/losers → promised land → obstacles → magic gifts → proof) that a keynote or category-launch deck needs, distinct from the homepage-level story StoryBrand SB7 produces in step 5d
    - *Do this alongside step 6:* Ground the "big change" claim in an independently verifiable source before it goes into any external deck
 
-5g. **Pre-mortem** (`Category 4`); *optional, recommended for Tier 1 launches*
+5g. **Assumptions Mapping** (`Category 4`); *optional, recommended for Tier 1 launches*
+   - *Why:* Rank the launch plan's beliefs about buyer, problem, channel and price by importance and evidence, and test the important, unproven ones with cheap experiments before launch budget is scaled
+   - *Do this once steps 2 to 5 have set the segment, positioning and motion:* Write a Test Card with a success criterion for each top-right assumption, and record every result on a Learning Card
+
+5h. **Pre-mortem** (`Category 4`); *optional, recommended for Tier 1 launches*
    - *Why:* Surface concrete, specific failure risks before the launch ships, ranked by severity and likelihood, with an owner and mitigation assigned to each, rather than discovering them in production
    - *Do this once the launch plan is largely built, before step 6's Launch phase begins:* Run with the full cross-functional launch team, using Klein's silent-brainstorm-first structure
 
@@ -127,6 +135,10 @@ Map your current challenge to the frameworks that will help you solve it.
 2c. **Assumptions Mapping** (`Category 4`); *optional, recommended before the entry plan locks*
    - *Why:* An entry plan rests on beliefs about the new segment's buyer, message, price and channel that the existing playbook has not proven there; map them by importance and evidence and test the important, unproven ones before launch budget is committed
    - *Do this as soon as the bet is named:* Write a Test Card with a success criterion for each top-right assumption, and record every result and decision on a Learning Card
+
+2d. **Marketing Mix (4Ps and 7Ps)** (`Category 7`); *optional, recommended when the entry reuses an existing product*
+   - *Why:* List which of the product, price, place, promotion, people, process and physical evidence decisions change for the new segment and which carry over, so the entry plan is not a new price and a new campaign bolted onto a channel, onboarding and proof built for the old segment
+   - *Do this once step 2 has fixed the target segment:* Mark each cell evidenced or assumed, and route every assumed or changed P to its deeper entry before the plan is signed off
 
 3. **GTM Motion Model** (`Category 4`)
    - *Why:* A new segment or geography can support a different acquisition motion from your core business; check ACV and buyer complexity for the new segment rather than assuming your existing motion carries over

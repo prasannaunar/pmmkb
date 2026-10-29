@@ -1,12 +1,12 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-28 (consent-gated Google Tag Manager and a `/privacy` page; see "Live site"; 2026-10-19: three entries added from the Product Compass template review: Outcome-Driven Innovation (ODI) in Category 1, Strategy Canvas and ERRC Grid in Category 3, Assumptions Mapping in Category 4; 2026-10-17: Kano Model retagged as a Model; 2026-10-15: SEO PR 2: entry `definition` field, JSON-LD and `llms.txt`; the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
+**Last Updated:** 2026-10-29 (two entries added at the owner's request: Working Backwards (PR/FAQ) in Category 4 and Marketing Mix (4Ps and 7Ps) in Category 7; 2026-10-28: consent-gated Google Tag Manager and a `/privacy` page; see "Live site"; 2026-10-19: three entries added from the Product Compass template review: Outcome-Driven Innovation (ODI) in Category 1, Strategy Canvas and ERRC Grid in Category 3, Assumptions Mapping in Category 4; 2026-10-17: Kano Model retagged as a Model; 2026-10-15: SEO PR 2: entry `definition` field, JSON-LD and `llms.txt`; the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
 ## Project Overview
 
-This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 71 entries (29 frameworks, 30 methodologies, 11 models, 1 primer) across 9 categories, plus a `concepts/` area for primers and an `adjacent/` area holding 5 adjacent-discipline entries counted separately (see "The `adjacent/` area"), each with clear applications, real-world examples, and common pitfalls.
+This repository contains a structured, practically-oriented knowledge base of product marketing frameworks and methodologies. It comprises 73 entries (30 frameworks, 30 methodologies, 12 models, 1 primer) across 9 categories, plus a `concepts/` area for primers and an `adjacent/` area holding 5 adjacent-discipline entries counted separately (see "The `adjacent/` area"), each with clear applications, real-world examples, and common pitfalls.
 
 **Primary Use Case:** A reference guide for product marketing professionals to apply proven frameworks to day-to-day challenges; positioning, go-to-market strategy, competitive intelligence, and customer advocacy.
 

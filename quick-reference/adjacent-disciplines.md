@@ -1,6 +1,6 @@
 # Quick Reference: Adjacent Disciplines
 
-Condensed one-page summaries of tools from business strategy and behavioural science that PMMs use to inform decisions other functions own. For full detail, pitfalls and worked examples, see [adjacent/](../adjacent/). Each card names its primary source; full citations are in the entry file. These entries are counted separately from the 71 core entries.
+Condensed one-page summaries of tools from business strategy and behavioural science that PMMs use to inform decisions other functions own. For full detail, pitfalls and worked examples, see [adjacent/](../adjacent/). Each card names its primary source; full citations are in the entry file. These entries are counted separately from the 73 core entries.
 
 ## Contents
 

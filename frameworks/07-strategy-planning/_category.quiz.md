@@ -112,19 +112,19 @@
 
    *Why not D:* MOVE diagnoses revenue-engine motion health; it is not the tool for ensuring a specific competitive-intelligence finding reaches and is understood by the sales team.
 
-9. A company has grown to three product lines and two customer segments over several years, but reporting lines and role scope have not been reassessed in over a year, and scope creep has crept into two existing roles. Which tool addresses this?
-   - **A.** PMM Team Scaling
+9. A mid-market HR software company deliberately moved upmarket last year with a new premium tier and an enterprise campaign, and leadership still backs that choice. Two quarters on, enterprise demos go well, but deals still run through the inside sales team, stall in security review, and new customers wait seven weeks to go live. Which tool should the PMM use to find out why?
+   - **A.** Marketing Mix (7Ps)
    - **B.** Playing to Win Cascade
-   - **C.** MOVE GTM Diagnostic
-   - **D.** Pragmatic Institute
+   - **C.** Quarterly PMM Planning
+   - **D.** MOVE GTM Diagnostic
 
-   **Correct answer: A.** This framework explicitly calls for reviewing team structure quarterly, reassessing reporting lines and role scope, and considering whether a generalist role should split into specialists as the business scales, exactly the gap described.
+   **Correct answer: A.** Results lag on a new tier, no single lever explains why, and the offer wins demos but stalls in security review and onboarding: these are the mix's triggers, and the onboarding and proof signals call for the 7Ps. Laying every lever for this one offer and segment on one page shows the conflicts: an enterprise price sold through an inside sales channel, a mid-market onboarding process and no enterprise proof.
 
-   *Why not B:* The cascade's "capabilities needed" step names what capabilities are required for the chosen strategy, but the ongoing, quarterly reassessment of team structure and role scope itself is this framework's dedicated focus.
+   *Why not B:* This is the near miss: the cascade also tests whether decisions reinforce each other, but at the wrong level. Its choices of where to play and how to win are already made and backed here; the conflict sits in the product, price, place, people, process and proof levers below them, which the mix maps.
 
-   *Why not C:* MOVE diagnoses revenue-engine motion health; it has no bearing on internal PMM team structure or role scope.
+   *Why not C:* Quarterly planning allocates PMM capacity to initiatives once the problem is known. It would schedule fixes without first showing which levers contradict each other for the enterprise segment.
 
-   *Why not D:* The Pragmatic Institute Framework scores Enablement and Business operational boxes; it does not address PMM team structure or reporting lines.
+   *Why not D:* MOVE scores the company's whole revenue engine motion by motion. The trouble here is specific to one offer and segment, since mid-market still performs, so a company-wide diagnostic is the wrong unit of analysis.
 
 10. A company has strong win rates and stable renewal rates, but net revenue retention has plateaued well below the category's best-in-class range, and leadership disagrees on whether the cause is upstream in onboarding or squarely inside the expansion motion itself. Which tool's specific sequencing guidance resolves this kind of disagreement?
     - **A.** MOVE GTM Diagnostic

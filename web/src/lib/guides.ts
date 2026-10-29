@@ -43,6 +43,10 @@ export const challenges: Guide[] = [
       "A proportionate launch plan built on a clear audience and acquisition motion.",
     steps: [
       step(
+        "Working Backwards (PR/FAQ)",
+        "Fix the customer story and the build decision before anything is built.",
+      ),
+      step(
         "Launch Tier Framework (Tier 1/2/3)",
         "Decide the scale of the launch before committing resources.",
       ),
@@ -57,6 +61,10 @@ export const challenges: Guide[] = [
       step(
         "GTM Motion Model",
         "Match the acquisition motion to the buyer and contract value.",
+      ),
+      step(
+        "Assumptions Mapping",
+        "Test the riskiest beliefs in the plan before you scale the launch.",
       ),
       step(
         "Complete GTM Workflow Stages",
