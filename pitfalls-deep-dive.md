@@ -1,6 +1,6 @@
 # Pitfalls Deep Dive
 
-Each of the 71 core entries in this knowledge base (and each of the 5 adjacent entries) includes a Pitfalls section with two or three common mistakes and recovery steps. This document goes deeper on the pitfalls that compound most severely when left unchecked, covering four high-frequency framework areas: STP, positioning, GTM execution, and competitive strategy. It adds cascade effects, early warning signs, and detailed recovery playbooks that the per-entry sections do not have room for.
+Each of the 73 core entries in this knowledge base (and each of the 5 adjacent entries) includes a Pitfalls section with two or three common mistakes and recovery steps. This document goes deeper on the pitfalls that compound most severely when left unchecked, covering four high-frequency framework areas: STP, positioning, GTM execution, and competitive strategy. It adds cascade effects, early warning signs, and detailed recovery playbooks that the per-entry sections do not have room for.
 
 Use this alongside the original entries, not instead of them.
 

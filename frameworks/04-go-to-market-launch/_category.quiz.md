@@ -56,19 +56,19 @@
 
    *Why not D:* The 7-Step framework is a general funnel-based sequencing framework; it has no account-tiering, committee-mapping, or intent-signal practice specific to a field-sales motion.
 
-5. The GTM Motion Model has instead determined that self-serve/PLG is the right motion for a low-ACV, single-decision-maker product. Which methodology is the ongoing practice for running that specific motion well?
-   - **A.** Product-Led Growth (PLG), defining the activation moment and the PQL signals.
-   - **B.** Account-Based Everything (ABX) / TEAM Framework, built for committee-driven deals.
-   - **C.** T2D3 Framework (B2B SaaS), mapping revenue multiples to operational milestones.
-   - **D.** Launch Tier Framework (Tier 1/2/3), sizing an individual launch, not a motion.
+5. A product lead proposes a "customer analytics hub" for next year, with eight engineers pencilled in but not yet committed. Product, engineering and PMM each describe it differently, and nobody can say which customer's problem it solves. Which entry should the PMM run first?
+   - **A.** Working Backwards (PR/FAQ), drafting the launch press release and FAQ first.
+   - **B.** Assumptions Mapping, ranking the plan's beliefs by evidence and testing the riskiest.
+   - **C.** Launch Tier Framework (Tier 1/2/3), sizing the process and lead time it needs.
+   - **D.** Pre-mortem, imagining the launch has failed and listing the specific causes.
 
-   **Correct answer: A.** PLG is the methodology for running the self-serve/PLG motion once the GTM Motion Model has identified it as the fit, covering activation-moment definition, PQL signals, and the in-product upgrade path.
+   **Correct answer: A.** A proposed capability with no committed build, described in features and differently by each function, is the PR/FAQ's trigger. The press release forces one customer-facing story that names the customer and their problem, and the FAQ tests cost and feasibility, so leadership can decide to build, reshape or stop while "stop" is still possible.
 
-   *Why not B:* ABX/TEAM is the structural mirror for the opposite end of the spectrum, field sales; it is built for committee-driven, high-ACV deals, not this low-ACV scenario.
+   *Why not B:* This is the near miss: Assumptions Mapping also tests an idea before money is committed, but it comes later in the sequence. It ranks the beliefs a stated plan rests on, and nobody has stated this plan in a shared form yet; write the PR/FAQ first, then map the beliefs its press release and FAQ make explicit.
 
-   *Why not C:* T2D3 maps revenue-scaling milestones to operational requirements across years; it does not operationalise the day-to-day practice of running a PLG motion.
+   *Why not C:* Tiering sizes how much launch process an approved initiative gets. Applied now, it would size a launch whose customer and scope are still undefined.
 
-   *Why not D:* The Launch Tier Framework classifies how much process an individual launch warrants; it has no bearing on which ongoing practice runs a chosen acquisition motion.
+   *Why not D:* A pre-mortem stress-tests a launch plan that is largely built. Here nothing has been decided about what to build, so there is no plan for the team to imagine failing.
 
 6. A company is about to spend $150,000 on a paid campaign for a Tier 1 launch bundling a pricing change with a major feature repackaging. Planning meetings have produced total consensus with no dissent raised. Which tool should run before this launch ships?
    - **A.** Pre-mortem, surfacing doubts a confident, unanimous plan may be hiding.

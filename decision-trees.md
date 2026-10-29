@@ -31,6 +31,7 @@ What's new?
 ├─ A product or feature
 │   └─ → Situation 1: Launching a New Product (BY-SITUATION.md)
 │      First open: Launch Tier Framework, to size the effort before anything else
+│      (No build work started yet? Open Working Backwards (PR/FAQ) first, to decide whether and what to build)
 │
 ├─ A market, geography, or customer segment
 │   └─ Do you already have a working positioning that might carry over?

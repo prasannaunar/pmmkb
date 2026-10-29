@@ -5,6 +5,7 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 ## Contents
 
 - [Playing to Win (Strategic Choice Cascade)](#playing-to-win-strategic-choice-cascade)
+- [Marketing Mix (4Ps and 7Ps)](#marketing-mix-4ps-and-7ps)
 - [Quarterly PMM Planning Framework](#quarterly-pmm-planning-framework)
 - [Competitive Intelligence & Positioning Update Framework](#competitive-intelligence--positioning-update-framework)
 - [PMM Team Scaling Framework](#pmm-team-scaling-framework)
@@ -44,6 +45,40 @@ Condensed one-page summaries. For full detail, pitfalls, and worked examples, se
 - Explicit sunset of unfocused investments based on the cascade's "where not to play" answer
 
 **Source:** [A.G. Lafley and Roger L. Martin](https://hbr.org/chapters/playing-to-win)
+
+---
+
+## Marketing Mix (4Ps and 7Ps)
+
+**Type:** Model
+
+**Core concept:** A map of every lever set for one offer and segment: E. Jerome McCarthy's 4Ps (product, price, place, promotion), extended by Bernard Booms and Mary Jo Bitner (1981) with people, process and physical evidence for services and SaaS. Read down each P for missing or unproven decisions and across the Ps for one consistent story to one segment. It does not decide any single lever; each P routes to a deeper entry in this knowledge base.
+
+**When to use it:**
+- Planning a new product, tier or segment entry
+- Results lag and no single lever explains why
+- A SaaS offer wins demos but stalls in security review or onboarding (extend to the 7Ps)
+- Entering a new segment or geography with an existing product
+- Onboarding a new PMM or agency to how an offer goes to market
+
+**Key steps:**
+1. Fix the offer and segment first (STP if the segment is unclear).
+2. Product: core offer, whole product and the features that matter to this segment.
+3. Price: price point, value metric and packaging.
+4. Place: motion and acquisition channels.
+5. Promotion: core message, proof points and launch weight.
+6. People, process and physical evidence: who the buyer meets, onboarding steps and time to value, proof seen before purchase.
+7. Put all seven on one page, check every pair against the segment, and name each conflict with an owner and a date.
+8. Set one metric per P and review quarterly.
+
+**Apply it:** Produce a one-page mix for one offer and segment, with each cell marked evidenced or assumed and every conflict named with an owner and a date; route assumed cells to their deeper entry before sign-off.
+
+**Success metrics:**
+- One metric per P (activation rate, win rate at list price, pipeline by channel, message reply rate, time to first value)
+- Win rate in the target segment after the revised mix (Fernhill, a fictional company: enterprise 9% to 22%)
+- Median time to first value (41 to 24 days in the example)
+
+**Source:** [E. Jerome McCarthy](https://openlibrary.org/works/OL35345857W)
 
 ---
 

@@ -1,6 +1,6 @@
 # Sources Explored
 
-**Last Updated:** 2026-10-19 (Product Compass template list reviewed; three entries built; the (R)ICE verdict in the 2026-10-15 review corrected)
+**Last Updated:** 2026-10-29 (Product Compass follow-ups recorded: the Lean Canvas and power-interest grid notes added, and Working Backwards (PR/FAQ) and the Marketing Mix (4Ps and 7Ps) built as core entries at the owner's request; 2026-10-19: Product Compass template list reviewed; three entries built; the (R)ICE verdict in the 2026-10-15 review corrected)
 
 Every external source reviewed for candidate entries, with the verdict on each item. Use it to avoid re-reviewing a source, and to see why something was left out. Candidates and build status are tracked in [PLAN.md](PLAN.md) ("Candidate review: Product Compass template list" and "Candidate review: external template and resource lists"); citations for built entries live in each entry's `**Sources:**` block, with judgement calls recorded in [SOURCE-VALIDATION-LOG.md](SOURCE-VALIDATION-LOG.md).
 
@@ -30,7 +30,7 @@ The JTBD Opportunity Score calculation sheet led to **Outcome-Driven Innovation 
 | Strategy | Product Strategy Canvas; Startup Canvas | Fails bar | A single practitioner's variants; Playing to Win and the Business Model Canvas cover the ground |
 | Strategy | Business Model Canvas; Ansoff Matrix; Porter's Five Forces | Adjacent | Existing entries in `adjacent/` |
 | Strategy | Value Proposition Canvas | Covered | Existing entry (Category 2) |
-| Strategy | Lean Canvas | Covered | A startup variant of the Business Model Canvas (Ash Maurya, 2010); a one-line note in the Business Model Canvas entry is possible, not done |
+| Strategy | Lean Canvas | Covered | A startup variant of the Business Model Canvas (Ash Maurya, 2010). Note added to the Business Model Canvas entry (`adjacent/business-model-canvas.md`) on 2026-10-29, with Maurya's own account cited |
 | Strategy | Value Proposition Template | Fails bar | A newsletter template from Huryn and Aatir Abdul Rauf; covered by the Value Proposition Canvas and the Jobs-to-be-Done Positioning Framework |
 | Strategy | Business Model Portfolio | Out of scope | A leadership and innovation portfolio tool |
 | Strategy | Lean UX Canvas | Out of scope | Product and UX tool |
@@ -44,8 +44,8 @@ The JTBD Opportunity Score calculation sheet led to **Outcome-Driven Innovation 
 | Experimentation | Assumption Prioritization Canvas | Fails bar | Huryn's 2024 variant |
 | Experimentation | Hypothesis Prioritization Canvas (Jeff Gothelf); Strategyzer Test Card; Strategyzer Learning Card | **Built** | Built as part of Assumptions Mapping (Category 4), with David J. Bland's *Testing Business Ideas* as the best-documented version |
 | Other collections | Now-Next-Later Roadmap | Out of scope | Janna Bastow, ProdPad; a product-owned roadmap format |
-| Other collections | 2x2 Stakeholders Map | Covered | The power-interest grid (Mendelow, 1981), a generic project tool; partly covered by Quarterly PMM Planning step 6 and the Launch Tier Framework's stakeholder steps. A fold-in note is possible, not done |
-| Other collections | Free Ultimate PM Kit | Covered / Out of scope | Mostly covered or out of scope; Working Backwards PR/FAQ and the Marketing Mix (4Ps/7Ps) flagged as possible future candidates, not built |
+| Other collections | 2x2 Stakeholders Map | Covered | The power-interest grid (Mendelow, 1981), a generic project tool. Fold-in note added to Quarterly PMM Planning step 6 on 2026-10-29, with Mendelow cited and a GLOSSARY.md pointer ("Power-Interest Matrix") |
+| Other collections | Free Ultimate PM Kit | Covered / Out of scope / Built | Mostly covered or out of scope. Its two flagged candidates were built as core entries at the owner's request on 2026-10-29: **Built**: Working Backwards (PR/FAQ), Category 4, sourced to Werner Vogels and to Colin Bryar and Bill Carr; **Built**: Marketing Mix (4Ps and 7Ps), Category 7, sourced to E. Jerome McCarthy, Neil H. Borden, and Bernard H. Booms and Mary Jo Bitner |
 | Other collections | Product Templates Curriculum by Matt Mochary | Out of scope | A CEO and leadership coaching curriculum |
 | Other collections | Premium Notion Templates | Not reviewed | Paid |
 

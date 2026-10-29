@@ -7,8 +7,8 @@ metadata:
   frameworks: "Launch Tier Framework (Tier 1/2/3); Assumptions Mapping; Go-to-Market Motion Framework; Pre-mortem; 10-Step PMM Process; GTM Motion Model"
   format-spec: "Agent Skills open format, agentskills.io/specification"
   attribution: "See agent-skills/ATTRIBUTION.md"
-  version: "1.1"
-  last-updated: "2026-10-19"
+  version: "1.2"
+  last-updated: "2026-10-29"
 ---
 
 # Launch planning
@@ -21,6 +21,11 @@ Paths below are relative to the knowledge base root. Full entries are in
 `frameworks/04-go-to-market-launch/` (Launch Tier Framework, Assumptions Mapping,
 Pre-mortem) and
 `frameworks/05-lifecycle-workflow/` (Go-to-Market Motion Framework).
+
+If nothing has been built yet and the build decision is still open, this skill
+is too early. Open `frameworks/04-go-to-market-launch/working-backwards-pr-faq.md`
+first: the approved press release and external FAQ become the launch narrative
+and objection-handling input for Step 2.
 
 ## Step 1: Tier the launch
 
