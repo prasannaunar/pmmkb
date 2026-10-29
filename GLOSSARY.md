@@ -90,7 +90,7 @@ Terms are grouped by theme, then alphabetical within each group. See also [BY-SI
 
 ## Cross-Functional & Stakeholder Management
 
-**Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push.
+**Power-Interest Matrix:** A 2x2 stakeholder-mapping tool (power versus interest) used to decide how closely to manage each stakeholder on a cross-functional initiative, such as a Tier 1 launch or a category-creation push. See [Quarterly PMM Planning Framework](frameworks/07-strategy-planning/quarterly-pmm-planning-framework.md) (step 6).
 
 **GROW model (Goal, Reality, Options, Will):** A four-step sales-coaching conversation structure. Sales-manager owned, not a PMM framework; relevant context for [Sales Enablement](frameworks/09-sales-enablement/) work that feeds a coaching programme rather than replaces it.
 
