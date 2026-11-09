@@ -60,7 +60,7 @@ export default async function LearningPathPage({
               <div>
                 <p className="metadata">{s.item.type}</p>
                 <h3>
-                  <Link href={`/framework/${s.item.slug}?path=${guide.slug}`}>
+                  <Link href={`/framework/${s.item.slug}#path=${guide.slug}`}>
                     {s.item.title} →
                   </Link>
                 </h3>

@@ -5,6 +5,7 @@ import { Search } from "@/components/search";
 import { pageMetadata } from "@/lib/seo";
 import { websiteJsonLd } from "@/lib/structured-data";
 import { JsonLd } from "@/components/json-ld";
+import { challenges } from "@/lib/guides";
 
 export function generateMetadata() {
   const { totalEntries } = getSiteStats();
@@ -18,38 +19,6 @@ export function generateMetadata() {
 export default function HomePage() {
   const categories = getAllCategories();
   const { totalEntries, categoryCount, adjacentEntries } = getSiteStats();
-  const challenges = [
-    [
-      "messaging",
-      "Our messaging sounds generic",
-      "Find your differentiation. Turn it into a message buyers understand.",
-    ],
-    [
-      "launch",
-      "We're launching a product",
-      "Decide the scope, choose your motion, and bring the right work together.",
-    ],
-    [
-      "competition",
-      "We keep losing to a competitor",
-      "Understand the loss before rewriting the pitch.",
-    ],
-    [
-      "adoption",
-      "Customers aren't finding value",
-      "Connect your promise to onboarding, adoption and retention.",
-    ],
-    [
-      "pricing",
-      "We need to rethink pricing",
-      "Work through value, willingness to pay and packaging.",
-    ],
-    [
-      "planning",
-      "Too many priorities, too little time",
-      "Turn business goals into focused PMM work.",
-    ],
-  ];
   return (
     <div className="page-shell">
       <JsonLd data={websiteJsonLd()} />
@@ -98,17 +67,17 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="challenge-grid">
-          {challenges.map(([slug, title, description]) => (
+          {challenges.map((g) => (
             <Link
               className="challenge-link"
-              key={slug}
-              href={`/challenges/${slug}`}
+              key={g.slug}
+              href={`/challenges/${g.slug}`}
             >
               <h3>
-                {title}
+                {g.title}
                 <span aria-hidden="true">↗</span>
               </h3>
-              <p>{description}</p>
+              <p>{g.teaser ?? g.description}</p>
             </Link>
           ))}
         </div>

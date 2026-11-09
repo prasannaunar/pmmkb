@@ -6,6 +6,9 @@ import { BackToTop } from "@/components/back-to-top";
 import { ConsentBanner, CookieSettingsButton } from "@/components/analytics";
 import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
+import { TYPE_SLUGS, getAllCategories } from "@/lib/content";
+import { cleanTitle } from "@/lib/editorial";
+import { pluralType } from "@/lib/plural";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -80,6 +83,33 @@ export default function RootLayout({
             </Link>
             <p>A field guide for product marketing practice.</p>
           </div>
+          <nav className="footer-nav" aria-label="Library">
+            <div>
+              <p className="footer-heading">Topics</p>
+              <ul>
+                {getAllCategories().map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/category/${c.slug}`}>
+                      {cleanTitle(c.title)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="footer-heading">Kinds of guide</p>
+              <ul>
+                {Object.entries(TYPE_SLUGS).map(([type, slug]) => (
+                  <li key={slug}>
+                    <Link href={`/type/${slug}`}>{pluralType(type, 2)}</Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/challenges">Challenges</Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
           <div>
             <p>
               Built on the work of the named originators.

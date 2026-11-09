@@ -1,7 +1,12 @@
 import Link from "next/link";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { getAllEntries, getEntryBySlug, markdownToHtml } from "@/lib/content";
+import {
+  TYPE_SLUGS,
+  getAllEntries,
+  getCategoryBySlug,
+  getEntryBySlug,
+  markdownToHtml,
+} from "@/lib/content";
 import {
   extractSpecialSections,
   formatCredits,
@@ -104,6 +109,12 @@ export default async function FrameworkPage({
       (r) =>
         r.slug && /after|next|turn|build|reinforce/i.test(r.guidance || ""),
     ) || related.find((r) => r.slug);
+  // Previous and next within the category's workflow sequence (`order`).
+  const siblings = getCategoryBySlug(entry.categorySlug)?.entries ?? [];
+  const index = siblings.findIndex((e) => e.slug === slug);
+  const previousInCategory = index > 0 ? siblings[index - 1] : undefined;
+  const nextInCategory =
+    index >= 0 && index + 1 < siblings.length ? siblings[index + 1] : undefined;
   const reviewId =
     headings.find((h) => /apply|run|read/.test(h.id))?.id ||
     headings[0]?.id ||
@@ -111,6 +122,18 @@ export default async function FrameworkPage({
   return (
     <div className="page-shell article-shell">
       <JsonLd data={entryJsonLd(entry, sourceCredits, sourcesMarkdown)} />
+      {/* Targets for the #path=<guide> fragment PathContext reads, so a
+          learning-path link lands at the top of the page instead of keeping
+          the previous page's scroll offset (Next.js leaves the scroll alone
+          when a fragment has no matching element). */}
+      {paths.map((p) => (
+        <span
+          key={p.slug}
+          id={`path=${p.slug}`}
+          className="path-anchor"
+          aria-hidden="true"
+        />
+      ))}
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/topics">Explore topics</Link>
         <span>/</span>
@@ -123,7 +146,13 @@ export default async function FrameworkPage({
         <div className="article-body">
           <header className="page-intro">
             <p className="eyebrow">
-              {entry.type} ·{" "}
+              <Link
+                className="eyebrow-link"
+                href={`/type/${TYPE_SLUGS[entry.type]}`}
+              >
+                {entry.type}
+              </Link>{" "}
+              ·{" "}
               {Math.max(
                 1,
                 Math.ceil(plainText(body).split(/\s+/).length / 220),
@@ -248,9 +277,36 @@ export default async function FrameworkPage({
               <EntrySources markdown={sourcesMarkdown} />
             </div>
           )}
-          <Suspense fallback={null}>
-            <PathContext paths={paths} />
-          </Suspense>
+          <PathContext key={slug} entrySlug={slug} paths={paths} />
+          {(previousInCategory || nextInCategory) && (
+            <nav
+              className="entry-pager"
+              aria-label={`More in ${cleanTitle(entry.categoryTitle)}`}
+            >
+              {previousInCategory && (
+                <Link
+                  className="entry-pager-previous"
+                  href={`/framework/${previousInCategory.slug}`}
+                >
+                  <span className="metadata">
+                    Previous in {cleanTitle(entry.categoryTitle)}
+                  </span>
+                  <span>← {previousInCategory.title}</span>
+                </Link>
+              )}
+              {nextInCategory && (
+                <Link
+                  className="entry-pager-next"
+                  href={`/framework/${nextInCategory.slug}`}
+                >
+                  <span className="metadata">
+                    Next in {cleanTitle(entry.categoryTitle)}
+                  </span>
+                  <span>{nextInCategory.title} →</span>
+                </Link>
+              )}
+            </nav>
+          )}
           <p className="source-note">
             <Link href={`/category/${entry.categorySlug}`}>
               ← All entries in {cleanTitle(entry.categoryTitle)}

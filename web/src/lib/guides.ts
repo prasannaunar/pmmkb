@@ -8,6 +8,8 @@ export interface Guide {
   slug: string;
   title: string;
   description: string;
+  /** Short card copy for the homepage; falls back to `description`. */
+  teaser?: string;
   outcome: string;
   steps: GuideStep[];
 }
@@ -18,6 +20,8 @@ export const challenges: Guide[] = [
     title: "Our messaging sounds generic",
     description:
       "Work back from the message to the customer, competitive alternative and value it should express.",
+    teaser:
+      "Find your differentiation. Turn it into a message buyers understand.",
     outcome: "A differentiated message supported by customer evidence.",
     steps: [
       step(
@@ -39,6 +43,8 @@ export const challenges: Guide[] = [
     title: "We're launching a product",
     description:
       "Make the key launch decisions in a deliberate order. Add specialist methods as your launch requires them.",
+    teaser:
+      "Decide the scope, choose your motion, and bring the right work together.",
     outcome:
       "A proportionate launch plan built on a clear audience and acquisition motion.",
     steps: [
@@ -81,6 +87,7 @@ export const challenges: Guide[] = [
     title: "We keep losing to a competitor",
     description:
       "Find out what is happening in buyers' decisions, then turn the evidence into useful guidance.",
+    teaser: "Understand the loss before rewriting the pitch.",
     outcome:
       "A response to the real causes of losses, with practical help for sales.",
     steps: [
@@ -107,6 +114,7 @@ export const challenges: Guide[] = [
     title: "Customers aren't finding value",
     description:
       "Trace where the customer promise breaks down, then focus on the behaviour that delivers value.",
+    teaser: "Connect your promise to onboarding, adoption and retention.",
     outcome:
       "A focused plan for helping customers reach and repeat a meaningful value moment.",
     steps: [
@@ -133,6 +141,7 @@ export const challenges: Guide[] = [
     title: "We need to rethink pricing",
     description:
       "Begin with the value customers receive, then choose the research method for the decision you need to make.",
+    teaser: "Work through value, willingness to pay and packaging.",
     outcome: "A value-based pricing hypothesis and a research plan to test it.",
     steps: [
       step(
@@ -158,6 +167,7 @@ export const challenges: Guide[] = [
     title: "Too many priorities, too little time",
     description:
       "Make the strategic choices explicit, then translate them into work the team can realistically deliver.",
+    teaser: "Turn business goals into focused PMM work.",
     outcome: "A quarter of focused PMM priorities with ownership and measures.",
     steps: [
       step(
@@ -179,6 +189,7 @@ export const challenges: Guide[] = [
     title: "We're entering a new market",
     description:
       "Validate the audience and buying context before carrying your current positioning into a new segment.",
+    teaser: "Validate the audience before carrying your positioning across.",
     outcome:
       "An evidence-based target segment and a positioning hypothesis to validate.",
     steps: [
@@ -205,6 +216,7 @@ export const challenges: Guide[] = [
     title: "We want to build customer advocacy",
     description:
       "Start with the experience and the relationship before asking customers to recommend you.",
+    teaser: "Earn the relationship before asking customers to recommend you.",
     outcome: "A more deliberate approach to customer feedback and advocacy.",
     steps: [
       step(
@@ -226,6 +238,7 @@ export const challenges: Guide[] = [
     title: "Sales needs more useful support",
     description:
       "Diagnose the gap between the material you produce and the help buyers and reps actually need.",
+    teaser: "Give reps the help buyers actually need, not more material.",
     outcome:
       "Enablement priorities grounded in sales needs and the buying journey.",
     steps: [
