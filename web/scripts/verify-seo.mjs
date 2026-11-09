@@ -3,7 +3,7 @@
  * ("Web app: SEO / GEO / AEO") promises: one h1, a unique title and meta
  * description, a canonical URL on the www origin, Open Graph and Twitter tags,
  * a sitemap listing exactly the indexable pages, and a robots.txt that points
- * at it, schema.org JSON-LD on the home, category, type and entry pages, and
+ * at it with a lastmod on every entry URL, schema.org JSON-LD on the home, category, type and entry pages, and
  * an llms.txt and llms-full.txt that cover every entry. Reads the static
  * export, so run it after the build.
  *
@@ -125,6 +125,15 @@ function checkUrls(node, at, key = "") {
       `${at}: JSON-LD ${key} should be on ${SITE_URL}, got ${node}`,
     );
 }
+// A real YYYY-MM-DD calendar date no later than today (from the `updated`
+// frontmatter; see CLAUDE.md, "Entry file format").
+const TODAY = new Date().toISOString().slice(0, 10);
+const isIsoDate = (value) =>
+  typeof value === "string" &&
+  /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+  new Date(`${value}T00:00:00Z`).toISOString().slice(0, 10) === value &&
+  value <= TODAY;
+const articleDates = new Map(); // route -> Article dateModified
 let jsonLdPages = 0;
 for (const [route, html] of pages) {
   const at = `page ${route}`;
@@ -180,6 +189,8 @@ for (const [route, html] of pages) {
     assert.equal(article.description, decode(meta(html, "name", "description")), `${at}: Article description`);
     assert.ok(article.headline && article.abstract, `${at}: Article needs headline and abstract`);
     assert.equal(article.author?.url, AUTHOR_URL, `${at}: Article author`);
+    assert.ok(isIsoDate(article.dateModified), `${at}: Article needs dateModified as YYYY-MM-DD`);
+    articleDates.set(route, article.dateModified);
     assert.ok(article.creditText, `${at}: Article creditText from the Sources credits`);
     assert.ok(article.citation.length > 0, `${at}: Article needs at least one citation`);
     for (const c of article.citation)
@@ -226,6 +237,25 @@ assert.deepEqual(
   "sitemap.xml should list every page except /search, and nothing else",
 );
 
+// lastmod: every entry URL carries its `updated` date, matching the Article's
+// dateModified; any other lastmod must also be a valid date.
+const lastmods = new Map(
+  [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g)].map((m) => [
+    m[1].slice(SITE_URL.length),
+    m[2].match(/<lastmod>([^<]+)<\/lastmod>/)?.[1],
+  ]),
+);
+assert.equal(lastmods.size, listed.length, "sitemap.xml: could not read every <url> block");
+for (const [route, lastmod] of lastmods) {
+  if (route.startsWith("/framework/")) {
+    assert.ok(lastmod, `sitemap.xml: ${route} needs a lastmod`);
+    assert.equal(lastmod, articleDates.get(route), `sitemap.xml: ${route} lastmod should match the Article dateModified`);
+  }
+  if (lastmod !== undefined)
+    assert.ok(isIsoDate(lastmod), `sitemap.xml: ${route} lastmod "${lastmod}" is not a valid YYYY-MM-DD date`);
+}
+const datedUrls = [...lastmods.values()].filter(Boolean).length;
+
 const robots = fs.readFileSync(path.join(OUT, "robots.txt"), "utf8");
 assert.ok(
   robots.includes(`Sitemap: ${SITE_URL}/sitemap.xml`),
@@ -234,5 +264,5 @@ assert.ok(
 assert.ok(fs.existsSync(path.join(OUT, "og-default.png")), "og-default.png missing from the export");
 
 console.log(
-  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; JSON-LD valid on ${jsonLdPages} pages; llms.txt, llms-full.txt and "Edit on GitHub" links cover all ${entryRoutes.length} entries; sitemap lists ${listed.length} URLs; robots.txt points at it.`,
+  `PASS: ${pages.size} pages with one h1, unique title and description, canonical and social tags; JSON-LD valid on ${jsonLdPages} pages; llms.txt, llms-full.txt and "Edit on GitHub" links cover all ${entryRoutes.length} entries; sitemap lists ${listed.length} URLs, ${datedUrls} with a lastmod; robots.txt points at it.`,
 );

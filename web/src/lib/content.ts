@@ -47,6 +47,9 @@ export interface Entry {
   /** One-sentence "X is Y" definition shown at the top of the entry page and
    * in llms.txt, so readers and answer engines get the definition first. */
   definition: string;
+  /** Date of the last substantive change to the entry or its quiz, as
+   * YYYY-MM-DD. Feeds the sitemap's lastmod and the Article's dateModified. */
+  updated: string;
   /** Repo-relative path of the entry's markdown file. */
   filePath: string;
   /** The entry body: no frontmatter, no title heading, no quiz. */
@@ -103,6 +106,40 @@ function requireNumber(
   if (typeof value !== "number" || !Number.isFinite(value))
     fail(file, `frontmatter needs a numeric "${key}"`);
   return value;
+}
+
+/** An ISO calendar date (YYYY-MM-DD). YAML reads an unquoted date as a Date
+ * object, so accept both forms and return the string. */
+function requireDate(
+  data: Record<string, unknown>,
+  key: string,
+  file: string,
+): string {
+  const value = data[key];
+  const text =
+    value instanceof Date && !Number.isNaN(value.getTime())
+      ? value.toISOString().slice(0, 10)
+      : typeof value === "string"
+        ? value.trim()
+        : "";
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(text))
+    fail(file, `frontmatter needs "${key}" as a YYYY-MM-DD date`);
+  const parsed = new Date(`${text}T00:00:00Z`);
+  if (
+    Number.isNaN(parsed.getTime()) ||
+    parsed.toISOString().slice(0, 10) !== text
+  )
+    fail(file, `"${key}" is not a real calendar date: ${text}`);
+  return text;
+}
+
+/** The most recent `updated` date among the given entries (ISO dates sort
+ * as strings), or undefined for an empty list. */
+export function latestUpdated(entries: readonly Entry[]): string | undefined {
+  return entries.reduce<string | undefined>(
+    (latest, e) => (latest === undefined || e.updated > latest ? e.updated : latest),
+    undefined,
+  );
 }
 
 function readIfPresent(absolutePath: string): string | null {
@@ -172,6 +209,7 @@ function loadEntry(
     produces: requireString(data, "produces", filePath),
     description: requireString(data, "description", filePath),
     definition: requireString(data, "definition", filePath),
+    updated: requireDate(data, "updated", filePath),
     filePath,
     rawMarkdown: content.slice(heading[0].length).trim(),
     quizMarkdown: readQuiz(

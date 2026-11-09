@@ -1,6 +1,6 @@
 # CLAUDE.md: Working Principles for PMM Knowledge Base Development
 
-**Last Updated:** 2026-10-29 (two entries added at the owner's request: Working Backwards (PR/FAQ) in Category 4 and Marketing Mix (4Ps and 7Ps) in Category 7; 2026-10-28: consent-gated Google Tag Manager and a `/privacy` page; see "Live site"; 2026-10-19: three entries added from the Product Compass template review: Outcome-Driven Innovation (ODI) in Category 1, Strategy Canvas and ERRC Grid in Category 3, Assumptions Mapping in Category 4; 2026-10-17: Kano Model retagged as a Model; 2026-10-15: SEO PR 2: entry `definition` field, JSON-LD and `llms.txt`; the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
+**Last Updated:** 2026-11-09 (SEO PR 3: required entry `updated` frontmatter date, backfilled from git history, feeding the sitemap's lastmod and the Article's `dateModified`; see "Entry file format"; 2026-10-29: two entries added at the owner's request: Working Backwards (PR/FAQ) in Category 4 and Marketing Mix (4Ps and 7Ps) in Category 7; 2026-10-28: consent-gated Google Tag Manager and a `/privacy` page; see "Live site"; 2026-10-19: three entries added from the Product Compass template review: Outcome-Driven Innovation (ODI) in Category 1, Strategy Canvas and ERRC Grid in Category 3, Assumptions Mapping in Category 4; 2026-10-17: Kano Model retagged as a Model; 2026-10-15: SEO PR 2: entry `definition` field, JSON-LD and `llms.txt`; the `adjacent/` area for adjacent disciplines, with its own inclusion test; TAM/SAM/SOM Market Sizing and Concept Testing added to Category 1; SOURCES-EXPLORED.md; 2026-10-10: dark mode and a theme toggle in the site header; 2026-10-09: entry `description` field; SEO PR 1 shipped on-page metadata, sitemap and a footer link to the owner's site; see "Live site")
 
 ---
 
@@ -269,6 +269,7 @@ use_when: "You need to connect what your product offers to a specific customer's
 produces: "A map of customer needs and the value your product delivers."
 description: "Map your product's value against one customer segment's jobs, pains and gains with Alexander Osterwalder's canvas, then check where the two fit."
 definition: "The Value Proposition Canvas is a framework co-created by Alexander Osterwalder that maps what a product offers against one customer segment's jobs, pains and gains."
+updated: "2026-10-15"
 ---
 
 # Value Proposition Canvas
@@ -286,12 +287,13 @@ definition: "The Value Proposition Canvas is a framework co-created by Alexander
 | `produces` | One short phrase naming what applying the entry gives you. Shown on category pages. |
 | `description` | The meta description search engines and link previews show. One complete sentence, 50 to 160 characters, ending in a full stop, unique across entries. Say what the entry is and who or what it comes from. Hand-written, not the first sentence of "What it is", which is usually too long. |
 | `definition` | The entry's definition, shown as the lede at the top of the entry page, in `llms.txt` and in the page's structured data. One "X is Y" sentence, 60 to 220 characters, ending in a full stop, unique across entries, with no em dashes. State only what the entry body already says and cites. |
+| `updated` | The date of the last substantive change to the entry or its quiz, written `"YYYY-MM-DD"`. Update it in the same commit as the change; it feeds the sitemap's `lastmod` and the Article's `dateModified` in the page's structured data, and listing pages take the latest date among their entries. Do not bump it for typo-only or formatting-only edits. Must be a real date, not in the future. |
 
 The Sources credits line stays on the `**Sources:**` label in the body (see "Sources block (citation standard)"), not in the frontmatter, so there is one place to edit it.
 
 `_category.md` carries `title` (without a "Category N:" prefix), `slug` (the folder name, except `concepts/`, whose slug is `concepts-primers`), `number` and `intro` (the one-line category description). Both quiz files open with a `# ` heading for readers on GitHub and then the numbered questions.
 
-The web app finds every category folder and entry file at build time, so adding or changing a file needs no code change, and each merge to `main` publishes it. `npm run test:content` in `web/` fails, naming the file, when frontmatter is missing or malformed, a slug differs from its file name, an `order` repeats, a quiz file has no entry, or an entry has no quiz.
+The web app finds every category folder and entry file at build time, so adding or changing a file needs no code change, and each merge to `main` publishes it. `npm run test:content` in `web/` fails, naming the file, when frontmatter is missing or malformed (including an `updated` that is not a real `YYYY-MM-DD` date or is in the future), a slug differs from its file name, an `order` repeats, a quiz file has no entry, or an entry has no quiz.
 
 ### The `adjacent/` area
 
