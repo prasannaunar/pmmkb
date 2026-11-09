@@ -208,7 +208,7 @@ Follow-up: delete the three unused layout components listed above. ✅ Done 2026
 
 Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, not required). The build has no reliable date source; Vercel builds use a shallow git clone. Resolved in PR 3 for `dateModified` by the `updated` frontmatter field; `datePublished` stays out.
 
-**PR 3: crawl discovery (2026-11-09)**
+**PR 3: crawl discovery ✅ Built (2026-11-09)**
 
 Search Console's coverage report on 2026-11-09, 11 days after the sitemap was submitted, showed four statuses:
 
@@ -219,9 +219,9 @@ Search Console's coverage report on 2026-11-09, 11 days after the sitemap was su
 | Page with redirect | 3 | `https://pmmkb.com/`, `http://www.pmmkb.com/`, `http://pmmkb.com/`: Vercel domain redirects (308) to `https://www`. `http://pmmkb.com/` takes two hops. | Expected; no action |
 | Crawled, currently not indexed | 1 | `/framework/10-step-pmm-process`: overlaps heavily with `7-step-product-marketing-framework`, one source, in no challenge or learning path. | Watch; editorial pass if still excluded in 4 weeks |
 
-- [ ] `updated` frontmatter field (YYYY-MM-DD) on every entry, backfilled from git history, checked by `test:content`; feeds sitemap `lastmod` (entries, plus the latest of their entries for category, type, challenge, path, home and topics pages) and `Article.dateModified`.
-- [ ] Internal links: type link and previous/next links (category workflow order) on every entry page; all 9 challenges on the homepage, generated from `guides.ts`; category links in the site footer.
-- [ ] Learning-path steps link to the plain entry URL; the path context no longer travels in a `?path=` query (old `?path=` links still work).
+- [x] `updated` frontmatter field (YYYY-MM-DD) on every entry, backfilled from git history, checked by `test:content`; feeds sitemap `lastmod` (entries, plus the latest of their entries for category, type, challenge, path, home and topics pages) and `Article.dateModified`.
+- [x] Internal links: type link and previous/next links (category workflow order) on every entry page; all 9 challenges on the homepage, generated from `guides.ts`; category links in the site footer.
+- [x] Learning-path steps link to the plain entry URL; the path context no longer travels in a `?path=` query (old `?path=` links still work).
 - [ ] Owner, after deploy: URL Inspection "Request indexing" on the category and type pages; "Validate fix" on the "Discovered" group; re-check coverage around 2026-12-07.
 - [ ] If `10-step-pmm-process` is still not indexed on re-check: sharpen what separates it from the 7-step entry (stage and scale in title, definition and "When to use it"), add a second source, and add it to the `launch-with-confidence` path.
 
