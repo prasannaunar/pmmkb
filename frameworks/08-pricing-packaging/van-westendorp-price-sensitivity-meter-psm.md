@@ -7,6 +7,7 @@ use_when: "You need to explore the price range buyers perceive as acceptable."
 produces: "A survey-based view of price perception."
 description: "Peter van Westendorp's four-question survey finds the range of prices customers will accept, without asking them to name a single 'right' price."
 definition: "The Van Westendorp Price Sensitivity Meter is a survey method, presented by Peter van Westendorp in 1976, that finds the range of prices customers will accept using four price questions."
+updated: "2026-10-15"
 ---
 
 # Van Westendorp Price Sensitivity Meter (PSM)

@@ -7,6 +7,7 @@ use_when: "You need checkpoints from market validation through launch, growth an
 produces: "A phased go-to-market plan with decision gates."
 description: "A five-phase roadmap (Foundation, Launch, Scale, Optimise, Expand) with timelines, owners, deliverables and success criteria for each go-to-market stage."
 definition: "Complete GTM Workflow Stages is an end-to-end roadmap that sequences go-to-market work across five phases, Foundation, Launch, Scale, Optimise and Expand, with explicit entry and exit criteria."
+updated: "2026-10-15"
 ---
 
 # Complete GTM Workflow Stages

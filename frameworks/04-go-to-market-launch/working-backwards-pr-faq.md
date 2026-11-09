@@ -7,6 +7,7 @@ use_when: "You need to fix the customer-facing story and test whether an idea is
 produces: "A draft press release and FAQ that set the launch narrative and a build decision."
 description: "Amazon's Working Backwards method: write the launch press release and FAQ before building, so the customer story is fixed first."
 definition: "Working Backwards (PR/FAQ) is Amazon's product definition framework in which a team writes the launch press release and a set of FAQs before building, then works back from them to decide what to build."
+updated: "2026-10-29"
 ---
 
 # Working Backwards (PR/FAQ)

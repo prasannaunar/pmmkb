@@ -162,6 +162,9 @@ export function entryJsonLd(
         abstract: entry.definition,
         articleSection: cleanTitle(entry.categoryTitle),
         genre: entry.type,
+        // From the entry's `updated` frontmatter. No datePublished: the
+        // repository has no reliable first-publication date per entry.
+        dateModified: entry.updated,
         inLanguage: "en-GB",
         isPartOf: websiteRef,
         // The site's maker wrote this summary; the originators are credited

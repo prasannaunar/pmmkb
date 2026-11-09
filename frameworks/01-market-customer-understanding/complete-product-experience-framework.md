@@ -7,6 +7,7 @@ use_when: "Your customer experience is not living up to your marketing promise."
 produces: "A view of gaps across the complete customer experience."
 description: "A seven-touchpoint framework for checking that your positioning holds across marketing, sales, product, integrations and support, not just in messaging."
 definition: "The Complete Product Experience Framework is a seven-touchpoint framework that checks your positioning is reinforced consistently across every customer interaction, from marketing to support."
+updated: "2026-10-17"
 ---
 
 # Complete Product Experience Framework

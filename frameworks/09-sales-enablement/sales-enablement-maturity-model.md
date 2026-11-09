@@ -7,6 +7,7 @@ use_when: "You need to diagnose enablement gaps before producing more sales coll
 produces: "A maturity assessment and focused enablement priorities."
 description: "A four-stage model, starting at Ad Hoc, that diagnoses how mature your sales enablement function is and what to build next."
 definition: "The Sales Enablement Maturity Model is a four-stage model, from Ad Hoc through Organised and Optimised to Transformative, for diagnosing how mature a sales enablement function is."
+updated: "2026-10-15"
 ---
 
 # Sales Enablement Maturity Model

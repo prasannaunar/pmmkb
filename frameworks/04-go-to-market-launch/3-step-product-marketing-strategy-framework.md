@@ -7,6 +7,7 @@ use_when: "A small team needs a focused approach to customer understanding, posi
 produces: "A lightweight product marketing plan."
 description: "A lean approach for early-stage teams built on three pillars: understand the customer's problem, articulate your unique value, and execute a focused plan."
 definition: "The 3-Step Product Marketing Strategy Framework is a simplified approach for early-stage teams, built on understanding the customer's problem, articulating unique value and executing a focused plan."
+updated: "2026-10-15"
 ---
 
 # 3-Step Product Marketing Strategy Framework

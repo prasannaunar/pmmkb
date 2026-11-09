@@ -206,7 +206,24 @@ Follow-up: delete the three unused layout components listed above. ✅ Done 2026
 - [x] A visible definition sentence at the top of each entry page, from a new hand-written `definition` frontmatter field on all 73 entries (60 to 220 characters, one "X is Y" sentence, checked by `test:content`). It replaces the lede that repeated the "What you will work towards" line. The existing credits line now reads "Summarised from [originators] · View sources".
 - [x] `test:seo` now checks the JSON-LD on 89 pages (valid JSON, the expected types, every URL on `SITE_URL`, breadcrumbs ending at the page, `ItemList` links that resolve, an `Article` with citations and credits) and that `llms.txt` and `llms-full.txt` cover every entry.
 
-Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, not required). The build has no reliable date source; Vercel builds use a shallow git clone.
+Not added: `datePublished`/`dateModified` on `Article` (recommended by Google, not required). The build has no reliable date source; Vercel builds use a shallow git clone. Resolved in PR 3 for `dateModified` by the `updated` frontmatter field; `datePublished` stays out.
+
+**PR 3: crawl discovery ✅ Built (2026-11-09)**
+
+Search Console's coverage report on 2026-11-09, 11 days after the sitemap was submitted, showed four statuses:
+
+| Status | URLs | Cause | Verdict |
+|---|---|---|---|
+| Discovered, currently not indexed | 26 | Known from the sitemap, not yet crawled: 7 category pages, 3 challenges, 3 type pages, 13 entries. Weak signals: no `lastmod` in the sitemap, type pages linked only from `/topics`, 3 of 9 challenges missing from the homepage, most of these entries reachable only through their category page. | Fix (this PR) |
+| Alternative page with proper canonical tag | 3 | Learning-path links to `/framework/<slug>?path=<guide>`; the canonical strips the query and the HTML is identical. | Correct behaviour; links tidied in this PR |
+| Page with redirect | 3 | `https://pmmkb.com/`, `http://www.pmmkb.com/`, `http://pmmkb.com/`: Vercel domain redirects (308) to `https://www`. `http://pmmkb.com/` takes two hops. | Expected; no action |
+| Crawled, currently not indexed | 1 | `/framework/10-step-pmm-process`: overlaps heavily with `7-step-product-marketing-framework`, one source, in no challenge or learning path. | Watch; editorial pass if still excluded in 4 weeks |
+
+- [x] `updated` frontmatter field (YYYY-MM-DD) on every entry, backfilled from git history, checked by `test:content`; feeds sitemap `lastmod` (entries, plus the latest of their entries for category, type, challenge, path, home and topics pages) and `Article.dateModified`.
+- [x] Internal links: type link and previous/next links (category workflow order) on every entry page; all 9 challenges on the homepage, generated from `guides.ts`; a site-wide footer with three link columns: every category, every type page, and every challenge (the footer stacks below 1000px).
+- [x] Learning-path steps link to the plain entry URL; the path context no longer travels in a `?path=` query (old `?path=` links still work).
+- [ ] Owner, after deploy: URL Inspection "Request indexing" on the category and type pages; "Validate fix" on the "Discovered" group; re-check coverage around 2026-12-07.
+- [ ] If `10-step-pmm-process` is still not indexed on re-check: sharpen what separates it from the 7-step entry (stage and scale in title, definition and "When to use it"), add a second source, and add it to the `launch-with-confidence` path.
 
 **Explicitly out of scope:** URL restructuring (`/framework/[slug]` for all types), analytics, and any paid tooling.
 

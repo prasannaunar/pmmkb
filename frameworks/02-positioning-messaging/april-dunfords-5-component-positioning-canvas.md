@@ -7,6 +7,7 @@ use_when: "You need to connect competitive alternatives, differentiated attribut
 produces: "A canvas explaining why your product wins with its best-fit customers."
 description: "April Dunford's five-component canvas links your competitive set, unique attributes and best-fit segment to a compelling reason to buy."
 definition: "April Dunford's 5-Component Positioning Canvas is a positioning framework built from the competitive set, unique attributes, relative weighting, market segment and compelling reason to buy."
+updated: "2026-10-15"
 ---
 
 # April Dunford's 5-Component Positioning Canvas

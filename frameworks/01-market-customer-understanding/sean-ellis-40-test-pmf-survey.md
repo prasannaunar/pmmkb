@@ -7,6 +7,7 @@ use_when: "You need to assess how strongly a customer segment depends on your pr
 produces: "A segment-level signal of product-market fit."
 description: "A one-question survey from Sean Ellis that gives an early, standardised read on product-market fit, scored against a 40% 'very disappointed' benchmark."
 definition: "The Sean Ellis 40% Test is a single-question survey that gives an early, standardised read on product-market fit by asking active users how they would feel if they lost the product."
+updated: "2026-10-15"
 ---
 
 # Sean Ellis 40% Test (PMF Survey)

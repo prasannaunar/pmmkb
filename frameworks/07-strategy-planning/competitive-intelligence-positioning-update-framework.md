@@ -7,6 +7,7 @@ use_when: "Your competitive knowledge and positioning need a regular review and 
 produces: "A repeatable intelligence-to-positioning feedback loop."
 description: "An ongoing competitive intelligence process of monthly scans, quarterly deep dives and annual refreshes that keeps positioning and messaging current."
 definition: "The Competitive Intelligence & Positioning Update Framework is an ongoing process for monitoring competitors and updating positioning and messaging on a monthly, quarterly and annual rhythm."
+updated: "2026-10-15"
 ---
 
 # Competitive Intelligence & Positioning Update Framework

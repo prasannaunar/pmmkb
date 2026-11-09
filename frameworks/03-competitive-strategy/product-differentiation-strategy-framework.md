@@ -7,6 +7,7 @@ use_when: "You need to identify differences that matter to buyers in a crowded m
 produces: "A defensible basis for differentiation."
 description: "Identify what makes your product uniquely valuable to buyers, then build it into how you design, position and sell instead of competing mainly on price."
 definition: "The Product Differentiation Strategy Framework is a structured approach to identifying what makes a product uniquely valuable and embedding that difference in how it is built, positioned and sold."
+updated: "2026-10-19"
 ---
 
 # Product Differentiation Strategy Framework

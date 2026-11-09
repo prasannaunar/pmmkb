@@ -7,6 +7,7 @@ use_when: "Sales needs a practical way to recognise and prioritise best-fit acco
 produces: "An evidence-based ideal customer profile and account-fit criteria."
 description: "Build a scored, evidence-based Ideal Customer Profile from firmographic, technographic and behavioural data, so sales knows which accounts to pursue."
 definition: "The ICP Development Methodology is a repeatable practice for building a scored, evidence-based Ideal Customer Profile from firmographic, technographic and behavioural data."
+updated: "2026-10-15"
 ---
 
 # ICP Development Methodology

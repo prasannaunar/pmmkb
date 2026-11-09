@@ -7,6 +7,7 @@ use_when: "A larger PMM team needs consistency across products, regions and conc
 produces: "A repeatable process for product marketing execution."
 description: "A detailed 10-step operational workflow for larger PMM teams, covering positioning, messaging, enablement and measurement, with checkpoints for feedback."
 definition: "The 10-Step PMM Process is an operational workflow that breaks product marketing into discrete, repeatable work streams for larger teams with specialised roles."
+updated: "2026-10-15"
 ---
 
 # 10-Step PMM Process

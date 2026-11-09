@@ -7,6 +7,7 @@ use_when: "You need to develop a more systematic approach to customer advocacy."
 produces: "An assessment of advocacy maturity and next steps."
 description: "A four-stage ladder for building a proactive customer advocacy practice, adapted from Forrester's maturity research, instead of ad hoc case study requests."
 definition: "The Forrester Customer Advocacy Model is a four-stage ladder, adapted from Forrester Research's advocacy maturity research, for building a proactive customer advocacy practice."
+updated: "2026-10-15"
 ---
 
 # Forrester Customer Advocacy Model

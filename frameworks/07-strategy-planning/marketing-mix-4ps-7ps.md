@@ -7,6 +7,7 @@ use_when: "You need to check that product, price, place and promotion decisions 
 produces: "A one-page marketing mix that shows every lever set for one offer and segment."
 description: "The 4Ps and 7Ps marketing mix from McCarthy, Borden, and Booms and Bitner: a map of the levers a PMM sets for one product and segment."
 definition: "The Marketing Mix is a model of the controllable levers a company sets for one offer: McCarthy's 4Ps of product, price, place and promotion, extended by Booms and Bitner with people, process and physical evidence."
+updated: "2026-10-29"
 ---
 
 # Marketing Mix (4Ps and 7Ps)

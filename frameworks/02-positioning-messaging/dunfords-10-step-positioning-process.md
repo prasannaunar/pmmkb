@@ -7,6 +7,7 @@ use_when: "You need a research and workshop process to arrive at defensible posi
 produces: "A positioning decision grounded in best-fit customer evidence."
 description: "The step-by-step process from April Dunford's Obviously Awesome (2019) for reaching positioning, from finding who loves your product to validating the result."
 definition: "Dunford's 10-Step Positioning Process is the sequence of research, workshops and validation steps from April Dunford's Obviously Awesome (2019) for arriving at product positioning."
+updated: "2026-10-15"
 ---
 
 # Dunford's 10-Step Positioning Process

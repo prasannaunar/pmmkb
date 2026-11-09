@@ -7,6 +7,7 @@ use_when: "You need to test purchase intent at specific price points."
 produces: "A demand and revenue view across candidate prices."
 description: "A direct pricing research method that finds the revenue-maximising price by asking whether respondents would buy at a series of ascending price points."
 definition: "The Gabor-Granger Method is a pricing research method that finds the revenue-maximising price by asking respondents whether they would buy at a series of ascending price points."
+updated: "2026-10-15"
 ---
 
 # Gabor-Granger Method

@@ -7,6 +7,7 @@ use_when: "You need to match launch effort and coordination to the significance 
 produces: "A launch tier and a proportionate resourcing decision."
 description: "Sort every launch into Tier 1, 2 or 3 so the process, lead time and headcount you apply match its real scope instead of a default."
 definition: "The Launch Tier Framework is a classification model that sorts every launch into Tier 1, 2 or 3, so the process, lead time and headcount match the launch's real scope."
+updated: "2026-10-29"
 ---
 
 # Launch Tier Framework (Tier 1/2/3)

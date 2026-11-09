@@ -7,6 +7,7 @@ use_when: "Your PMM work stops at launch and needs to support the full customer 
 produces: "A lifecycle view of responsibilities and interventions."
 description: "Define product marketing's role across all seven customer lifecycle stages, from awareness to advocacy, rather than only launches and messaging."
 definition: "The PMM Lifecycle Management Framework is a methodology for defining product marketing's role at each stage of the customer lifecycle, from awareness and consideration through adoption, expansion and advocacy."
+updated: "2026-10-17"
 ---
 
 # PMM Lifecycle Management Framework

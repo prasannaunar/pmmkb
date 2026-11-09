@@ -78,6 +78,18 @@ for (const entry of entries) {
   );
   definitions.set(definition, filePath);
 }
+// Updated dates: the loader already requires a real YYYY-MM-DD date; a date
+// after today would give search engines a lastmod that has not happened yet.
+const today = new Date().toISOString().slice(0, 10);
+for (const { updated, filePath } of entries) {
+  assert.match(updated, /^\d{4}-\d{2}-\d{2}$/, `updated must be YYYY-MM-DD: ${filePath}`);
+  assert.equal(
+    new Date(`${updated}T00:00:00Z`).toISOString().slice(0, 10),
+    updated,
+    `updated is not a real calendar date (${updated}): ${filePath}`,
+  );
+  assert.ok(updated <= today, `updated is in the future (${updated}): ${filePath}`);
+}
 for (const entry of entries) {
   assert.ok(entry.useWhen && entry.produces, `Missing use_when/produces: ${entry.title}`);
   assert.ok(

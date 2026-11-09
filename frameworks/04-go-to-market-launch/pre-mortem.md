@@ -7,6 +7,7 @@ use_when: "You want to uncover likely failure points before committing to a laun
 produces: "A ranked list of risks, mitigations and owners."
 description: "Gary Klein's pre-mortem: imagine the launch has already failed, then work backwards to list the specific reasons while there is still time to act."
 definition: "A pre-mortem is a structured exercise, developed by psychologist Gary Klein, in which a team imagines an initiative has already failed and works backwards to find the specific reasons why."
+updated: "2026-10-19"
 ---
 
 # Pre-mortem
