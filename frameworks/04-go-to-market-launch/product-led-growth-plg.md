@@ -7,6 +7,7 @@ use_when: "Your product must help users experience value, qualify themselves and
 produces: "An activation and conversion approach for a product-led motion."
 description: "A go-to-market practice where the product itself acquires, converts and expands customers through a free trial or tier, popularised by Wes Bush (2019)."
 definition: "Product-Led Growth (PLG) is a go-to-market practice in which the product itself, rather than a sales conversation, acquires, converts and expands customers."
+updated: "2026-10-15"
 ---
 
 # Product-Led Growth (PLG)

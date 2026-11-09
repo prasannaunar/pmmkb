@@ -7,6 +7,7 @@ use_when: "You need to decide which of your existing customer segments deserves 
 produces: "A prioritised view of segment performance and opportunity."
 description: "Tamara Grominsky's three-stage method for deciding which of your existing customer segments deserve further investment, starting from data you already hold."
 definition: "The MAP Model is a three-stage method, developed by Tamara Grominsky, for ranking the customer segments you already sell to and deciding which deserve further investment."
+updated: "2026-10-15"
 ---
 
 # MAP Model (Measure, Analyze, Prioritize)

@@ -7,6 +7,7 @@ use_when: "You need to turn a raw product feature into a benefit a buyer underst
 produces: "A feature-to-outcome explanation."
 description: "Turn a raw product feature into buyer-ready language in three steps: the feature, the advantage it enables, and the benefit the buyer experiences."
 definition: "The Features-Advantages-Benefits (FAB) Ladder is a three-step technique that translates a product feature into what it makes possible and the outcome the buyer experiences."
+updated: "2026-10-15"
 ---
 
 # Features-Advantages-Benefits (FAB) Ladder

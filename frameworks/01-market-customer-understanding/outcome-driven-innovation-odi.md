@@ -7,6 +7,7 @@ use_when: "You need to know which customer outcomes are important but poorly sat
 produces: "A ranked list of underserved and overserved outcomes, with outcome-based segments to target and position against."
 description: "Tony Ulwick's method for scoring which customer outcomes are underserved or overserved, then segmenting buyers by their unmet needs."
 definition: "Outcome-Driven Innovation (ODI) is Tony Ulwick's method for rating customers' desired outcomes on importance and satisfaction to find which are underserved, and which segments share them."
+updated: "2026-10-19"
 ---
 
 # Outcome-Driven Innovation (ODI)

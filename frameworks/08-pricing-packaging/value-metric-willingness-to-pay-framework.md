@@ -7,6 +7,7 @@ use_when: "You need to decide what to charge for and how that unit relates to cu
 produces: "A candidate value metric and willingness-to-pay hypotheses."
 description: "A four-step method for setting a defensible price by tying it to the unit of value customers receive, such as API calls, transactions or storage used."
 definition: "The Value Metric / Willingness-to-Pay Framework is a four-step method for setting a defensible price tied to the unit of value a customer receives, such as transactions or API calls."
+updated: "2026-10-15"
 ---
 
 # Value Metric / Willingness-to-Pay Framework

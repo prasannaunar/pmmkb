@@ -7,6 +7,7 @@ use_when: "You need to adapt an established core message to different segments w
 produces: "Segment messages tied to specific buying triggers."
 description: "Diane Wiredu's method for adapting a locked core message to each segment or vertical, using the buying trigger that makes that segment ready to act now."
 definition: "Vertical/Segment Messaging via Buying Trigger is a method, developed by Diane Wiredu, for adapting a locked core message to each segment by leading with the event that makes that segment ready to buy."
+updated: "2026-10-15"
 ---
 
 # Vertical/Segment Messaging via Buying Trigger

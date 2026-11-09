@@ -7,6 +7,7 @@ use_when: "You need evidence for which acquisition channel deserves concentrated
 produces: "A prioritised channel selected through small experiments."
 description: "Gabriel Weinberg and Justin Mares' Traction method for finding the one marketing or distribution channel most likely to drive your growth."
 definition: "The Bullseye Framework is a method from Gabriel Weinberg and Justin Mares' book Traction (2015) for finding the single marketing or distribution channel that will drive growth."
+updated: "2026-10-15"
 ---
 
 # Bullseye Framework (Traction Channel Selection)

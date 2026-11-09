@@ -7,6 +7,7 @@ use_when: "Leadership is choosing where the next stage of growth should come fro
 produces: "A named growth direction with its risk level made explicit."
 description: "H. Igor Ansoff's 1957 product-market grid sorts growth options into penetration, market development, product development and diversification."
 definition: "The Ansoff Matrix is a two-by-two grid, introduced by H. Igor Ansoff in 1957, that sorts a company's growth options by whether the product and the market are existing or new."
+updated: "2026-10-15"
 ---
 
 # Ansoff Matrix

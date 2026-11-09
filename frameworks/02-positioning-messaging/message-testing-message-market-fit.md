@@ -7,6 +7,7 @@ use_when: "You need buyer evidence that a headline or draft message is clear, re
 produces: "A tested message and a record of buyer feedback."
 description: "Test headlines, hero sections and ads with verified target buyers before they ship, scoring each on clarity, relevance and differentiation."
 definition: "Message Testing is a repeatable practice for scoring draft messaging with verified target buyers on clarity, relevance and differentiation before it ships."
+updated: "2026-10-19"
 ---
 
 # Message Testing (Message-Market Fit)

@@ -7,6 +7,7 @@ use_when: "You need a repeatable way to connect customer sentiment to follow-up 
 produces: "A closed feedback loop with owners and actions."
 description: "Use NPS, CSAT and interviews to find promoters and detractors, learn why they score as they do, and close the loop in product, support, messaging or pricing."
 definition: "The Net Promoter Score (NPS) & Feedback Loop Framework is a way of pairing NPS scores with qualitative follow-up and a defined action for each group of respondents."
+updated: "2026-10-15"
 ---
 
 # Net Promoter Score (NPS) & Feedback Loop Framework

@@ -7,6 +7,7 @@ use_when: "Buyers see your offer and your rivals' as interchangeable, and you ne
 produces: "A value curve against rivals and an Eliminate-Reduce-Raise-Create plan for a sharper offer."
 description: "Chart your offer against rivals on every factor buyers weigh with Kim and Mauborgne's strategy canvas, then redesign it with the ERRC grid."
 definition: "The Strategy Canvas and ERRC Grid is a framework from W. Chan Kim and Renée Mauborgne that charts rival offers across the factors buyers weigh, then redesigns one by eliminating, reducing, raising and creating factors."
+updated: "2026-10-19"
 ---
 
 # Strategy Canvas and ERRC Grid

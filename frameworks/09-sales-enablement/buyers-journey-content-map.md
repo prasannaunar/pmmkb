@@ -7,6 +7,7 @@ use_when: "You need to connect sales and marketing content to the questions buye
 produces: "A map of content needs across the buying journey."
 description: "A grid that plots content against awareness, consideration, decision and post-sale stages, so you can see where content is strong, thin or missing."
 definition: "A Buyer's Journey Content Map is a grid that plots every piece of content against the stages a buyer moves through, showing where content is strong, thin or missing."
+updated: "2026-10-15"
 ---
 
 # Buyer's Journey Content Map

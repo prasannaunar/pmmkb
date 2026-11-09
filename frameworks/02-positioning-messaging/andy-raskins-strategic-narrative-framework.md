@@ -7,6 +7,7 @@ use_when: "You need a company narrative that explains a market shift and the sta
 produces: "A narrative arc for a pitch, keynote or strategic presentation."
 description: "Andy Raskin's five-move method for building a narrative that leads with a market shift rather than the product, for sales decks, keynotes and company stories."
 definition: "Andy Raskin's Strategic Narrative Framework is a method for building a company or category story that leads with a shift in the market rather than with the product."
+updated: "2026-10-15"
 ---
 
 # Andy Raskin's Strategic Narrative Framework

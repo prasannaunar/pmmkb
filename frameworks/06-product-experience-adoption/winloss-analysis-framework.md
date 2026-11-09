@@ -7,6 +7,7 @@ use_when: "You need buyer evidence of why deals are won or lost."
 produces: "A pattern of buying decisions that can inform positioning and enablement."
 description: "Interview the decision-makers behind won and lost deals to learn why customers choose you or a competitor, then feed the findings into positioning and product."
 definition: "Win/Loss Analysis is a systematic process of interviewing buyers after a decision to learn why they chose you or a competitor, and feeding the findings into positioning and product."
+updated: "2026-10-19"
 ---
 
 # Win/Loss Analysis Framework

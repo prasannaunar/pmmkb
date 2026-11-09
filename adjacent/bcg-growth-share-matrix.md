@@ -7,6 +7,7 @@ use_when: "Leadership is deciding where to invest, hold or cut across a portfoli
 produces: "A portfolio map that shows which products fund growth and which need a decision."
 description: "Bruce Henderson's 1970 BCG matrix sorts a product portfolio by market growth and relative share into stars, cash cows, question marks and dogs."
 definition: "The BCG Growth-Share Matrix is a portfolio model, popularised by Bruce Henderson of the Boston Consulting Group in 1970, that places each product by market growth and relative market share."
+updated: "2026-10-15"
 ---
 
 # BCG Growth-Share Matrix

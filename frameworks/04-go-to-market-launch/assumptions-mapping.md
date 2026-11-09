@@ -7,6 +7,7 @@ use_when: "A launch or new-segment plan rests on beliefs about buyers, messaging
 produces: "A ranked map of launch assumptions, with a test and a recorded decision for each risky one."
 description: "David J. Bland's Assumptions Mapping: rank a launch's beliefs by importance and evidence, then test the riskiest ones first with cheap experiments."
 definition: "Assumptions Mapping is a team exercise from David J. Bland that plots an idea's assumptions by importance and evidence, so the team tests the important, unproven ones first."
+updated: "2026-10-29"
 ---
 
 # Assumptions Mapping

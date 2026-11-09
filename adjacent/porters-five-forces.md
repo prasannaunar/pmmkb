@@ -7,6 +7,7 @@ use_when: "You need to judge how attractive and profitable a market is before en
 produces: "A structured read of a market's profit potential and the forces that threaten it."
 description: "Michael Porter's model rates a market's profitability through five forces: rivalry, new entrants, substitutes, buyer power and supplier power."
 definition: "Porter's Five Forces is a model, introduced by Michael Porter in 1979, for judging how much profit a market lets its companies keep by examining five competitive forces."
+updated: "2026-10-15"
 ---
 
 # Porter's Five Forces

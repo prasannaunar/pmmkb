@@ -7,6 +7,7 @@ use_when: "You need to clarify the relationship between go-to-market strategy an
 produces: "A shared understanding of scope, responsibilities and how the work connects."
 description: "GTM strategy is the company-wide plan for winning customers; product marketing is one function that drives parts of it. Learn where the two differ."
 definition: "GTM strategy is the company-wide plan for how a product reaches, wins and keeps customers; product marketing is one function that contributes to that plan and frequently orchestrates it."
+updated: "2026-10-17"
 ---
 
 # GTM Strategy vs Product Marketing
