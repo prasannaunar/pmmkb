@@ -792,10 +792,10 @@ h3 {
 }
 .footer-nav {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr) minmax(0, 1.4fr);
   gap: 2rem;
   flex: 1;
-  max-width: 34rem;
+  max-width: 52rem;
 }
 .footer-heading {
   font-weight: 600;
@@ -858,6 +858,16 @@ h3 {
   .footer-nav {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+}
+/* Three link columns need the full width below desktop: stack the footer's
+   blocks so the columns are not squeezed beside the title. */
+@media (max-width: 1000px) {
+  .site-footer {
+    flex-direction: column;
+  }
+  .footer-nav {
+    max-width: none;
   }
 }
 .footer-title {

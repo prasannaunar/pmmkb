@@ -9,6 +9,7 @@ import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import { TYPE_SLUGS, getAllCategories } from "@/lib/content";
 import { cleanTitle } from "@/lib/editorial";
 import { pluralType } from "@/lib/plural";
+import { challenges } from "@/lib/guides";
 import "./globals.css";
 
 const merriweather = Merriweather({
@@ -104,8 +105,18 @@ export default function RootLayout({
                     <Link href={`/type/${slug}`}>{pluralType(type, 2)}</Link>
                   </li>
                 ))}
+              </ul>
+            </div>
+            <div>
+              <p className="footer-heading">Challenges</p>
+              <ul>
+                {challenges.map((g) => (
+                  <li key={g.slug}>
+                    <Link href={`/challenges/${g.slug}`}>{g.title}</Link>
+                  </li>
+                ))}
                 <li>
-                  <Link href="/challenges">Challenges</Link>
+                  <Link href="/challenges">All challenges</Link>
                 </li>
               </ul>
             </div>
